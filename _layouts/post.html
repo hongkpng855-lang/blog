@@ -10,16 +10,16 @@ layout: default
           <h1 class="card-title">{{ page.title }}</h1>
           <p class="text-muted">
             {{ page.date | date: "%Y-%m-%d" }}
-            {% raw %}{% if page.categories.size > 0 %}{% endraw %}
+            {% if page.categories.size > 0 %}
             • 
-            {% raw %}{% for category in page.categories %}{% endraw %}
+            {% for category in page.categories %}
               <a href="{{ '/categories/' | append: category | relative_url }}" class="text-decoration-none">{{ category }}</a>
-              {% raw %}{% unless forloop.last %}, {% endunless %}{% endraw %}
-            {% raw %}{% endfor %}{% endraw %}
-            {% raw %}{% endif %}{% endraw %}
-            {% raw %}{% if page.comments_count %}{% endraw %}
+              {% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+            {% endif %}
+            {% if page.comments_count %}
             • <span>{{ page.comments_count }} 評論</span>
-            {% raw %}{% endif %}{% endraw %}
+            {% endif %}
           </p>
           
           <div class="article-content">
@@ -27,14 +27,14 @@ layout: default
           </div>
           
           <!-- 標籤 -->
-          {% raw %}{% if page.tags.size > 0 %}{% endraw %}
+          {% if page.tags.size > 0 %}
           <div class="mt-4">
             <h5>標籤:</h5>
-            {% raw %}{% for tag in page.tags %}{% endraw %}
+            {% for tag in page.tags %}
               <a href="{{ '/tags/' | append: tag | relative_url }}" class="badge bg-secondary text-decoration-none text-light me-1">{{ tag }}</a>
-            {% raw %}{% endfor %}{% endraw %}
+            {% endfor %}
           </div>
-          {% raw %}{% endif %}{% endraw %}
+          {% endif %}
           
           <!-- 分享按鈕 -->
           <div class="mt-4">
@@ -57,7 +57,7 @@ layout: default
     </div>
     
     <div class="col-md-4">
-      {% raw %}{% include sidebar.html %}{% endraw %}
+      {% include sidebar.html %}
     </div>
   </div>
 </div>
