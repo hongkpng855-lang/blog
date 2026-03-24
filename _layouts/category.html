@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <h1 class="mb-4">{{ page.title }}</h1>
+      
+      <div class="post-list">
+        {% raw %}{% for post in site.categories[page.category] %}{% endraw %}
+          <div class="card mb-4">
+            <div class="card-body">
+              <h2 class="card-title">
+                <a href="{{ post.url | relative_url }}" class="text-decoration-none">{{ post.title }}</a>
+              </h2>
+              <p class="card-text text-muted">
+                {{ post.date | date: "%Y-%m-%d" }}
+                {% raw %}{% if post.comments_count %}{% endraw %}
+                • <span>{{ post.comments_count }} 評論</span>
+                {% raw %}{% endif %}{% endraw %}
+              </p>
+              <p class="card-text">{{ post.excerpt }}</p>
+              <a href="{{ post.url | relative_url }}" class="btn btn-primary">閱讀更多</a>
+            </div>
+          </div>
+        {% raw %}{% endfor %}{% endraw %}
+      </div>
+    </div>
+    
+    <div class="col-md-4">
+      {% raw %}{% include sidebar.html %}{% endraw %}
+    </div>
+  </div>
+</div>

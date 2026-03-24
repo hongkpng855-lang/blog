@@ -1,0 +1,40 @@
+# 網站設定
+title: 我的部落格
+description: 分享知識與見解的個人空間
+baseurl: "/blog"
+url: "https://hongkpng855-lang.github.io"
+
+# 建構設定
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
+paginate: 5
+paginate_path: "/page/:num/"
+
+# 插件
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# 默認配置
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "站長"
+      comments: true
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# 排除文件
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE

@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <article class="card mb-4">
+        <div class="card-body">
+          <h1 class="card-title">{{ page.title }}</h1>
+          <p class="text-muted">
+            {{ page.date | date: "%Y-%m-%d" }}
+            {% raw %}{% if page.categories.size > 0 %}{% endraw %}
+            • 
+            {% raw %}{% for category in page.categories %}{% endraw %}
+              <a href="{{ '/categories/' | append: category | relative_url }}" class="text-decoration-none">{{ category }}</a>
+              {% raw %}{% unless forloop.last %}, {% endunless %}{% endraw %}
+            {% raw %}{% endfor %}{% endraw %}
+            {% raw %}{% endif %}{% endraw %}
+            {% raw %}{% if page.comments_count %}{% endraw %}
+            • <span>{{ page.comments_count }} 評論</span>
+            {% raw %}{% endif %}{% endraw %}
+          </p>
+          
+          <div class="article-content">
+            {{ content }}
+          </div>
+          
+          <!-- 標籤 -->
+          {% raw %}{% if page.tags.size > 0 %}{% endraw %}
+          <div class="mt-4">
+            <h5>標籤:</h5>
+            {% raw %}{% for tag in page.tags %}{% endraw %}
+              <a href="{{ '/tags/' | append: tag | relative_url }}" class="badge bg-secondary text-decoration-none text-light me-1">{{ tag }}</a>
+            {% raw %}{% endfor %}{% endraw %}
+          </div>
+          {% raw %}{% endif %}{% endraw %}
+          
+          <!-- 分享按鈕 -->
+          <div class="mt-4">
+            <h5>分享:</h5>
+            <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}" target="_blank" class="btn btn-sm btn-primary me-2">Facebook</a>
+            <a href="https://twitter.com/intent/tweet?url={{ page.url | absolute_url }}&text={{ page.title }}" target="_blank" class="btn btn-sm btn-info me-2">Twitter</a>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url }}&title={{ page.title }}" target="_blank" class="btn btn-sm btn-secondary">LinkedIn</a>
+          </div>
+        </div>
+      </article>
+      
+      <!-- 評論區 -->
+      <div class="card mb-4">
+        <div class="card-body">
+          <h4 class="card-title">評論</h4>
+          <!-- 這裡可以添加您的評論系統代碼，如 Disqus 等 -->
+          <div id="disqus_thread"></div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-4">
+      {% raw %}{% include sidebar.html %}{% endraw %}
+    </div>
+  </div>
+</div>

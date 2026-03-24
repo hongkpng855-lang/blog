@@ -1,0 +1,111 @@
+---
+layout: default
+title: 首頁
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <div class="mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">頂部橫幅廣告位置</h5>
+            <!-- 這裡可以放置您的廣告代碼 -->
+          </div>
+        </div>
+      </div>
+
+      <!-- 文章列表 -->
+      {% raw %}{% for post in paginator.posts %}{% endraw %}
+      <div class="card mb-4">
+        <div class="card-body">
+          <h2 class="card-title">
+            <a href="{{ post.url | relative_url }}" class="text-decoration-none">{{ post.title }}</a>
+          </h2>
+          <p class="card-text text-muted">
+            {{ post.date | date: "%Y-%m-%d" }}
+            {% raw %}{% if post.categories.size > 0 %}{% endraw %}
+            • 
+            {% raw %}{% for category in post.categories %}{% endraw %}
+              <a href="{{ '/categories/' | append: category | relative_url }}" class="text-decoration-none">{{ category }}</a>
+              {% raw %}{% unless forloop.last %}, {% endunless %}{% endraw %}
+            {% raw %}{% endfor %}{% endraw %}
+            {% raw %}{% endif %}{% endraw %}
+            {% raw %}{% if post.comments_count %}{% endraw %}
+            • <span>{{ post.comments_count }} 評論</span>
+            {% raw %}{% endif %}{% endraw %}
+          </p>
+          <p class="card-text">{{ post.excerpt }}</p>
+          <a href="{{ post.url | relative_url }}" class="btn btn-primary">閱讀更多</a>
+        </div>
+      </div>
+
+      {% raw %}{% if forloop.index == 3 %}{% endraw %}
+      <div class="mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">文章列表中間廣告位置</h5>
+            <!-- 這裡可以放置您的廣告代碼 -->
+          </div>
+        </div>
+      </div>
+      {% raw %}{% endif %}{% endraw %}
+      {% raw %}{% endfor %}{% endraw %}
+
+      <!-- 分頁 -->
+      {% raw %}{% if paginator.total_pages > 1 %}{% endraw %}
+      <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-center">
+          {% raw %}{% if paginator.previous_page %}{% endraw %}
+          <li class="page-item">
+            <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}" aria-label="上一頁">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          {% raw %}{% else %}{% endraw %}
+          <li class="page-item disabled">
+            <a class="page-link" href="#" aria-label="上一頁">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          {% raw %}{% endif %}{% endraw %}
+
+          {% raw %}{% for page in (1..paginator.total_pages) %}{% endraw %}
+            {% raw %}{% if page == paginator.page %}{% endraw %}
+            <li class="page-item active">
+              <a class="page-link" href="#">{{ page }}</a>
+            </li>
+            {% raw %}{% else %}{% endraw %}
+            <li class="page-item">
+              {% raw %}{% if page == 1 %}{% endraw %}
+              <a class="page-link" href="{{ '/' | relative_url }}">{{ page }}</a>
+              {% raw %}{% else %}{% endraw %}
+              <a class="page-link" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+              {% raw %}{% endif %}{% endraw %}
+            </li>
+            {% raw %}{% endif %}{% endraw %}
+          {% raw %}{% endfor %}{% endraw %}
+
+          {% raw %}{% if paginator.next_page %}{% endraw %}
+          <li class="page-item">
+            <a class="page-link" href="{{ paginator.next_page_path | relative_url }}" aria-label="下一頁">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+          {% raw %}{% else %}{% endraw %}
+          <li class="page-item disabled">
+            <a class="page-link" href="#" aria-label="下一頁">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+          {% raw %}{% endif %}{% endraw %}
+        </ul>
+      </nav>
+      {% raw %}{% endif %}{% endraw %}
+    </div>
+
+    <div class="col-md-4">
+      {% raw %}{% include sidebar.html %}{% endraw %}
+    </div>
+  </div>
+</div>

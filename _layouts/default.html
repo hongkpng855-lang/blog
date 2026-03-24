@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  {% raw %}{% include head.html %}{% endraw %}
+</head>
+<body>
+  {% raw %}{% include header.html %}{% endraw %}
+  
+  <main class="py-4">
+    {{ content }}
+  </main>
+  
+  {% raw %}{% include footer.html %}{% endraw %}
+  
+  <!-- Bootstrap JS 和相關依賴 -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
