@@ -4,11 +4,6 @@ description: 分享知識與見解的個人空間
 baseurl: "/blog"
 url: "https://hongkpng855-lang.github.io"
 
-# 作者信息
-author:
-  name: 您的名字
-  email: your-email@example.com
-
 # SEO 設定
 twitter:
   username: yourtwitterhandle
