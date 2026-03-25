@@ -1,0 +1,25 @@
+<!-- 社交媒體分享按鈕 -->
+<div class="share-buttons mt-4 mb-4">
+  <span class="me-2"><strong>分享到：</strong></span>
+  <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}" 
+     class="btn btn-facebook btn-sm" 
+     target="_blank" 
+     rel="noopener noreferrer"
+     title="分享到 Facebook">
+    <i class="fab fa-facebook-f"></i> Facebook
+  </a>
+  <a href="https://twitter.com/intent/tweet?url={{ page.url | absolute_url }}&text={{ page.title | url_encode }}" 
+     class="btn btn-twitter btn-sm" 
+     target="_blank" 
+     rel="noopener noreferrer"
+     title="分享到 Twitter">
+    <i class="fab fa-twitter"></i> Twitter
+  </a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url }}&title={{ page.title | url_encode }}" 
+     class="btn btn-linkedin btn-sm" 
+     target="_blank" 
+     rel="noopener noreferrer"
+     title="分享到 LinkedIn">
+    <i class="fab fa-linkedin-in"></i> LinkedIn
+  </a>
+</div>
