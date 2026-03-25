@@ -4,7 +4,7 @@ layout: default
 
 <div class="container">
 <!-- 置頂文章 -->
-{% assign featured_post = site.posts.first %}
+{% assign featured_post = site.posts | first %}
 <div class="row mb-4">
 <div class="col-12">
 <div class="card featured-post">
@@ -42,7 +42,7 @@ layout: default
 <div class="col-lg-8">
 {% assign shown_count = 0 %}
 {% for post in paginator.posts %}
-{% if post.url == featured_post.url %}
+{% if forloop.first %}
 {% continue %}
 {% endif %}
 {% assign shown_count = shown_count | plus: 1 %}
