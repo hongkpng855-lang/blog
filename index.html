@@ -13,11 +13,11 @@ layout: default
 <div class="col-md-4 d-flex align-items-center">
 {% if featured_post.image %}
 <a href="{{ featured_post.url | relative_url }}" class="w-100">
-<img src="{{ featured_post.image | relative_url }}" alt="{{ featured_post.title }}" class="img-fluid rounded mb-3" style="max-height: 200px; width: 100%; object-fit: cover;">
+<img src="{{ featured_post.image | relative_url }}" alt="{{ featured_post.title }}" class="img-fluid rounded-start" style="max-height: 200px; width: 100%; object-fit: cover;">
 </a>
 {% else %}
 <a href="{{ featured_post.url | relative_url }}" class="w-100">
-<img src="{{ '/assets/images/default-post.jpg' | relative_url }}" alt="{{ featured_post.title }}" class="img-fluid rounded mb-3" style="max-height: 200px; width: 100%; object-fit: cover;">
+<img src="{{ '/assets/images/default-post.jpg' | relative_url }}" alt="{{ featured_post.title }}" class="img-fluid rounded-start" style="max-height: 200px; width: 100%; object-fit: cover;">
 </a>
 {% endif %}
 </div>
