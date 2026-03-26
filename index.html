@@ -61,9 +61,9 @@ layout: default
 <article class="card mb-4 post-card">
 <div class="row g-0">
 {% if post.image %}
-<div class="col-md-4">
-<a href="{{ post.url | relative_url }}">
-<img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="img-fluid rounded-start h-100" style="object-fit: cover;">
+<div class="col-md-4 d-flex align-items-center">
+<a href="{{ post.url | relative_url }}" class="w-100">
+<img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="img-fluid rounded-start" style="max-height: 200px; width: 100%; object-fit: cover;">
 </a>
 </div>
 <div class="col-md-8">
