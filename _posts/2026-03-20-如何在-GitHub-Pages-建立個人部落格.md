@@ -3,7 +3,7 @@ layout: post
 title: "如何在 GitHub Pages 建立個人部落格"
 date: 2026-03-20
 categories: 技術
-image: /assets/images/posts/2026-03-20-github-pages-blog-cover.svg
+image: /assets/images/posts/2026-03-20-github-pages-blog-cover.webp
 tags: [GitHub, Jekyll, 教學, 網頁開發]
 comments_count: 5
 ---
