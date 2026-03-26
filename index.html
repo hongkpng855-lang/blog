@@ -59,6 +59,17 @@ layout: default
 </div>
 {% endif %}
 <article class="card mb-4 post-card">
+<div class="row g-0">
+{% if post.image %}
+<div class="col-md-4">
+<a href="{{ post.url | relative_url }}">
+<img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="img-fluid rounded-start h-100" style="object-fit: cover;">
+</a>
+</div>
+<div class="col-md-8">
+{% else %}
+<div class="col-12">
+{% endif %}
 <div class="card-body">
 {% if post.categories %}
 <span class="badge bg-primary mb-2">{{ post.categories.first }}</span>
@@ -74,6 +85,8 @@ layout: default
 </p>
 <p class="card-text">{{ post.excerpt | strip_html | truncate: 150 }}</p>
 <a href="{{ post.url | relative_url }}" class="btn btn-outline-primary btn-sm">閱讀更多</a>
+</div>
+</div>
 </div>
 </article>
 {% endfor %}
