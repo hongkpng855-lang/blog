@@ -5,13 +5,16 @@ layout: default
 <!-- 置頂文章區域 -->
 <section class="featured-post mb-5">
   <div class="container">
-    {% assign featured = site.posts.first %}
+    {% assign sorted_posts = site.posts | sort: 'updated' | reverse %}
+    {% assign featured = sorted_posts.first %}
     {% if featured %}
     <div class="card border-0 shadow-lg">
       <div class="row g-0">
         <div class="col-md-5">
           {% if featured.image %}
-          <img src="{{ featured.image | relative_url }}" class="img-fluid rounded-start h-100" alt="{{ featured.title }}" style="object-fit: cover;">
+          <div class="card-body p-0">
+            <img src="{{ featured.image | relative_url }}" class="img-fluid rounded-start w-100" alt="{{ featured.title }}" style="object-fit: cover; max-height: 300px;">
+          </div>
           {% else %}
           <div class="h-100 d-flex align-items-center justify-content-center bg-light">
             <i class="fas fa-image fa-3x text-muted"></i>
@@ -32,8 +35,8 @@ layout: default
             </h2>
             <p class="card-text text-muted">{{ featured.excerpt | strip_html | truncatewords: 30 }}</p>
             <div class="d-flex align-items-center text-muted small">
-              <i class="fas fa-calendar me-2"></i>
-              <span>{{ featured.date | date: "%Y-%m-%d" }}</span>
+              <i class="fas fa-clock me-2"></i>
+              <span>更新於 {{ featured.updated | date: "%Y-%m-%d %H:%M" }}</span>
               <span class="mx-2">•</span>
               <i class="fas fa-user me-2"></i>
               <span>{{ featured.author | default: site.author }}</span>
@@ -55,14 +58,15 @@ layout: default
         <h4 class="mb-4">
           <i class="fas fa-newspaper me-2"></i>最新文章
         </h4>
-        
         <div class="row">
-          {% for post in site.posts offset:1 limit:6 %}
+          {% for post in sorted_posts offset:1 limit:6 %}
           <div class="col-md-6 mb-4">
             <article class="card h-100 border-0 shadow-sm post-card">
               <div class="position-relative" style="height: 180px; overflow: hidden;">
                 {% if post.image %}
-                <img src="{{ post.image | relative_url }}" class="card-img-top" alt="{{ post.title }}" style="width: 100%; height: 100%; object-fit: cover;">
+                <div class="card-body p-0">
+                  <img src="{{ post.image | relative_url }}" class="card-img-top" alt="{{ post.title }}" style="width: 100%; height: 180px; object-fit: cover;">
+                </div>
                 {% else %}
                 <div class="card-img-top h-100 d-flex align-items-center justify-content-center bg-light">
                   <i class="fas fa-image fa-2x text-muted"></i>
@@ -83,8 +87,8 @@ layout: default
                 <p class="card-text small text-muted">{{ post.excerpt | strip_html | truncatewords: 15 }}</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <small class="text-muted">
-                    <i class="fas fa-calendar me-1"></i>
-                    {{ post.date | date: "%Y-%m-%d" }}
+                    <i class="fas fa-clock me-1"></i>
+                    {{ post.updated | date: "%Y-%m-%d" }}
                   </small>
                   <a href="{{ post.url | relative_url }}" class="btn btn-sm btn-outline-primary">
                     閱讀更多

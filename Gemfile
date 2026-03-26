@@ -1,8 +1,8 @@
 source "https://rubygems.org"
-
 gem "jekyll", "~> 4.2.0"
 gem "jekyll-paginate"
 gem "jekyll-sitemap"
+gem "jekyll-last-modified-at"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 platforms :mingw, :x64_mingw, :mswin, :jruby do
