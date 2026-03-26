@@ -8,7 +8,9 @@ tags: [GitHub, Jekyll, 教學, 網頁開發]
 comments_count: 5
 ---
 
-GitHub Pages 是一個非常方便的靜態網站託管服務，您可以免費將您的網站部署在 GitHub 上。在本文中，我們將詳細介紹如何從零開始建立一個個人部落格，並將其部署到 GitHub Pages 上。
+想擁有自己的部落格卻不想花錢？GitHub Pages 讓你免費建立專屬網站，這篇教你從零開始架設！
+
+GitHub Pages 是一個非常方便的靜態網站託管服務，您可以免費將您的網站部署在 GitHub 上。
 
 ## 什麼是 GitHub Pages？
 
