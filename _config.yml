@@ -17,12 +17,19 @@ disqus:
 # 建構設定
 markdown: kramdown
 permalink: /:categories/:year/:month/:day/:title/
-paginate: 6
-paginate_path: "/page/:num/"
+# 分頁設定 (jekyll-paginate-v2)
+pagination:
+  enabled: true
+  per_page: 6
+  permalink: '/page/:num/'
+  title: '(:num) - 我的部落格'
+  limit: 0
+  sort_field: 'updated'
+  sort_reverse: true
 
 # 插件
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
