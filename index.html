@@ -10,14 +10,18 @@ layout: default
 <div class="card featured-post">
 <div class="card-body">
 <div class="row">
-<div class="col-md-6 d-flex align-items-center">
+<div class="col-md-4 d-flex align-items-center">
 {% if featured_post.image %}
+<a href="{{ featured_post.url | relative_url }}" class="w-100">
 <img src="{{ featured_post.image | relative_url }}" alt="{{ featured_post.title }}" class="img-fluid rounded mb-3" style="max-height: 200px; width: 100%; object-fit: cover;">
+</a>
 {% else %}
+<a href="{{ featured_post.url | relative_url }}" class="w-100">
 <img src="{{ '/assets/images/default-post.jpg' | relative_url }}" alt="{{ featured_post.title }}" class="img-fluid rounded mb-3" style="max-height: 200px; width: 100%; object-fit: cover;">
+</a>
 {% endif %}
 </div>
-<div class="col-md-6">
+<div class="col-md-8">
 <span class="badge bg-primary mb-2">{{ featured_post.categories.first }}</span>
 <h2 class="card-title">
 <a href="{{ featured_post.url | relative_url }}" class="text-decoration-none">{{ featured_post.title }}</a>
