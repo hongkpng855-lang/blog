@@ -1,13 +1,11 @@
 ---
 layout: default
-pagination:
-  enabled: true
 ---
 
 <!-- 置頂文章區域 -->
 <section class="featured-post mb-5">
   <div class="container">
-    {% assign featured = site.posts | sort: 'updated' | reverse | first %}
+    {% assign featured = site.posts | first %}
     {% if featured %}
     <div class="card border-0 shadow-lg">
       <div class="row g-0">
@@ -37,7 +35,7 @@ pagination:
             <p class="card-text text-muted">{{ featured.excerpt | strip_html | truncatewords: 30 }}</p>
             <div class="d-flex align-items-center text-muted small">
               <i class="fas fa-clock me-2"></i>
-              <span>更新於 {{ featured.updated | date: "%Y-%m-%d %H:%M" }}</span>
+              <span>{{ featured.date | date: "%Y-%m-%d" }}</span>
               <span class="mx-2">•</span>
               <i class="fas fa-user me-2"></i>
               <span>{{ featured.author | default: site.author }}</span>
@@ -89,7 +87,7 @@ pagination:
                 <div class="d-flex justify-content-between align-items-center">
                   <small class="text-muted">
                     <i class="fas fa-clock me-1"></i>
-                    {{ post.updated | date: "%Y-%m-%d" }}
+                    {{ post.date | date: "%Y-%m-%d" }}
                   </small>
                   <a href="{{ post.url | relative_url }}" class="btn btn-sm btn-outline-primary">
                     閱讀更多
@@ -128,7 +126,7 @@ pagination:
               </li>
               {% else %}
               <li class="page-item">
-                <a class="page-link" href="{{ site.baseurl }}/page/{{ page }}/">{{ page }}</a>
+                <a class="page-link" href="{{ site.baseurl }}/page{{ page }}/">{{ page }}</a>
               </li>
               {% endif %}
             {% endfor %}
