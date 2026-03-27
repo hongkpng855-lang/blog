@@ -32,7 +32,7 @@ layout: default
                 {{ featured.title }}
               </a>
             </h2>
-            <p class="card-text text-muted">{{ featured.excerpt | strip_html | truncatewords: 30 }}</p>
+            <p class="card-text text-muted">{{ featured.description | default: featured.excerpt | strip_html | truncatewords: 30 }}</p>
             <div class="d-flex align-items-center text-muted small">
               <i class="fas fa-clock me-2"></i>
               <span>{{ featured.date | date: "%Y-%m-%d" }}</span>
@@ -83,7 +83,7 @@ layout: default
                     {{ post.title }}
                   </a>
                 </h5>
-                <p class="card-text small text-muted">{{ post.excerpt | strip_html | truncatewords: 15 }}</p>
+                <p class="card-text small text-muted">{{ post.description | default: post.excerpt | strip_html | truncatewords: 15 }}</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <small class="text-muted">
                     <i class="fas fa-clock me-1"></i>
