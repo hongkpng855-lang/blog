@@ -1,12 +1,12 @@
 # 網站基本設定
-title: 我的部落格
-description: 分享知識與見解的個人空間
+title: 雨晨的理財筆記
+description: 一個分享投資理財知識與生活心得的個人空間
 baseurl: "/blog"
 url: "https://hongkpng855-lang.github.io"
 
 # SEO 設定
 twitter:
-  username: yourtwitterhandle
+  username: yuchen_invests
   card: summary_large_image
 
 # 分析與追蹤
