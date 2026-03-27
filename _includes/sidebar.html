@@ -1,18 +1,13 @@
 <!-- 關於我 -->
 <div class="card mb-4">
-  <div class="card-header bg-primary text-white">
-    <i class="fas fa-user me-2"></i>關於我
-  </div>
-  <div class="card-body text-center">
-    <img src="{{ '/assets/images/avatar.jpg' | relative_url }}" 
-         alt="作者頭像" 
-         class="rounded-circle mb-3" 
-         width="100" 
-         height="100"
-         style="object-fit: cover;">
-    <p class="card-text">熱愛科技、投資和生活品質的提升。</p>
-    <a href="{{ '/about/' | relative_url }}" class="btn btn-outline-primary btn-sm">了解更多</a>
-  </div>
+ <div class="card-header bg-primary text-white">
+ <i class="fas fa-user me-2"></i>關於我
+ </div>
+ <div class="card-body text-center">
+ <img src="{{ '/assets/images/avatar.jpg' | relative_url }}" alt="作者頭像" class="rounded-circle mb-3" width="100" height="100" style="object-fit: cover;">
+ <p class="card-text">熱愛科技、投資和生活品質的提升。</p>
+ <a href="{{ '/about/' | relative_url }}" class="btn btn-outline-primary btn-sm">了解更多</a>
+ </div>
 </div>
 
 <!-- 社交媒體關注 -->
@@ -20,73 +15,78 @@
 
 <!-- 分類 -->
 <div class="card mb-4">
-  <div class="card-header bg-primary text-white">
-    <i class="fas fa-folder me-2"></i>文章分類
-  </div>
-  <div class="card-body">
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item d-flex justify-content-between align-items-center">
-        <a href="{{ '/categories/技術/' | relative_url }}" class="text-decoration-none">技術</a>
-        <span class="badge bg-primary rounded-pill">{{ site.categories.技術 | size }}</span>
-      </li>
-      <li class="list-group-item d-flex justify-content-between align-items-center">
-        <a href="{{ '/categories/投資/' | relative_url }}" class="text-decoration-none">投資</a>
-        <span class="badge bg-primary rounded-pill">{{ site.categories.投資 | size }}</span>
-      </li>
-      <li class="list-group-item d-flex justify-content-between align-items-center">
-        <a href="{{ '/categories/生活/' | relative_url }}" class="text-decoration-none">生活</a>
-        <span class="badge bg-primary rounded-pill">{{ site.categories.生活 | size }}</span>
-      </li>
-      <li class="list-group-item d-flex justify-content-between align-items-center">
-        <a href="{{ '/categories/健康/' | relative_url }}" class="text-decoration-none">健康</a>
-        <span class="badge bg-primary rounded-pill">{{ site.categories.健康 | size }}</span>
-      </li>
-      <li class="list-group-item d-flex justify-content-between align-items-center">
-        <a href="{{ '/categories/學習/' | relative_url }}" class="text-decoration-none">學習</a>
-        <span class="badge bg-primary rounded-pill">{{ site.categories.學習 | size }}</span>
-      </li>
-    </ul>
-  </div>
+ <div class="card-header bg-primary text-white">
+ <i class="fas fa-folder me-2"></i>文章分類
+ </div>
+ <div class="card-body">
+ <ul class="list-group list-group-flush">
+ {% assign tech_posts = site.posts | where_exp: "post", "post.categories contains '技術'" %}
+ <li class="list-group-item d-flex justify-content-between align-items-center">
+ <a href="{{ '/categories/技術/' | relative_url }}" class="text-decoration-none">技術</a>
+ <span class="badge bg-primary rounded-pill">{{ tech_posts | size }}</span>
+ </li>
+ {% assign invest_posts = site.posts | where_exp: "post", "post.categories contains '投資'" %}
+ <li class="list-group-item d-flex justify-content-between align-items-center">
+ <a href="{{ '/categories/投資/' | relative_url }}" class="text-decoration-none">投資</a>
+ <span class="badge bg-primary rounded-pill">{{ invest_posts | size }}</span>
+ </li>
+ {% assign life_posts = site.posts | where_exp: "post", "post.categories contains '生活'" %}
+ <li class="list-group-item d-flex justify-content-between align-items-center">
+ <a href="{{ '/categories/生活/' | relative_url }}" class="text-decoration-none">生活</a>
+ <span class="badge bg-primary rounded-pill">{{ life_posts | size }}</span>
+ </li>
+ {% assign health_posts = site.posts | where_exp: "post", "post.categories contains '健康'" %}
+ <li class="list-group-item d-flex justify-content-between align-items-center">
+ <a href="{{ '/categories/健康/' | relative_url }}" class="text-decoration-none">健康</a>
+ <span class="badge bg-primary rounded-pill">{{ health_posts | size }}</span>
+ </li>
+ {% assign learn_posts = site.posts | where_exp: "post", "post.categories contains '學習'" %}
+ <li class="list-group-item d-flex justify-content-between align-items-center">
+ <a href="{{ '/categories/學習/' | relative_url }}" class="text-decoration-none">學習</a>
+ <span class="badge bg-primary rounded-pill">{{ learn_posts | size }}</span>
+ </li>
+ </ul>
+ </div>
 </div>
 
 <!-- 最新文章 -->
 <div class="card mb-4">
-  <div class="card-header bg-primary text-white">
-    <i class="fas fa-clock me-2"></i>最新文章
-  </div>
-  <div class="card-body">
-    <ul class="list-unstyled mb-0">
-      {% for post in site.posts limit:5 %}
-      <li class="mb-2 pb-2 border-bottom">
-        <a href="{{ post.url | relative_url }}" class="text-decoration-none">
-          <i class="fas fa-angle-right text-primary me-1"></i>{{ post.title }}
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
+ <div class="card-header bg-primary text-white">
+ <i class="fas fa-clock me-2"></i>最新文章
+ </div>
+ <div class="card-body">
+ <ul class="list-unstyled mb-0">
+ {% for post in site.posts limit:5 %}
+ <li class="mb-2 pb-2 border-bottom">
+ <a href="{{ post.url | relative_url }}" class="text-decoration-none">
+ <i class="fas fa-angle-right text-primary me-1"></i>{{ post.title }}
+ </a>
+ </li>
+ {% endfor %}
+ </ul>
+ </div>
 </div>
 
 <!-- 熱門標籤 -->
 <div class="card mb-4">
-  <div class="card-header bg-primary text-white">
-    <i class="fas fa-tags me-2"></i>熱門標籤
-  </div>
-  <div class="card-body">
-    <div class="d-flex flex-wrap gap-1">
-      {% for tag in site.tags limit:10 %}
-        <a href="{{ '/tags/' | append: tag[0] | relative_url }}" class="tag-item">{{ tag[0] }}</a>
-      {% endfor %}
-    </div>
-  </div>
+ <div class="card-header bg-primary text-white">
+ <i class="fas fa-tags me-2"></i>熱門標籤
+ </div>
+ <div class="card-body">
+ <div class="d-flex flex-wrap gap-1">
+ {% for tag in site.tags limit:10 %}
+ <a href="{{ '/tags/' | append: tag[0] | relative_url }}" class="tag-item">{{ tag[0] }}</a>
+ {% endfor %}
+ </div>
+ </div>
 </div>
 
 <!-- 廣告位置 -->
 <div class="card mb-4 ad-card">
-  <div class="card-body text-center">
-    <small class="text-muted">廣告位置</small>
-    <div class="ad-content d-flex align-items-center justify-content-center">
-      <span class="text-muted">您的廣告代碼</span>
-    </div>
-  </div>
+ <div class="card-body text-center">
+ <small class="text-muted">廣告位置</small>
+ <div class="ad-content d-flex align-items-center justify-content-center">
+ <span class="text-muted">您的廣告代碼</span>
+ </div>
+ </div>
 </div>
