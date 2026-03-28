@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a365d"/>
+      <stop offset="100%" style="stop-color:#2d5a87"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f6ad55"/>
+      <stop offset="100%" style="stop-color:#ed8936"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#68d391"/>
+      <stop offset="100%" style="stop-color:#38a169"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="80" cy="80" r="60" fill="#2d5a87" opacity="0.5"/>
+  <circle cx="432" cy="432" r="80" fill="#2d5a87" opacity="0.5"/>
+  
+  <!-- Book base -->
+  <rect x="156" y="200" width="200" height="160" rx="8" fill="#f7fafc"/>
+  <rect x="156" y="200" width="200" height="40" fill="url(#accent)"/>
+  
+  <!-- Book pages -->
+  <rect x="166" y="250" width="180" height="100" fill="#edf2f7" rx="4"/>
+  
+  <!-- Text lines on book -->
+  <rect x="180" y="265" width="120" height="6" rx="3" fill="#cbd5e0"/>
+  <rect x="180" y="280" width="150" height="6" rx="3" fill="#cbd5e0"/>
+  <rect x="180" y="295" width="100" height="6" rx="3" fill="#cbd5e0"/>
+  <rect x="180" y="310" width="140" height="6" rx="3" fill="#cbd5e0"/>
+  
+  <!-- Lightbulb (ideas) -->
+  <g transform="translate(340, 100)">
+    <ellipse cx="0" cy="0" rx="35" ry="40" fill="url(#accent)"/>
+    <rect x="-20" y="40" width="40" height="15" rx="4" fill="#a0aec0"/>
+    <rect x="-15" y="55" width="30" height="8" rx="4" fill="#718096"/>
+    <!-- Light rays -->
+    <line x1="-50" y1="0" x2="-60" y2="0" stroke="#f6ad55" stroke-width="3" stroke-linecap="round"/>
+    <line x1="50" y1="0" x2="60" y2="0" stroke="#f6ad55" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="-50" x2="0" y2="-60" stroke="#f6ad55" stroke-width="3" stroke-linecap="round"/>
+    <line x1="-35" y1="-35" x2="-42" y2="-42" stroke="#f6ad55" stroke-width="3" stroke-linecap="round"/>
+    <line x1="35" y1="-35" x2="42" y2="-42" stroke="#f6ad55" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Brain icon -->
+  <g transform="translate(120, 130)">
+    <path d="M40 0 C20 0 0 20 0 45 C0 60 10 75 25 80 C25 90 30 100 45 100 C60 100 65 90 65 80 C80 75 90 60 90 45 C90 20 70 0 50 0" fill="url(#green)"/>
+    <path d="M25 30 Q35 25 45 30 Q55 35 65 30" fill="none" stroke="#276749" stroke-width="3"/>
+    <path d="M25 50 Q45 45 65 50" fill="none" stroke="#276749" stroke-width="3"/>
+    <path d="M35 70 Q45 65 55 70" fill="none" stroke="#276749" stroke-width="3"/>
+  </g>
+  
+  <!-- Clock (time management) -->
+  <g transform="translate(380, 260)">
+    <circle cx="0" cy="0" r="40" fill="#f7fafc" stroke="#2d3748" stroke-width="4"/>
+    <circle cx="0" cy="0" r="35" fill="none" stroke="#e2e8f0" stroke-width="2"/>
+    <!-- Clock marks -->
+    <line x1="0" y1="-30" x2="0" y2="-35" stroke="#2d3748" stroke-width="2"/>
+    <line x1="0" y1="30" x2="0" y2="35" stroke="#2d3748" stroke-width="2"/>
+    <line x1="-30" y1="0" x2="-35" y2="0" stroke="#2d3748" stroke-width="2"/>
+    <line x1="30" y1="0" x2="35" y2="0" stroke="#2d3748" stroke-width="2"/>
+    <!-- Clock hands -->
+    <line x1="0" y1="0" x2="0" y2="-25" stroke="#2d3748" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="15" y2="10" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="4" fill="#ed8936"/>
+  </g>
+  
+  <!-- Arrow (progress) -->
+  <g transform="translate(256, 400)">
+    <path d="M-40 0 L0 -30 L0 -15 L40 -15 L40 15 L0 15 L0 30 Z" fill="url(#green)"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="256" y="480" text-anchor="middle" fill="#f7fafc" font-family="Arial, sans-serif" font-size="28" font-weight="bold">學習技巧</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="50" cy="350" r="8" fill="#68d391" opacity="0.6"/>
+  <circle cx="462" cy="180" r="6" fill="#f6ad55" opacity="0.6"/>
+  <circle cx="90" cy="450" r="10" fill="#ed8936" opacity="0.4"/>
+</svg>
