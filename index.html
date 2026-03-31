@@ -87,7 +87,7 @@ layout: default
                 <div class="d-flex justify-content-between align-items-center">
                   <small class="text-muted">
                     <i class="fas fa-clock me-1"></i>
-                    {{ post.date | date: "%Y-%m-%d" }}
+                    {{ post.date | date: "%Y-%m-%d %H:%M" }}
                   </small>
                   <a href="{{ post.url | relative_url }}" class="btn btn-sm btn-outline-primary">
                     閱讀更多
