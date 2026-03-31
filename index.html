@@ -99,10 +99,13 @@ layout: default
           {% endfor %}
         </div>
 
-        <!-- 分頁導航 -->
+        <!-- 分頁導航（智慧省略版） -->
         {% if paginator.total_pages > 1 %}
+        {% assign current = paginator.page %}
+        {% assign total = paginator.total_pages %}
         <nav aria-label="Page navigation" class="mt-4">
-          <ul class="pagination justify-content-center">
+          <ul class="pagination justify-content-center flex-wrap">
+            <!-- 上一頁 -->
             {% if paginator.previous_page %}
             <li class="page-item">
               <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}">
@@ -115,22 +118,61 @@ layout: default
             </li>
             {% endif %}
 
-            {% for page in (1..paginator.total_pages) %}
-              {% if page == paginator.page %}
-              <li class="page-item active">
-                <span class="page-link">{{ page }}</span>
-              </li>
-              {% elsif page == 1 %}
-              <li class="page-item">
-                <a class="page-link" href="{{ '/' | relative_url }}">{{ page }}</a>
-              </li>
-              {% else %}
-              <li class="page-item">
-                <a class="page-link" href="{{ site.baseurl }}/page{{ page }}/">{{ page }}</a>
-              </li>
-              {% endif %}
-            {% endfor %}
+            <!-- 第一頁 -->
+            {% if current == 1 %}
+            <li class="page-item active"><span class="page-link">1</span></li>
+            {% else %}
+            <li class="page-item"><a class="page-link" href="{{ '/' | relative_url }}">1</a></li>
+            {% endif %}
 
+            <!-- 前省略號 -->
+            {% if current > 4 %}
+            <li class="page-item disabled"><span class="page-link">...</span></li>
+            {% endif %}
+
+            <!-- 當前頁前兩頁 -->
+            {% assign prev2 = current | minus: 2 %}
+            {% if prev2 > 1 and prev2 < total %}
+            <li class="page-item"><a class="page-link" href="{{ site.baseurl }}/page{{ prev2 }}/">{{ prev2 }}</a></li>
+            {% endif %}
+
+            {% assign prev1 = current | minus: 1 %}
+            {% if prev1 > 1 and prev1 < total %}
+            <li class="page-item"><a class="page-link" href="{{ site.baseurl }}/page{{ prev1 }}/">{{ prev1 }}</a></li>
+            {% endif %}
+
+            <!-- 當前頁（非首頁、非末頁） -->
+            {% if current != 1 and current != total %}
+            <li class="page-item active"><span class="page-link">{{ current }}</span></li>
+            {% endif %}
+
+            <!-- 當前頁後兩頁 -->
+            {% assign next1 = current | plus: 1 %}
+            {% if next1 < total and next1 > 1 %}
+            <li class="page-item"><a class="page-link" href="{{ site.baseurl }}/page{{ next1 }}/">{{ next1 }}</a></li>
+            {% endif %}
+
+            {% assign next2 = current | plus: 2 %}
+            {% if next2 < total and next2 > 1 %}
+            <li class="page-item"><a class="page-link" href="{{ site.baseurl }}/page{{ next2 }}/">{{ next2 }}</a></li>
+            {% endif %}
+
+            <!-- 後省略號 -->
+            {% assign diff_end = total | minus: current %}
+            {% if diff_end > 3 %}
+            <li class="page-item disabled"><span class="page-link">...</span></li>
+            {% endif %}
+
+            <!-- 最後一頁 -->
+            {% if total > 1 %}
+              {% if current == total %}
+              <li class="page-item active"><span class="page-link">{{ total }}</span></li>
+              {% else %}
+              <li class="page-item"><a class="page-link" href="{{ site.baseurl }}/page{{ total }}/">{{ total }}</a></li>
+              {% endif %}
+            {% endif %}
+
+            <!-- 下一頁 -->
             {% if paginator.next_page %}
             <li class="page-item">
               <a class="page-link" href="{{ paginator.next_page_path | relative_url }}">
