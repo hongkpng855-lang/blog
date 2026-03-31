@@ -15,6 +15,7 @@ disqus:
   shortname: your-disqus-shortname
 
 # 建構設定
+timezone: Asia/Taipei
 markdown: kramdown
 permalink: /:categories/:year/:month/:day/:title/
 
