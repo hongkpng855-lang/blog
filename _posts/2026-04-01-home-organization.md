@@ -5,7 +5,6 @@ date: 2026-04-01 17:10:00 +0800
 categories: [life]
 tags: [生活, 居家收納, 整理術, 生活技巧, 空間管理]
 author: Sun ny
-image: /assets/images/posts/2026-04-01-home-organization-cover.webp
 description: "雜亂的空間讓人心煩意亂，整齊的環境帶來清新的思緒。學會這些實用的收納技巧，讓你的居家生活更有品質。"
 ---
 
