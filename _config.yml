@@ -1,39 +1,40 @@
-# 網站基本設定
-title: 雨晨的理財筆記
-description: 一個分享投資理財知識與生活心得的個人空間
+title: "Sun ny 的部落格"
+description: "分享生活、技術、健康、學習與投資的心得"
+author: "Sun ny"
+email: "" 
 baseurl: "/blog"
 url: "https://hongkpng855-lang.github.io"
+timezone: "Asia/Taipei"
 
-# SEO 設定
-twitter:
-  username: yuchen_invests
-  card: summary_large_image
-
-# 分析與追蹤
-google_analytics: UA-XXXXXXXX-X
-disqus:
-  shortname: your-disqus-shortname
-
-# 建構設定
-timezone: Asia/Taipei
+# GitHub Pages 相容設定
 markdown: kramdown
-permalink: /:categories/:year/:month/:day/:title/
+highlighter: rouge
 
-# 分頁設定 (GitHub Pages 支援的 jekyll-paginate)
-paginate: 6
-paginate_path: "/page:num/"
-
-# 插件 (GitHub Pages 支援)
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
 
-# 排除文件
+paginate: 10
+paginate_path: "/page:num/"
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Sun ny"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor
+  - README.md
   - .gitignore
