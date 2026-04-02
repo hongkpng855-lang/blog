@@ -1,6 +1,9 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.3"
+# GitHub Pages 支援的版本
+gem "github-pages", group: :jekyll_plugins
+
+# 相容插件
 gem "jekyll-paginate"
 gem "jekyll-sitemap"
 gem "jekyll-seo-tag"
