@@ -16,6 +16,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
 
+permalink: /:categories/:year/:month/:day/:title:output_ext
+
 paginate: 10
 paginate_path: "/page:num/"
 
