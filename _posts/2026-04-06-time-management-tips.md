@@ -5,7 +5,7 @@ date: 2026-04-06 11:44:25 +0800
 categories: [life]
 tags: [時間管理, 生產力, 效率, 番茄工作法, 艾森豪矩陣]
 author: Sun ny
-image: /blog/assets/images/posts/2026-04-06-time-management-tips-cover.webp
+image: /assets/images/posts/2026-04-06-time-management-tips-cover.webp
 description: "總是覺得時間不夠用？工作永遠做不完？這篇時間管理指南整理了5個經科學驗證的高效方法，從番茄工作法到艾森豪矩陣，教你如何戰勝拖延、提升效率，找回工作與生活的平衡。"
 ---
 
