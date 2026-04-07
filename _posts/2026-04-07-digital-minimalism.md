@@ -5,6 +5,7 @@ date: 2026-04-07 08:54:00 +0800
 categories: [life]
 tags: [數位極簡主義, 數位斷捨離, 專注力, 深度工作, 生活品質]
 author: Sun ny
+image: /assets/images/posts/learning-cover.webp
 description: "你每天花多少時間滑手機？這篇文章帶你認識數位極簡主義，透過 30 天數位斷捨離找回專注力，每天多出 2 小時做真正重要的事。"
 ---
 
