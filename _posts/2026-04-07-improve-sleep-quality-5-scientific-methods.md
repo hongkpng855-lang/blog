@@ -127,5 +127,4 @@ description: "總是睡不好、醒來還是很累？本文整理 5 個科學證
 ---
 
 **延伸閱讀：**
-- [為什麼睡滿 8 小時還是很累？深度睡眠的關鍵]({% post_url 2026-03-20-deep-sleep-quality %})
-- [現代人必學：5 個減壓方法讓你不再焦慮]({% post_url 2026-02-15-reduce-anxiety-modern-life %})
+- [改善睡眠品質的科學方法]({% post_url 2026-04-03-improve-sleep-quality %})
