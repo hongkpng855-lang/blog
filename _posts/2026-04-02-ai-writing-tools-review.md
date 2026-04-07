@@ -4,7 +4,6 @@ title: "2026 AI 寫作工具評測：ChatGPT、Claude、Gemini實測心得"
 date: 2026-04-02 06:24:18 +0800
 categories: [tech]
 tags: [AI, 寫作工具, ChatGPT, Claude, Gemini, 評測]
-image: /assets/images/posts/2026-04-02-ai-writing-tools-review-cover.webp
 description: "2026 年 AI 寫作工具怎麼選？本文實測 ChatGPT、Claude、Gemini 三大工具，從繁體中文支援、寫作品質、使用場景到價格完整評比，幫你找到最適合的 AI 寫作助手。"
 ---
 

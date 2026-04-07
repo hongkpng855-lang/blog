@@ -5,7 +5,6 @@ date: 2026-04-01 05:55:00 +0800
 categories: [life]
 tags: [生活, 極簡主義, 數位排毒, 時間管理, 生活品質]
 author: Sun ny
-image: /assets/images/posts/2026-04-01-digital-minimalism-life-cover.webp
 description: "在這個手機不離身的時代，我們是否已被科技綁架？數位極簡主義教你重新拿回生活的掌控權，建立更健康的科技使用習慣。"
 ---
 

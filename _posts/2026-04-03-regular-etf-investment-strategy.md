@@ -5,7 +5,6 @@ date: 2026-04-03 21:25:00 +0800
 categories: [investment]
 tags: [ETF, 定期定額, 投資理財, 被動投資, 財富自由]
 author: Sun ny
-image: /assets/images/posts/2026-04-03-regular-etf-investment-strategy-cover.webp
 description: "想透過 ETF 定期定額投資卻不知從何開始？本文深入解析 ETF 入門知識、定期定額優缺點、熱門標的推薦與實戰操作，助你穩健踏上財富自由之路。"
 ---
 

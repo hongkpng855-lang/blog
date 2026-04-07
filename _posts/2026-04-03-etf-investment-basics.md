@@ -5,7 +5,6 @@ date: 2026-04-03 00:37:00 +0800
 categories: [investment]
 tags: [ETF投資, 指數投資, 被動投資, 新手入門, 理財規劃]
 author: Sun ny
-image: /assets/images/posts/2026-04-03-etf-investment-basics-cover.webp
 description: "ETF是最適合新手的投資工具之一。本文詳細介紹ETF的基本概念、優缺點、如何選擇適合的ETF，以及常見的投資策略。"
 ---
 

@@ -5,7 +5,6 @@ date: 2026-04-01 11:40:00 +0800
 categories: [life]
 tags: [生活, 斷捨離, 極簡主義, 整理收納, 生活品質]
 author: Sun ny
-image: /assets/images/posts/2026-04-01-danshari-practice-cover.webp
 description: "斷捨離不只是整理物品，更是一種生活哲學。透過「斷、捨、離」三步驟，讓你的空間與心靈都重獲自由。"
 ---
 

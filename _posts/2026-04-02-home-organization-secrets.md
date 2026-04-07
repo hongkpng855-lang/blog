@@ -5,7 +5,6 @@ date: 2026-04-02 05:23:00 +0800
 categories: [life]
 tags: [居家收納, 整理技巧, 斷捨離, 生活智慧, 收納心法]
 author: Sun ny
-image: /assets/images/posts/2026-04-02-home-organization-secrets-cover.webp
 description: "為什麼整理好的家總是很快就亂了？問題不在於你不夠勤勞，而在於缺少正確的收納心法。本文分享讓家裡永遠整齊的實用秘密。"
 ---
 

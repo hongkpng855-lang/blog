@@ -5,7 +5,6 @@ date: 2026-04-01 12:30:00 +0800
 categories: [investment]
 tags: [投資, 資產配置, 投資組合, 風險管理, 財富管理]
 author: Sun ny
-image: /assets/images/posts/2026-04-01-asset-allocation-strategy-cover.webp
 description: "資產配置是投資成功的核心關鍵。透過適當的股債配置，讓你的投資組合在多空中都能穩健前行。"
 ---
 

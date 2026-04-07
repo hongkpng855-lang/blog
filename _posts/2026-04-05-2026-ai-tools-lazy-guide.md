@@ -5,7 +5,6 @@ date: 2026-04-05 15:22:44 +0800
 categories: [tech]
 tags: [AI, 工具, 生產力, 效率]
 author: Sun ny
-image: /assets/images/posts/2026-04-05-2026-ai-tools-lazy-guide-cover.webp
 description: "想提升工作效率卻不知從何開始？這篇 2026 AI 工具懶人包整理了最實用的免費 AI 生產力工具，從寫作、設計到程式開發，讓你一站式掌握所有神器。"
 ---
 

@@ -5,7 +5,6 @@ date: 2026-04-04 01:06:00 +0800
 categories: [health]
 tags: [睡眠衛生, 睡眠品質, 健康睡眠, 睡眠習慣, 失眠改善]
 author: Sun ny
-image: /assets/images/posts/2026-04-04-sleep-hygiene-guide-cover.webp
 description: "睡眠佔人生的1/3，但很多人從未學過如何好好睡覺。本文以科學角度解析睡眠衛生的各個面向，幫助你建立健康的睡眠習慣。"
 ---
 

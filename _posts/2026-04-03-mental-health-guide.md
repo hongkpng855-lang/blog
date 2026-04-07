@@ -5,7 +5,6 @@ date: 2026-04-03 09:35:00 +0800
 categories: [health]
 tags: [心理健康, 情緒管理, 壓力調適, 自我照顧, 心理衛生]
 author: Sun ny
-image: /assets/images/posts/2026-04-03-mental-health-guide-cover.webp
 description: "心理健康和身體健康一樣重要。本文分享日常維護心理健康的方法，幫助你在忙碌的生活中找到內心平靜，建立更健康的心理狀態。"
 ---
 

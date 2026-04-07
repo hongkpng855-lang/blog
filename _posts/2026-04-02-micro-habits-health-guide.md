@@ -5,7 +5,6 @@ date: 2026-04-02 10:01:00 +0800
 categories: [health]
 tags: [健康, 微習慣, 養生, 生活, 原子習慣]
 author: Sun ny
-image: /assets/images/posts/2026-04-02-micro-habits-health-guide-cover.webp
 description: "覺得養成健康習慣很困難？本文分享5個每天只要1分鐘的微習慣，從喝水、深呼吸到伸展，讓你輕鬆開始健康生活的第一步。"
 ---
 

@@ -5,7 +5,6 @@ date: 2026-04-02 07:50:00 +0800
 categories: [life]
 tags: [極簡生活, 斷捨離, 生活品質, 減法生活]
 author: Sun ny
-image: /assets/images/posts/2026-04-02-minimalist-life-guide-cover.webp
 description: "想開始極簡生活卻不知從何下手？本文整理 7 個實用步驟，教你從斷捨離開始，建立屬於自己的減法生活哲學，讓生活更輕盈、心靈更富足。"
 ---
 

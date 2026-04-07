@@ -5,7 +5,6 @@ date: 2026-04-04 04:28:08 +0800
 categories: [investment]
 tags: [被動收入, 投資, 財富自由]
 author: Sun ny
-image: /assets/images/posts/2026-04-04-passive-income-guide-2026-cover.webp
 description: "想建立被動收入卻不知從何開始？本文整理 2026 年最適合新手的 7 種被動收入方法，從 ETF 存股到聯盟行銷，帶你一步步打造屬於自己的自動賺錢系統。"
 ---
 

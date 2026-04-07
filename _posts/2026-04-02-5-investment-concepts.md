@@ -5,7 +5,6 @@ date: 2026-04-02 23:08:00 +0800
 categories: [investment]
 tags: [投資觀念, 理財入門, 風險管理, 新手指南, 財商教育]
 author: Sun ny
-image: /assets/images/posts/2026-04-02-5-investment-concepts-cover.webp
 description: "很多投資新手因為不懂基本觀念而賠錢。本文整理投資前必須懂的5個核心觀念，幫你建立正確的理財心態，避開常見的新手陷阱。"
 ---
 

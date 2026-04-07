@@ -5,7 +5,6 @@ date: 2026-04-06 16:04:00 +0800
 categories: [tech]
 tags: [AI工具, ChatGPT, 生產力, AI應用, 數位轉型]
 author: Sun ny
-image: /assets/images/posts/2026-04-06-2026-ai-tool-selection-guide-cover.webp
 description: "2026 年 AI 工具百百種，從 ChatGPT、Claude 到各種專業應用，到底該怎麼選？本文將 30+ 款熱門 AI 工具分成七大類，幫你快速找到最適合的工作夥伴，提升生產力不再迷茫。"
 ---
 

@@ -5,7 +5,6 @@ date: 2026-04-04 03:01:00 +0800
 categories: [life]
 tags: [數位排毒, 減少手機使用, 專注力, 生活品質, 數位健康]
 author: Sun ny
-image: /assets/images/posts/2026-04-04-digital-detox-guide-cover.webp
 description: "現代人平均每天看手機超過4小時，數位裝置正在偷走我們的時間與注意力。本文提供完整的數位排毒指南，幫助你重掌生活主導權。"
 ---
 

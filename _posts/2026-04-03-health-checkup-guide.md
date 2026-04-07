@@ -5,7 +5,6 @@ date: 2026-04-03 09:48:00 +0800
 categories: [health]
 tags: [健康檢查, 預防醫學, 定期健檢, 健康管理, 醫療保健]
 author: Sun ny
-image: /assets/images/posts/2026-04-03-health-checkup-guide-cover.webp
 description: "定期健康檢查是預防疾病的重要手段。本文詳細介紹健康檢查的項目、時機和注意事項，幫助你做出明智的健康投資決策。"
 ---
 

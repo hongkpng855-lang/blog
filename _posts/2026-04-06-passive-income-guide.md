@@ -5,7 +5,6 @@ date: 2026-04-06 13:30:00 +0800
 categories: [investment]
 tags: [被動收入, 投資理財, ETF, 財務自由, 小資族]
 author: Sun ny
-image: /assets/images/posts/2026-04-06-passive-income-guide-cover.webp
 description: "想開始建立被動收入卻不知從何下手？本文整理 2026 年最適合小資族的 8 種被動收入方法，從 ETF 存股到數位資產，一步步教你打造屬於自己的現金流。"
 ---
 

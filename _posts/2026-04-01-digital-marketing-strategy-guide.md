@@ -5,7 +5,6 @@ date: 2026-04-01 09:56:39 +0800
 categories: [learning]
 tags: [數位行銷, 行銷策略, 品牌經營, 社群媒體]
 author: Sun ny
-image: /assets/images/posts/2026-04-01-digital-marketing-strategy-guide-cover.webp
 description: "想讓品牌在網路上被看見？這篇數位行銷策略入門指南，帶你從零開始建立行銷思維，掌握社群、內容、SEO 等核心技巧。"
 ---
 

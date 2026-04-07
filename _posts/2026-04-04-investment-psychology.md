@@ -5,7 +5,6 @@ date: 2026-04-04 00:26:00 +0800
 categories: [investment]
 tags: [投資心理學, 行為財務學, 投資決策, 散戶投資, 理性投資]
 author: Sun ny
-image: /assets/images/posts/2026-04-04-investment-psychology-cover.webp
 description: "為什麼散戶總是買高賣低？問題不在市場，而在大腦。本文深入解析投資常見的心理陷阱，幫助你建立理性決策系統。"
 ---
 

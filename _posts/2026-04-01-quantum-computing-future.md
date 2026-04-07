@@ -5,7 +5,6 @@ date: 2026-04-01 06:00:37 +0800
 categories: [tech]
 tags: [量子運算, 量子電腦, 科技趨勢, 未來科技]
 author: Sun ny
-image: /assets/images/posts/2026-04-01-quantum-computing-future-cover.webp
 description: "深入淺出介紹量子運算的基本概念、運作原理與未來應用，帶你認識這項將改變世界的革命性技術。"
 ---
 

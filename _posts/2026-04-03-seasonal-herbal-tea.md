@@ -5,7 +5,6 @@ date: 2026-04-03 09:41:00 +0800
 categories: [health]
 tags: [養生茶飲, 四季養生, 自然保健, 中醫養生, 健康生活]
 author: Sun ny
-image: /assets/images/posts/2026-04-03-seasonal-herbal-tea-cover.webp
 description: "中醫講究「順時養生」，不同季節適合不同的茶飲。本文介紹四季養生茶飲的選擇與搭配，讓你用最自然的方式調理身體。"
 ---
 

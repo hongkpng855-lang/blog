@@ -5,7 +5,6 @@ date: 2026-04-03 23:44:15 +0800
 categories: [tech]
 tags: [AI, 人工智慧, 2026趨勢, 企業轉型, 生成式AI]
 author: Sun ny
-image: /assets/images/posts/2026-04-03-2026-ai-trends-guide-cover.webp
 description: "2026 年 AI 發展進入關鍵轉折點，從世界模型到實體 AI，企業該如何佈局？本文深入解析十大關鍵技術趨勢，提供務實的導入策略與風險管理建議。"
 ---
 

@@ -5,7 +5,6 @@ date: 2026-04-04 07:18:00 +0800
 categories: [life]
 tags: [小確幸, 生活品質, 日常幸福]
 author: Sun ny
-image: /assets/images/posts/2026-04-04-life-simple-happiness-cover.webp
 description: "在忙碌的現代生活中，我們常常忘了停下腳步感受當下。這篇文章分享 7 個簡單的日常練習，每天只要 10 分鐘，就能為平凡日子注入溫度與幸福感。"
 ---
 

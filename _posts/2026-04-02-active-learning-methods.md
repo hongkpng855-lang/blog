@@ -5,7 +5,6 @@ date: 2026-04-02 19:36:00 +0800
 categories: [learning]
 tags: [主動學習, 學習方法, 記憶技巧, 自我提升, 知識內化]
 author: Sun ny
-image: /assets/images/posts/2026-04-02-active-learning-methods-cover.webp
 description: "為什麼讀了很多卻記不住？問題可能出在被動學習。本文介紹主動學習的核心概念和實用技巧，讓你真正學會、真正記住。"
 ---
 

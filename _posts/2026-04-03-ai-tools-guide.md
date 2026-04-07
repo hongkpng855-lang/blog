@@ -5,7 +5,6 @@ date: 2026-04-03 10:55:00 +0800
 categories: [tech]
 tags: [AI, 工具, 生產力, ChatGPT]
 author: Sun ny
-image: /assets/images/posts/2026-04-03-ai-tools-guide-cover.webp
 description: "2026 年 AI 工具懶人包來了！從 ChatGPT 教學到 AI Agent 自動化，幫你整理 30+ 款免費與訂閱工具，提升職場競爭力與工作效率。"
 ---
 

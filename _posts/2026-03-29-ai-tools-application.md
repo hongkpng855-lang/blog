@@ -5,7 +5,6 @@ date: 2026-03-29 05:49:00 +0800
 categories: [tech]
 tags: [AI, 工具, 生產力]
 author: Sun ny
-image: /assets/images/posts/2026-03-29-ai-tools-application-cover.webp
 description: "AI工具正在改變我們的工作方式。本文介紹如何善用 ChatGPT、Claude、Copilot 等AI工具，讓你的工作效率大幅提升，節省時間專注於更有價值的工作。"
 ---
 

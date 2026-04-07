@@ -5,7 +5,6 @@ date: 2026-04-01 07:40:00 +0800
 categories: [investment]
 tags: [投資, 價值投資, 股票, 巴菲特, 長期投資]
 author: Sun ny
-image: /assets/images/posts/2026-04-01-value-investing-strategy-cover.webp
 description: "價值投資是華倫·巴菲特毕生奉行的投資哲學，透過尋找被低估的優質企業，長期持有獲取穩定回報。本文帶你深入了解這套歷久彌新的投資心法。"
 ---
 

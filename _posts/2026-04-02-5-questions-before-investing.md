@@ -5,7 +5,6 @@ date: 2026-04-02 17:14:00 +0800
 categories: [investment]
 tags: [投資入門, 理財規劃, 風險評估, 財務準備, 新手指南]
 author: Sun ny
-image: /assets/images/posts/2026-04-02-5-questions-before-investing-cover.webp
 description: "很多人急著進場投資，卻忽略了最重要的準備工作。本文提出投資前必問的5個問題，幫你評估自己是否真正準備好開始投資。"
 ---
 

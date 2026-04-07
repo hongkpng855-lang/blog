@@ -5,7 +5,6 @@ date: 2026-04-02 23:00:00 +0800
 categories: [investment]
 tags: [定期定額, 投資策略, 複利效應, ETF投資, 長期理財]
 author: Sun ny
-image: /assets/images/posts/2026-04-02-dollar-cost-averaging-guide-cover.webp
 description: "定期定額是最適合新手的投資方式。本文詳細介紹定期定額的原理、優點、適合的標的，以及如何堅持執行，用時間和複利累積財富。"
 ---
 

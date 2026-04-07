@@ -5,7 +5,6 @@ date: 2026-04-04 02:17:00 +0800
 categories: [learning]
 tags: [筆記方法, 康乃爾筆記, 心智圖, 學習效率, 筆記系統]
 author: Sun ny
-image: /assets/images/posts/2026-04-04-note-taking-methods-cover.webp
 description: "筆記不只是記錄，更是思考和學習的過程。本文比較7種主流筆記方法，幫助你找到最適合自己的筆記系統。"
 ---
 

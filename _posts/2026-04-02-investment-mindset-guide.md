@@ -5,7 +5,6 @@ date: 2026-04-02 05:57:00 +0800
 categories: [investment]
 tags: [投資入門, 理財心態, 投資錯誤, 新手指南, 風險管理]
 author: Sun ny
-image: /assets/images/posts/2026-04-02-investment-mindset-guide-cover.webp
 description: "許多投資新手因為心態錯誤而虧損出場。本文解析新手最容易犯的5個投資錯誤，幫助你建立正確的理財觀念，少走冤枉路。"
 ---
 

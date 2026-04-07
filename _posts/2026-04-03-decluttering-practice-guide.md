@@ -5,7 +5,6 @@ date: 2026-04-03 22:17:00 +0800
 categories: [life]
 tags: [斷捨離, 極簡生活, 居家整理, 減法生活, 簡單生活]
 author: Sun ny
-image: /assets/images/posts/2026-04-03-decluttering-practice-guide-cover.webp
 description: "斷捨離不只是丟東西，而是重新審視自己和物品的關係。本文分享實用的斷捨離方法，幫助你從減法生活中找回空間與心靈的自在。"
 ---
 

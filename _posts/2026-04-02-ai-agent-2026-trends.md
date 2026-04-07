@@ -5,7 +5,6 @@ date: 2026-04-02 14:19:00 +0800
 categories: [tech]
 tags: [AI, AI Agent, 科技趨勢, 人工智慧, 2026]
 author: Sun ny
-image: /assets/images/posts/2026-04-02-ai-agent-2026-trends-cover.webp
 description: "2026 年 AI Agent 正式進入實用階段，從單純的生成式工具轉變為能自主規劃、執行任務的智慧代理。本文深入剖析 AI Agent 的核心技術、產業應用與未來發展趨勢。"
 ---
 

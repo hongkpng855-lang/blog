@@ -5,7 +5,6 @@ date: 2026-04-03 21:22:00 +0800
 categories: [learning]
 tags: [閱讀理解, 深度閱讀, 知識吸收, 學習方法, 主動閱讀]
 author: Sun ny
-image: /assets/images/posts/2026-04-03-reading-comprehension-skills-cover.webp
 description: "讀完不等於讀懂，讀懂不等於記住。本文分享經科學驗證的閱讀理解技巧，幫助你從被動閱讀轉為主動吸收。"
 ---
 

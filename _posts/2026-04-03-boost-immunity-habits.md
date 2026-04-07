@@ -5,7 +5,6 @@ date: 2026-04-03 09:10:00 +0800
 categories: [health]
 tags: [免疫力, 健康習慣, 養生, 預防醫學, 日常保健]
 author: Sun ny
-image: /assets/images/posts/2026-04-03-boost-immunity-habits-cover.webp
 description: "免疫力是人體最好的醫生。本文分享7個經科學驗證的日常習慣，幫你提升免疫力，讓身體自然抵抗疾病，遠離感冒和各種感染。"
 ---
 

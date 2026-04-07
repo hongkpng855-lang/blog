@@ -5,7 +5,6 @@ date: 2026-04-01 08:50:00 +0800
 categories: [tech]
 tags: [科技, 量子運算, 量子電腦, 新興科技, 未來科技]
 author: Sun ny
-image: /assets/images/posts/2026-04-01-quantum-computing-basics-cover.webp
 description: "量子運算被譽為下一場電腦革命，它的運算能力可能超越現有超級電腦億萬倍。本文帶你深入了解這項改變世界的技術。"
 ---
 

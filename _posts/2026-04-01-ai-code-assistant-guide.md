@@ -5,7 +5,6 @@ date: 2026-04-01 07:06:05 +0800
 categories: [tech]
 tags: [AI, 程式開發, 效率工具, GitHub Copilot, Claude]
 author: Sun ny
-image: /assets/images/posts/2026-04-01-AI工具實用指南-cover.webp
 description: "深入探討如何善用 AI 程式助手提升開發效率，從 GitHub Copilot 到 Claude，掌握實戰技巧與最佳實踐。"
 ---
 

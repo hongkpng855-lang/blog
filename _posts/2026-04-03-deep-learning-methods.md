@@ -5,7 +5,6 @@ date: 2026-04-03 17:41:00 +0800
 categories: [learning]
 tags: [深度學習, 知識內化, 主動學習, 學習方法, 認知科學]
 author: Sun ny
-image: /assets/images/posts/2026-04-03-deep-learning-methods-cover.webp
 description: "淺層學習只能應付考試，深度學習才能改變人生。本文介紹讓知識真正內化的方法，幫助你建立扎實的知識體系。"
 ---
 

@@ -5,7 +5,6 @@ date: 2026-04-03 09:16:00 +0800
 categories: [health]
 tags: [健康飲食, 營養學, 日常保健, 飲食習慣, 健康生活]
 author: Sun ny
-image: /assets/images/posts/2026-04-03-healthy-diet-principles-cover.webp
 description: "健康的飲食不需要昂貴的食材或複雜的食譜。本文分享健康飲食的基本原則，幫你建立正確的飲食觀念，讓每一餐都成為健康的投資。"
 ---
 

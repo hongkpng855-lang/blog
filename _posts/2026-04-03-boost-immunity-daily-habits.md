@@ -5,7 +5,6 @@ date: 2026-04-03 07:51:00 +0800
 categories: [health]
 tags: [免疫力, 健康習慣, 日常保健, 睡眠, 運動]
 author: Sun ny
-image: /assets/images/posts/2026-04-03-boost-immunity-daily-habits-cover.webp
 description: "免疫力是身體的防護罩。本文介紹科學證實能提升免疫力的日常習慣，從睡眠、飲食、運動到壓力管理，幫你建立更強健的體質。"
 ---
 

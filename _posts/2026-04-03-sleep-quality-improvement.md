@@ -5,7 +5,6 @@ date: 2026-04-03 06:15:00 +0800
 categories: [health]
 tags: [睡眠品質, 深層睡眠, 失眠改善, 健康生活]
 author: Sun ny
-image: /assets/images/posts/2026-04-03-sleep-quality-improvement-cover.webp
 description: "明明睡滿8小時，醒來卻像沒睡一樣疲累？問題可能出在「深層睡眠」不足。本文教你7個科學實證的方法，有效提升睡眠品質，讓你一夜好眠、精神飽滿。"
 ---
 

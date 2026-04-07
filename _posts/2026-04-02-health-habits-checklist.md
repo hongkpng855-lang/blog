@@ -5,7 +5,6 @@ date: 2026-04-02 09:38:00 +0800
 categories: [health]
 tags: [健康習慣, 生活保健, 預防醫學, 健康管理, 日常養生]
 author: Sun ny
-image: /assets/images/posts/2026-04-02-health-habits-checklist-cover.webp
 description: "2026年最新的健康科學告訴我們：真正的健康來自微小而可持續的日常實踐。本文整理12項經科學實證的健康習慣，幫你建立檢核表，遠離健康赤字。"
 ---
 

@@ -5,7 +5,6 @@ date: 2026-04-04 08:47:05 +0800
 categories: [health]
 tags: [睡眠品質, 失眠, 健康生活, 睡眠習慣]
 author: Sun ny
-image: /assets/images/posts/2026-04-04-sleep-quality-guide-cover.webp
 description: "總是翻來覆去睡不著嗎？本文整理5個經醫學驗證的睡眠改善方法，從建立規律作息、調整睡眠環境到飲食運動建議，幫助你擺脫失眠困擾，一覺到天亮。"
 ---
 

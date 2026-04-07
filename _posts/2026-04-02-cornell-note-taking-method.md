@@ -5,7 +5,6 @@ date: 2026-04-02 11:18:35 +0800
 categories: [learning]
 tags: [筆記方法, 康乃爾筆記, 學習技巧, 讀書方法, 時間管理]
 author: Sun ny
-image: /assets/images/posts/2026-04-02-cornell-note-taking-method-cover.webp
 description: "康乃爾筆記法是全球公認最有效的筆記系統，透過三分割筆記結構，結合即時整理與複習機制，幫助你提升學習效率 300%。本文詳解康乃爾筆記法的步驟、實戰技巧與常見錯誤，讓你快速掌握這套終極學習工具。"
 ---
 

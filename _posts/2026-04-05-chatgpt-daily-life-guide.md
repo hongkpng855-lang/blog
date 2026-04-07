@@ -5,7 +5,6 @@ date: 2026-04-05 08:09:00 +0800
 categories: [生活]
 tags: [ChatGPT, AI, 生活應用, 效率提升, 數位生活]
 author: Sun ny
-image: /assets/images/posts/2026-04-05-chatgpt-daily-life-guide-cover.webp
 description: "想知道如何讓 ChatGPT 成為你的生活小幫手嗎？本文整理 10 個最實用的日常應用場景，從食譜推薦、旅遊規劃到學習輔助，讓你輕鬆掌握 AI 生活化的精髓。"
 ---
 

@@ -5,7 +5,6 @@ date: 2026-04-04 05:33:11 +0800
 categories: [tech]
 tags: [AI, 人工智慧, 效率工具, 科技應用]
 author: Sun ny
-image: /assets/images/posts/2026-04-04-ai-assistant-practical-guide-cover.webp
 description: "AI 助手已經不再是科幻電影的專利，而是每個人都能使用的效率神器。本文整理 2026 年最實用的 AI 助手使用技巧，從日常對話到專業工作，讓你輕鬆駕馭 AI，提升生產力。"
 ---
 

@@ -5,7 +5,6 @@ date: 2026-04-02 14:08:00 +0800
 categories: [tech]
 tags: [AI工具, 人工智慧, 工作效率, 科技趨勢, 數位轉型]
 author: Sun ny
-image: /assets/images/posts/2026-04-02-must-learn-ai-tools-2026-cover.webp
 description: "AI工具在2026年已成為職場必備技能。本文介紹5個最實用的AI工具類型，從文字、圖像到語音，幫助你全面提升工作效率。"
 ---
 

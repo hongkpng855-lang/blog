@@ -5,7 +5,6 @@ date: 2026-04-02 04:13:00 +0800
 categories: [life]
 tags: [居家清潔, 生活技巧, 打掃, 收納整理]
 author: Sun ny
-image: /assets/images/posts/2026-04-02-home-cleaning-tips-cover.webp
 description: "每次大掃除都累到懷疑人生？本文整理 2026 年最受歡迎的居家清潔技巧，從打掃順序到省力工具，讓你輕鬆打造乾淨舒適的家，不再陷入「剛收完又亂」的惡性循環。"
 ---
 

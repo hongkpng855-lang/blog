@@ -5,7 +5,6 @@ date: 2026-04-01 10:55:00 +0800
 categories: [learning]
 tags: [學習方法, 主動學習, 教育技巧, 自我成長, 學習效率]
 author: Sun ny
-image: /assets/images/posts/2026-04-01-active-learning-method-cover.webp
 description: "主動學習讓你從「聽懂」到「會用」，真正掌握知識。本文分享實用的主動學習技巧，讓學習效果翻倍。"
 ---
 

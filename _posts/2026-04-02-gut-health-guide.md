@@ -5,7 +5,6 @@ date: 2026-04-02 18:36:00 +0800
 categories: [health]
 tags: [腸道健康, 飲食習慣, 消化系統, 益生菌, 營養攝取]
 author: Sun ny
-image: /assets/images/posts/2026-04-02-gut-health-guide-cover.webp
 description: "腸道是第二大腦，影響全身健康。本文介紹腸道健康的重要性，以及透過飲食改善腸道的實用方法，讓你從內而外改善身體狀態。"
 ---
 

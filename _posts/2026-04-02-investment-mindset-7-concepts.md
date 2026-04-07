@@ -5,7 +5,6 @@ date: 2026-04-02 13:36:00 +0800
 categories: [investment]
 tags: [投資入門, 理財觀念, 新手指南, 投資陷阱, 財商教育]
 author: Sun ny
-image: /assets/images/posts/2026-04-02-investment-mindset-7-concepts-cover.webp
 description: "投資新手最容易犯的錯，往往不是選錯股票，而是觀念錯誤。本文整理7個投資新手必備的正確觀念，幫你在投資路上少走冤枉路。"
 ---
 

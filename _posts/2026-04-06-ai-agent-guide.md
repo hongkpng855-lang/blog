@@ -5,7 +5,6 @@ date: 2026-04-06 22:45:00 +0800
 categories: [tech]
 tags: [AI, AI Agent, 人工智慧, 科技趨勢, 數位轉型]
 author: Sun ny
-image: /assets/images/posts/2026-04-06-ai-agent-guide-cover.webp
 description: "2026 年 AI 正從「陪你聊天」進化到「幫你做事」。本指南帶你了解 AI Agent 是什麼、運作原理，以及如何在企業與生活中實際應用。"
 ---
 

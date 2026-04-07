@@ -5,7 +5,6 @@ date: 2026-04-03 20:34:00 +0800
 categories: [health]
 tags: [健康生活, 健康習慣, 健身趨勢, 健康飲食, 生活品質]
 author: Sun ny
-image: /assets/images/posts/2026-04-03-health-lifestyle-guide-cover.webp
 description: "2026 年健康管理不再只是口號！本文整理健康生活 5 大關鍵，從規律運動、均衡飲食到睡眠品質，帶你用微小習慣打造可持續的健康人生。"
 ---
 

@@ -5,7 +5,6 @@ date: 2026-04-02 15:04:00 +0800
 categories: [learning]
 tags: [閱讀方法, 高效學習, 讀書技巧, 知識管理, 自我提升]
 author: Sun ny
-image: /assets/images/posts/2026-04-02-efficient-reading-method-cover.webp
 description: "買了很多書卻讀不完？讀完卻記不住？本文教你高效閱讀的4個方法，讓你在有限時間內讀懂更多書，真正吸收書中的智慧。"
 ---
 

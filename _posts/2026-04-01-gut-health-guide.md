@@ -5,7 +5,6 @@ date: 2026-04-01 09:25:00 +0800
 categories: [health]
 tags: [健康, 腸道健康, 益生菌, 消化系統, 飲食營養]
 author: Sun ny
-image: /assets/images/posts/2026-04-01-gut-health-guide-cover.webp
 description: "腸道被稱為人體的「第二大腦」，與免疫、情緒、體重密切相關。了解如何透過飲食和生活習慣，打造健康的腸道環境。"
 ---
 

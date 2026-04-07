@@ -5,7 +5,6 @@ date: 2026-04-03 03:39:00 +0800
 categories: [tech]
 tags: [AI工具, 寫作, 內容創作, 效率提升, ChatGPT]
 author: Sun ny
-image: /assets/images/posts/2026-04-03-ai-writing-tools-guide-cover.webp
 description: "AI寫作工具正在改變內容創作的方式。本文介紹主流AI寫作工具的功能、使用技巧，以及如何正確運用AI來提升寫作效率。"
 ---
 

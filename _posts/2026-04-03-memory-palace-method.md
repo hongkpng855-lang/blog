@@ -5,7 +5,6 @@ date: 2026-04-03 12:01:00 +0800
 categories: [learning]
 tags: [記憶宮殿, 學習方法, 記憶技巧, 高效學習, 腦力開發]
 author: Sun ny
-image: /assets/images/posts/2026-04-03-memory-palace-method-cover.webp
 description: "記憶宮殿是源自古希臘的記憶技巧，至今仍被世界記憶冠軍使用。本文詳細介紹如何建立和使用記憶宮殿，讓你輕鬆記住大量資訊。"
 ---
 

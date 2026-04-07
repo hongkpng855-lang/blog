@@ -5,7 +5,6 @@ date: 2026-03-29 05:17:00 +0800
 categories: [investment]
 tags: [退休, 理財, 長期規劃]
 author: Sun ny
-image: /assets/images/posts/2026-03-29-retirement-financial-planning-cover.webp
 description: "退休理財規劃是每人必須面對的重要課題。本文深入探討如何計算退休所需金額、建立適合的投資組合，以及避免常見的退休規劃陷阱，幫助你打造財務無憂的晚年生活。"
 ---
 

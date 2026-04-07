@@ -5,7 +5,6 @@ date: 2026-04-01 09:56:57 +0800
 categories: [investment]
 tags: [退休規劃, 投資理財, 被動收入, 資產配置]
 author: Sun ny
-image: /assets/images/posts/2026-04-01-retirement-financial-planning-advanced-guide-cover.webp
 description: "退休理財不只是存錢，更需要精明的資產配置與風險管理。本指南深入探討退休規劃的進階策略，幫助你建立可持續的被動收入來源。"
 ---
 

@@ -5,7 +5,6 @@ date: 2026-04-03 19:23:00 +0800
 categories: [tech]
 tags: [AI, 程式設計, GitHub Copilot, 開發工具, 生產力]
 author: Sun ny
-image: /assets/images/posts/2026-04-03-ai-coding-copilot-cover.webp
 description: "想用 AI 加速寫程式卻不知從何開始？這篇指南帶你認識 GitHub Copilot 的強大功能，從安裝到實戰技巧，讓 AI 成為你的最佳程式設計夥伴。"
 ---
 

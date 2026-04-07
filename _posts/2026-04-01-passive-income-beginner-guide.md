@@ -5,7 +5,6 @@ date: 2026-04-01 16:44:00 +0800
 categories: [investment]
 tags: [被動收入, 財務自由, ETF, 投資入門]
 author: Sun ny
-image: /assets/images/posts/2026-04-01-passive-income-beginner-guide-cover.webp
 description: "想打造被動收入卻不知從何開始？本文完整解析7種真實可行的被動收入管道，從ETF投資到數位資產經營，提供小資族也能上手的完整策略，助你開啟財務自由之路。"
 ---
 

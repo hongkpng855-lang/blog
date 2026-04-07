@@ -5,7 +5,6 @@ date: 2026-04-03 11:16:43 +0800
 categories: [life]
 tags: [極簡生活, 收納, 生活技巧, 斷捨離]
 author: Sun ny
-image: /assets/images/posts/2026-04-03-minimalist-life-storage-tips-cover.webp
 description: "想開始極簡生活卻不知從何下手？本文整理 10 個實用收納技巧與生活小方法，幫助你從斷捨離開始，打造清爽舒適的居家空間，讓生活更輕盈自在。"
 ---
 

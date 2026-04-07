@@ -5,7 +5,6 @@ date: 2026-04-05 00:26:27 +0800
 categories: [投資]
 tags: [ETF, 定期定額, 小資族, 理財, 被動收入]
 author: Sun ny
-image: /assets/images/posts/2026-04-05-small-investor-etf-guide-cover.webp
 description: "每個月只能存 3000 元也能投資嗎？本文為小資族整理最完整的 ETF 定期定額入門指南，從選股策略、開戶流程到實戰技巧，教你用最簡單的方式踏上財富自由之路。"
 ---
 

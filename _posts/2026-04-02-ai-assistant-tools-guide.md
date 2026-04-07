@@ -5,7 +5,6 @@ date: 2026-04-02 06:31:00 +0800
 categories: [tech]
 tags: [AI工具, 人工智慧, 數位轉型, 工作效率, 科技趨勢]
 author: Sun ny
-image: /assets/images/posts/2026-04-02-ai-assistant-tools-guide-cover.webp
 description: "AI 助手工具在 2026 年已成為職場必備技能。本文整理最實用的 AI 工具類型、應用場景與使用技巧，幫助你提升工作效率、減少重複性工作。"
 ---
 

@@ -5,7 +5,6 @@ date: 2026-04-01 12:38:00 +0800
 categories: [tech]
 tags: [AI, ChatGPT, Claude, Gemini, 工具比較, 人工智慧]
 author: Sun ny
-image: /assets/images/posts/2026-04-01-ai-tools-comparison-chatgpt-claude-gemini-cover.webp
 description: "2026 年三大 AI 助手 ChatGPT、Claude、Gemini 完整比較！從功能、價格、繁體中文支援到使用場景，幫你找到最適合的 AI 工具。"
 ---
 

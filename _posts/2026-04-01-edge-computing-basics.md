@@ -5,7 +5,6 @@ date: 2026-04-01 12:55:00 +0800
 categories: [tech]
 tags: [科技, 邊緣運算, 物聯網, 5G, 雲端運算]
 author: Sun ny
-image: /assets/images/posts/2026-04-01-edge-computing-basics-cover.webp
 description: "邊緣運算將運算能力推向資料產生的源頭，大幅降低延遲、提升即時性。本文帶你了解這項改變雲端運算格局的技術。"
 ---
 

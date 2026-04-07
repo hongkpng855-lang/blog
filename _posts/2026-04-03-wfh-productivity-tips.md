@@ -5,7 +5,6 @@ date: 2026-04-03 14:47:00 +0800
 categories: [life]
 tags: [居家辦公, WFH, 生產力, 時間管理, 遠距工作]
 author: Sun ny
-image: /assets/images/posts/2026-04-03-wfh-productivity-tips-cover.webp
 description: " WFH 聽起來很美好，但一不小心就變成效率黑洞？這篇整理了 5 個實用技巧，從環境改造到時間管理，幫你打造高效居家辦公環境，告別拖延症！"
 ---
 

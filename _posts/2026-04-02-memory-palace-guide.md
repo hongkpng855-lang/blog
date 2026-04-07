@@ -5,7 +5,6 @@ date: 2026-04-02 03:24:00 +0800
 categories: [learning]
 tags: [記憶技巧, 學習方法, 記憶宮殿, 高效學習]
 author: Sun ny
-image: /assets/images/posts/2026-04-02-memory-palace-guide-cover.webp
 description: "還在為背不起來的考試內容煩惱嗎？本文深入解析記憶宮殿法的原理與實作步驟，結合現代科學驗證，幫助你建立高效記憶系統，讓知識真正內化。"
 ---
 

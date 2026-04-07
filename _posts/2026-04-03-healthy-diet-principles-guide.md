@@ -5,7 +5,6 @@ date: 2026-04-03 11:03:17 +0800
 categories: [health]
 tags: [健康, 飲食, 營養]
 author: Sun ny
-image: /assets/images/posts/2026-04-03-healthy-diet-principles-guide-cover.webp
 description: "掌握健康飲食原則，打造均衡營養的日常生活"
 ---
 

@@ -5,7 +5,6 @@ date: 2026-04-03 09:21:00 +0800
 categories: [health]
 tags: [運動習慣, 健身入門, 日常運動, 習慣養成, 健康生活]
 author: Sun ny
-image: /assets/images/posts/2026-04-03-exercise-habits-guide-cover.webp
 description: "養成運動習慣不需要意志力，需要的是正確的方法。本文分享如何從零開始建立運動習慣，讓運動成為生活的一部分，而不是三分鐘熱度。"
 ---
 

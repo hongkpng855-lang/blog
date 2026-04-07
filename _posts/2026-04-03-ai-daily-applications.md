@@ -5,7 +5,6 @@ date: 2026-04-03 19:36:00 +0800
 categories: [tech]
 tags: [人工智慧, AI應用, 科技生活, 數位轉型, 智慧生活]
 author: Sun ny
-image: /assets/images/posts/2026-04-03-ai-daily-applications-cover.webp
 description: "AI不再只是科幻電影的情節，而是日常生活的幫手。本文介紹AI在各領域的實際應用，讓你善用科技提升生活品質。"
 ---
 

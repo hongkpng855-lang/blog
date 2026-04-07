@@ -5,7 +5,6 @@ date: 2026-04-02 13:08:00 +0800
 categories: [life]
 tags: [生活品質, 日常習慣, 生活技巧, 自我提升, 幸福感]
 author: Sun ny
-image: /assets/images/posts/2026-04-02-improve-life-quality-cover.webp
 description: "生活品質的提升不需要大動作，而是來自每天微小的改變。本文分享10個每天只需5分鐘就能做到的小習慣，讓你慢慢活出更好的生活。"
 ---
 

@@ -5,7 +5,6 @@ date: 2026-04-02 17:57:00 +0800
 categories: [tech]
 tags: [數位轉型, 科技趨勢, AI應用, 數位能力, 職場技能]
 author: Sun ny
-image: /assets/images/posts/2026-04-02-digital-transformation-guide-cover.webp
 description: "數位轉型不再是選項，而是必然。本文介紹數位轉型的核心概念，以及企業和個人如何實際開始這條路，在快速變化的時代保持競爭力。"
 ---
 

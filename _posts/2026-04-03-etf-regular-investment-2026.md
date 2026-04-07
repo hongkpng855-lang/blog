@@ -5,7 +5,6 @@ date: 2026-04-03 12:01:00 +0800
 categories: [investment]
 tags: [ETF, 定期定額, 投資理財, 2026, 被動投資]
 author: Sun ny
-image: /assets/images/posts/2026-04-03-etf-regular-investment-2026-cover.webp
 description: "想開始投資卻不知從何下手？本篇 2026 年最新 ETF 定期定額指南，帶你了解為什麼定期定額是最適合新手的投資方式，比較熱門 ETF 標的，並提供不同年齡層的資產配置建議。"
 ---
 

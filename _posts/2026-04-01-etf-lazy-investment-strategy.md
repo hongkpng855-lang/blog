@@ -5,7 +5,6 @@ date: 2026-04-01 06:58:08 +0800
 categories: [investment]
 tags: [投資, ETF, 被動投資, 資產配置, 理財]
 author: Sun ny
-image: /assets/images/posts/2026-04-01-etf-lazy-investment-strategy-cover.webp
 description: "想投資卻不想花太多時間研究個股？ETF 懶人投資術讓你用簡單策略，輕鬆打造穩健的投資組合，實現財富穩定增長。"
 ---
 

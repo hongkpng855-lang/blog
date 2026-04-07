@@ -5,7 +5,6 @@ date: 2026-04-02 15:50:00 +0800
 categories: [life]
 tags: [斷捨離, 整理收納, 極簡生活, 生活品質, 空間管理]
 author: Sun ny
-image: /assets/images/posts/2026-04-02-decluttering-guide-cover.webp
 description: "家裡東西太多讓你心煩？本文提供5步驟斷捨離實踐指南，幫你有系統地整理空間，讓家變成真正讓你放鬆的地方。"
 ---
 

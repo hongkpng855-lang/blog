@@ -5,7 +5,6 @@ date: 2026-04-03 09:57:00 +0800
 categories: [health]
 tags: [護眼保健, 眼睛健康, 藍光傷害, 眼睛疲勞, 視力保護]
 author: Sun ny
-image: /assets/images/posts/2026-04-03-eye-care-guide-cover.webp
 description: "3C時代，眼睛健康面臨前所未有的挑戰。本文分享完整的護眼指南，從日常習慣到營養補充，幫你保護珍貴的視力。"
 ---
 

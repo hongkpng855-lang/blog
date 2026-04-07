@@ -5,7 +5,6 @@ date: 2026-04-01 14:45:00 +0800
 categories: [health]
 tags: [健康, 飲食營養, 均衡飲食, 健康生活, 營養知識]
 author: Sun ny
-image: /assets/images/posts/2026-04-01-healthy-diet-guide-cover.webp
 description: "「人如其食」——你吃進什麼，身體就會反映什麼。建立健康的飲食習慣，是維護身體健康最基本也最重要的一步。"
 ---
 

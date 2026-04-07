@@ -5,7 +5,6 @@ date: 2026-03-31 09:00:00 +0800
 categories: [learning]
 tags: [AI, 終身學習, 職場技能, 數位轉型, 學習策略]
 author: Sun ny
-image: /assets/images/posts/2026-03-31-ai-era-lifelong-learning-cover.webp
 description: "在 AI 快速發展的時代，終身學習不再是選項，而是生存必需。本文分享五大實用策略，幫助你在智慧浪潮中保持競爭力，擁抱學習新常態。"
 ---
 

@@ -5,7 +5,6 @@ date: 2026-04-04 01:02:30 +0800
 categories: [health]
 tags: [睡眠, 健康, 生活習慣, 睡眠品質]
 author: Sun ny
-image: /assets/images/posts/2026-04-04-sleep-quality-improvement-cover.webp
 description: "總是躺在床上翻來覆去睡不著？本文整理7個科學實證的睡眠改善方法，從調整睡眠環境到建立規律作息，幫你告別失眠、提升睡眠品質，一覺到天亮。"
 ---
 

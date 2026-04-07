@@ -5,7 +5,6 @@ date: 2026-04-03 18:24:00 +0800
 categories: [investment]
 tags: [ETF, 退休規劃, 資產配置, 被動收入]
 author: Sun ny
-image: /assets/images/posts/2026-04-03-etf-retirement-planning-guide-cover.webp
 description: "想用 ETF 打造退休金？本文深入解析 3 階段配置法，從累積期到提領期，教你如何調整股債比例，建立穩健的被動收入現金流，實現財務自由。"
 ---
 

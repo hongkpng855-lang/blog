@@ -5,7 +5,6 @@ date: 2026-04-07 03:22:34 +0800
 categories: [健康]
 tags: [睡眠品質, 失眠改善, 健康習慣, 生活作息, 深層睡眠]
 author: Sun ny
-image: /assets/images/posts/2026-04-07-improve-sleep-quality-7-habits-cover.webp
 description: "長期睡不好讓你白天精神不濟？本文整理七個改善睡眠品質的實用習慣，從建立規律作息、睡前遠離手機到打造舒適睡眠環境，幫你找回一夜好眠。"
 ---
 

@@ -5,7 +5,6 @@ date: 2026-04-05 10:10:21 +0800
 categories: [investment]
 tags: [投資, 理財, ETF, 新手入門]
 author: Sun ny
-image: /assets/images/posts/2026-04-05-investment-beginners-guide-cover.webp
 description: "想開始投資卻不知從何下手？這篇投資理財入門指南，帶你從建立正確觀念到選擇適合的工具，一步步開啟你的財富增值之路。"
 ---
 

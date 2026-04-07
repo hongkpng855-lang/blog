@@ -5,7 +5,6 @@ date: 2026-04-03 13:14:00 +0800
 categories: [health]
 tags: [免疫力, 自然保健, 健康防護, 日常養生, 預防醫學]
 author: Sun ny
-image: /assets/images/posts/2026-04-03-boost-immunity-naturally-cover.webp
 description: "免疫力是人體最好的醫生。本文分享經科學驗證的自然方法，幫助你提升免疫力，建立強健的健康防護網。"
 ---
 

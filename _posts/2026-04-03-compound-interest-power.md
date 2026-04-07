@@ -5,7 +5,6 @@ date: 2026-04-03 08:06:00 +0800
 categories: [investment]
 tags: [複利, 投資理財, 長期投資, 財富累積, 被動收入]
 author: Sun ny
-image: /assets/images/posts/2026-04-03-compound-interest-power-cover.webp
 description: "愛因斯坦稱複利為世界第八大奇蹟。本文詳細解釋複利的運作原理，以及如何運用複利效應，讓時間成為你累積財富的最佳夥伴。"
 ---
 

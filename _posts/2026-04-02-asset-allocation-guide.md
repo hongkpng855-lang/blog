@@ -5,7 +5,6 @@ date: 2026-04-02 23:28:00 +0800
 categories: [investment]
 tags: [資產配置, 投資組合, ETF投資, 風險管理, 理財規劃]
 author: Sun ny
-image: /assets/images/posts/2026-04-02-asset-allocation-guide-cover.webp
 description: "資產配置是投資成功的關鍵。本文介紹資產配置的基本概念、簡單的配置策略，以及如何根據自己的情況建立適合的投資組合。"
 ---
 

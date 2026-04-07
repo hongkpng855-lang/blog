@@ -5,7 +5,6 @@ date: 2026-04-02 20:02:00 +0800
 categories: [learning]
 tags: [番茄鐘, 時間管理, 專注力, 工作效率, 生產力]
 author: Sun ny
-image: /assets/images/posts/2026-04-02-pomodoro-technique-guide-cover.webp
 description: "總是分心、拖延、無法專注？番茄鐘工作法是最簡單有效的時間管理技巧。本文詳細介紹番茄鐘的原理、步驟和實戰技巧。"
 ---
 

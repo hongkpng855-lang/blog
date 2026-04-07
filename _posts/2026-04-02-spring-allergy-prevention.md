@@ -5,7 +5,6 @@ date: 2026-04-02 10:19:00 +0800
 categories: [health]
 tags: [健康, 過敏, 春季, 換季過敏, 花粉症]
 author: Sun ny
-image: /assets/images/posts/2026-04-02-spring-allergy-prevention-cover.webp
 description: "春季過敏讓你鼻水直流、眼睛癢到受不了？本文整理醫師認證的預防對策，從居家環境、外出防護到飲食調理，讓你安心度過花粉季節。"
 ---
 

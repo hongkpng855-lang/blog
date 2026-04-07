@@ -5,7 +5,6 @@ date: 2026-04-02 03:18:00 +0800
 categories: [investment]
 tags: [ETF, 定期定額, 投資入門, 理財, 被動收入]
 author: Sun ny
-image: /assets/images/posts/2026-04-02-etf-regular-investment-beginner-guide-cover.webp
 description: "想開始投資卻不知從何下手？本篇ETF定期定額入門指南，帶你認識ETF優勢、挑選策略與實戰步驟，讓新手也能穩健累積財富，邁向財務自由之路。"
 ---
 

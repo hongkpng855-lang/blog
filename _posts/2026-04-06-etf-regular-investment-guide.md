@@ -5,7 +5,6 @@ date: 2026-04-06 23:45:00 +0800
 categories: [investment]
 tags: [ETF, 定期定額, 投資, 小資族, 理財]
 author: Sun ny
-image: /assets/images/posts/2026-04-06-etf-regular-investment-guide-cover.webp
 description: "想開始投資卻不知道從何下手？這篇 ETF 定期定額入門指南，專為小資族設計，從開戶流程、ETF 選擇到扣款設定，一步步帶你建立穩健的投資習慣，讓薪水不再只是過路財神。"
 ---
 

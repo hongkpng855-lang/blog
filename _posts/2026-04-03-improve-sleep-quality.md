@@ -5,7 +5,6 @@ date: 2026-04-03 09:28:00 +0800
 categories: [health]
 tags: [睡眠品質, 好眠指南, 健康生活, 日常保健, 睡眠習慣]
 author: Sun ny
-image: /assets/images/posts/2026-04-03-improve-sleep-quality-cover.webp
 description: "睡眠占人生三分之一的時間，卻常被忽略。本文分享經科學驗證的改善睡眠方法，幫助你建立良好的睡眠習慣，提升生活品質。"
 ---
 
