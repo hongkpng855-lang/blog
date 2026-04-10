@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-03-29-retirement-financial-planning-cover.webp
 layout: post
 title: "退休理財規劃：從今天開始打造無憂晚年"
 date: 2026-03-29 05:17:00 +0800
