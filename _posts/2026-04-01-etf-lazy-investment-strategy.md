@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-01-etf-lazy-investment-strategy-cover.webp
 layout: post
 title: "ETF 懶人投資術：用最少時間打造穩健財富"
 date: 2026-04-01 06:58:08 +0800

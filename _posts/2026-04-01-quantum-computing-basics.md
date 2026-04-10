@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-01-quantum-computing-basics-cover.webp
 layout: post
 title: "量子運算入門：次世代電腦革命的核心技術"
 date: 2026-04-01 08:50:00 +0800

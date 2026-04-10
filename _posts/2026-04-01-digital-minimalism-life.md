@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-01-digital-minimalism-life-cover.webp
 layout: post
 title: "數位極簡主義：在資訊爆炸時代重获生活主導權"
 date: 2026-04-01 05:55:00 +0800

@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-01-asset-allocation-strategy-cover.webp
 layout: post
 title: "資產配置策略：打造穿越多空循環的投資組合"
 date: 2026-04-01 12:30:00 +0800

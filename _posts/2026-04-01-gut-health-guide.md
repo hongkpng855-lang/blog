@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-01-gut-health-guide-cover.webp
 layout: post
 title: "腸道健康指南：照顧你的「第二大腦」提升整體健康"
 date: 2026-04-01 09:25:00 +0800

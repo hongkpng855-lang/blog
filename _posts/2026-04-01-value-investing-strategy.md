@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-01-value-investing-strategy-cover.webp
 layout: post
 title: "價值投資策略：巴菲特推崇的長期致富心法"
 date: 2026-04-01 07:40:00 +0800

@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-01-active-learning-method-cover.webp
 layout: post
 title: "主動學習法：從被動接收轉化為主動探索"
 date: 2026-04-01 10:55:00 +0800

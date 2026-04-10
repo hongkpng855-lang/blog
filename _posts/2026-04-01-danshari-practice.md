@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-01-danshari-practice-cover.webp
 layout: post
 title: "斷捨離實踐：從物品到心靈的徹底整理術"
 date: 2026-04-01 11:40:00 +0800

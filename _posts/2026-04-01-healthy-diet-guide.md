@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-01-healthy-diet-guide-cover.webp
 layout: post
 title: "健康飲食指南：建立均衡營養的飲食習慣"
 date: 2026-04-01 14:45:00 +0800

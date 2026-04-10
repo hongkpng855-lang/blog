@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-01-passive-income-beginner-guide-cover.webp
 layout: post
 title: "被動收入入門指南：小資族也能開始的7種方法"
 date: 2026-04-01 16:44:00 +0800

@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-01-ai-code-assistant-guide-cover.webp
 layout: post
 title: "AI 程式助手完全指南：提升開發效率的實戰技巧"
 date: 2026-04-01 07:06:05 +0800
