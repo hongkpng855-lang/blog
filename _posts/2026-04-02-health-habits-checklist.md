@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-02-health-habits-checklist-cover.webp
 layout: post
 title: "健康生活習慣檢核表-12個讓你遠離醫院的日常實踐"
 date: 2026-04-02 09:38:00 +0800

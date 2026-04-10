@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-02-feynman-learning-technique-cover.webp
 layout: post
 title: "費曼學習法-四步驟讓你真正學會任何知識"
 date: 2026-04-02 12:42:00 +0800

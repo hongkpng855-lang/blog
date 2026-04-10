@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-02-cornell-note-taking-method-cover.webp
 layout: post
 title: "康乃爾筆記法：讓學習效率提升 300% 的終極秘訣"
 date: 2026-04-02 11:18:35 +0800

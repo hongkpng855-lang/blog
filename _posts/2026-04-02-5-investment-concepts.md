@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-02-5-investment-concepts-cover.webp
 layout: post
 title: "投資前必懂的5個觀念-避開新手常見陷阱"
 date: 2026-04-02 23:08:00 +0800

@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-02-etf-regular-investment-beginner-guide-cover.webp
 layout: post
 title: "ETF定期定額入門指南：2026新手從零開始的財富累積術"
 date: 2026-04-02 03:18:00 +0800

@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-02-ai-agent-2026-trends-cover.webp
 layout: post
 title: "2026 AI Agent 全面崛起：從工具到自主決策的關鍵轉變"
 date: 2026-04-02 14:19:00 +0800

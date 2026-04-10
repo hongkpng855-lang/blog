@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-02-efficient-reading-method-cover.webp
 layout: post
 title: "高效閱讀法-如何在有限時間內讀懂更多書"
 date: 2026-04-02 15:04:00 +0800

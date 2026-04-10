@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-02-digital-transformation-guide-cover.webp
 layout: post
 title: "數位轉型入門-企業與個人如何跟上時代腳步"
 date: 2026-04-02 17:57:00 +0800

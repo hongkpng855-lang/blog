@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-02-ai-writing-tools-review-cover.webp
 layout: post
 title: "2026 AI 寫作工具評測：ChatGPT、Claude、Gemini實測心得"
 date: 2026-04-02 06:24:18 +0800

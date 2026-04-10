@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-02-gut-health-guide-cover.webp
 layout: post
 title: "腸道健康指南-從飲食開始改善全身狀態"
 date: 2026-04-02 18:36:00 +0800

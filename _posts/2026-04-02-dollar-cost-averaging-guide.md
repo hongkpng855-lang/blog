@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-02-dollar-cost-averaging-guide-cover.webp
 layout: post
 title: "定期定額投資-用時間複利累積財富"
 date: 2026-04-02 23:00:00 +0800

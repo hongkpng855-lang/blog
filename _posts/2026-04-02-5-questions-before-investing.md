@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-02-5-questions-before-investing-cover.webp
 layout: post
 title: "投資前必問的5個問題-評估自己是否準備好"
 date: 2026-04-02 17:14:00 +0800
