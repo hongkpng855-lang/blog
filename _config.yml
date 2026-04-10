@@ -19,7 +19,7 @@ plugins:
 permalink: /:categories/:year/:month/:day/:title:output_ext
 
 paginate: 10
-paginate_path: "/page:num/"
+paginate_path: "/page/:num/"
 
 defaults:
   - scope:
