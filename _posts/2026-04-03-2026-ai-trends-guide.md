@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-03-2026-ai-trends-guide-cover.webp
 layout: post
 title: "2026 AI 趨勢全解析：從實驗室走向企業實戰的關鍵轉折"
 date: 2026-04-03 23:44:15 +0800

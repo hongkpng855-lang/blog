@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-02-pomodoro-technique-guide-cover.webp
 layout: post
 title: "番茄鐘工作法-用時間切片提升專注力"
 date: 2026-04-02 20:02:00 +0800

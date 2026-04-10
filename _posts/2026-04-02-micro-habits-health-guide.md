@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-02-micro-habits-health-guide-cover.webp
 layout: post
 title: "微習慣健康法：5個每天只要1分鐘的小動作，讓你不知不覺變健康"
 date: 2026-04-02 10:01:00 +0800

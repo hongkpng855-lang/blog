@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-02-memory-palace-guide-cover.webp
 layout: post
 title: "記憶宮殿法：讓你過目不忘的古老秘技"
 date: 2026-04-02 03:24:00 +0800

@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-02-must-learn-ai-tools-2026-cover.webp
 layout: post
 title: "2026年必學的5個AI工具-提升工作效率的實戰指南"
 date: 2026-04-02 14:08:00 +0800

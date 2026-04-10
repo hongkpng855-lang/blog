@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-02-investment-mindset-7-concepts-cover.webp
 layout: post
 title: "投資新手必備的7個正確觀念-避開常見陷阱"
 date: 2026-04-02 13:36:00 +0800

@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-03-2026-ai-trends-complete-guide-cover.webp
 layout: post
 title: "2026 AI 趨勢完整指南：從生成式 AI 到自主代理，掌握 12 大關鍵發展"
 date: 2026-04-03 03:40:49 +0800

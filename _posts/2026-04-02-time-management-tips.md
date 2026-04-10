@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-02-time-management-tips-cover.webp
 layout: post
 title: "時間管理技巧：讓每一天更有價值的 7 個實用方法"
 date: 2026-04-02 07:59:36 +0800

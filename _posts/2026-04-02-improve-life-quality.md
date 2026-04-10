@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-02-improve-life-quality-cover.webp
 layout: post
 title: "提升生活品質的10個微小改變-每天5分鐘就能做到"
 date: 2026-04-02 13:08:00 +0800

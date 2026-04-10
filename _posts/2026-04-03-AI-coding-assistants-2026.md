@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-03-AI-coding-assistants-2026-cover.webp
 layout: post
 title: "2026 年必備 AI 程式設計助手：從 GitHub Copilot 到 Cursor 的實戰指南"
 date: 2026-04-03 13:59:11 +0800
