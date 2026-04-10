@@ -2,7 +2,7 @@
 layout: default
 pagination:
   enabled: true
-permalink: '/page/:num/'
+  permalink: '/page/:num/'
 ---
 
 <!-- 文章列表 -->
@@ -56,10 +56,11 @@ permalink: '/page/:num/'
           {% endfor %}
         </div>
 
-        <!-- 分頁導航 -->
+        <!-- 分頁導航 - 智慧分頁：顯示頭七頁 + 省略號 + 最後一頁 -->
         {% if paginator.total_pages > 1 %}
         <nav aria-label="Page navigation" class="mt-4">
-          <ul class="pagination justify-content-center">
+          <ul class="pagination justify-content-center flex-wrap">
+            <!-- 上一頁 -->
             {% if paginator.previous_page %}
             <li class="page-item">
               <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}">
@@ -72,22 +73,57 @@ permalink: '/page/:num/'
             </li>
             {% endif %}
 
-            {% for page in (1..paginator.total_pages) %}
-              {% if page == paginator.page %}
-              <li class="page-item active">
-                <span class="page-link">{{ page }}</span>
-              </li>
-              {% elsif page == 1 %}
-              <li class="page-item">
-                <a class="page-link" href="{{ '/' | relative_url }}">{{ page }}</a>
-              </li>
-              {% else %}
-              <li class="page-item">
-                <a class="page-link" href="{{ site.baseurl }}/page/{{ page }}/">{{ page }}</a>
-              </li>
+            <!-- 第一頁 -->
+            {% if paginator.page == 1 %}
+            <li class="page-item active"><span class="page-link">1</span></li>
+            {% else %}
+            <li class="page-item"><a class="page-link" href="{{ '/' | relative_url }}">1</a></li>
+            {% endif %}
+
+            <!-- 第 2-7 頁 -->
+            {% for page in (2..7) %}
+              {% if page <= paginator.total_pages %}
+                {% if page == paginator.page %}
+                <li class="page-item active"><span class="page-link">{{ page }}</span></li>
+                {% else %}
+                <li class="page-item"><a class="page-link" href="{{ site.baseurl }}/page/{{ page }}/">{{ page }}</a></li>
+                {% endif %}
               {% endif %}
             {% endfor %}
 
+            <!-- 省略號與最後一頁（當總頁數大於 7 時） -->
+            {% if paginator.total_pages > 7 %}
+              <!-- 如果當前頁在第 7 頁之後，顯示當前頁附近 -->
+              {% if paginator.page > 7 %}
+                {% if paginator.page > 8 %}
+                <li class="page-item disabled"><span class="page-link">...</span></li>
+                {% endif %}
+                
+                {% if paginator.page < paginator.total_pages %}
+                <li class="page-item active"><span class="page-link">{{ paginator.page }}</span></li>
+                {% endif %}
+                
+                {% assign next_page = paginator.page | plus: 1 %}
+                {% if next_page < paginator.total_pages %}
+                <li class="page-item"><a class="page-link" href="{{ site.baseurl }}/page/{{ next_page }}/">{{ next_page }}</a></li>
+                {% endif %}
+                
+                {% if paginator.page < paginator.total_pages | minus: 1 %}
+                <li class="page-item disabled"><span class="page-link">...</span></li>
+                {% endif %}
+              {% else %}
+                <li class="page-item disabled"><span class="page-link">...</span></li>
+              {% endif %}
+              
+              <!-- 最後一頁 -->
+              {% if paginator.page == paginator.total_pages %}
+              <li class="page-item active"><span class="page-link">{{ paginator.total_pages }}</span></li>
+              {% else %}
+              <li class="page-item"><a class="page-link" href="{{ site.baseurl }}/page/{{ paginator.total_pages }}/">{{ paginator.total_pages }}</a></li>
+              {% endif %}
+            {% endif %}
+
+            <!-- 下一頁 -->
             {% if paginator.next_page %}
             <li class="page-item">
               <a class="page-link" href="{{ paginator.next_page_path | relative_url }}">
