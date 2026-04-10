@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-04-digital-detox-guide-cover.webp
 layout: post
 title: "數位排毒指南-在資訊洪流中找回專注與自由"
 date: 2026-04-04 03:01:00 +0800

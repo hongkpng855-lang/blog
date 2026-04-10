@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-05-investment-beginners-guide-cover.webp
 layout: post
 title: "投資理財入門：新手如何踏出第一步？"
 date: 2026-04-05 10:10:21 +0800
