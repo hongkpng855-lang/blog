@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-03-20-如何在-GitHub-Pages-建立個人部落格-cover.webp
 layout: post
 title: "如何在 GitHub Pages 建立個人部落格"
 date: 2026-03-20 10:00:00 +0800
