@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-03-boost-immunity-naturally-cover.webp
 layout: post
 title: "提升免疫力的自然方法-打造健康防護網"
 date: 2026-04-03 13:14:00 +0800

@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-03-seasonal-herbal-tea-cover.webp
 layout: post
 title: "四季養生茶飲-順應節氣的天然保健法"
 date: 2026-04-03 09:41:00 +0800

@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-03-ai-daily-applications-cover.webp
 layout: post
 title: "AI人工智慧的日常應用-讓科技為生活加分"
 date: 2026-04-03 19:36:00 +0800

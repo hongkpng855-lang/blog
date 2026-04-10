@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-05-2026-ai-tools-lazy-guide-cover.webp
 layout: post
 title: "2026 AI 工具懶人包：一站式掌握高效生產力神器"
 date: 2026-04-05 15:22:44 +0800

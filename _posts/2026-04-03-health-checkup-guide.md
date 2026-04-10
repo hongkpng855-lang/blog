@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-03-health-checkup-guide-cover.webp
 layout: post
 title: "健康檢查完全指南-預防勝於治療的關鍵"
 date: 2026-04-03 09:48:00 +0800

@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-03-etf-investment-basics-cover.webp
 layout: post
 title: "ETF投資入門-用最簡單的方式參與市場"
 date: 2026-04-03 00:37:00 +0800

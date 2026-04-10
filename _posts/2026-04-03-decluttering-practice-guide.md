@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-03-decluttering-practice-guide-cover.webp
 layout: post
 title: "斷捨離實踐指南-從減法生活找回自在"
 date: 2026-04-03 22:17:00 +0800

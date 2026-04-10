@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-03-boost-immunity-habits-cover.webp
 layout: post
 title: "提升免疫力的7個日常習慣-讓身體自然抵抗疾病"
 date: 2026-04-03 09:10:00 +0800

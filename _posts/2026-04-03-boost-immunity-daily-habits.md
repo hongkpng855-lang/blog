@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-03-boost-immunity-daily-habits-cover.webp
 layout: post
 title: "提升免疫力的日常習慣-從生活細節開始守護健康"
 date: 2026-04-03 07:51:00 +0800

@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-04-sleep-hygiene-guide-cover.webp
 layout: post
 title: "睡眠衛生全攻略-建立良好睡眠習慣的科學方法"
 date: 2026-04-04 01:06:00 +0800

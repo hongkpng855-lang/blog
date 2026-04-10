@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-04-2026-ai-coding-tools-trends-cover.webp
 layout: post
 title: "2026 AI 程式開發工具趨勢：開發者必備的智慧助手指南"
 date: 2026-04-04 16:56:00 +0800

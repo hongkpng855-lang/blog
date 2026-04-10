@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-04-sleep-quality-improvement-cover.webp
 layout: post
 title: "睡不好嗎？7個科學實證方法幫你提升睡眠品質"
 date: 2026-04-04 01:02:30 +0800

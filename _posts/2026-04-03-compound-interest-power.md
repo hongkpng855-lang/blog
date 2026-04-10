@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-03-compound-interest-power-cover.webp
 layout: post
 title: "複利的力量-讓時間幫你累積財富"
 date: 2026-04-03 08:06:00 +0800

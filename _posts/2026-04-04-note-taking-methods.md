@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-04-note-taking-methods-cover.webp
 layout: post
 title: "高效筆記方法比較-找出最適合你的學習系統"
 date: 2026-04-04 02:17:00 +0800

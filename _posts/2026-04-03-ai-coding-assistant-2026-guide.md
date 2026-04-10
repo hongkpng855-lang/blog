@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-03-ai-coding-assistant-2026-guide-cover.webp
 layout: post
 title: "2026 AI 程式設計工具全攻略：Claude Code、Cursor、Copilot 該選哪個？"
 date: 2026-04-03 07:56:00 +0800

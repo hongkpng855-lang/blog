@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-03-memory-palace-method-cover.webp
 layout: post
 title: "記憶宮殿法-古老技巧的現代應用"
 date: 2026-04-03 12:01:00 +0800

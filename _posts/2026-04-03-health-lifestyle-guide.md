@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-03-health-lifestyle-guide-cover.webp
 layout: post
 title: "2026 健康生活全攻略：從微小習慣開始，打造可持續的健康人生"
 date: 2026-04-03 20:34:00 +0800

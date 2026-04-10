@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-03-improve-sleep-quality-cover.webp
 layout: post
 title: "改善睡眠品質的實用方法-讓你一夜好眠"
 date: 2026-04-03 09:28:00 +0800

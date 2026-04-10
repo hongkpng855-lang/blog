@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-03-etf-regular-investment-2026-cover.webp
 layout: post
 title: "ETF 定期定額投資策略：2026 年懶人理財完整指南"
 date: 2026-04-03 12:01:00 +0800

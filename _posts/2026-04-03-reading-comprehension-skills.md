@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-03-reading-comprehension-skills-cover.webp
 layout: post
 title: "閱讀理解技巧-讓知識真正進入大腦"
 date: 2026-04-03 21:22:00 +0800

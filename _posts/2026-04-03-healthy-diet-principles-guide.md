@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-03-healthy-diet-principles-guide-cover.webp
 layout: post
 title: "健康飲食原則：打造均衡營養的日常"
 date: 2026-04-03 11:03:17 +0800

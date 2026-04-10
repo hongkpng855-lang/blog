@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-03-healthy-diet-principles-cover.webp
 layout: post
 title: "健康飲食的基本原則-吃得對比吃得好更重要"
 date: 2026-04-03 09:16:00 +0800

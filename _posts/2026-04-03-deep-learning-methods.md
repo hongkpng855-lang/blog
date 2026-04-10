@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-03-deep-learning-methods-cover.webp
 layout: post
 title: "深度學習法-讓知識真正內化的秘訣"
 date: 2026-04-03 17:41:00 +0800

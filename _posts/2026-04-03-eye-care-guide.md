@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-03-eye-care-guide-cover.webp
 layout: post
 title: "護眼保健全攻略-現代人的眼睛健康指南"
 date: 2026-04-03 09:57:00 +0800

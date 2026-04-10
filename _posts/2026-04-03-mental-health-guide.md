@@ -1,4 +1,5 @@
 ---
+image: /assets/images/posts/2026-04-03-mental-health-guide-cover.webp
 layout: post
 title: "心理健康維護指南-在忙碌中找到內心平靜"
 date: 2026-04-03 09:35:00 +0800
