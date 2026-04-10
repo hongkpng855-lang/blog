@@ -1,5 +1,5 @@
 ---
-image: /assets/posts/2026-04-06-etf-regular-investment-guide-cover.webp
+image: /assets/images/posts/2026-04-06-etf-regular-investment-guide-cover.webp
 layout: post
 title: "ETF 定期定額入門指南：小資族也能輕鬆上手的投資策略"
 date: 2026-04-06 23:45:00 +0800
@@ -8,7 +8,6 @@ tags: [ETF, 定期定額, 投資, 小資族, 理財]
 author: Sun ny
 description: "想開始投資卻不知道從何下手？這篇 ETF 定期定額入門指南，專為小資族設計，從開戶流程、ETF 選擇到扣款設定，一步步帶你建立穩健的投資習慣，讓薪水不再只是過路財神。"
 ---
-image: /assets/posts/2026-04-06-etf-regular-investment-guide-cover.webp
 
 每個月領薪水的時候，你是不是也有這樣的煩惱：錢剛進戶頭，沒幾天就不知道花到哪去了？想投資，又怕風險太高、門檻太貴？其實，ETF 定期定額可能是最適合新手的投資方式，讓你不用盯盤、不用選股，也能慢慢累積資產。
 

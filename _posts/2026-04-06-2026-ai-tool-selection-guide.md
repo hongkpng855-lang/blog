@@ -1,5 +1,5 @@
 ---
-image: /assets/posts/2026-04-06-2026-ai-tool-selection-guide-cover.webp
+image: /assets/images/posts/2026-04-06-2026-ai-tool-selection-guide-cover.webp
 layout: post
 title: "2026 AI 工具怎麼選？七大分類帶你找到最適合的神隊友"
 date: 2026-04-06 16:04:00 +0800
@@ -8,7 +8,6 @@ tags: [AI工具, ChatGPT, 生產力, AI應用, 數位轉型]
 author: Sun ny
 description: "2026 年 AI 工具百百種，從 ChatGPT、Claude 到各種專業應用，到底該怎麼選？本文將 30+ 款熱門 AI 工具分成七大類，幫你快速找到最適合的工作夥伴，提升生產力不再迷茫。"
 ---
-image: /assets/posts/2026-04-06-2026-ai-tool-selection-guide-cover.webp
 
 ## 前言：AI 工具爆炸時代，選擇困難怎麼辦？
 
@@ -125,6 +124,5 @@ image: /assets/posts/2026-04-06-2026-ai-tool-selection-guide-cover.webp
 AI 不是要取代你，而是幫你騰出時間，做更有價值的事。現在就開始，找到你的 AI 神隊友吧！
 
 ---
-image: /assets/posts/2026-04-06-2026-ai-tool-selection-guide-cover.webp
 
 *你有正在使用的 AI 工具嗎？歡迎在下方留言分享你的使用心得！*
