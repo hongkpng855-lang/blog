@@ -5,7 +5,7 @@ date: 2026-04-12 06:39:00 +0800
 categories: [life]
 tags: [極簡, 生活, 斷捨離, 減法生活, 極簡主義]
 author: Sun ny
-image: /assets/images/posts/2026-04-12-minimalist-living-guide-cover.webp
+image: /assets/images/posts/2026-04-12-極簡生活入門指南-cover.webp
 description: "想開始極簡生活卻不知從何下手？本文帶你了解極簡主義的核心概念、5大好處與7種實踐方法，讓你用減法找回生活的自由與幸福感。"
 ---
 
