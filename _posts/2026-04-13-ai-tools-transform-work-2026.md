@@ -5,7 +5,6 @@ date: 2026-04-13 10:32:00 +0800
 categories: [tech]
 tags: [AI 工具, 生產力, 辦公效率, 科技趨勢, 2026]
 author: Sun ny
-image: /assets/images/posts/2026-04-13-ai-tools-transform-work-2026-cover.webp
 description: "深入探討 2026 年 AI 工具如何徹底改變日常工作模式，從會議記錄、文件撰寫到簡報製作，AI 已成為職場效率提升的必備武器。本文精選實用工具與應用策略，助你掌握 AI 辦公新時代。"
 ---
 

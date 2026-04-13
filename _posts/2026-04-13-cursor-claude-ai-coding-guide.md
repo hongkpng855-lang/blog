@@ -5,7 +5,6 @@ date: 2026-04-13 00:46:00 +0800
 categories: [tech]
 tags: [AI, 程式開發, Cursor, Claude, 開發工具]
 author: Sun ny
-image: /assets/images/posts/2026-04-13-cursor-claude-ai-coding-guide-cover.webp
 description: "深入解析 Cursor 搭配 Claude AI 的程式開發實戰技巧，從安裝設定到進階應用，幫助開發者提升 300% 編程效率，適合新手與進階使用者。"
 ---
 

@@ -5,7 +5,6 @@ date: 2026-04-13 09:51:00 +0800
 categories: [investment]
 tags: [理財, 存錢, 儲蓄, 財務規劃, 2026]
 author: Sun ny
-image: /assets/images/posts/2026-04-13-smart-saving-methods-2026-cover.webp
 description: "想開始存錢卻不知從何下手？本文分享 2026 年最實用的 5 個存錢方法，從 52 週挑戰到高利活存，讓你輕鬆告別月光族，穩步邁向財務自由。"
 ---
 
