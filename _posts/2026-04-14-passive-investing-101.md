@@ -5,7 +5,7 @@ date: 2026-04-14 05:52:00 +0800
 categories: [investment]
 tags: [ETF, 被動投資, 理財, 財務自由]
 author: Sun ny
-image: /assets/images/posts/2026-04-14-passive-investing-101-cover.webp
+image: /assets/images/posts/2026-04-14-passive-investing-101-cover.svg
 description: "想實現財務自由卻不知從何開始？這篇被動投資入門指南，帶你認識 ETF、定期定額策略，用最簡單的方式建立屬於自己的自動賺錢系統。"
 ---
 
