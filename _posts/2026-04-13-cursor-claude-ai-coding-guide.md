@@ -8,7 +8,6 @@ tags: [AI, 程式開發, Cursor, Claude, 開發工具]
 author: Sun ny
 description: "深入解析 Cursor 搭配 Claude AI 的程式開發實戰技巧，從安裝設定到進階應用，幫助開發者提升 300% 編程效率，適合新手與進階使用者。"
 ---
-image: /assets/images/posts/2026-04-13-cursor-claude-ai-coding-guide-cover.webp
 
 還記得第一次用 AI 寫程式的感覺嗎？那種「哇，原來可以這樣」的驚喜感，直到現在還讓我印象深刻。
 
