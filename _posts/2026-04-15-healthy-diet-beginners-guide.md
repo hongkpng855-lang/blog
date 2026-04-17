@@ -2,6 +2,7 @@
 layout: post
 title: "健康飲食入門：2026 年最實用的均衡飲食指南"
 date: 2026-04-15 22:14:00 +0800
+image: /assets/images/posts/2026-04-15-healthy-diet-beginners-guide-cover.webp
 categories: [health]
 tags: [健康飲食, 均衡飲食, 營養學, 飲食指南]
 author: Sun ny

@@ -2,6 +2,7 @@
 layout: post
 title: "2026 線上學習平台推薦：9 大平台比較分析，找到最適合你的學習方式"
 date: 2026-04-14 18:35:00 +0800
+image: /assets/images/posts/2026-04-14-online-learning-platforms-2026-cover.webp
 categories: [learning]
 tags: [線上學習, 線上課程, 學習平台, 自我進修]
 author: Sun ny
