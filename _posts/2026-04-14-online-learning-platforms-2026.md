@@ -6,7 +6,6 @@ image: /assets/images/posts/2026-04-14-online-learning-platforms-2026-cover.webp
 categories: [learning]
 tags: [線上學習, 線上課程, 學習平台, 自我進修]
 author: Sun ny
-image: /assets/images/posts/2026-04-14-online-learning-platforms-2026-cover.webp
 description: "想找適合的線上學習平台嗎？本文比較 2026 年 9 大熱門平台，包含 Hahow、Udemy、PressPlay 等，分析特色、價格與適合對象，幫你找到最適合的學習方式。"
 ---
 

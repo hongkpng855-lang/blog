@@ -6,7 +6,6 @@ image: /assets/images/posts/2026-04-14-2026-small-capital-passive-income-cover.w
 categories: [investment]
 tags: [理財, ETF, 被動收入, 小資族]
 author: Sun ny
-image: /assets/images/posts/2026-04-14-2026-small-capital-passive-income-cover.webp
 description: "月薪3萬也能投資！2026年最完整的小資族理財指南，教你用ETF、定期定額打造穩定被動收入，實現財務自由第一步。"
 ---
 

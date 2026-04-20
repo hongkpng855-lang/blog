@@ -6,7 +6,6 @@ image: /assets/images/posts/2026-04-14-ai-investment-guide-cover.webp
 categories: [investment]
 tags: [AI投資, 智能理財, 機器人理財, 投資入門, 2026]
 author: Sun ny
-image: /assets/images/posts/2026-04-14-ai-investment-guide-cover.webp
 description: "想用 AI 幫你理財卻不知從何開始？這篇 2026 AI 投資入門指南，帶你了解智能理財的運作原理、優勢風險，以及適合新手的入門步驟，讓你輕鬆踏入智能投資的世界。"
 ---
 

@@ -6,7 +6,6 @@ image: /assets/images/posts/2026-04-14-digital-declutter-guide-cover.webp
 categories: [life]
 tags: [斷捨離, 數位生活, 整理, 生產力, 手機整理]
 author: Sun ny
-image: /assets/images/posts/2026-04-14-digital-declutter-guide-cover.webp
 description: "手機儲存空間總是爆滿？電腦桌面雜亂無章？這篇數位斷捨離指南教你用 5 個步驟清理數位雜物，找回專注力與平靜心境。"
 ---
 

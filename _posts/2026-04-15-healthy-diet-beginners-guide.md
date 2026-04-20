@@ -6,7 +6,6 @@ image: /assets/images/posts/2026-04-15-healthy-diet-beginners-guide-cover.webp
 categories: [health]
 tags: [健康飲食, 均衡飲食, 營養學, 飲食指南]
 author: Sun ny
-image: /assets/images/posts/2026-04-15-healthy-diet-beginners-guide-cover.webp
 description: "想要吃得健康卻不知從何開始？本文從三大營養素到每日飲食指南，帶你建立正確的飲食習慣，輕鬆打造健康體質。"
 ---
 

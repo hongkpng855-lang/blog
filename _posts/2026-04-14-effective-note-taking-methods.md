@@ -6,7 +6,6 @@ image: /assets/images/posts/2026-04-14-effective-note-taking-methods-cover.webp
 categories: [learning]
 tags: [筆記, 學習方法, 筆記技巧, 高效學習, 知識管理]
 author: Sun ny
-image: /assets/images/posts/2026-04-14-effective-note-taking-methods-cover.webp
 description: "筆記寫了卻記不住？本文整理 5 種科學證實的高效筆記方法，從康乃爾筆記法到卡片盒筆記法，幫你建立真正有用的知識系統。"
 ---
 
