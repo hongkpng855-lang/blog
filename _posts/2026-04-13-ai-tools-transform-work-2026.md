@@ -1,8 +1,8 @@
 ---
-image: /assets/images/posts/2026-04-13-ai-tools-transform-work-2026-cover.webp
 layout: post
 title: "2026 年科技趨勢：AI 工具如何改變日常工作"
 date: 2026-04-13 10:32:00 +0800
+image: /assets/images/posts/2026-04-13-ai-tools-transform-work-2026-cover.webp
 categories: [tech]
 tags: [AI 工具, 生產力, 辦公效率, 科技趨勢, 2026]
 author: Sun ny

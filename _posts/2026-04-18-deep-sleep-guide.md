@@ -2,10 +2,10 @@
 layout: post
 title: "深層睡眠改善指南：5個科學實證技巧讓你一夜好眠"
 date: 2026-04-18 06:47:00 +0800
+image: /assets/images/posts/2026-04-18-deep-sleep-guide-cover.webp
 categories: [health]
 tags: [睡眠, 健康, 深層睡眠, 睡眠品質]
 author: Sun ny
-image: /assets/images/posts/2026-04-18-deep-sleep-guide-cover.webp
 description: "深層睡眠是身體修復的黃金時段，佔總睡眠時間的15-25%。本文整理5個科學實證的改善技巧，幫助你提升睡眠品質，告別越睡越累的困擾。"
 ---
 

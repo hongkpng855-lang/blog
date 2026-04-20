@@ -2,10 +2,10 @@
 layout: post
 title: "AI時代的高效學習法：掌握這5招讓學習效率翻倍"
 date: 2026-04-08 19:45:00 +0800
+image: /assets/images/posts/2026-04-08-ai-era-efficient-learning-cover.webp
 categories: [learning]
 tags: [AI學習, 高效學習, 學習方法, 數位教育]
 author: Sun ny
-image: /assets/images/posts/2026-04-08-ai-era-efficient-learning-cover.webp
 description: "在AI快速發展的2026年，學習方式正在經歷革命性改變。本文分享5個經過驗證的高效學習方法，幫助你善用AI工具，讓學習效率翻倍。"
 ---
 

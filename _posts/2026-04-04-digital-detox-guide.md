@@ -1,8 +1,8 @@
 ---
-image: /assets/images/posts/2026-04-04-digital-detox-guide-cover.webp
 layout: post
 title: "數位排毒指南-在資訊洪流中找回專注與自由"
 date: 2026-04-04 03:01:00 +0800
+image: /assets/images/posts/2026-04-04-digital-detox-guide-cover.webp
 categories: [life]
 tags: [數位排毒, 減少手機使用, 專注力, 生活品質, 數位健康]
 author: Sun ny

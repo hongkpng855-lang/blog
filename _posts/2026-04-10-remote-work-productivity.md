@@ -2,10 +2,10 @@
 layout: post
 title: "2026 遠距工作生存指南：打造高效居家辦公環境的 7 個關鍵"
 date: 2026-04-10 21:34:00 +0800
+image: /assets/images/posts/2026-04-10-remote-work-productivity-cover.webp
 categories: [life]
 tags: [遠距工作, 生產力, 工作效率, 居家辦公]
 author: Sun ny
-image: /assets/images/posts/2026-04-10-remote-work-productivity-cover.webp
 description: "遠距工作已成新常態，但你知道如何打造高效的居家辦公環境嗎？本文分享 7 個實用技巧，幫助你提升專注力、平衡工作與生活，讓在家工作不再是噩夢。"
 ---
 

@@ -1,8 +1,8 @@
 ---
-image: /assets/images/posts/2026-04-02-etf-regular-investment-guide-cover.webp
 layout: post
 title: "ETF 定期定額入門指南：小資族也能輕鬆上手的投資策略"
 date: 2026-04-02 17:56:00 +0800
+image: /assets/images/posts/2026-04-02-etf-regular-investment-guide-cover.webp
 categories: [investment]
 tags: [ETF, 定期定額, 投資入門, 理財]
 author: Sun ny

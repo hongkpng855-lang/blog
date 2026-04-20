@@ -1,8 +1,8 @@
 ---
-image: /assets/images/posts/2026-04-04-passive-income-guide-2026-cover.webp
 layout: post
 title: "2026 被動收入入門指南：7 種新手也能上手的賺錢方法"
 date: 2026-04-04 04:28:08 +0800
+image: /assets/images/posts/2026-04-04-passive-income-guide-2026-cover.webp
 categories: [investment]
 tags: [被動收入, 投資, 財富自由]
 author: Sun ny

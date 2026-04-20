@@ -1,8 +1,8 @@
 ---
-image: /assets/images/posts/2026-04-03-decluttering-practice-guide-cover.webp
 layout: post
 title: "斷捨離實踐指南-從減法生活找回自在"
 date: 2026-04-03 22:17:00 +0800
+image: /assets/images/posts/2026-04-03-decluttering-practice-guide-cover.webp
 categories: [life]
 tags: [斷捨離, 極簡生活, 居家整理, 減法生活, 簡單生活]
 author: Sun ny

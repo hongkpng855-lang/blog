@@ -1,8 +1,8 @@
 ---
-image: /assets/images/posts/2026-04-01-retirement-financial-planning-advanced-guide-cover.webp
 layout: post
 title: "退休理財規劃進階指南：打造安穩退休生活的關鍵策略"
 date: 2026-04-01 09:56:57 +0800
+image: /assets/images/posts/2026-04-01-retirement-financial-planning-advanced-guide-cover.webp
 categories: [investment]
 tags: [退休規劃, 投資理財, 被動收入, 資產配置]
 author: Sun ny

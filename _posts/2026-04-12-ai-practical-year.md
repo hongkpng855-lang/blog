@@ -2,10 +2,10 @@
 layout: post
 title: "2026 年 AI 實用元年：智慧生活新革命"
 date: 2026-04-12 15:07:00 +0800
+image: /assets/images/posts/2026-04-12-ai-practical-year-cover.webp
 categories: [tech]
 tags: [AI, 人工智慧, 智慧生活, 科技趨勢]
 author: Sun ny
-image: /assets/images/posts/2026-04-12-ai-practical-year-cover.webp
 description: "2026 年被專家稱為 AI 實用元年，智慧眼鏡、AI 代理、穿戴式裝置將徹底改變我們的日常生活。本文深入解析 AI 如何走出螢幕，成為你的貼身智慧助理。"
 ---
 

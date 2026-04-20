@@ -2,10 +2,10 @@
 layout: post
 title: "居家收納斷捨離入門指南：5步驟讓小宅空間放大一倍"
 date: 2026-04-08 06:00:00 +0800
+image: /assets/images/posts/2026-04-08-home-storage-declutter-guide-cover.webp
 categories: [life]
 tags: [居家收納, 斷捨離, 收納技巧, 小坪數, 空間規劃, 生活整理]
 author: Sun ny
-image: /assets/images/posts/2026-04-08-home-storage-declutter-guide-cover.webp
 description: "家裡總是亂糟糟卻不知從何下手？本篇分享2026最新居家收納技巧與斷捨離心法，教你用5步驟輕鬆整理，讓小坪數空間瞬間放大，打造清爽舒適的生活環境。"
 ---
 

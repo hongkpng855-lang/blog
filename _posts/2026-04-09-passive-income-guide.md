@@ -2,10 +2,10 @@
 layout: post
 title: "2026被動收入入門指南：5種最適合新手的投資管道"
 date: 2026-04-09 06:33:00 +0800
+image: /assets/images/posts/2026-04-09-passive-income-guide-cover.webp
 categories: [investment]
 tags: [被動收入, 投資, ETF, 財務自由, 新手入門]
 author: Sun ny
-image: /assets/images/posts/2026-04-09-passive-income-guide-cover.webp
 description: "想開始建立被動收入卻不知從何著手？本指南整理2026年最適合新手的5種被動收入管道，從ETF存股到高利定存，教你用最少時間打造屬於自己的現金流系統。"
 ---
 

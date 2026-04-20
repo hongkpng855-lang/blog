@@ -2,10 +2,10 @@
 layout: post
 title: "AI 寫作工具實測：2026 年最值得用的 5 款工具"
 date: 2026-04-14 11:57:00 +0800
+image: /assets/images/posts/2026-04-14-ai-writing-tools-2026-cover.webp
 categories: [tech]
 tags: [AI, 寫作工具, 效率, 科技]
 author: Sun ny
-image: /assets/images/posts/2026-04-14-ai-writing-tools-2026-cover.webp
 description: "2026 年 AI 寫作工具百花齊放，本文實測 5 款最值得用的工具，幫你提升寫作效率、突破創作瓶頸。"
 ---
 

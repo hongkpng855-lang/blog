@@ -2,10 +2,10 @@
 layout: post
 title: "小資族ETF投資入門：月薪三萬也能開始的理財第一步"
 date: 2026-04-12 05:14:00 +0800
+image: /assets/images/posts/2026-04-12-small-capital-etf-guide-cover.webp
 categories: [investment]
 tags: [投資, 理財, ETF, 小資族, 被動收入]
 author: Sun ny
-image: /assets/images/posts/2026-04-12-small-capital-etf-guide-cover.webp
 description: "想投資卻不知從何開始？本文為小資族整理2026年最新ETF入門攻略，從開戶、挑選到定期定額策略，教你用月薪三萬滾出第一桶金，輕鬆建立被動收入。"
 ---
 

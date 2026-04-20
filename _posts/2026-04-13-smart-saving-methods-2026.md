@@ -1,8 +1,8 @@
 ---
-image: /assets/images/posts/2026-04-13-smart-saving-methods-2026-cover.webp
 layout: post
 title: "2026 年理財規劃：聰明存錢的 5 個實用方法"
 date: 2026-04-13 09:51:00 +0800
+image: /assets/images/posts/2026-04-13-smart-saving-methods-2026-cover.webp
 categories: [investment]
 tags: [理財, 存錢, 儲蓄, 財務規劃, 2026]
 author: Sun ny

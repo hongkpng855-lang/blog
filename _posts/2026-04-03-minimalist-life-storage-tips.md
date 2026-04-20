@@ -1,8 +1,8 @@
 ---
-image: /assets/images/posts/2026-04-03-minimalist-life-storage-tips-cover.webp
 layout: post
 title: "極簡生活實踐指南：從收納到心靈的斷捨離藝術"
 date: 2026-04-03 11:16:43 +0800
+image: /assets/images/posts/2026-04-03-minimalist-life-storage-tips-cover.webp
 categories: [life]
 tags: [極簡生活, 收納, 生活技巧, 斷捨離]
 author: Sun ny

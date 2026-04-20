@@ -2,10 +2,10 @@
 layout: post
 title: "改善睡眠品質的 5 個科學方法：讓你一夜好眠的實用指南"
 date: 2026-04-07 18:43:00 +0800
+image: /assets/images/posts/2026-04-07-improve-sleep-quality-5-scientific-methods-cover.webp
 categories: [health]
 tags: [睡眠, 健康, 生活品質, 科學方法]
 author: Sun ny
-image: /assets/images/posts/2026-04-07-improve-sleep-quality-5-scientific-methods-cover.webp
 description: "總是睡不好、醒來還是很累？本文整理 5 個科學證實的改善睡眠方法，從光照、呼吸法到環境優化，幫助你找回深層睡眠，提升生活品質。"
 ---
 

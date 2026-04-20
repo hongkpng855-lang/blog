@@ -2,10 +2,10 @@
 layout: post
 title: "2026 AI 生產力工具入門指南：從零開始打造智慧工作流"
 date: 2026-04-08 03:00:00 +0800
+image: /assets/images/posts/2026-04-08-2026-ai-productivity-tools-guide-cover.webp
 categories: [tech]
 tags: [AI工具, 生產力, 工作流, 自動化, 效率]
 author: Sun ny
-image: /assets/images/posts/2026-04-08-2026-ai-productivity-tools-guide-cover.webp
 description: "2026 年 AI 工具百花齊放，本指南帶你從零開始認識 AI 生產力工具，掌握 ChatGPT、n8n、Coze 等平台的使用技巧，打造屬於自己的智慧工作流，讓工作效率翻倍。"
 ---
 

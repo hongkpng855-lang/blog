@@ -1,8 +1,8 @@
 ---
-image: /assets/images/posts/2026-04-02-decluttering-guide-cover.webp
 layout: post
 title: "斷捨離實踐指南-5步驟讓你的空間煥然一新"
 date: 2026-04-02 15:50:00 +0800
+image: /assets/images/posts/2026-04-02-decluttering-guide-cover.webp
 categories: [life]
 tags: [斷捨離, 整理收納, 極簡生活, 生活品質, 空間管理]
 author: Sun ny

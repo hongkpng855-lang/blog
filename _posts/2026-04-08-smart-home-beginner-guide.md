@@ -2,10 +2,10 @@
 layout: post
 title: "智能家居入門指南：2026年打造智慧生活的5個必備設備"
 date: 2026-04-08 02:45:00 +0800
+image: /assets/images/posts/2026-04-08-smart-home-beginner-guide-cover.webp
 categories: [tech]
 tags: [智能家居, 智慧家庭, IoT, 智能音箱, 智能燈泡, 生活科技]
 author: Sun ny
-image: /assets/images/posts/2026-04-08-smart-home-beginner-guide-cover.webp
 description: "想打造智能家居卻不知從何開始？本文介紹2026年最值得入手的5款智能設備，從智能音箱到智慧燈泡，讓你輕鬆入門智慧生活，提升居家便利與舒適度。"
 ---
 

@@ -1,8 +1,8 @@
 ---
-image: /assets/images/posts/2026-04-02-minimalist-life-guide-cover.webp
 layout: post
 title: "極簡生活入門指南：7個步驟讓你用更少擁有更多"
 date: 2026-04-02 07:50:00 +0800
+image: /assets/images/posts/2026-04-02-minimalist-life-guide-cover.webp
 categories: [life]
 tags: [極簡生活, 斷捨離, 生活品質, 減法生活]
 author: Sun ny

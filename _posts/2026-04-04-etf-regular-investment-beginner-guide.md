@@ -1,8 +1,8 @@
 ---
-image: /assets/images/posts/2026-04-04-etf-regular-investment-beginner-guide-cover.webp
 layout: post
 title: "ETF 定期定額入門指南：小資族也能穩健累積財富"
 date: 2026-04-04 12:28:00 +0800
+image: /assets/images/posts/2026-04-04-etf-regular-investment-beginner-guide-cover.webp
 categories: [投資]
 tags: [ETF, 定期定額, 投資入門, 理財, 小資族]
 author: Sun ny

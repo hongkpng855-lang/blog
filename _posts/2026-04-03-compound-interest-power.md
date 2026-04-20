@@ -1,8 +1,8 @@
 ---
-image: /assets/images/posts/2026-04-03-compound-interest-power-cover.webp
 layout: post
 title: "複利的力量-讓時間幫你累積財富"
 date: 2026-04-03 08:06:00 +0800
+image: /assets/images/posts/2026-04-03-compound-interest-power-cover.webp
 categories: [investment]
 tags: [複利, 投資理財, 長期投資, 財富累積, 被動收入]
 author: Sun ny

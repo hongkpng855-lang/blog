@@ -1,8 +1,8 @@
 ---
-image: /assets/images/posts/2026-04-02-must-learn-ai-tools-2026-cover.webp
 layout: post
 title: "2026年必學的5個AI工具-提升工作效率的實戰指南"
 date: 2026-04-02 14:08:00 +0800
+image: /assets/images/posts/2026-04-02-must-learn-ai-tools-2026-cover.webp
 categories: [tech]
 tags: [AI工具, 人工智慧, 工作效率, 科技趨勢, 數位轉型]
 author: Sun ny

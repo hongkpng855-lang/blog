@@ -2,10 +2,10 @@
 layout: post
 title: "極簡生活入門指南：用減法找回人生掌控權"
 date: 2026-04-08 09:59:49 +0800
+image: /assets/images/posts/2026-04-08-minimalist-life-guide-cover.webp
 categories: [life]
 tags: [極簡主義, 斷捨離, 生活整理, 減法生活]
 author: Sun ny
-image: /assets/images/posts/2026-04-08-minimalist-life-guide-cover.webp
 description: "想開始極簡生活卻不知從何下手？本文整理極簡主義核心觀念與實用技巧，教你用減法為生活加分，找回時間與心靈自由。"
 ---
 

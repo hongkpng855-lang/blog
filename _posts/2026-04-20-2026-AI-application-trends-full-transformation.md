@@ -2,10 +2,10 @@
 layout: post
 title: "2026 AI 應用趨勢：從手機到雲端的全面變革"
 date: 2026-04-20 16:47:00 +0800
+image: /assets/images/posts/2026-04-20-2026-AI-application-trends-full-transformation-cover.webp
 categories: [tech]
 tags: [AI, 科技趨勢, 2026, 人工智慧, 應用]
 author: Sun ny
-image: /assets/images/posts/2026-04-20-2026-AI-application-trends-full-transformation-cover.webp
 description: "2026 年是 AI 全面落地的一年！從手機 App 的 AI 淘金熱，到雲端伺服器的算力革命，這篇文章帶你看懂五大關鍵趨勢，掌握 AI 時代的機會與挑戰。"
 ---
 

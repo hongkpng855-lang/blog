@@ -1,8 +1,8 @@
 ---
-image: /assets/images/posts/2026-04-03-exercise-habits-guide-cover.webp
 layout: post
 title: "運動習慣建立指南-從零開始的簡單步驟"
 date: 2026-04-03 09:21:00 +0800
+image: /assets/images/posts/2026-04-03-exercise-habits-guide-cover.webp
 categories: [health]
 tags: [運動習慣, 健身入門, 日常運動, 習慣養成, 健康生活]
 author: Sun ny

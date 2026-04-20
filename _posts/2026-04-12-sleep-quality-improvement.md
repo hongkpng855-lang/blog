@@ -2,10 +2,10 @@
 layout: post
 title: "改善睡眠品質的七個實用方法：讓你一夜好眠的秘訣"
 date: 2026-04-12 07:32:00 +0800
+image: /assets/images/posts/2026-04-12-sleep-quality-improvement-cover.webp
 categories: [health]
 tags: [睡眠, 健康, 生活品質, 睡眠障礙, 作息]
 author: Sun ny
-image: /assets/images/posts/2026-04-12-sleep-quality-improvement-cover.webp
 description: "失眠問題困擾著現代人，本文分享七個經科學驗證的改善睡眠品質方法，從調整作息到打造舒適睡眠環境，幫助你重拾一夜好眠。"
 ---
 

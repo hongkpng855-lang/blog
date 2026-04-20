@@ -2,10 +2,10 @@
 layout: post
 title: "2026居家收納心法：讓空間替你整理的斷捨離實戰指南"
 date: 2026-04-07 06:38:22 +0800
+image: /assets/images/posts/learning-cover.webp
 categories: [life]
 tags: [居家收納, 斷捨離, 生活整理, 收納技巧, 極簡生活]
 author: Sun ny
-image: /assets/images/posts/learning-cover.webp
 description: "總是覺得家裡東西多到塞不下？收納不是把物品塞進盒子，而是讓空間替你整理。本篇分享2026年最新的居家收納心法，從心態建立到實用技巧，讓你的生活空間重拾井然有序的療癒感。"
 ---
 

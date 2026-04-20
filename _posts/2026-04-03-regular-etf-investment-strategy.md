@@ -1,8 +1,8 @@
 ---
-image: /assets/images/posts/2026-04-03-regular-etf-investment-strategy-cover.webp
 layout: post
 title: "定期定額 ETF 投資策略：小資族穩健累積財富的完整指南"
 date: 2026-04-03 21:25:00 +0800
+image: /assets/images/posts/2026-04-03-regular-etf-investment-strategy-cover.webp
 categories: [investment]
 tags: [ETF, 定期定額, 投資理財, 被動投資, 財富自由]
 author: Sun ny

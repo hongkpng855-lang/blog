@@ -1,8 +1,8 @@
 ---
-image: /assets/images/posts/2026-04-01-digital-marketing-strategy-guide-cover.webp
 layout: post
 title: "數位行銷策略入門：從零開始打造品牌影響力"
 date: 2026-04-01 09:56:39 +0800
+image: /assets/images/posts/2026-04-01-digital-marketing-strategy-guide-cover.webp
 categories: [learning]
 tags: [數位行銷, 行銷策略, 品牌經營, 社群媒體]
 author: Sun ny

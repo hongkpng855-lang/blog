@@ -1,8 +1,8 @@
 ---
-image: /assets/images/posts/2026-04-03-etf-retirement-planning-guide-cover.webp
 layout: post
 title: "ETF 退休規劃完全指南：用 3 階段配置法打造穩健現金流"
 date: 2026-04-03 18:24:00 +0800
+image: /assets/images/posts/2026-04-03-etf-retirement-planning-guide-cover.webp
 categories: [investment]
 tags: [ETF, 退休規劃, 資產配置, 被動收入]
 author: Sun ny

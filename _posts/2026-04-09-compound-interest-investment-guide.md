@@ -2,10 +2,10 @@
 layout: post
 title: "複利的力量：2026 年新手必懂的長期投資心法"
 date: 2026-04-09 18:44:15 +0800
+image: /assets/images/posts/2026-04-09-compound-interest-investment-guide-cover.webp
 categories: [investment]
 tags: [複利, 長期投資, ETF, 財富自由, 投資入門]
 author: Sun ny
-image: /assets/images/posts/2026-04-09-compound-interest-investment-guide-cover.webp
 description: "愛因斯坦稱複利為「世界第八大奇蹟」。本文帶你深入理解複利的力量，掌握 2026 年長期投資的三大核心策略，讓時間成為你最好的朋友。"
 ---
 

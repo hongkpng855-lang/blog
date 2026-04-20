@@ -1,8 +1,8 @@
 ---
-image: /assets/images/posts/2026-04-03-boost-immunity-habits-cover.webp
 layout: post
 title: "提升免疫力的7個日常習慣-讓身體自然抵抗疾病"
 date: 2026-04-03 09:10:00 +0800
+image: /assets/images/posts/2026-04-03-boost-immunity-habits-cover.webp
 categories: [health]
 tags: [免疫力, 健康習慣, 養生, 預防醫學, 日常保健]
 author: Sun ny

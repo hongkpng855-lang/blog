@@ -2,10 +2,10 @@
 layout: post
 title: "2026 年 AI 科技趨勢：從入門到實戰的完整指南"
 date: 2026-04-12 01:53:00 +0800
+image: /assets/images/posts/2026-04-12-ai-tech-trends-2026-guide-cover.webp
 categories: [tech]
 tags: [AI, 2026, 入門, 趨勢, 生成式 AI, ChatGPT, 提示詞工程]
 author: Sun ny
-image: /assets/images/posts/2026-04-12-ai-tech-trends-2026-guide-cover.webp
 description: "深入解析 2026 年 AI 科技趨勢，從生成式 AI 入門到實戰應用，提供完整學習路徑與工具推薦，幫助你掌握 AI 協作技能，迎向未來職場挑戰。"
 ---
 

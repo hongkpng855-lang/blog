@@ -1,8 +1,8 @@
 ---
-image: /assets/images/posts/2026-04-01-active-learning-method-cover.webp
 layout: post
 title: "主動學習法：從被動接收轉化為主動探索"
 date: 2026-04-01 10:55:00 +0800
+image: /assets/images/posts/2026-04-01-active-learning-method-cover.webp
 categories: [learning]
 tags: [學習方法, 主動學習, 教育技巧, 自我成長, 學習效率]
 author: Sun ny

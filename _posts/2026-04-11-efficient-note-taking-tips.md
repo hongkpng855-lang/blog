@@ -2,10 +2,10 @@
 layout: post
 title: "高效筆記技巧：掌握這些方法讓學習事半功倍"
 date: 2026-04-11 02:52:21 +0800
+image: /assets/images/posts/2026-04-11-efficient-note-taking-tips-cover.webp
 categories: [learning]
 tags: [筆記技巧, 學習方法, 康乃爾筆記法, 時間管理, 效率提升]
 author: Sun ny
-image: /assets/images/posts/2026-04-11-efficient-note-taking-tips-cover.webp
 description: "想提升學習效率卻不知從何開始？本文整理 6 大高效筆記技巧，從康乃爾筆記法到心智圖，幫助你建立系統化的知識管理架構，讓學習事半功倍。"
 ---
 

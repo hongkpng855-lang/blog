@@ -2,10 +2,10 @@
 layout: post
 title: "2026 AI 生產力工具懶人包：10 款必備神器讓你工作效率翻倍"
 date: 2026-04-10 03:44:00 +0800
+image: /assets/images/posts/2026-04-10-ai-productivity-tools-2026-cover.webp
 categories: [tech]
 tags: [AI工具, 生產力, 效率, ChatGPT, Notion AI, 自動化]
 author: Sun ny
-image: /assets/images/posts/2026-04-10-ai-productivity-tools-2026-cover.webp
 description: "2026 年 AI 工具百花齊放，從寫作、繪圖到自動化工作流，哪些真正值得學？本文精選 10 款必備 AI 生產力工具，幫你打造高效工作系統，每週省下數小時。"
 ---
 

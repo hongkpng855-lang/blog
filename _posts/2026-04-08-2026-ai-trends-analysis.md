@@ -2,10 +2,10 @@
 layout: post
 title: "2026 AI 人工智慧四大趨勢完整解析：世界模型、代理型AI、精煉技術與實體AI"
 date: 2026-04-08 08:59:00 +0800
+image: /assets/images/posts/2026-04-08-2026-ai-trends-analysis-cover.webp
 categories: [tech]
 tags: [AI, 人工智慧, 世界模型, 代理型AI, Agentic AI, 精煉技術, 實體AI, 2026趨勢]
 author: Sun ny
-image: /assets/images/posts/2026-04-08-2026-ai-trends-analysis-cover.webp
 description: "2026 年 AI 領域正經歷範式轉移，從「預測下一個詞」邁向「預測世界狀態」。本文深入解析世界模型、代理型 AI、精煉技術與實體 AI 四大關鍵趨勢，帶您掌握企業佈局方向與技術發展脈絡。"
 ---
 

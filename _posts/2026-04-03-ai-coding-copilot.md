@@ -1,8 +1,8 @@
 ---
-image: /assets/images/posts/2026-04-03-ai-coding-copilot-cover.webp
 layout: post
 title: "AI 寫程式入門：讓 GitHub Copilot 成為你的配對程式設計夥伴"
 date: 2026-04-03 19:23:00 +0800
+image: /assets/images/posts/2026-04-03-ai-coding-copilot-cover.webp
 categories: [tech]
 tags: [AI, 程式設計, GitHub Copilot, 開發工具, 生產力]
 author: Sun ny

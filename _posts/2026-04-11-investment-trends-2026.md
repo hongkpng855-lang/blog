@@ -2,10 +2,10 @@
 layout: post
 title: "2026 投資趨勢全攻略：AI、科技、ETF 新手入門指南"
 date: 2026-04-11 05:20:00 +0800
+image: /assets/images/posts/2026-04-11-investment-trends-2026-cover.webp
 categories: [investment]
 tags: [投資, ETF, AI, 科技股, 理財]
 author: Sun ny
-image: /assets/images/posts/2026-04-11-investment-trends-2026-cover.webp
 description: "深入解析 2026 年投資趨勢，從 AI 科技股到 ETF 配置，為新手提供完整的投資入門指南，掌握台股萬點行情與全球市場脈動。"
 ---
 

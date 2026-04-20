@@ -1,8 +1,8 @@
 ---
-image: /assets/images/posts/2026-04-06-2026-ai-tool-selection-guide-cover.webp
 layout: post
 title: "2026 AI 工具怎麼選？七大分類帶你找到最適合的神隊友"
 date: 2026-04-06 16:04:00 +0800
+image: /assets/images/posts/2026-04-06-2026-ai-tool-selection-guide-cover.webp
 categories: [tech]
 tags: [AI工具, ChatGPT, 生產力, AI應用, 數位轉型]
 author: Sun ny

@@ -1,8 +1,8 @@
 ---
-image: /assets/images/posts/2026-04-01-edge-computing-basics-cover.webp
 layout: post
 title: "邊緣運算入門：讓運算更接近資料來源"
 date: 2026-04-01 12:55:00 +0800
+image: /assets/images/posts/2026-04-01-edge-computing-basics-cover.webp
 categories: [tech]
 tags: [科技, 邊緣運算, 物聯網, 5G, 雲端運算]
 author: Sun ny

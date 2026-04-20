@@ -2,10 +2,10 @@
 layout: post
 title: "2026 AI 程式開發工具趨勢：從自動補全到自主程式設計的革命"
 date: 2026-04-11 10:19:53 +0800
+image: /assets/images/posts/2026-04-11-2026-ai-coding-tools-trends-cover.webp
 categories: [tech]
 tags: [AI, 程式開發, GitHub Copilot, Cursor, Claude Code, 開發工具]
 author: Sun ny
-image: /assets/images/posts/2026-04-11-2026-ai-coding-tools-trends-cover.webp
 description: "深入探討 2026 年 AI 程式開發工具的最新趨勢，從 Cursor、Claude Code 到開源替代方案，帶你了解 AI 輔助開發如何從程式碼補全進化到自主開發代理。"
 ---
 

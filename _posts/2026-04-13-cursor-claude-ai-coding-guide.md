@@ -1,8 +1,8 @@
 ---
-image: /assets/images/posts/2026-04-13-cursor-claude-ai-coding-guide-cover.webp
 layout: post
 title: "Cursor + Claude AI 程式開發實戰：效率提升 300% 的終極組合"
 date: 2026-04-13 00:46:00 +0800
+image: /assets/images/posts/2026-04-13-cursor-claude-ai-coding-guide-cover.webp
 categories: [tech]
 tags: [AI, 程式開發, Cursor, Claude, 開發工具]
 author: Sun ny

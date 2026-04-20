@@ -2,10 +2,10 @@
 layout: post
 title: "2026 AI 生產力工具實戰指南：10 款每天都能用上的免費神器"
 date: 2026-04-12 22:42:00 +0800
+image: /assets/images/posts/2026-04-12-ai-productivity-tools-2026-cover.png
 categories: [tech]
 tags: [AI工具, 生產力, ChatGPT, Claude, 數位工作]
 author: Sun ny
-image: /assets/images/posts/2026-04-12-ai-productivity-tools-2026-cover.png
 description: "2026 年 AI 工具爆炸成長，到底哪些值得花時間學？這篇整理 10 款我每天打開在用的 AI 工具，從寫作、繪圖到影片製作，幫你打造高效工作流程。"
 ---
 

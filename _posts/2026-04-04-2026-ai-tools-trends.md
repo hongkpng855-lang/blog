@@ -1,8 +1,8 @@
 ---
-image: /assets/images/posts/2026-04-04-2026-ai-tools-trends-cover.webp
 layout: post
 title: "2026 年最值得關注的 AI 工具與應用趨勢"
 date: 2026-04-04 14:47:00 +0800
+image: /assets/images/posts/2026-04-04-2026-ai-tools-trends-cover.webp
 categories: [tech]
 tags: [AI, 人工智慧, AI工具, 科技趨勢, 2026]
 author: Sun ny

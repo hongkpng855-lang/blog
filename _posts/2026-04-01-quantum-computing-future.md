@@ -1,8 +1,8 @@
 ---
-image: /assets/images/posts/2026-04-01-quantum-computing-future-cover.webp
 layout: post
 title: "量子運算入門：解鎖未來運算的無限可能"
 date: 2026-04-01 06:00:37 +0800
+image: /assets/images/posts/2026-04-01-quantum-computing-future-cover.webp
 categories: [tech]
 tags: [量子運算, 量子電腦, 科技趨勢, 未來科技]
 author: Sun ny

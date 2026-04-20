@@ -2,10 +2,10 @@
 layout: post
 title: "數位極簡主義實踐指南：2026 年找回生活自主權的 7 個方法"
 date: 2026-04-11 03:27:00 +0800
+image: /assets/images/posts/2026-04-11-digital-minimalism-guide-2026-cover.webp
 categories: [life]
 tags: [數位極簡主義, 數位排毒, 注意力經濟, 手機成癮, 深度工作, 2026 趨勢]
 author: Sun ny
-image: /assets/images/posts/2026-04-11-digital-minimalism-guide-2026-cover.webp
 description: "在 2026 年，數位極簡主義不再只是潮流，而是奪回生活自主權的必要選擇。本文分享 7 個經科學驗證的實踐方法，幫助你從演算法手中拿回時間與注意力。"
 ---
 

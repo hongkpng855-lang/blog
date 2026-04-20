@@ -1,8 +1,8 @@
 ---
-image: /assets/images/posts/2026-04-03-ai-tools-guide-cover.webp
 layout: post
 title: "AI 工具懶人包：2026 必備神器全攻略"
 date: 2026-04-03 10:55:00 +0800
+image: /assets/images/posts/2026-04-03-ai-tools-guide-cover.webp
 categories: [tech]
 tags: [AI, 工具, 生產力, ChatGPT]
 author: Sun ny

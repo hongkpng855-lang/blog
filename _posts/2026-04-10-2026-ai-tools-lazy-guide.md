@@ -2,10 +2,10 @@
 layout: post
 title: "2026 AI 工具懶人包：新手必備的免費神器一次打包"
 date: 2026-04-10 19:40:29 +0800
+image: /assets/images/posts/2026-04-10-2026-ai-tools-lazy-guide-cover.webp
 categories: [tech]
 tags: [AI, 生產力, 工具推薦, 數位工作]
 author: Sun ny
-image: /assets/images/posts/2026-04-10-2026-ai-tools-lazy-guide-cover.webp
 description: "2026 年 AI 工具百花齊放，從寫作、繪圖到自動化工作流，本篇整理 15 款免費實用 AI 工具，幫你打造高效數位生活，提升職場競爭力。"
 ---
 

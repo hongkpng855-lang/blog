@@ -1,8 +1,8 @@
 ---
-image: /assets/images/posts/2026-04-02-active-recall-learning-method-cover.webp
 layout: post
 title: "主動回憶學習法-科學實證最有效的記憶技巧"
 date: 2026-04-02 04:05:00 +0800
+image: /assets/images/posts/2026-04-02-active-recall-learning-method-cover.webp
 categories: [learning]
 tags: [學習方法, 記憶技巧, 主動回憶, 高效學習, 學習策略]
 author: Sun ny

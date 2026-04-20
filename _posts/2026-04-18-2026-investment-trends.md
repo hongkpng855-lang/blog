@@ -2,10 +2,10 @@
 layout: post
 title: "2026 投資理財全攻略：掌握五大趨勢，穩健佈局你的財富未來"
 date: 2026-04-18 07:02:00 +0800
+image: /assets/images/posts/2026-04-18-2026-investment-trends-cover.webp
 categories: [investment]
 tags: [投資, 理財, 2026, 趨勢, ETF, 資產配置]
 author: Sun ny
-image: /assets/images/posts/2026-04-18-2026-investment-trends-cover.webp
 description: "2026 年投資市場充滿機會與挑戰。本文深入解析五大投資趨勢、台灣投資者優勢，以及實用的「核心-衛星」配置策略，助你穩健佈局財富未來。"
 ---
 

@@ -2,10 +2,10 @@
 layout: post
 title: "AI Agent 自動化革命：2026 年最值得關注的科技趨勢"
 date: 2026-04-08 11:56:00 +0800
+image: /assets/images/posts/2026-04-08-ai-agent-automation-revolution-cover.webp
 categories: [tech]
 tags: [AI Agent, 自動化, 人工智慧, 企業轉型, Agentic AI]
 author: Sun ny
-image: /assets/images/posts/2026-04-08-ai-agent-automation-revolution-cover.webp
 description: "2026 年 AI Agent 成為企業數位轉型核心驅動力，從被動工具進化為具備推理與決策能力的智慧引擎。本文深入解析 AI Agent 發展現況、實際應用案例與未來展望，助您掌握自動化革命先機。"
 ---
 

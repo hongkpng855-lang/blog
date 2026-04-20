@@ -2,10 +2,10 @@
 layout: post
 title: "2026 AI 程式開發工具選擇指南：Copilot、Cursor、Claude Code 怎麼選？"
 date: 2026-04-11 16:11:00 +0800
+image: /assets/images/posts/2026-04-11-ai-coding-tools-2026-guide-cover.webp
 categories: [tech]
 tags: [AI工具, 程式開發, Cursor, Copilot, Claude Code, 開發效率]
 author: Sun ny
-image: /assets/images/posts/2026-04-11-ai-coding-tools-2026-guide-cover.webp
 description: "2026 年 AI 程式工具百花齊放，GitHub Copilot、Cursor、Claude Code 各有強項。本文從實際使用角度分析六款主流工具的定位與適用場景，幫你找到最適合自己的開發夥伴。"
 ---
 

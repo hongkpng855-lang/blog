@@ -1,8 +1,8 @@
 ---
-image: /assets/images/posts/2026-04-02-dollar-cost-averaging-guide-cover.webp
 layout: post
 title: "定期定額投資-用時間複利累積財富"
 date: 2026-04-02 23:00:00 +0800
+image: /assets/images/posts/2026-04-02-dollar-cost-averaging-guide-cover.webp
 categories: [investment]
 tags: [定期定額, 投資策略, 複利效應, ETF投資, 長期理財]
 author: Sun ny

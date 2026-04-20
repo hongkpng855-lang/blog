@@ -2,10 +2,10 @@
 layout: post
 title: "成功人士都在做的5個早晨習慣｜讓你的一天從容起飛"
 date: 2026-04-12 05:39:57 +0800
+image: /assets/images/posts/2026-04-12-morning-routine-success-cover.webp
 categories: [life]
 tags: [早晨習慣, 生產力, 自我成長, 時間管理]
 author: Sun ny
-image: /assets/images/posts/2026-04-12-morning-routine-success-cover.webp
 description: "研究顯示，成功人士的早晨習慣能提升專注力與決策品質。本文分享5個簡單實用的早晨儀式，幫助你打造高效率的一天。"
 ---
 

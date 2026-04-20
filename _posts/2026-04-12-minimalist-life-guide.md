@@ -2,10 +2,10 @@
 layout: post
 title: "極簡生活入門指南：用減法為人生加分，擁抱少即是多的自由"
 date: 2026-04-12 06:30:00 +0800
+image: /assets/images/posts/2026-04-12-minimalist-life-guide-cover.webp
 categories: [life]
 tags: [極簡生活, 斷捨離, 減法生活, 極簡主義, 生活品質]
 author: Sun ny
-image: /assets/images/posts/2026-04-12-minimalist-life-guide-cover.webp
 description: "想開始極簡生活卻不知從何下手？本文分享極簡生活的核心理念與實用方法，教你用減法為生活加分，找回真正重要的事物，邁向更自由、更幸福的人生。"
 ---
 

@@ -2,10 +2,10 @@
 layout: post
 title: "小資族定期定額投資攻略：月薪3萬也能存出第一桶金"
 date: 2026-04-12 20:58:00 +0800
+image: /assets/images/posts/2026-04-12-small-investor-regular-investment-cover.webp
 categories: [investment]
 tags: [定期定額, ETF, 小資族, 存股, 投資入門]
 author: Sun ny
-image: /assets/images/posts/2026-04-12-small-investor-regular-investment-cover.webp
 description: "月薪只有3萬也能投資？本文教你定期定額的正確打法，從ETF選擇到資產配置，讓你用最少的時間成本，穩健累積財富，朝第一桶金邁進。"
 ---
 

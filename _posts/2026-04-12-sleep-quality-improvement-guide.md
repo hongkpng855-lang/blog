@@ -2,10 +2,10 @@
 layout: post
 title: "告別失眠困擾！7 個科學實證的睡眠品質改善方法"
 date: 2026-04-12 19:19:45 +0800
+image: /assets/images/posts/2026-04-12-sleep-quality-improvement-guide-cover.webp
 categories: [health]
 tags: [睡眠, 健康, 生活品質]
 author: Sun ny
-image: /assets/images/posts/2026-04-12-sleep-quality-improvement-guide-cover.webp
 description: "總是睡不好、醒來更累？本文整理 7 個有科學根據的睡眠改善方法，從規律作息、環境優化到睡前習慣，幫你找回一夜好眠。"
 ---
 

@@ -2,10 +2,10 @@
 layout: post
 title: "居家收納心法：讓家裡空間多一倍的 10 個實用技巧"
 date: 2026-04-14 08:20:00 +0800
+image: /assets/images/posts/2026-04-14-home-organization-tips-cover.webp
 categories: [life]
 tags: [收納, 居家整理, 斷捨離, 生活技巧, 空間利用]
 author: Sun ny
-image: /assets/images/posts/2026-04-14-home-organization-tips-cover.webp
 description: "家裡總是亂糟糟？本文分享 10 個經過驗證的居家收納技巧，從斷捨離心法到垂直空間利用，幫你打造清爽舒適的生活環境。"
 ---
 

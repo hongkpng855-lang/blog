@@ -2,10 +2,10 @@
 layout: post
 title: "2026 年必備 AI 生產力工具指南：讓工作效率翻倍的實戰秘笈"
 date: 2026-04-10 07:45:22 +0800
+image: /assets/images/posts/2026-04-10-2026-ai-productivity-tools-guide-cover.webp
 categories: [tech]
 tags: [AI, 生產力, 工具, 效率, 2026]
 author: Sun ny
-image: /assets/images/posts/2026-04-10-2026-ai-productivity-tools-guide-cover.webp
 description: "2026 年 AI 工具百花齊放，哪些真正能幫你省時間？本文精選 8 大領域的實用 AI 工具，從寫作、繪圖到自動化工作流，帶你打造高效個人系統，讓工作效率提升 10 倍！"
 ---
 

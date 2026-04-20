@@ -1,8 +1,8 @@
 ---
-image: /assets/images/posts/2026-04-03-ai-writing-tools-guide-cover.webp
 layout: post
 title: "AI寫作工具全攻略-讓內容創作效率翻倍"
 date: 2026-04-03 03:39:00 +0800
+image: /assets/images/posts/2026-04-03-ai-writing-tools-guide-cover.webp
 categories: [tech]
 tags: [AI工具, 寫作, 內容創作, 效率提升, ChatGPT]
 author: Sun ny

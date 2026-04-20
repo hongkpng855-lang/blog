@@ -1,8 +1,8 @@
 ---
-image: /assets/images/posts/2026-04-05-small-investor-etf-guide-cover.webp
 layout: post
 title: "小資族必看！ETF 定期定額入門指南：每月 3000 元也能滾出第一桶金"
 date: 2026-04-05 00:26:27 +0800
+image: /assets/images/posts/2026-04-05-small-investor-etf-guide-cover.webp
 categories: [投資]
 tags: [ETF, 定期定額, 小資族, 理財, 被動收入]
 author: Sun ny

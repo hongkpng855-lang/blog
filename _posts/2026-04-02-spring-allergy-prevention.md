@@ -1,8 +1,8 @@
 ---
-image: /assets/images/posts/2026-04-02-spring-allergy-prevention-cover.webp
 layout: post
 title: "春天一到噴嚏打不停？2026春季過敏預防全攻略"
 date: 2026-04-02 10:19:00 +0800
+image: /assets/images/posts/2026-04-02-spring-allergy-prevention-cover.webp
 categories: [health]
 tags: [健康, 過敏, 春季, 換季過敏, 花粉症]
 author: Sun ny

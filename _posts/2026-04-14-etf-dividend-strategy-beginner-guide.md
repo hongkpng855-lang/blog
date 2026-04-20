@@ -2,10 +2,10 @@
 layout: post
 title: "2026 年投資新手必看的 ETF 配息策略：避開「賺股利賠價差」的存股陷阱"
 date: 2026-04-14 07:09:00 +0800
+image: /assets/images/posts/2026-04-14-etf-dividend-strategy-beginner-guide-cover.webp
 categories: [investment]
 tags: [ETF, 配息, 高股息, 存股, 投資新手]
 author: Sun ny
-image: /assets/images/posts/2026-04-14-etf-dividend-strategy-beginner-guide-cover.webp
 description: "想靠 ETF 建立穩定現金流？本文深度解析 2026 年熱門高股息 ETF 的配息機制、除息填息觀念，並提供新手選擇 ETF 的實戰策略，幫你避開「賺股利賠價差」的存股陷阱。"
 ---
 

@@ -2,10 +2,10 @@
 layout: post
 title: "2026 AI 工具比較：ChatGPT、Claude、Gemini 怎麼選？"
 date: 2026-04-12 21:38:19 +0800
+image: /assets/images/posts/2026-04-12-ai-tools-comparison-2026-cover.webp
 categories: [tech]
 tags: [AI, ChatGPT, Claude, Gemini, 科技, 2026]
 author: Sun ny
-image: /assets/images/posts/2026-04-12-ai-tools-comparison-2026-cover.webp
 description: "2026 年三大 AI 工具 ChatGPT、Claude、Gemini 完整比較，從功能特色、適用場景到價格方案，幫助你找到最適合的 AI 助手。"
 ---
 

@@ -2,10 +2,10 @@
 layout: post
 title: "ETF定期定額：小資族穩健累積財富的懶人投資術"
 date: 2026-04-08 12:55:00 +0800
+image: /assets/images/posts/2026-04-08-etf-regular-investment-guide-cover.webp
 categories: [investment]
 tags: [ETF, 定期定額, 理財, 投資入門]
 author: Sun ny
-image: /assets/images/posts/2026-04-08-etf-regular-investment-guide-cover.webp
 description: "想開始投資卻不知從何下手？ETF定期定額是小資族最佳選擇。本文解析0050、0056等熱門ETF，教你用每月3000元開始累積財富，穩健邁向財務自由。"
 ---
 

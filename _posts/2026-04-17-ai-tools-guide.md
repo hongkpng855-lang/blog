@@ -2,10 +2,10 @@
 layout: post
 title: "2026 年必備 AI 工具入門指南：提升效率的 5 大神器"
 date: 2026-04-17 22:41:00 +0800
+image: /assets/images/posts/2026-04-17-ai-tools-guide-cover.webp
 categories: [tech]
 tags: [AI, 工具, 效率, 科技, 2026]
 author: Sun ny
-image: /assets/images/posts/2026-04-17-ai-tools-guide-cover.webp
 description: "想提升工作效率卻不知從何開始？本文精選 2026 年 5 款必備 AI 工具，從寫作、設計到程式開發，讓你輕鬆上手 AI 時代。"
 ---
 

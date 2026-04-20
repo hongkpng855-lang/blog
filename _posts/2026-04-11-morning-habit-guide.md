@@ -2,10 +2,10 @@
 layout: post
 title: "早晨習慣養成指南：從賴床到晨型人的 30 天轉變計畫"
 date: 2026-04-11 18:08:00 +0800
+image: /assets/images/posts/2026-04-11-morning-habit-guide-cover.webp
 categories: [life]
 tags: [早晨習慣, 早起方法, 晨間儀式, 時間管理, 生活品質]
 author: Sun ny
-image: /assets/images/posts/2026-04-11-morning-habit-guide-cover.webp
 description: "想養成早起習慣卻總是失敗？本文整合科學方法與實戰經驗，提供完整的早晨習慣養成指南，幫助你從賴床王蛻變為晨型人，開啟高效每一天。"
 ---
 

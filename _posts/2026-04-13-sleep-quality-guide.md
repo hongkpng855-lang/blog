@@ -2,10 +2,10 @@
 layout: post
 title: "提升睡眠品質的科學方法：7 個今晚就能實踐的改善技巧"
 date: 2026-04-13 23:50:00 +0800
+image: /assets/images/posts/2026-04-13-sleep-quality-guide-cover.webp
 categories: [health]
 tags: [睡眠, 健康, 生活習慣, 睡眠品質]
 author: Sun ny
-image: /assets/images/posts/2026-04-13-sleep-quality-guide-cover.webp
 description: "失眠、睡不好怎麼辦？本文整理科學證實的 7 個睡眠品質改善方法，從睡眠環境、飲食調整到作息管理，幫你今晚就睡個好覺。"
 ---
 

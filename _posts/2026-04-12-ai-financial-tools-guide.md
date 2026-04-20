@@ -2,10 +2,10 @@
 layout: post
 title: "AI 理財工具入門：讓人工智慧幫你聰明投資"
 date: 2026-04-12 03:30:00 +0800
+image: /assets/images/posts/2026-04-12-ai-financial-tools-guide-cover.webp
 categories: [investment]
 tags: [AI, 理財, 投資, 科技, 機器人理財]
 author: Sun ny
-image: /assets/images/posts/2026-04-12-ai-financial-tools-guide-cover.webp
 description: "想用 AI 幫你投資卻不知從何開始？本文深入介紹 AI 理財工具的運作原理、台灣主流平台比較，以及新手入門的實用建議，讓你輕鬆踏上智慧投資之路。"
 ---
 
