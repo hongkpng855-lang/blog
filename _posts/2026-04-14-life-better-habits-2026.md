@@ -2,7 +2,6 @@
 layout: post
 title: "2026讓生活更精彩的10個小習慣：數位減壓、拒絕內耗，別再執著年度目標"
 date: 2026-04-14 19:35:00 +0800
-image: /assets/images/posts/2026-04-14-life-better-habits-2026-cover.webp
 categories: [生活]
 tags: [生活習慣, 自我成長, 數位排毒, 時間管理, 2026]
 author: Sun ny

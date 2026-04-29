@@ -2,7 +2,6 @@
 layout: post
 title: "記憶宮殿法：讓你過目不忘的古老秘技"
 date: 2026-04-02 03:24:00 +0800
-image: /assets/images/posts/2026-04-02-memory-palace-guide-cover.webp
 categories: [learning]
 tags: [記憶技巧, 學習方法, 記憶宮殿, 高效學習]
 author: Sun ny

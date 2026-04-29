@@ -2,7 +2,6 @@
 layout: post
 title: "腸道健康指南-從飲食開始改善全身狀態"
 date: 2026-04-02 18:36:00 +0800
-image: /assets/images/posts/2026-04-02-gut-health-guide-cover.webp
 categories: [health]
 tags: [腸道健康, 飲食習慣, 消化系統, 益生菌, 營養攝取]
 author: Sun ny

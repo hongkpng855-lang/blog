@@ -2,7 +2,6 @@
 layout: post
 title: "2026 AI 趨勢完整指南：從生成式 AI 到自主代理，掌握 12 大關鍵發展"
 date: 2026-04-03 03:40:49 +0800
-image: /assets/images/posts/2026-04-03-2026-ai-trends-complete-guide-cover.webp
 categories: [tech]
 tags: [AI, 人工智慧, 生成式AI, 2026趨勢, 科技發展, 企業轉型]
 author: Sun ny

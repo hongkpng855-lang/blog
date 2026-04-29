@@ -2,7 +2,6 @@
 layout: post
 title: "高效筆記法：5 種讓你真正記住的筆記技巧"
 date: 2026-04-14 01:27:00 +0800
-image: /assets/images/posts/2026-04-14-effective-note-taking-methods-cover.webp
 categories: [learning]
 tags: [筆記, 學習方法, 筆記技巧, 高效學習, 知識管理]
 author: Sun ny

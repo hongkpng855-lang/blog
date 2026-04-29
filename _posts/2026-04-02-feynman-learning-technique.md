@@ -2,7 +2,6 @@
 layout: post
 title: "費曼學習法-四步驟讓你真正學會任何知識"
 date: 2026-04-02 12:42:00 +0800
-image: /assets/images/posts/2026-04-02-feynman-learning-technique-cover.webp
 categories: [learning]
 tags: [學習方法, 費曼技巧, 高效學習, 知識內化, 學習策略]
 author: Sun ny

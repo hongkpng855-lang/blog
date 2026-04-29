@@ -2,7 +2,6 @@
 layout: post
 title: "每天15分鐘運動指南-忙碌上班族的實用方案"
 date: 2026-04-02 14:36:00 +0800
-image: /assets/images/posts/2026-04-02-daily-15-min-exercise-guide-cover.webp
 categories: [health]
 tags: [運動習慣, 健康生活, 上班族健身, 時間管理, 體能訓練]
 author: Sun ny

@@ -5,7 +5,6 @@ date: 2026-04-21 04:54:29 +0800
 categories: [learning]
 tags: [學習方法, AI, 效率提升, 時間管理]
 author: Sun ny
-image: /assets/images/posts/2026-04-21-ai-era-learning-methods-cover.webp
 description: "AI 時代來臨，學習方式也要跟著進化！本文整理 2026 年最實用的高效學習方法，從 AI 輔助學習到費曼學習法，幫助你用更少的時間學得更快、更深入。"
 ---
 

@@ -2,7 +2,6 @@
 layout: post
 title: "車輪 SSR 角色完整攻略：抽卡策略與培養指南"
 date: 2026-04-10 20:17:00 +0800
-image: /assets/images/posts/2026-04-10-wheel-ssr-cover.webp
 categories: [遊戲]
 tags: [SSR, 抽卡, 手遊攻略, 角色培養]
 author: Sun ny

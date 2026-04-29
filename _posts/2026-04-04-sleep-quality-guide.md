@@ -2,7 +2,6 @@
 layout: post
 title: "睡不好怎麼辦？5個改善睡眠品質的實用方法"
 date: 2026-04-04 08:47:05 +0800
-image: /assets/images/posts/2026-04-04-sleep-quality-guide-cover.webp
 categories: [health]
 tags: [睡眠品質, 失眠, 健康生活, 睡眠習慣]
 author: Sun ny

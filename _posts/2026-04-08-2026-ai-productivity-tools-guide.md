@@ -2,7 +2,6 @@
 layout: post
 title: "2026 AI 生產力工具入門指南：從零開始打造智慧工作流"
 date: 2026-04-08 03:00:00 +0800
-image: /assets/images/posts/2026-04-08-2026-ai-productivity-tools-guide-cover.webp
 categories: [tech]
 tags: [AI工具, 生產力, 工作流, 自動化, 效率]
 author: Sun ny

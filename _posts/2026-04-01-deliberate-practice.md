@@ -2,7 +2,6 @@
 layout: post
 title: "刻意練習：從新手到專家的必經之路"
 date: 2026-04-01 16:40:00 +0800
-image: /assets/images/posts/2026-04-01-deliberate-practice-cover.webp
 categories: [learning]
 tags: [學習方法, 刻意練習, 技能精進, 專業成長, 自我提升]
 author: Sun ny

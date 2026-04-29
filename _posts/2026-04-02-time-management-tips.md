@@ -2,7 +2,6 @@
 layout: post
 title: "時間管理技巧：讓每一天更有價值的 7 個實用方法"
 date: 2026-04-02 07:59:36 +0800
-image: /assets/images/posts/2026-04-02-time-management-tips-cover.webp
 categories: [life]
 tags: [時間管理, 效率, 生產力]
 description: "掌握 7 個實用時間管理技巧，讓你的每一天都更有價值，提升工作效率與生活品質。"

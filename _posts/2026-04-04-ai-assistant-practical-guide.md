@@ -2,7 +2,6 @@
 layout: post
 title: "AI 助手實用指南：2026 年如何讓 AI 成為你的超級幫手"
 date: 2026-04-04 05:33:11 +0800
-image: /assets/images/posts/2026-04-04-ai-assistant-practical-guide-cover.webp
 categories: [tech]
 tags: [AI, 人工智慧, 效率工具, 科技應用]
 author: Sun ny

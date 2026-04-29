@@ -2,7 +2,6 @@
 layout: post
 title: "ChatGPT 生活應用全攻略：10 個讓你每天都用得上的實用技巧"
 date: 2026-04-05 08:09:00 +0800
-image: /assets/images/posts/2026-04-05-chatgpt-daily-life-guide-cover.webp
 categories: [生活]
 tags: [ChatGPT, AI, 生活應用, 效率提升, 數位生活]
 author: Sun ny

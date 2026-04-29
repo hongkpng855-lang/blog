@@ -2,7 +2,6 @@
 layout: post
 title: "2026 AI 提示詞入門指南：從零開始掌握 ChatGPT 溝通技巧"
 date: 2026-04-12 11:07:00 +0800
-image: /assets/images/posts/2026-04-12-ai-prompt-guide-cover.webp
 categories: [tech]
 tags: [AI, ChatGPT, 提示詞, 教學]
 author: Sun ny

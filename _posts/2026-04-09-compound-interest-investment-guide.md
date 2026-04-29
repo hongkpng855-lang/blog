@@ -2,7 +2,6 @@
 layout: post
 title: "複利的力量：2026 年新手必懂的長期投資心法"
 date: 2026-04-09 18:44:15 +0800
-image: /assets/images/posts/2026-04-09-compound-interest-investment-guide-cover.webp
 categories: [investment]
 tags: [複利, 長期投資, ETF, 財富自由, 投資入門]
 author: Sun ny

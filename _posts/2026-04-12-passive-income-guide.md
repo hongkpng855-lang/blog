@@ -2,7 +2,6 @@
 layout: post
 title: "被動收入入門指南：從零開始建立你的現金流"
 date: 2026-04-12 12:51:00 +0800
-image: /assets/images/posts/2026-04-12-passive-income-guide-cover.webp
 categories: [investment]
 tags: [被動收入, ETF, 定期定額, 投資入門, 財務自由]
 author: Sun ny

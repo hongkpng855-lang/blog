@@ -2,7 +2,6 @@
 layout: post
 title: "睡眠品質決定你的健康：5個科學證實的改善方法"
 date: 2026-04-09 11:30:00 +0800
-image: /assets/images/posts/2026-04-09-sleep-quality-guide-cover.webp
 categories: [health]
 tags: [睡眠, 健康, 生活習慣, 睡眠品質]
 author: Sun ny

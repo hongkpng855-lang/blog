@@ -2,7 +2,6 @@
 layout: post
 title: "康乃爾筆記法：讓學習效率提升 300% 的終極秘訣"
 date: 2026-04-02 11:18:35 +0800
-image: /assets/images/posts/2026-04-02-cornell-note-taking-method-cover.webp
 categories: [learning]
 tags: [筆記方法, 康乃爾筆記, 學習技巧, 讀書方法, 時間管理]
 author: Sun ny

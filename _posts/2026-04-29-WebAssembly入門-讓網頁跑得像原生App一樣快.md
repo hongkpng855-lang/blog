@@ -5,7 +5,6 @@ date: 2026-04-29 15:17:00 +0800
 categories: [tech]
 tags: [WebAssembly, WASM, 網頁效能, 前端開發, 瀏覽器]
 author: Sun ny
-image: /assets/images/posts/2026-04-29-WebAssembly入門-讓網頁跑得像原生App一樣快-cover.webp
 description: "WebAssembly 正在改變網頁效能的上限。這篇入門指南帶你了解 WASM 是什麼、為什麼重要、如何開始，以及 2026 年的最新應用場景。"
 ---
 

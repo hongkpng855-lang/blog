@@ -2,7 +2,6 @@
 layout: post
 title: "2026 年理財規劃：聰明存錢的 5 個實用方法"
 date: 2026-04-13 09:51:00 +0800
-image: /assets/images/posts/2026-04-13-smart-saving-methods-2026-cover.webp
 categories: [investment]
 tags: [理財, 存錢, 儲蓄, 財務規劃, 2026]
 author: Sun ny
@@ -90,6 +89,5 @@ description: "想開始存錢卻不知從何下手？本文分享 2026 年最實
 > 💡 **小提醒**：文章中提到的方法可以組合使用。例如同時執行「自動轉帳」和「個位數存錢法」，效果加乘！
 
 ---
-image: /assets/images/posts/2026-04-13-smart-saving-methods-2026-cover.webp
 
 *延伸閱讀：[ETF 入門指南：小資族也能開始的被動投資](/investment/etf-guide-2026)*

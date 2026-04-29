@@ -2,7 +2,6 @@
 layout: post
 title: "記憶宮殿法-古老技巧的現代應用"
 date: 2026-04-03 12:01:00 +0800
-image: /assets/images/posts/2026-04-03-memory-palace-method-cover.webp
 categories: [learning]
 tags: [記憶宮殿, 學習方法, 記憶技巧, 高效學習, 腦力開發]
 author: Sun ny

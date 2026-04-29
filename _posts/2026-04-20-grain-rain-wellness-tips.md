@@ -5,7 +5,6 @@ date: 2026-04-20 19:48:00 +0800
 categories: [health]
 tags: [健康, 養生, 穀雨, 節氣, 二十四節氣]
 author: Sun ny
-image: /assets/images/posts/grain-rain-wellness-cover.webp
 description: "2026年穀雨節氣即將到來！本文整理穀雨6大注意事項，包括4生肖健康警示、健脾除濕食材推薦、晨練養生法，幫助你在春末夏初之際打好健康基礎。"
 ---
 

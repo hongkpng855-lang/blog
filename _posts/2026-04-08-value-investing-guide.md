@@ -2,7 +2,6 @@
 layout: post
 title: "價值投資入門：2026年從巴菲特哲學學會穩健致富的智慧"
 date: 2026-04-08 00:26:00 +0800
-image: /assets/images/posts/2026-04-08-value-investing-guide-cover.webp
 categories: [investment]
 tags: [價值投資, 巴菲特, 投資入門, 股票投資, 長期投資]
 author: Sun ny

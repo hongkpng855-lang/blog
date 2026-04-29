@@ -2,7 +2,6 @@
 layout: post
 title: "四季養生茶飲-順應節氣的天然保健法"
 date: 2026-04-03 09:41:00 +0800
-image: /assets/images/posts/2026-04-03-seasonal-herbal-tea-cover.webp
 categories: [health]
 tags: [養生茶飲, 四季養生, 自然保健, 中醫養生, 健康生活]
 author: Sun ny

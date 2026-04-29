@@ -5,7 +5,6 @@ date: 2026-04-25 16:27:20 +0800
 categories: ['investment']
 tags: ['REIT', '台股', '被動收入', '高息投資']
 author: Sun ny
-image: /assets/images/posts/2026-04-25-taiwan-reits-investment-guide-cover.webp
 description: "探索2026年台灣REITs投資機會，了解產業園區、倉儲物流與資料中心類別REIT的特色、息率與風險，提供適合長期持有的選擇策略。"
 ---
 

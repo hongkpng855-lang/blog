@@ -2,7 +2,6 @@
 layout: post
 title: "晨間習慣解密：成功人士的早晨儀式如何提升生產力"
 date: 2026-04-10 06:39:33 +0800
-image: /assets/images/posts/2026-04-10-morning-routines-of-successful-people-cover.webp
 categories: [life]
 tags: [晨間習慣, 生產力, 生活, 成功人士, 早晨儀式]
 author: Sun ny

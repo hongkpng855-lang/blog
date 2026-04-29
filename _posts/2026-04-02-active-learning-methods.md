@@ -2,7 +2,6 @@
 layout: post
 title: "主動學習法-讓學習效果翻倍的實用技巧"
 date: 2026-04-02 19:36:00 +0800
-image: /assets/images/posts/2026-04-02-active-learning-methods-cover.webp
 categories: [learning]
 tags: [主動學習, 學習方法, 記憶技巧, 自我提升, 知識內化]
 author: Sun ny

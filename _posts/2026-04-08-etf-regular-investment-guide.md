@@ -2,7 +2,6 @@
 layout: post
 title: "ETF定期定額：小資族穩健累積財富的懶人投資術"
 date: 2026-04-08 12:55:00 +0800
-image: /assets/images/posts/2026-04-08-etf-regular-investment-guide-cover.webp
 categories: [investment]
 tags: [ETF, 定期定額, 理財, 投資入門]
 author: Sun ny

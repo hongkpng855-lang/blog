@@ -2,7 +2,6 @@
 layout: post
 title: "2026 微習慣健康指南：5 個小改變讓你自然變健康"
 date: 2026-04-08 04:15:00 +0800
-image: /assets/images/posts/2026-04-08-micro-habits-health-guide-cover.webp
 categories: [health]
 tags: [微習慣, 健康, 養生, 生活習慣, 自我照顧]
 author: Sun ny

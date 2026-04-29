@@ -2,7 +2,6 @@
 layout: post
 title: "2026 AI 工作流實戰：3 個工具讓生產力翻倍"
 date: 2026-04-11 23:57:00 +0800
-image: /assets/images/posts/2026-04-10-ai-productivity-tools-2026-cover.webp
 categories: [tech]
 tags: [AI, 生產力, 工作流, NotebookLM, Notion AI]
 author: Sun ny

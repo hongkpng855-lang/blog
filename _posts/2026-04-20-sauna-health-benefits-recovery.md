@@ -5,7 +5,6 @@ date: 2026-04-20 22:51:53 +0800
 categories: [health]
 tags: [桑拿, 健康養生, 心血管健康, 運動恢復, 健康研究]
 author: Sun ny
-image: /assets/images/posts/2026-04-20-sauna-health-benefits-recovery-cover.webp
 description: "最新研究發現，桑拿能讓夜間心率降低約3下，效果甚至比運動更顯著。本文深入探討桑拿對心血管健康、運動恢復的科學證據，以及男女差異，讓你了解如何正確使用桑拿提升健康。"
 ---
 

@@ -2,7 +2,6 @@
 layout: post
 title: "2026 AI 程式開發工具趨勢：開發者必備的智慧助手指南"
 date: 2026-04-04 16:56:00 +0800
-image: /assets/images/posts/2026-04-04-2026-ai-coding-tools-trends-cover.webp
 categories: [科技]
 tags: [AI, 程式開發, 開發工具, 生產力, 2026趨勢]
 author: Sun ny

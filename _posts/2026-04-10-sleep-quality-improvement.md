@@ -2,7 +2,6 @@
 layout: post
 title: "改善睡眠品質的 7 個實用方法：讓你一夜好眠到天亮"
 date: 2026-04-10 23:41:00 +0800
-image: /assets/images/posts/2026-04-10-sleep-quality-improvement-cover.webp
 categories: [健康]
 tags: [睡眠, 失眠, 健康, 生活習慣, 助眠]
 author: Sun ny

@@ -2,7 +2,6 @@
 layout: post
 title: "AI 助理 2026 年趨勢：從聊天機器人到自主智慧體的關鍵轉變"
 date: 2026-04-11 12:17:29 +0800
-image: /assets/images/posts/2026-04-11-ai-assistant-2026-trends-cover.webp
 categories: [tech]
 tags: [AI 助理, AI Agent, 人工智慧, 數位轉型, 2026 趨勢]
 author: Sun ny

@@ -2,7 +2,6 @@
 layout: post
 title: "數位極簡主義：為什麼你該試試 30 天數位斷捨離？"
 date: 2026-04-07 08:54:00 +0800
-image: /assets/images/posts/learning-cover.webp
 categories: [life]
 tags: [數位極簡主義, 數位斷捨離, 專注力, 深度工作, 生活品質]
 author: Sun ny

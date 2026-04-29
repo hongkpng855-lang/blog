@@ -2,7 +2,6 @@
 layout: post
 title: "數位斷捨離：清理手機與電腦的心靈整理術"
 date: 2026-04-14 15:30:00 +0800
-image: /assets/images/posts/2026-04-14-digital-declutter-guide-cover.webp
 categories: [life]
 tags: [斷捨離, 數位生活, 整理, 生產力, 手機整理]
 author: Sun ny

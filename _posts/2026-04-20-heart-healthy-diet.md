@@ -5,7 +5,6 @@ date: 2026-04-20 20:47:17 +0800
 categories: [health]
 tags: [心臟健康, 飲食指南, 超級食物, 心血管保健, 健康飲食]
 author: Sun ny
-image: /assets/images/posts/2026-04-20-heart-healthy-diet-cover.webp
 description: "想守護心臟健康？這篇護心飲食指南整理了5種對心血管最有益的超級食物，包括深海魚、堅果、全穀類等，教你如何從日常飲食開始保養心臟。"
 ---
 

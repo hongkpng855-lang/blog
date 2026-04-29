@@ -2,7 +2,6 @@
 layout: post
 title: "深層睡眠改善指南：5個科學實證技巧讓你一夜好眠"
 date: 2026-04-18 06:47:00 +0800
-image: /assets/images/posts/2026-04-18-deep-sleep-guide-cover.webp
 categories: [health]
 tags: [睡眠, 健康, 深層睡眠, 睡眠品質]
 author: Sun ny

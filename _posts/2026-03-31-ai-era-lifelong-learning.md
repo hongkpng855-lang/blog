@@ -2,7 +2,6 @@
 layout: post
 title: "AI 時代下的終身學習策略：如何在智慧浪潮中保持競爭力"
 date: 2026-03-31 09:00:00 +0800
-image: /assets/images/posts/2026-03-31-ai-era-lifelong-learning-cover.webp
 categories: [learning]
 tags: [AI, 終身學習, 職場技能, 數位轉型, 學習策略]
 author: Sun ny

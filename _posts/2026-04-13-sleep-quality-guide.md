@@ -2,7 +2,6 @@
 layout: post
 title: "提升睡眠品質的科學方法：7 個今晚就能實踐的改善技巧"
 date: 2026-04-13 23:50:00 +0800
-image: /assets/images/posts/2026-04-13-sleep-quality-guide-cover.webp
 categories: [health]
 tags: [睡眠, 健康, 生活習慣, 睡眠品質]
 author: Sun ny

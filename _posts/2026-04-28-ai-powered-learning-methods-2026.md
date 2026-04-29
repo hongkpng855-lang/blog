@@ -5,7 +5,6 @@ date: 2026-04-28 19:39:00 +0800
 categories: [learning]
 tags: [AI學習, 高效學習, 學習方法, 費曼技巧, 番茄工作法, 2026]
 author: Sun ny
-image: /assets/images/posts/2026-04-28-ai-powered-learning-methods-2026-cover.webp
 description: "2026 年最實用的 AI 加速學習指南，結合費曼技巧、主動回想法與最新 AI 工具，讓你用更少時間吸收更多知識，7 個馬上能用的學習技巧完整解析。"
 ---
 

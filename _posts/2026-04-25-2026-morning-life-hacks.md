@@ -5,7 +5,6 @@ date: 2026-04-25 11:06:45 +0800
 categories: ["life"]
 tags: [早晨習慣, 生活技巧, 2026]
 author: Sun ny
-image: /assets/images/posts/2026-morning-life-hacks-cover.webp
 description: "了解2026年早晨例行技巧，從補水、陽光曝曬、伸展運動到健康早餐與正念冥想，簡單習慣讓你一整天充滿活力與專注力。"
 ---
 

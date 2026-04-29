@@ -2,7 +2,6 @@
 layout: post
 title: "2026 AI 趨勢全解析：四大技術突破與六大實用技能，讓你不再落後"
 date: 2026-04-10 00:54:15 +0800
-image: /assets/images/posts/2026-04-10-2026-ai-trends-and-skills-cover.webp
 categories: [tech]
 tags: [AI, 人工智慧, 2026趨勢, ChatGPT, AI代理, 世界模型]
 author: Sun ny

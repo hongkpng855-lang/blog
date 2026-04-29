@@ -2,7 +2,6 @@
 layout: post
 title: "2026 AI 工具推薦：10 款提升生產力的必備神器"
 date: 2026-04-12 15:36:00 +0800
-image: /assets/images/posts/2026-04-12-2026-ai-tools-recommendation-cover.webp
 categories: [tech]
 tags: [AI, 生產力工具, 科技, 數位轉型]
 author: Sun ny

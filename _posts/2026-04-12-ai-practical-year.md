@@ -2,7 +2,6 @@
 layout: post
 title: "2026 年 AI 實用元年：智慧生活新革命"
 date: 2026-04-12 15:07:00 +0800
-image: /assets/images/posts/2026-04-12-ai-practical-year-cover.webp
 categories: [tech]
 tags: [AI, 人工智慧, 智慧生活, 科技趨勢]
 author: Sun ny

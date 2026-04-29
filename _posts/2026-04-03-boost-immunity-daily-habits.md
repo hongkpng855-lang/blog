@@ -2,7 +2,6 @@
 layout: post
 title: "提升免疫力的日常習慣-從生活細節開始守護健康"
 date: 2026-04-03 07:51:00 +0800
-image: /assets/images/posts/2026-04-03-boost-immunity-daily-habits-cover.webp
 categories: [health]
 tags: [免疫力, 健康習慣, 日常保健, 睡眠, 運動]
 author: Sun ny

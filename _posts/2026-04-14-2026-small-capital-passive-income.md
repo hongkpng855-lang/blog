@@ -2,7 +2,6 @@
 layout: post
 title: "2026年小資族理財攻略：從零開始打造被動收入"
 date: 2026-04-14 23:28:00 +0800
-image: /assets/images/posts/2026-04-14-2026-small-capital-passive-income-cover.webp
 categories: [investment]
 tags: [理財, ETF, 被動收入, 小資族]
 author: Sun ny

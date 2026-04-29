@@ -2,7 +2,6 @@
 layout: post
 title: "AI 助理入門：如何用 ChatGPT 提升工作效率"
 date: 2026-04-14 05:03:00 +0800
-image: /assets/images/posts/2026-04-14-AI助理入門-ChatGPT提升工作效率-cover.webp
 categories: [tech]
 tags: [AI, ChatGPT, 效率, 科技, 工作術]
 author: Sun ny

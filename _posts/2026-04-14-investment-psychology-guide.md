@@ -2,7 +2,6 @@
 layout: post
 title: "投資心理學：避開這 5 個心理陷阱，讓你的報酬率多 3%"
 date: 2026-04-14 09:33:47 +0800
-image: /assets/images/posts/2026-04-14-investment-psychology-guide-cover.webp
 categories: [investment]
 tags: [投資, 心理學, 理財, 行為金融, 投資策略]
 author: Sun ny

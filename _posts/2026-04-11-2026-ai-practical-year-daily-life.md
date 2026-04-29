@@ -2,7 +2,6 @@
 layout: post
 title: "2026 AI 實用元年：人工智慧如何悄悄改變你的每一天"
 date: 2026-04-11 19:08:00 +0800
-image: /assets/images/posts/2026-04-11-2026-ai-practical-year-daily-life-cover.webp
 categories: [life]
 tags: [AI, 人工智慧, 生活應用, 科技趨勢, 2026]
 author: Sun ny

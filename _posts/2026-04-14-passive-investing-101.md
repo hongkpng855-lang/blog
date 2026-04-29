@@ -2,7 +2,6 @@
 layout: post
 title: "被動投資入門：用 ETF 打造你的自動賺錢系統"
 date: 2026-04-14 05:52:00 +0800
-image: /assets/images/posts/2026-04-14-passive-investing-101-cover.svg
 categories: [investment]
 tags: [ETF, 被動投資, 理財, 財務自由]
 author: Sun ny

@@ -5,7 +5,6 @@ date: 2026-04-28 20:54:00 +0800
 categories: [health]
 tags: [腸道健康, 微生物組, 腸腦軸, 益生菌, 預防醫學, 2026]
 author: Sun ny
-image: /assets/images/posts/2026-04-28-gut-microbiome-health-2026-cover.webp
 description: "2026 年腸道微生物組研究大突破！從腸腦軸到個人化益生菌，掌握 5 大關鍵趨勢與日常保養策略，讓你的第二大腦成為健康最強後盾。"
 ---
 

@@ -2,7 +2,6 @@
 layout: post
 title: "AI 助手工具全攻略-讓工作效率翻倍的實用指南"
 date: 2026-04-02 06:31:00 +0800
-image: /assets/images/posts/2026-04-02-ai-assistant-tools-guide-cover.webp
 categories: [tech]
 tags: [AI工具, 人工智慧, 數位轉型, 工作效率, 科技趨勢]
 author: Sun ny

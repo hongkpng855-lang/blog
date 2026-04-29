@@ -2,7 +2,6 @@
 layout: post
 title: "2026 ETF 被動收入入門指南：新手打造穩定現金流的第一步"
 date: 2026-04-11 21:05:00 +0800
-image: /assets/images/posts/2026-04-11-小資族被動收入計畫-cover.webp
 categories: [investment]
 tags: [ETF入門, 被動收入, 現金流, 高股息ETF, 定期定額, 資產配置, 0050, 00878, 00919]
 author: Sun ny

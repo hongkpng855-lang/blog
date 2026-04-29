@@ -2,7 +2,6 @@
 layout: post
 title: "2026 被動收入入門指南：小資族也能開始的 8 個方法"
 date: 2026-04-06 13:30:00 +0800
-image: /assets/images/posts/2026-04-06-passive-income-guide-cover.webp
 categories: [investment]
 tags: [被動收入, 投資理財, ETF, 財務自由, 小資族]
 author: Sun ny

@@ -2,7 +2,6 @@
 layout: post
 title: "資產配置入門-用簡單策略建立投資組合"
 date: 2026-04-02 23:28:00 +0800
-image: /assets/images/posts/2026-04-02-asset-allocation-guide-cover.webp
 categories: [investment]
 tags: [資產配置, 投資組合, ETF投資, 風險管理, 理財規劃]
 author: Sun ny

@@ -2,7 +2,6 @@
 layout: post
 title: "2026 AI Agent 入門指南：從聊天機器人到自主代理的演進"
 date: 2026-04-06 22:45:00 +0800
-image: /assets/images/posts/2026-04-06-ai-agent-guide-cover.webp
 categories: [tech]
 tags: [AI, AI Agent, 人工智慧, 科技趨勢, 數位轉型]
 author: Sun ny

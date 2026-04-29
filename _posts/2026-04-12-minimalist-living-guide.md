@@ -2,7 +2,6 @@
 layout: post
 title: "極簡生活入門指南：用減法讓人生更輕盈"
 date: 2026-04-12 06:39:00 +0800
-image: /assets/images/posts/2026-04-12-極簡生活入門指南-cover.webp
 categories: [life]
 tags: [極簡, 生活, 斷捨離, 減法生活, 極簡主義]
 author: Sun ny

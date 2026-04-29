@@ -5,7 +5,6 @@ date: 2026-04-26 18:48:52 +0800
 categories: [tech]
 tags: [DeepSeek-V4, AI, Agent, 世界知識, 推理效能]
 author: Sun ny
-image: /assets/images/posts/2026-04-26-deepseek-v4-release-agent-capability-world-knowledge-leads-china-cover.webp
 description: "中國 DeepSeek 正式發布 DeepSeek-V4 預覽版，能消化百萬字超長上下文，在 Agent 能力、世界知識及推理效能上領先中國當地與開源競爭對手，且成本遠低於西方巨頭。"
 ---
 

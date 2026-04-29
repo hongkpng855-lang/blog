@@ -2,7 +2,6 @@
 layout: post
 title: "被動收入入門指南：小資族也能打造自動現金流的7個方法"
 date: 2026-04-08 01:07:00 +0800
-image: /assets/images/posts/2026-04-08-passive-income-guide-cover.webp
 categories: [investment]
 tags: [被動收入, 投資理財, ETF, 財務自由, 小資族]
 author: Sun ny

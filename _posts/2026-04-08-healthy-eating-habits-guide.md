@@ -2,7 +2,6 @@
 layout: post
 title: "建立健康飲食習慣的七個科學方法：從外食族到自備餐的實用指南"
 date: 2026-04-08 13:53:00 +0800
-image: /assets/images/posts/2026-04-08-healthy-eating-habits-guide-cover.webp
 categories: [health]
 tags: [健康飲食, 飲食習慣, 營養, 免疫力, 生活健康, 正念飲食]
 author: Sun ny

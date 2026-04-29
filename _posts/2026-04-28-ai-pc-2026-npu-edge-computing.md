@@ -5,7 +5,6 @@ date: 2026-04-28 18:25:49 +0800
 categories: ['technology']
 tags: ['AI PC', 'NPU', '邊緣運算', '2026', '科技趨勢']
 author: Sun ny
-image: /assets/images/posts/ai-pc-2026-npu-edge-computing-cover.webp
 description: "探索2026年AI PC的最新發展，從NPU加速器到邊緣運算能力，了解這些技術如何重塑個人計算體驗與生產力工具。"
 ---
 隨著人工智慧從雲端延伸至終端設備，2026年被稱為AI PC的爆發年。這不是僅 soltanto在規格表上加個AI標籤那麼簡單，而是一場從晶片架構到使用體驗的徹底變革。本文將深入探討今年AI PC的核心技術突破與實際應用場景。

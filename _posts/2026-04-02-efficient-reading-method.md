@@ -2,7 +2,6 @@
 layout: post
 title: "高效閱讀法-如何在有限時間內讀懂更多書"
 date: 2026-04-02 15:04:00 +0800
-image: /assets/images/posts/2026-04-02-efficient-reading-method-cover.webp
 categories: [learning]
 tags: [閱讀方法, 高效學習, 讀書技巧, 知識管理, 自我提升]
 author: Sun ny

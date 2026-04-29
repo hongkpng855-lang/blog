@@ -2,7 +2,6 @@
 layout: post
 title: "改善睡眠品質的七個習慣：讓你一夜好眠的實用指南"
 date: 2026-04-07 03:22:34 +0800
-image: /assets/images/posts/health-cover.webp
 categories: [健康]
 tags: [睡眠品質, 失眠改善, 健康習慣, 生活作息, 深層睡眠]
 author: Sun ny

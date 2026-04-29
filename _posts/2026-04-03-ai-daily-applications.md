@@ -2,7 +2,6 @@
 layout: post
 title: "AI人工智慧的日常應用-讓科技為生活加分"
 date: 2026-04-03 19:36:00 +0800
-image: /assets/images/posts/2026-04-03-ai-daily-applications-cover.webp
 categories: [tech]
 tags: [人工智慧, AI應用, 科技生活, 數位轉型, 智慧生活]
 author: Sun ny

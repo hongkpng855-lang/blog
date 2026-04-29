@@ -2,7 +2,6 @@
 layout: post
 title: "投資心理學-戰勝大腦的陷阱做出理性決策"
 date: 2026-04-04 00:26:00 +0800
-image: /assets/images/posts/2026-04-04-investment-psychology-cover.webp
 categories: [investment]
 tags: [投資心理學, 行為財務學, 投資決策, 散戶投資, 理性投資]
 author: Sun ny

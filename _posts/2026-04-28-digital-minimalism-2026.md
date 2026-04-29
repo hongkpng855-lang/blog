@@ -5,7 +5,6 @@ date: 2026-04-28 23:15:00 +0800
 categories: [生活]
 tags: [數位極簡, 生活風格, 生產力, 3C排毒, 數位健康]
 author: Sun ny
-image: /assets/images/posts/2026-04-28-digital-minimalism-2026-cover.webp
 description: "數位極簡主義不是斷網隱居，而是有意識地選擇科技工具。2026 年最新實踐方法，從手機排毒到通知管理，7 步驟幫你重新拿回生活主導權。"
 ---
 

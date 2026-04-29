@@ -5,7 +5,6 @@ date: 2026-04-29 22:22:00 +0800
 categories: [tech]
 tags: [AI Agent, 人工智慧, 自動化, 科技趨勢, 生產力工具, MCP]
 author: Sun ny
-image: /assets/images/posts/2026-04-29-AI-Agent入門-讓AI幫你完成任務的下一代工具-cover.webp
 description: "2026 年最熱門的科技關鍵字不是 ChatGPT，而是 AI Agent。它不再只是回答問題的聊天機器人，而是能幫你搜資料、寫程式、排行程、甚至幫你下單的主動助手。這篇文章帶你搞懂 AI Agent 是什麼、能做什麼，以及怎麼開始用。"
 ---
 

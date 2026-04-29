@@ -2,7 +2,6 @@
 layout: post
 title: "退休理財規劃：從今天開始打造無憂晚年"
 date: 2026-03-29 05:17:00 +0800
-image: /assets/images/posts/2026-03-29-retirement-financial-planning-cover.webp
 categories: [investment]
 tags: [退休, 理財, 長期規劃]
 author: Sun ny

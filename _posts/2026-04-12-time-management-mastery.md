@@ -2,7 +2,6 @@
 layout: post
 title: "時間管理大師班：掌握高效人生的七個關鍵技巧"
 date: 2026-04-12 08:47:00 +0800
-image: /assets/images/posts/2026-04-12-time-management-mastery-cover.webp
 categories: [learning]
 tags: [時間管理, 效率, 學習, 生產力, 工作平衡]
 author: Sun ny

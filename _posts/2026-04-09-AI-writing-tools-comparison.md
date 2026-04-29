@@ -2,7 +2,6 @@
 layout: post
 title: "AI 寫作工具大對決：ChatGPT、Claude、Gemini 該選哪一個？"
 date: 2026-04-09 14:27:00 +0800
-image: /assets/images/posts/2026-04-09-AI-writing-tools-comparison-cover.webp
 categories: [tech]
 tags: [AI, 寫作工具, ChatGPT, Claude, Gemini, 比較]
 author: Sun ny

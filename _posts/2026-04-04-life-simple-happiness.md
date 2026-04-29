@@ -2,7 +2,6 @@
 layout: post
 title: "生活小確幸：7 個日常練習讓平凡日子更有溫度"
 date: 2026-04-04 07:18:00 +0800
-image: /assets/images/posts/2026-04-04-life-simple-happiness-cover.webp
 categories: [life]
 tags: [小確幸, 生活品質, 日常幸福]
 author: Sun ny

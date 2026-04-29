@@ -2,7 +2,6 @@
 layout: post
 title: "AI 投資理財入門指南：2026 新手必懂的智能理財攻略"
 date: 2026-04-14 17:20:00 +0800
-image: /assets/images/posts/2026-04-14-ai-investment-guide-cover.webp
 categories: [investment]
 tags: [AI投資, 智能理財, 機器人理財, 投資入門, 2026]
 author: Sun ny

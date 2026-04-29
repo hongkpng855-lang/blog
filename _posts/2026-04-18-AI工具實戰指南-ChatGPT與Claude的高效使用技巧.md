@@ -2,7 +2,6 @@
 layout: post
 title: "AI 工具實戰指南：ChatGPT 與 Claude 的高效使用技巧"
 date: 2026-04-18 06:02:00 +0800
-image: /assets/images/posts/2026-04-18-AI工具實戰指南-ChatGPT與Claude的高效使用技巧-cover.webp
 categories: [tech]
 tags: [AI, ChatGPT, Claude, 生產力, 數位工具]
 author: Sun ny

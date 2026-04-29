@@ -5,7 +5,6 @@ date: 2026-04-29 09:04:00 +0800
 categories: [tech]
 tags: [AI, AI Agent, 自動化, 科技趨勢, 人工智慧]
 author: Sun ny
-image: /assets/images/posts/2026-04-29-AI-Agent入門-讓AI不只是聊天機器人-cover.webp
 description: "2026 年最火紅的科技關鍵字就是 AI Agent。它跟傳統聊天機器人到底有什麼不同？這篇入門指南帶你搞懂 AI 代理的核心概念、應用場景，以及如何開始打造屬於自己的 AI Agent。"
 ---
 

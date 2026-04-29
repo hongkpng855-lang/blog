@@ -5,7 +5,6 @@ date: 2026-04-28 18:00:42 +0800
 categories: ['investment']
 tags: ['REITs', '台股', '投資指南', '高息', '2026']
 author: Sun ny
-image: /assets/images/posts/taiwan-reits-investment-guide-2026-cover.webp
 description: "深入探討2026年台灣REITs投資機會，分析高息率特性、風險因素及選股策略，幫助投資者把握穩健收益來源。"
 ---
 你是否曾想過，如果不用親自買下整棟大樓，也能擁有不動產租金收入？這正是REITs（不動產投資信託基金）的魅力所在。在2026年，台灣REITs市場正迎來新的投資機會，特別是對於尋求穩定現金流的投資者而言。

@@ -2,7 +2,6 @@
 layout: post
 title: "投資新手入門指南：從零開始打造你的財富藍圖"
 date: 2026-04-08 18:58:04 +0800
-image: /assets/images/posts/2026-04-08-touzi-xinshou-rumen-cover.webp
 categories: [investment]
 tags: [投資入門, 理財, ETF, 新手教學, 小額投資]
 author: Sun ny

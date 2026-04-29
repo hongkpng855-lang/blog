@@ -5,7 +5,6 @@ date: 2026-04-20 21:36:15 +0800
 categories: [health]
 tags: [睡眠, 健康, 生活品質, 失眠, 睡眠衛生]
 author: Sun ny
-image: /assets/images/posts/2026-04-20-sleep-health-guide-cover.webp
 description: "現代人普遍面臨睡眠問題，本文整理7個經科學驗證的睡眠改善方法，從睡眠環境到日常習慣，幫助你提升睡眠品質，改善整體健康狀態。"
 ---
 

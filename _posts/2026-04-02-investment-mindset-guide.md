@@ -2,7 +2,6 @@
 layout: post
 title: "投資理財心態-新手最容易犯的5個錯誤"
 date: 2026-04-02 05:57:00 +0800
-image: /assets/images/posts/2026-04-02-investment-mindset-guide-cover.webp
 categories: [investment]
 tags: [投資入門, 理財心態, 投資錯誤, 新手指南, 風險管理]
 author: Sun ny

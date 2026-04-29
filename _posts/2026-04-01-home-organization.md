@@ -2,7 +2,6 @@
 layout: post
 title: "居家收納術：讓生活空間井然有序的實用技巧"
 date: 2026-04-01 17:10:00 +0800
-image: /assets/images/posts/2026-04-01-home-organization-cover.webp
 categories: [life]
 tags: [生活, 居家收納, 整理術, 生活技巧, 空間管理]
 author: Sun ny

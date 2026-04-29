@@ -2,7 +2,6 @@
 layout: post
 title: "AI 工具比較 2026：ChatGPT vs Claude vs Gemini，哪個最適合你？"
 date: 2026-04-01 12:38:00 +0800
-image: /assets/images/posts/2026-04-01-ai-tools-comparison-chatgpt-claude-gemini-cover.webp
 categories: [tech]
 tags: [AI, ChatGPT, Claude, Gemini, 工具比較, 人工智慧]
 author: Sun ny

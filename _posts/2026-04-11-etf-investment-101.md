@@ -2,7 +2,6 @@
 layout: post
 title: "2026 ETF 投資入門：新手必懂的 5 個關鍵觀念"
 date: 2026-04-11 06:26:00 +0800
-image: /assets/images/posts/2026-04-11-etf-investment-101-cover.webp
 categories: [investment]
 tags: [ETF, 投資入門, 被動收入, 2026]
 author: Sun ny

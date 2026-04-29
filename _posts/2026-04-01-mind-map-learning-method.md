@@ -2,7 +2,6 @@
 layout: post
 title: "思維導圖學習法：讓知識結構化的高效技巧"
 date: 2026-04-01 04:50:00 +0800
-image: /assets/images/posts/2026-04-01-mind-map-learning-method-cover.webp
 categories: [learning]
 tags: [學習方法, 思維導圖, 知識管理, 效率提升]
 author: Sun ny
