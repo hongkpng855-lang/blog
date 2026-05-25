@@ -5,7 +5,7 @@ date: 2026-04-30 08:00:00 +0800
 categories: [tech]
 tags: [WebAssembly, Wasm, 網頁開發, 前端效能, 程式語言]
 author: Sun ny
-image: /assets/images/posts/2026-04-30-WebAssembly入門-讓網頁跑出原生應用的速度-cover.webp
+image: assets/images/posts/2026-04-30-WebAssembly入門-讓網頁跑出原生應用的速度-cover.webp
 description: "WebAssembly 正在改變網頁開發的遊戲規則，讓瀏覽器執行接近原生應用的速度。本文帶你從零搞懂 Wasm 是什麼、能做什麼，以及如何踏出第一步。"
 ---
 

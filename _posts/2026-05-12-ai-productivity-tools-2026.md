@@ -5,7 +5,7 @@ date: 2026-05-12 05:07:00 +0800
 categories: [tech]
 tags: [AI, 生產力, 工具推薦, 2026, 數位轉型]
 author: Sun ny
-image: /assets/images/posts/2026-05-12-ai-productivity-tools-2026-cover.webp
+image: assets/images/posts/2026-05-12-ai-productivity-tools-2026-cover.webp
 description: "2026 年 AI 工具百花齊放，但哪些真正值得投入時間學習？本文精選 5 大類型 AI 生產力工具，從寫作、會議到自動化，幫你找到最適合自己的效率倍增器。"
 ---
 

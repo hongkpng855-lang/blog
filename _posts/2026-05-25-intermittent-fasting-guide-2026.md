@@ -5,7 +5,7 @@ date: 2026-05-25 06:31:00 +0800
 categories: [健康]
 tags: [間歇性斷食, 輕斷食, 168斷食, 健康飲食, 減肥]
 author: Sun ny
-image: /assets/images/posts/2026-05-25-intermittent-fasting-guide-2026-cover.webp
+image: assets/images/posts/2026-05-25-intermittent-fasting-guide-2026-cover.webp
 description: "2026 年最新間歇性斷食科學指南，從 168 斷食、52 斷食到晝夜節律斷食完整介紹。結合 Cochrane 最新研究與實證數據，教你如何安全開始輕斷食、避開常見迷思，找到最適合自己的斷食節奏。"
 ---
 

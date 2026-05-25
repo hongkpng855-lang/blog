@@ -5,7 +5,7 @@ date: 2026-05-16 20:37:00 +0800
 categories: [tech]
 tags: [AI, 生產力, 工具推薦, 2026, 效率提升]
 author: Sun ny
-image: /assets/images/posts/2026-05-16-ai-productivity-tools-2026-cover.webp
+image: assets/images/posts/2026-05-16-ai-productivity-tools-2026-cover.webp
 description: "2026 年 AI 工具百花齊放，哪些真正能提升工作效率？本文實測精選 5 款最值得投資學習的 AI 生產力工具，從寫作、知識管理到自動化流程，幫你每週省下至少 5 小時。"
 ---
 

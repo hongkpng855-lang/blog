@@ -5,7 +5,7 @@ date: 2026-05-03 14:17:00 +0800
 categories: [tech]
 tags: [MCP, Model Context Protocol, AI, Anthropic, API, 開源協議, 工具整合]
 author: Sun ny
-image: /assets/images/posts/2026-05-03-MCP模型上下文協議-AI時代的USB-C接口完整解析-cover.webp
+image: assets/images/posts/2026-05-03-MCP模型上下文協議-AI時代的USB-C接口完整解析-cover.webp
 description: "MCP 模型上下文協議被稱為 AI 的 USB-C 接口，讓 AI 助手不再被封鎖在資料孤島中。本文深入解析 MCP 架構、實際應用場景，以及為什麼它正在改變 AI 整合的遊戲規則。"
 ---
 

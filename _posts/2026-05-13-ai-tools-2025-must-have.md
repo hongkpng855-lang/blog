@@ -5,7 +5,7 @@ date: 2026-05-13 11:41:00 +0800
 categories: [tech]
 tags: [AI, 人工智慧, 生產力, 工具推薦, 2025]
 author: Sun ny
-image: /assets/images/posts/2026-05-13-ai-tools-2025-must-have-cover.webp
+image: assets/images/posts/2026-05-13-ai-tools-2025-must-have-cover.webp
 description: "2025 年 AI 工具百花齊放，從文字生成到圖片創作、影片製作到程式開發，這篇精選 10 個最實用的 AI 工具，幫你工作效率直接翻倍，輕鬆駕馭 AI 浪潮。"
 ---
 

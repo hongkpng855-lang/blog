@@ -5,7 +5,7 @@ date: 2026-05-14 17:37:00 +0800
 categories: [tech]
 tags: [AI, 自動化, 工作效率, Make, n8n, Zapier, Dify, Taskade]
 author: Sun ny
-image: /assets/images/posts/2026-05-14-ai-automation-tools-2026-cover.webp
+image: assets/images/posts/2026-05-14-ai-automation-tools-2026-cover.webp
 description: "2026 年 AI 自動化工具怎麼選？本篇精選 Make、Dify、n8n、Taskade、Zapier 五款熱門工具，從免費方案到進階功能完整比較，幫你找到最適合的工作流程自動化方案。"
 ---
 

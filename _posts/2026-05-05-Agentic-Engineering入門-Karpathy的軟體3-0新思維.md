@@ -5,7 +5,7 @@ date: 2026-05-05 03:39:00 +0800
 categories: [tech]
 tags: [AI Agent, Agentic Engineering, 軟體開發, Karpathy, 提示工程, 科技趨勢]
 author: Sun ny
-image: /assets/images/posts/2026-05-05-Agentic-Engineering入門-Karpathy的軟體3-0新思維-cover.webp
+image: assets/images/posts/2026-05-05-Agentic-Engineering入門-Karpathy的軟體3-0新思維-cover.webp
 description: "Karpathy 提出 Agentic Engineering 概念，宣告軟體 3.0 時代來臨。當 AI Agent 幫你寫程式，開發者的核心能力不再是 coding 技巧，而是「品味」與「判斷力」。一文看懂這個顛覆性新思維。"
 ---
 

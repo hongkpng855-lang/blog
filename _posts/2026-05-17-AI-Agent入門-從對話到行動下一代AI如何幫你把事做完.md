@@ -5,7 +5,7 @@ date: 2026-05-17 07:14:00 +0800
 categories: [tech]
 tags: [AI, AI Agent, 自動化, 生產力, 科技趨勢, 2026]
 author: Sun ny
-image: /assets/images/posts/2026-05-17-AI-Agent入門-從對話到行動下一代AI如何幫你把事做完-cover.webp
+image: assets/images/posts/2026-05-17-AI-Agent入門-從對話到行動下一代AI如何幫你把事做完-cover.webp
 description: "AI Agent 是 2026 年最熱門的科技關鍵字。它不只是聊天機器人，而是能自主規劃、使用工具、執行多步任務的 AI 系統。這篇帶你搞懂 AI Agent 是什麼、跟 ChatGPT 有什麼不同，以及如何開始善用 Agent 提升工作效率。"
 ---
 

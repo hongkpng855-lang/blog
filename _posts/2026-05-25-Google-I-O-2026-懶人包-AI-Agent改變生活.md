@@ -5,7 +5,7 @@ date: 2026-05-25 11:48:00 +0800
 categories: [tech]
 tags: [Google I/O, AI Agent, Gemini, 科技趨勢, 人工智慧, 2026]
 author: Sun ny
-image: /assets/images/posts/2026-05-25-Google-I-O-2026-懶人包-AI-Agent改變生活-cover.webp
+image: assets/images/posts/2026-05-25-Google-I-O-2026-懶人包-AI-Agent改變生活-cover.webp
 description: "Google I/O 2026 端出一系列讓人驚豔的 AI 產品。從可以 24 小時幫你做事的 Gemini Spark，到一張圖就能生影片的 Gemini Omni，這篇懶人包帶你一次看懂。"
 ---
 
