@@ -5,6 +5,7 @@ date: 2026-05-28 04:51:00 +0800
 categories: [投資]
 tags: [理財規劃, ETF, AI投資, 資產配置, 被動收入, 2026趨勢]
 author: Sun ny
+image: /assets/images/posts/2026-05-28-2026-touzi-licheng-guihua-quan-gong-lve-cover.webp
 description: "2026年投資理財最完整指南！深入解析降息週期下的資產配置策略，掌握AI浪潮、綠能轉型與五大潛力產業佈局，不論社會新鮮人或準退休族群都能找到適合自己的理財方案。"
 ---
 
