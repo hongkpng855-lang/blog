@@ -5,7 +5,7 @@ date: 2026-05-26 19:16:00 +0800
 categories: [投資, AI, 理財]
 tags: [AI投資, 台股, 供應鏈, ETF, 半導體, 投資策略]
 author: Sun ny
-image: /assets/images/posts/2026-05-26-2026-ai-investment-trends-cover.webp
+image: assets/images/posts/2026-05-26-2026-ai-investment-trends-cover.webp
 description: "2026年AI投資熱潮不退，從輝達到台積電、從晶片到應用，本文完整解析AI產業鏈三大層級與台股供應鏈投資機會，並提供小資族參與AI投資的ETF策略與風險警示。"
 ---
 

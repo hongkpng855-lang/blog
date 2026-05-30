@@ -5,7 +5,7 @@ date: 2026-05-30 01:20:00 +0800
 categories: [投資]
 tags: [理財入門, 新手投資, ETF, 定期定額, 資產配置, 被動收入]
 author: Sun ny
-image: /assets/images/posts/2026-05-30-2026-touzi-licai-rumen-zhinan-cover.webp
+image: assets/images/posts/2026-05-30-2026-touzi-licai-rumen-zhinan-cover.webp
 description: "2026 年最新投資理財入門指南！從設定財務目標、建立儲蓄習慣，到認識股票、基金、ETF 三大工具，以及新手最常犯的 3 個錯誤，幫助小資族穩健踏出投資第一步。"
 ---
 

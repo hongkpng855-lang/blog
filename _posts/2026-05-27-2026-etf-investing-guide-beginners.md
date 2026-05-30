@@ -5,7 +5,7 @@ date: 2026-05-27 01:00:00 +0800
 categories: [investment]
 tags: [ETF, 投資入門, 定期定額, 新手理財, 2026投資]
 author: Sun ny
-image: /assets/images/posts/2026-05-27-2026-etf-investing-guide-beginners-cover.webp
+image: assets/images/posts/2026-05-27-2026-etf-investing-guide-beginners-cover.webp
 description: "2026 新手 ETF 投資完整入門教學！搞懂 ETF 是什麼、台股美股 ETF 怎麼挑、定期定額策略怎麼執行，從零開始穩健累積財富。"
 ---
 

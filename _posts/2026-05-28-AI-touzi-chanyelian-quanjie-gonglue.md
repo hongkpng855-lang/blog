@@ -5,7 +5,7 @@ date: 2026-05-28 02:38:00 +0800
 categories: [投資]
 tags: [AI, 人工智慧, 投資, ETF, 台積電, NVIDIA, 科技股, 定期定額]
 author: Sun ny
-image: /assets/images/posts/2026-05-28-AI-touzi-chanyelian-quanjie-gonglue-cover.webp
+image: assets/images/posts/2026-05-28-AI-touzi-chanyelian-quanjie-gonglue-cover.webp
 description: "2026年AI投資完整指南！從晶片設計、代工製造到終端應用，解析AI產業鏈8大層級投資機會。精選台股AI概念股、主題ETF與3大實戰策略，幫助你在AI浪潮中穩健布局。"
 ---
 

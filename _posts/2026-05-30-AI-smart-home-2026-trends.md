@@ -5,7 +5,7 @@ date: 2026-05-30 06:26:00 +0800
 categories: [tech]
 tags: [AI智慧家居, 智慧家庭, 物聯網, Matter3.0, 智能家居2026]
 author: Sun ny
-image: /assets/images/posts/2026-05-30-AI-smart-home-2026-trends-cover.webp
+image: assets/images/posts/2026-05-30-AI-smart-home-2026-trends-cover.webp
 description: "2026年AI智慧家居全面進化，從聲控到主動感知：Matter 3.0打破生態壁壘、邊緣AI守護隱私、能源管理自動省電。5大趨勢一次看懂，打造真正懂你的家。"
 ---
 

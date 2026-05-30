@@ -5,7 +5,7 @@ date: 2026-05-27 20:22:00 +0800
 categories: [tech]
 tags: [AI Agent, 人工智慧, 多代理協作, 科技趨勢, AI應用, 入門教學]
 author: Sun ny
-image: /assets/images/posts/2026-05-27-AI-Agent多代理協作解析-cover.webp
+image: assets/images/posts/2026-05-27-AI-Agent多代理協作解析-cover.webp
 description: "2026年AI Agent從理論走向全面落地，本文用白話解析AI代理是什麼、多代理協作如何運作，以及你可以在生活中如何運用這些技術，讓你輕鬆掌握2026年最重要的科技趨勢。"
 ---
 

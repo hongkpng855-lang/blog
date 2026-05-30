@@ -5,7 +5,7 @@ date: 2026-05-28 13:54:00 +0800
 categories: [學習]
 tags: [專注力, 深度工作, 生產力, 學習方法, 時間管理]
 author: Sun ny
-image: /assets/images/posts/2026-05-28-shendu-gongzuoli-zhuangzhuli-7fangfa-cover.webp
+image: assets/images/posts/2026-05-28-shendu-gongzuoli-zhuangzhuli-7fangfa-cover.webp
 description: "注意力經濟時代，專注力就是最寶貴的資產。本文整理7個科學實證的專注力提升方法，從任務切換管理、深度工作策略到生理節律運用，幫助你在2026年的分心世界中找回深度工作力。"
 ---
 

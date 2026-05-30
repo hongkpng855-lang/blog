@@ -5,7 +5,7 @@ date: 2026-05-28 05:47:00 +0800
 categories: [tech]
 tags: [AI, 邊緣運算, 量子電腦, 科技趨勢, 2026, AI晶片, 人形機器人, 液冷散熱, 低軌衛星]
 author: Sun ny
-image: /assets/images/posts/2026-05-28-2026-shidakejiqushi-cover.webp
+image: assets/images/posts/2026-05-28-2026-shidakejiqushi-cover.webp
 description: "2026 年科技趨勢全面解析！從 AI 晶片大戰、邊緣運算崛起，到量子電腦突破與人形機器人商用化，一次掌握今年最重要的十大科技發展方向與投資機會。"
 ---
 
