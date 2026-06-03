@@ -31,3 +31,11 @@
 - **Git commit**: 1b3d719
 - **狀態**: ✅ 完整通過（Pollinations.ai 圖片生成成功，Git push 成功，Site Debugger 確認圖片檔案正常）
 - **下次主題**: 投資 (investment)
+
+### 2026-06-04 03:50（Cron 自動排程）
+- **主題**: 科技 (tech)
+- **主題輪替**: 投資→**科技**→健康→學習→生活
+- **文章標題**: 邊緣 AI 與小型語言模型（SLM）實戰指南：2026 年從雲端到終端的 AI 新浪潮
+- **封面圖**: `assets/images/posts/2026-06-04-EdgeAI-SLM-cover.svg`
+- **狀態**: ✅ 已推送至 GitHub (commit 82ef8f9)
+- **下一個主題**: 健康 (health)
