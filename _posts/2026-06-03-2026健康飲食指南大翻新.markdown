@@ -5,7 +5,7 @@ date: 2026-06-03 09:45:00 +0800
 categories: [health]
 tags: [飲食指南, 國健署, 健康飲食, 營養, 蛋白質, 永續飲食]
 author: Sun ny
-image: /assets/images/posts/2026-06-03-2026健康飲食指南大翻新-cover.webp
+image: assets/images/posts/2026-06-03-2026健康飲食指南大翻新-cover.webp
 description: "衛福部國健署發布 2026 新版每日飲食指南草案，乳品建議量下修、蛋白質來源大洗牌、首度納入植物為主飲食型態。本文帶你一次看懂 5 大變革重點，教你如何調整餐桌菜色，吃出健康也愛地球。"
 ---
 

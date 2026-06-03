@@ -5,7 +5,7 @@ date: 2026-06-03 03:46:00 +0800
 categories: [life]
 tags: [生活儀式感, 小確幸, 極簡生活, 自我成長, 習慣養成]
 author: Sun ny
-image: /assets/images/posts/2026-06-03-rituals-that-make-life-shine-daily-happiness-guide-cover.webp
+image: assets/images/posts/2026-06-03-rituals-that-make-life-shine-daily-happiness-guide-cover.webp
 description: "2026 年生活儀式感完全指南！8 個不用花大錢的日常提案，從早晨咖啡到睡前反思，教你用簡單行動找回生活美感，讓每一天都閃閃發光。附實作步驟與心態調整秘訣。"
 ---
 
