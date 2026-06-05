@@ -6,7 +6,7 @@ categories: [投資]
 tags: [AI概念股, 台股, 投資策略, 台積電, ETF]
 author: Sun ny
 description: "2026年5月台股狂漲5806點逼近45000大關，AI供應鏈全面噴出。本文解析台積電、散熱、ASIC等AI概念股後市，以及下半年投資人該如何布局的完整攻略。"
-image: /assets/images/posts/2026-05-31-台股AI狂潮投資布局2026下半年-cover.webp
+image: /assets/images/posts/2026-05-31-台股AI狂潮投資布局2026下半年-cover.svg
 ---
 
 這幾個月，台股的表現讓人熱血沸騰。
