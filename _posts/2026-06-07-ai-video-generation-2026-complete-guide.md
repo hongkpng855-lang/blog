@@ -5,7 +5,7 @@ date: 2026-06-07 17:47:00 +0800
 categories: [tech]
 tags: [AI 影片生成, Sora, Runway, Pika, 多模態 AI, 內容創作, 2026 科技趨勢, AI 工具]
 author: Sun ny
-image: assets/images/posts/2026-06-07-ai-video-generation-cover.webp
+image: assets/images/posts/2026-06-07-ai-video-generation-cover.svg
 description: "2026 年 AI 影片生成技術大爆發！從 OpenAI Sora 到 Runway Gen-4、Pika 2.0，完整比較主流工具、實戰工作流程、提示詞技巧與內容創作者必知的變現策略。"
 ---
 
