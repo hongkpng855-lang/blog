@@ -5,7 +5,7 @@ date: 2026-05-30 10:24:00 +0800
 categories: [投資]
 tags: [2026投資, ETF, AI投資, 定期定額, 資產配置]
 author: Sun ny
-image: /assets/images/posts/2026-05-30-2026下半年投資策略指南-cover.webp
+image: /assets/images/posts/2026-05-30-2026下半年投資策略指南-cover.svg
 description: "2026下半年投資怎麼布局？本文從AI產業趨勢、全球利率環境到ETF定期定額策略，為投資新手提供完整的下半年投資指南，掌握市場先機。"
 ---
 

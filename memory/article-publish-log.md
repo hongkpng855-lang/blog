@@ -39,3 +39,21 @@
 - **封面圖**: `assets/images/posts/2026-06-04-EdgeAI-SLM-cover.svg`
 - **狀態**: ✅ 已推送至 GitHub (commit 82ef8f9)
 - **下一個主題**: 健康 (health)
+
+## 2026-06-06 21:21（Cron 自動發佈 - 投資主題）
+- **主題**: 投資（主題輪替：生活→**投資**，新一輪開始）
+- **文章標題**: 2026 被動收入投資組合：從股息成長到 REITs 的現金流建構策略
+- **檔案路徑**: `_posts/2026-06-06-2026被動收入投資組合-從股息成長到REITs的現金流建構策略.md`
+- **封面圖**: `assets/images/posts/2026-06-06-passive-income-portfolio-cover.svg`
+- **字數**: 約 3,500 字元（約 1,600 中文字）
+- **封面圖大小**: 5.7KB (SVG, 512x512)
+- **狀態**: ✅ 完成（Front Matter 完整、圖片存在、GitHub 已推送）
+- **Git commit**: `7a35c76`
+- **Site Debugger**:
+  - ✅ 新文章 Front Matter 完整（title/date/categories/tags/image/description 全部齊全）
+  - ✅ 封面圖 5.7KB SVG > 1KB，512x512 向量格式正常
+  - ✅ Git commit + push 成功（2 個檔案：文章 + 封面圖）
+  - ✅ 今日共 22 篇文章，全部圖片正常，0 張圖片缺失
+  - ✅ 所有代理運作正常（Article Writer → Image Creator → Git Push → Site Debugger）
+  - ⚠️ 歷史遺留問題：部分舊文章缺少圖片檔案（非本次任務範圍）
+- **下一個主題**: 科技 (下一輪)
