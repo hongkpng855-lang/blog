@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "數據素養 2026 完整指南：唔識寫程式都識用數據講故事"
-date: 2026-06-08 00:25:00 +0800
+date: 2026-06-07 23:59:00 +0800
 categories: [tech]
 tags: [數據素養, Data Literacy, 數據分析, 商業智慧, 資料解讀, 2026技能, 科技學習, AI協作, 數據視覺化]
 author: "Sun ny"
