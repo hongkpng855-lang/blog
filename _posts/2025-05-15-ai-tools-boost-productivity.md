@@ -5,7 +5,7 @@ date: 2025-05-15 12:52:00 +0800
 categories: [tech]
 tags: [AI, 效率, 工具, 生產力, ChatGPT]
 author: Sun ny
-image:
+image: /assets/images/posts/tech-cover.webp
 description: "2025 年 AI 工具百花齊放，但哪些真正能幫你省時間？本文精選 5 個實戰派 AI 工具，從寫作、簡報到資料分析，帶你一步步把 AI 變成最強工作夥伴。"
 ---
 

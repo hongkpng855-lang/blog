@@ -5,7 +5,7 @@ date: 2026-04-30 08:00:00 +0800
 categories: [tech]
 tags: [WebAssembly, Wasm, 網頁開發, 前端, 效能]
 author: Sun ny
-image:
+image: /assets/images/posts/tech-cover.webp
 description: "WebAssembly 正在改變網頁應用的效能極限。本文帶你理解 Wasm 是什麼、與 JavaScript 的差異、實際應用場景，以及如何踏出學習的第一步。"
 ---
 
