@@ -9,3 +9,14 @@
 - **狀態**: ✅ 完成（文章+封面圖已推送至 GitHub）
 - **Git commit**: 4618603
 - **下一個主題**: 科技 (tech)
+
+## 2026-06-09 11:27（Cron 自動排程）
+- **文章標題**: 2026 香港人建立運動習慣實戰指南：由零開始到持續鍛煉嘅生活改造攻略
+- **分類**: 生活 (life)
+- **主題輪替**: 健康→學習→**生活**→投資→科技
+- **文章路徑**: `_posts/2026-06-09-exercise-habit-building-guide-hong-kong.md`
+- **封面圖路徑**: `assets/images/posts/2026-06-09-exercise-habit-building-guide-cover.svg`
+- **封面大小**: 5,880 bytes (5.7KB SVG)
+- **狀態**: ✅ 完成（文章+封面圖已推送至 GitHub）
+- **Git commit**: 824e787
+- **下一個主題**: 投資 (investment)
