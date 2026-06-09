@@ -11,3 +11,14 @@
 - HTTP 200 ✅
 - HTTP 200 ✅
 - 下一主題：投資 (investment)
+
+## 2026-06-10 05:08（Cron 自動排程 - 科技 round 5）
+- **文章標題**: 2026 香港人數碼私隱與網絡安全實戰指南：VPN、密碼管理、防詐騙、數據備份嘅完整數碼防護系統
+- **分類**: 科技 (tech)
+- **主題輪替**: 投資→**科技**→健康→學習→生活（第五輪第四步）
+- **文章路徑**: `_posts/2026-06-10-digital-privacy-security-guide-hk.md`
+- **封面圖路徑**: `assets/images/posts/2026-06-10-digital-privacy-security-guide-cover.svg`
+- **封面圖大小**: 9,607 bytes (SVG)
+- **字數**: 8,840 bytes（含 Front Matter）
+- **狀態**: ✅ 完成（待推送至 GitHub）
+- **下一主題**: 健康 (health) — 第五輪第五步
