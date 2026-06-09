@@ -20,5 +20,20 @@
 - **封面圖路徑**: `assets/images/posts/2026-06-10-digital-privacy-security-guide-cover.svg`
 - **封面圖大小**: 9,607 bytes (SVG)
 - **字數**: 8,840 bytes（含 Front Matter）
-- **狀態**: ✅ 完成（待推送至 GitHub）
+- **狀態**: ✅ 完成
+- **Git commit**: db08c99
 - **下一主題**: 健康 (health) — 第五輪第五步
+
+## 2026-06-10 06:17（Cron 自動排程 - 學習 round 5）
+- **文章標題**: 2026 高效自學實戰系統：用 Pareto 原則同間隔重複，將學習效率提升 10 倍
+- **分類**: 學習 (learning)
+- **主題輪替**: 投資→科技→健康→**學習**→生活（第五輪第五步）
+- **文章路徑**: `_posts/2026-06-10-self-directed-learning-system-guide-2026.md`
+- **封面圖路徑**: `assets/images/posts/2026-06-10-self-directed-learning-cover.svg`
+- **封面圖大小**: 8,274 bytes (SVG, 800x450)
+- **字數**: 約 7,800 bytes（含 Front Matter）
+- **狀態**: ✅ 完成（已推送至 GitHub）
+- **Git commit**: 1423e97
+- **下一主題**: 生活 (life) — 第五輪最後一步
+
+*最後更新: 2026-06-10 06:19 Asia/Taipei*
