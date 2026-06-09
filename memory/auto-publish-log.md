@@ -1,22 +1,8 @@
-
-## 2026-06-04 21:15（Cron 自動排程）
-- **文章標題**: 2026 股息投資完全攻略：打造穩定現金流的股息成長組合
-- **分類**: 投資 (investment)
-- **主題輪替**: **投資**→科技→健康→學習→生活（新一輪開始）
-- **文章路徑**: `_posts/2026-06-04-股息投資攻略-2026打造穩定現金流的股息成長組合.md`
-- **封面圖路徑**: `assets/images/posts/2026-06-04-股息投資攻略-cover.svg`
-- **圖片大小**: 4,133 bytes (4KB SVG)
-- **狀態**: ✅ 完成（文章+封面圖已推送至 GitHub）
-- **Git commit**: 4618603
-- **下一個主題**: 科技 (tech)
-
-## 2026-06-09 11:27（Cron 自動排程）
-- **文章標題**: 2026 香港人建立運動習慣實戰指南：由零開始到持續鍛煉嘅生活改造攻略
-- **分類**: 生活 (life)
-- **主題輪替**: 健康→學習→**生活**→投資→科技
-- **文章路徑**: `_posts/2026-06-09-exercise-habit-building-guide-hong-kong.md`
-- **封面圖路徑**: `assets/images/posts/2026-06-09-exercise-habit-building-guide-cover.svg`
-- **封面大小**: 5,880 bytes (5.7KB SVG)
-- **狀態**: ✅ 完成（文章+封面圖已推送至 GitHub）
-- **Git commit**: 824e787
-- **下一個主題**: 投資 (investment)
+## 2026-06-10 自動發佈 Blog 文章（#auto-publish）
+- **00:53**：發表**2026 香港人營養補充品終極指南：維他命、礦物質、益生菌點樣揀先唔使嘥錢？**（健康類 #auto-publish，第五輪）
+- 內容：香港人最缺營養素數據（68%缺維他命D）、supplements逐個拆解（維他命D/奧米加3/鈣/益生菌/骨膠原/綜合維他命）、5大常見陷阱、按場景推薦組合（Office/運動/30+女士/40+男士）、購買策略與budget建議、FAQ 7條
+- 封面：自訂 SVG（4格資訊卡——維他命D/奧米加3/鎂/益生菌 + 黃金法則提示 + 月費比較 bar，深藍色+金色 gradient 營養主題）
+- 分類：health
+- URL: https://hongkpng855-lang.github.io/blog/health/2026/06/10/supplements-guide-hk-2026.html
+- HTTP 200 ✅
+- 下一主題：學習 (learning)
