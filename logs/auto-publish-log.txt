@@ -84,3 +84,16 @@
    ✅ GitHub Pages 部署成功 (200 OK)
    ✅ 圖片檢查通過
 下一主題：科技 (tech)
+
+## 2026-06-09 20:27（Cron 自動排程 - 投資 round 4）
+- **文章標題**: 2026 月供美股ETF實戰指南：每月$3000開始，由零建立自動化美股組合
+- **分類**: 投資 (investment)
+- **主題輪替**: 生活→**投資**（第四輪）
+- **文章路徑**: `_posts/2026-06-09-monthly-us-stock-etf-guide.md`
+- **封面圖路徑**: `assets/images/posts/2026-06-09-monthly-us-stock-etf-guide-cover.svg`
+- **封面圖大小**: 8,200 bytes (8KB SVG)
+- **封面圖格式**: SVG（800x450，月供ETF介面卡片設計）
+- **字數**: 約 4,200 字（含Front Matter）
+- **狀態**: ✅ 完成（文章+封面圖已推送至 GitHub）
+- **Git commit**: 33d63ba
+- **下一主題**: 科技 (tech) — 第四輪
