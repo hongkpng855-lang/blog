@@ -71,3 +71,16 @@
 分類：學習 (learning)
 封面：2026-06-09-efficient-learning-system-guide-cover.webp (512x512, WebP, 65KB)
 下一主題：生活
+
+=== 2026-06-09 13:30 ===
+【自動發佈】2026 減息週期債券投資終極指南：由零開始建立穩健收息組合
+分類：投資 (investment)
+封面：2026-06-09-bond-investing-rate-cut-guide-cover.svg (9.6KB, SVG)
+字數：~3,000 字
+狀態：✅ 全部正常
+   ✅ Front Matter 完整
+   ✅ 封面圖 SVG 9.6KB > 0，800x450 向量格式
+   ✅ Git commit + push 成功 (ab8b7f9)
+   ✅ GitHub Pages 部署成功 (200 OK)
+   ✅ 圖片檢查通過
+下一主題：科技 (tech)
