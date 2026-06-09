@@ -97,3 +97,17 @@
 - **狀態**: ✅ 完成（文章+封面圖已推送至 GitHub）
 - **Git commit**: 33d63ba
 - **下一主題**: 科技 (tech) — 第四輪
+
+## 2026-06-09 23:37（Cron 自動排程 - 科技 round 4）
+- **文章標題**: WWDC 2026 懶人包：Siri AI 全面進化、iOS 27 登場，8 大重點香港用家必讀
+- **分類**: 科技 (tech)
+- **主題輪替**: 投資→**科技**→健康→學習→生活（第四輪）
+- **文章路徑**: `_posts/2026-06-09-wwdc-2026-siri-ai-apple-intelligence-guide.md`
+- **封面圖路徑**: `assets/images/posts/2026-06-09-wwdc-2026-siri-ai-guide-cover.webp`
+- **封面圖大小**: 16,918 bytes (16.5KB WebP)
+- **字數**: 約 2,800 字（含 Front Matter）
+- **狀態**: ✅ 完成（文章+封面圖已推送至 GitHub）
+- **Git commit**: 48f8b38
+- **下一主題**: 健康 (health) — 第四輪第三步
+
+*最後更新: 2026-06-09 23:37 Asia/Taipei*
