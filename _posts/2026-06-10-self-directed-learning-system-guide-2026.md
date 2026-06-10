@@ -5,7 +5,7 @@ date: 2026-06-10 06:30:00 +0800
 categories: [learning]
 tags: [自學, 高效學習, Pareto, 80/20, 間隔重複, Anki, 主動回憶, 刻意練習, 學習方法, 學習系統]
 author: esgov
-image: assets/images/posts/2026-06-10-self-directed-learning-cover.svg
+image: /assets/images/posts/2026-06-10-self-directed-learning-cover.svg
 description: "一個系統化嘅自學框架，結合 Pareto 原則、間隔重複、主動回憶同刻意練習，幫你由混亂學習轉為高效率產出。附 Anki 實戰設定、每週自學 planner 同 30 日系統建立挑戰。"
 ---
 
