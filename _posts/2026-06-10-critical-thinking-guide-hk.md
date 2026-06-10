@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "2026 批判性思維實戰指南：資訊爆炸時代嘅獨立思考系統，告別假消息同邏輯謬誤"
-date: 2026-06-10 14:27:00 +0800
+date: 2026-06-10 13:36:00 +0800
 categories: [learning]
 tags: [批判性思維, critical thinking, 邏輯謬誤, 獨立思考, 媒體素養, 假消息, 資訊素養, 論證分析, 理性思考, 思維系統, 學習方法]
 author: "Sun ny"
