@@ -50,3 +50,28 @@
 - **下一主題**: 投資 (investment) — 第六輪開始
 
 *最後更新: 2026-06-10 06:38 Asia/Taipei*
+
+## 2026-06-10 17:06（Cron 自動排程 - 科技 round 7，第七輪開始）
+- **文章標題**: 2026 香港人 Web 開發入門實戰指南：用 HTML/CSS/JavaScript + AI 幫手，由零建立你嘅第一個網站
+- **分類**: 科技 (tech)
+- **主題輪替**: 生活→**科技**→??→??→???（第七輪第一步）
+- **文章路徑**: `_posts/2026-06-10-web-development-guide-hk.md`
+- **封面圖路徑**: `assets/images/posts/2026-06-10-web-development-guide-hk-cover.svg`
+- **封面圖大小**: 10,380 bytes (SVG, 800x450)
+- **字數**: 約 10,500 bytes（含 Front Matter）
+- **狀態**: ✅ 完成（已推送至 GitHub）
+- **Git commit**: 94b06f2
+- **死圖檢測**: 新封面圖 200 OK ✅，全站隨機抽樣 10 篇文章封面全部 200 OK ✅
+- **下一主題**: 待定（第七輪繼續）
+
+### 2026-06-10 自動發佈 Blog 文章（#auto-publish）
+- **18:06**：發表**2026 香港人鼻敏感與呼吸道健康實戰指南：喺潮濕、冷氣、污染嘅都市生活中照顧好呼吸系統**（健康類 #auto-publish，第七輪）
+- 內容：鼻敏感 4 大成因（潮濕/冷氣/污染/居住環境）、鼻敏感 vs 感冒分辨表、環境控制（防塵蟎/抽濕/HEPA/霉菌清除/冷氣清潔）、日常保養（鹽水洗鼻/穴位按摩/腹式呼吸）、飲食調理（Omega-3/維C/槲皮素/淮山北芪）、冷氣房生存指南（溫差管理/補水/清潔）、最適合運動推介、咩情況睇醫生、FAQ（8 題）+ 完整 Checklist（日/週/月/年）
+- 封面：自訂 SVG（鼻+氣流+肺 icon + 4張資訊卡——環境控制/日常保養/飲食調理/運動醫療 + 底部統計數據欄，深藍色+金色+青色+藍色 gradient 呼吸道健康主題）
+- 分類：health
+- 文章路徑: `_posts/2026-06-10-nasal-allergy-respiratory-health-guide-hk.md`
+- 封面圖路徑: `assets/images/posts/2026-06-10-nasal-allergy-respiratory-health-guide-hk-cover.svg`
+- 封面圖大小: 8,710 bytes (SVG, 512x512)
+- 字數: 約 6,450 bytes（含 Front Matter）
+- 狀態: ✅ 完成（準備推送）
+- **下一主題**: 學習（第七輪繼續）
