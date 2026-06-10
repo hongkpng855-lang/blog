@@ -51,6 +51,7 @@
 
 *最後更新: 2026-06-10 06:38 Asia/Taipei*
 
+<<<<<<< Updated upstream
 ## 2026-06-10 17:06（Cron 自動排程 - 科技 round 7，第七輪開始）
 - **文章標題**: 2026 香港人 Web 開發入門實戰指南：用 HTML/CSS/JavaScript + AI 幫手，由零建立你嘅第一個網站
 - **分類**: 科技 (tech)
@@ -75,3 +76,23 @@
 - 字數: 約 6,450 bytes（含 Front Matter）
 - 狀態: ✅ 完成（準備推送）
 - **下一主題**: 學習（第七輪繼續）
+=======
+### 2026-06-10 09:53（Cron 自動發佈 - 投資主題）
+- **主題**: 投資（主題輪替：生活→**投資**，第五輪開始）
+- **文章標題**: 2026 投資組合再平衡實戰指南：每年一個簡單動作，長期回報相差幾個百分點
+- **檔案路徑**: `_posts/2026-06-10-portfolio-rebalancing-guide-2026.md`
+- **封面圖**: `assets/images/posts/2026-06-10-portfolio-rebalancing-guide-cover.svg`
+- **字數**: 約 4,800 字元
+- **封面圖大小**: 5.7KB (SVG, 512x512)
+- **分類**: investment
+- **URL**: https://hongkpng855-lang.github.io/blog/investment/2026/06/10/portfolio-rebalancing-guide-2026.html
+- **Git commit**: 7880220
+- **狀態**: ✅ 完成（Front Matter 完整、封面圖存在、GitHub 已推送）
+- **Site Debugger**:
+  - ✅ 新文章 Front Matter 完整（title/date/categories/tags/image/description 全部齊全）
+  - ✅ 封面圖 5.7KB SVG > 1KB，512x512 向量格式正常
+  - ✅ Git commit + push 成功（2 個檔案：文章 + 封面圖）
+  - ✅ 新封面圖 HTTP 200 ✅
+  - ✅ 今日文章全部封面圖檢查：我的文章 200 OK，發現 2 個歷史遺留問題（非本次任務範圍）
+- **下一主題**: 科技（第五輪）
+>>>>>>> Stashed changes
