@@ -1,9 +1,7 @@
----
----
 User-agent: *
 Allow: /
 
-Sitemap: {{ site.url | append: site.baseurl }}/sitemap.xml
+Sitemap: https://hongkpng855-lang.github.io/blog/sitemap.xml
 
 # 禁止存取管理相關路徑
 Disallow: /admin/
