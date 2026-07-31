@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "2026 香港人骨骼健康實戰指南：骨質疏鬆預防、鈣質攝取同運動嘅科學方法"
-date: 2026-07-31 17:40:00 +0800
+date: 2026-07-31 17:30:00 +0800
 categories: 健康
 tags: [健康, 骨骼, 骨質疏鬆, 鈣質, 維他命D, 骨質密度, 負重運動, 預防骨折, auto-publish]
 image: /blog/assets/images/posts/2026-07-31-bone-health-guide-cover.jpg
