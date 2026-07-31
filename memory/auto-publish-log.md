@@ -96,3 +96,24 @@
   - ✅ 今日文章全部封面圖檢查：我的文章 200 OK，發現 2 個歷史遺留問題（非本次任務範圍）
 - **下一主題**: 科技（第五輪）
 >>>>>>> Stashed changes
+
+### 2026-07-31 17:30 手動發佈（完整流程測試 #auto-publish）
+- **主題**: 健康（輪替：科技→**健康**）
+- **文章**: 2026 香港人骨骼健康實戰指南：骨質疏鬆預防、鈣質攝取同運動嘅科學方法
+- **路徑**: `_posts/2026-07-31-bone-health-guide-hk.md`
+- **封面**: `assets/images/posts/2026-07-31-bone-health-guide-cover.jpg`（內容感知 AI 生成 85KB）
+- **URL**: https://hongkpng855-lang.github.io/blog/健康/2026/07/31/bone-health-guide-hk.html
+- **Git commit**: 7db6460 + b24a62e（fix date）
+- **驗證**: 文章 200 ✅ 封面 200 ✅ sitemap ✅ browser ✅
+- **教訓**: Jekyll future date 問題——文章 date 必須早過 build 時間
+- **下一主題**: 投資
+
+### 2026-08-01 01:00（Cron 自動發佈 #auto-publish）
+- **主題**: 投資（輪替：健康→**投資**，第八輪第三步）
+- **文章**: 2026 香港虛擬資產 ETF 投資實戰指南：比特幣、以太幣現貨 ETF 全面比較 + 新手購買教學
+- **路徑**: `_posts/2026-08-01-crypto-etf-guide-hk.md`
+- **封面**: `assets/images/posts/2026-08-01-crypto-etf-guide-cover.jpg`（內容感知 AI 生成 89KB，1200x630）
+- **URL**: https://hongkpng855-lang.github.io/blog/投資/2026/08/01/crypto-etf-guide-hk.html
+- **Git commit**: （見 commit message）
+- **驗證**: 文章 200 ✅ 封面 200 ✅
+- **下一主題**: 學習
