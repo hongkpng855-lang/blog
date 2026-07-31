@@ -4,7 +4,7 @@ title: "2026 AI 手機實戰指南：Apple Intelligence、Galaxy AI 同 AI 手�
 date: 2026-07-31 01:00:00 +0800
 categories: 技術
 tags: [AI手機, Apple Intelligence, Galaxy AI, Siri, Gemini, 即時翻譯, 人工智能, 科技教學, 香港, auto-publish, ai-phone]
-image: /blog/assets/images/posts/2026-07-31-ai-phone-cover.svg
+image: /assets/images/posts/2026-07-31-ai-phone-cover.svg
 description: "2026 年 AI 手機已經進入實戰階段：Apple Intelligence 終於支援繁體中文同廣東話、Samsung Galaxy AI 有通話即時翻譯、Circle to Search 一撳即搵。呢篇文由功能教學到揀機指南，幫你真正用盡手上部 AI 手機，唔再係買返嚟得個擺字。"
 author: "Sun ny"
 ---

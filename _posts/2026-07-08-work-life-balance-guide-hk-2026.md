@@ -4,7 +4,7 @@ title: "2026 香港 Work-Life Balance 實戰指南：喺高壓都市找回生活
 date: 2026-07-08 01:00:00 +0800
 categories: 生活
 tags: [生活, work-life-balance, 香港生活, 時間管理, 身心健康, 工作效率, auto-publish]
-image: /blog/assets/images/posts/2026-07-08-work-life-balance-cover.svg
+image: /assets/images/posts/2026-07-08-work-life-balance-cover.svg
 description: "2026 年香港打工仔最關注嘅話題：Work-Life Balance。Randstad 研究顯示 56% 香港人才將生活平衡列為首要考慮，超越薪酬福利。本文從職場現狀分析、時間管理策略、界線設定技巧、遙距工作模式、到心理健康維護，提供一套完整嘅實戰指南。"
 author: "Sun ny"
 ---

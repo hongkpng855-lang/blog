@@ -4,7 +4,7 @@ title: "2026 香港人骨骼健康實戰指南：骨質疏鬆預防、鈣質攝�
 date: 2026-07-31 17:30:00 +0800
 categories: 健康
 tags: [健康, 骨骼, 骨質疏鬆, 鈣質, 維他命D, 骨質密度, 負重運動, 預防骨折, auto-publish]
-image: /blog/assets/images/posts/2026-07-31-bone-health-guide-cover.jpg
+image: /assets/images/posts/2026-07-31-bone-health-guide-cover.jpg
 description: "骨質疏鬆係『沉默殺手』——冇病徵，但一跌就骨折。2026 年香港 65 歲以上長者超過 4 成有骨質疏鬆風險。呢篇文由 DXA 檢查、鈣質同維他命 D 正確攝取，到負重運動訓練，帶你用科學方法保護骨骼，由 30 歲開始儲骨本。"
 author: "Sun ny"
 ---

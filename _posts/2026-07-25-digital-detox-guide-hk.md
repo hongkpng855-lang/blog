@@ -4,7 +4,7 @@ title: "2026 香港人數碼排毒實戰指南：告別手機成癮，喺連線�
 date: 2026-07-25 01:00:00 +0800
 categories: 生活
 tags: [生活, 數碼排毒, 手機成癮, 專注力, digital-detox, 心理健康, 生活品質, screen-time, auto-publish]
-image: /blog/assets/images/posts/2026-07-25-digital-detox-guide-hk-cover.svg
+image: /assets/images/posts/2026-07-25-digital-detox-guide-hk-cover.svg
 description: "2026 年香港人每日平均用手機 6.5 小時，全球第 3。手機成癮令專注力下降 40%、焦慮感上升 60%。本文從成癮機制、實戰排毒 5 步法、實用工具推薦，到長期維持方案，提供一套完整嘅數碼排毒攻略。"
 author: "Sun ny"
 ---

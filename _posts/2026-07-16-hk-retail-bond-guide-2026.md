@@ -4,7 +4,7 @@ title: "2026 香港零售債券與政府債券實戰指南：由 iBond 到綠色
 date: 2026-07-16 01:00:00 +0800
 categories: 投資
 tags: [投資, 零售債券, ibond, 綠色債券, 銀色債券, 定息投資, 低風險, auto-publish]
-image: /blog/assets/images/posts/2026-07-16-hk-retail-bond-guide-cover.svg
+image: /assets/images/posts/2026-07-16-hk-retail-bond-guide-cover.svg
 description: "2026 年香港零售債券市場全面解構：iBond、銀色債券、綠色債券、零售債券嘅申請方法、回報比較、二手市場操作。本文由真實申購經驗出發，教你點樣用零售債券建立低風險收息組合。"
 author: "Sun ny"
 ---

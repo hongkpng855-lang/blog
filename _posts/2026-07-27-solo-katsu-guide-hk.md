@@ -4,7 +4,7 @@ title: "2026 香港人「獨活」美學：一人燒肉、一人旅行、一人�
 date: 2026-07-27 01:00:00 +0800
 categories: 生活
 tags: [生活, 獨活, ソロ活, solo生活, 香港生活, 一人活動, 自我成長, 慢生活, auto-publish]
-image: /blog/assets/images/posts/2026-07-27-solo-katsu-cover.svg
+image: /assets/images/posts/2026-07-27-solo-katsu-cover.svg
 description: "ソロ活（獨活）—— 唔係孤獨，而係主動選擇一個人享受生活。2026 年香港越來越多餐廳、旅行團、娛樂場所開始接納一人客。呢篇文由一人燒肉到一人旅行，帶你重新認識獨處嘅快樂，學識同自己約會。"
 author: "Sun ny"
 ---
