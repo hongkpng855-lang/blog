@@ -36,6 +36,10 @@ NotebookLM 唔同：
 
 ## 🧠 8 個實戰 Prompt（照用就得）
 
+> 📝 **8 個 Prompts 一眼睇晒**（3D 筆記風格總結圖，我自己整嘅 😄）：
+
+![NotebookLM 8 個 Prompts（上半場 1-4）]({{ '/assets/images/posts/2026-08-01-notebooklm-prompts-1.png' | relative_url }})
+
 ### 1️⃣ 零基礎文獻回顧生成器（Zero-Shot Literature Review）
 
 **幾時用**：研究起步，乜都未睇，想快速知道個領域而家去到邊。
@@ -75,6 +79,10 @@ NotebookLM 唔同：
 **實戰貼士**：呢個係「理解」層面嘅神器。重點係要佢**解釋同其他文獻嘅關連** — 咁你先會由「睇得明一段」升級到「睇得明成個領域點串連」。比喻記住抄低，寫論文 intro 嗰陣用返嚟解釋俾讀者聽，超好用。
 
 ### 5️⃣ 證據壓力測試（Evidence Stress-Test）
+
+> 📝 **下半場 5-8**：
+
+![NotebookLM 8 個 Prompts（下半場 5-8）]({{ '/assets/images/posts/2026-08-01-notebooklm-prompts-2.png' | relative_url }})
 
 **幾時用**：你覺得自己嘅結論好穩陣？咁就要試下撼佢。
 

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=ZCOOL+KuaiLe&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #E8E2D3;
+    display: flex; justify-content: center; align-items: center;
+    min-height: 100vh; font-family: 'ZCOOL KuaiLe', sans-serif;
+  }
+  .notebook {
+    width: 1080px; height: 1440px;
+    background: #F7F3E6;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 24px 60px rgba(60,50,30,0.35), 0 4px 12px rgba(60,50,30,0.2);
+    padding: 90px 100px 90px 140px;
+    overflow: hidden;
+  }
+  /* 螺旋孔 */
+  .spiral-left { position: absolute; left: 55px; top: 0; bottom: 0; width: 50px; }
+  .spiral-left .hole {
+    position: absolute; width: 22px; height: 34px;
+    background: #E8E2D3;
+    border-radius: 12px;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.25);
+  }
+  .hole-1 { top: 140px; } .hole-2 { top: 330px; } .hole-3 { top: 520px; }
+  .hole-4 { top: 710px; } .hole-5 { top: 900px; } .hole-6 { top: 1090px; } .hole-7 { top: 1280px; }
+  /* 頁面微微斜紋 */
+  .notebook::after {
+    content: ''; position: absolute; inset: 0;
+    background: repeating-linear-gradient(0deg, rgba(180,160,110,0.05) 0 2px, transparent 2px 38px);
+    pointer-events: none;
+  }
+  .header { display: flex; align-items: center; gap: 18px; margin-bottom: 50px; }
+  .title-icon {
+    width: 84px; height: 84px; border-radius: 20px;
+    background: linear-gradient(135deg, #5B3A8E, #7C5BB8);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 40px; color: #fff; box-shadow: 0 6px 16px rgba(91,58,142,0.35);
+  }
+  .title { font-size: 54px; color: #2F2A20; font-weight: 700; line-height: 1.15; }
+  .subtitle { font-size: 24px; color: #8A7F68; margin-top: 6px; font-family: 'Caveat', cursive; font-weight: 500; }
+  .card {
+    background: #FFFDF6;
+    border-radius: 16px;
+    padding: 34px 38px;
+    margin-bottom: 32px;
+    box-shadow: 0 8px 22px rgba(90,70,40,0.14);
+    border-left: 14px solid #E8C84A;
+    position: relative;
+  }
+  .card.blue { border-left-color: #5B9BD5; }
+  .card.pink { border-left-color: #E87BA0; }
+  .card.purple { border-left-color: #9B7BD8; }
+  .card.green { border-left-color: #6FBF8F; }
+  .num-badge {
+    position: absolute; top: -20px; right: 28px;
+    width: 60px; height: 60px; border-radius: 50%;
+    background: #E8C84A; color: #4A3E1A;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 30px; font-weight: 700;
+    box-shadow: 0 5px 14px rgba(180,150,50,0.4);
+  }
+  .card.blue .num-badge { background: #5B9BD5; color: #fff; }
+  .card.pink .num-badge { background: #E87BA0; color: #fff; }
+  .card.purple .num-badge { background: #9B7BD8; color: #fff; }
+  .card-name { font-size: 32px; color: #2F2A20; font-weight: 700; margin-bottom: 14px; }
+  .card-text { font-size: 21px; color: #5A5244; line-height: 1.65; }
+  .tag-row { margin-top: 14px; }
+  .tag {
+    display: inline-block; font-size: 17px; padding: 4px 14px; border-radius: 999px;
+    background: #F1EAD8; color: #6B5F45; margin-right: 8px;
+  }
+  .sticker {
+    position: absolute; right: 30px; bottom: 36px;
+    transform: rotate(-6deg);
+    background: #FBE7A0; color: #8A6D1A;
+    font-family: 'Caveat', cursive; font-size: 22px; font-weight: 700;
+    padding: 8px 20px; border-radius: 6px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+  }
+</style>
+</head>
+<body>
+  <div class="notebook">
+    <div class="spiral-left">
+      <div class="hole hole-1"></div><div class="hole hole-2"></div><div class="hole hole-3"></div>
+      <div class="hole hole-4"></div><div class="hole hole-5"></div><div class="hole hole-6"></div><div class="hole hole-7"></div>
+    </div>
+
+    <div class="header">
+      <div class="title-icon">📚</div>
+      <div>
+        <div class="title">NotebookLM 研究筆記</div>
+        <div class="subtitle">8 prompts to master academic research — 實測版</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="num-badge">1</div>
+      <div class="card-name">零基礎文獻回顧</div>
+      <div class="card-text">叫 AI 睇晒所有 sources，出一份完整文獻回顧：領域背景 → 文獻缺口 → 方法優劣 → 關鍵發現 → 未來方向</div>
+      <div class="tag-row"><span class="tag">#研究起步</span><span class="tag">#最常用</span></div>
+    </div>
+
+    <div class="card blue">
+      <div class="num-badge">2</div>
+      <div class="card-name">多來源論文摘要</div>
+      <div class="card-text">逐份文件獨立摘要：核心主題、研究方法、關鍵結論 — 特別要掘長 PDF 深層嘅技術細節</div>
+      <div class="tag-row"><span class="tag">#快速消化</span><span class="tag">#PDF 海量</span></div>
+    </div>
+
+    <div class="card pink">
+      <div class="num-badge">3</div>
+      <div class="card-name">研究缺口偵測</div>
+      <div class="card-text">比較晒所有來源，搵未答問題、方法學弱點、過時假設，推薦 3 個最有前途嘅研究方向</div>
+      <div class="tag-row"><span class="tag">#Research Gap</span><span class="tag">#定位自己</span></div>
+    </div>
+
+    <div class="card purple">
+      <div class="num-badge">4</div>
+      <div class="card-name">概念拆解導師</div>
+      <div class="card-text">貼一段唔明嘅原文，叫 AI 用日常語言 + 比喻拆解，再講呢個概念同其他文獻點連繫</div>
+      <div class="tag-row"><span class="tag">#睇得明先寫得</span><span class="tag">#比喻神器</span></div>
+    </div>
+
+    <div class="sticker">試過先講 ✍️ UiSkills</div>
+  </div>
+</body>
+</html>
