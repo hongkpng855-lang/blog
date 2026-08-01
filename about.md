@@ -4,9 +4,9 @@ title: 關於我
 permalink: /about/
 ---
 
-<img src="{{ '/assets/images/about-avatar.jpg' | relative_url }}" alt="陳志豪 Eric Chan 的頭像" class="rounded-circle mb-4 author-page-avatar" width="150">
+<img src="{{ '/assets/images/about-avatar.jpg' | relative_url }}" alt="Eva Chan 的頭像" class="rounded-circle mb-4 author-page-avatar" width="150">
 
-您好！我是 **陳志豪（Eric Chan）**，歡迎嚟到 **UiSkills**。
+您好！我是 **Eva Chan**，歡迎嚟到 **UiSkills**。
 
 一句講晒：「**試過先講**」— 我寫嘅每一篇文，都係自己親身用過、踩過、試過先寫低。
 
