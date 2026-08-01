@@ -101,8 +101,8 @@ Organize the remaining content into clearly separated handwritten study sections
 ![NotebookLM 8 個 Prompts（下半場 5-8）]({{ '/assets/images/posts/2026-08-01-notebooklm-prompts-2.png' | relative_url }})
 
 **實測心得：**
-- ✓ 螺旋筆記本 + 手寫字 + 彩色卡片，跟到個神髓
-- ✓ 文字 100% 精準（我哋用 HTML 整，唔會好似純 AI 圖咁出亂碼字）
+-  螺旋筆記本 + 手寫字 + 彩色卡片，跟到個神髓
+-  文字 100% 精準（我哋用 HTML 整，唔會好似純 AI 圖咁出亂碼字）
 - 純 AI 生成嘅 3D 筆記圖文字會亂（尤其中文）— 想文字精準，用 HTML/CSS 重製係最穩陣
 
 ---
@@ -144,6 +144,6 @@ Midjourney 都得，但 ChatGPT Images 2.0 對「文字渲染」同「跟 prompt
 
 「3D 教育筆記頁」係 2026 年 AI 繪圖其中一個最實用嘅風格 — 唔係為靚而靚，係**真係整到教學用嘅嘢**。一條 prompt，將任何主題變成學生會鍾意睇嘅筆記。
 
-我哋實測完，仲將個風格變成自己嘅 workflow — 想知點整，可以參考我哋嘅做法（HTML 重製版，文字 100% 精準）。試下整一張你自己主題嘅 3D 筆記，保證你上癮 😄
+我哋實測完，仲將個風格變成自己嘅 workflow — 想知點整，可以參考我哋嘅做法（HTML 重製版，文字 100% 精準）。試下整一張你自己主題嘅 3D 筆記，保證你上癮 
 
 > **「試過先講」** — 呢個風格我親身玩過，攞去用啦！

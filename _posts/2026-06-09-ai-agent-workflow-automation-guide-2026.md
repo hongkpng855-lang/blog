@@ -177,10 +177,10 @@ description: "2026 年 AI Agent 已經唔係科幻，係每日用緊嘅生產力
 ### 技巧 1：Role + Context + Task + Format（RCTF 框架）
 
 ```
-❌ 普通 prompt：
+ 普通 prompt：
 「幫我寫份 marketing report」
 
-✅ RCTF prompt：
+ RCTF prompt：
 Role：「你係一個 senior marketing analyst，有 10 年 B2B SaaS 經驗」
 Context：「我哋公司上個月推出咗新產品，target HK SME market，budget HK$50K」
 Task：「分析上個月嘅 campaign performance，對比 Q1 數據，俾 3 個改善建議」
@@ -190,10 +190,10 @@ Format：「用 bullet point + 每個建議要預算 impact estimate」
 ### 技巧 2：Chain of Thought + 指定步驟
 
 ```
-❌ 直接問：
+ 直接問：
 「呢個 proposal 有冇問題？」
 
-✅ 逐步引導：
+ 逐步引導：
 Step 1：先分析 proposal 嘅 budget 合理性
 Step 2：對比 industry benchmark
 Step 3：check timeline 係咪 realistic
@@ -260,22 +260,22 @@ Now do the same for：Q1 營運成本數據
 
 ## 5. 常見錯誤與 Fix（我親身中過嘅伏）
 
-### ❌ 伏 1：Expect AI 一次做到完美
+###  伏 1：Expect AI 一次做到完美
 **Fix**：AI Agent output 係「draft not final」。建立 review step，話俾 agent 知你要乜嘢 quality standard。
 
-### ❌ 伏 2：俾太多 instruction 一次過
+###  伏 2：俾太多 instruction 一次過
 **Fix**：Step by step。Agent 好似新同事，逐個 task train，confirm 咗先俾下一個。
 
-### ❌ 伏 3：唔俾 feedback loop
+###  伏 3：唔俾 feedback loop
 **Fix**：每次 output 俾 feedback。Agent 會 learn 你嘅偏好，越用越準。
 
-### ❌ 伏 4：忽略 data privacy
+###  伏 4：忽略 data privacy
 **Fix**：
 - 唔好放 confidential data 去 public AI tool
 - 用 local / private deployment 處理敏感資料
 - Check 清楚 tool 嘅 data handling policy
 
-### ❌ 伏 5：Too ambitious too soon
+###  伏 5：Too ambitious too soon
 **Fix**：由一個最痛嘅 workflow 開始，成功咗先 scale。唔好一次過自動化晒所有嘢。
 
 ---

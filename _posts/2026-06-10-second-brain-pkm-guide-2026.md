@@ -196,16 +196,16 @@ Tiago Forte 提出 **「漸進式總結」（Progressive Summarization）**，�
 
 ### Day 1：安裝工具 + 建立 Inbox
 - 選一個工具（我建議 Notion 或 Obsidian）
-- 建立一個叫「📥 Inbox」嘅 page/folder
+- 建立一個叫「 Inbox」嘅 page/folder
 - 將你平時 capture 嘅 apps 設定好 shortcut
 
 ### Day 2：建立 PARA 資料夾結構
 ```
-📁 1. Projects
-📁 2. Areas
-📁 3. Resources
-📁 4. Archives
-📁 📥 Inbox
+ 1. Projects
+ 2. Areas
+ 3. Resources
+ 4. Archives
+  Inbox
 ```
 
 ### Day 3：清 Inbox（最難嘅一步）
@@ -235,35 +235,35 @@ Tiago Forte 提出 **「漸進式總結」（Progressive Summarization）**，�
 
 ## 8. 香港人常見嘅 5 個錯誤
 
-### ❌ 錯誤 1：太著重工具
+###  錯誤 1：太著重工具
 「我要比較晒所有 tool，揀最好嘅先開始。」
 
 **結果**：研究咗一個月，乜都冇做過。
 
 **解決**：揀一個最順手嘅，即刻開始。唔啱先轉。
 
-### ❌ 錯誤 2：分類太複雜
+###  錯誤 2：分類太複雜
 「呢個應該放 Resource 定 Area 定 Project？」
 
 **結果**：分類焦慮，最後乜都放 Inbox。
 
 **解決**：錯分類好過冇分類。放錯咗將來可以搬。
 
-### ❌ 錯誤 3：淨係 capture，唔整理
+###  錯誤 3：淨係 capture，唔整理
 「哦呢篇文好有用！」→ capture → 然後永遠唔翻睇。
 
 **結果**：Inbox 過千條，同冇 capture 過冇分別。
 
 **解決**：每星期抽 30 分鐘清 Inbox。
 
-### ❌ 錯誤 4：強迫自己做 L5
+###  錯誤 4：強迫自己做 L5
 「我一定要將每條筆記寫成 Executive Summary。」
 
 **結果**：太吃力，最後放棄。
 
 **解決**：80% 嘅筆記去到 L2 就夠。
 
-### ❌ 錯誤 5：冇定期回顧
+###  錯誤 5：冇定期回顧
 「我 setup 好晒啦，搞掂。」
 
 **結果**：三個月後 system 仲係同 setup 當日一樣。
@@ -321,7 +321,7 @@ Tiago Forte 提出 **「漸進式總結」（Progressive Summarization）**，�
 
 今日嘅 action item：
 1. 揀一個工具（Notion / Obsidian / Capacities）
-2. 建立一個 📥 Inbox
+2. 建立一個  Inbox
 3. Capture 一樣你覺得有用嘅嘢
 
 就係咁簡單。之後先慢慢加 PARA、做 summary、學 AI integration。

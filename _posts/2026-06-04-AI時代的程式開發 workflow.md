@@ -28,7 +28,7 @@ GitHub Copilot 依然是主流，但 2026 年的 Copilot 已經唔同晒：
 | 補全範圍 | 幾行 code | 整個函式 + 測試 |
 | 對話能力 | 單純 inline | 完整 Agent 模式 |
 | 上下文 | 當前檔案 | 整個 Repo + Issue |
-| Agent 模式 | ❌ | ✅ 自動規劃執行 |
+| Agent 模式 |  |  自動規劃執行 |
 
 ### Agent 模式係乜？
 
@@ -133,14 +133,14 @@ Agent 會自動：
 
 ### 常見 Prompt 錯誤
 
-❌ **太模糊**：「幫我寫一個 backend」
-✅ **夠具體**：「幫我用 Express + TypeScript 寫一個 user auth system，包含 register、login、JWT refresh token」
+ **太模糊**：「幫我寫一個 backend」
+ **夠具體**：「幫我用 Express + TypeScript 寫一個 user auth system，包含 register、login、JWT refresh token」
 
-❌ **冇約束**：「幫我寫一個 API」
-✅ **有規範**：「幫我寫一個 REST API，所有 route 用 camelCase，error response 統一用 `{ success: false, error: string }`」
+ **冇約束**：「幫我寫一個 API」
+ **有規範**：「幫我寫一個 REST API，所有 route 用 camelCase，error response 統一用 `{ success: false, error: string }`」
 
-❌ **一鍋熟**：「建立一個電商網站」
-✅ **拆細做**：「先建立 product CRUD API，再寫 cart system，最後先做 payment」
+ **一鍋熟**：「建立一個電商網站」
+ **拆細做**：「先建立 product CRUD API，再寫 cart system，最後先做 payment」
 
 ---
 
@@ -166,7 +166,7 @@ Agent 會自動：
 
 ## 5. 風險與限制（一定要睇）
 
-### ⚠️ AI 寫 code 的常見陷阱
+###  AI 寫 code 的常見陷阱
 
 1. **幻覺（Hallucination）**：AI 會用好自信嘅語氣講錯嘅嘢。例如用一個唔存在嘅 NPM package，或者用錯 API 參數。
 
@@ -180,7 +180,7 @@ Agent 會自動：
    - 冇 comment（或者太多廢 comment）
    - 命名唔一致
 
-### 🛡️ 點樣避陷阱？
+###  點樣避陷阱？
 
 | 風險 | 預防方法 |
 |------|---------|

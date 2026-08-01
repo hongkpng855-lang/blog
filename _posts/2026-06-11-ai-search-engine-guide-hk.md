@@ -137,13 +137,13 @@ AI Search 都有機會出錯，特別係：
 我自己嘅每日 workflow：
 
 ```
-🔍 Quick Check（< 1 分鐘）→ ChatGPT Search / 手機 Perplexity
+ Quick Check（< 1 分鐘）→ ChatGPT Search / 手機 Perplexity
   例如：今日天氣、股價、Fact check
 
-📚 Research Mode（5-15 分鐘）→ Perplexity Pro Search
+ Research Mode（5-15 分鐘）→ Perplexity Pro Search
   例如：比較產品、研究旅行行程、做功課
 
-📝 Deep Research（30+ 分鐘）→ Perplexity Pro + Collection
+ Deep Research（30+ 分鐘）→ Perplexity Pro + Collection
   例如：寫文 research、投資分析、學新技術
 ```
 

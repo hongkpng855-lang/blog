@@ -64,12 +64,12 @@ Perplexity 係我目前最常用嘅 AI 搜尋工具，冇之一。
 **香港用家實戰：**
 
 ```
-👎 傳統做法：
+ 傳統做法：
 Google 「香港 MPF 2026 供款上限」
 → 睇 5 個網頁 → 對比返工同一世 website
 → 自己整理 → 10 分鐘
 
-👍 Perplexity 做法：
+ Perplexity 做法：
 問：「香港 2026 年 MPF 供款上限係幾多？同 2025 年有咩分別？」
 → AI 直接俾答案 + 引用積金局官網
 → 仲可以追問：「如果自僱人士，供款有冇唔同？」
@@ -133,12 +133,12 @@ Microsoft 嘅 AI 搜尋，整合咗 GPT-4 同 Bing 搜尋。
 
 | 工具 | 免費版 | 月費 | 資料即時性 | 中文支援 | 文件分析 | 自動 monitor |
 |------|-------|------|-----------|---------|---------|------------|
-| Perplexity | 有限 Pro Search | $20 | ✅ 即時 | ✅ 好 | ✅ | ✅ |
-| Google AI Overview | 完全免費 | $0 | ✅ 即時 | ⚠️ 有限 | ❌ | ❌ |
-| ChatGPT Search | 有限 | $20 | ✅ 即時 | ✅ 好 | ✅ | ❌ |
-| Microsoft Copilot | 完全免費 | $0 | ✅ 即時 | ✅ 好 | ✅ (Office) | ❌ |
-| Gemini | 完全免費 | $20 (Advanced) | ✅ 即時 | ✅ 好 | ✅ | ❌ |
-| You.com | 有限 | $15 | ✅ 即時 | ⚠️ 有限 | ❌ | ❌ |
+| Perplexity | 有限 Pro Search | $20 |  即時 |  好 |  |  |
+| Google AI Overview | 完全免費 | $0 |  即時 |  有限 |  |  |
+| ChatGPT Search | 有限 | $20 |  即時 |  好 |  |  |
+| Microsoft Copilot | 完全免費 | $0 |  即時 |  好 |  (Office) |  |
+| Gemini | 完全免費 | $20 (Advanced) |  即時 |  好 |  |  |
+| You.com | 有限 | $15 |  即時 |  有限 |  |  |
 
 ---
 
@@ -194,9 +194,9 @@ Upload 20 篇 research paper
 一般 AI 搜尋（ChatGPT、Perplexity）有時會作嘢——佢哋會估答案，然後 quote 一個唔 exist 嘅 source。
 
 NotebookLM 嘅設計強迫 AI 只可以用你俾嘅 source，所以：
-- ✅ 唔會作 source
-- ✅ 答案可以 trace 返 source
-- ✅ 你可以判斷 AI 有冇解錯
+-  唔會作 source
+-  答案可以 trace 返 source
+-  你可以判斷 AI 有冇解錯
 
 **收費：** 完全免費（Google 未收費）
 
@@ -208,10 +208,10 @@ NotebookLM 嘅設計強迫 AI 只可以用你俾嘅 source，所以：
 
 同 AI 搜尋溝通都有技巧：
 
-**❌ 差嘅 prompt：**
+** 差嘅 prompt：**
 「香港樓市點樣？」
 
-**✅ 好嘅 prompt：**
+** 好嘅 prompt：**
 「分析香港樓市 2026 年上半年嘅走勢，重點包括：
 1. 住宅價格指數變化（對比 2025 年下半年）
 2. 成交量同 2025 年同期比較
@@ -445,8 +445,8 @@ AI 搜尋取代嘅係「需要理解、整合、分析」嘅搜尋場景。
 
 呢個擔心合理，但關鍵係你點用：
 
-❌ **被動使用：** AI 俾咩就信咩，唔 verify，唔批判
-✅ **主動使用：** 用 AI 做起點，自己判斷、整合、批判
+ **被動使用：** AI 俾咩就信咩，唔 verify，唔批判
+ **主動使用：** 用 AI 做起點，自己判斷、整合、批判
 
 AI 搜尋最好嘅用法係：**將 low-level 嘅資訊搜集工作俾 AI 做，釋放你嘅腦力去做 high-level 嘅思考同決策。**
 

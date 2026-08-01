@@ -36,7 +36,7 @@ NotebookLM 唔同：
 
 ## <svg class="ui-icon"><use href="#ui-robot"/></svg>8 個實戰 Prompt（照用就得）
 
-> <svg class="ui-icon"><use href="#ui-newspaper"/></svg>**8 個 Prompts 一眼睇晒**（3D 筆記風格總結圖，我自己整嘅 😄）：
+> <svg class="ui-icon"><use href="#ui-newspaper"/></svg>**8 個 Prompts 一眼睇晒**（3D 筆記風格總結圖，我自己整嘅 ）：
 
 ![NotebookLM 8 個 Prompts（上半場 1-4）]({{ '/assets/images/posts/2026-08-01-notebooklm-prompts-1.png' | relative_url }})
 
@@ -172,4 +172,4 @@ NotebookLM 唔同：
 
 試下用第一個 Prompt 開始，你就會明我講乜。
 
-> **「試過先講」** — 我唔會推介自己未用過嘅嘢。呢 8 個 Prompt 全部實測過，攞去用，唔使多謝我，記得㩒 Citation 就得 😄
+> **「試過先講」** — 我唔會推介自己未用過嘅嘢。呢 8 個 Prompt 全部實測過，攞去用，唔使多謝我，記得㩒 Citation 就得 

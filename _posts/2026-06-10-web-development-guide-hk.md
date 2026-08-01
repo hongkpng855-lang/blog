@@ -217,8 +217,8 @@ HTML 係結構，CSS 係樣式，JavaScript（JS）就係**行為**——令你�
 <body>
     <h1>撳我計數</h1>
     <p>次數：<span id="count">0</span></p>
-    <button onclick="addOne()">➕ 加一</button>
-    <button onclick="resetCount()">🔄 重置</button>
+    <button onclick="addOne()"> 加一</button>
+    <button onclick="resetCount()"> 重置</button>
 
     <script>
         let count = 0;
@@ -239,7 +239,7 @@ HTML 係結構，CSS 係樣式，JavaScript（JS）就係**行為**——令你�
 
 **AI 練習**：叫 AI 「幫我用 JavaScript 整一個 to-do list，可以 add task、mark done、delete task，要用 localStorage save 低。」
 
-⚠️ **學 JS 最大嘅貼士**：唔好一開始就背 syntax。用 AI 生成 code → 試 run → 有問題叫 AI 解釋 → 修改 → 理解。呢個 loop 係最快嘅學習方法。
+ **學 JS 最大嘅貼士**：唔好一開始就背 syntax。用 AI 生成 code → 試 run → 有問題叫 AI 解釋 → 修改 → 理解。呢個 loop 係最快嘅學習方法。
 
 ---
 
@@ -349,22 +349,22 @@ AI 會俾你一個完整嘅 code base，你可以直接 copy 去 VS Code 試 run
 
 ## 8. 常見錯誤與點樣避開
 
-### ❌ 錯誤 1：一次過學太多
+###  錯誤 1：一次過學太多
 **Fix**：專注 HTML → CSS → JS，逐個嚟。唔好一日內想學齊 React + Node.js + Database。
 
-### ❌ 錯誤 2：抄 code 但唔理解
+###  錯誤 2：抄 code 但唔理解
 **Fix**：每次抄完 AI 生成嘅 code，叫 AI 解釋俾你聽。理解咗先算你嘅。
 
-### ❌ 錯誤 3：追求完美先推出
+###  錯誤 3：追求完美先推出
 **Fix**：先推出（deploy）一個唔完美嘅版本，再慢慢改善。完美主義係學習嘅最大敵人。
 
-### ❌ 錯誤 4：唔用 version control
+###  錯誤 4：唔用 version control
 **Fix**：一開始就用 Git。整爛咗可以還原，唔使驚。
 
-### ❌ 錯誤 5：用手機寫 code
+###  錯誤 5：用手機寫 code
 **Fix**：用手機睇 tutorial 冇問題，但真正寫 code 要用電腦。VS Code 係你最好嘅朋友。
 
-### ❌ 錯誤 6：悶親自己
+###  錯誤 6：悶親自己
 **Fix**：如果你覺得個 project 好悶，換一個。學 web dev 最重要係 keep 住有趣。
 
 ---
@@ -397,7 +397,7 @@ AI 會俾你一個完整嘅 code base，你可以直接 copy 去 VS Code 試 run
 - [ ] Push code 去 GitHub
 - [ ] Enable GitHub Pages
 - [ ] Check 網站上線
-- [ ] Share 俾朋友睇 🎉
+- [ ] Share 俾朋友睇 
 
 ---
 
@@ -442,16 +442,16 @@ AI 係工具，唔係 replacement。AI 可以幫你 write code、debug、解釋�
 2026 年學 web development，係前所未有咁容易。
 
 你唔需要：
-- ❌ 記 syntax
-- ❌ 背 framework
-- ❌ 自己搞 server
-- ❌ 買 domain / hosting
+-  記 syntax
+-  背 framework
+-  自己搞 server
+-  買 domain / hosting
 
 你需要嘅只係：
-- ✅ VS Code
-- ✅ 一個 browser
-- ✅ AI 助手（Claude / ChatGPT）
-- ✅ 開始嘅決心
+-  VS Code
+-  一個 browser
+-  AI 助手（Claude / ChatGPT）
+-  開始嘅決心
 
 而家就開 VS Code，寫呢行 code：
 
@@ -459,7 +459,7 @@ AI 係工具，唔係 replacement。AI 可以幫你 write code、debug、解釋�
 <h1>Hello 香港！我開始學整網站喇！</h1>
 ```
 
-然後喺 browser 開佢。恭喜你，你已經行咗第一步 🎉
+然後喺 browser 開佢。恭喜你，你已經行咗第一步 
 
 下一步？繼續睇呢篇文嘅 Step 2，加 CSS 靚仔化。或者直接叫 AI 幫你生成一個完整嘅網站初稿，然後逐 part 理解同修改。
 

@@ -26,10 +26,10 @@ description: "學咗十幾年英文都唔敢開口？2026 年 AI 徹底改變咗
 就咁。完全唔識延伸、唔識 natural 咁對話。考完試嘅英文，喺真實世界完全用唔到。
 
 返到香港之後我立志要真正學好英文。我試過：
-- ❌ 報 course（$8,000 一個月，但得星期六上堂，仲要 group 討論得 10 分鐘）
-- ❌ 用手機 app（Duolingo 日日打卡 200 日，但發現只係識「La biblioteca」嘅程度）
-- ❌ 睇 Netflix 唔開字幕（結果睇咗 3 季《Friends》都係聽得明六成）
-- ❌ 去 language exchange（撞正個「ABC」原來係想識女仔，冇心學）
+-  報 course（$8,000 一個月，但得星期六上堂，仲要 group 討論得 10 分鐘）
+-  用手機 app（Duolingo 日日打卡 200 日，但發現只係識「La biblioteca」嘅程度）
+-  睇 Netflix 唔開字幕（結果睇咗 3 季《Friends》都係聽得明六成）
+-  去 language exchange（撞正個「ABC」原來係想識女仔，冇心學）
 
 直到 2024 年尾，我開始用 AI 輔助學語言——**6 個月後，我嘅口語流暢度比之前 16 年加埋進步得更多。**
 
@@ -39,11 +39,11 @@ description: "學咗十幾年英文都唔敢開口？2026 年 AI 徹底改變咗
 
 ## 呢篇文適合邊個？
 
-- 🎯 **學咗好多年英文，但唔敢開口**嘅香港人
-- 🎯 **考完 DSE / IELTS 就冇再接觸英文**嘅在職人士
-- 🎯 **想學日文、韓文、法文等第二語言**嘅自學者
-- 🎯 **用緊 Duolingo / App 但覺得進步緩慢**嘅學習者
-- 🎯 **想用最少時間達到最大語言進步**嘅效率控
+-  **學咗好多年英文，但唔敢開口**嘅香港人
+-  **考完 DSE / IELTS 就冇再接觸英文**嘅在職人士
+-  **想學日文、韓文、法文等第二語言**嘅自學者
+-  **用緊 Duolingo / App 但覺得進步緩慢**嘅學習者
+-  **想用最少時間達到最大語言進步**嘅效率控
 
 無論你想學邊種語言，呢個系統都適用。我會用英文做例子，但方法可以套用到任何語言。
 
@@ -58,14 +58,14 @@ description: "學咗十幾年英文都唔敢開口？2026 年 AI 徹底改變咗
 如果你嘅目標係 DSE / IELTS 高分，咁你應該做 past paper、背 vocab、學 grammar rule。呢個冇問題。
 
 但如果你嘅目標係：
-- 🗣️ 同外國同事吹水唔驚
-- 📧 寫英文 email 唔使查五次字典
-- 📖 睇英文新聞 / 技術文件唔使開 Google Translate
-- 🎬 睇 Netflix / YouTube 原文內容
+-  同外國同事吹水唔驚
+-  寫英文 email 唔使查五次字典
+-  睇英文新聞 / 技術文件唔使開 Google Translate
+-  睇 Netflix / YouTube 原文內容
 
 咁你需要嘅係 **「真實語言能力」**，而唔係 **「考試技巧」**。
 
-### 🧭 語言學習目標清單（2026 版）
+###  語言學習目標清單（2026 版）
 
 用 AI 幫你制定個人化目標：
 
@@ -81,23 +81,23 @@ AI 會幫你度身訂造一個學習路徑，比起你上網搵「學英文 10 �
 2026 年學語言最大嘅突破係：**你唔再需要人哋。**
 
 以前學語言嘅最大痛點：
-- 🙅 冇人幫你改口音
-- 🙅 搵唔到人練習口語
-- 🙅 唔知自己講得啱唔啱
-- 🙅 要等上堂先有 feedback
+-  冇人幫你改口音
+-  搵唔到人練習口語
+-  唔知自己講得啱唔啱
+-  要等上堂先有 feedback
 
 2026 年，**你嘅口袋入面就有一個 24/7 唔會攰嘅語言教練。**
 
-### 🤖 AI 語言學習工具組合
+###  AI 語言學習工具組合
 
 #### 核心工具 1：ChatGPT App（語音模式）
 
 **呢個係革命性嘅功能。** ChatGPT 手機 app 嘅語音模式（Advanced Voice Mode）可以同你：
 
-- 🗣️ **真實自然對話**——好似同真人傾偈一樣
-- 🎯 **即時糾正**——你講錯會幫你改正
-- 🔄 **無限練習**——你想講幾耐都得
-- 🌍 **多種口音**——可以揀美國、英國、澳洲、加拿大口音
+-  **真實自然對話**——好似同真人傾偈一樣
+-  **即時糾正**——你講錯會幫你改正
+-  **無限練習**——你想講幾耐都得
+-  **多種口音**——可以揀美國、英國、澳洲、加拿大口音
 
 **實戰用法：**
 
@@ -123,11 +123,11 @@ Claude 喺寫作 feedback 方面特別強：
 我俾 Claude 睇咗我寫嘅 "I very like this movie because it very funny"——
 
 Claude 回咗：
-> ✅ What you did well: Clear meaning, correct word choice ("movie")
-> ❌ Correction: "I really like this movie because it's very funny"
-> 📘 Grammar rule: In English, we use "really" (not "very") before verbs like "like". "Very" is used before adjectives.
-> 💡 More natural: "I'm a huge fan of this movie — it's hilarious!"
-> 🚩 Direct translation note: "I very like" = 我"非常"喜歡嘅直接翻譯，但英文唔係咁用
+>  What you did well: Clear meaning, correct word choice ("movie")
+>  Correction: "I really like this movie because it's very funny"
+>  Grammar rule: In English, we use "really" (not "very") before verbs like "like". "Very" is used before adjectives.
+>  More natural: "I'm a huge fan of this movie — it's hilarious!"
+>  Direct translation note: "I very like" = 我"非常"喜歡嘅直接翻譯，但英文唔係咁用
 
 呢種 **逐句分析** 嘅 feedback，以前要請私人補習老師先做到。
 
@@ -155,7 +155,7 @@ Google 嘅 NotebookLM 可以將任何你感兴趣嘅內容變成 podcast：
 
 但 2026 年嘅做法同以前好唔同。
 
-### 📱 手機語言沉浸系統
+###  手機語言沉浸系統
 
 **Step-by-step 設定：**
 
@@ -178,7 +178,7 @@ Google 嘅 NotebookLM 可以將任何你感兴趣嘅內容變成 podcast：
    - subscribe 你興趣相關嘅 subreddit（全部英文）
    - 強迫自己每日睇 15 分鐘 Reddit——啲英文係真實、自然、生活化
 
-### 📖 用 AI 做「分級閱讀」
+###  用 AI 做「分級閱讀」
 
 以前睇英文文章嘅問題：太深唔明、太淺冇用、啱啱好嘅好難搵。
 
@@ -199,7 +199,7 @@ AI 會幫你將任何文章變成啱你程度嘅版本。睇完 simple version�
 
 ## Step 4：輸出練習 ─ 由「被動接收」到「主動產出」
 
-### 🗣️ 口語實戰系統
+###  口語實戰系統
 
 **每星期 3 次 AI 口語練習（每次 15 分鐘）：**
 
@@ -212,7 +212,7 @@ AI 會幫你將任何文章變成啱你程度嘅版本。睇完 simple version�
 **星期五：Debate / Opinion Mode**
 > "Let's discuss: should remote work be mandatory? I'll argue for it. Please challenge my arguments and correct my English."
 
-### ✍️ 寫作系統
+###  寫作系統
 
 **每日一個寫作練習（5 分鐘）：**
 
@@ -225,7 +225,7 @@ AI 會幫你將任何文章變成啱你程度嘅版本。睇完 simple version�
 > 3. A score out of 10 for naturalness
 > 4. One thing I can improve tomorrow
 
-### 🎯 發音調校系統
+###  發音調校系統
 
 呢個係最多香港人忽略嘅部分。我哋嘅廣東話母語影響咗某啲英文發音：
 
@@ -248,18 +248,18 @@ AI 會聽你發音，逐個音節分析，俾返建議。
 
 語言學習嘅最大敵人係 **唔持續**。2026 年你唔需要驚人嘅意志力，你需要嘅係一個自動化系統。
 
-### 📅 我嘅每日語言系統（每日只需 40 分鐘）
+###  我嘅每日語言系統（每日只需 40 分鐘）
 
 | 時段 | 活動 | 工具 | 時間 |
 |------|------|------|------|
-| 🌅 朝早返工 | NotebookLM podcast 聆聽 | NotebookLM | 20 分鐘 |
-| 🚶  lunch time | AI 口語練習 | ChatGPT Voice | 15 分鐘 |
-| 🌃 夜晚 | 英文日記 + AI feedback | Claude | 5 分鐘 |
-| 📱 碎片時間 | Reddit / YouTube 英文內容 | 手機 | 不限 |
+|  朝早返工 | NotebookLM podcast 聆聽 | NotebookLM | 20 分鐘 |
+|   lunch time | AI 口語練習 | ChatGPT Voice | 15 分鐘 |
+|  夜晚 | 英文日記 + AI feedback | Claude | 5 分鐘 |
+|  碎片時間 | Reddit / YouTube 英文內容 | 手機 | 不限 |
 
 **Total：每日 40 分鐘 structured practice + 無限 passive exposure**
 
-### 🎯 里程碑系統
+###  里程碑系統
 
 用呢個方法，預期進度：
 
@@ -275,29 +275,29 @@ AI 會聽你發音，逐個音節分析，俾返建議。
 
 ## 常見錯誤與解決方案
 
-### ❌ 錯誤 1：仍然用 Duolingo 做主學習工具
+###  錯誤 1：仍然用 Duolingo 做主學習工具
 
 Duolingo 做輔助 okay，但做主力係浪費時間。你唔會靠 Duolingo 學到真實對話能力。
 
-**✅ 解決**：Duolingo 只用嚟維持 streak（唔好斷），但主要學習時間放喺 AI 對話同真實內容。
+** 解決**：Duolingo 只用嚟維持 streak（唔好斷），但主要學習時間放喺 AI 對話同真實內容。
 
-### ❌ 錯誤 2：完美主義 ─ 一定要 grammar 啱晒先肯開口
+###  錯誤 2：完美主義 ─ 一定要 grammar 啱晒先肯開口
 
 呢個係香港學生嘅最大問題。我哋太在意 grammar，搞到講嘢前要先喺個腦入面翻譯 + check grammar → 結果講得好慢、好唔自然。
 
-**✅ 解決**：AI 會幫你改正，你只需 focus on **溝通**。Grammar 係慢慢自然改善嘅。
+** 解決**：AI 會幫你改正，你只需 focus on **溝通**。Grammar 係慢慢自然改善嘅。
 
-### ❌ 錯誤 3：同一個 AI prompt 用足一個月
+###  錯誤 3：同一個 AI prompt 用足一個月
 
 AI 工具最強大嘅地方係你可以不斷調整 prompt。
 
-**✅ 解決**：每星期換一個學習情境。今個星期講 travel，下個星期講 work，再下個星期講 technology。
+** 解決**：每星期換一個學習情境。今個星期講 travel，下個星期講 work，再下個星期講 technology。
 
-### ❌ 錯誤 4：只 input 唔 output
+###  錯誤 4：只 input 唔 output
 
 睇 Netflix、聽 podcast 係 input，但唔足夠。你需要 **output** ─ 自己講、自己寫。
 
-**✅ 解決**：每日最少 15 分鐘 AI 口語練習 + 5 分鐘英文寫作。
+** 解決**：每日最少 15 分鐘 AI 口語練習 + 5 分鐘英文寫作。
 
 ---
 
@@ -332,9 +332,9 @@ AI 工具最強大嘅地方係你可以不斷調整 prompt。
 
 ### Q：用 AI 學同真人學有咩分別？
 **A：**
-- ✅ AI 嘅好處：24/7、唔會攰、唔會 judge、無限耐心、可無限重複
-- ❌ AI 嘅限制：冇真實 cultural context、冇 body language feedback
-- 💡 **最佳組合**：AI 做主力 daily practice + 每月 1-2 次真人 conversation exchange
+-  AI 嘅好處：24/7、唔會攰、唔會 judge、無限耐心、可無限重複
+-  AI 嘅限制：冇真實 cultural context、冇 body language feedback
+-  **最佳組合**：AI 做主力 daily practice + 每月 1-2 次真人 conversation exchange
 
 ### Q：會唔會學到「AI 英文」而唔係「真人文英文」？
 **A：** 唔會，只要你用嘅 prompt 係叫 AI 俾 natural 嘅表達方式。你可以 request AI 用 casual / formal / business 唔同風格。關鍵係你要用真實內容（YouTube、Reddit、新聞）做 input，AI 只係做練習同 feedback 工具。
@@ -348,15 +348,15 @@ AI 工具最強大嘅地方係你可以不斷調整 prompt。
 唔係因為我特別勤力。係因為 **2026 年嘅 AI 工具將語言學習嘅門檻降到前所未有咁低。**
 
 你唔需要：
-- ❌ 俾幾千蚊報 course
-- ❌ 遷就上堂時間
-- ❌ 搵人陪你練習
-- ❌ 驚講錯俾人笑
+-  俾幾千蚊報 course
+-  遷就上堂時間
+-  搵人陪你練習
+-  驚講錯俾人笑
 
 你需要嘅只係：
-- ✅ 一部智能電話
-- ✅ 每日 40 分鐘
-- ✅ 呢篇文嘅系統
+-  一部智能電話
+-  每日 40 分鐘
+-  呢篇文嘅系統
 
 而家打開 ChatGPT，講一句 "Hi, let's practice English" ——
 
@@ -364,4 +364,4 @@ AI 工具最強大嘅地方係你可以不斷調整 prompt。
 
 ---
 
-*📌 如果呢篇文幫到你，請分享俾你身邊想學好英文嘅朋友。下篇會講點樣用 AI 學 programming，敬請期待！*
+* 如果呢篇文幫到你，請分享俾你身邊想學好英文嘅朋友。下篇會講點樣用 AI 學 programming，敬請期待！*

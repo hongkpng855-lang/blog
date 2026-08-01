@@ -51,22 +51,22 @@ Apple Intelligence 喺 2024 年 WWDC 首次亮相，到 2026 年已經全面融�
 
 ### 對香港用家最有用嘅功能：
 
-**📝 系統級寫作工具**
+** 系統級寫作工具**
 - Mail、Message、Notes 入面直接改語氣、校對、總結
 - **重點**：全部 offline 處理，你公司嘅機密電郵唔會離開你部機
 - 支援繁體中文 + 廣東話語境理解
 
-**📸 相片編輯**
+** 相片編輯**
 - 「清理」功能：一鍵移除背景路人
 - 自然語言搜尋：「搵上次阿媽生日食飯張相」
 - 全部喺 iPhone / Mac 入面運行
 
-**🧠 個人情境理解**
+** 個人情境理解**
 - Siri 可以存取你嘅 screen context
 - 「幫我將呢個地址加入剛收到嘅訊息嘅聯絡人」——理解前文後理
 - 資料只會留喺裝置，唔會上傳 Apple
 
-**💻 Mac 嘅 Apple Silicon 優勢**
+** Mac 嘅 Apple Silicon 優勢**
 - M 系列晶片嘅 Neural Engine 由 M1 嘅 11 TOPS 進化到 M4 Ultra 嘅 50+ TOPS
 - 可以本地運行 7B 以下模型，速度可與入門 GPU 媲美
 
@@ -88,21 +88,21 @@ Google 嘅 Edge AI 策略主打 Android 生態，核心係 **Gemini Nano**——
 
 ### Android 用家嘅 Edge AI 功能：
 
-**📞 Call Screen / 來電過濾**
+** Call Screen / 來電過濾**
 - 直接喺手機辨識詐騙來電
 - 自動同陌生人對話，幫你記低對方來意
 
-**📹 Magic Editor / 魔法編輯**
+** Magic Editor / 魔法編輯**
 - 一鍵移除相片雜物
 - 改變天空顏色、移動物件
 - 全部喺 Pixel / Samsung 裝置端處理
 
-**🌐 離線翻譯**
+** 離線翻譯**
 - 支援 59 種語言嘅離線翻譯
 - Google 翻譯 App 入面下載語言包後完全 offline
 - 2026 年質素已接近雲端版本
 
-**🎙️ Recorder App 錄音轉錄**
+** Recorder App 錄音轉錄**
 - 實時將語音轉文字
 - 支援廣東話辨識
 - 全部喺裝置完成，唔使連線
@@ -205,21 +205,21 @@ ollama run llama3.2:3b     # 直接開 chat
 
 ## 6. Edge AI 嘅未來趨勢（2026-2027）
 
-### 📱 手機 NPU 繼續進化
+###  手機 NPU 繼續進化
 Qualcomm Snapdragon 9 Gen 4、Apple M4/A18 Pro、MediaTek Dimensity 嘅 NPU 效能每年翻倍。預計 2027 年手機可以順暢運行 13B 模型。
 
-### 🏢 企業 Edge AI 爆發
+###  企業 Edge AI 爆發
 愈來愈多企業將 AI 由雲端搬到內部 server 或 edge device，原因：**資料主權、合規要求、成本控制**。
 
-### 🎯 專用 Edge AI 硬件
+###  專用 Edge AI 硬件
 - **AI PC**：Microsoft Copilot+ PC 要求 NPU > 40 TOPS
 - **AI Phone**：Android 16 原生支援 local AI agent
 - **AIoT**：智能家居、閉路電視逐步本地化 AI 處理
 
-### 🔒 私隱法規推動
+###  私隱法規推動
 歐盟 AI Act、香港個人資料私隱條例修訂，令更多公司選擇 Edge AI 處理個人資料。
 
-### 🌐 Hybrid AI 成為標準
+###  Hybrid AI 成為標準
 裝置做即時推理（<100ms），雲端做複雜訓練——兩者無縫切換。
 
 ---

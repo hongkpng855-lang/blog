@@ -163,10 +163,10 @@ Capture（捕捉）→ Organize（整理）→ Distill（提煉）→ Express（
 喺 Vault 入面建立 4 個資料夾（跟 PARA 框架）：
 
 ```
-📁 1- Projects     → 你正在做嘅 project
-📁 2- Areas        → 持續負責嘅領域
-📁 3- Resources    → 參考資料
-📁 4- Archives     → 已完成嘅項目
+ 1- Projects     → 你正在做嘅 project
+ 2- Areas        → 持續負責嘅領域
+ 3- Resources    → 參考資料
+ 4- Archives     → 已完成嘅項目
 ```
 
 唔好一開始搞太複雜嘅分類系統。**PARA 嘅好處係夠簡單，先開始，後調整。**

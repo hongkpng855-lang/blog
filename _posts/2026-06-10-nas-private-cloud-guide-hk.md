@@ -23,7 +23,7 @@ description: "Google Photos 開始收費、iCloud 成日唔夠位、公司文件
 
 NAS 唔係人人需要。如果你符合以下任何一個情況，NAS 就值得入手：
 
-### ✅ 你應該買 NAS 嘅 5 個信號
+###  你應該買 NAS 嘅 5 個信號
 
 1. **手機相片影片多過 50GB** —— iCloud / Google One 月費越俾越多，幾年落嚟夠買一部 NAS
 2. **屋企多過 2 部電腦** —— 文件分散，想一個地方集中存取
@@ -31,7 +31,7 @@ NAS 唔係人人需要。如果你符合以下任何一個情況，NAS 就值得
 4. **做 Freelance / 自己生意** —— 要 backup 客戶文件、公司資料，唔想擺喺 Google Drive
 5. **怕啲 data 唔見** —— 10 年前啲相同片仲喺度，但部舊電腦已經壞咗
 
-### ❌ NAS 唔適合你嘅情況
+###  NAS 唔適合你嘅情況
 
 - 你只需要 backup 電話相片（Google Photos 免費 compression 夠你用）
 - 你所有 files 都放喺 Google / Microsoft 365，好滿意
@@ -88,7 +88,7 @@ NAS 要 7x24 運行，**唔可以用普通 Desktop HDD**（好快死）。一定
 
 ## 第三步：5 個香港人最常用嘅 NAS 應用
 
-### 🏆 應用一：Phone Photo Backup（自動備份電話相片）
+###  應用一：Phone Photo Backup（自動備份電話相片）
 
 呢個係最主要嘅用途。無論 Synology Photos 定 QNAP QuMagie，設定都係三步搞掂：
 
@@ -112,13 +112,13 @@ NAS 要 7x24 運行，**唔可以用普通 Desktop HDD**（好快死）。一定
 | 月費 | $0 | $78/月 | $55/月 |
 | 3年總成本 | ~$4,000 | $2,808 | $1,980 |
 | 5年總成本 | ~$4,000 | $4,680 | $3,300 |
-| 原畫質 | ✅ 原檔保留 | ✅ | ❌ 會壓縮 |
-| 私隱 | ✅ 你 control | ⚠️ Apple 都有 key | ❌ Google scan |
-| 多人共用 | ✅ Free | 要 Family Sharing | 要 Family plan |
+| 原畫質 |  原檔保留 |  |  會壓縮 |
+| 私隱 |  你 control |  Apple 都有 key |  Google scan |
+| 多人共用 |  Free | 要 Family Sharing | 要 Family plan |
 
 **結論**：用超過 3 年就回本，用 5 年仲慳過 Google One。
 
-### 🏆 應用二：媒體串流（Movie / TV / Music Server）
+###  應用二：媒體串流（Movie / TV / Music Server）
 
 將你嘅電影、電視劇、音樂放喺 NAS，用電視/平板/手機直接播。
 
@@ -132,7 +132,7 @@ NAS 要 7x24 運行，**唔可以用普通 Desktop HDD**（好快死）。一定
 - 搭地鐵時 offline sync 定幾套戲落 iPad
 - 屋企人用唔同 device 各自睇唔同片
 
-### 🏆 應用三：檔案同步（公司文件 + 電腦 backup）
+###  應用三：檔案同步（公司文件 + 電腦 backup）
 
 NAS = 你嘅私人 Dropbox，但唔使俾月費。
 
@@ -148,7 +148,7 @@ NAS = 你嘅私人 Dropbox，但唔使俾月費。
 → 唔使再 USB / WhatsApp / Email 俾自己
 ```
 
-### 🏆 應用四：BT 下載（Download Station）
+###  應用四：BT 下載（Download Station）
 
 NAS 可以 24 小時 BT 下載，唔使開電腦。
 
@@ -157,7 +157,7 @@ NAS 可以 24 小時 BT 下載，唔使開電腦。
 - Search 完直接 add task，自動 download
 - 可以 set schedule（半夜先 DL，慳電）
 
-### 🏆 應用五：Docker / 自建服務（進階玩家）
+###  應用五：Docker / 自建服務（進階玩家）
 
 2026 年最流行嘅功能 —— 喺 NAS 行 Docker container：
 
@@ -181,7 +181,7 @@ NAS 可以 24 小時 BT 下載，唔使開電腦。
 2. **QuickConnect (Synology) / myQNAPcloud** — 唔使搞 Port Forwarding，官方幫你做晒 tunnel
 3. **VPN Server** — 如果想 security 行先，set 咗 VPN 先連入屋企網絡再 access NAS
 
-### 🔒 保安設定（一定要做）
+###  保安設定（一定要做）
 
 **唔跟以下設定，你嘅 NAS 好易俾人 hack：**
 
@@ -192,32 +192,32 @@ NAS 可以 24 小時 BT 下載，唔使開電腦。
 5. **防火牆** — 只 allow 香港 IP 或者特定國家 access
 6. **定期更新** — DSM / QTS 一出 update 就升（多數係 security patch）
 
-⚠️ **真實案例**：2024 年 QNAP 用家因為冇熄預設 port，俾 ransomware 加密咗全部 files。**呢啲嘢唔係講笑**。
+ **真實案例**：2024 年 QNAP 用家因為冇熄預設 port，俾 ransomware 加密咗全部 files。**呢啲嘢唔係講笑**。
 
 ## 第五步：Budget 方案比較（由平到貴）
 
-### 💰 方案 A：最平入門（約 $2,500）
+###  方案 A：最平入門（約 $2,500）
 - Synology DS124（1-bay）$1,200
 - Seagate IronWolf 4TB $680
 - 總計：**約 $1,880**
 - 得 1 隻 HDD，冇 RAID 保護，死碟就冇 data
 - 適合：純 backup 相，唔介意風險
 
-### 💰💰 方案 B：家庭標準（約 $3,500） 推薦
+###  方案 B：家庭標準（約 $3,500） 推薦
 - Synology DS224+（2-bay）$2,200
 - Seagate IronWolf 4TB x2 $1,360
 - 總計：**約 $3,560**
 - RAID 1 mirror，死一隻碟都冇事
 - 適合：大部分家庭用家
 
-### 💰💰💰 方案 C：進階玩家（約 $6,500）
+###  方案 C：進階玩家（約 $6,500）
 - Synology DS423+（4-bay）$3,500
 - Seagate IronWolf 8TB x2 $2,400
 - 總計：**約 $5,900**
 - RAID 1 + 預留擴充空間
 - Docker 行多個 service
 
-### 💰💰💰💰 方案 D：重度用家（約 $10,000+）
+###  方案 D：重度用家（約 $10,000+）
 - Synology DS923+（4-bay）$5,000
 - Seagate IronWolf 12TB x4 $7,200
 - 總計：**約 $12,200**
@@ -226,20 +226,20 @@ NAS 可以 24 小時 BT 下載，唔使開電腦。
 
 ## 常見迷思破解
 
-### ❌ 「NAS 好複雜，唔係普通人玩」
+###  「NAS 好複雜，唔係普通人玩」
 2026 年 Synology DSM 嘅 UI 似 iPhone 咁直觀。大部分功能都係「Next > Next > Finish」就 set 好。我阿媽都識用 Synology Photos backup 相。
 
-### ❌ 「NAS 好食電」
+###  「NAS 好食電」
 一部 2-bay NAS + 2 隻 HDD，平時 idle 約 20-30W。長開 24x7，一年電費約 **$200-300**。比起月費 cloud storage，微不足道。
 
-### ❌ 「我有 Google Drive 就得啦，唔使 NAS」
+###  「我有 Google Drive 就得啦，唔使 NAS」
 Google Drive 係方便，但：
 - 大檔案（影片/RAW 相）upload/download 好慢
 - 公司機有時 block 咗 Google Drive
 - Google 可以 scan 你嘅 content（雖然話唔會用嚟賣廣告）
 - 冇咗網絡就用唔到
 
-### ❌ 「死碟咪死晒啲 data？」
+###  「死碟咪死晒啲 data？」
 如果你行 RAID 1（2-bay）或 RAID 5（4-bay），死一隻碟都唔會冇 data。換隻新碟落去就 rebuild 返。
 
 **但係**：RAID 唔係 backup！重要 data 要另外 backup（offline / offsite / cloud）。

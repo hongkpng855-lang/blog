@@ -99,4 +99,4 @@ await agent.run()
 
 <div class="ui-tip"><svg class="ui-icon"><use href="#ui-bulb"/></svg><strong>「AI 自己上網」呢個方向，係 2026 年 AI Agent 落地最重要嘅一步。</strong>唔好睇少呢類工具 — 當 AI 可以操作瀏覽器，佢就由「識傾偈」進化到「識做嘢」：幫你填表、訂嘢、睇資料、monitor 網站。107k 星只係開始。</div>
 
-> **「試過先講」** — 呢個我睇完 README 即刻想試，你都可以 😄
+> **「試過先講」** — 呢個我睇完 README 即刻想試，你都可以 

@@ -114,7 +114,7 @@ Google 推出嘅 Agent2Agent（A2A）協議同 Anthropic 嘅 Model Context Proto
 
 關事。2026 年已經有好多普通人用得着嘅 AI Agent 工具：
 
-### 🔧 日常工作場景
+###  日常工作場景
 
 **1. Email 管理 Agent**
 - 自動分類、標籤、建議回覆
@@ -137,7 +137,7 @@ Google 推出嘅 Agent2Agent（A2A）協議同 Anthropic 嘅 Model Context Proto
 - 幫你拆解複雜概念、出練習題
 - 根據你嘅進度調整教學內容
 
-### 🛠️ 推薦工具（2026 年 6 月）
+###  推薦工具（2026 年 6 月）
 
 | 工具 | 用途 | 價錢 |
 |------|------|------|
@@ -153,17 +153,17 @@ Google 推出嘅 Agent2Agent（A2A）協議同 Anthropic 嘅 Model Context Proto
 
 唔係潑冷水，但任何技術都有陰暗面。
 
-### ⚠️ 幻覺被放大
+###  幻覺被放大
 Chatbot 亂噉up，影響有限。但 AI Agent 可以自主執行幾十個步驟——一次錯誤決策可以 trigger 連鎖反應。例如採購 Agent 誤讀需求，自動落錯單，造成庫存積壓。
 
 **點防範**：關鍵動作設人工審核點，或者用多 Agent 互相審計。
 
-### ⚠️ 安全權限失控
+###  安全權限失控
 Agent 要有 API key、數據庫權限先做到嘢。如果被惡意 prompt injection 引誘，可以濫用權限做破壞。
 
 **點防範**：最小權限原則，完整 audit log，異常行為檢測。
 
-### ⚠️ 法律責任未明
+###  法律責任未明
 Agent 自主決策導致損失，責任歸邊個？開發者？部署企業？模型提供商？2026 年預計會出現首宗 AI Agent 侵權訴訟。
 
 **點防範**：重大決定保留「人類 in the loop」，合約寫明責任分界。

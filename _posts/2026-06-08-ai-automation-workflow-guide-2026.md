@@ -30,10 +30,10 @@ description: "每日返工要重複做同樣嘅嘢？Email回覆、數據輸入�
 ### 真實例子：Email 分類自動化
 
 ```
-❌ 手動做法：
+ 手動做法：
   收到 Email → 打開 → 睇內容 → 判斷係邊個客戶 → 搬去對應 Folder → 標記 Priority
 
-✅ 自動化做法：
+ 自動化做法：
   IF（Email 來自「ABC Company」）THEN（搬去「客戶-ABC」Folder + 標記為 High Priority + Send Slack Notification）
 ```
 
@@ -90,7 +90,7 @@ Level 3：AI 驅動嘅智能工作流（AI-powered Workflow）
 
 **結果**：我而家每日 check Email 嘅時間由 90 分鐘減到 15 分鐘。我只係睇 High Priority + 每個鐘頭望一次個 summary sheet。
 
-### 💡 點樣開始（唔使 Code）
+###  點樣開始（唔使 Code）
 
 1. **開一個免費嘅 n8n 帳號**（n8n.io 或者 self-host）
 2. **連接到你嘅 Gmail**（OAuth 授權，跟住步驟做就得）
@@ -127,7 +127,7 @@ Level 3：AI 驅動嘅智能工作流（AI-powered Workflow）
 
 **結果**：以前每個月花 4 小時嘅 report，而家 10 分鐘檢查 + 微調就搞掂。
 
-### 💡 實戰貼士
+###  實戰貼士
 
 - 唔好一開始就整完美 workflow。先用 **Traceability**（人手行一次，記低每個步驟）
 - 然後 automate **最大嗰嚿重複**（通常係 Copy & Paste + Data Cleaning）
@@ -164,7 +164,7 @@ Level 3：AI 驅動嘅智能工作流（AI-powered Workflow）
 
 **結果**：以前每日要花 1 小時諗內容 + 寫 Post，而家只需每星期花 30 分鐘填 Google Sheet Topic，其他全部自動出。
 
-### 💡 留意
+###  留意
 - AI 生成嘅 Post 一定要 **人 check 過先出**，尤其係品牌內容
 - 建議 setup 一個「Human Review Step」——AI 生成 Draft，Send 俾你 Telegram/WhatsApp 確認，你先 Approve
 
@@ -190,7 +190,7 @@ Level 3：AI 驅動嘅智能工作流（AI-powered Workflow）
   4. 如果客戶語氣唔好（AI Sentiment Analysis Detect），立即 Escalate 俾 Senior
 ```
 
-### 💡 設定要點
+###  設定要點
 - **Knowledge Base 係關鍵**：先整理好 50 條最常見 FAQ，俾 AI 做參考
 - **Fallback 要準備好**：如果 AI 冇信心（confidence < 80%），直接俾真人
 - **Monitor 效果**：每星期睇一次「AI 成功回答率」，低過 70% 就要更新 Knowledge Base
@@ -203,10 +203,10 @@ Level 3：AI 驅動嘅智能工作流（AI-powered Workflow）
 
 | 工具 | 適合 | 免費版 | 優點 | 缺點 |
 |------|------|--------|------|------|
-| **n8n** | 中高階用戶 | ✅ 自托管免費 | 最靈活、Open Source、可自訂 | 要少少技術知識 |
-| **Make** | 中階用戶 | ✅ 1000 ops/月 | UI 直觀、Connector 多 | 付費版較貴 |
-| **Zapier** | 初階用戶 | ✅ 100 tasks/月 | 最多 Connector（6000+） | 貴、Task 計價 |
-| **Microsoft Power Automate** | Microsoft 生態用戶 | ✅ 同 Office 365 包 | 同 Excel/Teams 整合最好 | Microsoft 限定 |
+| **n8n** | 中高階用戶 |  自托管免費 | 最靈活、Open Source、可自訂 | 要少少技術知識 |
+| **Make** | 中階用戶 |  1000 ops/月 | UI 直觀、Connector 多 | 付費版較貴 |
+| **Zapier** | 初階用戶 |  100 tasks/月 | 最多 Connector（6000+） | 貴、Task 計價 |
+| **Microsoft Power Automate** | Microsoft 生態用戶 |  同 Office 365 包 | 同 Excel/Teams 整合最好 | Microsoft 限定 |
 
 ### AI 輔助工具
 
@@ -269,27 +269,27 @@ Trigger → Step 1 → Step 2 → Step 3 → Output
 
 ## 9. 常見失敗原因 & 點樣避開
 
-### ❌ 失敗 1：諗得太複雜
+###  失敗 1：諗得太複雜
 
 **問題**：第一日就想整一個 20-step 嘅超級 workflow
 **解決**：由 **3-step 開始**（Trigger → Action → Output），成功咗再加
 
-### ❌ 失敗 2：冇 Human Review Point
+###  失敗 2：冇 Human Review Point
 
 **問題**：AI 自動出 Email 俾客戶，結果錯晒
 **解決**：Always 有一個 **Confirmation Step**（Send 俾你 Approve 先正式 Send）
 
-### ❌ 失敗 3：用咗好貴嘅工具
+###  失敗 3：用咗好貴嘅工具
 
 **問題**：一開始就 Subscribe Zapier $50/month Plan
 **解決**：用 Free Tier 試 Proof of Concept。n8n Self-host 完全免費
 
-### ❌ 失敗 4：冇 Document 個 Workflow
+###  失敗 4：冇 Document 個 Workflow
 
 **問題**：Workflow 壞咗唔知點 Fix
 **解決**：每個 automation 用 Notion Page 記低：目的、流程、Error Handling
 
-### ❌ 失敗 5：一次過 Automate 晒
+###  失敗 5：一次過 Automate 晒
 
 **問題**：同一個星期改 Email、Report、Social Media，錯亂晒
 **解決**：**每次只改一個**，stable 咗先做下一個
@@ -306,7 +306,7 @@ Trigger → Step 1 → Step 2 → Step 3 → Output
 
 **最爽嘅 moment**：有次放假去日本旅行，收到 Telegram notification 話 Auto Report Generator 已經 Send 咗 Monthly Report 俾老細。老細仲 Reply：「呢份 report 做得好好！」
 
-我喺大阪食緊章魚燒。😎
+我喺大阪食緊章魚燒。
 
 ### 你今日就可以開始嘅 3 個行動
 
@@ -320,7 +320,7 @@ Trigger → Step 1 → Step 2 → Step 3 → Output
 
 ---
 
-*📌 有用資源：*
+* 有用資源：*
 - *n8n 官方教學: docs.n8n.io*
 - *Make（Integromat）Template Gallery: make.com/en/templates*
 - *Zapier 免費課程: zapier.com/learn*

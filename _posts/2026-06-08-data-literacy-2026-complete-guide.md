@@ -77,11 +77,11 @@ Level 5: 決策數據（Decide）   — 用數據輔助重要決定
 呢個係最常見嘅 misleading 手法。
 
 ```
-❌ 誤導版：
-  📈 股價走勢圖（Y 軸由 $98 開始）
+ 誤導版：
+   股價走勢圖（Y 軸由 $98 開始）
   睇落好似升咗好多，其實只係由 $98→$102（+4%）
 
-✅ 正常版：
+ 正常版：
   Y 軸由 $0 開始，你見到嘅升幅就係真實比例
   雖然睇落冇咁 dramatic，但係誠實
 ```
@@ -188,12 +188,12 @@ Level 5: 決策數據（Decide）   — 用數據輔助重要決定
 
 ### 6.2 Presentation 禁忌
 
-- ❌ 放晒所有數據上 slide（觀眾會 overwhelmed）
-- ❌ 用太複雜嘅圖表（3D pie chart ＝ 災難）
-- ❌ 冇 conclusion（「呢個係數據，你自己睇」）
-- ✅ 每個 slide 只講一個重點
-- ✅ 用 highlighted number 取代大堆數字
-- ✅ 最後一定俾 recommendation
+-  放晒所有數據上 slide（觀眾會 overwhelmed）
+-  用太複雜嘅圖表（3D pie chart ＝ 災難）
+-  冇 conclusion（「呢個係數據，你自己睇」）
+-  每個 slide 只講一個重點
+-  用 highlighted number 取代大堆數字
+-  最後一定俾 recommendation
 
 ---
 
@@ -297,7 +297,7 @@ Level 5: 決策數據（Decide）   — 用數據輔助重要決定
 
 ---
 
-*📌 有用資源：*
+* 有用資源：*
 - *Google Data Studio: datastudio.google.com*
 - *LinkedIn 數據素養評估測試*
 - *免費數據集練習平台: Kaggle.com（有中文社群）*

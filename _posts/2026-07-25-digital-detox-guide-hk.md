@@ -101,7 +101,7 @@ Instagram 嘅 feed、TikTok 嘅 scroll、WhatsApp 嘅「⋯⋯輸入中」——
 3. **寫日記**：每次拎電話前，問自己：「我拎電話係想做咩？有必要嗎？」
 4. **計個數**：6.5 小時/日 × 365 = **2,372 小時/年** ≈ **98 日**
 
-> 💡 我嘅真實結果：Screen Time 8h02m，解鎖 87 次，WhatsApp 2.5h、IG 1.8h、YouTube 1.5h。見到呢個數字嗰陣，我呆咗成分鐘。
+>  我嘅真實結果：Screen Time 8h02m，解鎖 87 次，WhatsApp 2.5h、IG 1.8h、YouTube 1.5h。見到呢個數字嗰陣，我呆咗成分鐘。
 
 **本週任務：**
 - [ ] 開 Screen Time / 數位健康
@@ -122,17 +122,17 @@ Instagram 嘅 feed、TikTok 嘅 scroll、WhatsApp 嘅「⋯⋯輸入中」——
 
 1. **全部關掉**：入設定，將所有非必要 app 嘅通知熄晒
 2. **保留清單**（最多 5 個）：
-   - ✅ 電話（來電）
-   - ✅ 訊息（畀真人直接搵你）
-   - ✅ 日曆（schedule 提醒）
-   - ✅ 銀行交易提醒（安全）
-   - ❌ WhatsApp group（留 chat，但熄通知）
-   - ❌ IG / FB / X / Threads（全部熄）
-   - ❌ 新聞 apps（全部熄）
-   - ❌ 遊戲 / 購物 / 任何 marketing push
+   -  電話（來電）
+   -  訊息（畀真人直接搵你）
+   -  日曆（schedule 提醒）
+   -  銀行交易提醒（安全）
+   -  WhatsApp group（留 chat，但熄通知）
+   -  IG / FB / X / Threads（全部熄）
+   -  新聞 apps（全部熄）
+   -  遊戲 / 購物 / 任何 marketing push
 3. **WhatsApp Group 靜音**：全部 set「靜音 1 年」，只留 personal DM 嘅 badge
 
-> 💡 做完呢步嘅第一日，我覺得個世界靜咗好多。唔係誇張——係真係感覺到「冇咗嗰種 constantly 被拉扯嘅感覺」。
+>  做完呢步嘅第一日，我覺得個世界靜咗好多。唔係誇張——係真係感覺到「冇咗嗰種 constantly 被拉扯嘅感覺」。
 
 **本週任務：**
 - [ ] 設定 app notification 精簡
@@ -162,7 +162,7 @@ Instagram 嘅 feed、TikTok 嘅 scroll、WhatsApp 嘅「⋯⋯輸入中」——
 - 手機 set 灰階（iOS：輔助使用→顯示與文字大小→顏色濾鏡→灰階）
 - 冇咗鮮艷顏色，電話會變得好「冇癮」——因為你嘅大腦唔會再被視覺刺激吸引
 
-> 💡 Grayscale mode 係我試過最有效嘅單一 hack。當你部電話變黑白，你 scroll IG 嘅衝動會即時減 70%。
+>  Grayscale mode 係我試過最有效嘅單一 hack。當你部電話變黑白，你 scroll IG 嘅衝動會即時減 70%。
 
 **本週任務：**
 - [ ] 重整首頁 layout
@@ -188,7 +188,7 @@ Instagram 嘅 feed、TikTok 嘅 scroll、WhatsApp 嘅「⋯⋯輸入中」——
 | 起身第一件事 | check phone | 飲水 / 拉筋 / 冥想 5 分鐘 |
 | 放工 hea | Netflix + scroll | 煮飯 / 行山 / 畫畫 / 樂器 / board game |
 
-> 💡 我 replace 咗「搭車碌 IG」做「聽 Podcast」，半年後知識量明顯提升。之前嗰 1.5 小時係 pure consumption，而家有啲 input 係真正留得低嘅。
+>  我 replace 咗「搭車碌 IG」做「聽 Podcast」，半年後知識量明顯提升。之前嗰 1.5 小時係 pure consumption，而家有啲 input 係真正留得低嘅。
 
 **本週任務：**
 - [ ] 睇下你邊個時段最常無意識 scroll
@@ -224,7 +224,7 @@ Instagram 嘅 feed、TikTok 嘅 scroll、WhatsApp 嘅「⋯⋯輸入中」——
 - 搵一個朋友一齊做排毒
 - 每星期 check in 一次，分享進度同困難
 
-> 💡 我揀咗學 Ukulele。而家放工唔係碌 IG，而係練習 20 分鐘。由 zero 到彈到一首歌，嗰種滿足感係 100 個 like 都比唔到嘅。
+>  我揀咗學 Ukulele。而家放工唔係碌 IG，而係練習 20 分鐘。由 zero 到彈到一首歌，嗰種滿足感係 100 個 like 都比唔到嘅。
 
 ---
 
@@ -232,7 +232,7 @@ Instagram 嘅 feed、TikTok 嘅 scroll、WhatsApp 嘅「⋯⋯輸入中」——
 
 以下工具我試過，真正有效：
 
-### 📱 手機 Apps
+###  手機 Apps
 
 | 工具 | 用途 | 平台 | 價錢 | 評價 |
 |------|------|------|------|------|
@@ -244,7 +244,7 @@ Instagram 嘅 feed、TikTok 嘅 scroll、WhatsApp 嘅「⋯⋯輸入中」——
 | **Forest** | 種樹專注計時器 | iOS/Android | ~HK$20 | 視覺化效果好 |
 | **Minimalist Phone** | 極簡 launcher | Android | 免費 | 手機變「工具」 |
 
-### 🛠️ Desktop 工具
+###  Desktop 工具
 
 | 工具 | 用途 | 平台 | 價錢 |
 |------|------|------|------|
@@ -259,22 +259,22 @@ Instagram 嘅 feed、TikTok 嘅 scroll、WhatsApp 嘅「⋯⋯輸入中」——
 
 ### 錯誤 1：一次過戒晒
 
-❌ 「我聽日開始唔用電話」
-✅ 逐個 step 做，每星期 focus 一個習慣
+ 「我聽日開始唔用電話」
+ 逐個 step 做，每星期 focus 一個習慣
 
 **同理：** 好似減肥唔會聽日 run 10k 一樣。排毒係 gradual process。
 
 ### 錯誤 2：懲罰自己
 
-❌ 用咗電話就 self-blame、覺得自己失敗
-✅ 察覺到用多咗 → 記低原因 → 調整策略
+ 用咗電話就 self-blame、覺得自己失敗
+ 察覺到用多咗 → 記低原因 → 調整策略
 
 **重點：** 唔係 perfect，係 progress。今日用咗 5h 聽日 target 4h50m 已經係 win。
 
 ### 錯誤 3：忽略 underlying need
 
-❌ 淨係 focus 喺「戒電話」
-✅ 問自己：「我用電話係想滿足咩需要？」
+ 淨係 focus 喺「戒電話」
+ 問自己：「我用電話係想滿足咩需要？」
 
 **常見 needs：**
 - 悶 → 需要 stimulation → 用 podcast / 書代替
@@ -284,8 +284,8 @@ Instagram 嘅 feed、TikTok 嘅 scroll、WhatsApp 嘅「⋯⋯輸入中」——
 
 ### 錯誤 4：冇 backup plan
 
-❌ 「我搭車會睇書」但冇帶書
-✅ 永遠有 Plan B：電話 download 定 Podcast、Kindle app、offline article
+ 「我搭車會睇書」但冇帶書
+ 永遠有 Plan B：電話 download 定 Podcast、Kindle app、offline article
 
 ---
 
@@ -371,7 +371,7 @@ A：有。**將你部電話 set 做黑白灰階 + 熄晒 notification + 首頁�
 
 ---
 
-📖 **同系列推薦閱讀：**
+ **同系列推薦閱讀：**
 - [2026 香港 Work-Life Balance 實戰指南](/blog/生活/2026/07/08/work-life-balance-guide-hk-2026.html) — 喺高壓都市找回生活主導權
 - [2026 深度工作與專注力實戰指南](/blog/學習/2026/06/10/deep-work-focus-guide-hk.html) — 告別 multitasking，真正進入心流
 - [2026 資訊焦慮與知識過載自救指南](/blog/學習/2026/06/11/information-anxiety-knowledge-overload-guide-hk.html) — 告別 FOMO，建立有限學習系統

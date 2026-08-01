@@ -79,7 +79,7 @@ description: "2026 年低程式碼（Low-Code）同無程式碼（No-Code）工�
 
 以下係我親自用過、推薦俾香港朋友嘅工具。我根據用途分類：
 
-### 🌐 網站建設
+###  網站建設
 
 **Webflow**（推薦指數：）
 - 最靚嘅 No-Code 網站 builder
@@ -93,7 +93,7 @@ description: "2026 年低程式碼（Low-Code）同無程式碼（No-Code）工�
 - 內置 AI 生成網站功能
 - 適合想要靚 Design 但唔識 CSS 嘅人
 
-### 🔄 自動化工作流
+###  自動化工作流
 
 **Make.com**（推薦指數：）
 - 前身 Integromat，比 Zapier 平至少 3 倍
@@ -101,7 +101,7 @@ description: "2026 年低程式碼（Low-Code）同無程式碼（No-Code）工�
 - 香港場景：自動回覆 email、同步 Google Sheets 數據、收到 Form submission 自動通知
 - 收費：Free Plan 每月 1000 次操作，Pro $9 USD/月
 
-### 🗄️ Database / 表單
+###  Database / 表單
 
 **Airtable**（推薦指數：）
 - 團隊協作嘅 Database，介面靚過 Excel 100 倍
@@ -114,7 +114,7 @@ description: "2026 年低程式碼（Low-Code）同無程式碼（No-Code）工�
 - 內置 Database、Forms（Typeform-like）、Automations
 - 適合個人/小團隊嘅輕量應用
 
-### 🏗️ Web App
+###  Web App
 
 **Bubble**（推薦指數：）
 - 最強大嘅 No-Code Web App 平台
@@ -123,7 +123,7 @@ description: "2026 年低程式碼（Low-Code）同無程式碼（No-Code）工�
 - 收費：Free Plan 可開發，正式上線約 $30-120 USD/月
 - 注意：Bubble 嘅 loading speed 係最大短板，complex app 會慢
 
-### 📱 Mobile App
+###  Mobile App
 
 **FlutterFlow**（推薦指數：）
 - drag-and-drop 建立真嘅 Mobile App（唔係 wrapper）
@@ -272,13 +272,13 @@ Advance 可以用 Stripe integration 收 deposit。
 
 ## 6. 常見錯誤與點避開
 
-### ❌ 錯誤 1：一開始就用 Bubble
+###  錯誤 1：一開始就用 Bubble
 
 Bubble 係最 powerful 嘅 No-Code 平台，但亦係最複雜嘅。如果你只係想整一個簡單網站，用 Webflow 已經夠。用 Bubble 做簡單嘢等於殺雞用牛刀。
 
 **Fix**：先確定你嘅 Use Case，再揀啱工具
 
-### ❌ 錯誤 2：忽略 Scalability
+###  錯誤 2：忽略 Scalability
 
 No-Code MVP 行得通，但如果真係有人用，可能會遇到：
 - Bubble loading speed 問題
@@ -287,7 +287,7 @@ No-Code MVP 行得通，但如果真係有人用，可能會遇到：
 
 **Fix**：一開始就用 Plan B 心態，知道咩時候要 migrate
 
-### ❌ 錯誤 3：唔用 Version Control
+###  錯誤 3：唔用 Version Control
 
 No-Code 平台嘅最大弱點係難做 Version Control。一個唔小心 delete 咗嘢，未必可以還原。
 
@@ -296,7 +296,7 @@ No-Code 平台嘅最大弱點係難做 Version Control。一個唔小心 delete 
 - 用 Bubble 嘅 Version History
 - 重要 Logic 寫低喺 Notion
 
-### ❌ 錯誤 4：低估時間
+###  錯誤 4：低估時間
 
 「No-Code 即係好快」係最大嘅假象。學新工具本身就要時間，Debug 都要時間。預期第一個 Project 會比你想像中耐 2-3 倍。
 

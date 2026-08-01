@@ -215,17 +215,17 @@ Samsung Notes 嘅 AI 功能：
 
 ### 預算分級
 
-#### 💰 $2,000 - $3,500（入門 AI 手機）
+####  $2,000 - $3,500（入門 AI 手機）
 - **適合**：預算有限、想體驗 AI 功能、主要用基本功能
 - **推薦**：Samsung Galaxy A 系列（有 Galaxy AI 精簡版）、小米 Redmi Note 系列、Google Pixel 7a/8a（有齊 Pixel AI 功能）
 - **要注意**：入門機 AI 功能通常只有精簡版，通話翻譯呢啲進階功能未必有
 
-#### 💰 $3,500 - $6,000（中階主力）
+####  $3,500 - $6,000（中階主力）
 - **適合**：大部分用家，平衡價錢同功能
 - **推薦**：iPhone 16e（有 Apple Intelligence）、Samsung Galaxy S 系列上一代（S24/S25）、Google Pixel 9/10、小米 15
 - **賣點**：全部支援完整 AI 功能，包括通話翻譯、Circle to Search、AI 執相
 
-#### 💰 $6,000 - $10,000+（旗艦）
+####  $6,000 - $10,000+（旗艦）
 - **適合**：影相發燒友、重度用家、想用最新 AI 功能
 - **推薦**：iPhone 17 Pro / Pro Max、Samsung Galaxy S26 Ultra、Google Pixel 10 Pro、vivo X 系列
 - **賣點**：最強 NPU、最多 AI 功能（Genmoji、Gemini Live、生成式編輯）、最長軟件支援
