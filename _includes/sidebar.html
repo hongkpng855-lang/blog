@@ -11,7 +11,7 @@
 
 <!-- 分類 -->
 <div class="card mb-4 category-card">
- <div class="card-header fw-bold"><i class="fas fa-folder me-2"></i>文章分類</div>
+ <div class="card-header fw-bold"><svg class="ui-icon ui-icon-sm"><use href="#ui-folder"/></svg>文章分類</div>
  <div class="card-body">
  <ul class="list-group list-group-flush">
  {% assign tech_posts = site.posts | where_exp: "post", "post.categories contains '技術'" %}

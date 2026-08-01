@@ -36,11 +36,11 @@ NotebookLM 唔同：
 
 ## <svg class="ui-icon"><use href="#ui-robot"/></svg>8 個實戰 Prompt（照用就得）
 
-> 📝 **8 個 Prompts 一眼睇晒**（3D 筆記風格總結圖，我自己整嘅 😄）：
+> <svg class="ui-icon"><use href="#ui-newspaper"/></svg>**8 個 Prompts 一眼睇晒**（3D 筆記風格總結圖，我自己整嘅 😄）：
 
 ![NotebookLM 8 個 Prompts（上半場 1-4）]({{ '/assets/images/posts/2026-08-01-notebooklm-prompts-1.png' | relative_url }})
 
-### 1️⃣ 零基礎文獻回顧生成器（Zero-Shot Literature Review）
+### 1⃣ 零基礎文獻回顧生成器（Zero-Shot Literature Review）
 
 **幾時用**：研究起步，乜都未睇，想快速知道個領域而家去到邊。
 
@@ -54,7 +54,7 @@ NotebookLM 唔同：
 
 **實戰貼士**：出嚟之後，**第一件事唔係改文，係㩒啲 citation 去核實** — 睇下每個 claim 係咪真係嚟自你啲 sources。呢個動作會令你份文獻回顧可信度升一倍。
 
-### 2️⃣ 多來源論文摘要機（Multi-Source Summarizer）
+### 2⃣ 多來源論文摘要機（Multi-Source Summarizer）
 
 **幾時用**：成堆 PDF 冇時間逐篇睇，想快速知道每篇講乜。
 
@@ -62,7 +62,7 @@ NotebookLM 唔同：
 
 **實戰貼士**：呢個係我使用率最高嘅一個。重點係「**逐份獨立摘要**」— 唔好叫佢「綜合」，綜合咗就分唔到邊篇講乜。出嚟嘅摘要可以直接貼入你嘅筆記軟件做索引。
 
-### 3️⃣ 跨來源研究缺口偵測器（Gap & Opportunity Finder）
+### 3⃣ 跨來源研究缺口偵測器（Gap & Opportunity Finder）
 
 **幾時用**：文獻睇得七七八八，準備寫「研究缺口」嗰段，但唔知自己嘅研究有咩位可以企。
 
@@ -70,7 +70,7 @@ NotebookLM 唔同：
 
 **實戰貼士**：**「Research Gap」唔係你「覺得」有就係有，要 citation 支持**。呢個 Prompt 出嚟嘅缺口全部有原文依據，寫論文嗰陣你可以直接引用 — 審稿人最憎嗰啲「無中生有」嘅 gap statement。
 
-### 4️⃣ 概念拆解導師（Interactive Concept Breakdown）
+### 4⃣ 概念拆解導師（Interactive Concept Breakdown）
 
 **幾時用**：睇到一段好艱深嘅嘢，睇咗三次都唔明。
 
@@ -78,9 +78,9 @@ NotebookLM 唔同：
 
 **實戰貼士**：呢個係「理解」層面嘅神器。重點係要佢**解釋同其他文獻嘅關連** — 咁你先會由「睇得明一段」升級到「睇得明成個領域點串連」。比喻記住抄低，寫論文 intro 嗰陣用返嚟解釋俾讀者聽，超好用。
 
-### 5️⃣ 證據壓力測試（Evidence Stress-Test）
+### 5⃣ 證據壓力測試（Evidence Stress-Test）
 
-> 📝 **下半場 5-8**：
+> <svg class="ui-icon"><use href="#ui-newspaper"/></svg>**下半場 5-8**：
 
 ![NotebookLM 8 個 Prompts（下半場 5-8）]({{ '/assets/images/posts/2026-08-01-notebooklm-prompts-2.png' | relative_url }})
 
@@ -90,7 +90,7 @@ NotebookLM 唔同：
 
 **實戰貼士**：**呢個係我最推薦研究生用嘅一個**。寫論文最怕嘅係 reviewer 一句「Your conclusion is not well-supported」— 用呢個 Prompt 提前自己撼自己，撼完執返靚，好過俾人撼完先嚟改。文科理科一樣啱用。
 
-### 6️⃣ 引用來源審計（Citation & Source Audit）
+### 6⃣ 引用來源審計（Citation & Source Audit）
 
 **幾時用**：要 check 自己啲 sources 邊啲信得過、邊啲係充數。
 
@@ -98,7 +98,7 @@ NotebookLM 唔同：
 
 **實戰貼士**：留意最後嗰句 — 「靠背景引用而唔係直接數據」嘅 claims 係文獻回顧入面最容易呃到人嘅嘢。**一篇文引用 50 次唔代表佢可信**，要睇佢啲關鍵 claim 係咪有自己嘅數據支持。出嚟嘅排名直接決定你邊啲 sources 要重點讀。
 
-### 7️⃣ Podcast 簡報腳本（Audio Briefing Script）
+### 7⃣ Podcast 簡報腳本（Audio Briefing Script）
 
 **幾時用**：要將研究講俾非專業人士聽（導師、屋企人、甚至係你自己用 Audio Overview 快速重溫）。
 
@@ -106,7 +106,7 @@ NotebookLM 唔同：
 
 **實戰貼士**：**NotebookLM 有個 Audio Overview 功能**，可以自動生成「兩個人傾偈」嘅 podcast 版摘要 — 通勤嗰陣聽，比自己睇快好多。而呢個 Prompt 就係教你控制佢「傾乜」— 冇 prompt 嘅 Audio Overview 會亂噏，有咗呢個佢會跟住你嘅框架講。
 
-### 8️⃣ 執行摘要 + 閱讀路線圖（Executive Research Brief）
+### 8⃣ 執行摘要 + 閱讀路線圖（Executive Research Brief）
 
 **幾時用**：成個研究項目收尾，或者交報告前，將成個 workspace 濃縮做一頁紙。
 

@@ -32,9 +32,9 @@ layout: default
             <p class="mb-0 fw-bold">{{ site.author }}</p>
             <p class="mb-0 text-muted small">IT 顧問・實測主義者・試過先講</p>
             <p class="mb-0 text-muted">
-              <i class="far fa-calendar me-1"></i>{{ page.date | date: "%Y年%m月%d日" }}
+              <svg class="ui-icon ui-icon-sm"><use href="#ui-calendar"/></svg>{{ page.date | date: "%Y年%m月%d日" }}
               <span class="mx-2">•</span>
-              <i class="far fa-clock me-1"></i>閱讀時間 {{ page.content | number_of_words | divided_by: 200 | plus: 1 }} 分鐘
+              <svg class="ui-icon ui-icon-sm"><use href="#ui-clock"/></svg>閱讀時間 {{ page.content | number_of_words | divided_by: 200 | plus: 1 }} 分鐘
             </p>
           </div>
         </div>
@@ -62,14 +62,11 @@ layout: default
         <div class="share-buttons mt-4">
           <span class="me-2">分享到：</span>
           <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}" target="_blank" class="btn btn-outline-primary btn-sm me-1">
-            <i class="fab fa-facebook-f"></i>
-          </a>
+            </a>
           <a href="https://twitter.com/intent/tweet?url={{ page.url | absolute_url }}&text={{ page.title | url_encode }}" target="_blank" class="btn btn-outline-info btn-sm me-1">
-            <i class="fab fa-twitter"></i>
-          </a>
+            </a>
           <a href="https://line.me/R/msg/text/?{{ page.title | url_encode }}%0A{{ page.url | absolute_url }}" target="_blank" class="btn btn-outline-success btn-sm">
-            <i class="fab fa-line"></i>
-          </a>
+            </a>
         </div>
       </div>
     </article>
@@ -79,7 +76,7 @@ layout: default
   <div class="col-lg-4">
     <!-- 關於作者 -->
     <div class="card mb-4 shadow-sm author-sidebar-card">
-      <div class="card-header fw-bold"><i class="fas fa-user me-2"></i>關於作者</div>
+      <div class="card-header fw-bold"><svg class="ui-icon ui-icon-sm"><use href="#ui-user"/></svg>關於作者</div>
       <div class="card-body text-center">
         <img src="{{ '/assets/images/character-base.jpg' | relative_url }}" alt="陳志豪 Eric Chan 作者頭像" class="rounded-circle mb-3 author-sidebar-avatar" width="90" height="90">
         <h5 class="card-title fw-bold">{{ site.author }}</h5>
@@ -91,7 +88,7 @@ layout: default
     <!-- 最新文章 -->
     <div class="card mb-4 shadow-sm">
       <div class="card-header bg-secondary text-white">
-        <i class="fas fa-newspaper me-2"></i>最新文章
+        <svg class="ui-icon ui-icon-sm"><use href="#ui-newspaper"/></svg>最新文章
       </div>
       <div class="card-body p-0">
         <ul class="list-group list-group-flush">
@@ -108,7 +105,7 @@ layout: default
     <!-- 分類 -->
     <div class="card mb-4 shadow-sm">
       <div class="card-header bg-secondary text-white">
-        <i class="fas fa-folder me-2"></i>文章分類
+        <svg class="ui-icon ui-icon-sm"><use href="#ui-folder"/></svg>文章分類
       </div>
       <div class="card-body p-0">
         <ul class="list-group list-group-flush">

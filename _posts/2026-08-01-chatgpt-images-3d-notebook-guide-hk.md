@@ -101,9 +101,9 @@ Organize the remaining content into clearly separated handwritten study sections
 ![NotebookLM 8 個 Prompts（下半場 5-8）]({{ '/assets/images/posts/2026-08-01-notebooklm-prompts-2.png' | relative_url }})
 
 **實測心得：**
-- ✅ 螺旋筆記本 + 手寫字 + 彩色卡片，跟到個神髓
-- ✅ 文字 100% 精準（我哋用 HTML 整，唔會好似純 AI 圖咁出亂碼字）
-- 💡 純 AI 生成嘅 3D 筆記圖文字會亂（尤其中文）— 想文字精準，用 HTML/CSS 重製係最穩陣
+- ✓ 螺旋筆記本 + 手寫字 + 彩色卡片，跟到個神髓
+- ✓ 文字 100% 精準（我哋用 HTML 整，唔會好似純 AI 圖咁出亂碼字）
+- 純 AI 生成嘅 3D 筆記圖文字會亂（尤其中文）— 想文字精準，用 HTML/CSS 重製係最穩陣
 
 ---
 

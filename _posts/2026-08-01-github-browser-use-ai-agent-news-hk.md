@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🔥 10.7 萬人 Star 嘅開源神器：browser-use 教 AI 自己上網做嘢"
+title: "10.7 萬人 Star 嘅開源神器：browser-use 教 AI 自己上網做嘢"
 date: 2026-08-01 18:05:00 +0800
 categories: 技術
 tags: [GitHub, 開源, AI Agent, browser-use, 自動化, Python, 科技新聞, 香港, auto-publish, github-news]
@@ -9,7 +9,7 @@ description: "GitHub 又出爆紅 project！browser-use 短短時間已經 10.7 
 author: "陳志豪 Eric Chan"
 ---
 
-# 🔥 10.7 萬人 Star 嘅開源神器：browser-use 教 AI 自己上網做嘢
+# <svg class="ui-icon"><use href="#ui-rocket"/></svg>10.7 萬人 Star 嘅開源神器：browser-use 教 AI 自己上網做嘢
 
 > **GitHub 今日最紅嘅開源 project，唔係框架、唔係模型 — 係一個教 AI「自己上網」嘅工具。**
 
@@ -22,7 +22,7 @@ author: "陳志豪 Eric Chan"
 ## <svg class="ui-icon"><use href="#ui-chart"/></svg>新聞重點速覽
 
 <div class="ui-stat-grid">
-  <div class="ui-stat"><span class="ui-stat-num">107,460</span><span class="ui-stat-label">⭐ Stars</span></div>
+  <div class="ui-stat"><span class="ui-stat-num">107,460</span><span class="ui-stat-label">Stars</span></div>
   <div class="ui-stat"><span class="ui-stat-num">11.8K</span><span class="ui-stat-label">Forks</span></div>
   <div class="ui-stat"><span class="ui-stat-num">134</span><span class="ui-stat-label">Releases</span></div>
   <div class="ui-stat"><span class="ui-stat-num">318</span><span class="ui-stat-label">Contributors</span></div>
