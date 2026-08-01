@@ -14,8 +14,8 @@
   --amber-light: #F5BE6B;
   --amber-dim: rgba(232, 163, 61, 0.14);
   --ink: #E8E6E1;
-  --muted: #9BA0A8;
-  --faint: #6B7078;
+  --muted: #A2A7AF;
+  --faint: #8A9098;
   --radius: 12px;
   --shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
   --mono: 'JetBrains Mono', 'SF Mono', 'Cascadia Code', Consolas, monospace;
@@ -37,6 +37,10 @@ h1, h2, h3, h4, h5, h6 {
 
 a { color: var(--amber); transition: color 0.2s; }
 a:hover { color: var(--amber-light); }
+
+/* 全局修正：深色背景上嘅次要文字對比度 */
+.text-muted { color: var(--muted) !important; }
+.text-white-50 { color: rgba(255,255,255,0.62) !important; }
 
 .text-gold { color: var(--amber) !important; }
 .text-navy { color: var(--ink) !important; }
@@ -276,7 +280,7 @@ a:hover { color: var(--amber-light); }
 .featured-title a { text-decoration: none; color: #fff; }
 .featured-title a:hover { color: var(--amber-light); }
 .featured-desc { color: var(--muted); font-size: 0.95rem; }
-.featured-card .text-muted { color: var(--faint) !important; }
+.featured-card .text-muted { color: var(--muted) !important; }
 
 /* ---------- 文章卡片 ---------- */
 .post-card {
@@ -433,7 +437,7 @@ a:hover { color: var(--amber-light); }
   border: 1px solid var(--border-soft);
   filter: saturate(0.94);
 }
-.post-meta .text-muted { color: var(--faint) !important; }
+.post-meta .text-muted { color: var(--muted) !important; }
 .post-content { font-size: 1.02rem; color: var(--ink); }
 .post-content h2 {
   font-size: 1.45rem;

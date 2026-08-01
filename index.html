@@ -2,27 +2,6 @@
 layout: default
 ---
 
-<!-- 品牌 Hero -->
-<section class="hero-section">
-  <div class="container">
-    <div class="hero-inner">
-      <div class="hero-avatar-wrap">
-        <img src="{{ '/assets/images/character-base.jpg' | relative_url }}" alt="陳志豪 Eric Chan" class="hero-avatar">
-        <span class="hero-badge">👓 實測主義者</span>
-      </div>
-      <div class="hero-text">
-        <p class="hero-kicker">UiSkills ・ 由陳志豪 Eric Chan 主理</p>
-        <h1 class="hero-title">與其聽人講，<br>不如<span class="text-gold">自己試</span>。</h1>
-        <p class="hero-sub">IT 顧問 18 年實戰，親身試過先寫低。UI 設計、前端開發、AI 工具、科技知識 — 全部貼地實測，唔靠 Copy-and-Paste。</p>
-        <div class="hero-cta">
-          <a href="{{ '/about/' | relative_url }}" class="btn btn-gold btn-lg">認識陳志豪</a>
-          <a href="#latest-posts" class="btn btn-outline-gold btn-lg">睇最新文章 ↓</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- 最新文章 -->
 <section class="posts-section py-5" id="latest-posts">
   <div class="container">
@@ -31,46 +10,9 @@ layout: default
       <div class="col-lg-8">
         <h4 class="section-title mb-4"><i class="fas fa-newspaper me-2"></i>最新文章</h4>
 
-        <!-- 置頂文章 -->
-        {% assign featured = site.posts | first %}
-        {% if featured %}
-        <article class="featured-card mb-4">
-          <div class="row g-0">
-            <div class="col-md-5">
-              {% if featured.image %}
-              <a href="{{ featured.url | relative_url }}">
-                <img src="{{ featured.image | relative_url }}" class="img-fluid rounded-start w-100 featured-img" alt="{{ featured.title }}">
-              </a>
-              {% endif %}
-            </div>
-            <div class="col-md-7">
-              <div class="featured-body p-4">
-                <div class="mb-2">
-                  {% for category in featured.categories limit:2 %}
-                  <span class="cat-badge-pill me-1">{{ category }}</span>
-                  {% endfor %}
-                </div>
-                <h2 class="featured-title mb-2">
-                  <a href="{{ featured.url | relative_url }}">{{ featured.title }}</a>
-                </h2>
-                <p class="featured-desc text-muted">{{ featured.description | default: featured.excerpt | strip_html | truncatewords: 30 }}</p>
-                <div class="d-flex align-items-center text-muted small">
-                  <span>{{ featured.date | date: "%Y-%m-%d" }}</span>
-                  <span class="mx-2">•</span>
-                  <span>{{ featured.author | default: site.author }}</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </article>
-        {% endif %}
-
         <!-- 文章列表 -->
         <div class="row">
           {% for post in paginator.posts %}
-          {% if forloop.first %}
-          {% continue %}
-          {% endif %}
           <div class="col-md-6 mb-4">
             <article class="post-card h-100">
               <a href="{{ post.url | relative_url }}" class="post-card-img-wrap">
