@@ -596,6 +596,28 @@ a:hover { color: var(--amber-light); }
   margin-top: 2px;
 }
 
+/* ---------- UiSkills Icon 使用 ---------- */
+.ui-icon {
+  display: inline-block;
+  width: 1.15em;
+  height: 1.15em;
+  vertical-align: -0.2em;
+  color: var(--amber);
+  flex-shrink: 0;
+}
+.ui-icon-sm { width: 0.95em; height: 0.95em; }
+.ui-icon-lg { width: 1.6em; height: 1.6em; }
+.ui-icon-muted { color: var(--muted); }
+
+.post-content h2 .ui-icon,
+.post-content h3 .ui-icon {
+  color: var(--amber);
+  margin-right: 6px;
+}
+.ui-tip .ui-icon, .ui-note .ui-icon, .ui-warn .ui-icon {
+  margin-right: 6px;
+}
+
 /* ---------- 響應式 ---------- */
 @media (max-width: 991.98px) {
   .hero-inner { flex-direction: column; text-align: center; gap: 1.8rem; }

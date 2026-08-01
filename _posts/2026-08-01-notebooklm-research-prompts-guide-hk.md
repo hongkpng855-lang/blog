@@ -34,7 +34,7 @@ NotebookLM 唔同：
 
 ---
 
-## 🧠 8 個實戰 Prompt（照用就得）
+## <svg class="ui-icon"><use href="#ui-robot"/></svg>8 個實戰 Prompt（照用就得）
 
 > 📝 **8 個 Prompts 一眼睇晒**（3D 筆記風格總結圖，我自己整嘅 😄）：
 
@@ -122,7 +122,7 @@ NotebookLM 唔同：
 
 ---
 
-## 🔧 完整實戰 Workflow（由零開始）
+## <svg class="ui-icon"><use href="#ui-download"/></svg>完整實戰 Workflow（由零開始）
 
 跟住呢個次序做，成個研究流程會順好多：
 
@@ -137,7 +137,7 @@ NotebookLM 唔同：
 
 ---
 
-## ⚠️ 5 個常見錯誤（我親身踩過）
+## <svg class="ui-icon"><use href="#ui-alert"/></svg>5 個常見錯誤（我親身踩過）
 
 1. **唔㩒 Citation** — 淨係信 AI 總結，冇㩒入去原文核實。**AI 出嚟嘅嘢只係索引，唔係真理**。
 2. **Sources 唔篩就丟入去** — 乜鬼都上傳，連啲 SEO 農場文章都入埋。**上傳前自己先篩一輪**，質素唔好嘅 source 會污染晒所有輸出。
@@ -147,7 +147,7 @@ NotebookLM 唔同：
 
 ---
 
-## ❓ FAQ
+## <svg class="ui-icon"><use href="#ui-question"/></svg>FAQ
 
 **Q1：NotebookLM 免費嗎？**
 免費版每個 Notebook 有 sources 數量限制（約 50 個來源），對大部分研究項目夠用。要更多容量/更高級功能就要 Google AI Pro / Plus 訂閱。我自己用免費版做咗成個研究項目都冇逼住要升級。
@@ -166,7 +166,7 @@ NotebookLM 唔同：
 
 ---
 
-## 總結
+## <svg class="ui-icon"><use href="#ui-bulb"/></svg>總結
 
 文獻回顧嘅痛苦，唔係因為你唔勤力，係因為你冇工具。**NotebookLM 將「睇 50 篇文」變成「問 8 條問題」** — 唔係叫你偷懶，係叫你將時間用喺真正重要嘅嘢：思考、質疑、同埋寫出你自己嘅觀點。
 

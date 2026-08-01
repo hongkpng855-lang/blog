@@ -21,7 +21,7 @@ author: "陳志豪 Eric Chan"
 
 ---
 
-## 🧠 呢個風格係咩？
+## <svg class="ui-icon"><use href="#ui-robot"/></svg>呢個風格係咩？
 
 「3D 教育筆記頁」風格 = 三個元素撈埋：
 
@@ -33,7 +33,7 @@ author: "陳志豪 Eric Chan"
 
 ---
 
-## 📝 條 Prompt 拆解（自己執過版）
+## <svg class="ui-icon"><use href="#ui-newspaper"/></svg>條 Prompt 拆解（自己執過版）
 
 以下係整理過嘅 prompt（原本嗰條係英文，我加咗中文註解）：
 
@@ -80,7 +80,7 @@ Organize the remaining content into clearly separated handwritten study sections
 
 ---
 
-## 🛠️ 點樣用（步驟）
+## <svg class="ui-icon"><use href="#ui-download"/></svg>點樣用（步驟）
 
 1. 開 **ChatGPT**（要支援 Images 2.0 嘅版本/訂閱）
 2. 模型揀 **GPT-4o / Images 2.0**
@@ -92,7 +92,7 @@ Organize the remaining content into clearly separated handwritten study sections
 
 ---
 
-## 🧪 我哋嘅實測：用同一個風格整我哋嘅筆記
+## <svg class="ui-icon"><use href="#ui-eye"/></svg>我哋嘅實測：用同一個風格整我哋嘅筆記
 
 我參考咗呢個「3D 筆記頁」風格，用我哋自己嘅方法（HTML + 渲染）整咗兩張**我哋自己嘅 3D 筆記圖** — 主題係早排寫嘅《NotebookLM 8 個研究 Prompts》：
 
@@ -107,7 +107,7 @@ Organize the remaining content into clearly separated handwritten study sections
 
 ---
 
-## 💡 應用場景
+## <svg class="ui-icon"><use href="#ui-bulb"/></svg>應用場景
 
 - **學生**：將教科書章節變成靚筆記，溫書都開心啲
 - **老師/內容創作者**：整教學圖卡，放教材、IG、Blog
@@ -116,7 +116,7 @@ Organize the remaining content into clearly separated handwritten study sections
 
 ---
 
-## ⚠️ 3 個常見錯誤
+## <svg class="ui-icon"><use href="#ui-alert"/></svg>3 個常見錯誤
 
 1. **主題太多字** — 生成圖入面文字太多會亂碼。**Keep it simple**，每頁一個主題
 2. **中文主題** — 中文手寫字 AI 好易出錯。中文內容建議用 HTML/CSS 重製（好似我哋咁），英文先用純 AI 生成
@@ -124,7 +124,7 @@ Organize the remaining content into clearly separated handwritten study sections
 
 ---
 
-## ❓ FAQ
+## <svg class="ui-icon"><use href="#ui-question"/></svg>FAQ
 
 **Q1：一定要訂閱先用到？**
 ChatGPT Images 2.0 部分功能要 Plus/Pro 訂閱。免費版試唔到最新 Images 2.0，但可以試下舊版 DALL-E。
@@ -140,7 +140,7 @@ Midjourney 都得，但 ChatGPT Images 2.0 對「文字渲染」同「跟 prompt
 
 ---
 
-## 總結
+## <svg class="ui-icon"><use href="#ui-bulb"/></svg>總結
 
 「3D 教育筆記頁」係 2026 年 AI 繪圖其中一個最實用嘅風格 — 唔係為靚而靚，係**真係整到教學用嘅嘢**。一條 prompt，將任何主題變成學生會鍾意睇嘅筆記。
 
