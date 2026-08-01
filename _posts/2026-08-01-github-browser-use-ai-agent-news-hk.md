@@ -21,15 +21,16 @@ author: "陳志豪 Eric Chan"
 
 ## 📰 新聞重點速覽
 
-| 項目 | 數字 |
-|------|------|
-| ⭐ Stars | **107,460**（爆紅中） |
-| 🍴 Forks | 11.8K |
-| 📦 Releases | 134 個（最新 0.13.7） |
-| 👥 Contributors | 318 位 |
-| 🐍 語言 | Python（99.2%） |
-| 📜 License | MIT（免費商用） |
-| 🕐 更新頻率 | 日日更新（今日都有 commit） |
+<div class="ui-stat-grid">
+  <div class="ui-stat"><span class="ui-stat-num">107,460</span><span class="ui-stat-label">⭐ Stars</span></div>
+  <div class="ui-stat"><span class="ui-stat-num">11.8K</span><span class="ui-stat-label">🍴 Forks</span></div>
+  <div class="ui-stat"><span class="ui-stat-num">134</span><span class="ui-stat-label">📦 Releases</span></div>
+  <div class="ui-stat"><span class="ui-stat-num">318</span><span class="ui-stat-label">👥 Contributors</span></div>
+  <div class="ui-stat"><span class="ui-stat-num">Python</span><span class="ui-stat-label">🐍 語言</span></div>
+  <div class="ui-stat"><span class="ui-stat-num">MIT</span><span class="ui-stat-label">📜 License</span></div>
+</div>
+
+> 🕐 更新頻率：日日更新（今日都有 commit）
 
 ![browser-use GitHub 主頁（107k stars）]({{ '/assets/images/posts/github-browser-use-shot1.png' | relative_url }})
 
@@ -88,16 +89,14 @@ await agent.run()
 
 ## 📌 出處
 
-- 🔗 **GitHub 官方 repo**：https://github.com/browser-use/browser-use
-- 📚 官方文件：https://docs.browser-use.com
-- ☁️ Cloud 服務：https://cloud.browser-use.com
+<div class="ui-note">🔗 <strong>GitHub 官方 repo</strong>：https://github.com/browser-use/browser-use
+
+📚 官方文件：https://docs.browser-use.com ｜ ☁️ Cloud 服務：https://cloud.browser-use.com</div>
 
 ---
 
 ## 💭 我嘅睇法
 
-「AI 自己上網」呢個方向，係 2026 年 AI Agent 落地最重要嘅一步。唔好睇少呢類工具 — 當 AI 可以操作瀏覽器，佢就由「識傾偈」進化到「識做嘢」：幫你填表、訂嘢、睇資料、monitor 網站。
-
-**107k 星只係開始。** 如果你有玩 AI Agent，browser-use 值得入你嘅 toolbox。
+<div class="ui-tip">💡 <strong>「AI 自己上網」呢個方向，係 2026 年 AI Agent 落地最重要嘅一步。</strong>唔好睇少呢類工具 — 當 AI 可以操作瀏覽器，佢就由「識傾偈」進化到「識做嘢」：幫你填表、訂嘢、睇資料、monitor 網站。107k 星只係開始。</div>
 
 > **「試過先講」** — 呢個我睇完 README 即刻想試，你都可以 😄

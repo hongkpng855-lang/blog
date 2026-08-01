@@ -555,6 +555,47 @@ a:hover { color: var(--amber-light); }
 }
 .form-control::placeholder { color: var(--faint); }
 
+/* ---------- UiSkills 文章內容元素 ---------- */
+.ui-note, .ui-tip, .ui-warn {
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  margin: 1.6rem 0;
+  border: 1px solid var(--border);
+  font-size: 0.98rem;
+  line-height: 1.7;
+}
+.ui-note { background: var(--bg-elev); border-left: 4px solid #5B9BD5; }
+.ui-tip { background: var(--amber-dim); border-left: 4px solid var(--amber); border-color: rgba(232,163,61,0.35); }
+.ui-warn { background: rgba(230,80,80,0.08); border-left: 4px solid #E65050; border-color: rgba(230,80,80,0.3); }
+.ui-note strong, .ui-tip strong, .ui-warn strong { color: #fff; }
+
+.ui-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin: 1.6rem 0;
+}
+.ui-stat {
+  background: var(--bg-elev);
+  border: 1px solid var(--border-soft);
+  border-radius: 10px;
+  padding: 0.9rem 1rem;
+  text-align: center;
+}
+.ui-stat .ui-stat-num {
+  display: block;
+  font-family: var(--mono);
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--amber);
+}
+.ui-stat .ui-stat-label {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
 /* ---------- 響應式 ---------- */
 @media (max-width: 991.98px) {
   .hero-inner { flex-direction: column; text-align: center; gap: 1.8rem; }
