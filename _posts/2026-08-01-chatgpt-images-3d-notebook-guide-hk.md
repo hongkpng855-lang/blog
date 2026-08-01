@@ -6,7 +6,7 @@ categories: 技術
 tags: [ChatGPT, AI 繪圖, 3D 筆記, 教育, Prompt, OpenAI, 學習工具, 科技教學, 香港, auto-publish, chatgpt-images]
 image: /assets/images/posts/2026-08-01-chatgpt-images-3d-notebook-cover.jpg
 description: "最近網絡流傳好多「3D 教育筆記頁」——好似醫學生手寫 revision notes 咁靚嘅解剖筆記，原來係用 ChatGPT Images 2.0 一句 Prompt 生成！呢篇文拆解個 Prompt 點運作、點樣改做自己嘅主題，仲有我哋親身實測——用同一個風格整咗我哋自己嘅 3D 筆記圖。"
-author: "Eva Chan"
+author: "Eric Chan"
 ---
 
 # AI 整 3D 教育筆記頁教學：ChatGPT Images 2.0 一句 Prompt 將任何主題變成靚筆記（附實測）

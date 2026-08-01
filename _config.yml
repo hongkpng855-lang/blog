@@ -1,6 +1,6 @@
 title: "UiSkills"
-description: "由 IT 顧問 Eva Chan 主理：親身實測嘅 UI 設計、前端開發、AI 工具與科技知識分享。試過先講。"
-author: "Eva Chan"
+description: "由 IT 顧問 Eric Chan 主理：親身實測嘅 UI 設計、前端開發、AI 工具與科技知識分享。試過先講。"
+author: "Eric Chan"
 email: "" 
 baseurl: "/blog"
 url: "https://hongkpng855-lang.github.io"
@@ -27,7 +27,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Eva Chan"
+      author: "Eric Chan"
   - scope:
       path: ""
     values:
