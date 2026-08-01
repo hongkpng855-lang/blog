@@ -516,6 +516,15 @@ a:hover { color: var(--amber-light); }
   border-color: var(--amber);
 }
 
+/* ---------- 頁面卡片（about/contact 等） ---------- */
+.page-card {
+  background: var(--bg-elev);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius);
+}
+.page-card .card-title { color: #fff; font-weight: 800; }
+.page-card .card-body { color: var(--ink); background: transparent; }
+
 /* ---------- 麵包屑 / 分頁 ---------- */
 .breadcrumb { background: transparent; }
 .breadcrumb a { color: var(--amber); font-weight: 500; }
