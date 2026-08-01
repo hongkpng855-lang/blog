@@ -1,6 +1,6 @@
-title: "Sun ny 的部落格"
-description: "分享生活、技術、健康、學習與投資的心得"
-author: "Sun ny"
+title: "UiSkills"
+description: "由 IT 顧問陳志豪（Eric Chan）主理：親身實測嘅 UI 設計、前端開發、AI 工具與科技知識分享。試過先講。"
+author: "陳志豪 Eric Chan"
 email: "" 
 baseurl: "/blog"
 url: "https://hongkpng855-lang.github.io"
@@ -27,7 +27,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Sun ny"
+      author: "陳志豪 Eric Chan"
   - scope:
       path: ""
     values:
@@ -38,5 +38,3 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
-  - README.md
-  - .gitignore

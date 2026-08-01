@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <!-- SEO Meta Tags -->
-  <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}｜{{ site.description | truncate: 60 }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="keywords" content="{% if page.tags %}{{ page.tags | join: ', ' }}{% else %}技術, 投資, 生活, 健康, 學習, 部落格, 知識分享{% endif %}">
+  <meta name="keywords" content="{% if page.tags %}{{ page.tags | join: ', ' }}{% else %}UI, 前端, 技術, 投資, 生活, 健康, 學習, 部落格, 知識分享{% endif %}">
   <meta name="author" content="{{ site.author }}">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   
@@ -19,10 +19,8 @@
   <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
   {% if page.image %}
   <meta property="og:image" content="{{ page.image | absolute_url }}">
-  {% elsif page.featured_image %}
-  <meta property="og:image" content="{{ page.featured_image | absolute_url }}">
   {% else %}
-  <meta property="og:image" content="{{ '/assets/images/avatar.jpg' | absolute_url }}">
+  <meta property="og:image" content="{{ '/assets/images/character-base.jpg' | absolute_url }}">
   {% endif %}
   
   <!-- Twitter Card Meta Tags -->
@@ -32,21 +30,24 @@
   {% if page.image %}
   <meta name="twitter:image" content="{{ page.image | absolute_url }}">
   {% else %}
-  <meta name="twitter:image" content="{{ '/assets/images/avatar.jpg' | absolute_url }}">
+  <meta name="twitter:image" content="{{ '/assets/images/character-base.jpg' | absolute_url }}">
   {% endif %}
   
   <!-- Theme Colors -->
-  <meta name="theme-color" content="#1a237e">
-  <meta name="msapplication-TileColor" content="#1a237e">
+  <meta name="theme-color" content="#1B2A4A">
+  <meta name="msapplication-TileColor" content="#1B2A4A">
   
   <!-- Stylesheets -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
   <link href="{{ '/assets/css/main.css' | relative_url }}" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   
   <!-- 網站圖標 -->
-  <link rel="shortcut icon" href="{{ '/assets/images/favicon.png' | relative_url }}">
-  <link rel="apple-touch-icon" href="{{ '/assets/images/avatar.jpg' | relative_url }}">
+  <link rel="shortcut icon" href="{{ '/assets/images/uiskills-icon.svg' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/assets/images/uiskills-icon.svg' | relative_url }}">
   
   <!-- RSS Feed -->
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
@@ -54,37 +55,44 @@
 <body class="d-flex flex-column min-vh-100">
 
 <!-- 頂部導航 -->
-<header class="header">
-  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1a237e;">
+<header class="site-header sticky-top">
+  <nav class="navbar navbar-expand-lg">
     <div class="container">
-      <a class="navbar-brand fw-bold" href="{{ '/' | relative_url }}">
-        <i class="fas fa-blog me-2"></i>{{ site.title }}
+      <a class="navbar-brand d-flex align-items-center" href="{{ '/' | relative_url }}">
+        <img src="{{ '/assets/images/uiskills-icon.svg' | relative_url }}" alt="UiSkills 標誌" class="brand-icon me-2" width="34" height="34">
+        <span class="brand-wordmark"><span class="text-gold">Ui</span>Skills</span>
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="展開選單">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
           <li class="nav-item">
-            <a class="nav-link" href="{{ '/' | relative_url }}"><i class="fas fa-home me-1"></i>首頁</a>
+            <a class="nav-link" href="{{ '/' | relative_url }}">首頁</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
-              <i class="fas fa-folder me-1"></i>分類
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              分類
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="{{ '/categories/技術/' | relative_url }}"><i class="fas fa-code me-2"></i>技術</a></li>
-              <li><a class="dropdown-item" href="{{ '/categories/投資/' | relative_url }}"><i class="fas fa-chart-line me-2"></i>投資</a></li>
-              <li><a class="dropdown-item" href="{{ '/categories/生活/' | relative_url }}"><i class="fas fa-heart me-2"></i>生活</a></li>
-              <li><a class="dropdown-item" href="{{ '/categories/健康/' | relative_url }}"><i class="fas fa-medkit me-2"></i>健康</a></li>
-              <li><a class="dropdown-item" href="{{ '/categories/學習/' | relative_url }}"><i class="fas fa-book me-2"></i>學習</a></li>
+              <li><a class="dropdown-item" href="{{ '/categories/技術/' | relative_url }}">技術</a></li>
+              <li><a class="dropdown-item" href="{{ '/categories/投資/' | relative_url }}">投資</a></li>
+              <li><a class="dropdown-item" href="{{ '/categories/生活/' | relative_url }}">生活</a></li>
+              <li><a class="dropdown-item" href="{{ '/categories/健康/' | relative_url }}">健康</a></li>
+              <li><a class="dropdown-item" href="{{ '/categories/學習/' | relative_url }}">學習</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ '/about/' | relative_url }}"><i class="fas fa-user me-1"></i>關於我</a>
+            <a class="nav-link" href="{{ '/about/' | relative_url }}">關於我</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ '/search/' | relative_url }}"><i class="fas fa-search me-1"></i>搜尋</a>
+            <a class="nav-link" href="{{ '/search/' | relative_url }}">搜尋</a>
+          </li>
+          <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+            <a class="author-chip d-flex align-items-center" href="{{ '/about/' | relative_url }}">
+              <img src="{{ '/assets/images/character-base.jpg' | relative_url }}" alt="陳志豪 Eric Chan" class="author-avatar rounded-circle me-2" width="30" height="30">
+              <span class="author-name">陳志豪</span>
+            </a>
           </li>
         </ul>
       </div>
@@ -93,55 +101,53 @@
 </header>
 
 <!-- 主要內容區域 -->
-<main class="flex-shrink-0 my-4">
+<main class="flex-shrink-0 py-4">
   <div class="container">
     {{ content }}
   </div>
 </main>
 
 <!-- 頁腳 -->
-<footer class="footer mt-auto py-5" style="background-color: #1a237e;">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 mb-4">
-        <h5 class="mb-3 text-white"><i class="fas fa-blog me-2"></i>{{ site.title }}</h5>
-        <p class="text-white-50">{{ site.description }}</p>
-        <div class="mt-3">
-          <a href="https://facebook.com/yourprofile" class="text-white me-3" target="_blank" rel="noopener"><i class="fab fa-facebook fa-lg"></i></a>
-          <a href="https://twitter.com/yourhandle" class="text-white me-3" target="_blank" rel="noopener"><i class="fab fa-twitter fa-lg"></i></a>
-          <a href="https://linkedin.com/in/yourprofile" class="text-white me-3" target="_blank" rel="noopener"><i class="fab fa-linkedin fa-lg"></i></a>
-          <a href="https://github.com/yourusername" class="text-white" target="_blank" rel="noopener"><i class="fab fa-github fa-lg"></i></a>
+<footer class="site-footer mt-auto">
+  <div class="container py-5">
+    <div class="row g-4">
+      <div class="col-md-5">
+        <div class="d-flex align-items-center mb-3">
+          <img src="{{ '/assets/images/uiskills-icon.svg' | relative_url }}" alt="UiSkills 標誌" class="me-2" width="30" height="30">
+          <h5 class="mb-0 text-white fw-bold"><span class="text-gold">Ui</span>Skills</h5>
+        </div>
+        <p class="text-white-50 mb-2">{{ site.description }}</p>
+        <p class="text-white-50 small mb-0">✍️ 由 {{ site.author }} 主理 — 親身實測，試過先講。</p>
+      </div>
+      <div class="col-6 col-md-2">
+        <h6 class="text-white fw-bold mb-3">分類</h6>
+        <ul class="list-unstyled footer-links">
+          <li class="mb-2"><a href="{{ '/categories/技術/' | relative_url }}">技術</a></li>
+          <li class="mb-2"><a href="{{ '/categories/投資/' | relative_url }}">投資</a></li>
+          <li class="mb-2"><a href="{{ '/categories/生活/' | relative_url }}">生活</a></li>
+          <li class="mb-2"><a href="{{ '/categories/健康/' | relative_url }}">健康</a></li>
+          <li class="mb-2"><a href="{{ '/categories/學習/' | relative_url }}">學習</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-2">
+        <h6 class="text-white fw-bold mb-3">連結</h6>
+        <ul class="list-unstyled footer-links">
+          <li class="mb-2"><a href="{{ '/' | relative_url }}">首頁</a></li>
+          <li class="mb-2"><a href="{{ '/about/' | relative_url }}">關於我</a></li>
+          <li class="mb-2"><a href="{{ '/search/' | relative_url }}">搜尋</a></li>
+          <li class="mb-2"><a href="{{ '/feed.xml' | relative_url }}">RSS</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h6 class="text-white fw-bold mb-3">一句講晒</h6>
+        <div class="footer-quote">
+          <p class="mb-0">「與其聽人講，不如自己試。試過先講。」</p>
         </div>
       </div>
-      <div class="col-md-2 mb-4">
-        <h5 class="mb-3 text-white">分類</h5>
-        <ul class="list-unstyled">
-          <li class="mb-2"><a href="{{ '/categories/技術/' | relative_url }}" class="text-white-50 text-decoration-none">技術</a></li>
-          <li class="mb-2"><a href="{{ '/categories/投資/' | relative_url }}" class="text-white-50 text-decoration-none">投資</a></li>
-          <li class="mb-2"><a href="{{ '/categories/生活/' | relative_url }}" class="text-white-50 text-decoration-none">生活</a></li>
-          <li class="mb-2"><a href="{{ '/categories/健康/' | relative_url }}" class="text-white-50 text-decoration-none">健康</a></li>
-        </ul>
-      </div>
-      <div class="col-md-2 mb-4">
-        <h5 class="mb-3 text-white">連結</h5>
-        <ul class="list-unstyled">
-          <li class="mb-2"><a href="{{ '/' | relative_url }}" class="text-white-50 text-decoration-none">首頁</a></li>
-          <li class="mb-2"><a href="{{ '/about/' | relative_url }}" class="text-white-50 text-decoration-none">關於我</a></li>
-          <li class="mb-2"><a href="{{ '/search/' | relative_url }}" class="text-white-50 text-decoration-none">搜尋</a></li>
-        </ul>
-      </div>
-      <div class="col-md-4 mb-4">
-        <h5 class="mb-3 text-white">訂閱電子報</h5>
-        <p class="text-white-50">獲取最新文章通知</p>
-        <form class="input-group">
-          <input type="email" class="form-control" placeholder="您的 Email">
-          <button class="btn btn-light" type="submit">訂閱</button>
-        </form>
-      </div>
     </div>
-    <hr class="border-white-50">
+    <hr class="border-white-50 my-4">
     <div class="text-center">
-      <p class="mb-0 text-white-50">© {{ 'now' | date: "%Y" }} {{ site.title }}。保留所有權利。</p>
+      <p class="mb-0 text-white-50 small">© {{ 'now' | date: "%Y" }} {{ site.title }}。保留所有權利。</p>
     </div>
   </div>
 </footer>
@@ -149,19 +155,15 @@
 <!-- JavaScript 資源 -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script>
-// 響應式導航欄優化
+// 響應式導航欄優化：移動端點擊菜單項後自動關閉
 document.addEventListener('DOMContentLoaded', function() {
-  // 移動端點擊菜單項後自動關閉
   const navLinks = document.querySelectorAll('.navbar-nav .nav-link:not(.dropdown-toggle)');
   const navbarCollapse = document.querySelector('.navbar-collapse');
-  
   navLinks.forEach(link => {
     link.addEventListener('click', () => {
       if (window.innerWidth < 992) {
         const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
-        if (bsCollapse) {
-          bsCollapse.hide();
-        }
+        if (bsCollapse) bsCollapse.hide();
       }
     });
   });

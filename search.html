@@ -8,14 +8,14 @@ permalink: /search/
   <div class="row">
     <div class="col-lg-8">
       <div class="card mb-4">
-        <div class="card-header bg-primary text-white">
+        <div class="card-header fw-bold">
           <h1 class="h4 mb-0"><i class="fas fa-search me-2"></i>搜尋文章</h1>
         </div>
         <div class="card-body">
           <form id="search-form" class="mb-4">
             <div class="input-group">
               <input type="text" id="search-input" class="form-control form-control-lg" placeholder="輸入關鍵字搜尋...">
-              <button class="btn btn-primary" type="submit">
+              <button class="btn btn-gold" type="submit">
                 <i class="fas fa-search"></i> 搜尋
               </button>
             </div>
@@ -78,7 +78,7 @@ permalink: /search/
     
     <div class="col-lg-4">
       <div class="card mb-4">
-        <div class="card-header bg-primary text-white">
+        <div class="card-header fw-bold">
           <i class="fas fa-tags me-2"></i>所有標籤
         </div>
         <div class="card-body">
@@ -160,7 +160,7 @@ permalink: /search/
       html += '<p class="mb-1 text-muted">' + post.excerpt + '</p>';
       html += '<small>';
       post.categories.forEach(function(cat) {
-        html += '<span class="badge bg-secondary me-1">' + cat + '</span>';
+        html += '<span class="badge cat-badge me-1">' + cat + '</span>';
       });
       post.tags.forEach(function(tag) {
         html += '<span class="badge bg-light text-dark me-1">' + tag + '</span>';

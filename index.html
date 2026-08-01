@@ -2,96 +2,93 @@
 layout: default
 ---
 
-<!-- 置頂文章區域 -->
-<section class="featured-post mb-5">
+<!-- 品牌 Hero -->
+<section class="hero-section">
   <div class="container">
-    {% assign featured = site.posts | first %}
-    {% if featured %}
-    <div class="card border-0 shadow-lg">
-      <div class="row g-0">
-        <div class="col-md-5">
-          {% if featured.image %}
-          <div class="card-body p-0">
-            <img src="{{ featured.image | relative_url }}" class="img-fluid rounded-start w-100" alt="{{ featured.title }}" style="object-fit: cover; max-height: 300px;">
-          </div>
-          {% else %}
-          <div class="h-100 d-flex align-items-center justify-content-center bg-light">
-            <i class="fas fa-image fa-3x text-muted"></i>
-          </div>
-          {% endif %}
-        </div>
-        <div class="col-md-7">
-          <div class="card-body h-100 d-flex flex-column justify-content-center p-4">
-            <div class="mb-2">
-              {% for category in featured.categories limit:2 %}
-              <span class="badge bg-primary me-1">{{ category }}</span>
-              {% endfor %}
-            </div>
-            <h2 class="card-title mb-3">
-              <a href="{{ featured.url | relative_url }}" class="text-decoration-none text-dark">
-                {{ featured.title }}
-              </a>
-            </h2>
-            <p class="card-text text-muted">{{ featured.description | default: featured.excerpt | strip_html | truncatewords: 30 }}</p>
-            <div class="d-flex align-items-center text-muted small">
-              <i class="fas fa-clock me-2"></i>
-              <span>{{ featured.date | date: "%Y-%m-%d" }}</span>
-              <span class="mx-2">•</span>
-              <i class="fas fa-user me-2"></i>
-              <span>{{ featured.author | default: site.author }}</span>
-            </div>
-          </div>
+    <div class="hero-inner">
+      <div class="hero-avatar-wrap">
+        <img src="{{ '/assets/images/character-base.jpg' | relative_url }}" alt="陳志豪 Eric Chan" class="hero-avatar">
+        <span class="hero-badge">👓 實測主義者</span>
+      </div>
+      <div class="hero-text">
+        <p class="hero-kicker">UiSkills ・ 由陳志豪 Eric Chan 主理</p>
+        <h1 class="hero-title">與其聽人講，<br>不如<span class="text-gold">自己試</span>。</h1>
+        <p class="hero-sub">IT 顧問 18 年實戰，親身試過先寫低。UI 設計、前端開發、AI 工具、科技知識 — 全部貼地實測，唔靠 Copy-and-Paste。</p>
+        <div class="hero-cta">
+          <a href="{{ '/about/' | relative_url }}" class="btn btn-gold btn-lg">認識陳志豪</a>
+          <a href="#latest-posts" class="btn btn-outline-gold btn-lg">睇最新文章 ↓</a>
         </div>
       </div>
     </div>
-    {% endif %}
   </div>
 </section>
 
-<!-- 文章列表 -->
-<section class="posts-section">
+<!-- 最新文章 -->
+<section class="posts-section py-5" id="latest-posts">
   <div class="container">
     <div class="row">
       <!-- 主要內容區 -->
       <div class="col-lg-8">
-        <h4 class="mb-4">
-          <i class="fas fa-newspaper me-2"></i>最新文章
-        </h4>
-        <div class="row">
-          {% for post in paginator.posts %}
-          <div class="col-md-6 mb-4">
-            <article class="card h-100 border-0 shadow-sm post-card">
-              <div class="position-relative" style="height: 180px; overflow: hidden;">
-                {% if post.image %}
-                <div class="card-body p-0">
-                  <img src="{{ post.image | relative_url }}" class="card-img-top" alt="{{ post.title }}" style="width: 100%; height: 180px; object-fit: cover;">
-                </div>
-                {% else %}
-                <div class="card-img-top h-100 d-flex align-items-center justify-content-center bg-light">
-                  <i class="fas fa-image fa-2x text-muted"></i>
-                </div>
-                {% endif %}
-                <div class="position-absolute top-0 start-0 m-2">
-                  {% for category in post.categories limit:1 %}
-                  <span class="badge bg-primary">{{ category }}</span>
+        <h4 class="section-title mb-4"><i class="fas fa-newspaper me-2"></i>最新文章</h4>
+
+        <!-- 置頂文章 -->
+        {% assign featured = site.posts | first %}
+        {% if featured %}
+        <article class="featured-card mb-4">
+          <div class="row g-0">
+            <div class="col-md-5">
+              {% if featured.image %}
+              <a href="{{ featured.url | relative_url }}">
+                <img src="{{ featured.image | relative_url }}" class="img-fluid rounded-start w-100 featured-img" alt="{{ featured.title }}">
+              </a>
+              {% endif %}
+            </div>
+            <div class="col-md-7">
+              <div class="featured-body p-4">
+                <div class="mb-2">
+                  {% for category in featured.categories limit:2 %}
+                  <span class="cat-badge-pill me-1">{{ category }}</span>
                   {% endfor %}
                 </div>
+                <h2 class="featured-title mb-2">
+                  <a href="{{ featured.url | relative_url }}">{{ featured.title }}</a>
+                </h2>
+                <p class="featured-desc text-muted">{{ featured.description | default: featured.excerpt | strip_html | truncatewords: 30 }}</p>
+                <div class="d-flex align-items-center text-muted small">
+                  <span>{{ featured.date | date: "%Y-%m-%d" }}</span>
+                  <span class="mx-2">•</span>
+                  <span>{{ featured.author | default: site.author }}</span>
+                </div>
               </div>
-              <div class="card-body">
-                <h5 class="card-title">
-                  <a href="{{ post.url | relative_url }}" class="text-decoration-none text-dark">
-                    {{ post.title }}
-                  </a>
+            </div>
+          </div>
+        </article>
+        {% endif %}
+
+        <!-- 文章列表 -->
+        <div class="row">
+          {% for post in paginator.posts %}
+          {% if forloop.first %}
+          {% continue %}
+          {% endif %}
+          <div class="col-md-6 mb-4">
+            <article class="post-card h-100">
+              <a href="{{ post.url | relative_url }}" class="post-card-img-wrap">
+                {% if post.image %}
+                <img src="{{ post.image | relative_url }}" class="post-card-img" alt="{{ post.title }}">
+                {% endif %}
+                <span class="post-card-cat">
+                  {% for category in post.categories limit:1 %}{{ category }}{% endfor %}
+                </span>
+              </a>
+              <div class="post-card-body">
+                <h5 class="post-card-title">
+                  <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
                 </h5>
-                <p class="card-text small text-muted">{{ post.description | default: post.excerpt | strip_html | truncatewords: 15 }}</p>
+                <p class="post-card-desc small text-muted">{{ post.description | default: post.excerpt | strip_html | truncatewords: 15 }}</p>
                 <div class="d-flex justify-content-between align-items-center">
-                  <small class="text-muted">
-                    <i class="fas fa-clock me-1"></i>
-                    {{ post.date | date: "%Y-%m-%d %H:%M" }}
-                  </small>
-                  <a href="{{ post.url | relative_url }}" class="btn btn-sm btn-outline-primary">
-                    閱讀更多
-                  </a>
+                  <small class="text-muted">{{ post.date | date: "%Y-%m-%d" }}</small>
+                  <a href="{{ post.url | relative_url }}" class="btn btn-outline-gold btn-sm">閱讀更多</a>
                 </div>
               </div>
             </article>
@@ -99,33 +96,26 @@ layout: default
           {% endfor %}
         </div>
 
-        <!-- 智慧分頁導航：顯示頭七頁 + 省略號 + 最後一頁 -->
+        <!-- 智慧分頁導航 -->
         {% if paginator.total_pages > 1 %}
         {% assign current = paginator.page %}
         {% assign total = paginator.total_pages %}
         <nav aria-label="Page navigation" class="mt-4">
           <ul class="pagination justify-content-center flex-wrap">
-            <!-- 上一頁 -->
             {% if paginator.previous_page %}
             <li class="page-item">
-              <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}">
-                <i class="fas fa-chevron-left"></i>
-              </a>
+              <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}"><i class="fas fa-chevron-left"></i></a>
             </li>
             {% else %}
-            <li class="page-item disabled">
-              <span class="page-link"><i class="fas fa-chevron-left"></i></span>
-            </li>
+            <li class="page-item disabled"><span class="page-link"><i class="fas fa-chevron-left"></i></span></li>
             {% endif %}
 
-            <!-- 第一頁 -->
             {% if current == 1 %}
             <li class="page-item active"><span class="page-link">1</span></li>
             {% else %}
             <li class="page-item"><a class="page-link" href="{{ '/' | relative_url }}">1</a></li>
             {% endif %}
 
-            <!-- 第 2-7 頁 -->
             {% for i in (2..7) %}
               {% if i <= total %}
                 {% if i == current %}
@@ -136,30 +126,23 @@ layout: default
               {% endif %}
             {% endfor %}
 
-            <!-- 省略號（如果總頁數大於 7） -->
             {% if total > 7 %}
-              <!-- 如果當前頁在第 7 頁之後，顯示當前頁附近 -->
               {% if current > 7 %}
                 <li class="page-item disabled"><span class="page-link">...</span></li>
-                
                 {% if current < total %}
                 <li class="page-item active"><span class="page-link">{{ current }}</span></li>
                 {% endif %}
-                
                 {% assign next_pg = current | plus: 1 %}
                 {% if next_pg < total %}
                 <li class="page-item"><a class="page-link" href="{{ site.baseurl }}/page/{{ next_pg }}/">{{ next_pg }}</a></li>
                 {% endif %}
-                
                 {% if current < total | minus: 1 %}
                 <li class="page-item disabled"><span class="page-link">...</span></li>
                 {% endif %}
               {% else %}
-                <!-- 當前頁在前七頁內，只顯示一個省略號 -->
                 <li class="page-item disabled"><span class="page-link">...</span></li>
               {% endif %}
-              
-              <!-- 最後一頁 -->
+
               {% if current == total %}
               <li class="page-item active"><span class="page-link">{{ total }}</span></li>
               {% else %}
@@ -167,17 +150,12 @@ layout: default
               {% endif %}
             {% endif %}
 
-            <!-- 下一頁 -->
             {% if paginator.next_page %}
             <li class="page-item">
-              <a class="page-link" href="{{ paginator.next_page_path | relative_url }}">
-                <i class="fas fa-chevron-right"></i>
-              </a>
+              <a class="page-link" href="{{ paginator.next_page_path | relative_url }}"><i class="fas fa-chevron-right"></i></a>
             </li>
             {% else %}
-            <li class="page-item disabled">
-              <span class="page-link"><i class="fas fa-chevron-right"></i></span>
-            </li>
+            <li class="page-item disabled"><span class="page-link"><i class="fas fa-chevron-right"></i></span></li>
             {% endif %}
           </ul>
         </nav>
@@ -192,28 +170,13 @@ layout: default
   </div>
 </section>
 
-<!-- 訂閱區塊 -->
-<section class="subscribe-section py-5 bg-light">
+<!-- 訂閱 CTA -->
+<section class="cta-section py-5">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-md-8 text-center">
-        <h3 class="mb-3"><i class="fas fa-bell me-2"></i>訂閱最新文章</h3>
-        <p class="text-muted mb-4">輸入您的 Email，第一時間收到新文章通知</p>
-        <form action="https://formsubmit.co/tbstbs0613@gmail.com" method="POST" class="row g-2 justify-content-center">
-          <input type="hidden" name="_subject" value="[Blog] 新訂閱通知">
-          <input type="hidden" name="_next" value="https://hongkpng855-lang.github.io/blog/">
-          <input type="hidden" name="_captcha" value="false">
-          <input type="text" name="_honey" style="display:none">
-          <div class="col-auto">
-            <input type="email" name="email" class="form-control" placeholder="your@email.com" required style="min-width: 250px;">
-          </div>
-          <div class="col-auto">
-            <button type="submit" class="btn btn-primary">
-              <i class="fas fa-paper-plane me-1"></i>訂閱
-            </button>
-          </div>
-        </form>
-      </div>
+    <div class="cta-box text-center">
+      <h3 class="mb-2">📬 有新文章，第一時間話你知</h3>
+      <p class="text-white-50 mb-4">訂閱 RSS，唔會錯過任何一篇實測心得。</p>
+      <a href="{{ '/feed.xml' | relative_url }}" class="btn btn-gold btn-lg">訂閱 RSS</a>
     </div>
   </div>
 </section>

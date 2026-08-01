@@ -6,36 +6,21 @@ permalink: /contact/
 
 ## 聯絡方式
 
-如果您有任何問題、建議或合作機會，歡迎通過以下方式與我聯繫：
+如果你想同我交流、有合作機會、或者想我實測某樣嘢，歡迎聯絡我：
 
-### 聯絡資訊
+### 聯絡方法
 
-- **Email**: your.email@example.com
-- **GitHub**: [您的GitHub用戶名](https://github.com/yourusername)
-- **LinkedIn**: [您的LinkedIn檔案](https://linkedin.com/in/yourprofile)
+- 📬 **訂閱 RSS**：[點擊訂閱](/blog/feed.xml) — 每篇新文章第一時間通知你
+- 📘 **Facebook**：[UiSkills 專頁](https://www.facebook.com/profile.php?id=61592673092633)（籌備緊）
 
-### 聯絡表單
+### 暫時未有嘅嘢
 
-您也可以使用以下表單直接發送訊息給我：
+- ❌ 公開 Email（未有）— 避免垃圾郵件
+- ❌ 個人社交帳號（未有）— 暫時專注寫 Blog
 
-<form action="https://formspree.io/f/yourformid" method="POST" class="mb-4">
-  <div class="mb-3">
-    <label for="name" class="form-label">姓名</label>
-    <input type="text" class="form-control" id="name" name="name" required>
-  </div>
-  <div class="mb-3">
-    <label for="email" class="form-label">Email</label>
-    <input type="email" class="form-control" id="email" name="_replyto" required>
-  </div>
-  <div class="mb-3">
-    <label for="subject" class="form-label">主題</label>
-    <input type="text" class="form-control" id="subject" name="subject" required>
-  </div>
-  <div class="mb-3">
-    <label for="message" class="form-label">訊息內容</label>
-    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
-  </div>
-  <button type="submit" class="btn btn-primary">送出</button>
-</form>
+### 互動方式
 
-我會盡快回覆您的訊息。謝謝！
+- 喺文章下方留言／分享你嘅睇法
+- 如果你想我實測某個工具／主題，話我知，我會排入測試清單
+
+> 感謝你花時間嚟到呢度。每篇文都係親身試過先寫低 — 希望幫到你。

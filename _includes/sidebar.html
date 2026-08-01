@@ -1,94 +1,53 @@
-<!-- 關於我 -->
-<div class="card mb-4">
- <div class="card-header bg-primary text-white">
- <i class="fas fa-user me-2"></i>關於我
- </div>
+<!-- 關於作者 -->
+<div class="card mb-4 author-sidebar-card">
  <div class="card-body text-center">
- <img src="{{ '/assets/images/avatar.svg' | relative_url }}" alt="Sun ny 的頭像" class="rounded-circle mb-3" width="100" height="100" style="object-fit: cover;">
- <h6 class="card-title mb-2">Sun ny</h6>
- <p class="card-text">分享生活、技術、健康、學習與投資的心得。</p>
- <a href="{{ '/about/' | relative_url }}" class="btn btn-outline-primary btn-sm">了解更多</a>
+ <img src="{{ '/assets/images/character-base.jpg' | relative_url }}" alt="陳志豪 Eric Chan 的頭像" class="rounded-circle mb-3 author-sidebar-avatar" width="110" height="110">
+ <h6 class="card-title fw-bold mb-1">陳志豪 Eric Chan</h6>
+ <p class="text-muted small mb-2">IT 顧問・實測主義者</p>
+ <p class="card-text small">42 歲，IT 行業 18 年。分享親身實測過嘅 UI、前端、AI 工具同科技心得。試過先講，唔靠 Copy-and-Paste。</p>
+ <a href="{{ '/about/' | relative_url }}" class="btn btn-gold btn-sm">了解更多</a>
  </div>
 </div>
 
-<!-- 社交媒體關注 -->
-{% include social-sidebar.html %}
-
 <!-- 分類 -->
-<div class="card mb-4">
- <div class="card-header bg-primary text-white">
- <i class="fas fa-folder me-2"></i>文章分類
- </div>
+<div class="card mb-4 category-card">
+ <div class="card-header fw-bold"><i class="fas fa-folder me-2"></i>文章分類</div>
  <div class="card-body">
  <ul class="list-group list-group-flush">
  {% assign tech_posts = site.posts | where_exp: "post", "post.categories contains '技術'" %}
  <li class="list-group-item d-flex justify-content-between align-items-center">
  <a href="{{ '/categories/技術/' | relative_url }}" class="text-decoration-none">技術</a>
- <span class="badge bg-primary rounded-pill">{{ tech_posts | size }}</span>
+ <span class="badge rounded-pill cat-badge">{{ tech_posts | size }}</span>
  </li>
  {% assign invest_posts = site.posts | where_exp: "post", "post.categories contains '投資'" %}
  <li class="list-group-item d-flex justify-content-between align-items-center">
  <a href="{{ '/categories/投資/' | relative_url }}" class="text-decoration-none">投資</a>
- <span class="badge bg-primary rounded-pill">{{ invest_posts | size }}</span>
+ <span class="badge rounded-pill cat-badge">{{ invest_posts | size }}</span>
  </li>
  {% assign life_posts = site.posts | where_exp: "post", "post.categories contains '生活'" %}
  <li class="list-group-item d-flex justify-content-between align-items-center">
  <a href="{{ '/categories/生活/' | relative_url }}" class="text-decoration-none">生活</a>
- <span class="badge bg-primary rounded-pill">{{ life_posts | size }}</span>
+ <span class="badge rounded-pill cat-badge">{{ life_posts | size }}</span>
  </li>
  {% assign health_posts = site.posts | where_exp: "post", "post.categories contains '健康'" %}
  <li class="list-group-item d-flex justify-content-between align-items-center">
  <a href="{{ '/categories/健康/' | relative_url }}" class="text-decoration-none">健康</a>
- <span class="badge bg-primary rounded-pill">{{ health_posts | size }}</span>
+ <span class="badge rounded-pill cat-badge">{{ health_posts | size }}</span>
  </li>
  {% assign learn_posts = site.posts | where_exp: "post", "post.categories contains '學習'" %}
  <li class="list-group-item d-flex justify-content-between align-items-center">
  <a href="{{ '/categories/學習/' | relative_url }}" class="text-decoration-none">學習</a>
- <span class="badge bg-primary rounded-pill">{{ learn_posts | size }}</span>
+ <span class="badge rounded-pill cat-badge">{{ learn_posts | size }}</span>
  </li>
  </ul>
  </div>
 </div>
 
-<!-- 最新文章 -->
-<div class="card mb-4">
- <div class="card-header bg-primary text-white">
- <i class="fas fa-clock me-2"></i>最新文章
- </div>
- <div class="card-body">
- <ul class="list-unstyled mb-0">
- {% for post in site.posts limit:5 %}
- <li class="mb-2 pb-2 border-bottom">
- <a href="{{ post.url | relative_url }}" class="text-decoration-none">
- <i class="fas fa-angle-right text-primary me-1"></i>{{ post.title }}
- </a>
-        <br><small class="text-muted ms-3"><i class="fas fa-calendar-alt me-1"></i>{{ post.date | date: "%Y-%m-%d %H:%M" }}</small>
-      </li>
- {% endfor %}
- </ul>
- </div>
-</div>
-
-<!-- 熱門標籤 -->
-<div class="card mb-4">
- <div class="card-header bg-primary text-white">
- <i class="fas fa-tags me-2"></i>熱門標籤
- </div>
- <div class="card-body">
- <div class="d-flex flex-wrap gap-1">
- {% for tag in site.tags limit:10 %}
- <a href="{{ '/tags/' | append: tag[0] | relative_url }}" class="tag-item">{{ tag[0] }}</a>
- {% endfor %}
- </div>
- </div>
-</div>
-
-<!-- 廣告位置 -->
-<div class="card mb-4 ad-card">
+<!-- 訂閱提示 -->
+<div class="card mb-4 subscribe-mini-card">
  <div class="card-body text-center">
- <small class="text-muted">廣告位置</small>
- <div class="ad-content d-flex align-items-center justify-content-center">
- <span class="text-muted">您的廣告代碼</span>
- </div>
+ <h6 class="fw-bold mb-2">📬 有新文即時知</h6>
+ <p class="small text-muted mb-3">訂閱 RSS，唔會錯過新文章。</p>
+ <a href="{{ '/feed.xml' | relative_url }}" class="btn btn-outline-gold btn-sm w-100">訂閱 RSS</a>
  </div>
 </div>

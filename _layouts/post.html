@@ -27,9 +27,10 @@ layout: default
         <h1 class="mb-3">{{ page.title }}</h1>
         
         <div class="post-meta d-flex align-items-center mb-4">
-          <img src="{{ '/assets/images/avatar.svg' | relative_url }}" alt="作者頭像" class="rounded-circle me-3" width="50" height="50">
+          <img src="{{ '/assets/images/character-base.jpg' | relative_url }}" alt="陳志豪 Eric Chan 作者頭像" class="rounded-circle me-3 post-author-avatar" width="54" height="54">
           <div>
             <p class="mb-0 fw-bold">{{ page.author | default: site.author }}</p>
+            <p class="mb-0 text-muted small">IT 顧問・實測主義者・試過先講</p>
             <p class="mb-0 text-muted">
               <i class="far fa-calendar me-1"></i>{{ page.date | date: "%Y年%m月%d日" }}
               <span class="mx-2">•</span>
@@ -76,15 +77,14 @@ layout: default
 
   <!-- 側邊欄 -->
   <div class="col-lg-4">
-    <!-- 關於我 -->
-    <div class="card mb-4 shadow-sm">
-      <div class="card-header bg-secondary text-white">
-        <i class="fas fa-user me-2"></i>關於作者
-      </div>
+    <!-- 關於作者 -->
+    <div class="card mb-4 shadow-sm author-sidebar-card">
+      <div class="card-header fw-bold"><i class="fas fa-user me-2"></i>關於作者</div>
       <div class="card-body text-center">
-        <img src="{{ '/assets/images/avatar.svg' | relative_url }}" alt="作者頭像" class="rounded-circle mb-3" width="80" height="80">
-        <h5 class="card-title">{{ site.author }}</h5>
-        <p class="card-text text-muted">{{ site.description }}</p>
+        <img src="{{ '/assets/images/character-base.jpg' | relative_url }}" alt="陳志豪 Eric Chan 作者頭像" class="rounded-circle mb-3 author-sidebar-avatar" width="90" height="90">
+        <h5 class="card-title fw-bold">{{ site.author }}</h5>
+        <p class="card-text text-muted small">IT 顧問・實測主義者・試過先講</p>
+        <a href="{{ '/about/' | relative_url }}" class="btn btn-outline-gold btn-sm">了解更多</a>
       </div>
     </div>
 
