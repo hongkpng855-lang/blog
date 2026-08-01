@@ -4,7 +4,7 @@ title: "🔥 10.7 萬人 Star 嘅開源神器：browser-use 教 AI 自己上網�
 date: 2026-08-01 18:05:00 +0800
 categories: 技術
 tags: [GitHub, 開源, AI Agent, browser-use, 自動化, Python, 科技新聞, 香港, auto-publish, github-news]
-image: /assets/images/posts/2026-08-01-browser-use-news-cover.jpg
+image: /assets/images/posts/github-browser-use-shot1.png
 description: "GitHub 又出爆紅 project！browser-use 短短時間已經 10.7 萬星——佢令 AI Agent 可以好似人咁用瀏覽器：開網頁、撳掣、打字、填表、抽資料，全部自動化。呢篇新聞式介紹睇下佢點解咁受歡迎、點樣上手。"
 author: "陳志豪 Eric Chan"
 ---
