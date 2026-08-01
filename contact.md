@@ -10,13 +10,13 @@ permalink: /contact/
 
 ### 聯絡方法
 
-- 📬 **訂閱 RSS**：[點擊訂閱](/blog/feed.xml) — 每篇新文章第一時間通知你
-- 📘 **Facebook**：[UiSkills 專頁](https://www.facebook.com/profile.php?id=61592673092633)（籌備緊）
+-  **訂閱 RSS**：[點擊訂閱](/blog/feed.xml) — 每篇新文章第一時間通知你
+-  **Facebook**：[UiSkills 專頁](https://www.facebook.com/profile.php?id=61592673092633)（籌備緊）
 
 ### 暫時未有嘅嘢
 
-- ❌ 公開 Email（未有）— 避免垃圾郵件
-- ❌ 個人社交帳號（未有）— 暫時專注寫 Blog
+-  公開 Email（未有）— 避免垃圾郵件
+-  個人社交帳號（未有）— 暫時專注寫 Blog
 
 ### 互動方式
 
