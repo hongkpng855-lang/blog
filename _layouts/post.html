@@ -29,7 +29,7 @@ layout: default
         <div class="post-meta d-flex align-items-center mb-4">
           <img src="{{ '/assets/images/character-base.jpg' | relative_url }}" alt="陳志豪 Eric Chan 作者頭像" class="rounded-circle me-3 post-author-avatar" width="54" height="54">
           <div>
-            <p class="mb-0 fw-bold">{{ page.author | default: site.author }}</p>
+            <p class="mb-0 fw-bold">{{ site.author }}</p>
             <p class="mb-0 text-muted small">IT 顧問・實測主義者・試過先講</p>
             <p class="mb-0 text-muted">
               <i class="far fa-calendar me-1"></i>{{ page.date | date: "%Y年%m月%d日" }}
