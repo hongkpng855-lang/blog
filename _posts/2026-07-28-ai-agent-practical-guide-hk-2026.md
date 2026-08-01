@@ -95,7 +95,7 @@ Task：每星期三同五下晝 3 點，
 ### 實戰場景 1：Email 自動分類回覆
 
 Gemini Agent 可以連接你嘅 Gmail，自動：
-- 標記緊急 email（標註 ⭐）
+- 標記緊急 email（標註 ）
 - 歸類常規查詢（自動入 Folder）
 - 草擬回覆（你睇一次 confirm 就得）
 - 自動 unsubscribe 垃圾郵件

@@ -202,13 +202,13 @@ Capture（捕捉）→ Organize（整理）→ Distill（提煉）→ Express（
 
 | Plugin | 用途 | 必裝程度 |
 |--------|------|---------|
-| Calendar | 日曆檢視+每日筆記 | ⭐⭐⭐⭐⭐ |
-| Dataview | 用 query 自動列出筆記（進階功能） | ⭐⭐⭐⭐⭐ |
-| Quick Add | 快速 Capture 任何內容 | ⭐⭐⭐⭐ |
-| Excalidraw | 畫流程圖、概念圖 | ⭐⭐⭐⭐ |
-| Kanban | 用看板管理 Projects | ⭐⭐⭐ |
-| Templater | 自動化 template | ⭐⭐⭐⭐ |
-| Omnisearch | 全文搜尋（比內置搜尋更快） | ⭐⭐⭐⭐⭐ |
+| Calendar | 日曆檢視+每日筆記 |  |
+| Dataview | 用 query 自動列出筆記（進階功能） |  |
+| Quick Add | 快速 Capture 任何內容 |  |
+| Excalidraw | 畫流程圖、概念圖 |  |
+| Kanban | 用看板管理 Projects |  |
+| Templater | 自動化 template |  |
+| Omnisearch | 全文搜尋（比內置搜尋更快） |  |
 
 **安裝方法：** Settings → Community Plugins → Browse → 搜尋安裝
 

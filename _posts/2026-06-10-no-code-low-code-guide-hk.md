@@ -81,21 +81,21 @@ description: "2026 年低程式碼（Low-Code）同無程式碼（No-Code）工�
 
 ### 🌐 網站建設
 
-**Webflow**（推薦指數：⭐⭐⭐⭐⭐）
+**Webflow**（推薦指數：）
 - 最靚嘅 No-Code 網站 builder
 - 內置 CMS、SEO 工具、Hosting
 - 香港場景：公司官網、Landing Page、Portfolio、Blog
 - 收費：Free Plan 可用，正式網站約 $15-40 USD/月
 - 我話你知：用 Webflow 整嘅網站，Google PageSpeed 通常 90+ 分，WordPress 要 tune 好耐先做到
 
-**Framer**（推薦指數：⭐⭐⭐⭐）
+**Framer**（推薦指數：）
 - 新世代網站 builder，設計自由度極高
 - 內置 AI 生成網站功能
 - 適合想要靚 Design 但唔識 CSS 嘅人
 
 ### 🔄 自動化工作流
 
-**Make.com**（推薦指數：⭐⭐⭐⭐⭐）
+**Make.com**（推薦指數：）
 - 前身 Integromat，比 Zapier 平至少 3 倍
 - 視覺化 workflow builder，可以串接 Slack/Gmail/Notion/Google Sheets/WhatsApp 等
 - 香港場景：自動回覆 email、同步 Google Sheets 數據、收到 Form submission 自動通知
@@ -103,20 +103,20 @@ description: "2026 年低程式碼（Low-Code）同無程式碼（No-Code）工�
 
 ### 🗄️ Database / 表單
 
-**Airtable**（推薦指數：⭐⭐⭐⭐⭐）
+**Airtable**（推薦指數：）
 - 團隊協作嘅 Database，介面靚過 Excel 100 倍
 - 香港場景：客戶管理 CRM、庫存追蹤、項目管理、內容 calendar
 - 內置 Forms + Automations，可以取代好多重複工作
 - Free Plan 已經夠用
 
-**Notion**（推薦指數：⭐⭐⭐⭐）
+**Notion**（推薦指數：）
 - 其實都可以當 No-Code 工具用
 - 內置 Database、Forms（Typeform-like）、Automations
 - 適合個人/小團隊嘅輕量應用
 
 ### 🏗️ Web App
 
-**Bubble**（推薦指數：⭐⭐⭐⭐）
+**Bubble**（推薦指數：）
 - 最強大嘅 No-Code Web App 平台
 - 內置 User Authentication、Workflow Engine、Database
 - 香港場景：會員系統、預約平台、Marketplace MVP、SaaS 原型
@@ -125,7 +125,7 @@ description: "2026 年低程式碼（Low-Code）同無程式碼（No-Code）工�
 
 ### 📱 Mobile App
 
-**FlutterFlow**（推薦指數：⭐⭐⭐⭐）
+**FlutterFlow**（推薦指數：）
 - drag-and-drop 建立真嘅 Mobile App（唔係 wrapper）
 - 可以 export 原始碼，隨時可以搵 developer 接手
 - 支援 Firebase / Supabase 做 backend

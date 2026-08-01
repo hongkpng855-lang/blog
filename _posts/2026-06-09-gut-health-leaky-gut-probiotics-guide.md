@@ -80,10 +80,10 @@ description: "腸胃脹氣、慢性便秘、生熟食物不耐受、皮膚敏感
 
 | 常見症狀 | 對應菌株 | 經科研實證程度 |
 |---------|---------|:------------:|
-| 抗生素相關腹瀉 | *Lactobacillus rhamnosus GG* | ⭐⭐⭐⭐⭐ |
-| 腸易激綜合症（IBS） | *Bifidobacterium infantis 35624* | ⭐⭐⭐⭐ |
-| 便秘 | *Bifidobacterium lactis BB-12* | ⭐⭐⭐⭐ |
-| 免疫支持 | *Lactobacillus casei Shirota* | ⭐⭐⭐⭐ |
+| 抗生素相關腹瀉 | *Lactobacillus rhamnosus GG* |  |
+| 腸易激綜合症（IBS） | *Bifidobacterium infantis 35624* |  |
+| 便秘 | *Bifidobacterium lactis BB-12* |  |
+| 免疫支持 | *Lactobacillus casei Shirota* |  |
 
 **原則 2：睇活菌數量（CFU）**
 - 一般保健：50-100 億 CFU/日
