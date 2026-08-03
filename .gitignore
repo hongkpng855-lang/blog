@@ -1,0 +1,8 @@
+# 敏感資料
+.secrets/
+*.token
+.env
+
+# Python
+__pycache__/
+*.pyc
