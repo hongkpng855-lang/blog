@@ -6,9 +6,9 @@
       <stop offset="100%" stop-color="#0d1b2a"/>
     </linearGradient>
     <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#F97316"/>
+      <stop offset="0%" stop-color="#FB923C"/>
       <stop offset="50%" stop-color="#E8D48B"/>
-      <stop offset="100%" stop-color="#F97316"/>
+      <stop offset="100%" stop-color="#FB923C"/>
     </linearGradient>
     <linearGradient id="green" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#22c55e"/>
@@ -44,12 +44,12 @@
 
   <!-- ===== Decorative Grid Pattern ===== -->
   <g opacity="0.03">
-    <line x1="0" y1="100" x2="800" y2="100" stroke="#F97316" stroke-width="0.3"/>
-    <line x1="0" y1="200" x2="800" y2="200" stroke="#F97316" stroke-width="0.3"/>
-    <line x1="0" y1="300" x2="800" y2="300" stroke="#F97316" stroke-width="0.3"/>
-    <line x1="200" y1="0" x2="200" y2="450" stroke="#F97316" stroke-width="0.3"/>
-    <line x1="400" y1="0" x2="400" y2="450" stroke="#F97316" stroke-width="0.3"/>
-    <line x1="600" y1="0" x2="600" y2="450" stroke="#F97316" stroke-width="0.3"/>
+    <line x1="0" y1="100" x2="800" y2="100" stroke="#FB923C" stroke-width="0.3"/>
+    <line x1="0" y1="200" x2="800" y2="200" stroke="#FB923C" stroke-width="0.3"/>
+    <line x1="0" y1="300" x2="800" y2="300" stroke="#FB923C" stroke-width="0.3"/>
+    <line x1="200" y1="0" x2="200" y2="450" stroke="#FB923C" stroke-width="0.3"/>
+    <line x1="400" y1="0" x2="400" y2="450" stroke="#FB923C" stroke-width="0.3"/>
+    <line x1="600" y1="0" x2="600" y2="450" stroke="#FB923C" stroke-width="0.3"/>
   </g>
 
   <!-- ===== Max Drawdown Chart ===== -->
@@ -103,9 +103,9 @@
 
   <!-- ===== Shield Icon (decorative) ===== -->
   <g transform="translate(130, 105)" opacity="0.07">
-    <path d="M0,0 L30,0 L30,25 Q30,40 15,45 Q0,40 0,25 Z" fill="none" stroke="#F97316" stroke-width="1.5"/>
-    <line x1="8" y1="20" x2="13" y2="28" stroke="#F97316" stroke-width="2"/>
-    <line x1="13" y1="28" x2="22" y2="12" stroke="#F97316" stroke-width="2"/>
+    <path d="M0,0 L30,0 L30,25 Q30,40 15,45 Q0,40 0,25 Z" fill="none" stroke="#FB923C" stroke-width="1.5"/>
+    <line x1="8" y1="20" x2="13" y2="28" stroke="#FB923C" stroke-width="2"/>
+    <line x1="13" y1="28" x2="22" y2="12" stroke="#FB923C" stroke-width="2"/>
   </g>
 
   <!-- ===== Title Section ===== -->
@@ -118,7 +118,7 @@
   </text>
 
   <!-- Subtitle -->
-  <text x="50" y="72" fill="#F97316" font-size="13" font-family="sans-serif" opacity="0.9">
+  <text x="50" y="72" fill="#FB923C" font-size="13" font-family="sans-serif" opacity="0.9">
     唔好淨係諗回報，學識保護你嘅資產 · 風險先行，回報隨後
   </text>
 
@@ -126,9 +126,9 @@
 
   <!-- Card 1: Diversification -->
   <g transform="translate(50, 370)">
-    <rect x="0" y="-5" width="140" height="28" rx="6" fill="#F97316" opacity="0.1"/>
-    <rect x="0" y="-5" width="140" height="28" rx="6" fill="none" stroke="#F97316" stroke-width="0.5" opacity="0.3"/>
-    <text x="70" y="15" fill="#F97316" font-size="11" font-family="sans-serif" text-anchor="middle" font-weight="500">🛡️ 分散投資</text>
+    <rect x="0" y="-5" width="140" height="28" rx="6" fill="#FB923C" opacity="0.1"/>
+    <rect x="0" y="-5" width="140" height="28" rx="6" fill="none" stroke="#FB923C" stroke-width="0.5" opacity="0.3"/>
+    <text x="70" y="15" fill="#FB923C" font-size="11" font-family="sans-serif" text-anchor="middle" font-weight="500">🛡️ 分散投資</text>
   </g>
 
   <!-- Card 2: Rebalancing -->
@@ -158,11 +158,11 @@
     <rect x="0" y="0" width="600" height="4" rx="2" fill="white" opacity="0.06"/>
     <!-- Gradient bar: green → yellow → red -->
     <rect x="0" y="0" width="180" height="4" rx="2" fill="#22c55e" opacity="0.25"/>
-    <rect x="180" y="0" width="240" height="4" fill="#F97316" opacity="0.2"/>
+    <rect x="180" y="0" width="240" height="4" fill="#FB923C" opacity="0.2"/>
     <rect x="420" y="0" width="180" height="4" rx="2" fill="#ef4444" opacity="0.2"/>
     <!-- Labels -->
     <text x="90" y="-4" fill="#22c55e" font-size="9" font-family="sans-serif" text-anchor="middle" opacity="0.5">低風險</text>
-    <text x="300" y="-4" fill="#F97316" font-size="9" font-family="sans-serif" text-anchor="middle" opacity="0.5">中等</text>
+    <text x="300" y="-4" fill="#FB923C" font-size="9" font-family="sans-serif" text-anchor="middle" opacity="0.5">中等</text>
     <text x="510" y="-4" fill="#ef4444" font-size="9" font-family="sans-serif" text-anchor="middle" opacity="0.5">高風險</text>
   </g>
 

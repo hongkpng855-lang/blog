@@ -6,7 +6,7 @@
       <stop offset="100%" style="stop-color:#0f1e38"/>
     </linearGradient>
     <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#F97316"/>
+      <stop offset="0%" style="stop-color:#FB923C"/>
       <stop offset="100%" style="stop-color:#D4AF37"/>
     </linearGradient>
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -26,15 +26,15 @@
   <rect width="512" height="512" fill="url(#bg)" rx="0"/>
 
   <!-- Decorative circles -->
-  <circle cx="420" cy="80" r="180" fill="none" stroke="#F97316" stroke-width="0.5" opacity="0.12"/>
+  <circle cx="420" cy="80" r="180" fill="none" stroke="#FB923C" stroke-width="0.5" opacity="0.12"/>
   <circle cx="100" cy="400" r="140" fill="none" stroke="#4A90D9" stroke-width="0.5" opacity="0.10"/>
-  <circle cx="256" cy="256" r="220" fill="none" stroke="#F97316" stroke-width="0.3" opacity="0.08"/>
+  <circle cx="256" cy="256" r="220" fill="none" stroke="#FB923C" stroke-width="0.3" opacity="0.08"/>
 
   <!-- Brain/Nodes network -->
   <!-- Central node -->
   <circle cx="256" cy="200" r="38" fill="#1B2A4A" stroke="url(#gold)" stroke-width="2.5" filter="url(#shadow)"/>
-  <text x="256" y="196" text-anchor="middle" fill="#F97316" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">🧠</text>
-  <text x="256" y="212" text-anchor="middle" fill="#F97316" font-family="system-ui, sans-serif" font-size="9">Second Brain</text>
+  <text x="256" y="196" text-anchor="middle" fill="#FB923C" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">🧠</text>
+  <text x="256" y="212" text-anchor="middle" fill="#FB923C" font-family="system-ui, sans-serif" font-size="9">Second Brain</text>
 
   <!-- Connected nodes -->
   <!-- P -->
@@ -58,35 +58,35 @@
   <text x="382" y="308" text-anchor="middle" fill="#8899bb" font-family="system-ui, sans-serif" font-size="7">Archives</text>
 
   <!-- Connection lines -->
-  <line x1="192" y1="152" x2="228" y2="178" stroke="#F97316" stroke-width="1" opacity="0.5"/>
-  <line x1="284" y1="178" x2="328" y2="152" stroke="#F97316" stroke-width="1" opacity="0.5"/>
-  <line x1="192" y1="248" x2="158" y2="268" stroke="#F97316" stroke-width="1" opacity="0.5"/>
-  <line x1="320" y1="248" x2="354" y2="268" stroke="#F97316" stroke-width="1" opacity="0.5"/>
-  <line x1="236" y1="236" x2="236" y2="236" stroke="#F97316" stroke-width="0" opacity="0"/>
+  <line x1="192" y1="152" x2="228" y2="178" stroke="#FB923C" stroke-width="1" opacity="0.5"/>
+  <line x1="284" y1="178" x2="328" y2="152" stroke="#FB923C" stroke-width="1" opacity="0.5"/>
+  <line x1="192" y1="248" x2="158" y2="268" stroke="#FB923C" stroke-width="1" opacity="0.5"/>
+  <line x1="320" y1="248" x2="354" y2="268" stroke="#FB923C" stroke-width="1" opacity="0.5"/>
+  <line x1="236" y1="236" x2="236" y2="236" stroke="#FB923C" stroke-width="0" opacity="0"/>
 
   <!-- Small decorative dots on lines -->
-  <circle cx="210" cy="165" r="2" fill="#F97316" opacity="0.4"/>
-  <circle cx="306" cy="165" r="2" fill="#F97316" opacity="0.4"/>
-  <circle cx="175" cy="258" r="2" fill="#F97316" opacity="0.4"/>
-  <circle cx="337" cy="258" r="2" fill="#F97316" opacity="0.4"/>
+  <circle cx="210" cy="165" r="2" fill="#FB923C" opacity="0.4"/>
+  <circle cx="306" cy="165" r="2" fill="#FB923C" opacity="0.4"/>
+  <circle cx="175" cy="258" r="2" fill="#FB923C" opacity="0.4"/>
+  <circle cx="337" cy="258" r="2" fill="#FB923C" opacity="0.4"/>
 
   <!-- Bottom section - info cards -->
-  <rect x="60" y="345" width="180" height="28" rx="6" fill="#1B2A4A" stroke="#F97316" stroke-width="1" opacity="0.8"/>
-  <text x="150" y="363" text-anchor="middle" fill="#F97316" font-family="system-ui, sans-serif" font-size="10">Capture → Organize</text>
+  <rect x="60" y="345" width="180" height="28" rx="6" fill="#1B2A4A" stroke="#FB923C" stroke-width="1" opacity="0.8"/>
+  <text x="150" y="363" text-anchor="middle" fill="#FB923C" font-family="system-ui, sans-serif" font-size="10">Capture → Organize</text>
 
-  <rect x="260" y="345" width="180" height="28" rx="6" fill="#1B2A4A" stroke="#F97316" stroke-width="1" opacity="0.8"/>
-  <text x="350" y="363" text-anchor="middle" fill="#F97316" font-family="system-ui, sans-serif" font-size="10">Distill → Express</text>
+  <rect x="260" y="345" width="180" height="28" rx="6" fill="#1B2A4A" stroke="#FB923C" stroke-width="1" opacity="0.8"/>
+  <text x="350" y="363" text-anchor="middle" fill="#FB923C" font-family="system-ui, sans-serif" font-size="10">Distill → Express</text>
 
   <!-- Input/Output arrows -->
-  <path d="M256 238 L256 345" stroke="#F97316" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.5"/>
-  <polygon points="252,340 256,350 260,340" fill="#F97316" opacity="0.5"/>
+  <path d="M256 238 L256 345" stroke="#FB923C" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.5"/>
+  <polygon points="252,340 256,350 260,340" fill="#FB923C" opacity="0.5"/>
 
   <!-- Bottom tagline -->
   <text x="256" y="415" text-anchor="middle" fill="url(#gold)" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" letter-spacing="2">KNOWLEDGE MANAGEMENT</text>
   <text x="256" y="435" text-anchor="middle" fill="#8899bb" font-family="system-ui, sans-serif" font-size="9">由零建立你嘅個人知識庫</text>
 
   <!-- Bottom decorative line -->
-  <line x1="150" y1="448" x2="362" y2="448" stroke="#F97316" stroke-width="0.5" opacity="0.3"/>
+  <line x1="150" y1="448" x2="362" y2="448" stroke="#FB923C" stroke-width="0.5" opacity="0.3"/>
 
   <!-- Category badge -->
   <rect x="206" y="462" width="100" height="22" rx="11" fill="none" stroke="#4A90D9" stroke-width="1" opacity="0.6"/>

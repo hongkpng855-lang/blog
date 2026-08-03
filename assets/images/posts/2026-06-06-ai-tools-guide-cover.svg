@@ -5,7 +5,7 @@
       <stop offset="100%" style="stop-color:#1B2A4A" />
     </linearGradient>
     <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#F97316" />
+      <stop offset="0%" style="stop-color:#FB923C" />
       <stop offset="100%" style="stop-color:#E8D48B" />
     </linearGradient>
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -70,11 +70,11 @@
     <line x1="30" y1="-15" x2="-20" y2="15" stroke="#4FC3F7" stroke-width="0.8" opacity="0.3"/>
 
     <!-- Sparkle dots -->
-    <circle cx="-50" cy="-25" r="2" fill="#F97316" opacity="0.7"/>
-    <circle cx="50" cy="-20" r="2" fill="#F97316" opacity="0.7"/>
-    <circle cx="0" cy="-40" r="2.5" fill="#F97316" opacity="0.8"/>
-    <circle cx="-15" cy="30" r="1.5" fill="#F97316" opacity="0.5"/>
-    <circle cx="15" cy="28" r="1.5" fill="#F97316" opacity="0.5"/>
+    <circle cx="-50" cy="-25" r="2" fill="#FB923C" opacity="0.7"/>
+    <circle cx="50" cy="-20" r="2" fill="#FB923C" opacity="0.7"/>
+    <circle cx="0" cy="-40" r="2.5" fill="#FB923C" opacity="0.8"/>
+    <circle cx="-15" cy="30" r="1.5" fill="#FB923C" opacity="0.5"/>
+    <circle cx="15" cy="28" r="1.5" fill="#FB923C" opacity="0.5"/>
   </g>
 
   <!-- AI tools icons around the brain -->
@@ -125,13 +125,13 @@
   <rect x="180" y="455" width="152" height="2" rx="1" fill="url(#glow)" opacity="0.6"/>
 
   <!-- Floating particles -->
-  <circle cx="80" cy="250" r="1.5" fill="#F97316" opacity="0.4">
+  <circle cx="80" cy="250" r="1.5" fill="#FB923C" opacity="0.4">
     <animate attributeName="opacity" values="0.4;0.8;0.4" dur="3s" repeatCount="indefinite"/>
   </circle>
   <circle cx="430" cy="200" r="1.5" fill="#4FC3F7" opacity="0.4">
     <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2.5s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="200" cy="80" r="1" fill="#F97316" opacity="0.3">
+  <circle cx="200" cy="80" r="1" fill="#FB923C" opacity="0.3">
     <animate attributeName="opacity" values="0.3;0.7;0.3" dur="4s" repeatCount="indefinite"/>
   </circle>
   <circle cx="350" cy="470" r="1" fill="#4FC3F7" opacity="0.3">

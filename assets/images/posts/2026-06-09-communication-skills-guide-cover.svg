@@ -6,7 +6,7 @@
       <stop offset="100%" style="stop-color:#1a2a4a;stop-opacity:1" />
     </linearGradient>
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#F97316;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#FB923C;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#E8C84A;stop-opacity:1" />
     </linearGradient>
     <linearGradient id="accent2" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -77,7 +77,7 @@
           fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0.7"/>
     <text x="15" y="28" font-family="system-ui, sans-serif" font-size="9" fill="#ffffff" opacity="0.7">我明你感受，</text>
     <text x="15" y="42" font-family="system-ui, sans-serif" font-size="9" fill="#ffffff" opacity="0.7">好抱歉令你失望。</text>
-    <text x="15" y="58" font-family="system-ui, sans-serif" font-size="8" fill="#F97316" opacity="0.6">🤝 EAR 模型</text>
+    <text x="15" y="58" font-family="system-ui, sans-serif" font-size="8" fill="#FB923C" opacity="0.6">🤝 EAR 模型</text>
   </g>
 
   <!-- Small speech bubble 4 -->
@@ -109,9 +109,9 @@
   <!-- Decorative nodes -->
   <g opacity="0.4">
     <!-- Small dots on connection lines -->
-    <circle cx="290" cy="165" r="3" fill="#F97316"/>
+    <circle cx="290" cy="165" r="3" fill="#FB923C"/>
     <circle cx="440" cy="165" r="3" fill="#4ECDC4"/>
-    <circle cx="240" cy="290" r="2.5" fill="#F97316"/>
+    <circle cx="240" cy="290" r="2.5" fill="#FB923C"/>
     <circle cx="510" cy="280" r="2.5" fill="#4ECDC4"/>
   </g>
 
@@ -120,7 +120,7 @@
     <text x="0" y="0" font-family="system-ui, sans-serif" font-size="32" fill="#ffffff" text-anchor="middle" font-weight="bold" letter-spacing="2">
       溝通表達力提升指南
     </text>
-    <text x="0" y="32" font-family="system-ui, sans-serif" font-size="16" fill="#F97316" text-anchor="middle" opacity="0.9">
+    <text x="0" y="32" font-family="system-ui, sans-serif" font-size="16" fill="#FB923C" text-anchor="middle" opacity="0.9">
       職場・社交・家庭 — 實用說話攻略
     </text>
     <text x="0" y="58" font-family="system-ui, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" opacity="0.5">

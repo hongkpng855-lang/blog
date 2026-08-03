@@ -6,7 +6,7 @@
       <stop offset="100%" style="stop-color:#0f3460"/>
     </linearGradient>
     <linearGradient id="gold1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#F97316"/>
+      <stop offset="0%" style="stop-color:#FB923C"/>
       <stop offset="100%" style="stop-color:#e2c96e"/>
     </linearGradient>
     <linearGradient id="blue1" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -35,7 +35,7 @@
     </linearGradient>
     <linearGradient id="bar1" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#4a90d9"/>
-      <stop offset="100%" style="stop-color:#F97316"/>
+      <stop offset="100%" style="stop-color:#FB923C"/>
     </linearGradient>
     <filter id="shadow">
       <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.35"/>
@@ -54,26 +54,26 @@
 
   <!-- Grid dots pattern -->
   <g opacity="0.04">
-    <circle cx="40" cy="40" r="1" fill="#F97316"/>
-    <circle cx="120" cy="40" r="1" fill="#F97316"/>
-    <circle cx="200" cy="40" r="1" fill="#F97316"/>
-    <circle cx="280" cy="40" r="1" fill="#F97316"/>
-    <circle cx="360" cy="40" r="1" fill="#F97316"/>
-    <circle cx="440" cy="40" r="1" fill="#F97316"/>
-    <circle cx="520" cy="40" r="1" fill="#F97316"/>
-    <circle cx="600" cy="40" r="1" fill="#F97316"/>
-    <circle cx="680" cy="40" r="1" fill="#F97316"/>
-    <circle cx="760" cy="40" r="1" fill="#F97316"/>
-    <circle cx="40" cy="110" r="1" fill="#F97316"/>
-    <circle cx="120" cy="110" r="1" fill="#F97316"/>
-    <circle cx="200" cy="110" r="1" fill="#F97316"/>
-    <circle cx="280" cy="110" r="1" fill="#F97316"/>
-    <circle cx="360" cy="110" r="1" fill="#F97316"/>
-    <circle cx="440" cy="110" r="1" fill="#F97316"/>
-    <circle cx="520" cy="110" r="1" fill="#F97316"/>
-    <circle cx="600" cy="110" r="1" fill="#F97316"/>
-    <circle cx="680" cy="110" r="1" fill="#F97316"/>
-    <circle cx="760" cy="110" r="1" fill="#F97316"/>
+    <circle cx="40" cy="40" r="1" fill="#FB923C"/>
+    <circle cx="120" cy="40" r="1" fill="#FB923C"/>
+    <circle cx="200" cy="40" r="1" fill="#FB923C"/>
+    <circle cx="280" cy="40" r="1" fill="#FB923C"/>
+    <circle cx="360" cy="40" r="1" fill="#FB923C"/>
+    <circle cx="440" cy="40" r="1" fill="#FB923C"/>
+    <circle cx="520" cy="40" r="1" fill="#FB923C"/>
+    <circle cx="600" cy="40" r="1" fill="#FB923C"/>
+    <circle cx="680" cy="40" r="1" fill="#FB923C"/>
+    <circle cx="760" cy="40" r="1" fill="#FB923C"/>
+    <circle cx="40" cy="110" r="1" fill="#FB923C"/>
+    <circle cx="120" cy="110" r="1" fill="#FB923C"/>
+    <circle cx="200" cy="110" r="1" fill="#FB923C"/>
+    <circle cx="280" cy="110" r="1" fill="#FB923C"/>
+    <circle cx="360" cy="110" r="1" fill="#FB923C"/>
+    <circle cx="440" cy="110" r="1" fill="#FB923C"/>
+    <circle cx="520" cy="110" r="1" fill="#FB923C"/>
+    <circle cx="600" cy="110" r="1" fill="#FB923C"/>
+    <circle cx="680" cy="110" r="1" fill="#FB923C"/>
+    <circle cx="760" cy="110" r="1" fill="#FB923C"/>
   </g>
 
   <!-- Central AI Search icon - magnifying glass with AI sparkle -->
@@ -84,7 +84,7 @@
     <circle cx="-4" cy="-4" r="16" fill="none" stroke="url(#gold1)" stroke-width="3.5"/>
     <line x1="8" y1="8" x2="20" y2="20" stroke="url(#gold1)" stroke-width="3.5" stroke-linecap="round"/>
     <!-- Sparkle dots -->
-    <circle cx="22" cy="-18" r="2.5" fill="#F97316" filter="url(#glow)"/>
+    <circle cx="22" cy="-18" r="2.5" fill="#FB923C" filter="url(#glow)"/>
     <circle cx="28" cy="6" r="1.8" fill="#48cae4" filter="url(#glow)"/>
     <circle cx="-18" cy="20" r="2" fill="#00cec9" filter="url(#glow)"/>
   </g>
@@ -108,11 +108,11 @@
   <g transform="translate(210, 172)" filter="url(#shadow)">
     <rect width="180" height="110" rx="8" fill="url(#card1g)" stroke="#0f3460" stroke-width="1"/>
     <rect x="0" y="0" width="180" height="4" rx="2" fill="url(#gold1)"/>
-    <text x="90" y="26" text-anchor="middle" fill="#F97316" font-family="system-ui,sans-serif" font-size="11" font-weight="bold">🌐 Google AI Overview</text>
+    <text x="90" y="26" text-anchor="middle" fill="#FB923C" font-family="system-ui,sans-serif" font-size="11" font-weight="bold">🌐 Google AI Overview</text>
     <text x="90" y="43" text-anchor="middle" fill="#a0a0a0" font-family="system-ui,sans-serif" font-size="9.5">SERP AI 摘要</text>
     <text x="90" y="58" text-anchor="middle" fill="#a0a0a0" font-family="system-ui,sans-serif" font-size="9.5">多步驟推理</text>
     <text x="90" y="73" text-anchor="middle" fill="#a0a0a0" font-family="system-ui,sans-serif" font-size="9.5">完全免費</text>
-    <text x="90" y="90" text-anchor="middle" fill="#F97316" font-family="system-ui,sans-serif" font-size="9.5">中文支援有限</text>
+    <text x="90" y="90" text-anchor="middle" fill="#FB923C" font-family="system-ui,sans-serif" font-size="9.5">中文支援有限</text>
   </g>
 
   <!-- Card 3: ChatGPT Search -->
@@ -140,10 +140,10 @@
   <!-- Bottom comparison bar -->
   <g transform="translate(20, 300)" filter="url(#shadow)">
     <rect width="760" height="50" rx="8" fill="#1e3a5f" stroke="#0f3460" stroke-width="1" opacity="0.9"/>
-    <text x="380" y="316" text-anchor="middle" fill="#F97316" font-family="system-ui,sans-serif" font-size="10" font-weight="bold">2026 AI 搜尋引擎功能對比</text>
+    <text x="380" y="316" text-anchor="middle" fill="#FB923C" font-family="system-ui,sans-serif" font-size="10" font-weight="bold">2026 AI 搜尋引擎功能對比</text>
     <line x1="40" y1="326" x2="760" y2="326" stroke="#0f3460" stroke-width="0.5"/>
     <text x="95" y="342" text-anchor="middle" fill="#4a90d9" font-family="system-ui,sans-serif" font-size="9">Perplexity</text>
-    <text x="280" y="342" text-anchor="middle" fill="#F97316" font-family="system-ui,sans-serif" font-size="9">Google AIO</text>
+    <text x="280" y="342" text-anchor="middle" fill="#FB923C" font-family="system-ui,sans-serif" font-size="9">Google AIO</text>
     <text x="490" y="342" text-anchor="middle" fill="#00cec9" font-family="system-ui,sans-serif" font-size="9">ChatGPT S.</text>
     <text x="680" y="342" text-anchor="middle" fill="#a29bfe" font-family="system-ui,sans-serif" font-size="9">NotebookLM</text>
     <!-- Rating bars -->
@@ -164,8 +164,8 @@
     <text x="100" y="40" text-anchor="middle" fill="#777" font-family="system-ui,sans-serif" font-size="7.5">搜尋效率</text>
   </g>
   <g transform="translate(210, 370)">
-    <circle cx="100" cy="20" r="22" fill="#F97316" opacity="0.12"/>
-    <text x="100" y="24" text-anchor="middle" fill="#F97316" font-family="system-ui,sans-serif" font-size="11" font-weight="bold">80%</text>
+    <circle cx="100" cy="20" r="22" fill="#FB923C" opacity="0.12"/>
+    <text x="100" y="24" text-anchor="middle" fill="#FB923C" font-family="system-ui,sans-serif" font-size="11" font-weight="bold">80%</text>
     <text x="100" y="40" text-anchor="middle" fill="#777" font-family="system-ui,sans-serif" font-size="7.5">Source 可信度</text>
   </g>
   <g transform="translate(400, 370)">

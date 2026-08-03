@@ -6,7 +6,7 @@
       <stop offset="100%" style="stop-color:#2A1A3F"/>
     </linearGradient>
     <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#F97316"/>
+      <stop offset="0%" style="stop-color:#FB923C"/>
       <stop offset="100%" style="stop-color:#E8C84A"/>
     </linearGradient>
     <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -38,7 +38,7 @@
   <rect width="512" height="512" fill="url(#bg)"/>
 
   <!-- Decorative circles -->
-  <circle cx="420" cy="80" r="120" fill="#F97316" opacity="0.04"/>
+  <circle cx="420" cy="80" r="120" fill="#FB923C" opacity="0.04"/>
   <circle cx="80" cy="420" r="100" fill="#4ECDC4" opacity="0.04"/>
   <circle cx="256" cy="256" r="200" fill="#4A90D9" opacity="0.02"/>
 
@@ -53,8 +53,8 @@
     <path d="M-16,-30 Q-22,-10 -20,10 Q-18,30 -8,35 Q0,38 8,35 Q18,30 20,10 Q22,-10 16,-30 Q8,-40 0,-42 Q-8,-40 -16,-30Z"
           fill="none" stroke="url(#gold)" stroke-width="2.5" opacity="0.9"/>
     <!-- Nostrils -->
-    <ellipse cx="-10" cy="33" rx="6" ry="3" fill="#F97316" opacity="0.3"/>
-    <ellipse cx="10" cy="33" rx="6" ry="3" fill="#F97316" opacity="0.3"/>
+    <ellipse cx="-10" cy="33" rx="6" ry="3" fill="#FB923C" opacity="0.3"/>
+    <ellipse cx="10" cy="33" rx="6" ry="3" fill="#FB923C" opacity="0.3"/>
   </g>
 
   <!-- Airflow waves going into nose -->
@@ -86,10 +86,10 @@
   <!-- === 4 Info Cards === -->
   <!-- Card 1: 環境控制 -->
   <g transform="translate(16, 290)" filter="url(#shadow)">
-    <rect width="232" height="94" rx="10" fill="url(#card1)" stroke="#F97316" stroke-opacity="0.15" stroke-width="1"/>
-    <rect x="10" y="8" width="32" height="32" rx="8" fill="#F97316" opacity="0.15"/>
-    <text x="26" y="28" text-anchor="middle" fill="#F97316" font-size="16">🏠</text>
-    <text x="50" y="22" fill="#F97316" font-family="system-ui, sans-serif" font-weight="700" font-size="12">環境控制</text>
+    <rect width="232" height="94" rx="10" fill="url(#card1)" stroke="#FB923C" stroke-opacity="0.15" stroke-width="1"/>
+    <rect x="10" y="8" width="32" height="32" rx="8" fill="#FB923C" opacity="0.15"/>
+    <text x="26" y="28" text-anchor="middle" fill="#FB923C" font-size="16">🏠</text>
+    <text x="50" y="22" fill="#FB923C" font-family="system-ui, sans-serif" font-weight="700" font-size="12">環境控制</text>
     <text x="50" y="38" fill="#8899AA" font-family="system-ui, sans-serif" font-size="9.5">抽濕・HEPA・防塵蟎</text>
     <text x="50" y="52" fill="#8899AA" font-family="system-ui, sans-serif" font-size="9.5">洗冷氣・除霉菌</text>
     <text x="50" y="66" fill="#8899AA" font-family="system-ui, sans-serif" font-size="9.5">溫差管理・口罩過渡</text>
@@ -105,7 +105,7 @@
     <text x="50" y="38" fill="#8899AA" font-family="system-ui, sans-serif" font-size="9.5">鹽水洗鼻・按摩穴位</text>
     <text x="50" y="52" fill="#8899AA" font-family="system-ui, sans-serif" font-size="9.5">腹式呼吸・補水</text>
     <text x="50" y="66" fill="#8899AA" font-family="system-ui, sans-serif" font-size="9.5">早晚各 5 分鐘 routine</text>
-    <text x="12" y="84" fill="#F97316" font-family="system-ui, sans-serif" font-weight="700" font-size="10">▸ 發作減少 50%+</text>
+    <text x="12" y="84" fill="#FB923C" font-family="system-ui, sans-serif" font-weight="700" font-size="10">▸ 發作減少 50%+</text>
   </g>
 
   <!-- Card 3: 飲食調理 -->
@@ -134,7 +134,7 @@
 
   <!-- Bottom stat bar -->
   <g transform="translate(0, 492)">
-    <rect width="512" height="20" fill="#F97316" opacity="0.9"/>
+    <rect width="512" height="20" fill="#FB923C" opacity="0.9"/>
     <text x="20" y="13" fill="#0F1B33" font-family="system-ui, sans-serif" font-weight="700" font-size="9">🏥 香港 25-30% 人口有鼻敏感</text>
     <text x="256" y="13" text-anchor="middle" fill="#0F1B33" font-family="system-ui, sans-serif" font-weight="700" font-size="9">🫁 4 大管理支柱</text>
     <text x="480" y="13" text-anchor="end" fill="#0F1B33" font-family="system-ui, sans-serif" font-weight="700" font-size="9">完整實戰系統</text>

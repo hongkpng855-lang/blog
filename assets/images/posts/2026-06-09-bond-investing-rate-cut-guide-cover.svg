@@ -6,9 +6,9 @@
       <stop offset="100%" stop-color="#0d1b2a"/>
     </linearGradient>
     <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#F97316"/>
+      <stop offset="0%" stop-color="#FB923C"/>
       <stop offset="50%" stop-color="#E8D48B"/>
-      <stop offset="100%" stop-color="#F97316"/>
+      <stop offset="100%" stop-color="#FB923C"/>
     </linearGradient>
     <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#06b6d4"/>
@@ -47,13 +47,13 @@
 
   <!-- Decorative hex pattern -->
   <g opacity="0.03">
-    <polygon points="400,225 450,195 500,225 500,285 450,315 400,285" fill="none" stroke="#F97316" stroke-width="0.8"/>
-    <polygon points="350,195 400,165 450,195 450,255 400,285 350,255" fill="none" stroke="#F97316" stroke-width="0.6"/>
-    <polygon points="450,255 500,285 450,315 400,345 350,315 400,285" fill="none" stroke="#F97316" stroke-width="0.5"/>
-    <polygon points="300,225 350,195 400,225 400,285 350,315 300,285" fill="none" stroke="#F97316" stroke-width="0.5"/>
-    <polygon points="500,165 550,135 600,165 600,225 550,255 500,225" fill="none" stroke="#F97316" stroke-width="0.4"/>
-    <polygon points="250,255 300,225 350,255 350,315 300,345 250,315" fill="none" stroke="#F97316" stroke-width="0.4"/>
-    <polygon points="550,255 600,285 550,315 500,345 450,315 500,285" fill="none" stroke="#F97316" stroke-width="0.3"/>
+    <polygon points="400,225 450,195 500,225 500,285 450,315 400,285" fill="none" stroke="#FB923C" stroke-width="0.8"/>
+    <polygon points="350,195 400,165 450,195 450,255 400,285 350,255" fill="none" stroke="#FB923C" stroke-width="0.6"/>
+    <polygon points="450,255 500,285 450,315 400,345 350,315 400,285" fill="none" stroke="#FB923C" stroke-width="0.5"/>
+    <polygon points="300,225 350,195 400,225 400,285 350,315 300,285" fill="none" stroke="#FB923C" stroke-width="0.5"/>
+    <polygon points="500,165 550,135 600,165 600,225 550,255 500,225" fill="none" stroke="#FB923C" stroke-width="0.4"/>
+    <polygon points="250,255 300,225 350,255 350,315 300,345 250,315" fill="none" stroke="#FB923C" stroke-width="0.4"/>
+    <polygon points="550,255 600,285 550,315 500,345 450,315 500,285" fill="none" stroke="#FB923C" stroke-width="0.3"/>
   </g>
 
   <!-- ===== Bond Yield Curve Chart ===== -->
@@ -90,10 +90,10 @@
   <text x="260" y="358" fill="white" opacity="0.25" font-size="9" font-family="sans-serif" text-anchor="middle">Q2 2026</text>
 
   <!-- Q3 2026 rate level (predicted) -->
-  <rect x="340" y="190" width="80" height="150" rx="4" fill="#F97316" opacity="0.12"/>
-  <rect x="340" y="190" width="80" height="150" rx="4" fill="none" stroke="#F97316" stroke-width="1" opacity="0.4"/>
-  <text x="380" y="185" fill="#F97316" font-size="9" font-family="sans-serif" text-anchor="middle" opacity="0.9">4.5%</text>
-  <text x="380" y="358" fill="#F97316" font-size="9" font-family="sans-serif" text-anchor="middle" opacity="0.5">Q3 2026</text>
+  <rect x="340" y="190" width="80" height="150" rx="4" fill="#FB923C" opacity="0.12"/>
+  <rect x="340" y="190" width="80" height="150" rx="4" fill="none" stroke="#FB923C" stroke-width="1" opacity="0.4"/>
+  <text x="380" y="185" fill="#FB923C" font-size="9" font-family="sans-serif" text-anchor="middle" opacity="0.9">4.5%</text>
+  <text x="380" y="358" fill="#FB923C" font-size="9" font-family="sans-serif" text-anchor="middle" opacity="0.5">Q3 2026</text>
 
   <!-- Q4 2026 rate level (predicted) -->
   <rect x="460" y="210" width="80" height="130" rx="4" fill="#22c55e" opacity="0.12"/>
@@ -116,15 +116,15 @@
 
   <!-- ===== Bond icon (left side decorative) ===== -->
   <g transform="translate(100, 120)" opacity="0.08">
-    <rect x="-25" y="-18" width="50" height="36" rx="4" fill="none" stroke="#F97316" stroke-width="1.5"/>
-    <line x1="-15" y1="-8" x2="15" y2="-8" stroke="#F97316" stroke-width="1"/>
-    <line x1="-15" y1="0" x2="15" y2="0" stroke="#F97316" stroke-width="1"/>
-    <line x1="-15" y1="8" x2="15" y2="8" stroke="#F97316" stroke-width="1"/>
-    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#F97316" opacity="0.2"/>
+    <rect x="-25" y="-18" width="50" height="36" rx="4" fill="none" stroke="#FB923C" stroke-width="1.5"/>
+    <line x1="-15" y1="-8" x2="15" y2="-8" stroke="#FB923C" stroke-width="1"/>
+    <line x1="-15" y1="0" x2="15" y2="0" stroke="#FB923C" stroke-width="1"/>
+    <line x1="-15" y1="8" x2="15" y2="8" stroke="#FB923C" stroke-width="1"/>
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#FB923C" opacity="0.2"/>
     <!-- Perforation dots -->
-    <circle cx="-15" cy="-6" r="1" fill="#F97316"/>
-    <circle cx="-15" cy="2" r="1" fill="#F97316"/>
-    <circle cx="-15" cy="10" r="1" fill="#F97316"/>
+    <circle cx="-15" cy="-6" r="1" fill="#FB923C"/>
+    <circle cx="-15" cy="2" r="1" fill="#FB923C"/>
+    <circle cx="-15" cy="10" r="1" fill="#FB923C"/>
   </g>
 
   <!-- ===== Title Section ===== -->
@@ -137,16 +137,16 @@
   </text>
 
   <!-- Subtitle -->
-  <text x="60" y="72" fill="#F97316" font-size="13" font-family="sans-serif" opacity="0.9">
+  <text x="60" y="72" fill="#FB923C" font-size="13" font-family="sans-serif" opacity="0.9">
     由零開始建立穩健收息組合 · 利率趨勢向下
   </text>
 
   <!-- ===== Info Cards ===== -->
   <!-- Card 1: Current yield -->
   <g transform="translate(60, 380)">
-    <rect x="0" y="-5" width="120" height="26" rx="6" fill="#F97316" opacity="0.1"/>
-    <rect x="0" y="-5" width="120" height="26" rx="6" fill="none" stroke="#F97316" stroke-width="0.5" opacity="0.3"/>
-    <text x="60" y="13" fill="#F97316" font-size="11" font-family="sans-serif" text-anchor="middle" font-weight="500">📈 債息 ~4.5%</text>
+    <rect x="0" y="-5" width="120" height="26" rx="6" fill="#FB923C" opacity="0.1"/>
+    <rect x="0" y="-5" width="120" height="26" rx="6" fill="none" stroke="#FB923C" stroke-width="0.5" opacity="0.3"/>
+    <text x="60" y="13" fill="#FB923C" font-size="11" font-family="sans-serif" text-anchor="middle" font-weight="500">📈 債息 ~4.5%</text>
   </g>
 
   <!-- Card 2: Duration -->
