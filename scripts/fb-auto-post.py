@@ -115,16 +115,6 @@ def get_absolute_image(image_path):
     image_path = image_path.lstrip("/")
     return f"{BLOG_BASE}{image_path}"
 
-def extract_source_link(content):
-    """從正文搵出處連結——優先搵「出處」section 之後嘅 URL，其次任何 github.com URL"""
-    m = re.search(r"出處.{0,200}?(https?://[^\s\)\"]+)", content, re.S)
-    if m:
-        return m.group(1)
-    m2 = re.search(r"https?://github\.com/[\w.-]+/[\w.-]+", content)
-    if m2:
-        return m2.group(0)
-    return None
-
 def fb_post_link(message, link):
     """POST 連結卡片去 Facebook（Facebook 自動抓 og:image 做封面圖）"""
     url = f"https://graph.facebook.com/v21.0/{PAGE_ID}/feed"
