@@ -10,8 +10,8 @@
       <stop offset="100%" style="stop-color:#0088cc;stop-opacity:0"/>
     </linearGradient>
     <linearGradient id="glow2" x1="100%" y1="100%" x2="0%" y2="0%">
-      <stop offset="0%" style="stop-color:#FED7AA;stop-opacity:0.2"/>
-      <stop offset="100%" style="stop-color:#FED7AA;stop-opacity:0"/>
+      <stop offset="0%" style="stop-color:#FDBA74;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#FDBA74;stop-opacity:0"/>
     </linearGradient>
     <filter id="neon">
       <feGaussianBlur stdDeviation="3" result="blur"/>
@@ -112,17 +112,17 @@
     <polygon points="0,-35 30,-17 30,17 0,35 -30,17 -30,-17" fill="#00d4ff" opacity="0.08"/>
 
     <!-- Inner data nodes -->
-    <circle cx="0" cy="0" r="4" fill="#FED7AA" filter="url(#neon)"/>
+    <circle cx="0" cy="0" r="4" fill="#FDBA74" filter="url(#neon)"/>
     <circle cx="-12" cy="-10" r="2.5" fill="#00d4ff" opacity="0.7"/>
     <circle cx="12" cy="-8" r="2.5" fill="#00d4ff" opacity="0.7"/>
     <circle cx="-8" cy="12" r="2.5" fill="#00d4ff" opacity="0.7"/>
     <circle cx="10" cy="10" r="2.5" fill="#00d4ff" opacity="0.7"/>
 
     <!-- Connection lines inside hexagon -->
-    <line x1="0" y1="0" x2="-12" y2="-10" stroke="#FED7AA" stroke-width="0.8" opacity="0.6"/>
-    <line x1="0" y1="0" x2="12" y2="-8" stroke="#FED7AA" stroke-width="0.8" opacity="0.6"/>
-    <line x1="0" y1="0" x2="-8" y2="12" stroke="#FED7AA" stroke-width="0.8" opacity="0.6"/>
-    <line x1="0" y1="0" x2="10" y2="10" stroke="#FED7AA" stroke-width="0.8" opacity="0.6"/>
+    <line x1="0" y1="0" x2="-12" y2="-10" stroke="#FDBA74" stroke-width="0.8" opacity="0.6"/>
+    <line x1="0" y1="0" x2="12" y2="-8" stroke="#FDBA74" stroke-width="0.8" opacity="0.6"/>
+    <line x1="0" y1="0" x2="-8" y2="12" stroke="#FDBA74" stroke-width="0.8" opacity="0.6"/>
+    <line x1="0" y1="0" x2="10" y2="10" stroke="#FDBA74" stroke-width="0.8" opacity="0.6"/>
 
     <!-- WiFi arcs -->
     <g stroke="#00d4ff" fill="none" opacity="0.5" stroke-width="1.2">
@@ -143,8 +143,8 @@
 
   <!-- AI brain symbol -->
   <g transform="translate(370,110)" opacity="0.6">
-    <path d="M-15,-10 Q0,-20 15,-10 Q20,0 15,10 Q0,20 -15,10 Q-20,0 -15,-10Z" fill="none" stroke="#FED7AA" stroke-width="1"/>
-    <circle cx="0" cy="0" r="2" fill="#FED7AA"/>
+    <path d="M-15,-10 Q0,-20 15,-10 Q20,0 15,10 Q0,20 -15,10 Q-20,0 -15,-10Z" fill="none" stroke="#FDBA74" stroke-width="1"/>
+    <circle cx="0" cy="0" r="2" fill="#FDBA74"/>
   </g>
 
   <!-- 5G signal -->
@@ -163,7 +163,7 @@
     <text text-anchor="middle" font-family="'Noto Sans TC','Microsoft YaHei',sans-serif" font-size="13" fill="#8899bb" letter-spacing="1" y="24">
       智慧交通 · 數字政府 · AI城市管理
     </text>
-    <text text-anchor="middle" font-family="'Noto Sans TC','Microsoft YaHei',sans-serif" font-size="10" fill="#FED7AA" letter-spacing="1" y="44">
+    <text text-anchor="middle" font-family="'Noto Sans TC','Microsoft YaHei',sans-serif" font-size="10" fill="#FDBA74" letter-spacing="1" y="44">
       2026 完整指南
     </text>
   </g>

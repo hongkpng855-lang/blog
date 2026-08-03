@@ -6,7 +6,7 @@
       <stop offset="100%" style="stop-color:#2C3E6B"/>
     </linearGradient>
     <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#FED7AA"/>
+      <stop offset="0%" style="stop-color:#FDBA74"/>
       <stop offset="100%" style="stop-color:#E8C86A"/>
     </linearGradient>
     <linearGradient id="card1" x1="0%" y1="0%" x2="0%" y2="100%">
@@ -89,7 +89,7 @@
   <text x="48" y="365" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#90A8C8">睡前 1 小時熄電話</text>
   <text x="48" y="382" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#90A8C8">用暖光閱讀燈</text>
   <text x="48" y="399" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#90A8C8">白噪音機輔助</text>
-  <rect x="48" y="410" width="60" height="3" rx="1.5" fill="#FED7AA" opacity="0.5"/>
+  <rect x="48" y="410" width="60" height="3" rx="1.5" fill="#FDBA74" opacity="0.5"/>
 
   <!-- Card 2: 3 Phase Routine -->
   <rect x="215" y="295" width="170" height="135" rx="10" fill="url(#card1)" stroke="#2C5F8A" stroke-width="1" opacity="0.95"/>
@@ -98,7 +98,7 @@
   <text x="233" y="365" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#90A8C8">Phase 1：Me Time</text>
   <text x="233" y="382" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#90A8C8">Phase 2：Wind Down</text>
   <text x="233" y="399" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#90A8C8">Phase 3：Sleep Prep</text>
-  <rect x="233" y="410" width="60" height="3" rx="1.5" fill="#FED7AA" opacity="0.5"/>
+  <rect x="233" y="410" width="60" height="3" rx="1.5" fill="#FDBA74" opacity="0.5"/>
 
   <!-- Card 3: Relaxation -->
   <rect x="400" y="295" width="170" height="135" rx="10" fill="url(#card1)" stroke="#2C5F8A" stroke-width="1" opacity="0.95"/>
@@ -107,7 +107,7 @@
   <text x="418" y="365" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#90A8C8">冥想 10 分鐘</text>
   <text x="418" y="382" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#90A8C8">4-7-8 呼吸法</text>
   <text x="418" y="399" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#90A8C8">漸進式肌肉放鬆</text>
-  <rect x="418" y="410" width="60" height="3" rx="1.5" fill="#FED7AA" opacity="0.5"/>
+  <rect x="418" y="410" width="60" height="3" rx="1.5" fill="#FDBA74" opacity="0.5"/>
 
   <!-- Card 4: 7 Day Challenge -->
   <rect x="585" y="295" width="185" height="135" rx="10" fill="url(#card1)" stroke="#2C5F8A" stroke-width="1" opacity="0.95"/>
@@ -116,7 +116,7 @@
   <text x="603" y="365" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#90A8C8">Day 1：Set Sleep Mode</text>
   <text x="603" y="382" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#90A8C8">Day 4：Bedtime Stretch</text>
   <text x="603" y="399" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#90A8C8">Day 7：完整 3 Phase</text>
-  <rect x="603" y="410" width="60" height="3" rx="1.5" fill="#FED7AA" opacity="0.5"/>
+  <rect x="603" y="410" width="60" height="3" rx="1.5" fill="#FDBA74" opacity="0.5"/>
 
   <!-- 底部標示 -->
   <text x="35" y="440" font-family="system-ui" font-size="9" fill="#4A6A8A">esgov.org | 生活類</text>

@@ -6,9 +6,9 @@
       <stop offset="100%" stop-color="#0d1b2a"/>
     </linearGradient>
     <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#FED7AA"/>
+      <stop offset="0%" stop-color="#FDBA74"/>
       <stop offset="50%" stop-color="#E8D48B"/>
-      <stop offset="100%" stop-color="#FED7AA"/>
+      <stop offset="100%" stop-color="#FDBA74"/>
     </linearGradient>
     <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#06b6d4"/>
@@ -47,9 +47,9 @@
 
   <!-- Decorative globe/cycle lines -->
   <g opacity="0.04">
-    <circle cx="400" cy="225" r="280" fill="none" stroke="#FED7AA" stroke-width="0.5"/>
-    <circle cx="400" cy="225" r="200" fill="none" stroke="#FED7AA" stroke-width="0.3"/>
-    <circle cx="400" cy="225" r="120" fill="none" stroke="#FED7AA" stroke-width="0.2"/>
+    <circle cx="400" cy="225" r="280" fill="none" stroke="#FDBA74" stroke-width="0.5"/>
+    <circle cx="400" cy="225" r="200" fill="none" stroke="#FDBA74" stroke-width="0.3"/>
+    <circle cx="400" cy="225" r="120" fill="none" stroke="#FDBA74" stroke-width="0.2"/>
   </g>
 
   <!-- Grid pattern -->
@@ -96,10 +96,10 @@
   <circle cx="640" cy="75" r="6" fill="#06b6d4" filter="url(#glow)"/>
 
   <!-- Data points - Line 2 -->
-  <circle cx="160" cy="310" r="3" fill="#FED7AA"/>
-  <circle cx="320" cy="280" r="3" fill="#FED7AA"/>
-  <circle cx="480" cy="230" r="4" fill="#FED7AA"/>
-  <circle cx="640" cy="180" r="5" fill="#FED7AA" filter="url(#glow)"/>
+  <circle cx="160" cy="310" r="3" fill="#FDBA74"/>
+  <circle cx="320" cy="280" r="3" fill="#FDBA74"/>
+  <circle cx="480" cy="230" r="4" fill="#FDBA74"/>
+  <circle cx="640" cy="180" r="5" fill="#FDBA74" filter="url(#glow)"/>
 
   <!-- X-axis labels -->
   <text x="80" y="362" fill="white" opacity="0.25" font-size="9" font-family="sans-serif" text-anchor="middle">H1</text>
@@ -113,8 +113,8 @@
   <g transform="translate(500, 388)">
     <line x1="0" y1="5" x2="20" y2="5" stroke="#06b6d4" stroke-width="2.5"/>
     <text x="26" y="9" fill="#06b6d4" font-size="10" font-family="sans-serif" opacity="0.7">AI / 科技</text>
-    <line x1="130" y1="5" x2="150" y2="5" stroke="#FED7AA" stroke-width="2" stroke-dasharray="4,2"/>
-    <text x="156" y="9" fill="#FED7AA" font-size="10" font-family="sans-serif" opacity="0.7">價值 / 收息</text>
+    <line x1="130" y1="5" x2="150" y2="5" stroke="#FDBA74" stroke-width="2" stroke-dasharray="4,2"/>
+    <text x="156" y="9" fill="#FDBA74" font-size="10" font-family="sans-serif" opacity="0.7">價值 / 收息</text>
   </g>
 
   <!-- ===== Left side: Sector icons ===== -->
@@ -134,17 +134,17 @@
 
   <!-- Building icon (REITs/Property) -->
   <g transform="translate(300, 100)" opacity="0.12">
-    <rect x="-12" y="5" width="24" height="30" rx="1" fill="none" stroke="#FED7AA" stroke-width="1.2"/>
-    <rect x="-8" y="15" width="6" height="8" rx="0.5" fill="#FED7AA" opacity="0.4"/>
-    <rect x="2" y="15" width="6" height="8" rx="0.5" fill="#FED7AA" opacity="0.4"/>
-    <rect x="-8" y="5" width="16" height="6" rx="0.5" fill="none" stroke="#FED7AA" stroke-width="0.8"/>
-    <polygon points="-15,5 0,-8 15,5" fill="none" stroke="#FED7AA" stroke-width="1"/>
+    <rect x="-12" y="5" width="24" height="30" rx="1" fill="none" stroke="#FDBA74" stroke-width="1.2"/>
+    <rect x="-8" y="15" width="6" height="8" rx="0.5" fill="#FDBA74" opacity="0.4"/>
+    <rect x="2" y="15" width="6" height="8" rx="0.5" fill="#FDBA74" opacity="0.4"/>
+    <rect x="-8" y="5" width="16" height="6" rx="0.5" fill="none" stroke="#FDBA74" stroke-width="0.8"/>
+    <polygon points="-15,5 0,-8 15,5" fill="none" stroke="#FDBA74" stroke-width="1"/>
   </g>
 
   <!-- Dollar / Coin icon -->
   <g transform="translate(550, 160)" opacity="0.12">
     <circle cx="0" cy="0" r="18" fill="none" stroke="url(#gold)" stroke-width="1.5"/>
-    <text x="0" y="6" fill="#FED7AA" font-size="16" font-family="sans-serif" text-anchor="middle" font-weight="bold">$</text>
+    <text x="0" y="6" fill="#FDBA74" font-size="16" font-family="sans-serif" text-anchor="middle" font-weight="bold">$</text>
   </g>
 
   <!-- Arrow up indicator -->
@@ -163,7 +163,7 @@
   </text>
 
   <!-- Subtitle -->
-  <text x="60" y="72" fill="#FED7AA" font-size="13" font-family="sans-serif" opacity="0.9">
+  <text x="60" y="72" fill="#FDBA74" font-size="13" font-family="sans-serif" opacity="0.9">
     息口見頂 · AI 浪潮 · 市場重估 — 香港散戶必讀策略
   </text>
 
@@ -172,8 +172,8 @@
     <rect x="0" y="0" width="100" height="24" rx="12" fill="#06b6d4" opacity="0.12"/>
     <text x="50" y="16" fill="#06b6d4" font-size="11" font-family="sans-serif" text-anchor="middle" font-weight="500">📊 宏觀分析</text>
 
-    <rect x="110" y="0" width="90" height="24" rx="12" fill="#FED7AA" opacity="0.12"/>
-    <text x="155" y="16" fill="#FED7AA" font-size="11" font-family="sans-serif" text-anchor="middle" font-weight="500">🎯 配置建議</text>
+    <rect x="110" y="0" width="90" height="24" rx="12" fill="#FDBA74" opacity="0.12"/>
+    <text x="155" y="16" fill="#FDBA74" font-size="11" font-family="sans-serif" text-anchor="middle" font-weight="500">🎯 配置建議</text>
 
     <rect x="210" y="0" width="85" height="24" rx="12" fill="#22c55e" opacity="0.1"/>
     <text x="252" y="16" fill="#22c55e" font-size="11" font-family="sans-serif" text-anchor="middle" font-weight="500">💼 組合策略</text>
