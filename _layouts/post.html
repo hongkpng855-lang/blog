@@ -53,6 +53,17 @@ layout: default
         </div>
         {% endif %}
 
+        {% if page.creator_github %}
+        <!-- 內容創作者 GitHub 連結 -->
+        <div class="creator-github-link mb-4 p-3 rounded" style="background:#f8f9fa;border:1px solid #e9ecef;">
+          <svg class="ui-icon ui-icon-sm" style="vertical-align:-2px"><use href="#ui-github"/></svg>
+          <strong>內容創作者</strong>：
+          <a href="https://github.com/{{ page.creator_github }}" target="_blank" rel="noopener" class="text-decoration-none">
+            {{ page.creator_github }}
+          </a>
+        </div>
+        {% endif %}
+
         <div class="post-content">
           {{ content }}
         </div>

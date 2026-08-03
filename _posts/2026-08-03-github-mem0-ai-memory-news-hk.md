@@ -7,6 +7,7 @@ tags: [GitHub, 開源, AI Agent, Mem0, 記憶, LLM, Python, 科技新聞, 香港
 image: /assets/images/posts/github-mem0-shot1.png
 description: "GitHub 又出爆紅 project！Mem0 已經有 6.2 萬星——佢係 AI Agent 嘅「記憶層」，令 AI 記得你用家講過咩、鍾意啲咩，唔使每次對話都由零開始。新演算法令記憶準確度大幅提升，今次睇下佢點解咁多人 star。"
 author: "陳志豪 Eric Chan"
+creator_github: mem0ai/mem0
 ---
 
 # <svg class="ui-icon"><use href="#ui-bulb"/></svg>6.2 萬人 Star 嘅開源神器：Mem0 俾 AI 一個長期記憶 — 唔使每次由頭傾過
