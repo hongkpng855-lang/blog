@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Blog → Facebook 自動發文 script v4
+Blog → Facebook 自動發文 script v5
 - 檢查 jekyll-blog/_posts/ 有冇新文章（相對 state 檔案）
-- 有 → 自動 POST 去 Facebook 專頁（精簡版內容 + 出處連結 + 封面圖卡片 + 連結）
+- 有 → 自動 POST 去 Facebook 專頁（精簡版內容 + 封面圖卡片 + Blog 連結，引流去 Blog）
 - 記錄已發佈文章，避免重複發佈
 
 用法：python3 fb-auto-post.py
@@ -145,7 +145,7 @@ def fb_post_link(message, link):
         return False, str(e)
 
 def main():
-    log("=== Blog → Facebook 自動發文檢查 (v4: 精簡內容+出處+封面) ===")
+    log("=== Blog → Facebook 自動發文檢查 (v5: 精簡內容+封面，引流去 Blog) ===")
     first_run = not os.path.exists(STATE_FILE)
     state = load_state()
     posted = set(state.get("posted", []))
@@ -187,17 +187,9 @@ def main():
         image_url = get_absolute_image(info["image"])
         url = get_post_url(post, info["categories"])
 
-        # 出處連結：優先 creator_github front matter，其次正文出處 section
-        source_link = None
-        if info.get("creator_github"):
-            source_link = f"https://github.com/{info['creator_github']}"
-        else:
-            source_link = extract_source_link(content)
-
-        # 帖文：標題 + 精簡內容 + 出處連結 + Blog 連結卡片（FB 自動抓 og:image 封面）
+        # 帖文：標題 + 精簡內容 + Blog 連結卡片（FB 自動抓 og:image 封面）
+        # ⚠️ 唔加任何外部連結（GitHub 出處等）——將 FB 流量引流去 Blog
         message = f"{title}\n\n{body_text}"
-        if source_link:
-            message += f"\n\n出處：{source_link}"
         ok, result = fb_post_link(message, url)
 
         if ok:
@@ -207,7 +199,6 @@ def main():
             log(f"   標題：{title}")
             log(f"   URL：{url}")
             log(f"   封面圖：{image_url}")
-            log(f"   出處：{source_link}")
         else:
             log(f"❌ 發佈失敗：{post} → {result}")
 
