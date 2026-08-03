@@ -6,7 +6,7 @@
       <stop offset="100%" style="stop-color:#2a1a3a"/>
     </linearGradient>
     <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#C9A84C"/>
+      <stop offset="0%" style="stop-color:#F97316"/>
       <stop offset="100%" style="stop-color:#e8c84a"/>
     </linearGradient>
     <linearGradient id="card1" x1="0%" y1="0%" x2="0%" y2="100%">
@@ -41,7 +41,7 @@
   <rect width="800" height="450" fill="url(#bg)"/>
 
   <!-- Grid pattern -->
-  <g opacity="0.05" stroke="#C9A84C" stroke-width="0.5">
+  <g opacity="0.05" stroke="#F97316" stroke-width="0.5">
     <line x1="0" y1="50" x2="800" y2="50"/>
     <line x1="0" y1="100" x2="800" y2="100"/>
     <line x1="0" y1="150" x2="800" y2="150"/>
@@ -60,7 +60,7 @@
   </g>
 
   <!-- Floating code brackets decoration -->
-  <g opacity="0.08" fill="#C9A84C">
+  <g opacity="0.08" fill="#F97316">
     <text x="60" y="80" font-family="monospace" font-size="60">&lt;/&gt;</text>
     <text x="650" y="400" font-family="monospace" font-size="40">{ }</text>
     <text x="720" y="80" font-family="monospace" font-size="35">JS</text>
@@ -78,7 +78,7 @@
   <rect x="80" y="67" width="640" height="340" rx="0 0 8 8" fill="#1a2a3a" opacity="0.7"/>
 
   <!-- Title -->
-  <text x="400" y="115" text-anchor="middle" font-family="system-ui, 'Noto Sans TC', sans-serif" font-size="22" font-weight="bold" fill="#C9A84C" filter="url(#glow)">Web 開發入門</text>
+  <text x="400" y="115" text-anchor="middle" font-family="system-ui, 'Noto Sans TC', sans-serif" font-size="22" font-weight="bold" fill="#F97316" filter="url(#glow)">Web 開發入門</text>
 
   <!-- Code line decorations -->
   <g font-family="monospace" font-size="11" opacity="0.3" fill="#88aacc">
@@ -96,52 +96,52 @@
   <!-- 4 Info cards -->
   <!-- Card 1: HTML -->
   <g filter="url(#shadow)">
-    <rect x="95" y="180" width="145" height="95" rx="8" fill="url(#card1)" stroke="#C9A84C" stroke-width="0.5" stroke-opacity="0.3"/>
+    <rect x="95" y="180" width="145" height="95" rx="8" fill="url(#card1)" stroke="#F97316" stroke-width="0.5" stroke-opacity="0.3"/>
     <text x="168" y="205" text-anchor="middle" font-family="system-ui, 'Noto Sans TC', sans-serif" font-size="16" font-weight="bold" fill="#e8c84a">&lt;/&gt;</text>
     <text x="168" y="225" text-anchor="middle" font-family="system-ui, 'Noto Sans TC', sans-serif" font-size="12" fill="#aaccee">HTML</text>
     <text x="168" y="243" text-anchor="middle" font-family="system-ui, 'Noto Sans TC', sans-serif" font-size="10" fill="#8899bb">網站嘅骨架</text>
-    <text x="168" y="262" text-anchor="middle" font-family="system-ui, 'Noto Sans TC', sans-serif" font-size="9" fill="#C9A84C" opacity="0.7">結構 + 內容</text>
+    <text x="168" y="262" text-anchor="middle" font-family="system-ui, 'Noto Sans TC', sans-serif" font-size="9" fill="#F97316" opacity="0.7">結構 + 內容</text>
   </g>
 
   <!-- Card 2: CSS -->
   <g filter="url(#shadow)">
-    <rect x="258" y="180" width="145" height="95" rx="8" fill="url(#card2)" stroke="#C9A84C" stroke-width="0.5" stroke-opacity="0.3"/>
+    <rect x="258" y="180" width="145" height="95" rx="8" fill="url(#card2)" stroke="#F97316" stroke-width="0.5" stroke-opacity="0.3"/>
     <text x="331" y="205" text-anchor="middle" font-family="system-ui, 'Noto Sans TC', sans-serif" font-size="16" font-weight="bold" fill="#88ddff"># { }</text>
     <text x="331" y="225" text-anchor="middle" font-family="system-ui, 'Noto Sans TC', sans-serif" font-size="12" fill="#aaccee">CSS</text>
     <text x="331" y="243" text-anchor="middle" font-family="system-ui, 'Noto Sans TC', sans-serif" font-size="10" fill="#8899bb">網站嘅衫</text>
-    <text x="331" y="262" text-anchor="middle" font-family="system-ui, 'Noto Sans TC', sans-serif" font-size="9" fill="#C9A84C" opacity="0.7">樣式 + 排版</text>
+    <text x="331" y="262" text-anchor="middle" font-family="system-ui, 'Noto Sans TC', sans-serif" font-size="9" fill="#F97316" opacity="0.7">樣式 + 排版</text>
   </g>
 
   <!-- Card 3: JavaScript -->
   <g filter="url(#shadow)">
-    <rect x="421" y="180" width="145" height="95" rx="8" fill="url(#card3)" stroke="#C9A84C" stroke-width="0.5" stroke-opacity="0.3"/>
+    <rect x="421" y="180" width="145" height="95" rx="8" fill="url(#card3)" stroke="#F97316" stroke-width="0.5" stroke-opacity="0.3"/>
     <text x="494" y="205" text-anchor="middle" font-family="system-ui, 'Noto Sans TC', sans-serif" font-size="16" font-weight="bold" fill="#ffd866">JS</text>
     <text x="494" y="225" text-anchor="middle" font-family="system-ui, 'Noto Sans TC', sans-serif" font-size="12" fill="#aaccee">JavaScript</text>
     <text x="494" y="243" text-anchor="middle" font-family="system-ui, 'Noto Sans TC', sans-serif" font-size="10" fill="#8899bb">網站嘅腦袋</text>
-    <text x="494" y="262" text-anchor="middle" font-family="system-ui, 'Noto Sans TC', sans-serif" font-size="9" fill="#C9A84C" opacity="0.7">互動 + 邏輯</text>
+    <text x="494" y="262" text-anchor="middle" font-family="system-ui, 'Noto Sans TC', sans-serif" font-size="9" fill="#F97316" opacity="0.7">互動 + 邏輯</text>
   </g>
 
   <!-- Card 4: AI -->
   <g filter="url(#shadow)">
-    <rect x="584" y="180" width="121" height="95" rx="8" fill="url(#card4)" stroke="#C9A84C" stroke-width="0.5" stroke-opacity="0.3"/>
+    <rect x="584" y="180" width="121" height="95" rx="8" fill="url(#card4)" stroke="#F97316" stroke-width="0.5" stroke-opacity="0.3"/>
     <text x="644" y="205" text-anchor="middle" font-family="system-ui, 'Noto Sans TC', sans-serif" font-size="16" font-weight="bold" fill="#88ffaa">AI</text>
     <text x="644" y="225" text-anchor="middle" font-family="system-ui, 'Noto Sans TC', sans-serif" font-size="12" fill="#aaccee">AI 助手</text>
     <text x="644" y="243" text-anchor="middle" font-family="system-ui, 'Noto Sans TC', sans-serif" font-size="10" fill="#8899bb">生成 + Debug</text>
-    <text x="644" y="262" text-anchor="middle" font-family="system-ui, 'Noto Sans TC', sans-serif" font-size="9" fill="#C9A84C" opacity="0.7">加速開發</text>
+    <text x="644" y="262" text-anchor="middle" font-family="system-ui, 'Noto Sans TC', sans-serif" font-size="9" fill="#F97316" opacity="0.7">加速開發</text>
   </g>
 
   <!-- Connecting arrow between cards -->
   <g opacity="0.4">
-    <line x1="240" y1="228" x2="255" y2="228" stroke="#C9A84C" stroke-width="1.5" stroke-dasharray="3,3"/>
-    <polygon points="258,228 252,224 252,232" fill="#C9A84C"/>
-    <line x1="403" y1="228" x2="418" y2="228" stroke="#C9A84C" stroke-width="1.5" stroke-dasharray="3,3"/>
-    <polygon points="421,228 415,224 415,232" fill="#C9A84C"/>
+    <line x1="240" y1="228" x2="255" y2="228" stroke="#F97316" stroke-width="1.5" stroke-dasharray="3,3"/>
+    <polygon points="258,228 252,224 252,232" fill="#F97316"/>
+    <line x1="403" y1="228" x2="418" y2="228" stroke="#F97316" stroke-width="1.5" stroke-dasharray="3,3"/>
+    <polygon points="421,228 415,224 415,232" fill="#F97316"/>
   </g>
 
   <!-- Deploy section at bottom -->
   <g filter="url(#shadow)">
-    <rect x="95" y="295" width="610" height="95" rx="10" fill="#0f1a30" stroke="#C9A84C" stroke-width="1" stroke-opacity="0.4"/>
-    <text x="400" y="322" text-anchor="middle" font-family="system-ui, 'Noto Sans TC', sans-serif" font-size="14" font-weight="bold" fill="#C9A84C">🚀 Deploy — 放上網俾全世界睇到</text>
+    <rect x="95" y="295" width="610" height="95" rx="10" fill="#0f1a30" stroke="#F97316" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="400" y="322" text-anchor="middle" font-family="system-ui, 'Noto Sans TC', sans-serif" font-size="14" font-weight="bold" fill="#F97316">🚀 Deploy — 放上網俾全世界睇到</text>
 
     <!-- Deploy step icons -->
     <g>
@@ -163,7 +163,7 @@
     </g>
 
     <!-- Small right-pointing arrows -->
-    <g opacity="0.5" fill="#C9A84C">
+    <g opacity="0.5" fill="#F97316">
       <polygon points="233,357 237,354 237,360"/>
       <polygon points="361,357 365,354 365,360"/>
       <polygon points="489,357 493,354 493,360"/>
@@ -173,7 +173,7 @@
   <!-- Stats bar at bottom -->
   <g opacity="0.7">
     <rect x="95" y="400" width="610" height="25" rx="4" fill="#0a1220" opacity="0.6"/>
-    <text x="120" y="416" font-family="monospace" font-size="10" fill="#C9A84C">由零開始</text>
+    <text x="120" y="416" font-family="monospace" font-size="10" fill="#F97316">由零開始</text>
     <text x="230" y="416" font-family="monospace" font-size="10" fill="#8899bb">|</text>
     <text x="250" y="416" font-family="monospace" font-size="10" fill="#88ccaa">完全免費</text>
     <text x="360" y="416" font-family="monospace" font-size="10" fill="#8899bb">|</text>

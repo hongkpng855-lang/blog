@@ -6,7 +6,7 @@
       <stop offset="100%" style="stop-color:#0d1b2a;stop-opacity:1" />
     </linearGradient>
     <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#C9A84C;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#F97316;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#F0D68A;stop-opacity:1" />
     </linearGradient>
     <linearGradient id="greenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
@@ -14,7 +14,7 @@
       <stop offset="100%" style="stop-color:#16a34a;stop-opacity:1" />
     </linearGradient>
     <linearGradient id="bar1" x1="0" y1="1" x2="0" y2="0">
-      <stop offset="0%" style="stop-color:#C9A84C;stop-opacity:0.8"/>
+      <stop offset="0%" style="stop-color:#F97316;stop-opacity:0.8"/>
       <stop offset="100%" style="stop-color:#F0D68A;stop-opacity:1"/>
     </linearGradient>
     <linearGradient id="bar2" x1="0" y1="1" x2="0" y2="0">
@@ -28,9 +28,9 @@
     <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" style="stop-color:#22c55e;stop-opacity:0" />
       <stop offset="20%" style="stop-color:#22c55e;stop-opacity:0.7" />
-      <stop offset="50%" style="stop-color:#C9A84C;stop-opacity:0.9" />
+      <stop offset="50%" style="stop-color:#F97316;stop-opacity:0.9" />
       <stop offset="80%" style="stop-color:#F0D68A;stop-opacity:0.9" />
-      <stop offset="100%" style="stop-color:#C9A84C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F97316;stop-opacity:1" />
     </linearGradient>
     <filter id="glow">
       <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
@@ -84,8 +84,8 @@
   <rect x="440" y="110" width="22" height="265" fill="url(#goldGrad)" rx="2" opacity="0.7"/>
   <rect x="475" y="55" width="22" height="320" fill="url(#goldGrad)" rx="2" opacity="0.7"/>
   <rect x="510" y="42" width="22" height="333" fill="url(#goldGrad)" rx="2" opacity="0.8"/>
-  <rect x="545" y="30" width="22" height="345" fill="#C9A84C" rx="2" opacity="0.8"/>
-  <rect x="580" y="20" width="22" height="355" fill="#C9A84C" rx="2" opacity="0.85"/>
+  <rect x="545" y="30" width="22" height="345" fill="#F97316" rx="2" opacity="0.8"/>
+  <rect x="580" y="20" width="22" height="355" fill="#F97316" rx="2" opacity="0.85"/>
   <rect x="615" y="15" width="22" height="360" fill="#F0D68A" rx="2" opacity="0.85"/>
   <rect x="650" y="10" width="22" height="365" fill="#F0D68A" rx="2" opacity="0.9"/>
 
@@ -104,8 +104,8 @@
   </g>
 
   <!-- Small coins growing along the curve -->
-  <circle cx="230" cy="338" r="4" fill="#C9A84C" opacity="0.5"/>
-  <circle cx="300" cy="290" r="5" fill="#C9A84C" opacity="0.5"/>
+  <circle cx="230" cy="338" r="4" fill="#F97316" opacity="0.5"/>
+  <circle cx="300" cy="290" r="5" fill="#F97316" opacity="0.5"/>
   <circle cx="370" cy="220" r="6" fill="#F0D68A" opacity="0.5"/>
   <circle cx="440" cy="130" r="7" fill="#F0D68A" opacity="0.6"/>
   <circle cx="510" cy="60" r="8" fill="url(#goldGrad)" opacity="0.7"/>
@@ -122,13 +122,13 @@
 
   <!-- Key milestones -->
   <g filter="url(#glow)">
-    <rect x="205" y="270" width="95" height="22" rx="11" fill="#C9A84C" opacity="0.2"/>
+    <rect x="205" y="270" width="95" height="22" rx="11" fill="#F97316" opacity="0.2"/>
     <text x="252" y="285" text-anchor="middle" fill="#F0D68A" font-family="system-ui, sans-serif" font-size="10" font-weight="bold">10年: $55萬</text>
 
-    <rect x="420" y="85" width="105" height="22" rx="11" fill="#C9A84C" opacity="0.2"/>
+    <rect x="420" y="85" width="105" height="22" rx="11" fill="#F97316" opacity="0.2"/>
     <text x="472" y="100" text-anchor="middle" fill="#F0D68A" font-family="system-ui, sans-serif" font-size="10" font-weight="bold">15年: $100萬 ✓</text>
 
-    <rect x="555" y="0" width="100" height="22" rx="11" fill="#C9A84C" opacity="0.25"/>
+    <rect x="555" y="0" width="100" height="22" rx="11" fill="#F97316" opacity="0.25"/>
     <text x="605" y="15" text-anchor="middle" fill="#F0D68A" font-family="system-ui, sans-serif" font-size="10" font-weight="bold">20年: $176萬</text>
   </g>
 
@@ -143,7 +143,7 @@
   </g>
 
   <!-- Decorative circles -->
-  <circle cx="730" cy="60" r="40" fill="none" stroke="#C9A84C" stroke-width="0.5" opacity="0.15"/>
-  <circle cx="730" cy="60" r="25" fill="none" stroke="#C9A84C" stroke-width="0.5" opacity="0.2"/>
-  <circle cx="730" cy="60" r="10" fill="#C9A84C" opacity="0.15"/>
+  <circle cx="730" cy="60" r="40" fill="none" stroke="#F97316" stroke-width="0.5" opacity="0.15"/>
+  <circle cx="730" cy="60" r="25" fill="none" stroke="#F97316" stroke-width="0.5" opacity="0.2"/>
+  <circle cx="730" cy="60" r="10" fill="#F97316" opacity="0.15"/>
 </svg>

@@ -6,7 +6,7 @@
       <stop offset="100%" style="stop-color:#0f1b3d"/>
     </linearGradient>
     <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#C9A84C"/>
+      <stop offset="0%" style="stop-color:#F97316"/>
       <stop offset="50%" style="stop-color:#f0d060"/>
       <stop offset="100%" style="stop-color:#b8922e"/>
     </linearGradient>
@@ -44,5 +44,5 @@
     <path d="M0,0 C-8,8 -12,16 -12,22 C-12,28.6 -6.6,34 0,34 C6.6,34 12,28.6 12,22 C12,16 8,8 0,0Z"/>
   </g>
   <text x="256" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" filter="url(#glow)">2026 年中投資展望</text>
-  <text x="256" y="482" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#C9A84C">AI 榮景與油價變數下的資產配置策略</text>
+  <text x="256" y="482" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#F97316">AI 榮景與油價變數下的資產配置策略</text>
 </svg>

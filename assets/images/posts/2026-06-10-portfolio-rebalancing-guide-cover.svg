@@ -5,7 +5,7 @@
       <stop offset="100%" style="stop-color:#0F1A33"/>
     </linearGradient>
     <linearGradient id="card1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#C9A84C"/>
+      <stop offset="0%" style="stop-color:#F97316"/>
       <stop offset="100%" style="stop-color:#B8952E"/>
     </linearGradient>
     <linearGradient id="card2" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -26,14 +26,14 @@
   <rect width="512" height="512" fill="url(#bg)" rx="16"/>
 
   <!-- Title -->
-  <text x="256" y="48" text-anchor="middle" font-family="system-ui, sans-serif" font-size="17" font-weight="700" fill="#C9A84C" letter-spacing="1">投資組合再平衡</text>
+  <text x="256" y="48" text-anchor="middle" font-family="system-ui, sans-serif" font-size="17" font-weight="700" fill="#F97316" letter-spacing="1">投資組合再平衡</text>
   <text x="256" y="70" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#8899BB" letter-spacing="0.5">PORTFOLIO REBALANCING</text>
 
   <!-- 4 Info Cards -->
   <!-- Card 1: 日曆法 -->
   <rect x="20" y="90" width="225" height="95" rx="10" fill="#ffffff" opacity="0.08"/>
   <rect x="20" y="90" width="225" height="95" rx="10" fill="none" stroke="url(#card1)" stroke-width="1.5" opacity="0.6"/>
-  <text x="36" y="118" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#C9A84C">📅 日曆法</text>
+  <text x="36" y="118" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#F97316">📅 日曆法</text>
   <text x="36" y="140" font-family="system-ui, sans-serif" font-size="10" fill="#AABBCC">每年固定一日檢查</text>
   <text x="36" y="157" font-family="system-ui, sans-serif" font-size="10" fill="#8899BB">最簡單 · 低交易成本</text>
   <text x="36" y="174" font-family="system-ui, sans-serif" font-size="9" fill="#667788">適合新手、月供投資者</text>
@@ -74,13 +74,13 @@
   <text x="50" y="353" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#ffffff">每年再平衡：-27% 最大回撤</text>
 
   <!-- Arrow difference -->
-  <text x="240" y="355" font-family="system-ui, sans-serif" font-size="14" fill="#C9A84C" font-weight="700">→</text>
-  <text x="260" y="350" font-family="system-ui, sans-serif" font-size="11" fill="#C9A84C" font-weight="600">風險低 11%</text>
+  <text x="240" y="355" font-family="system-ui, sans-serif" font-size="14" fill="#F97316" font-weight="700">→</text>
+  <text x="260" y="350" font-family="system-ui, sans-serif" font-size="11" fill="#F97316" font-weight="600">風險低 11%</text>
   <text x="260" y="368" font-family="system-ui, sans-serif" font-size="9" fill="#8899BB">回報高 0.6-0.9%/年</text>
 
   <!-- Bottom stat bar -->
-  <rect x="20" y="410" width="470" height="40" rx="8" fill="#C9A84C" opacity="0.15"/>
-  <text x="40" y="435" font-family="system-ui, sans-serif" font-size="11" fill="#C9A84C" font-weight="600">每年只需幾分鐘 · $100萬 → 30年多 $160 萬</text>
+  <rect x="20" y="410" width="470" height="40" rx="8" fill="#F97316" opacity="0.15"/>
+  <text x="40" y="435" font-family="system-ui, sans-serif" font-size="11" fill="#F97316" font-weight="600">每年只需幾分鐘 · $100萬 → 30年多 $160 萬</text>
 
   <!-- Footer watermark -->
   <text x="256" y="490" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#445566" opacity="0.3">ESGov</text>

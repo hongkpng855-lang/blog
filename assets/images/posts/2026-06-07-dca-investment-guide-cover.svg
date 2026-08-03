@@ -6,7 +6,7 @@
       <stop offset="100%" style="stop-color:#0d2137"/>
     </linearGradient>
     <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#C9A84C"/>
+      <stop offset="0%" style="stop-color:#F97316"/>
       <stop offset="100%" style="stop-color:#e8cc6a"/>
     </linearGradient>
     <linearGradient id="green" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -39,18 +39,18 @@
   <!-- Grid pattern -->
   <g opacity="0.05">
     <pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse">
-      <circle cx="8" cy="8" r="0.8" fill="#C9A84C"/>
+      <circle cx="8" cy="8" r="0.8" fill="#F97316"/>
     </pattern>
     <rect width="512" height="512" fill="url(#grid)"/>
   </g>
 
   <!-- Decorative gradient circles -->
-  <circle cx="420" cy="80" r="140" fill="#C9A84C" opacity="0.04"/>
+  <circle cx="420" cy="80" r="140" fill="#F97316" opacity="0.04"/>
   <circle cx="80" cy="420" r="120" fill="#22c55e" opacity="0.04"/>
 
   <!-- Chart area background -->
   <rect x="76" y="80" width="360" height="200" rx="12" fill="#0d2137" opacity="0.6"/>
-  <rect x="76" y="80" width="360" height="200" rx="12" fill="none" stroke="#C9A84C" stroke-width="1" opacity="0.3"/>
+  <rect x="76" y="80" width="360" height="200" rx="12" fill="none" stroke="#F97316" stroke-width="1" opacity="0.3"/>
 
   <!-- Grid lines on chart -->
   <g stroke="white" stroke-width="0.5" opacity="0.08">
@@ -88,9 +88,9 @@
   <!-- Coin stack icon (bottom left of chart area) -->
   <g transform="translate(130, 175)" opacity="0.4">
     <!-- Coins stacking -->
-    <ellipse cx="0" cy="0" rx="12" ry="4" fill="#C9A84C" opacity="0.6"/>
-    <ellipse cx="0" cy="-3" rx="12" ry="4" fill="#C9A84C" opacity="0.5"/>
-    <ellipse cx="0" cy="-6" rx="12" ry="4" fill="#C9A84C" opacity="0.4"/>
+    <ellipse cx="0" cy="0" rx="12" ry="4" fill="#F97316" opacity="0.6"/>
+    <ellipse cx="0" cy="-3" rx="12" ry="4" fill="#F97316" opacity="0.5"/>
+    <ellipse cx="0" cy="-6" rx="12" ry="4" fill="#F97316" opacity="0.4"/>
     <text x="0" y="-2" font-family="system-ui" font-size="8" fill="#1B2A4A" text-anchor="middle" font-weight="bold">$</text>
   </g>
 
@@ -114,8 +114,8 @@
 
   <!-- Callout pills -->
   <g transform="translate(256, 440)" font-family="system-ui, sans-serif">
-    <rect x="-90" y="-12" width="180" height="24" rx="12" fill="#C9A84C" opacity="0.15"/>
-    <text x="0" y="3" fill="#C9A84C" font-size="11" text-anchor="middle" font-weight="600">📊 時間分散風險</text>
+    <rect x="-90" y="-12" width="180" height="24" rx="12" fill="#F97316" opacity="0.15"/>
+    <text x="0" y="3" fill="#F97316" font-size="11" text-anchor="middle" font-weight="600">📊 時間分散風險</text>
 
     <rect x="-90" y="16" width="180" height="24" rx="12" fill="#22c55e" opacity="0.12"/>
     <text x="0" y="31" fill="#22c55e" font-size="11" text-anchor="middle" font-weight="500">🔄 低位買多 · 高位買少</text>
