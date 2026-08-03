@@ -6,7 +6,7 @@
       <stop offset="100%" style="stop-color:#1a3a5c"/>
     </linearGradient>
     <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#FDBA74;stop-opacity:0.8"/>
+      <stop offset="0%" style="stop-color:#FB923C;stop-opacity:0.8"/>
       <stop offset="100%" style="stop-color:#E8D48B;stop-opacity:0.4"/>
     </linearGradient>
     <linearGradient id="gutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -97,20 +97,20 @@
   <text x="612" y="260" font-family="system-ui, sans-serif" font-size="11" fill="#9CA3AF">→ Reinoculate → Repair</text>
   <!-- Stats bar at bottom -->
   <rect x="55" y="300" width="705" height="45" rx="8" fill="white" fill-opacity="0.05" stroke="white" stroke-opacity="0.1" stroke-width="1"/>
-  <text x="100" y="327" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" font-weight="700" fill="#FDBA74">70%+</text>
+  <text x="100" y="327" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" font-weight="700" fill="#FB923C">70%+</text>
   <text x="130" y="327" font-family="system-ui, sans-serif" font-size="11" fill="#9CA3AF">香港人有腸道不適</text>
   <line x1="250" y1="308" x2="250" y2="337" stroke="white" stroke-opacity="0.15" stroke-width="1"/>
-  <text x="300" y="327" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" font-weight="700" fill="#FDBA74">90%</text>
+  <text x="300" y="327" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" font-weight="700" fill="#FB923C">90%</text>
   <text x="330" y="327" font-family="system-ui, sans-serif" font-size="11" fill="#9CA3AF">血清素由腸道製造</text>
   <line x1="470" y1="308" x2="470" y2="337" stroke="white" stroke-opacity="0.15" stroke-width="1"/>
-  <text x="520" y="327" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" font-weight="700" fill="#FDBA74">50%+</text>
+  <text x="520" y="327" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" font-weight="700" fill="#FB923C">50%+</text>
   <text x="550" y="327" font-family="system-ui, sans-serif" font-size="11" fill="#9CA3AF">IBS 患者同時有 SIBO</text>
   <line x1="680" y1="308" x2="680" y2="337" stroke="white" stroke-opacity="0.15" stroke-width="1"/>
   <text x="718" y="327" font-family="system-ui, sans-serif" font-size="11" fill="#9CA3AF">ESGov</text>
   <!-- Decorative dots -->
-  <circle cx="730" cy="45" r="3" fill="#FDBA74" opacity="0.5"/>
-  <circle cx="748" cy="55" r="2" fill="#FDBA74" opacity="0.3"/>
-  <circle cx="755" cy="35" r="1.5" fill="#FDBA74" opacity="0.4"/>
+  <circle cx="730" cy="45" r="3" fill="#FB923C" opacity="0.5"/>
+  <circle cx="748" cy="55" r="2" fill="#FB923C" opacity="0.3"/>
+  <circle cx="755" cy="35" r="1.5" fill="#FB923C" opacity="0.4"/>
   <!-- Bottom subtitle -->
   <text x="55" y="370" font-family="system-ui, sans-serif" font-size="13" fill="#6B7280">由飲食到生活習慣——還返條腸一個公道</text>
 </svg>

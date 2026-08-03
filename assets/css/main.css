@@ -1,7 +1,7 @@
 /* ========================================
    AnIskill AI實戰誌 — Dark Utility 主題
    陳志豪 Eric Chan・實測主義者
-   炭黑 #17181C ・ 橙 #FDBA74 ・ 暖灰白
+   炭黑 #17181C ・ 橙 #FB923C ・ 暖灰白
    ======================================== */
 
 :root {
@@ -10,9 +10,9 @@
   --bg-hover: #24262B;
   --border: #33363D;
   --border-soft: #2A2C31;
-  --amber: #FDBA74;
-  --amber-light: #FDBA74;
-  --amber-dim: rgba(253, 186, 116, 0.14);
+  --amber: #FB923C;
+  --amber-light: #FB923C;
+  --amber-dim: rgba(251, 146, 60, 0.14);
   --ink: #E8E6E1;
   --muted: #A2A7AF;
   --faint: #8A9098;

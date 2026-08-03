@@ -7,7 +7,7 @@
     </linearGradient>
     <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#D4A843"/>
-      <stop offset="100%" stop-color="#FDBA74"/>
+      <stop offset="100%" stop-color="#FB923C"/>
     </linearGradient>
     <linearGradient id="greenGrad" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#4CAF50"/>
@@ -41,15 +41,15 @@
     <!-- Body -->
     <g transform="translate(180, 150) scale(1.1)">
       <!-- Head -->
-      <circle cx="80" cy="30" r="22" fill="#FDBA74" opacity="0.9"/>
+      <circle cx="80" cy="30" r="22" fill="#FB923C" opacity="0.9"/>
       <!-- Torso -->
-      <path d="M65 55 L55 130 L95 130 L90 55 Z" fill="#FDBA74" opacity="0.85"/>
+      <path d="M65 55 L55 130 L95 130 L90 55 Z" fill="#FB923C" opacity="0.85"/>
       <!-- Running arms -->
-      <line x1="60" y1="70" x2="20" y2="40" stroke="#FDBA74" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
-      <line x1="90" y1="80" x2="130" y2="55" stroke="#FDBA74" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
+      <line x1="60" y1="70" x2="20" y2="40" stroke="#FB923C" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
+      <line x1="90" y1="80" x2="130" y2="55" stroke="#FB923C" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
       <!-- Running legs -->
-      <line x1="65" y1="130" x2="30" y2="195" stroke="#FDBA74" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
-      <line x1="85" y1="130" x2="120" y2="185" stroke="#FDBA74" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+      <line x1="65" y1="130" x2="30" y2="195" stroke="#FB923C" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+      <line x1="85" y1="130" x2="120" y2="185" stroke="#FB923C" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
       <!-- Feet -->
       <ellipse cx="22" cy="198" rx="14" ry="5" fill="#D4A843" opacity="0.8"/>
       <ellipse cx="128" cy="188" rx="14" ry="5" fill="#D4A843" opacity="0.8"/>
@@ -74,23 +74,23 @@
   <!-- Data cards -->
   <g transform="translate(30, 420)">
     <!-- Card 1 -->
-    <rect x="0" y="0" width="100" height="50" rx="10" fill="#1E3355" stroke="#FDBA74" stroke-width="1" opacity="0.85"/>
-    <text x="50" y="22" text-anchor="middle" fill="#FDBA74" font-family="system-ui" font-size="13" font-weight="bold">每星期</text>
+    <rect x="0" y="0" width="100" height="50" rx="10" fill="#1E3355" stroke="#FB923C" stroke-width="1" opacity="0.85"/>
+    <text x="50" y="22" text-anchor="middle" fill="#FB923C" font-family="system-ui" font-size="13" font-weight="bold">每星期</text>
     <text x="50" y="40" text-anchor="middle" fill="#66BB6A" font-family="system-ui" font-size="16" font-weight="bold">150 分鐘</text>
 
     <!-- Card 2 -->
-    <rect x="115" y="0" width="100" height="50" rx="10" fill="#1E3355" stroke="#FDBA74" stroke-width="1" opacity="0.85"/>
-    <text x="165" y="22" text-anchor="middle" fill="#FDBA74" font-family="system-ui" font-size="13" font-weight="bold">最低門檻</text>
+    <rect x="115" y="0" width="100" height="50" rx="10" fill="#1E3355" stroke="#FB923C" stroke-width="1" opacity="0.85"/>
+    <text x="165" y="22" text-anchor="middle" fill="#FB923C" font-family="system-ui" font-size="13" font-weight="bold">最低門檻</text>
     <text x="165" y="40" text-anchor="middle" fill="#66BB6A" font-family="system-ui" font-size="16" font-weight="bold">5 分鐘</text>
 
     <!-- Card 3 -->
-    <rect x="230" y="0" width="100" height="50" rx="10" fill="#1E3355" stroke="#FDBA74" stroke-width="1" opacity="0.85"/>
-    <text x="280" y="22" text-anchor="middle" fill="#FDBA74" font-family="system-ui" font-size="13" font-weight="bold">養成需時</text>
+    <rect x="230" y="0" width="100" height="50" rx="10" fill="#1E3355" stroke="#FB923C" stroke-width="1" opacity="0.85"/>
+    <text x="280" y="22" text-anchor="middle" fill="#FB923C" font-family="system-ui" font-size="13" font-weight="bold">養成需時</text>
     <text x="280" y="40" text-anchor="middle" fill="#66BB6A" font-family="system-ui" font-size="16" font-weight="bold">66 日</text>
 
     <!-- Card 4 -->
-    <rect x="345" y="0" width="100" height="50" rx="10" fill="#1E3355" stroke="#FDBA74" stroke-width="1" opacity="0.85"/>
-    <text x="395" y="22" text-anchor="middle" fill="#FDBA74" font-family="system-ui" font-size="13" font-weight="bold">續行率</text>
+    <rect x="345" y="0" width="100" height="50" rx="10" fill="#1E3355" stroke="#FB923C" stroke-width="1" opacity="0.85"/>
+    <text x="395" y="22" text-anchor="middle" fill="#FB923C" font-family="system-ui" font-size="13" font-weight="bold">續行率</text>
     <text x="395" y="40" text-anchor="middle" fill="#66BB6A" font-family="system-ui" font-size="16" font-weight="bold">+42%</text>
   </g>
 
@@ -106,9 +106,9 @@
 
   <!-- Main title area -->
   <g filter="url(#shadow)">
-    <text x="256" y="385" text-anchor="middle" fill="#FDBA74" font-family="system-ui" font-size="14" opacity="0.8" letter-spacing="3">LIFE • 生活改造</text>
+    <text x="256" y="385" text-anchor="middle" fill="#FB923C" font-family="system-ui" font-size="14" opacity="0.8" letter-spacing="3">LIFE • 生活改造</text>
   </g>
 
   <!-- Bottom decorative line -->
-  <line x1="80" y1="505" x2="432" y2="505" stroke="#FDBA74" stroke-width="1.5" opacity="0.3"/>
+  <line x1="80" y1="505" x2="432" y2="505" stroke="#FB923C" stroke-width="1.5" opacity="0.3"/>
 </svg>
