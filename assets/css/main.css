@@ -1,7 +1,7 @@
 /* ========================================
-   ANIskill 中文AI實戰誌 — Dark Utility 主題
+   AnIskill AI實戰誌 — Dark Utility 主題
    陳志豪 Eric Chan・實測主義者
-   炭黑 #17181C ・ 琥珀 #E8A33D ・ 暖灰白
+   炭黑 #17181C ・ 橙 #F97316 ・ 暖灰白
    ======================================== */
 
 :root {
@@ -10,9 +10,9 @@
   --bg-hover: #24262B;
   --border: #33363D;
   --border-soft: #2A2C31;
-  --amber: #E8A33D;
-  --amber-light: #F5BE6B;
-  --amber-dim: rgba(232, 163, 61, 0.14);
+  --amber: #F97316;
+  --amber-light: #FB923C;
+  --amber-dim: rgba(249, 115, 22, 0.14);
   --ink: #E8E6E1;
   --muted: #A2A7AF;
   --faint: #8A9098;
@@ -564,7 +564,7 @@ a:hover { color: var(--amber-light); }
 }
 .form-control::placeholder { color: var(--faint); }
 
-/* ---------- ANIskill 文章內容元素 ---------- */
+/* ---------- AnIskill 文章內容元素 ---------- */
 .ui-note, .ui-tip, .ui-warn {
   border-radius: 10px;
   padding: 1rem 1.2rem;
@@ -605,7 +605,7 @@ a:hover { color: var(--amber-light); }
   margin-top: 2px;
 }
 
-/* ---------- ANIskill Icon 使用 ---------- */
+/* ---------- AnIskill Icon 使用 ---------- */
 .ui-icon {
   display: inline-block;
   width: 1.15em;
