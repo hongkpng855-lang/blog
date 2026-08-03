@@ -6,7 +6,7 @@
       <stop offset="100%" style="stop-color:#0f3460"/>
     </linearGradient>
     <linearGradient id="gold1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#FB923C"/>
+      <stop offset="0%" style="stop-color:#FDBA74"/>
       <stop offset="100%" style="stop-color:#e2c96e"/>
     </linearGradient>
     <linearGradient id="green1" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -42,14 +42,14 @@
 
   <!-- Grid pattern -->
   <g opacity="0.05">
-    <line x1="0" y1="50" x2="800" y2="50" stroke="#FB923C" stroke-width="0.5"/>
-    <line x1="0" y1="100" x2="800" y2="100" stroke="#FB923C" stroke-width="0.5"/>
-    <line x1="0" y1="150" x2="800" y2="150" stroke="#FB923C" stroke-width="0.5"/>
-    <line x1="0" y1="200" x2="800" y2="200" stroke="#FB923C" stroke-width="0.5"/>
-    <line x1="0" y1="250" x2="800" y2="250" stroke="#FB923C" stroke-width="0.5"/>
-    <line x1="0" y1="300" x2="800" y2="300" stroke="#FB923C" stroke-width="0.5"/>
-    <line x1="0" y1="350" x2="800" y2="350" stroke="#FB923C" stroke-width="0.5"/>
-    <line x1="0" y1="400" x2="800" y2="400" stroke="#FB923C" stroke-width="0.5"/>
+    <line x1="0" y1="50" x2="800" y2="50" stroke="#FDBA74" stroke-width="0.5"/>
+    <line x1="0" y1="100" x2="800" y2="100" stroke="#FDBA74" stroke-width="0.5"/>
+    <line x1="0" y1="150" x2="800" y2="150" stroke="#FDBA74" stroke-width="0.5"/>
+    <line x1="0" y1="200" x2="800" y2="200" stroke="#FDBA74" stroke-width="0.5"/>
+    <line x1="0" y1="250" x2="800" y2="250" stroke="#FDBA74" stroke-width="0.5"/>
+    <line x1="0" y1="300" x2="800" y2="300" stroke="#FDBA74" stroke-width="0.5"/>
+    <line x1="0" y1="350" x2="800" y2="350" stroke="#FDBA74" stroke-width="0.5"/>
+    <line x1="0" y1="400" x2="800" y2="400" stroke="#FDBA74" stroke-width="0.5"/>
   </g>
 
   <!-- Shield icon (center-top) -->
@@ -68,7 +68,7 @@
   <g transform="translate(30, 195)" filter="url(#shadow)">
     <rect width="170" height="110" rx="8" fill="url(#card1g)" stroke="#0f3460" stroke-width="1"/>
     <rect x="0" y="0" width="170" height="4" rx="2" fill="url(#green1)"/>
-    <text x="85" y="28" text-anchor="middle" fill="#FB923C" font-family="system-ui,sans-serif" font-size="11" font-weight="bold">🔐 密碼管理</text>
+    <text x="85" y="28" text-anchor="middle" fill="#FDBA74" font-family="system-ui,sans-serif" font-size="11" font-weight="bold">🔐 密碼管理</text>
     <text x="85" y="46" text-anchor="middle" fill="#a0a0a0" font-family="system-ui,sans-serif" font-size="9">Bitwarden / 1Password</text>
     <text x="85" y="62" text-anchor="middle" fill="#a0a0a0" font-family="system-ui,sans-serif" font-size="9">Master Password</text>
     <text x="85" y="78" text-anchor="middle" fill="#a0a0a0" font-family="system-ui,sans-serif" font-size="9">密碼生成器</text>
@@ -79,18 +79,18 @@
   <g transform="translate(215, 195)" filter="url(#shadow)">
     <rect width="170" height="110" rx="8" fill="url(#card1g)" stroke="#0f3460" stroke-width="1"/>
     <rect x="0" y="0" width="170" height="4" rx="2" fill="url(#gold1)"/>
-    <text x="85" y="28" text-anchor="middle" fill="#FB923C" font-family="system-ui,sans-serif" font-size="11" font-weight="bold">🔑 雙重驗證</text>
+    <text x="85" y="28" text-anchor="middle" fill="#FDBA74" font-family="system-ui,sans-serif" font-size="11" font-weight="bold">🔑 雙重驗證</text>
     <text x="85" y="46" text-anchor="middle" fill="#a0a0a0" font-family="system-ui,sans-serif" font-size="9">Authenticator App</text>
     <text x="85" y="62" text-anchor="middle" fill="#a0a0a0" font-family="system-ui,sans-serif" font-size="9">YubiKey 硬件金鑰</text>
     <text x="85" y="78" text-anchor="middle" fill="#a0a0a0" font-family="system-ui,sans-serif" font-size="9">Recovery Code</text>
-    <text x="85" y="94" text-anchor="middle" fill="#FB923C" font-family="system-ui,sans-serif" font-size="9">第二道防線</text>
+    <text x="85" y="94" text-anchor="middle" fill="#FDBA74" font-family="system-ui,sans-serif" font-size="9">第二道防線</text>
   </g>
 
   <!-- Card 3: VPN -->
   <g transform="translate(400, 195)" filter="url(#shadow)">
     <rect width="170" height="110" rx="8" fill="url(#card1g)" stroke="#0f3460" stroke-width="1"/>
     <rect x="0" y="0" width="170" height="4" rx="2" fill="url(#red1)"/>
-    <text x="85" y="28" text-anchor="middle" fill="#FB923C" font-family="system-ui,sans-serif" font-size="11" font-weight="bold">🛡️ VPN 防護</text>
+    <text x="85" y="28" text-anchor="middle" fill="#FDBA74" font-family="system-ui,sans-serif" font-size="11" font-weight="bold">🛡️ VPN 防護</text>
     <text x="85" y="46" text-anchor="middle" fill="#a0a0a0" font-family="system-ui,sans-serif" font-size="9">Mullvad / ProtonVPN</text>
     <text x="85" y="62" text-anchor="middle" fill="#a0a0a0" font-family="system-ui,sans-serif" font-size="9">公共 Wi-Fi 加密</text>
     <text x="85" y="78" text-anchor="middle" fill="#a0a0a0" font-family="system-ui,sans-serif" font-size="9">Kill Switch</text>
@@ -101,7 +101,7 @@
   <g transform="translate(585, 195)" filter="url(#shadow)">
     <rect width="185" height="110" rx="8" fill="url(#card1g)" stroke="#0f3460" stroke-width="1"/>
     <rect x="0" y="0" width="185" height="4" rx="2" fill="url(#green1)"/>
-    <text x="92" y="28" text-anchor="middle" fill="#FB923C" font-family="system-ui,sans-serif" font-size="11" font-weight="bold">💾 數據備份</text>
+    <text x="92" y="28" text-anchor="middle" fill="#FDBA74" font-family="system-ui,sans-serif" font-size="11" font-weight="bold">💾 數據備份</text>
     <text x="92" y="46" text-anchor="middle" fill="#a0a0a0" font-family="system-ui,sans-serif" font-size="9">3-2-1 備份法則</text>
     <text x="92" y="62" text-anchor="middle" fill="#a0a0a0" font-family="system-ui,sans-serif" font-size="9">NAS / 外置硬碟</text>
     <text x="92" y="78" text-anchor="middle" fill="#a0a0a0" font-family="system-ui,sans-serif" font-size="9">雲端備份</text>
@@ -111,7 +111,7 @@
   <!-- Bottom info bar -->
   <g transform="translate(30, 325)" filter="url(#shadow)">
     <rect width="740" height="50" rx="8" fill="#1e3a5f" stroke="#0f3460" stroke-width="1" opacity="0.9"/>
-    <text x="370" y="340" text-anchor="middle" fill="#FB923C" font-family="system-ui,sans-serif" font-size="10" font-weight="bold">2026 香港人數碼安全行動清單</text>
+    <text x="370" y="340" text-anchor="middle" fill="#FDBA74" font-family="system-ui,sans-serif" font-size="10" font-weight="bold">2026 香港人數碼安全行動清單</text>
     <text x="140" y="358" text-anchor="middle" fill="#a0a0a0" font-family="system-ui,sans-serif" font-size="9">🔴 今晚：密碼管理器 + 2FA</text>
     <text x="400" y="358" text-anchor="middle" fill="#a0a0a0" font-family="system-ui,sans-serif" font-size="9">🟡 本週：VPN + 備份</text>
     <text x="640" y="358" text-anchor="middle" fill="#a0a0a0" font-family="system-ui,sans-serif" font-size="9">🟢 本月：硬件金鑰</text>
@@ -122,8 +122,8 @@
   <text x="60" y="399" text-anchor="middle" fill="#00cec9" font-family="system-ui,sans-serif" font-size="11" font-weight="bold">3.2</text>
   <text x="60" y="415" text-anchor="middle" fill="#888" font-family="system-ui,sans-serif" font-size="7">釣魚/日</text>
 
-  <circle cx="200" cy="395" r="18" fill="#FB923C" opacity="0.15"/>
-  <text x="200" y="399" text-anchor="middle" fill="#FB923C" font-family="system-ui,sans-serif" font-size="11" font-weight="bold">60%</text>
+  <circle cx="200" cy="395" r="18" fill="#FDBA74" opacity="0.15"/>
+  <text x="200" y="399" text-anchor="middle" fill="#FDBA74" font-family="system-ui,sans-serif" font-size="11" font-weight="bold">60%</text>
   <text x="200" y="415" text-anchor="middle" fill="#888" font-family="system-ui,sans-serif" font-size="7">弱密碼外洩</text>
 
   <circle cx="400" cy="395" r="18" fill="#e17055" opacity="0.15"/>

@@ -5,15 +5,15 @@
       <stop offset="100%" style="stop-color:#1B2A4A"/>
     </linearGradient>
     <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#FB923C;stop-opacity:0.3"/>
-      <stop offset="100%" style="stop-color:#FB923C;stop-opacity:0"/>
+      <stop offset="0%" style="stop-color:#FDBA74;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#FDBA74;stop-opacity:0"/>
     </linearGradient>
     <linearGradient id="card1" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" style="stop-color:#1E3A5F;stop-opacity:0.9"/>
       <stop offset="100%" style="stop-color:#152A45;stop-opacity:0.9"/>
     </linearGradient>
     <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#FB923C"/>
+      <stop offset="0%" style="stop-color:#FDBA74"/>
       <stop offset="100%" style="stop-color:#D4B96A"/>
     </linearGradient>
   </defs>
@@ -24,15 +24,15 @@
   <circle cx="100" cy="400" r="80" fill="url(#glow)"/>
 
   <!-- Title -->
-  <text x="256" y="65" font-family="system-ui,sans-serif" font-size="22" font-weight="900" fill="#FB923C" text-anchor="middle" letter-spacing="1">營養補充品</text>
+  <text x="256" y="65" font-family="system-ui,sans-serif" font-size="22" font-weight="900" fill="#FDBA74" text-anchor="middle" letter-spacing="1">營養補充品</text>
   <text x="256" y="92" font-family="system-ui,sans-serif" font-size="15" fill="#E8D5A3" text-anchor="middle" letter-spacing="0.5">終極指南</text>
 
   <!-- Supplement icon grid - 4 cards -->
   <!-- Card 1: Vitamin D -->
   <rect x="30" y="115" width="210" height="80" rx="12" fill="url(#card1)" stroke="#2A4A6A" stroke-width="1"/>
-  <circle cx="62" cy="155" r="20" fill="#FB923C" opacity="0.2"/>
-  <text x="62" y="162" font-family="system-ui,sans-serif" font-size="22" text-anchor="middle" fill="#FB923C">☀️</text>
-  <text x="95" y="148" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#FB923C">維他命D</text>
+  <circle cx="62" cy="155" r="20" fill="#FDBA74" opacity="0.2"/>
+  <text x="62" y="162" font-family="system-ui,sans-serif" font-size="22" text-anchor="middle" fill="#FDBA74">☀️</text>
+  <text x="95" y="148" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#FDBA74">維他命D</text>
   <text x="95" y="168" font-family="system-ui,sans-serif" font-size="11" fill="#8899B0">D3 2000 IU 每日基礎</text>
   <text x="95" y="183" font-family="system-ui,sans-serif" font-size="10" fill="#5A7A9A">68% 港人不足 ⚠️</text>
 
@@ -61,8 +61,8 @@
   <text x="335" y="278" font-family="system-ui,sans-serif" font-size="10" fill="#5A7A9A">IBS/抗生素後</text>
 
   <!-- Bottom section: tips -->
-  <rect x="30" y="310" width="450" height="50" rx="10" fill="#FB923C" opacity="0.1" stroke="#FB923C" stroke-width="0.5"/>
-  <text x="256" y="332" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#FB923C" text-anchor="middle">💡 黃金法則：先驗血 → 後補充 → 揀單方 → 計 cost per serve</text>
+  <rect x="30" y="310" width="450" height="50" rx="10" fill="#FDBA74" opacity="0.1" stroke="#FDBA74" stroke-width="0.5"/>
+  <text x="256" y="332" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#FDBA74" text-anchor="middle">💡 黃金法則：先驗血 → 後補充 → 揀單方 → 計 cost per serve</text>
   <text x="256" y="350" font-family="system-ui,sans-serif" font-size="11" fill="#8899B0" text-anchor="middle">唔好俾 marketing 牽住鼻子走</text>
 
   <!-- Warning note -->

@@ -6,8 +6,8 @@
       <stop offset="100%" stop-color="#152238"/>
     </linearGradient>
     <linearGradient id="gold-glow" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FB923C" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="#FB923C" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#FDBA74" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#FDBA74" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="brain-glow" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.12"/>
@@ -20,7 +20,7 @@
     <linearGradient id="neon-line" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#3b82f6" stop-opacity="0"/>
       <stop offset="30%" stop-color="#3b82f6" stop-opacity="0.4"/>
-      <stop offset="50%" stop-color="#FB923C" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#FDBA74" stop-opacity="0.4"/>
       <stop offset="70%" stop-color="#22c55e" stop-opacity="0.4"/>
       <stop offset="100%" stop-color="#22c55e" stop-opacity="0"/>
     </linearGradient>
@@ -33,8 +33,8 @@
       <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.05"/>
     </linearGradient>
     <linearGradient id="gold-card" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FB923C" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#FB923C" stop-opacity="0.05"/>
+      <stop offset="0%" stop-color="#FDBA74" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#FDBA74" stop-opacity="0.05"/>
     </linearGradient>
     <linearGradient id="green-card" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#22c55e" stop-opacity="0.18"/>
@@ -64,7 +64,7 @@
   <circle cx="600" cy="200" r="220" fill="url(#brain-glow)"/>
 
   <!-- Decorative grid lines -->
-  <g opacity="0.035" stroke="#FB923C" stroke-width="0.5">
+  <g opacity="0.035" stroke="#FDBA74" stroke-width="0.5">
     <line x1="0" y1="90" x2="1200" y2="90"/><line x1="0" y1="180" x2="1200" y2="180"/>
     <line x1="0" y1="270" x2="1200" y2="270"/><line x1="0" y1="360" x2="1200" y2="360"/>
     <line x1="0" y1="450" x2="1200" y2="450"/><line x1="0" y1="540" x2="1200" y2="540"/>
@@ -109,14 +109,14 @@
     <text x="-165" y="9" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#3b82f6" font-weight="600">📥 輸入</text>
 
     <!-- Arrow 1 -->
-    <text x="-95" y="8" font-family="system-ui, sans-serif" font-size="16" fill="#FB923C" opacity="0.5">→</text>
+    <text x="-95" y="8" font-family="system-ui, sans-serif" font-size="16" fill="#FDBA74" opacity="0.5">→</text>
 
     <!-- Process box -->
-    <rect x="-70" y="-15" width="120" height="36" rx="18" fill="#FB923C" opacity="0.12" stroke="#FB923C" stroke-width="1" stroke-opacity="0.4"/>
-    <text x="-10" y="9" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#FB923C" font-weight="600">🧠 處理</text>
+    <rect x="-70" y="-15" width="120" height="36" rx="18" fill="#FDBA74" opacity="0.12" stroke="#FDBA74" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="-10" y="9" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#FDBA74" font-weight="600">🧠 處理</text>
 
     <!-- Arrow 2 -->
-    <text x="65" y="8" font-family="system-ui, sans-serif" font-size="16" fill="#FB923C" opacity="0.5">→</text>
+    <text x="65" y="8" font-family="system-ui, sans-serif" font-size="16" fill="#FDBA74" opacity="0.5">→</text>
 
     <!-- Internalize box -->
     <rect x="90" y="-15" width="140" height="36" rx="18" fill="#22c55e" opacity="0.12" stroke="#22c55e" stroke-width="1" stroke-opacity="0.4"/>
@@ -124,7 +124,7 @@
   </g>
 
   <!-- ===== Main Title ===== -->
-  <text x="600" y="145" text-anchor="middle" font-family="system-ui, sans-serif" font-size="44" font-weight="900" fill="#FB923C" filter="url(#soft-glow)">
+  <text x="600" y="145" text-anchor="middle" font-family="system-ui, sans-serif" font-size="44" font-weight="900" fill="#FDBA74" filter="url(#soft-glow)">
     資訊消化與知識內化實戰指南
   </text>
 
@@ -147,8 +147,8 @@
 
   <!-- Card 2: 間隔重複（金色） -->
   <g filter="url(#shadow)">
-    <rect x="320" y="410" width="260" height="145" rx="12" fill="url(#gold-card)" stroke="#FB923C" stroke-width="1" stroke-opacity="0.5"/>
-    <text x="345" y="448" font-family="system-ui, sans-serif" font-size="17" font-weight="700" fill="#FB923C">⏰ 間隔重複</text>
+    <rect x="320" y="410" width="260" height="145" rx="12" fill="url(#gold-card)" stroke="#FDBA74" stroke-width="1" stroke-opacity="0.5"/>
+    <text x="345" y="448" font-family="system-ui, sans-serif" font-size="17" font-weight="700" fill="#FDBA74">⏰ 間隔重複</text>
     <text x="345" y="478" font-family="system-ui, sans-serif" font-size="13" fill="#8899bb">Anki：最佳免費工具</text>
     <text x="345" y="500" font-family="system-ui, sans-serif" font-size="13" fill="#8899bb">每日 10-20 張新卡片</text>
     <text x="345" y="522" font-family="system-ui, sans-serif" font-size="13" fill="#8899bb">Minimum Information Principle</text>
@@ -182,11 +182,11 @@
   <g transform="translate(600, 598)">
     <rect x="-420" y="-14" width="840" height="28" rx="14" fill="#ffffff" fill-opacity="0.06"/>
     <text x="-390" y="6" font-family="system-ui, sans-serif" font-size="12" fill="#ff6b6b" font-weight="600">1 小時後忘記 56%</text>
-    <circle cx="-200" cy="0" r="2" fill="#FB923C" opacity="0.4"/>
+    <circle cx="-200" cy="0" r="2" fill="#FDBA74" opacity="0.4"/>
     <text x="-175" y="6" font-family="system-ui, sans-serif" font-size="12" fill="#3b82f6" font-weight="600">主動回憶 &gt; 被動 5x</text>
-    <circle cx="-25" cy="0" r="2" fill="#FB923C" opacity="0.4"/>
+    <circle cx="-25" cy="0" r="2" fill="#FDBA74" opacity="0.4"/>
     <text x="0" y="6" font-family="system-ui, sans-serif" font-size="12" fill="#22c55e" font-weight="600">教學保留率 90%</text>
-    <circle cx="175" cy="0" r="2" fill="#FB923C" opacity="0.4"/>
-    <text x="200" y="6" font-family="system-ui, sans-serif" font-size="12" fill="#FB923C" font-weight="600">30 日挑戰建立系統</text>
+    <circle cx="175" cy="0" r="2" fill="#FDBA74" opacity="0.4"/>
+    <text x="200" y="6" font-family="system-ui, sans-serif" font-size="12" fill="#FDBA74" font-weight="600">30 日挑戰建立系統</text>
   </g>
 </svg>

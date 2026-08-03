@@ -6,7 +6,7 @@
       <stop offset="100%" style="stop-color:#0f3460"/>
     </linearGradient>
     <linearGradient id="gold1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#FB923C"/>
+      <stop offset="0%" style="stop-color:#FDBA74"/>
       <stop offset="100%" style="stop-color:#e2c96e"/>
     </linearGradient>
     <linearGradient id="green1" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -38,13 +38,13 @@
 
   <!-- Circuit / learning pattern -->
   <g opacity="0.06">
-    <line x1="0" y1="60" x2="800" y2="60" stroke="#FB923C" stroke-width="0.5"/>
-    <line x1="0" y1="120" x2="800" y2="120" stroke="#FB923C" stroke-width="0.5"/>
-    <line x1="0" y1="180" x2="800" y2="180" stroke="#FB923C" stroke-width="0.5"/>
-    <line x1="0" y1="240" x2="800" y2="240" stroke="#FB923C" stroke-width="0.5"/>
-    <line x1="0" y1="300" x2="800" y2="300" stroke="#FB923C" stroke-width="0.5"/>
-    <line x1="0" y1="360" x2="800" y2="360" stroke="#FB923C" stroke-width="0.5"/>
-    <line x1="0" y1="420" x2="800" y2="420" stroke="#FB923C" stroke-width="0.5"/>
+    <line x1="0" y1="60" x2="800" y2="60" stroke="#FDBA74" stroke-width="0.5"/>
+    <line x1="0" y1="120" x2="800" y2="120" stroke="#FDBA74" stroke-width="0.5"/>
+    <line x1="0" y1="180" x2="800" y2="180" stroke="#FDBA74" stroke-width="0.5"/>
+    <line x1="0" y1="240" x2="800" y2="240" stroke="#FDBA74" stroke-width="0.5"/>
+    <line x1="0" y1="300" x2="800" y2="300" stroke="#FDBA74" stroke-width="0.5"/>
+    <line x1="0" y1="360" x2="800" y2="360" stroke="#FDBA74" stroke-width="0.5"/>
+    <line x1="0" y1="420" x2="800" y2="420" stroke="#FDBA74" stroke-width="0.5"/>
   </g>
 
   <!-- Central icon: Open book with lightbulb -->
@@ -53,7 +53,7 @@
     <path d="M-45 -5 Q-50 -35 -25 -40 L0 -42 L0 35 Q-25 33 -45 15 Z" fill="none" stroke="url(#gold1)" stroke-width="2.5"/>
     <path d="M45 -5 Q50 -35 25 -40 L0 -42 L0 35 Q25 33 45 15 Z" fill="none" stroke="url(#gold1)" stroke-width="2.5"/>
     <!-- Book spine glow -->
-    <line x1="0" y1="-42" x2="0" y2="35" stroke="#FB923C" stroke-width="1.5" opacity="0.5"/>
+    <line x1="0" y1="-42" x2="0" y2="35" stroke="#FDBA74" stroke-width="1.5" opacity="0.5"/>
     <!-- Lightbulb above book -->
     <circle cx="0" cy="-52" r="14" fill="none" stroke="url(#blue1)" stroke-width="2.5"/>
     <line x1="0" y1="-38" x2="0" y2="-32" stroke="url(#blue1)" stroke-width="2.5"/>
@@ -82,7 +82,7 @@
   <g transform="translate(200, 180)">
     <rect x="0" y="0" width="400" height="6" rx="3" fill="#1e3a5f" opacity="0.6"/>
     <rect x="0" y="0" width="160" height="6" rx="3" fill="url(#gold1)" opacity="0.8"/>
-    <circle cx="160" cy="3" r="6" fill="#FB923C"/>
+    <circle cx="160" cy="3" r="6" fill="#FDBA74"/>
     <circle cx="160" cy="3" r="3" fill="#1a1a2e"/>
     <text x="160" y="20" text-anchor="middle" fill="#8899aa" font-size="10">30日啟動計劃</text>
   </g>
@@ -90,10 +90,10 @@
   <!-- Info cards - Row of 4 -->
   <!-- Card 1: 15分鐘學習 -->
   <g transform="translate(30, 210)" filter="url(#shadow)">
-    <rect width="170" height="100" rx="8" fill="url(#cardg)" stroke="#FB923C" stroke-width="0.5" stroke-opacity="0.3"/>
+    <rect width="170" height="100" rx="8" fill="url(#cardg)" stroke="#FDBA74" stroke-width="0.5" stroke-opacity="0.3"/>
     <circle cx="22" cy="22" r="12" fill="none" stroke="url(#gold1)" stroke-width="1.5"/>
-    <text x="22" y="27" text-anchor="middle" fill="#FB923C" font-size="12" font-weight="bold">15</text>
-    <text x="40" y="27" fill="#FB923C" font-size="11">分鐘學習單位</text>
+    <text x="22" y="27" text-anchor="middle" fill="#FDBA74" font-size="12" font-weight="bold">15</text>
+    <text x="40" y="27" fill="#FDBA74" font-size="11">分鐘學習單位</text>
     <text x="12" y="48" fill="#a0b4c8" font-size="10">每日 15 分鐘</text>
     <text x="12" y="64" fill="#a0b4c8" font-size="10">低門檻開始</text>
     <text x="12" y="80" fill="#a0b4c8" font-size="10">一年 = 91 小時</text>
@@ -144,17 +144,17 @@
 
   <!-- Bottom stats bar -->
   <g transform="translate(30, 325)">
-    <rect width="740" height="55" rx="8" fill="#1e3a5f" fill-opacity="0.5" stroke="#FB923C" stroke-width="0.3" stroke-opacity="0.2"/>
+    <rect width="740" height="55" rx="8" fill="#1e3a5f" fill-opacity="0.5" stroke="#FDBA74" stroke-width="0.3" stroke-opacity="0.2"/>
     <text x="370" y="25" text-anchor="middle" fill="#a0b4c8" font-size="11">90-day Cycle Review ｜ 核心 20% 先學法 ｜ 間隔重複 Anki ｜ 6 步持續學習系統</text>
-    <text x="370" y="45" text-anchor="middle" fill="#FB923C" font-size="10">#持續學習 #自學系統 #終身學習 #香港打工仔 #自我增值</text>
+    <text x="370" y="45" text-anchor="middle" fill="#FDBA74" font-size="10">#持續學習 #自學系統 #終身學習 #香港打工仔 #自我增值</text>
   </g>
 
   <!-- Decorative dots bottom-right -->
   <g opacity="0.15">
-    <circle cx="750" cy="400" r="3" fill="#FB923C"/>
-    <circle cx="760" cy="415" r="2" fill="#FB923C"/>
-    <circle cx="740" cy="415" r="2" fill="#FB923C"/>
-    <circle cx="780" cy="405" r="1.5" fill="#FB923C"/>
+    <circle cx="750" cy="400" r="3" fill="#FDBA74"/>
+    <circle cx="760" cy="415" r="2" fill="#FDBA74"/>
+    <circle cx="740" cy="415" r="2" fill="#FDBA74"/>
+    <circle cx="780" cy="405" r="1.5" fill="#FDBA74"/>
   </g>
 
 </svg>
