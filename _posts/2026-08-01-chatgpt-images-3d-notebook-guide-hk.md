@@ -1,41 +1,41 @@
 ---
 layout: post
-title: "AI 整 3D 教育筆記頁教學：ChatGPT Images 2.0 一句 Prompt 將任何主題變成靚筆記（附實測）"
+title: "AI 生成 3D 教育筆記頁教學：以 ChatGPT Images 2.0 單一 Prompt 將主題轉化為精美筆記（附實測）"
 date: 2026-08-01 17:30:00 +0800
 categories: 技術
 tags: [ChatGPT, AI 繪圖, 3D 筆記, 教育, Prompt, OpenAI, 學習工具, 科技教學, 香港, auto-publish, chatgpt-images]
 image: /assets/images/posts/2026-08-01-chatgpt-images-3d-notebook-cover.jpg
-description: "最近網絡流傳好多「3D 教育筆記頁」——好似醫學生手寫 revision notes 咁靚嘅解剖筆記，原來係用 ChatGPT Images 2.0 一句 Prompt 生成！呢篇文拆解個 Prompt 點運作、點樣改做自己嘅主題，仲有我哋親身實測——用同一個風格整咗我哋自己嘅 3D 筆記圖。"
+description: "近期網絡流傳大量「3D 教育筆記頁」——外觀猶如醫學生手寫複習筆記的精緻解剖筆記，實質由 ChatGPT Images 2.0 以單一 Prompt 生成。本文拆解該 Prompt 的運作原理、自訂主題的方法，並附上以相同風格製作出自有 3D 筆記圖的實測結果。"
 author: "Eric Chan"
 ---
 
-# AI 整 3D 教育筆記頁教學：ChatGPT Images 2.0 一句 Prompt 將任何主題變成靚筆記（附實測）
+# AI 生成 3D 教育筆記頁教學：以 ChatGPT Images 2.0 單一 Prompt 將主題轉化為精美筆記（附實測）
 
-> **你有冇見過嗰啲「3D 解剖筆記」？**
+> **是否見過「3D 解剖筆記」？**
 >
-> 人體骨骼、耳朵、胃部 — 全部畫到好似醫學生手寫嘅 revision notes 咁靚，仲有 3D 模型、手寫標註、彩色間線。好多人以為係設計師逐頁畫，其實 — **係 AI 一句 Prompt 生成**。
+> 人體骨骼、耳朵、胃部等主題，全部以類似醫學生手寫複習筆記（revision notes）的精緻方式呈現，並搭配 3D 模型、手寫標註與彩色間線。許多人以為此類作品出自設計師逐頁繪製，實際上——**由 AI 以單一 Prompt 生成**。
 
-最近喺 Facebook 見到 AI 知識帳號 Chris KE 分享咗一條好正嘅 prompt，用 **ChatGPT Images 2.0** 可以將任何主題變成「3D 教育筆記頁」。我即刻實測咗，跟住仲用佢個風格整咗我哋自己嘅筆記圖。
+近期在社交平台 Facebook 上，AI 知識帳號 Chris KE 分享了一條實用的 Prompt，可運用 **ChatGPT Images 2.0** 將任何主題轉化為「3D 教育筆記頁」。該方法經實測後，並進一步以相同風格製作出自有的筆記圖。
 
-呢篇文同你拆解成個玩法：個 prompt 點運作、點改成自己嘅主題、同埋我嘅實測結果。
-
----
-
-## <svg class="ui-icon"><use href="#ui-robot"/></svg>呢個風格係咩？
-
-「3D 教育筆記頁」風格 = 三個元素撈埋：
-
-1. **3D 模型**：主題主體（例如人體器官）用超像真 3D 渲染，有質感、有光影
-2. **手寫筆記**：藍色原子筆手寫字、紅線 pointer 指住結構、彩色 marker 間標題
-3. **螺旋筆記本**：成個版面喺一本打開嘅 spiral notebook 上面，似學生真跡
-
-出嚟嘅效果好「人味」— 完全唔似 AI 生成，因為**手寫字 + 紙張質感**正正係 AI 圖最唔擅長但 ChatGPT Images 2.0 做到嘅嘢。
+本文將拆解此玩法的完整流程：Prompt 的運作原理、如何改寫為自訂主題，以及實測結果。
 
 ---
 
-## <svg class="ui-icon"><use href="#ui-newspaper"/></svg>條 Prompt 拆解（自己執過版）
+## 風格定義：何謂「3D 教育筆記頁」？
 
-以下係整理過嘅 prompt（原本嗰條係英文，我加咗中文註解）：
+「3D 教育筆記頁」風格由三個核心元素組成：
+
+1. **3D 模型**：主題主體（例如人體器官）以高擬真 3D 渲染呈現，具備質感與光影層次
+2. **手寫筆記**：藍色原子筆手寫字、紅色指示線標註結構、彩色螢光筆標記標題
+3. **螺旋筆記本**：整體版面呈現於翻開的 spiral notebook 之上，猶如學生真實筆跡
+
+此風格的效果極具「人味」——完全不似 AI 生成，原因在於**手寫字與紙張質感**正是 AI 繪圖最不擅長、而 ChatGPT Images 2.0 卻能達成的項目。
+
+---
+
+## Prompt 拆解（整理版本）
+
+以下為整理後的 Prompt（原始版本為英文，另附中文註解）：
 
 ```
 Create an ultra-realistic educational anatomy notebook page
@@ -71,79 +71,79 @@ Organize the remaining content into clearly separated handwritten study sections
 
 | Prompt 部分 | 作用 |
 |-------------|------|
-| `handwritten revision notes of an outstanding medical student` | 設定成「學生手寫筆記」風格，唔似 AI |
-| `medically accurate 3D model` | 主體要 3D 渲染 + 解剖學準確 |
-| `lifelike textures, soft ambient lighting, physically based materials` | 3D 質感關鍵字 |
-| `blue ink with natural handwriting variation` | 手寫字 + 唔好太工整（自然筆跡） |
-| `thin red pointer lines with precise endpoints` | 紅色指線連住標註同結構 |
-| `generous white space` | 排版要鬆動，唔好逼滿 |
+| `handwritten revision notes of an outstanding medical student` | 設定「學生手寫筆記」風格，避免 AI 感 |
+| `medically accurate 3D model` | 主體採用 3D 渲染並確保解剖學準確性 |
+| `lifelike textures, soft ambient lighting, physically based materials` | 3D 質感的關鍵字 |
+| `blue ink with natural handwriting variation` | 手寫字體搭配自然筆跡變化，避免過於工整 |
+| `thin red pointer lines with precise endpoints` | 以紅色指示線精確連接標註與結構 |
+| `generous white space` | 版面鬆動、避免過度擁擠 |
 
 ---
 
-## <svg class="ui-icon"><use href="#ui-download"/></svg>點樣用（步驟）
+## 使用步驟
 
-1. 開 **ChatGPT**（要支援 Images 2.0 嘅版本/訂閱）
-2. 模型揀 **GPT-4o / Images 2.0**
-3. 貼上面條 prompt，將 `[BODY PART]` 改成你嘅主題（例如 `the human heart`、`the lungs`）
-4. 等 30-60 秒生成
-5. 唔滿意可以叫佢「調整顏色」「換角度」「加多啲手寫字」
+1. 開啟 **ChatGPT**（需使用支援 Images 2.0 的版本或訂閱方案）
+2. 模型選擇 **GPT-4o / Images 2.0**
+3. 貼上上述 Prompt，並將 `[BODY PART]` 替換為自訂主題（例如 `the human heart`、`the lungs`）
+4. 等待約 30-60 秒生成
+5. 若對結果不滿意，可指示其「調整顏色」「更換角度」「增加手寫字」
 
-**唔淨止解剖** — 將 `educational anatomy notebook page` 改做 `educational astronomy notebook page`、`educational history notebook page`，一樣得！主題隨你換。
+此方法不限於解剖主題——將 `educational anatomy notebook page` 改為 `educational astronomy notebook page`、`educational history notebook page` 等，同樣適用，主題可自由更換。
 
 ---
 
-## <svg class="ui-icon"><use href="#ui-eye"/></svg>我哋嘅實測：用同一個風格整我哋嘅筆記
+## 實測結果：以相同風格製作自有筆記
 
-我參考咗呢個「3D 筆記頁」風格，用我哋自己嘅方法（HTML + 渲染）整咗兩張**我哋自己嘅 3D 筆記圖** — 主題係早排寫嘅《NotebookLM 8 個研究 Prompts》：
+本文參考「3D 筆記頁」風格，以 HTML 與渲染技術製作了兩張自有的 3D 筆記圖，主題為先前撰寫的《NotebookLM 8 個研究 Prompts》：
 
 ![NotebookLM 8 個 Prompts（上半場 1-4）]({{ '/assets/images/posts/2026-08-01-notebooklm-prompts-1.png' | relative_url }})
 
 ![NotebookLM 8 個 Prompts（下半場 5-8）]({{ '/assets/images/posts/2026-08-01-notebooklm-prompts-2.png' | relative_url }})
 
 **實測心得：**
--  螺旋筆記本 + 手寫字 + 彩色卡片，跟到個神髓
--  文字 100% 精準（我哋用 HTML 整，唔會好似純 AI 圖咁出亂碼字）
-- 純 AI 生成嘅 3D 筆記圖文字會亂（尤其中文）— 想文字精準，用 HTML/CSS 重製係最穩陣
+- 螺旋筆記本、手寫字與彩色卡片的組合，成功掌握原風格精髓
+- 文字可達 100% 精準（以 HTML 製作，不會出現純 AI 圖常見的亂碼字）
+- 純 AI 生成的 3D 筆記圖文字容易紊亂（尤其中文）——若要求文字精準，採用 HTML/CSS 重製最為穩定
 
 ---
 
-## <svg class="ui-icon"><use href="#ui-bulb"/></svg>應用場景
+## 應用場景
 
-- **學生**：將教科書章節變成靚筆記，溫書都開心啲
-- **老師/內容創作者**：整教學圖卡，放教材、IG、Blog
-- **醫護/科普**：解剖、生理主題超適合（本身 prompt 就係解剖向）
-- **任何知識型內容**：將「無聊」嘅主題整到「睇得落眼」
-
----
-
-## <svg class="ui-icon"><use href="#ui-alert"/></svg>3 個常見錯誤
-
-1. **主題太多字** — 生成圖入面文字太多會亂碼。**Keep it simple**，每頁一個主題
-2. **中文主題** — 中文手寫字 AI 好易出錯。中文內容建議用 HTML/CSS 重製（好似我哋咁），英文先用純 AI 生成
-3. **貪心加太多元素** — prompt 已經好長，唔好再加「加多啲顏色」「加個背景」— 出嚟會亂
+- **學生**：將教科書章節轉化為精美筆記，提升複習效率
+- **教師與內容創作者**：製作教學圖卡，應用於教材、Instagram、Blog
+- **醫護與科普**：解剖、生理等主題尤為適合（Prompt 本身即為解剖導向）
+- **知識型內容**：將枯燥主題轉化為易於閱讀的視覺內容
 
 ---
 
-## <svg class="ui-icon"><use href="#ui-question"/></svg>FAQ
+## 三個常見錯誤
 
-**Q1：一定要訂閱先用到？**
-ChatGPT Images 2.0 部分功能要 Plus/Pro 訂閱。免費版試唔到最新 Images 2.0，但可以試下舊版 DALL-E。
-
-**Q2：可以攞嚟做商業用途？**
-生成內容嘅使用權限跟 OpenAI 服務條款，商業用途通常可以，但建議你自行確認最新條款。
-
-**Q3：點解我生成嘅冇咁靚？**
-通常係 prompt 唔夠詳細。上面條 prompt 已經係完整版，直接複製貼上，只改 `[BODY PART]`。
-
-**Q4：有冇其他工具做到？**
-Midjourney 都得，但 ChatGPT Images 2.0 對「文字渲染」同「跟 prompt 指示」最強 — 呢類多指示 prompt 啱晒佢。
+1. **主題文字過多** — 圖內文字過多容易產生亂碼。**Keep it simple**，每頁僅處理一個主題
+2. **中文主題** — 中文手寫字對 AI 而言極易出錯。中文內容建議以 HTML/CSS 重製，英文內容才適合純 AI 生成
+3. **過度添加元素** — Prompt 本身已相當長，不宜再添加「更多顏色」「加入背景」等要求，否則輸出容易紊亂
 
 ---
 
-## <svg class="ui-icon"><use href="#ui-bulb"/></svg>總結
+## FAQ
 
-「3D 教育筆記頁」係 2026 年 AI 繪圖其中一個最實用嘅風格 — 唔係為靚而靚，係**真係整到教學用嘅嘢**。一條 prompt，將任何主題變成學生會鍾意睇嘅筆記。
+**Q1：是否必須訂閱才能使用？**
+ChatGPT Images 2.0 部分功能需 Plus/Pro 訂閱方案。免費版無法使用最新的 Images 2.0，但可嘗試舊版 DALL-E。
 
-我哋實測完，仲將個風格變成自己嘅 workflow — 想知點整，可以參考我哋嘅做法（HTML 重製版，文字 100% 精準）。試下整一張你自己主題嘅 3D 筆記，保證你上癮 
+**Q2：生成內容可用於商業用途嗎？**
+生成內容的使用權限依循 OpenAI 服務條款，商業用途通常允許，惟建議自行確認最新條款。
 
-> **「試過先講」** — 呢個風格我親身玩過，攞去用啦！
+**Q3：為何生成的結果不夠精美？**
+通常是 Prompt 的詳細程度不足。上述 Prompt 已為完整版本，直接複製貼上並僅修改 `[BODY PART]` 即可。
+
+**Q4：是否有其他工具可達成？**
+Midjourney 亦可勝任，但 ChatGPT Images 2.0 在「文字渲染」與「遵循 Prompt 指示」方面表現最強——此類多重指示 Prompt 特別適合。
+
+---
+
+## 總結
+
+「3D 教育筆記頁」是 2026 年 AI 繪圖領域中最實用的風格之一——其價值不在單純追求美感，而是**真正能產出教學用途的內容**。單一 Prompt 即可將任何主題轉化為學生樂於閱讀的筆記。
+
+經實測後，此風格已可轉化為自有 workflow——若欲了解具體做法，可參考本文所述之 HTML 重製方案（文字 100% 精準）。不妨嘗試以自訂主題製作一張 3D 筆記。
+
+> **「親身嘗試，方知效用」** — 此風格經實際操作驗證，歡迎直接採用。
