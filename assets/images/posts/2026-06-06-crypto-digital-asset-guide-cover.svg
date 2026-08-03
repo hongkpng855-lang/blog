@@ -14,7 +14,7 @@
       <stop offset="100%" style="stop-color:#3B4FBF"/>
     </linearGradient>
     <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#FDBA74"/>
+      <stop offset="0%" style="stop-color:#FED7AA"/>
       <stop offset="100%" style="stop-color:#A68B2E"/>
     </linearGradient>
     <filter id="glow">
@@ -31,7 +31,7 @@
   <rect width="512" height="512" fill="url(#bg)"/>
 
   <!-- Grid lines for tech feel -->
-  <g opacity="0.06" stroke="#FDBA74" stroke-width="0.5">
+  <g opacity="0.06" stroke="#FED7AA" stroke-width="0.5">
     <line x1="0" y1="85" x2="512" y2="85"/>
     <line x1="0" y1="170" x2="512" y2="170"/>
     <line x1="0" y1="255" x2="512" y2="255"/>
@@ -64,7 +64,7 @@
   </g>
 
   <!-- Connecting lines between symbols -->
-  <g stroke="#FDBA74" stroke-width="1" opacity="0.25">
+  <g stroke="#FED7AA" stroke-width="1" opacity="0.25">
     <line x1="155" y1="200" x2="216" y2="195"/>
     <line x1="296" y1="195" x2="355" y2="200"/>
   </g>
@@ -72,7 +72,7 @@
   <!-- Shield / security icon -->
   <g transform="translate(256,310)" fill="url(#gold)" opacity="0.2" filter="url(#glow)">
     <path d="M0,-40 L40,-20 L40,10 Q40,35 0,50 Q-40,35 -40,10 L-40,-20 Z"/>
-    <polyline points="-15,5 -5,18 15,-8" stroke="#FDBA74" stroke-width="2" fill="none" opacity="0.6"/>
+    <polyline points="-15,5 -5,18 15,-8" stroke="#FED7AA" stroke-width="2" fill="none" opacity="0.6"/>
   </g>
 
   <!-- Chart line -->
@@ -90,17 +90,17 @@
   <text x="256" y="440" font-family="'Noto Sans TC','Microsoft JhengHei',Arial,sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">
     加密貨幣與數位資產
   </text>
-  <text x="256" y="470" font-family="'Noto Sans TC','Microsoft JhengHei',Arial,sans-serif" font-size="14" font-weight="400" fill="#FDBA74" text-anchor="middle" letter-spacing="3">
+  <text x="256" y="470" font-family="'Noto Sans TC','Microsoft JhengHei',Arial,sans-serif" font-size="14" font-weight="400" fill="#FED7AA" text-anchor="middle" letter-spacing="3">
     投 資 指 南
   </text>
 
   <!-- Year badge -->
-  <rect x="210" y="480" width="92" height="22" rx="11" fill="none" stroke="#FDBA74" stroke-width="1" opacity="0.6"/>
-  <text x="256" y="495" font-family="Arial,sans-serif" font-size="11" fill="#FDBA74" text-anchor="middle" opacity="0.8">2026 合規時代</text>
+  <rect x="210" y="480" width="92" height="22" rx="11" fill="none" stroke="#FED7AA" stroke-width="1" opacity="0.6"/>
+  <text x="256" y="495" font-family="Arial,sans-serif" font-size="11" fill="#FED7AA" text-anchor="middle" opacity="0.8">2026 合規時代</text>
 
   <!-- Decorative corner elements -->
-  <path d="M30,30 L30,50 M30,30 L50,30" stroke="#FDBA74" stroke-width="1.5" opacity="0.4"/>
-  <path d="M482,30 L482,50 M482,30 L462,30" stroke="#FDBA74" stroke-width="1.5" opacity="0.4"/>
-  <path d="M30,482 L30,462 M30,482 L50,482" stroke="#FDBA74" stroke-width="1.5" opacity="0.4"/>
-  <path d="M482,482 L482,462 M482,482 L462,482" stroke="#FDBA74" stroke-width="1.5" opacity="0.4"/>
+  <path d="M30,30 L30,50 M30,30 L50,30" stroke="#FED7AA" stroke-width="1.5" opacity="0.4"/>
+  <path d="M482,30 L482,50 M482,30 L462,30" stroke="#FED7AA" stroke-width="1.5" opacity="0.4"/>
+  <path d="M30,482 L30,462 M30,482 L50,482" stroke="#FED7AA" stroke-width="1.5" opacity="0.4"/>
+  <path d="M482,482 L482,462 M482,482 L462,482" stroke="#FED7AA" stroke-width="1.5" opacity="0.4"/>
 </svg>

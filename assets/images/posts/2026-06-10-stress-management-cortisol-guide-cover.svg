@@ -6,8 +6,8 @@
       <stop offset="100%" stop-color="#152238"/>
     </linearGradient>
     <linearGradient id="gold-glow" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FDBA74" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#FDBA74" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#FED7AA" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#FED7AA" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="green-glow" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#4CAF50" stop-opacity="0.15"/>
@@ -16,7 +16,7 @@
     <linearGradient id="neon-line" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#4CAF50" stop-opacity="0"/>
       <stop offset="30%" stop-color="#4CAF50" stop-opacity="0.5"/>
-      <stop offset="50%" stop-color="#FDBA74" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#FED7AA" stop-opacity="0.5"/>
       <stop offset="70%" stop-color="#ff6b6b" stop-opacity="0.5"/>
       <stop offset="100%" stop-color="#ff6b6b" stop-opacity="0"/>
     </linearGradient>
@@ -47,7 +47,7 @@
   <circle cx="300" cy="450" r="250" fill="url(#green-glow)"/>
 
   <!-- Grid lines -->
-  <g opacity="0.04" stroke="#FDBA74" stroke-width="0.5">
+  <g opacity="0.04" stroke="#FED7AA" stroke-width="0.5">
     <line x1="0" y1="90" x2="1200" y2="90"/><line x1="0" y1="180" x2="1200" y2="180"/>
     <line x1="0" y1="270" x2="1200" y2="270"/><line x1="0" y1="360" x2="1200" y2="360"/>
     <line x1="0" y1="450" x2="1200" y2="450"/><line x1="0" y1="540" x2="1200" y2="540"/>
@@ -57,7 +57,7 @@
   </g>
 
   <!-- Main title -->
-  <text x="600" y="215" text-anchor="middle" font-family="system-ui, sans-serif" font-size="52" font-weight="900" fill="#FDBA74" filter="url(#soft-glow)">
+  <text x="600" y="215" text-anchor="middle" font-family="system-ui, sans-serif" font-size="52" font-weight="900" fill="#FED7AA" filter="url(#soft-glow)">
     壓力管理與皮質醇平衡
   </text>
 
@@ -98,8 +98,8 @@
 
   <!-- Card 2: 飲食減壓 -->
   <g filter="url(#shadow)">
-    <rect x="320" y="400" width="240" height="140" rx="12" fill="url(#card-bg)" stroke="#FDBA74" stroke-width="1" stroke-opacity="0.4"/>
-    <text x="340" y="437" font-family="system-ui, sans-serif" font-size="17" font-weight="700" fill="#FDBA74">🥗 飲食減壓 3 寶</text>
+    <rect x="320" y="400" width="240" height="140" rx="12" fill="url(#card-bg)" stroke="#FED7AA" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="340" y="437" font-family="system-ui, sans-serif" font-size="17" font-weight="700" fill="#FED7AA">🥗 飲食減壓 3 寶</text>
     <text x="340" y="470" font-family="system-ui, sans-serif" font-size="13" fill="#8899bb">鎂 (Magnesium) — 放鬆神經</text>
     <text x="340" y="495" font-family="system-ui, sans-serif" font-size="13" fill="#8899bb">Omega-3 — 抗發炎護腦</text>
     <text x="340" y="520" font-family="system-ui, sans-serif" font-size="13" fill="#8899bb">B雜 — 神經系統燃料</text>
@@ -128,7 +128,7 @@
 
   <!-- Bottom info bar -->
   <rect x="420" y="580" width="360" height="34" rx="17" fill="#ffffff" fill-opacity="0.06"/>
-  <text x="600" y="602" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#FDBA74">
+  <text x="600" y="602" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#FED7AA">
     ESGov · 2026 香港人壓力管理指南
   </text>
 </svg>
