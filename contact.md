@@ -11,7 +11,7 @@ permalink: /contact/
 ### 聯絡方法
 
 -  **訂閱 RSS**：[點擊訂閱](/blog/feed.xml) — 每篇新文章第一時間通知你
--  **Facebook**：[UiSkills 專頁](https://www.facebook.com/profile.php?id=61592673092633)（籌備緊）
+-  **Facebook**：[ANIskill 中文AI 實戰誌專頁](https://www.facebook.com/profile.php?id=61592673092633)（籌備緊）
 
 ### 暫時未有嘅嘢
 

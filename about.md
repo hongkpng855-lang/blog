@@ -6,7 +6,7 @@ permalink: /about/
 
 <img src="{{ '/assets/images/about-avatar.jpg' | relative_url }}" alt="Eric Chan 的頭像" class="rounded-circle mb-4 author-page-avatar" width="150">
 
-您好！我是 **Eric Chan**，歡迎嚟到 **UiSkills**。
+您好！我是 **Eric Chan**，歡迎嚟到 **ANIskill 中文AI 實戰誌**。
 
 一句講晒：「**試過先講**」— 我寫嘅每一篇文，都係自己親身用過、踩過、試過先寫低。
 
@@ -14,7 +14,7 @@ permalink: /about/
 
 我係一位 **IT 顧問**，喺 IT 行業打滾咗 **18 年**：由細 startup 做起，做過跨國企業嘅 IT 部門，而家係自由身科技顧問。日常工作圍住 UI 同前端開發、AI 工具實戰、數碼轉型同內容創作打轉 — 幫中小企用科技慳時間慳錢，同時將複雜嘅科技知識用廣東話講到貼地易明。
 
-### 點解開 UiSkills？
+### 點解開 ANIskill 中文AI 實戰誌？
 
 開呢個 Blog 嘅原因好簡單：市面太多「離地」嘅科技教學 — 一係太深睇唔明，一係太淺冇用，仲有一大堆係 copy-and-paste 嘅 AI 垃圾文。我想寫嘅，係真實經歷者角度嘅內容：唔係理論，係我踩過嘅坑、試過嘅工具、用過先敢講嘅心得。
 

@@ -1,5 +1,5 @@
 /* ========================================
-   UiSkills — Dark Utility 主題
+   ANIskill 中文AI實戰誌 — Dark Utility 主題
    陳志豪 Eric Chan・實測主義者
    炭黑 #17181C ・ 琥珀 #E8A33D ・ 暖灰白
    ======================================== */
@@ -564,7 +564,7 @@ a:hover { color: var(--amber-light); }
 }
 .form-control::placeholder { color: var(--faint); }
 
-/* ---------- UiSkills 文章內容元素 ---------- */
+/* ---------- ANIskill 文章內容元素 ---------- */
 .ui-note, .ui-tip, .ui-warn {
   border-radius: 10px;
   padding: 1rem 1.2rem;
@@ -605,7 +605,7 @@ a:hover { color: var(--amber-light); }
   margin-top: 2px;
 }
 
-/* ---------- UiSkills Icon 使用 ---------- */
+/* ---------- ANIskill Icon 使用 ---------- */
 .ui-icon {
   display: inline-block;
   width: 1.15em;
