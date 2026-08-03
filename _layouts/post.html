@@ -36,6 +36,14 @@ layout: default
               <span class="mx-2">•</span>
               <svg class="ui-icon ui-icon-sm"><use href="#ui-clock"/></svg>閱讀時間 {{ page.content | number_of_words | divided_by: 200 | plus: 1 }} 分鐘
             </p>
+            <p class="mb-0 mt-1">
+              {% if site.github_username %}
+              <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener" class="text-decoration-none small">
+                <svg class="ui-icon ui-icon-sm" style="vertical-align:-2px"><use href="#ui-github"/></svg>
+                GitHub：{{ site.github_username }}
+              </a>
+              {% endif %}
+            </p>
           </div>
         </div>
 
