@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Blog → Facebook 自動發文 script v3
+Blog → Facebook 自動發文 script v4
 - 檢查 jekyll-blog/_posts/ 有冇新文章（相對 state 檔案）
-- 有 → 自動 POST 去 Facebook 專頁（精簡版內容 + 封面圖卡片 + 連結）
+- 有 → 自動 POST 去 Facebook 專頁（精簡版內容 + 出處連結 + 封面圖卡片 + 連結）
 - 記錄已發佈文章，避免重複發佈
 
 用法：python3 fb-auto-post.py
@@ -46,8 +46,8 @@ def save_state(state):
         json.dump(state, f, ensure_ascii=False, indent=2)
 
 def parse_front_matter(path):
-    """解析 Jekyll front matter，攞 title / description / image / categories"""
-    info = {"title": None, "description": None, "image": None, "categories": None}
+    """解析 Jekyll front matter，攞 title / description / image / categories / creator_github"""
+    info = {"title": None, "description": None, "image": None, "categories": None, "creator_github": None}
     try:
         with open(path, encoding="utf-8") as f:
             content = f.read()
@@ -58,6 +58,7 @@ def parse_front_matter(path):
             d = re.search(r'^description:\s*["\']?(.+?)["\']?\s*$', fm, re.M)
             img = re.search(r'^image:\s*["\']?(.+?)["\']?\s*$', fm, re.M)
             c = re.search(r'^categories:\s*(.+?)\s*$', fm, re.M)
+            cg = re.search(r'^creator_github:\s*["\']?(.+?)["\']?\s*$', fm, re.M)
             if t: info["title"] = t.group(1).strip().strip('"\'')
             if d: info["description"] = d.group(1).strip().strip('"\'')
             if img: info["image"] = img.group(1).strip().strip('"\'')
@@ -67,6 +68,7 @@ def parse_front_matter(path):
                     cat = re.sub(r"[\[\]\s]", "", cat)
                     cat = cat.split(",")[0]
                 info["categories"] = cat
+            if cg: info["creator_github"] = cg.group(1).strip().strip('"\'')
         return info, content
     except Exception:
         return info, ""
@@ -84,7 +86,6 @@ def extract_excerpt(content, max_len=280):
     for p in paras:
         if p.startswith("#") or p.startswith(">"):
             continue
-        # 跳到正文段落（標題之後）
         if excerpt == "" and len(p) < 20:
             continue
         excerpt += p + "\n\n"
@@ -100,9 +101,6 @@ def get_post_url(filename, categories):
     m = re.match(r"^(\d{4})-(\d{2})-(\d{2})-(.+)\.md$", filename)
     if m:
         y, mo, d, slug = m.groups()
-        # URL 用 slug（去掉日期前綴嗰部分）
-        # 注意：Jekyll 嘅 :title 係 front matter title 嘅 slug，但實際觀察用 filename slug
-        # 對照 sitemap 確認格式：/技術/2026/08/03/github-mem0-ai-memory-news-hk.html
         if categories:
             return f"{BLOG_BASE}{categories}/{y}/{mo}/{d}/{slug}.html"
         return f"{BLOG_BASE}{y}/{mo}/{d}/{slug}.html"
@@ -116,6 +114,16 @@ def get_absolute_image(image_path):
         return image_path
     image_path = image_path.lstrip("/")
     return f"{BLOG_BASE}{image_path}"
+
+def extract_source_link(content):
+    """從正文搵出處連結——優先搵「出處」section 之後嘅 URL，其次任何 github.com URL"""
+    m = re.search(r"出處.{0,200}?(https?://[^\s\)\"]+)", content, re.S)
+    if m:
+        return m.group(1)
+    m2 = re.search(r"https?://github\.com/[\w.-]+/[\w.-]+", content)
+    if m2:
+        return m2.group(0)
+    return None
 
 def fb_post_link(message, link):
     """POST 連結卡片去 Facebook（Facebook 自動抓 og:image 做封面圖）"""
@@ -137,7 +145,7 @@ def fb_post_link(message, link):
         return False, str(e)
 
 def main():
-    log("=== Blog → Facebook 自動發文檢查 (v3) ===")
+    log("=== Blog → Facebook 自動發文檢查 (v4: 精簡內容+出處+封面) ===")
     first_run = not os.path.exists(STATE_FILE)
     state = load_state()
     posted = set(state.get("posted", []))
@@ -179,8 +187,17 @@ def main():
         image_url = get_absolute_image(info["image"])
         url = get_post_url(post, info["categories"])
 
-        # 帖文：標題 + 精簡內容 + 連結（Facebook 自動抓 og:image 生成圖片卡片）
+        # 出處連結：優先 creator_github front matter，其次正文出處 section
+        source_link = None
+        if info.get("creator_github"):
+            source_link = f"https://github.com/{info['creator_github']}"
+        else:
+            source_link = extract_source_link(content)
+
+        # 帖文：標題 + 精簡內容 + 出處連結 + Blog 連結卡片（FB 自動抓 og:image 封面）
         message = f"{title}\n\n{body_text}"
+        if source_link:
+            message += f"\n\n出處：{source_link}"
         ok, result = fb_post_link(message, url)
 
         if ok:
@@ -190,6 +207,7 @@ def main():
             log(f"   標題：{title}")
             log(f"   URL：{url}")
             log(f"   封面圖：{image_url}")
+            log(f"   出處：{source_link}")
         else:
             log(f"❌ 發佈失敗：{post} → {result}")
 
