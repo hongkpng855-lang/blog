@@ -27,6 +27,8 @@ STATE_FILE = os.path.join(BASE_DIR, "fb_posted_state.json")
 
 PAGE_ID = open(os.path.join(SECRETS_DIR, "page_id.txt")).read().strip()
 PAGE_TOKEN = open(os.path.join(SECRETS_DIR, "page_token.txt")).read().strip()
+# og:image 已改用 github.io 之後，FB 可以正常抓到 aniskill.esgov.org 頁面（2026-08-05 實測確認）
+# 所以 URL 用返 custom domain（品牌一致）
 BLOG_BASE = "https://aniskill.esgov.org/"
 
 def log(msg):
