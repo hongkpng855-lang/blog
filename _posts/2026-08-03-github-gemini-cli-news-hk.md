@@ -6,6 +6,7 @@ categories: 技術
 tags: [GitHub, 開源, Gemini, Google, AI Agent, CLI, MCP, TypeScript, 科技新聞, 香港, auto-publish, github-news]
 image: /assets/images/posts/github-gemini-cli-shot1.png
 description: "Google 官方開源項目 Gemini CLI 已累積 10.6 萬星標——這款以 TypeScript 編寫的終端機 AI 代理，將 Gemini 3 模型、1M token 上下文視窗與 MCP 生態直接帶入命令列。本文分析其技術架構、免費額度策略與生態影響。"
+fb_message: 將 Gemini 直接搬入終端機：Google 官方開源的 Gemini CLI 以 TypeScript 編寫，把 Gemini 3 模型、百萬級 token 上下文與 MCP 生態帶進命令列環境。\n\n開發者無需開啟瀏覽器，即可在終端機中編寫程式、處理檔案及連接外部工具。GitHub 星標已達 10.6 萬，並提供免費額度供即時體驗。\n\n安裝方法與實際用法，詳見文章。
 author: "陳志豪 Eric Chan"
 creator_github: google-gemini/gemini-cli
 ---
