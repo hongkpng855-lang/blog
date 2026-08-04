@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <!-- SEO Meta Tags -->
-  <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}｜{{ site.description | truncate: 60 }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}｜AI 工具實測與科技知識分享{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}AnIskill AI實戰誌由 IT 顧問 Eric Chan 主理，親身實測 AI 工具、UI 設計與前端開發。每篇文章皆經真實使用與驗證，分享 AI 工具實測心得、科技知識與生產力方法，助你慳時間、慳錢、提升效率。{% endif %}">
   <meta name="keywords" content="{% if page.tags %}{{ page.tags | join: ', ' }}{% else %}UI, 前端, 技術, 投資, 生活, 健康, 學習, 部落格, 知識分享{% endif %}">
   <meta name="author" content="{{ site.author }}">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
@@ -51,6 +51,32 @@
   
   <!-- RSS Feed -->
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+  
+  <!-- JSON-LD: WebSite + Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "{{ site.url }}/#website",
+        "url": "{{ site.url }}/",
+        "name": "{{ site.title }}",
+        "description": "{{ site.description }}",
+        "inLanguage": "zh-Hant",
+        "publisher": { "@id": "{{ site.url }}/#organization" }
+      },
+      {
+        "@type": "Organization",
+        "@id": "{{ site.url }}/#organization",
+        "name": "{{ site.title }}",
+        "url": "{{ site.url }}/",
+        "logo": { "@type": "ImageObject", "url": "{{ site.url }}/assets/images/aniskill-icon.svg" },
+        "founder": { "@type": "Person", "name": "{{ site.author }}" }
+      }
+    ]
+  }
+  </script>
 </head>
 <body class="d-flex flex-column min-vh-100">
 

@@ -1,0 +1,19 @@
+# AnIskill AI實戰誌
+
+> 由 IT 顧問 Eric Chan 主理：親身實測的 AI 工具、UI 設計、前端開發與科技知識分享。試過先講。
+
+## 網站
+- [首頁](https://aniskill.esgov.org/)
+- [關於 Eric Chan](https://aniskill.esgov.org/about/)
+- [聯絡方式](https://aniskill.esgov.org/contact/)
+
+## 文章分類
+- [技術](https://aniskill.esgov.org/categories/技術/)
+- [投資](https://aniskill.esgov.org/categories/投資/)
+- [生活](https://aniskill.esgov.org/categories/生活/)
+- [健康](https://aniskill.esgov.org/categories/健康/)
+- [學習](https://aniskill.esgov.org/categories/學習/)
+
+## 完整內容索引
+- [Sitemap](https://aniskill.esgov.org/sitemap.xml)
+- [RSS Feed](https://aniskill.esgov.org/feed.xml)
