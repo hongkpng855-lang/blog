@@ -14,6 +14,7 @@ import json
 import os
 import re
 import sys
+import fcntl
 import urllib.request
 import urllib.parse
 import datetime
@@ -28,6 +29,21 @@ STATE_FILE = os.path.join(BASE_DIR, "fb_posted_state.json")
 
 PAGE_ID = open(os.path.join(SECRETS_DIR, "page_id.txt")).read().strip()
 PAGE_TOKEN = open(os.path.join(SECRETS_DIR, "page_token.txt")).read().strip()
+
+# 防並行執行 lock（2026-08-05：並行跑兩個實例會出重複 post）
+LOCK_FILE = os.path.join(BASE_DIR, ".fb-auto-post.lock")
+
+def acquire_lock():
+    """同一時間只允許一個實例執行；攞唔到 lock 就直接退出（避免重複 post）"""
+    lock_fd = open(LOCK_FILE, "w")
+    try:
+        fcntl.flock(lock_fd, fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except OSError:
+        log("⚠️ 另一個 fb-auto-post.py 實例執行緊，跳過（防止重複 post）")
+        sys.exit(0)
+    lock_fd.write(str(os.getpid()))
+    lock_fd.flush()
+    return lock_fd
 # og:image 已改用 github.io 之後，FB 可以正常抓到 aniskill.esgov.org 頁面（2026-08-05 實測確認）
 # 所以 URL 用返 custom domain（品牌一致）
 BLOG_BASE = "https://aniskill.esgov.org/"
@@ -141,6 +157,7 @@ def fb_post_link(message, link):
         return False, str(e)
 
 def main():
+    lock_fd = acquire_lock()
     log("=== Blog → Facebook 自動發文檢查 (v8: 只發 GitHub 新聞 + fb_message 濃縮版) ===")
     first_run = not os.path.exists(STATE_FILE)
     state = load_state()
