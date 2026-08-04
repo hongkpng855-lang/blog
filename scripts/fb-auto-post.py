@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Blog → Facebook 自動發文 script v6
+Blog → Facebook 自動發文 script v7
 - 檢查 jekyll-blog/_posts/ 有冇新文章（相對 state 檔案）
 - ⚠️ 只發佈 GitHub 新聞（front matter 有 creator_github 嘅文章）— 其他 auto-publish 文章唔發去 FB
+- ⚠️ 帖文精簡（約 8 行）：標題 + description 為主（2026-08-05 用戶要求）
 - 有 → 自動 POST 去 Facebook 專頁（精簡版內容 + 封面圖卡片 + Blog 連結，引流去 Blog）
 - 記錄已發佈文章，避免重複發佈
 
@@ -138,7 +139,7 @@ def fb_post_link(message, link):
         return False, str(e)
 
 def main():
-    log("=== Blog → Facebook 自動發文檢查 (v6: 只發 GitHub 新聞) ===")
+    log("=== Blog → Facebook 自動發文檢查 (v7: 只發 GitHub 新聞 + 8 行精簡) ===")
     first_run = not os.path.exists(STATE_FILE)
     state = load_state()
     posted = set(state.get("posted", []))
@@ -178,12 +179,16 @@ def main():
 
         title = info["title"] or os.path.basename(post)
         desc = info["description"] or ""
-        excerpt = extract_excerpt(content)
+        excerpt = extract_excerpt(content, max_len=150)
 
-        # 組合精簡版內容：description + 正文摘要
-        body_text = excerpt if excerpt else desc
-        if desc and desc not in body_text:
-            body_text = f"{desc}\n\n{excerpt}"
+        # 組合精簡版內容（2026-08-05 用戶要求：約 8 行）
+        # 優先只用 description（約 100-160 字 ≈ 4-5 行）；太短先補少少正文摘要
+        if desc:
+            body_text = desc
+            if len(desc) < 100 and excerpt:
+                body_text = f"{desc}\n\n{excerpt[:120]}"
+        else:
+            body_text = excerpt[:150]
 
         image_url = get_absolute_image(info["image"])
         url = get_post_url(post, info["categories"])
