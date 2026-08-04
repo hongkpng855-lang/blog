@@ -260,21 +260,11 @@ a:hover { color: var(--amber-light); }
   border-radius: 6px;
 }
 
-/* ---------- Section 標題（註釋式） ---------- */
+/* ---------- Section 標題 ---------- */
 .section-title {
   font-weight: 800;
   font-size: 1.35rem;
   color: #fff;
-  padding-left: 1.2rem;
-  position: relative;
-}
-.section-title::before {
-  content: '//';
-  position: absolute;
-  left: 0;
-  color: var(--amber);
-  font-family: var(--mono);
-  font-weight: 600;
 }
 
 /* ---------- 置頂文章 ---------- */
