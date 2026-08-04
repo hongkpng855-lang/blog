@@ -18,9 +18,14 @@
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
   {% if page.image %}
-  <meta property="og:image" content="{{ page.image | absolute_url }}">
+  {% if page.image contains 'http' %}
+  <meta property="og:image" content="{{ page.image }}">
   {% else %}
-  <meta property="og:image" content="{{ '/assets/images/character-base.jpg' | absolute_url }}">
+  <!-- og:image 用 github.io（FB crawler 連唔到 custom domain aniskill.esgov.org，實測確認） -->
+  <meta property="og:image" content="https://hongkpng855-lang.github.io/blog{{ page.image }}">
+  {% endif %}
+  {% else %}
+  <meta property="og:image" content="https://hongkpng855-lang.github.io/blog/assets/images/character-base.jpg">
   {% endif %}
   
   <!-- Twitter Card Meta Tags -->
@@ -28,9 +33,13 @@
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   {% if page.image %}
-  <meta name="twitter:image" content="{{ page.image | absolute_url }}">
+  {% if page.image contains 'http' %}
+  <meta name="twitter:image" content="{{ page.image }}">
   {% else %}
-  <meta name="twitter:image" content="{{ '/assets/images/character-base.jpg' | absolute_url }}">
+  <meta name="twitter:image" content="https://hongkpng855-lang.github.io/blog{{ page.image }}">
+  {% endif %}
+  {% else %}
+  <meta name="twitter:image" content="https://hongkpng855-lang.github.io/blog/assets/images/character-base.jpg">
   {% endif %}
   
   <!-- Theme Colors -->

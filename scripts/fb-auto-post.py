@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Blog → Facebook 自動發文 script v5
+Blog → Facebook 自動發文 script v6
 - 檢查 jekyll-blog/_posts/ 有冇新文章（相對 state 檔案）
+- ⚠️ 只發佈 GitHub 新聞（front matter 有 creator_github 嘅文章）— 其他 auto-publish 文章唔發去 FB
 - 有 → 自動 POST 去 Facebook 專頁（精簡版內容 + 封面圖卡片 + Blog 連結，引流去 Blog）
 - 記錄已發佈文章，避免重複發佈
 
@@ -135,7 +136,7 @@ def fb_post_link(message, link):
         return False, str(e)
 
 def main():
-    log("=== Blog → Facebook 自動發文檢查 (v5: 精簡內容+封面，引流去 Blog) ===")
+    log("=== Blog → Facebook 自動發文檢查 (v6: 只發 GitHub 新聞) ===")
     first_run = not os.path.exists(STATE_FILE)
     state = load_state()
     posted = set(state.get("posted", []))
@@ -165,6 +166,14 @@ def main():
     for post in new_posts:
         path = os.path.join(POSTS_DIR, post)
         info, content = parse_front_matter(path)
+
+        # ⚠️ 規則：只發佈 GitHub 新聞（front matter 有 creator_github）
+        # auto-publish 嘅一般文章唔發去 Facebook，但照樣標記為已處理，避免重複檢查
+        if not info["creator_github"]:
+            posted.add(post)
+            log(f"⏭️ 跳過（非 GitHub 新聞）：{post}")
+            continue
+
         title = info["title"] or os.path.basename(post)
         desc = info["description"] or ""
         excerpt = extract_excerpt(content)
