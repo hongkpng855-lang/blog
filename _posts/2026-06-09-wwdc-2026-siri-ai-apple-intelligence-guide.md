@@ -145,5 +145,5 @@ Apple 今年將 AI 深度整合到幾乎所有內置 App：
 ---
 
 *你可能有興趣嘅相關文章：*
-- [Google I/O 2026 AI 功能完全攻略](https://hongkpng855-lang.github.io/blog/tech/2026/06/09/google-io-2026-ai-features-guide/)
-- [AI 時代自主學習全攻略](https://hongkpng855-lang.github.io/blog/learning/2026/06/06/ai-learning-guide/)
+- [Google I/O 2026 AI 功能完全攻略](https://aniskill.esgov.org/tech/2026/06/09/google-io-2026-ai-features-guide/)
+- [AI 時代自主學習全攻略](https://aniskill.esgov.org/learning/2026/06/06/ai-learning-guide/)

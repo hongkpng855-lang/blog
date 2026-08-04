@@ -281,6 +281,6 @@ NAS 唔係一部機器 — 係你嘅私人雲端基建。
 
 2026 年嘅 NAS 比你想像中易 setup 同平。尤其係如果你屋企有 2 個人以上用、多部 device、同埋開始擔心 cloud storage 越嚟越貴，而家就係入手嘅好時候。
 
-**下一步**：如果你仲諗緊邊部 NAS 適合你，可以睇埋我哋嘅 [智能家居入門指南](https://hongkpng855-lang.github.io/blog/tech/2026/06/10/smart-home-beginners-guide-hk.html) — NAS 其實係智能家居嘅大腦，兩者配合完美。
+**下一步**：如果你仲諗緊邊部 NAS 適合你，可以睇埋我哋嘅 [智能家居入門指南](https://aniskill.esgov.org/tech/2026/06/10/smart-home-beginners-guide-hk.html) — NAS 其實係智能家居嘅大腦，兩者配合完美。
 
 你有用 NAS 嗎？或者你考慮緊邊個 model？留言話我知！

@@ -162,4 +162,4 @@ Alexa 嘅 Skills 生態最豐富，但香港支援相對冇咁全面，廣東話
 
 由幾百蚊開始，逐樣加，你會發覺——原來生活可以咁輕鬆。
 
-下一步建議：如果你對智能家居有興趣，可以睇埋我哋嘅 [Edge AI 邊緣人工智能指南](https://hongkpng855-lang.github.io/blog/tech/2026/06/09/edge-ai-guide-2026.html) 同 [AI 工作流自動化攻略](https://hongkpng855-lang.github.io/blog/tech/2026/06/09/ai-workflow-automation-guide.html)，了解 AI 點樣進一步提升你嘅生活效率。
+下一步建議：如果你對智能家居有興趣，可以睇埋我哋嘅 [Edge AI 邊緣人工智能指南](https://aniskill.esgov.org/tech/2026/06/09/edge-ai-guide-2026.html) 同 [AI 工作流自動化攻略](https://aniskill.esgov.org/tech/2026/06/09/ai-workflow-automation-guide.html)，了解 AI 點樣進一步提升你嘅生活效率。

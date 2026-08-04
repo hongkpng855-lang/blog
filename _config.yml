@@ -2,8 +2,8 @@ title: "AnIskill AI實戰誌"
 description: "由 IT 顧問 Eric Chan 主理：親身實測的 AI 工具、UI 設計、前端開發與科技知識分享。試過先講。"
 author: "Eric Chan"
 email: "" 
-baseurl: "/blog"
-url: "https://hongkpng855-lang.github.io"
+baseurl: ""
+url: "https://aniskill.esgov.org"
 timezone: "Asia/Taipei"
 
 # GitHub Pages 相容設定

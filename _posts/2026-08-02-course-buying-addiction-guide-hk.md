@@ -183,7 +183,7 @@ author: "Sun ny"
 
 > 「請根據以上內容出三道選擇題，先不要提供答案，待作答完成後再作解釋。」
 
-這個動作將「觀看影片」轉化為「測驗」，記憶效果截然不同。關於如何運用 AI 工具整理學習材料，[《用 NotebookLM 做研究的 Prompt 教學》](https://hongkpng855-lang.github.io/blog/技術/2026/08/01/notebooklm-research-prompts-guide-hk.html)一文有詳細說明，原理相同。
+這個動作將「觀看影片」轉化為「測驗」，記憶效果截然不同。關於如何運用 AI 工具整理學習材料，[《用 NotebookLM 做研究的 Prompt 教學》](https://aniskill.esgov.org/技術/2026/08/01/notebooklm-research-prompts-guide-hk.html)一文有詳細說明，原理相同。
 
 ### 5.2 費曼學習法：請 AI 扮演學生
 
@@ -195,7 +195,7 @@ AI 會針對解釋含糊之處追問，很快便能暴露理解的不足——�
 
 ### 5.3 自動生成筆記與間隔複習
 
-- 請 AI 將每一節濃縮為三點筆記，存入筆記系統（例如[《第二大腦數位筆記系統》](https://hongkpng855-lang.github.io/blog/學習/2026/07/23/second-brain-digital-notes-guide-hk.html)一文介紹的 Obsidian + PARA 框架）
+- 請 AI 將每一節濃縮為三點筆記，存入筆記系統（例如[《第二大腦數位筆記系統》](https://aniskill.esgov.org/學習/2026/07/23/second-brain-digital-notes-guide-hk.html)一文介紹的 Obsidian + PARA 框架）
 - 隔一星期、隔一個月，再請 AI 根據筆記重新出題測驗——這就是間隔重複，能將短期記憶轉化為長期記憶
 
 ### 5.4 三點提醒

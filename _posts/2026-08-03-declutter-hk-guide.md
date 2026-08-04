@@ -311,7 +311,7 @@ author: "Sun ny"
 - 刪除無用的應用程式
 - 清理桌面圖示
 
-數碼雜物同樣消耗注意力資源。詳情可參考[《數碼排毒實戰指南》](https://hongkpng855-lang.github.io/blog/生活/2026/07/25/digital-detox-guide-hk.html)，其原理與實體整理相同：**減量、原位、定期回歸。**
+數碼雜物同樣消耗注意力資源。詳情可參考[《數碼排毒實戰指南》](https://aniskill.esgov.org/生活/2026/07/25/digital-detox-guide-hk.html)，其原理與實體整理相同：**減量、原位、定期回歸。**
 
 ---
 

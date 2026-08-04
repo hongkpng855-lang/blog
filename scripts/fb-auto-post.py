@@ -26,7 +26,7 @@ STATE_FILE = os.path.join(BASE_DIR, "fb_posted_state.json")
 
 PAGE_ID = open(os.path.join(SECRETS_DIR, "page_id.txt")).read().strip()
 PAGE_TOKEN = open(os.path.join(SECRETS_DIR, "page_token.txt")).read().strip()
-BLOG_BASE = "https://hongkpng855-lang.github.io/blog/"
+BLOG_BASE = "https://aniskill.esgov.org/"
 
 def log(msg):
     ts = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")

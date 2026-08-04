@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hongkpng855-lang.github.io/blog/sitemap.xml
+Sitemap: https://aniskill.esgov.org/sitemap.xml
 
 # 禁止存取管理相關路徑
 Disallow: /admin/
