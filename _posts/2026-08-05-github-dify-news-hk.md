@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "15.1 萬星開源項目：dify — 一體化 LLM 應用開發平台的崛起"
-date: 2026-08-05 20:30:00 +0800
+date: 2026-08-05 20:10:00 +0800
 categories: 技術
 tags: [GitHub, 開源, dify, langgenius, LLM, AI Agent, RAG, 大模型應用, 低代碼, TypeScript, 科技新聞, 香港, auto-publish, github-news]
 image: /assets/images/posts/github-dify-shot1.png
