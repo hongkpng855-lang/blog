@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "16.2 萬星開源項目：Firecrawl — 讓 AI 代理搜尋、擷取與操作網頁的開放資料 API"
-date: 2026-08-06 06:50:00 +0800
+date: 2026-08-06 06:30:00 +0800
 categories: 技術
 tags: [GitHub, 開源, Firecrawl, firecrawl, AI Agent, 網頁擷取, Web Scraping, MCP, LLM, 資料提取, 科技新聞, 香港, auto-publish, github-news]
 image: /assets/images/posts/github-firecrawl-news-shot1.png
