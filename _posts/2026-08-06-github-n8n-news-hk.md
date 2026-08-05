@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "19.9 萬星開源項目：n8n — AI 智能體與工作流自動化平台"
-date: 2026-08-06 04:20:00 +0800
+date: 2026-08-06 04:00:00 +0800
 categories: 技術
 tags: [GitHub, 開源, n8n, n8n-io, AI Agent, 工作流自動化, workflow automation, TypeScript, no-code, 智能體, 自動化, 科技新聞, 香港, auto-publish, github-news]
 image: /assets/images/posts/github-n8n-news-shot1.png
