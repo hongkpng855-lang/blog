@@ -68,9 +68,9 @@ layout: default
 
     <article class="card mb-4">
       <div class="card-body">
-        {% assign content_first_chars = page.content | strip | slice: 0, 2 %}
-        {% if content_first_chars == '# ' %}
-        <!-- 文章內容已含 H1，唔重複輸出（避免 duplicate H1） -->
+        {% assign excerpt_clean = page.excerpt | strip_html | strip_newlines | strip %}
+        {% if excerpt_clean == page.title %}
+        <!-- 文章內容已含 H1（excerpt == title），唔重複輸出（避免 duplicate H1） -->
         {% else %}
         <h1 class="mb-3">{{ page.title }}</h1>
         {% endif %}
