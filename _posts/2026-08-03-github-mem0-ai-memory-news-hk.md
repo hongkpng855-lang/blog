@@ -19,7 +19,11 @@ creator_github: mem0ai/mem0
 
 ---
 
-## <svg class="ui-icon"><use href="#ui-chart"/></svg>新聞重點速覽
+## <svg class="ui-icon"><use href="#ui-chart"/></svg>這篇文章有哪些重點？
+
+<!-- AEO Answer Capsule — 約 60 字 -->
+Mem0 是 AI Agent 的記憶層項目，GitHub 累積 62.4K 星標、7.3K fork，出身 Y Combinator S24，Python 編寫、Apache 2.0 授權，更新活躍。
+<!-- End AEO Capsule -->
 
 <div class="ui-stat-grid">
   <div class="ui-stat"><span class="ui-stat-num">62.4K</span><span class="ui-stat-label">Stars</span></div>
@@ -37,6 +41,10 @@ creator_github: mem0ai/mem0
 ---
 
 ## <svg class="ui-icon"><use href="#ui-robot"/></svg>此專案是什麼？
+
+<!-- AEO Answer Capsule — 約 70 字 -->
+Mem0 是 AI Agent 的「記憶層」：從對話中抽取重要資訊儲存為記憶，AI 回應前先搜尋相關記憶並納入 context，使用者只需說明一次偏好即可長期記住。
+<!-- End AEO Capsule -->
 
 簡言之：**Mem0 是 AI Agent 的「記憶層」，使 AI 具備長期記憶能力。**
 
@@ -56,6 +64,10 @@ Mem0 正是位於中間的記憶層：它從對話中抽取重要資訊，將其
 
 ## <svg class="ui-icon"><use href="#ui-rocket"/></svg>為何獲得大量星標？
 
+<!-- AEO Answer Capsule — 約 75 字 -->
+三大原因：填補 AI Agent 記憶短板（User/Session/Agent 三層級記錄）；2026 年 4 月新演算法令 LoCoMo 由 71.4 升至 92.5、LongMemEval 由 67.8 升至 94.4；生態完整，由 library 到 CLI、Docker、雲端與 Agent Skills 一應俱全。
+<!-- End AEO Capsule -->
+
 **第一，它解決了 AI Agent 最核心的痛點。** 目前的 AI Agent 框架（如 CrewAI、LangGraph 等）可以協助建構完整的 workflow，但 Agent 之間以及 Agent 與用戶之間的「記憶」一直是短板。Mem0 正填補此一缺口：它以 User、Session、Agent 三個層級分別記錄資訊，各層級記憶的保存期限亦有明確劃分。
 
 **第二，其近期演算法升級具實質成效。** README 中列有一張相當亮眼的 benchmark 表——2026 年 4 月推出的新記憶演算法，在 LoCoMo 基準測試中由 71.4 分提升至 92.5 分，LongMemEval 則由 67.8 分提升至 94.4 分，並新增支援 100 萬 token 規模的 BEAM 基準測試。最值得注意的是，該演算法改為「單次提取、只增不改」的設計，記憶只會累積而不會被覆蓋，再配合實體連結與時間推理機制，記憶既準確又節省 token。
@@ -66,7 +78,11 @@ Mem0 正是位於中間的記憶層：它從對話中抽取重要資訊，將其
 
 ---
 
-## <svg class="ui-icon"><use href="#ui-download"/></svg>快速入門
+## <svg class="ui-icon"><use href="#ui-download"/></svg>如何快速開始使用 Mem0？
+
+<!-- AEO Answer Capsule — 約 60 字 -->
+最快用 CLI：`npm install -g @mem0/cli` 後以 `mem0 init --agent` 簽到、`mem0 add` 記錄、`mem0 search` 搜尋；亦有 Python API 與 Docker 自託管方案。
+<!-- End AEO Capsule -->
 
 最快的方式是使用 CLI，四條指令即可完成：
 
@@ -104,7 +120,11 @@ results = memory.search("Alice 有什麼偏好？", filters={"user_id": "alice"}
 
 ---
 
-## <svg class="ui-icon"><use href="#ui-bulb"/></svg>本文觀察
+## <svg class="ui-icon"><use href="#ui-bulb"/></svg>Mem0 值得一試嗎？
+
+<!-- AEO Answer Capsule — 約 70 字 -->
+值得：AI 缺乏記憶是 2026 年 AI 產品落地最大瓶頸之一，Mem0 由 library 到 Agent Skills、雲端服務一體化，開發者由試玩到上線生產無斷層，62K 星標實至名歸。
+<!-- End AEO Capsule -->
 
 <div class="ui-tip"><svg class="ui-icon"><use href="#ui-bulb"/></svg><strong>「AI 缺乏記憶」是 2026 年 AI 產品落地最大的瓶頸之一，Mem0 精準切入此一領域。</strong>檢視完整 README 後可見，其最聰明之處在於不僅提供 library，而是連同 Agent Skills、CLI、雲端服務一併構建成完整方案——令開發者從試玩到上 production 皆無斷層。62K 星標對這類基礎建設型專案而言，可謂實至名歸。</div>
 
