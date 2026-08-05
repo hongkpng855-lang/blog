@@ -7,3 +7,4 @@
 __pycache__/
 *.pyc
 scripts/.fb-auto-post.lock
+scripts/.ig-auto-post.lock
