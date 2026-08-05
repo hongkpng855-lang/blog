@@ -68,15 +68,8 @@ layout: default
 
     <article class="card mb-4">
       <div class="card-body">
-        {% assign content_has_h1 = false %}
-        {% assign content_lines = page.content | newline_to_br | split: '<br />' %}
-        {% for line in content_lines %}
-          {% assign trimmed = line | strip %}
-          {% if trimmed.size > 1 and trimmed | slice: 0, 2 == '# ' %}
-            {% assign content_has_h1 = true %}
-          {% endif %}
-        {% endfor %}
-        {% if content_has_h1 %}
+        {% assign content_first_chars = page.content | strip | slice: 0, 2 %}
+        {% if content_first_chars == '# ' %}
         <!-- 文章內容已含 H1，唔重複輸出（避免 duplicate H1） -->
         {% else %}
         <h1 class="mb-3">{{ page.title }}</h1>
