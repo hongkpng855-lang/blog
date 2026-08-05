@@ -9,14 +9,14 @@
   
   <!-- SEO Meta Tags -->
   <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}｜AI 工具實測與科技知識分享{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}AnIskill AI實戰誌由 IT 顧問 Eric Chan 主理，親身實測 AI 工具、UI 設計與前端開發。每篇文章皆經真實使用與驗證，分享 AI 工具實測心得、科技知識與生產力方法，助你慳時間、慳錢、提升效率。{% endif %}">
+  <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}AnIskill AI實戰誌由 IT 顧問 Eric Chan 主理，親身實測 AI 工具、UI 設計與前端開發。每篇文章皆經真實使用與驗證，分享 AI 工具實測心得、科技知識與生產力方法，助你慳時間、慳錢、提升效率。內容涵蓋 AI 工具、自動化、投資理財與生活科技，全部以真實測試經驗撰寫。{% endif %}">
   <meta name="keywords" content="{% if page.tags %}{{ page.tags | join: ', ' }}{% else %}UI, 前端, 技術, 投資, 生活, 健康, 學習, 部落格, 知識分享{% endif %}">
   <meta name="author" content="{{ site.author }}">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   
   <!-- Open Graph Meta Tags -->
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
@@ -34,7 +34,7 @@
   <!-- Twitter Card Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   {% if page.image %}
   {% if page.image contains 'http' %}
   <meta name="twitter:image" content="{{ page.image }}">
@@ -76,7 +76,15 @@
         "name": "{{ site.title }}",
         "description": "{{ site.description }}",
         "inLanguage": "zh-Hant",
-        "publisher": { "@id": "{{ site.url }}/#organization" }
+        "publisher": { "@id": "{{ site.url }}/#organization" },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "{{ site.url }}/search/?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
       },
       {
         "@type": "Organization",
