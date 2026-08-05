@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Blog → Instagram 自動發文 script v1
+Blog → Instagram 自動發文 script v2（2026-08-06）
 - 檢查 jekyll-blog/_posts/ 有冇新 GitHub 新聞（front matter 有 creator_github + fb_message）
-- 有 → 自動 POST 去 IG（封面圖 + fb_message caption + hashtags）
+- 有 → 自動 POST 去 IG：
+  * caption 最頂 = Blog 文章連結（用戶要求：文章最上面放返 blog 連結）
+  * 圖片 = 文章全部圖片（封面 + 正文所有圖），2 張以上用 Carousel（最多 10 張）
 - 記錄已發佈文章，避免重複發佈
 
 用法：python3 ig-auto-post.py
@@ -28,10 +30,11 @@ LOCK_FILE = os.path.join(BASE_DIR, ".ig-auto-post.lock")
 
 IG_TOKEN = open(os.path.join(SECRETS_DIR, "ig_token.txt")).read().strip()
 IG_USER_ID = open(os.path.join(SECRETS_DIR, "ig_user_id.txt")).read().strip()
-# og:image 用 github.io（FB/IG crawler 可達；custom domain 唔可靠）
-BLOG_BASE = "https://hongkpng855-lang.github.io/blog"
+# 圖片用 github.io（FB/IG crawler 可達；custom domain 唔可靠）
+BLOG_BASE = "https://hongkpng855-lang.github.io/blog/"
 API = "https://graph.instagram.com/v25.0"
 HASHTAGS = "#AI #開源 #GitHub #LLM #人工智能"
+MAX_CAROUSEL = 10  # IG Carousel 上限
 
 
 def log(msg):
@@ -68,7 +71,8 @@ def save_state(state):
 
 
 def parse_front_matter(path):
-    info = {"title": None, "description": None, "image": None, "categories": None, "creator_github": None, "fb_message": None}
+    info = {"title": None, "description": None, "image": None, "categories": None,
+            "creator_github": None, "fb_message": None}
     try:
         with open(path, encoding="utf-8") as f:
             content = f.read()
@@ -77,15 +81,94 @@ def parse_front_matter(path):
             fm = m.group(1)
             t = re.search(r'^title:\s*["\']?(.+?)["\']?\s*$', fm, re.M)
             img = re.search(r'^image:\s*["\']?(.+?)["\']?\s*$', fm, re.M)
+            c = re.search(r'^categories:\s*(.+?)\s*$', fm, re.M)
             cg = re.search(r'^creator_github:\s*["\']?(.+?)["\']?\s*$', fm, re.M)
             fbm = re.search(r'^fb_message:\s*["\']?(.+?)["\']?\s*$', fm, re.M)
             if t: info["title"] = t.group(1).strip().strip('"\'')
             if img: info["image"] = img.group(1).strip().strip('"\'')
+            if c:
+                cat = c.group(1).strip().strip('"\'')
+                if cat and not cat.startswith("["):
+                    info["categories"] = cat
             if cg: info["creator_github"] = cg.group(1).strip().strip('"\'')
             if fbm: info["fb_message"] = fbm.group(1).strip().strip('"\'').replace("\\n", "\n")
         return info
     except Exception:
         return info
+
+
+def get_post_url(filename, categories):
+    """從 filename + categories 推斷文章 URL（Jekyll permalink: /:categories/:year/:month/:day/:title）"""
+    m = re.match(r"^(\d{4})-(\d{2})-(\d{2})-(.+)\.md$", filename)
+    if m:
+        y, mo, d, slug = m.groups()
+        if categories:
+            return f"{BLOG_BASE}{categories}/{y}/{mo}/{d}/{slug}.html"
+        return f"{BLOG_BASE}{y}/{mo}/{d}/{slug}.html"
+    return BLOG_BASE
+
+
+def get_absolute_image(image_path):
+    """將相對圖片路徑轉做絕對 URL"""
+    if not image_path:
+        return None
+    if image_path.startswith("http"):
+        return image_path
+    image_path = image_path.lstrip("/")
+    return f"{BLOG_BASE}{image_path}"
+
+
+def extract_content_images(md_content):
+    """從 markdown 正文抽取所有圖片路徑（去重、保留順序）"""
+    images = []
+    # 1) Liquid 語法：![alt]({{ '/path' | relative_url }})
+    for m in re.finditer(r'!\[[^\]]*\]\(\{\{\s*[\'"]([^\'"]+)[\'"]\s*\|\s*relative_url\s*\}\}\)', md_content):
+        p = m.group(1).strip()
+        if p not in images:
+            images.append(p)
+    # 2) 純 markdown：![alt](path)
+    for m in re.finditer(r'!\[[^\]]*\]\(([^)]+)\)', md_content):
+        p = m.group(1).strip()
+        if p.startswith("{{") or p.startswith("<") or p.startswith("http"):
+            continue
+        if p not in images:
+            images.append(p)
+    # 3) <img src="...">
+    for m in re.finditer(r'<img[^>]+src=[\'"]([^\'"]+)[\'"]', md_content):
+        p = m.group(1).strip()
+        if p not in images:
+            images.append(p)
+    return images
+
+
+def build_image_list(post_path, info):
+    """封面 + 正文全部圖片 → 絕對 URL 清單（去重、最多 10 張）"""
+    with open(post_path, encoding="utf-8") as f:
+        content = f.read()
+
+    raw = []
+    if info.get("image"):
+        raw.append(info["image"])  # 封面（front matter image）排最前
+    raw.extend(extract_content_images(content))
+
+    # 去重（保留順序）
+    seen, urls = set(), []
+    for p in raw:
+        if p in seen:
+            continue
+        seen.add(p)
+        # IG 唔支援 SVG → 跳過
+        if p.lower().endswith((".svg", ".gif")):
+            continue
+        url = get_absolute_image(p)
+        if url and url not in urls:
+            urls.append(url)
+    return urls[:MAX_CAROUSEL]
+
+
+def build_caption(post_url, fb_message):
+    """caption：Blog 連結放最頂 → fb_message → hashtags"""
+    return f"📄 完整文章：{post_url}\n\n{fb_message}\n\n{HASHTAGS}"
 
 
 def ig_api(path, params, method="GET"):
@@ -102,7 +185,7 @@ def ig_api(path, params, method="GET"):
 
 
 def ig_post_image(image_url, caption):
-    """兩步：create media container → publish"""
+    """單圖：兩步 create media container → publish"""
     r = ig_api(f"{IG_USER_ID}/media", {
         "image_url": image_url,
         "caption": caption,
@@ -120,9 +203,41 @@ def ig_post_image(image_url, caption):
     return False, str(r2)
 
 
+def ig_post_carousel(image_urls, caption):
+    """Carousel：每張圖 create item container → create CAROUSEL container → publish"""
+    children = []
+    for i, url in enumerate(image_urls):
+        r = ig_api(f"{IG_USER_ID}/media", {
+            "image_url": url,
+            "is_carousel_item": "true",
+            "access_token": IG_TOKEN,
+        }, "POST")
+        if "id" not in r:
+            return False, f"第 {i + 1}/{len(image_urls)} 張圖 create 失敗：{r}"
+        children.append(r["id"])
+        log(f"   ⏳ Carousel 圖片容器 {i + 1}/{len(image_urls)} ok（{url}）")
+        time.sleep(3)  # 避免 rate limit
+    r = ig_api(f"{IG_USER_ID}/media", {
+        "media_type": "CAROUSEL",
+        "children": ",".join(children),
+        "caption": caption,
+        "access_token": IG_TOKEN,
+    }, "POST")
+    if "id" not in r:
+        return False, f"Carousel container 失敗：{r}"
+    time.sleep(15)  # 等 IG 處理
+    r2 = ig_api(f"{IG_USER_ID}/media_publish", {
+        "creation_id": r["id"],
+        "access_token": IG_TOKEN,
+    }, "POST")
+    if "id" in r2:
+        return True, r2["id"]
+    return False, str(r2)
+
+
 def main():
     lock_fd = acquire_lock()
-    log("=== Blog → Instagram 自動發文檢查 (v1) ===")
+    log("=== Blog → Instagram 自動發文檢查 (v2: 全圖 Carousel + 連結置頂) ===")
     first_run = not os.path.exists(STATE_FILE)
     state = load_state()
     posted = set(state.get("posted", []))
@@ -155,21 +270,28 @@ def main():
             posted.add(post)
             log(f"⏭️ 跳過（非 GitHub 新聞或冇 fb_message）：{post}")
             continue
-        if not info.get("image"):
+
+        img_urls = build_image_list(os.path.join(POSTS_DIR, post), info)
+        if not img_urls:
             posted.add(post)
-            log(f"⏭️ 冇封面圖：{post}")
+            log(f"⏭️ 冇圖片：{post}")
             continue
 
-        image = info["image"]
-        img_url = image if image.startswith("http") else BLOG_BASE + image
-        caption = info["fb_message"] + "\n\n" + HASHTAGS
+        post_url = get_post_url(post, info["categories"])
+        caption = build_caption(post_url, info["fb_message"])
+        log(f"📝 {post}")
+        log(f"   連結：{post_url}")
+        log(f"   圖片：{len(img_urls)} 張 → {'Carousel' if len(img_urls) > 1 else '單圖'}")
 
-        ok, result = ig_post_image(img_url, caption)
+        if len(img_urls) == 1:
+            ok, result = ig_post_image(img_urls[0], caption)
+        else:
+            ok, result = ig_post_carousel(img_urls, caption)
+
         if ok:
             posted.add(post)
             success_count += 1
             log(f"✅ 已發佈：{post}（{result}）")
-            log(f"   圖片：{img_url}")
         else:
             log(f"❌ 發佈失敗：{post} → {result}")
 
