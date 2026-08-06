@@ -30,8 +30,10 @@ LOCK_FILE = os.path.join(BASE_DIR, ".ig-auto-post.lock")
 
 IG_TOKEN = open(os.path.join(SECRETS_DIR, "ig_token.txt")).read().strip()
 IG_USER_ID = open(os.path.join(SECRETS_DIR, "ig_user_id.txt")).read().strip()
-# 圖片用 github.io（FB/IG crawler 可達；custom domain 唔可靠）
-BLOG_BASE = "https://hongkpng855-lang.github.io/blog/"
+# 圖片用 github.io（IG crawler 可達；custom domain 唔可靠）
+IMG_BASE = "https://hongkpng855-lang.github.io/blog/"
+# caption 內嘅文章連結用 custom domain（用戶要求 2026-08-06）
+LINK_BASE = "https://aniskill.esgov.org/"
 API = "https://graph.instagram.com/v25.0"
 HASHTAGS = "#AI #開源 #GitHub #LLM #人工智能"
 MAX_CAROUSEL = 10  # IG Carousel 上限
@@ -103,9 +105,9 @@ def get_post_url(filename, categories):
     if m:
         y, mo, d, slug = m.groups()
         if categories:
-            return f"{BLOG_BASE}{categories}/{y}/{mo}/{d}/{slug}.html"
-        return f"{BLOG_BASE}{y}/{mo}/{d}/{slug}.html"
-    return BLOG_BASE
+            return f"{LINK_BASE}{categories}/{y}/{mo}/{d}/{slug}.html"
+        return f"{LINK_BASE}{y}/{mo}/{d}/{slug}.html"
+    return LINK_BASE
 
 
 def get_absolute_image(image_path):
@@ -115,7 +117,7 @@ def get_absolute_image(image_path):
     if image_path.startswith("http"):
         return image_path
     image_path = image_path.lstrip("/")
-    return f"{BLOG_BASE}{image_path}"
+    return f"{IMG_BASE}{image_path}"
 
 
 def extract_content_images(md_content):
