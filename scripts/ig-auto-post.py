@@ -74,7 +74,7 @@ def save_state(state):
 
 def parse_front_matter(path):
     info = {"title": None, "description": None, "image": None, "categories": None,
-            "creator_github": None, "fb_message": None}
+            "creator_github": None, "fb_message": None, "permalink": None}
     try:
         with open(path, encoding="utf-8") as f:
             content = f.read()
@@ -86,6 +86,7 @@ def parse_front_matter(path):
             c = re.search(r'^categories:\s*(.+?)\s*$', fm, re.M)
             cg = re.search(r'^creator_github:\s*["\']?(.+?)["\']?\s*$', fm, re.M)
             fbm = re.search(r'^fb_message:\s*["\']?(.+?)["\']?\s*$', fm, re.M)
+            perm = re.search(r'^permalink:\s*["\']?(.+?)["\']?\s*$', fm, re.M)
             if t: info["title"] = t.group(1).strip().strip('"\'')
             if img: info["image"] = img.group(1).strip().strip('"\'')
             if c:
@@ -94,18 +95,24 @@ def parse_front_matter(path):
                     info["categories"] = cat
             if cg: info["creator_github"] = cg.group(1).strip().strip('"\'')
             if fbm: info["fb_message"] = fbm.group(1).strip().strip('"\'').replace("\\n", "\n")
+            if perm: info["permalink"] = perm.group(1).strip().strip('"\'')
         return info
     except Exception:
         return info
 
 
-def get_post_url(filename, categories):
-    """從 filename + categories 推斷文章 URL（Jekyll permalink: /:categories/:year/:month/:day/:title）"""
+def get_post_url(filename, info):
+    """推斷文章 URL：
+    - 有 front matter permalink（無日期格式）→ LINK_BASE + permalink
+    - 冇 → 舊格式 /:categories/:year/:month/:day/:title.html
+    """
+    if info.get("permalink"):
+        return LINK_BASE + info["permalink"].lstrip("/")
     m = re.match(r"^(\d{4})-(\d{2})-(\d{2})-(.+)\.md$", filename)
     if m:
         y, mo, d, slug = m.groups()
-        if categories:
-            return f"{LINK_BASE}{categories}/{y}/{mo}/{d}/{slug}.html"
+        if info.get("categories"):
+            return f"{LINK_BASE}{info['categories']}/{y}/{mo}/{d}/{slug}.html"
         return f"{LINK_BASE}{y}/{mo}/{d}/{slug}.html"
     return LINK_BASE
 
@@ -279,7 +286,7 @@ def main():
             log(f"⏭️ 冇圖片：{post}")
             continue
 
-        post_url = get_post_url(post, info["categories"])
+        post_url = get_post_url(post, info)
         caption = build_caption(post_url, info["fb_message"])
         log(f"📝 {post}")
         log(f"   連結：{post_url}")
@@ -296,7 +303,7 @@ def main():
             log(f"✅ 已發佈：{post}（{result}）")
             # Story 同步（2026-08-06 用戶要求：出埋 Story，引導 copy 連結去出處）
             if img_urls:
-                post_story_for(post, info, img_urls[0], post_url)
+                post_story_for(post, info, img_urls, post_url)
         else:
             log(f"❌ 發佈失敗：{post} → {result}")
 
@@ -337,36 +344,54 @@ def _font(path, size):
         return ImageFont.load_default()
 
 
-def make_story_image(cover_local_path, domain_short, out_path):
-    """封面圖 → 1080x1920 Story 圖（navy 背景 + 封面置中 + 底部 URL bar）"""
+def make_story_image(cover_local_paths, domain_short, out_path):
+    """封面圖 → 1080x1920 Story 圖（navy 背景 + 上下兩張圖 + 底部 URL bar）
+
+    cover_local_paths: list，最多 2 張圖（2026-08-06 用戶要求：一張截圖只佔半個內容，
+    下邊加多一張）
+    """
     if not HAS_PIL:
         return False
     bg = Image.new("RGB", (STORY_W, STORY_H), "#1B2A4A")
-    try:
-        cover = Image.open(cover_local_path).convert("RGB")
-    except Exception:
+    covers = []
+    for pth in cover_local_paths[:2]:
+        try:
+            covers.append(Image.open(pth).convert("RGB"))
+        except Exception:
+            continue
+    if not covers:
         return False
-    # 封面 fit 入 1080 闊，置中偏上（留位俾頂部標題同底部 bar）
-    scale = min(STORY_W / cover.width, (STORY_H - 420) / cover.height)
-    nw, nh = int(cover.width * scale), int(cover.height * scale)
-    cover = cover.resize((nw, nh), Image.LANCZOS)
-    bg.paste(cover, ((STORY_W - nw) // 2, 160))
     d = ImageDraw.Draw(bg)
     # 頂部標題
     f_title = _font(FONT_CJK, 54)
     title = "📰 新文章發佈"
     tw = d.textlength(title, font=f_title)
-    d.text(((STORY_W - tw) / 2, 60), title, fill="#C9A84C", font=f_title)
+    d.text(((STORY_W - tw) / 2, 50), title, fill="#C9A84C", font=f_title)
+    # 中間區域：上下排兩張圖（可用高度 = 1920 - 標題 140 - URL bar 280 - 間距）
+    top_y = 170
+    bottom_bar_h = 280
+    avail_h = STORY_H - top_y - bottom_bar_h - 20
+    if len(covers) == 2:
+        each_h = (avail_h - 16) / 2
+        positions = [top_y, top_y + each_h + 16]
+    else:
+        each_h = avail_h
+        positions = [top_y]
+    for cover, y in zip(covers, positions):
+        scale = min(STORY_W / cover.width, each_h / cover.height)
+        nw, nh = int(cover.width * scale), int(cover.height * scale)
+        c = cover.resize((nw, nh), Image.LANCZOS)
+        bg.paste(c, ((STORY_W - nw) // 2, int(y)))
     # 底部 URL bar
-    d.rectangle([0, STORY_H - 260, STORY_W, STORY_H], fill="#0E1626")
+    d.rectangle([0, STORY_H - bottom_bar_h, STORY_W, STORY_H], fill="#0E1626")
     f_url = _font(FONT_LATIN, 46)
     f_hint = _font(FONT_CJK, 34)
     url_text = f"🔗 {domain_short}"
     uw = d.textlength(url_text, font=f_url)
-    d.text(((STORY_W - uw) / 2, STORY_H - 220), url_text, fill="#FFFFFF", font=f_url)
+    d.text(((STORY_W - uw) / 2, STORY_H - 240), url_text, fill="#FFFFFF", font=f_url)
     hint = "完整文章連結喺 Story 底部 👇"
     hw = d.textlength(hint, font=f_hint)
-    d.text(((STORY_W - hw) / 2, STORY_H - 140), hint, fill="#C9A84C", font=f_hint)
+    d.text(((STORY_W - hw) / 2, STORY_H - 160), hint, fill="#C9A84C", font=f_hint)
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     bg.save(out_path, "JPEG", quality=88)
     return True
@@ -419,21 +444,25 @@ def ig_post_story(image_url, caption):
     return False, str(r2)
 
 
-def post_story_for(post_file, info, cover_url, post_url):
-    """完整 Story 流程：生成圖 → push → 等 200 → 發佈"""
+def post_story_for(post_file, info, img_urls, post_url):
+    """完整 Story 流程：生成圖（頭兩張）→ push → 等 200 → 發佈"""
     if not HAS_PIL:
         log("⏭️ 冇 PIL，跳過 Story")
         return
-    # 封面本地路徑（由 github.io URL 反推）
-    rel = cover_url.replace(IMG_BASE, "")
-    cover_local = os.path.join(JEKYLL_DIR, rel)
-    if not os.path.exists(cover_local):
-        log(f"⏭️ Story：搵唔到本地封面 {cover_local}")
+    # 封面本地路徑（由 github.io URL 反推），攞頭兩張
+    cover_locals = []
+    for u in img_urls[:2]:
+        rel = u.replace(IMG_BASE, "")
+        lp = os.path.join(JEKYLL_DIR, rel)
+        if os.path.exists(lp):
+            cover_locals.append(lp)
+    if not cover_locals:
+        log("⏭️ Story：搵唔到本地封面圖")
         return
     slug = post_file.replace(".md", "")
     out_path = os.path.join(STORY_DIR, f"{slug}-story.jpg")
     domain_short = LINK_BASE.replace("https://", "").rstrip("/")
-    if not make_story_image(cover_local, domain_short, out_path):
+    if not make_story_image(cover_locals, domain_short, out_path):
         log("⏭️ Story：生成圖片失敗")
         return
     if not git_push_file(out_path):

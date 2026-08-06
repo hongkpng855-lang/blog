@@ -67,7 +67,7 @@ def save_state(state):
 
 def parse_front_matter(path):
     """解析 Jekyll front matter，攞 title / description / image / categories / creator_github / fb_message"""
-    info = {"title": None, "description": None, "image": None, "categories": None, "creator_github": None, "fb_message": None}
+    info = {"title": None, "description": None, "image": None, "categories": None, "creator_github": None, "fb_message": None, "permalink": None}
     try:
         with open(path, encoding="utf-8") as f:
             content = f.read()
@@ -80,6 +80,7 @@ def parse_front_matter(path):
             c = re.search(r'^categories:\s*(.+?)\s*$', fm, re.M)
             cg = re.search(r'^creator_github:\s*["\']?(.+?)["\']?\s*$', fm, re.M)
             fbm = re.search(r'^fb_message:\s*["\']?(.+?)["\']?\s*$', fm, re.M)
+            perm = re.search(r'^permalink:\s*["\']?(.+?)["\']?\s*$', fm, re.M)
             if t: info["title"] = t.group(1).strip().strip('"\'')
             if d: info["description"] = d.group(1).strip().strip('"\'')
             if img: info["image"] = img.group(1).strip().strip('"\'')
@@ -91,6 +92,7 @@ def parse_front_matter(path):
                 info["categories"] = cat
             if cg: info["creator_github"] = cg.group(1).strip().strip('"\'')
             if fbm: info["fb_message"] = fbm.group(1).strip().strip('"\'').replace("\\n", "\n")
+            if perm: info["permalink"] = perm.group(1).strip().strip('"\'')
         return info, content
     except Exception:
         return info, ""
@@ -118,13 +120,18 @@ def extract_excerpt(content, max_len=280):
         excerpt = excerpt[:max_len - 3].rstrip() + "..."
     return excerpt
 
-def get_post_url(filename, categories):
-    """從 filename + categories 推斷文章 URL（Jekyll permalink: /:categories/:year/:month/:day/:title）"""
+def get_post_url(filename, info):
+    """推斷文章 URL：
+    - 有 front matter permalink（無日期格式）→ BLOG_BASE + permalink
+    - 冇 → 舊格式 /:categories/:year/:month/:day/:title.html
+    """
+    if info.get("permalink"):
+        return BLOG_BASE + info["permalink"].lstrip("/")
     m = re.match(r"^(\d{4})-(\d{2})-(\d{2})-(.+)\.md$", filename)
     if m:
         y, mo, d, slug = m.groups()
-        if categories:
-            return f"{BLOG_BASE}{categories}/{y}/{mo}/{d}/{slug}.html"
+        if info.get("categories"):
+            return f"{BLOG_BASE}{info['categories']}/{y}/{mo}/{d}/{slug}.html"
         return f"{BLOG_BASE}{y}/{mo}/{d}/{slug}.html"
     return BLOG_BASE
 
@@ -215,7 +222,7 @@ def main():
                 body_text = excerpt[:150]
 
         image_url = get_absolute_image(info["image"])
-        url = get_post_url(post, info["categories"])
+        url = get_post_url(post, info)
 
         # 帖文：標題 + 精簡內容 + Blog 連結卡片（FB 自動抓 og:image 封面）
         # ⚠️ 唔加任何外部連結（GitHub 出處等）——將 FB 流量引流去 Blog
