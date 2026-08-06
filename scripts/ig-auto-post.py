@@ -294,6 +294,9 @@ def main():
             posted.add(post)
             success_count += 1
             log(f"✅ 已發佈：{post}（{result}）")
+            # Story 同步（2026-08-06 用戶要求：出埋 Story，引導 copy 連結去出處）
+            if img_urls:
+                post_story_for(post, info, img_urls[0], post_url)
         else:
             log(f"❌ 發佈失敗：{post} → {result}")
 
@@ -306,3 +309,142 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# ==================== Story 功能（2026-08-06 用戶要求） ====================
+# 每篇 feed post 出完之後，自動出一個 Story：
+#   - 1080x1920 圖（封面置中 + 底部 URL bar）
+#   - caption 引導：撳 copy 連結去返出處
+# ⚠️ IG API 唔支援 Link Sticker → 用「caption 完整 URL + copy 指示」策略
+
+STORY_DIR = os.path.join(JEKYLL_DIR, "assets/images/posts/stories")
+
+try:
+    from PIL import Image, ImageDraw, ImageFont
+    HAS_PIL = True
+except ImportError:
+    HAS_PIL = False
+
+STORY_W, STORY_H = 1080, 1920
+FONT_CJK = "/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc"
+FONT_LATIN = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+
+
+def _font(path, size):
+    try:
+        return ImageFont.truetype(path, size)
+    except Exception:
+        return ImageFont.load_default()
+
+
+def make_story_image(cover_local_path, domain_short, out_path):
+    """封面圖 → 1080x1920 Story 圖（navy 背景 + 封面置中 + 底部 URL bar）"""
+    if not HAS_PIL:
+        return False
+    bg = Image.new("RGB", (STORY_W, STORY_H), "#1B2A4A")
+    try:
+        cover = Image.open(cover_local_path).convert("RGB")
+    except Exception:
+        return False
+    # 封面 fit 入 1080 闊，置中偏上（留位俾頂部標題同底部 bar）
+    scale = min(STORY_W / cover.width, (STORY_H - 420) / cover.height)
+    nw, nh = int(cover.width * scale), int(cover.height * scale)
+    cover = cover.resize((nw, nh), Image.LANCZOS)
+    bg.paste(cover, ((STORY_W - nw) // 2, 160))
+    d = ImageDraw.Draw(bg)
+    # 頂部標題
+    f_title = _font(FONT_CJK, 54)
+    title = "📰 新文章發佈"
+    tw = d.textlength(title, font=f_title)
+    d.text(((STORY_W - tw) / 2, 60), title, fill="#C9A84C", font=f_title)
+    # 底部 URL bar
+    d.rectangle([0, STORY_H - 260, STORY_W, STORY_H], fill="#0E1626")
+    f_url = _font(FONT_LATIN, 46)
+    f_hint = _font(FONT_CJK, 34)
+    url_text = f"🔗 {domain_short}"
+    uw = d.textlength(url_text, font=f_url)
+    d.text(((STORY_W - uw) / 2, STORY_H - 220), url_text, fill="#FFFFFF", font=f_url)
+    hint = "完整文章連結喺 Story 底部 👇"
+    hw = d.textlength(hint, font=f_hint)
+    d.text(((STORY_W - hw) / 2, STORY_H - 140), hint, fill="#C9A84C", font=f_hint)
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    bg.save(out_path, "JPEG", quality=88)
+    return True
+
+
+def git_push_file(file_path):
+    """將 Story 圖 commit + push 去 blog repo（等 GitHub Pages 可以 serve）"""
+    import subprocess
+    try:
+        subprocess.run(["git", "add", file_path], cwd=JEKYLL_DIR, check=True, capture_output=True)
+        subprocess.run(["git", "commit", "-m", f"Story 圖 {os.path.basename(file_path)}"], cwd=JEKYLL_DIR, check=True, capture_output=True)
+        subprocess.run(["git", "push", "origin", "main"], cwd=JEKYLL_DIR, check=True, capture_output=True, timeout=120)
+        return True
+    except Exception as e:
+        log(f"⚠️ Story 圖 push 失敗：{e}")
+        return False
+
+
+def wait_url_ready(url, timeout_s=180):
+    """等 GitHub Pages build + 圖片 200 OK"""
+    deadline = time.time() + timeout_s
+    while time.time() < deadline:
+        try:
+            r = urllib.request.urlopen(url, timeout=15)
+            if r.status == 200:
+                return True
+        except Exception:
+            pass
+        time.sleep(10)
+    return False
+
+
+def ig_post_story(image_url, caption):
+    """Story：create container（media_type=STORIES）→ publish"""
+    r = ig_api(f"{IG_USER_ID}/media", {
+        "image_url": image_url,
+        "media_type": "STORIES",
+        "caption": caption,
+        "access_token": IG_TOKEN,
+    }, "POST")
+    if "id" not in r:
+        return False, str(r)
+    time.sleep(8)
+    r2 = ig_api(f"{IG_USER_ID}/media_publish", {
+        "creation_id": r["id"],
+        "access_token": IG_TOKEN,
+    }, "POST")
+    if "id" in r2:
+        return True, r2["id"]
+    return False, str(r2)
+
+
+def post_story_for(post_file, info, cover_url, post_url):
+    """完整 Story 流程：生成圖 → push → 等 200 → 發佈"""
+    if not HAS_PIL:
+        log("⏭️ 冇 PIL，跳過 Story")
+        return
+    # 封面本地路徑（由 github.io URL 反推）
+    rel = cover_url.replace(IMG_BASE, "")
+    cover_local = os.path.join(JEKYLL_DIR, rel)
+    if not os.path.exists(cover_local):
+        log(f"⏭️ Story：搵唔到本地封面 {cover_local}")
+        return
+    slug = post_file.replace(".md", "")
+    out_path = os.path.join(STORY_DIR, f"{slug}-story.jpg")
+    domain_short = LINK_BASE.replace("https://", "").rstrip("/")
+    if not make_story_image(cover_local, domain_short, out_path):
+        log("⏭️ Story：生成圖片失敗")
+        return
+    if not git_push_file(out_path):
+        return
+    story_url = f"{IMG_BASE}assets/images/posts/stories/{slug}-story.jpg"
+    if not wait_url_ready(story_url):
+        log(f"⚠️ Story 圖片等唔到 200：{story_url}")
+        return
+    caption = f"📌 完整文章：{post_url}\n\n👉 撳 copy 呢條連結，就可以去返出處！"
+    ok, result = ig_post_story(story_url, caption)
+    if ok:
+        log(f"✅ Story 已發佈：{post_file}（{result}）")
+    else:
+        log(f"⚠️ Story 發佈失敗：{post_file} → {result}")
