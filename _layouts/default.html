@@ -8,7 +8,7 @@
   <meta name="google-site-verification" content="bFDlIlR_3H6_TLBVhundPRQwGks4SRbDvN3D9U4eTp0" />
   
   <!-- SEO Meta Tags -->
-  <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}｜AI 工具實測與科技知識分享{% endif %}</title>
+  <title>{% if page.title %}{{ page.title | truncate: 43 }} - {{ site.title }}{% else %}{{ site.title }}｜AI 工具實測與科技知識分享{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}AnIskill AI實戰誌由 IT 顧問 Eric Chan 主理，親身實測 AI 工具、UI 設計與前端開發。每篇文章皆經真實使用與驗證，分享 AI 工具實測心得、科技知識與生產力方法，助你慳時間、慳錢、提升效率。內容涵蓋 AI 工具、自動化、投資理財與生活科技，全部以真實測試經驗撰寫。{% endif %}">
   <meta name="keywords" content="{% if page.tags %}{{ page.tags | join: ', ' }}{% else %}UI, 前端, 技術, 投資, 生活, 健康, 學習, 部落格, 知識分享{% endif %}">
   <meta name="author" content="{{ site.author }}">
