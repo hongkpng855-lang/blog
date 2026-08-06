@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "7.1 萬星開源項目：OpenBB — 面向分析師與 AI 代理的開放金融數據平台"
-date: 2026-08-07 04:15:00 +0800
+date: 2026-08-07 03:00:00 +0800
 categories: 技術
 tags: [GitHub, 開源, OpenBB, openbb, 金融數據, AI Agent, 量化分析, FinTech, MCP, Python, 股票, 加密貨幣, 科技新聞, 香港, auto-publish, github-news]
 image: /assets/images/posts/github-openbb-news-shot1.png
