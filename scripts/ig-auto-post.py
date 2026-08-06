@@ -323,7 +323,7 @@ def main():
 STORY_DIR = os.path.join(JEKYLL_DIR, "assets/images/posts/stories")
 
 try:
-    from PIL import Image, ImageDraw, ImageFont
+    from PIL import Image, ImageDraw, ImageFont, ImageFilter
     HAS_PIL = True
 except ImportError:
     HAS_PIL = False
@@ -341,14 +341,16 @@ def _font(path, size):
 
 
 def make_story_image(cover_local_paths, domain_short, out_path):
-    """封面圖 → 1080x1920 Story 圖（navy 背景 + 上下兩張圖 + 底部 URL bar）
+    """封面圖 → 1080x1920 Story 圖（blur 背景填滿成張 + 前景 1-2 張圖 + 底部 URL bar）
 
-    cover_local_paths: list，最多 2 張圖（2026-08-06 用戶要求：一張截圖只佔半個內容，
-    下邊加多一張）
+    cover_local_paths: list，最多 2 張圖
+    2026-08-06 用戶要求：
+    - 之前：一張截圖只佔半個內容，下邊加多一張
+    - 而家（16:45）：README 截圖要好似其他圖片咁佔據晒成張 → 用 IG 標準
+      blur 背景填充：背景 = 第一張圖放大模糊 + 暗化，前景 = 清晰原圖置中
     """
     if not HAS_PIL:
         return False
-    bg = Image.new("RGB", (STORY_W, STORY_H), "#1B2A4A")
     covers = []
     for pth in cover_local_paths[:2]:
         try:
@@ -357,37 +359,46 @@ def make_story_image(cover_local_paths, domain_short, out_path):
             continue
     if not covers:
         return False
+    # ---- 背景：第一張圖 cover 填滿成張 + blur + 暗化 ----
+    bg_cover = covers[0].resize((STORY_W, STORY_H), Image.LANCZOS)
+    # 保持比例 cover（crop 中間，避免變形）
+    scale = max(STORY_W / covers[0].width, STORY_H / covers[0].height)
+    bw, bh = int(covers[0].width * scale), int(covers[0].height * scale)
+    bg_cover = covers[0].resize((bw, bh), Image.LANCZOS)
+    bg_cover = bg_cover.crop(((bw - STORY_W) // 2, (bh - STORY_H) // 2,
+                              (bw - STORY_W) // 2 + STORY_W, (bh - STORY_H) // 2 + STORY_H))
+    bg_cover = bg_cover.filter(ImageFilter.GaussianBlur(14))
+    # 暗化 overlay，令前景突出 + 文字可讀
+    dark = Image.new("RGB", (STORY_W, STORY_H), (10, 16, 32))
+    bg = Image.blend(bg_cover, dark, alpha=0.30)
     d = ImageDraw.Draw(bg)
-    # 頂部標題
+    # ---- 頂部標題（半透明底）----
     f_title = _font(FONT_CJK, 54)
     title = "📰 新文章發佈"
+    d.rounded_rectangle([40, 30, STORY_W - 40, 130], radius=24, fill=(0, 0, 0, 90))
     tw = d.textlength(title, font=f_title)
-    d.text(((STORY_W - tw) / 2, 50), title, fill="#C9A84C", font=f_title)
-    # 中間區域：上下排兩張圖（可用高度 = 1920 - 標題 140 - URL bar 280 - 間距）
-    top_y = 170
-    bottom_bar_h = 280
-    avail_h = STORY_H - top_y - bottom_bar_h - 20
-    if len(covers) == 2:
-        each_h = (avail_h - 16) / 2
-        positions = [top_y, top_y + each_h + 16]
-    else:
-        each_h = avail_h
-        positions = [top_y]
-    for cover, y in zip(covers, positions):
-        scale = min(STORY_W / cover.width, each_h / cover.height)
-        nw, nh = int(cover.width * scale), int(cover.height * scale)
-        c = cover.resize((nw, nh), Image.LANCZOS)
-        bg.paste(c, ((STORY_W - nw) // 2, int(y)))
-    # 底部 URL bar
-    d.rectangle([0, STORY_H - bottom_bar_h, STORY_W, STORY_H], fill="#0E1626")
+    d.text(((STORY_W - tw) / 2, 55), title, fill="#C9A84C", font=f_title)
+    # ---- 前景：單張 shot1（README）fit 全闊，置中；背景已有 blur 版填滿成張 ----
+    # 2026-08-06 16:45 用戶要求：README 截圖要好似其他圖片咁佔據晒成張
+    # → IG 標準做法：背景 = 同一張圖 blur 放大填滿，前景 = 清晰原圖置中
+    cover = covers[0]
+    scale = min(STORY_W / cover.width, (STORY_H - 320) / cover.height)
+    nw, nh = int(cover.width * scale), int(cover.height * scale)
+    c = cover.resize((nw, nh), Image.LANCZOS)
+    bg.paste(c, ((STORY_W - nw) // 2, (STORY_H - nh) // 2))
+    # ---- 底部 URL bar（半透明）----
+    bottom_bar_h = 260
+    bar = Image.new("RGBA", (STORY_W, bottom_bar_h), (10, 18, 38, 235))
+    bg.paste(bar, (0, STORY_H - bottom_bar_h), bar)
+    d = ImageDraw.Draw(bg)
     f_url = _font(FONT_LATIN, 46)
     f_hint = _font(FONT_CJK, 34)
     url_text = f"🔗 {domain_short}"
     uw = d.textlength(url_text, font=f_url)
-    d.text(((STORY_W - uw) / 2, STORY_H - 240), url_text, fill="#FFFFFF", font=f_url)
+    d.text(((STORY_W - uw) / 2, STORY_H - 225), url_text, fill="#FFFFFF", font=f_url)
     hint = "完整文章連結喺 Story 底部 👇"
     hw = d.textlength(hint, font=f_hint)
-    d.text(((STORY_W - hw) / 2, STORY_H - 160), hint, fill="#C9A84C", font=f_hint)
+    d.text(((STORY_W - hw) / 2, STORY_H - 150), hint, fill="#C9A84C", font=f_hint)
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     bg.save(out_path, "JPEG", quality=88)
     return True
