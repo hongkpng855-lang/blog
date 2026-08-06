@@ -314,10 +314,6 @@ def main():
         sys.exit(1)
 
 
-if __name__ == "__main__":
-    main()
-
-
 # ==================== Story 功能（2026-08-06 用戶要求） ====================
 # 每篇 feed post 出完之後，自動出一個 Story：
 #   - 1080x1920 圖（封面置中 + 底部 URL bar）
@@ -477,3 +473,7 @@ def post_story_for(post_file, info, img_urls, post_url):
         log(f"✅ Story 已發佈：{post_file}（{result}）")
     else:
         log(f"⚠️ Story 發佈失敗：{post_file} → {result}")
+
+
+if __name__ == "__main__":
+    main()
