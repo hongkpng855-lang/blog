@@ -405,11 +405,18 @@ def make_story_image(cover_local_paths, domain_short, out_path):
 
 
 def git_push_file(file_path):
-    """將 Story 圖 commit + push 去 blog repo（等 GitHub Pages 可以 serve）"""
+    """將 Story 圖 commit + push 去 blog repo（等 GitHub Pages 可以 serve）
+    2026-08-07 修正：commit 回傳「nothing to commit」（圖已 commit 過）時
+    照樣當成功，唔好因為重複 commit 失敗而跳過 Story 發佈。"""
     import subprocess
     try:
         subprocess.run(["git", "add", file_path], cwd=JEKYLL_DIR, check=True, capture_output=True)
-        subprocess.run(["git", "commit", "-m", f"Story 圖 {os.path.basename(file_path)}"], cwd=JEKYLL_DIR, check=True, capture_output=True)
+        cp = subprocess.run(["git", "commit", "-m", f"Story 圖 {os.path.basename(file_path)}"],
+                            cwd=JEKYLL_DIR, capture_output=True, timeout=60)
+        # 如果冇嘢可 commit（already committed），唔當錯誤
+        out = (cp.stdout or b"").decode() + (cp.stderr or b"").decode()
+        if cp.returncode != 0 and "nothing to commit" not in out and "nothing added" not in out:
+            raise Exception(out.strip() or f"commit exit {cp.returncode}")
         subprocess.run(["git", "push", "origin", "main"], cwd=JEKYLL_DIR, check=True, capture_output=True, timeout=120)
         return True
     except Exception as e:
