@@ -280,14 +280,15 @@ def main():
             log(f"⏭️ 跳過（非 GitHub 新聞或冇 fb_message）：{post}")
             continue
 
-        # ⚠️ 雙保險：即使 state 檔意外被清，都檢查 IG 上有冇相同 caption 開頭嘅 post（2026-08-08 用戶要求防重複）
+        # ⚠️ 雙保險：即使 state 檔意外被清，都檢查 IG 上有冇相同標題嘅 post（2026-08-08 用戶要求防重複）
+        # 注意：IG caption 開頭係「📄 完整文章：{url}」唔係 title → 用「包含 title」判斷，唔可以 startswith（2026-08-08 修正）
         try:
             check_url = f"https://graph.instagram.com/v21.0/{IG_USER_ID}/media?fields=caption&limit=30&access_token={IG_TOKEN}"
             with urllib.request.urlopen(check_url, timeout=20) as resp:
                 existing = json.loads(resp.read().decode()).get("data", [])
             title_key = (info["title"] or "").strip()[:25]
             dup = any(
-                (p.get("caption") or "").strip().startswith(title_key)
+                title_key and title_key in (p.get("caption") or "")
                 for p in existing
             )
             if dup:
