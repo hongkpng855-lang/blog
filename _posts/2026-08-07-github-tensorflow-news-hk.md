@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "19.7 萬星開源項目：TensorFlow — 深度學習框架的開源基石"
-date: 2026-08-07 16:30:00 +0800
+date: 2026-08-07 15:45:00 +0800
 categories: 技術
 tags: [GitHub, 開源, TensorFlow, tensorflow, 深度學習, Deep Learning, 機器學習, Machine Learning, AI, Google, Keras, TPU, 科技新聞, 香港, auto-publish, github-news]
 image: /assets/images/posts/github-tensorflow-news-hk-shot1.png
