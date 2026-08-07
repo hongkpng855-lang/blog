@@ -280,6 +280,24 @@ def main():
             log(f"⏭️ 跳過（非 GitHub 新聞或冇 fb_message）：{post}")
             continue
 
+        # ⚠️ 雙保險：即使 state 檔意外被清，都檢查 IG 上有冇相同 caption 開頭嘅 post（2026-08-08 用戶要求防重複）
+        try:
+            check_url = f"https://graph.instagram.com/v21.0/{IG_USER_ID}/media?fields=caption&limit=30&access_token={IG_TOKEN}"
+            with urllib.request.urlopen(check_url, timeout=20) as resp:
+                existing = json.loads(resp.read().decode()).get("data", [])
+            title_key = (info["title"] or "").strip()[:25]
+            dup = any(
+                (p.get("caption") or "").strip().startswith(title_key)
+                for p in existing
+            )
+            if dup:
+                posted.add(post)
+                log(f"⏭️ 跳過（IG 已有相同標題嘅 post）：{post}")
+                continue
+        except Exception as e:
+            log(f"⚠️ 重複檢查失敗（照發，靠 state 檔）：{e}")
+
+
         img_urls = build_image_list(os.path.join(POSTS_DIR, post), info)
         if not img_urls:
             posted.add(post)

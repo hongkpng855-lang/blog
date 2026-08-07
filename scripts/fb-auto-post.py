@@ -207,6 +207,25 @@ def main():
         desc = info["description"] or ""
         fb_msg = info.get("fb_message") or ""
 
+        # ⚠️ 雙保險：即使 state 檔意外被清，都檢查 FB 上有冇相同標題嘅 post（2026-08-08 用戶要求防重複）
+        # 只 check 最近 30 篇，避免每次大量 API call
+        try:
+            check_url = f"https://graph.facebook.com/v21.0/{PAGE_ID}/posts?fields=message&limit=30&access_token={PAGE_TOKEN}"
+            with urllib.request.urlopen(check_url, timeout=20) as resp:
+                existing = json.loads(resp.read().decode()).get("data", [])
+            title_key = title.strip()[:25]
+            dup = any(
+                (p.get("message") or "").strip().startswith(title_key)
+                for p in existing
+            )
+            if dup:
+                posted.add(post)
+                log(f"⏭️ 跳過（FB 已有相同標題嘅 post）：{post}")
+                continue
+        except Exception as e:
+            log(f"⚠️ 重複檢查失敗（照發，靠 state 檔）：{e}")
+
+
         # 帖文正文（2026-08-05 用戶要求）:
         # 優先使用 fb_message（專為 FB 重新濃縮寫過嘅版本，約 8 行）
         # 冇 fb_message 先 fallback：description（~150-200 字）
