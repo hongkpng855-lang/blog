@@ -44,6 +44,8 @@ Ollama 的核心亮點包括以 llama.cpp 為後端的跨平台推理引擎、�
 
 ![Ollama GitHub 主頁（repo 名 + 178k stars + 項目描述）]({{ '/assets/images/posts/github-ollama-news-hk-shot2.png' | relative_url }})
 
+![Ollama Contributors 統計（活躍貢獻者與 commit 分佈）]({{ '/assets/images/posts/github-ollama-news-hk-shot3.png' | relative_url }})
+
 ---
 
 ## <svg class="ui-icon"><use href="#ui-terminal"/></svg>如何快速開始使用 Ollama？
