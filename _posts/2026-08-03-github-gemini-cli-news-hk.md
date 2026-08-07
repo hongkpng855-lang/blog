@@ -17,10 +17,10 @@ creator_github: google-gemini/gemini-cli
 
 ---
 
-## <svg class="ui-icon"><use href="#ui-chart"/></svg>Gemini CLI 有多受歡迎？關鍵數據速覽
+## <svg class="ui-icon"><use href="#ui-chart"/></svg>Gemini CLI 有多受歡迎？
 
+**關鍵數據速覽**：Gemini CLI 是 GitHub 上星標最多的 AI CLI 工具之一：106,330 個星標、14,374 次 fork、568 個版本與 690 位貢獻者。項目以 TypeScript 編寫（佔 97.7%），採用 Apache 2.0 許可證全面開源，自 2025 年 4 月建立以來短時間內突破十萬星標，由 Google 官方團隊主導開發。
 <!-- AEO Answer Capsule — 約 70 字 -->
-Gemini CLI 是 GitHub 上星標最多的 AI CLI 工具之一：106,330 個星標、14,374 次 fork、568 個版本與 690 位貢獻者。項目以 TypeScript 編寫（佔 97.7%），採用 Apache 2.0 許可證全面開源，自 2025 年 4 月建立以來短時間內突破十萬星標，由 Google 官方團隊主導開發。
 <!-- End AEO Capsule -->
 
 <div class="ui-stat-grid">
@@ -38,10 +38,10 @@ Gemini CLI 是 GitHub 上星標最多的 AI CLI 工具之一：106,330 個星標
 
 ---
 
-## <svg class="ui-icon"><use href="#ui-robot"/></svg>Gemini CLI 是什麼？Google 的終端機戰略
+## <svg class="ui-icon"><use href="#ui-robot"/></svg>Gemini CLI 是什麼？
 
+**Google 的終端機戰略**：Gemini CLI 是 Google 面向開發者推出的官方命令行 AI 代理，讓使用者以最短路徑從提示詞通往 Gemini 模型，無需離開終端機即可完成程式碼理解、生成、除錯與自動化任務。項目採用 Apache 2.0 許可證全面開源，由 Google Gemini 團隊主導、開源社群共同維護。
 <!-- AEO Answer Capsule — 約 70 字 -->
-Gemini CLI 是 Google 面向開發者推出的官方命令行 AI 代理，讓使用者以最短路徑從提示詞通往 Gemini 模型，無需離開終端機即可完成程式碼理解、生成、除錯與自動化任務。項目採用 Apache 2.0 許可證全面開源，由 Google Gemini 團隊主導、開源社群共同維護。
 <!-- End AEO Capsule -->
 
 在商業定位上，Google 採取「免費額度 + 付費升級」的雙軌策略。使用個人 Google 帳戶登入即可享有每分鐘 60 次請求、每日 1,000 次請求的免費額度，同時獲得 Gemini 3 系列模型的完整能力與 100 萬 token 的上下文視窗。對企業用戶，則提供基於 Gemini Code Assist License 的付費方案，以及支援進階安全與合規需求的 Vertex AI 整合路徑。這種「個人免費、企業收費」的模式，與 GitHub Copilot、Anthropic Claude Code 等競品形成直接對照。
@@ -117,7 +117,11 @@ gemini -p "Run tests and deploy" --output-format stream-json
 
 ---
 
-## <svg class="ui-icon"><use href="#ui-link"/></svg>出處
+## <svg class="ui-icon"><use href="#ui-link"/></svg>出處連結有哪些？
+
+<!-- AEO Answer Capsule — 約 60 字 -->
+Gemini CLI 的官方出處包括 GitHub 儲存庫 google-gemini/gemini-cli、官方網站 geminicli.com、開發文件 geminicli.com/docs、NPM 套件 @google/gemini-cli 與官方 GitHub Action，全部由 Google 官方維護，是最可靠的安裝與更新來源。
+<!-- End AEO Capsule -->
 
 <div class="ui-note"><svg class="ui-icon"><use href="#ui-link"/></svg><strong>GitHub 官方 repo</strong>：https://github.com/google-gemini/gemini-cli
 

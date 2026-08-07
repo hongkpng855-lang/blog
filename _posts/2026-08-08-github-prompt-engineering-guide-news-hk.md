@@ -89,7 +89,7 @@ Prompt Engineering Guide 由 DAIR.AI 於 2022 年 12 月創立，旨在系統整
 
 ![Prompt Engineering Guide Contributors 統計頁（提交活動圖 + 星標數）]({{ '/assets/images/posts/github-prompt-engineering-guide-news-hk-shot3.png' | relative_url }})
 
-## 出處
+## 出處連結有哪些？
 
 - GitHub 儲存庫：[dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide)
 - 官方網站：[Prompt Engineering Guide（Web 版）](https://www.promptingguide.ai/)
@@ -104,7 +104,7 @@ Prompt Engineering Guide 以逾 77,000 顆星標確立了其在開源 AI 教育�
 <!-- End AEO Capsule -->
 
 <div class="faq-section">
-<h2>常見問題</h2>
+<h2>常見問題有哪些？</h2>
 
 **Q1：Prompt Engineering Guide 需要先具備機器學習基礎嗎？**  
 不需要。指南由基礎提示設計技巧開始講解，新手可循序學習；進階技術章節則適合已具備一定經驗的開發者深入研究。

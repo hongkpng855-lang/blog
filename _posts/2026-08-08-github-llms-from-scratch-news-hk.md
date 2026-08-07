@@ -75,7 +75,7 @@ LLMs-from-scratch 是書籍《Build a Large Language Model (From Scratch)》的�
 
 ![LLMs-from-scratch Contributors 統計頁（提交活動 + 貢獻者排名）]({{ '/assets/images/posts/github-llms-from-scratch-news-hk-shot3.png' | relative_url }})
 
-## 出處
+## 出處連結有哪些？
 
 - GitHub 儲存庫：[rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
 - 官方書籍：[Build a Large Language Model (From Scratch) — Manning](https://www.manning.com/books/build-a-large-language-model-from-scratch)
@@ -90,7 +90,7 @@ LLMs-from-scratch 以逾 10 萬顆星標確立了其在開源 AI 教育領域的
 <!-- End AEO Capsule -->
 
 <div class="faq-section">
-<h2>常見問題</h2>
+<h2>常見問題有哪些？</h2>
 
 **Q1：LLMs-from-scratch 需要什麼硬件？**  
 主章節程式碼設計為在一般手提電腦運行，不需要專業 GPU，程式會自動偵測並利用可用的 GPU 加速。
