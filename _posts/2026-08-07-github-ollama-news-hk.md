@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "17.8 萬星開源項目：Ollama — 本地大模型運行平台"
-date: 2026-08-07 18:30:00 +0800
+date: 2026-08-07 17:30:00 +0800
 categories: 技術
 tags: [GitHub, 開源, Ollama, ollama, LLM, 大模型, llama.cpp, DeepSeek, Qwen, Gemma, GLM, 本地部署, AI, 科技新聞, 香港, auto-publish, github-news]
 image: /assets/images/posts/github-ollama-news-hk-shot1.png
