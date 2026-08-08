@@ -5,7 +5,7 @@ date: 2026-08-08 11:50:00 +0800
 categories: 技術
 tags: [AI, AI Agent, 微軟, 教學課程, 開源]
 image: /assets/images/posts/github-ai-agents-for-beginners-news-hk-shot1.png
-description: "Microsoft AI Agents for Beginners 是微軟官方推出的 AI Agent 入門課程，GitHub 星標超過 71,000 顆，內含 18 堂循序漸進的單元，涵蓋 Agent 框架、設計模式、工具使用、Agentic RAG、多代理協作與安全部署等主題，並提供 Python 程式碼範例與影片講解。課程採用 Microsoft Agent Framework 與 Foundry Agent Service V2，支援 50 多種語言翻譯，以 MIT 許可證完全免費開放。"
+description: "Microsoft AI Agents for Beginners 是微軟官方 AI Agent 入門課程，GitHub 星標超過 71,000 顆，18 堂單元涵蓋框架、設計模式、Agentic RAG、多代理與安全部署，配備 Python 範例與影片，支援 50 多種語言翻譯，MIT 許可證免費開放。"
 author: AnIskill 編輯部
 creator_github: microsoft/ai-agents-for-beginners
 permalink: /技術/github-ai-agents-for-beginners-news-hk
@@ -68,6 +68,8 @@ Microsoft AI Agents for Beginners 是微軟 2024 年 11 月推出的開源教學
   <div class="stat-item"><div class="stat-value">2026-07-29</div><div class="stat-label">最近更新</div></div>
   <div class="stat-item"><div class="stat-value">Jupyter Notebook</div><div class="stat-label">主要語言</div></div>
 </div>
+
+![Microsoft AI Agents for Beginners GitHub 主頁（repo 名 + 71.6k stars + 項目描述）]({{ '/assets/images/posts/github-ai-agents-for-beginners-news-hk-shot2.png' | relative_url }})
 
 ![Microsoft AI Agents for Beginners Contributors 統計頁（提交活動圖 + 星標數）]({{ '/assets/images/posts/github-ai-agents-for-beginners-news-hk-shot3.png' | relative_url }})
 
