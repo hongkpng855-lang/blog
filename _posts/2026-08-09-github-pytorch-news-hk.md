@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "10.2 萬星開源項目：PyTorch — 深度學習框架的標準選擇"
-date: 2026-08-09 06:30:00 +0800
+date: 2026-08-09 02:30:00 +0800
 categories: 技術
 tags: [AI, 深度學習, 開源, PyTorch, Meta, 機器學習]
 image: /assets/images/posts/github-pytorch-news-hk-shot1.png
