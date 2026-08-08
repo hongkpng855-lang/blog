@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "13.1 萬星開源項目：Awesome LLM Apps — AI 應用模板庫"
-date: 2026-08-09 02:15:00 +0800
+date: 2026-08-09 02:00:00 +0800
 categories: 技術
 tags: [AI, AI Agent, 開源, RAG, LLM, 模板庫]
 image: /assets/images/posts/github-awesome-llm-apps-news-hk-shot1.png
