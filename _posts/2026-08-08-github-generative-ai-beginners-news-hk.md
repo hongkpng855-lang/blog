@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "116,968 星開源項目：Generative AI for Beginners"
-date: 2026-08-08 14:15:00 +0800
+date: 2026-08-08 14:10:00 +0800
 categories: 技術
 tags: [AI, 開源, 生成式AI, 課程, Microsoft, LLM, Prompt Engineering, RAG, 教育]
 image: /assets/images/posts/github-generative-ai-beginners-news-hk-shot1.png
