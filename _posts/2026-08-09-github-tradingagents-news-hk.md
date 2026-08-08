@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "9.6 萬星開源項目：TradingAgents — 模擬真實交易公司的多智能體金融框架"
+title: "9.6 萬星開源項目：TradingAgents — 多智能體金融框架"
 date: 2026-08-09 02:30:00 +0800
 categories: 技術
 tags: [AI, AI Agent, 開源, 金融科技, LLM, 多智能體]

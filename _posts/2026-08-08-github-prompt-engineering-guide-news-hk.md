@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "77,335 星開源項目：Prompt Engineering Guide 提示工程權威指南"
+title: "77,335 星開源項目：Prompt Engineering Guide 學習指南"
 date: 2026-08-08 04:10:00 +0800
 categories: 技術
 tags: [AI, Prompt Engineering, 開源教育, LLM, RAG]
