@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Anthropic 將 Claude Code Auto 模式改為預設開啟"
-date: 2026-08-10 05:20:00 +0800
+date: 2026-08-10 05:00:00 +0800
 categories: 技術
 tags: [AI, AI Agent, Anthropic, Claude Code, 程式開發, 開發者工具]
 image: /assets/images/posts/news-claude-code-auto-mode-hk-cover.jpg

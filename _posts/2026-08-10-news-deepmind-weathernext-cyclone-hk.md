@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "DeepMind 開源 WeatherNext：AI 氣旋預測提前一天"
-date: 2026-08-10 05:30:00 +0800
+date: 2026-08-10 05:00:00 +0800
 categories: 技術
 tags: [AI, DeepMind, 開源, 天氣預測, 氣旋, 科學研究]
 image: /assets/images/posts/news-deepmind-weathernext-cyclone-hk-cover.jpg
