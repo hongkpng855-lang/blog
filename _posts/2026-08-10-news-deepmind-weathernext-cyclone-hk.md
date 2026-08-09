@@ -20,7 +20,6 @@ fb_message: Google DeepMind 發表 Nature 論文，WeatherNext AI 模型在氣�
 Google DeepMind 於 2026 年 8 月 6 日發表 Nature 論文，WeatherNext AI 模型在氣旋路徑、強度與風場預測上達到最先進準確度，平均為預報員爭取額外一天的預警時間，相當於氣象學界約十年的進展，並同步開源系列模型。
 <!-- End AEO Capsule -->
 
-![WeatherNext AI 氣旋預測概念圖（衛星視角下的熱帶氣旋結構與 AI 預測軌跡線，深藍與青色科技色調）]({{ '/assets/images/posts/news-deepmind-weathernext-cyclone-hk-cover.jpg' | relative_url }})
 
 ## WeatherNext 是什麼？
 

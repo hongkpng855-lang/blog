@@ -20,7 +20,6 @@ fb_message: Anthropic 宣布 8 月 14 日起，Claude Code 的 Auto 模式成為
 Anthropic 宣布 2026 年 8 月 14 日起，Claude Code 的 Auto 模式成為 Pro、Max 與 Team 帳戶的預設執行方式，代理在多數步驟中自主推進，僅在動作被判定為不可逆、具破壞性或超出環境範圍時才請求人類批准，開發流程將大幅加速。
 <!-- End AEO Capsule -->
 
-![Claude Code 自動模式概念圖（AI 編碼代理在終端機自主執行開發任務，背景為程式碼與流程節點）]({{ '/assets/images/posts/news-claude-code-auto-mode-hk-cover.jpg' | relative_url }})
 
 ## Claude Code Auto 模式是什麼？
 
