@@ -48,8 +48,8 @@
  <div class="card-header fw-bold"><svg class="ui-icon ui-icon-sm"><use href="#ui-newspaper"/></svg>最新新聞</div>
  <div class="card-body p-0">
  <ul class="list-group list-group-flush">
- {% assign news_posts = site.posts | where_exp: "post", "post.type == 'news'" | sort: 'date' | reverse | limit: 6 %}
- {% for post in news_posts %}
+ {% assign news_posts = site.posts | where_exp: "post", "post.type == 'news'" | sort: 'date' | reverse %}
+ {% for post in news_posts limit: 6 %}
  <li class="list-group-item">
  <a href="{{ post.url | relative_url }}" class="text-decoration-none fw-medium">{{ post.title }}</a>
  <br><small class="text-muted">
