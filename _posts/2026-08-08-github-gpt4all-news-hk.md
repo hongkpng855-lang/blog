@@ -4,7 +4,7 @@ title: "77,409 星開源項目：GPT4All — 讓任何裝置離線運行本地 L
 date: 2026-08-08 22:15:00 +0800
 categories: 技術
 tags: [AI, LLM, 本地AI, 開源, 推理引擎, 隱私]
-image: /assets/images/posts/github-gpt4all-news-hk-shot1.png
+image: /assets/images/posts/2026-08-08-github-gpt4all-news-hk-cover.jpg
 description: "GPT4All 是 Nomic AI 推出的開源本地 LLM 運行平台，GitHub 星標達 77,409 顆，可在日常桌面與筆電上離線運行大型語言模型，無需 API 呼叫或 GPU。項目支援 DeepSeek R1 蒸餾模型、GGUF 格式與 Vulkan 加速，提供 LocalDocs 私密問答。"
 author: AnIskill 編輯部
 creator_github: nomic-ai/gpt4all

@@ -4,7 +4,7 @@ title: "10萬星開源項目：LLMs-from-scratch 從零實作大語言模型完�
 date: 2026-08-08 02:10:00 +0800
 categories: 技術
 tags: [LLM, PyTorch, 深度學習, 開源教育, GPT]
-image: /assets/images/posts/github-llms-from-scratch-news-hk-shot1.png
+image: /assets/images/posts/2026-08-08-github-llms-from-scratch-news-hk-cover.jpg
 description: "LLMs-from-scratch 是擁有超過 10 萬顆星標的開源教學項目，由 Sebastian Raschka 撰寫，以 PyTorch 從零實作 GPT 架構大語言模型，涵蓋預訓練、指令微調與 LoRA 等完整流程，並配合同名書籍與 17 小時影片課程，是深度學習教育領域最具影響力的實作指南。"
 author: AnIskill 編輯部
 creator_github: rasbt/LLMs-from-scratch

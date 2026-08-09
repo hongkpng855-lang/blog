@@ -4,7 +4,7 @@ title: "9.3 萬星開源項目：autoresearch — AI Agent 自動執行 LLM 訓�
 date: 2026-08-05 03:30:00 +0800
 categories: 技術
 tags: [GitHub, 開源, autoresearch, Andrej Karpathy, AI Agent, 大模型訓練, 自動化研究, nanochat, Python, 科技新聞, 香港, auto-publish, github-news]
-image: /assets/images/posts/github-autoresearch-shot1.png
+image: /assets/images/posts/2026-08-05-github-autoresearch-news-hk-cover.jpg
 description: "autoresearch 是 Andrej Karpathy 於 2026 年 3 月發佈的開源項目，GitHub 星標突破 9.3 萬。此框架讓 AI Agent 於單張 GPU 上自動修改大模型訓練程式、執行五分鐘實驗，以 val_bpb 指標評估改進，一晚可完成約一百次實驗，屬自主 AI 研究路線的代表性實驗。"
 fb_message: AI 不僅能回答問題，如今還能自主進行研究：autoresearch 由 Andrej Karpathy 發佈，讓 AI Agent 在單張 GPU 上自動修改大模型訓練程式、執行五分鐘實驗，並以 val_bpb 指標判斷改進方向。\n\n一晚可自主完成約一百次實驗，把「人類寫程式、AI 輔助」反轉為「人類寫指令、AI 改程式」，是自主 AI 研究的標誌性實驗。GitHub 星標突破 9.3 萬。\n\n運作原理與實際應用，文章有完整拆解。
 author: "陳志豪 Eric Chan"

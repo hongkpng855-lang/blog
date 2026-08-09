@@ -4,7 +4,7 @@ title: "5.5 萬星開源項目：Flowise — 視覺化構建 AI Agent"
 date: 2026-08-07 12:10:00 +0800
 categories: 技術
 tags: [GitHub, 開源, Flowise, flowise, AI Agent, 低代碼, no-code, LangChain, RAG, Chatbot, 工作流, 科技新聞, 香港, auto-publish, github-news]
-image: /assets/images/posts/github-flowise-news-hk-shot1.png
+image: /assets/images/posts/2026-08-07-github-flowise-news-hk-cover.jpg
 description: "Flowise 是 GitHub 星標逾 5.5 萬的開源低代碼 AI 開發平台，以拖放式節點編輯器視覺化構建 AI Agent、聊天機器人與 RAG 檢索工作流，支援數百種模型、向量資料庫與工具整合，採 Apache-2.0 授權，以 TypeScript 撰寫，並提供雲端託管服務。"
 fb_message: 開發 AI 應用不再需要從零撰寫複雜程式碼。Flowise 提供拖放式視覺化介面，讓開發者與非技術人員都能透過組合節點，快速搭建 AI 助理、問答機器人與知識庫檢索流程，大幅降低 AI 應用的開發門檻。\n\n此開源項目在 GitHub 已累積逾 5.5 萬星標與 2.4 萬次分叉，以 TypeScript 撰寫並採用 Apache-2.0 授權，內建數百種模型、資料庫與工具整合節點，同時提供雲端版本供團隊直接部署。\n\nFlowise 的技術架構、核心亮點與市場定位已整理成完整新聞分析報告，刊載於 Blog，歡迎前往閱讀全文，了解這款工具如何改變 AI 應用的開發方式。
 author: "陳志豪 Eric Chan"

@@ -4,7 +4,7 @@ title: "9.6 萬星開源項目：Deep-Live-Cam — 一張照片實時換臉"
 date: 2026-08-10 04:10:00 +0800
 categories: 技術
 tags: [AI, 開源, Deepfake, 換臉, 生成式 AI, 資安, 影像處理]
-image: /assets/images/posts/github-deeplivecam-news-hk-shot1.png
+image: /assets/images/posts/2026-08-10-github-deeplivecam-news-hk-cover.jpg
 description: "Deep-Live-Cam 是 GitHub 星標逾 9.6 萬的開源即時換臉工具，只需一張照片即可在視像通話與影片中實時替換面孔，支援 Mouth Mask 等多項功能與 CUDA、CoreML 等硬件加速方案。2024 年 8 月爆紅後，該項目成為 AI 生成媒體產業與 deepfake 防詐騙監管討論的核心案例。"
 author: AnIskill 編輯部
 creator_github: hacksider/Deep-Live-Cam

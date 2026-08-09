@@ -4,7 +4,7 @@ title: "116,968 星開源項目：Generative AI for Beginners"
 date: 2026-08-08 14:10:00 +0800
 categories: 技術
 tags: [AI, 開源, 生成式AI, 課程, Microsoft, LLM, Prompt Engineering, RAG, 教育]
-image: /assets/images/posts/github-generative-ai-beginners-news-hk-shot1.png
+image: /assets/images/posts/2026-08-08-github-generative-ai-beginners-news-hk-cover.jpg
 description: "Generative AI for Beginners 是 Microsoft 生成式 AI 入門課程，GitHub 星標逾 116,000 顆，以 21 堂課涵蓋 LLM 原理、提示工程、RAG、AI Agent 與微調，每課附影片與雙語言範例，支援 50 多種語言翻譯，MIT 許可證，零基礎可免費自學。"
 author: AnIskill 編輯部
 creator_github: microsoft/generative-ai-for-beginners

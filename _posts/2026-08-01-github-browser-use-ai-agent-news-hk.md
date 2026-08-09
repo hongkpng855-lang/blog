@@ -4,7 +4,7 @@ title: "10.7 萬星開源項目 browser-use：讓 AI 自主操作瀏覽器的創
 date: 2026-08-01 18:05:00 +0800
 categories: 技術
 tags: [GitHub, 開源, AI Agent, browser-use, 自動化, Python, 科技新聞, 香港, auto-publish, github-news]
-image: /assets/images/posts/github-browser-use-shot1.png
+image: /assets/images/posts/2026-08-01-github-browser-use-ai-agent-news-hk-cover.jpg
 description: "GitHub 上的熱門開源項目 browser-use 已累積 10.7 萬顆星，該工具讓 AI Agent 得以像人類一樣操作瀏覽器：開啟網頁、點擊按鈕、輸入文字、填寫表單及抽取資料，全程自動化。本文以新聞分析角度探討其受歡迎的原因與入門方式。"
 fb_message: AI 代理已能像真人一樣操作瀏覽器——browser-use 讓 Agent 自動開啟網頁、點擊按鈕、輸入文字、填寫表單及抽取資料，全程毋須人手介入。\n\n這個開源項目在 GitHub 累積 10.7 萬星標，是瀏覽器自動化領域最受關注的工具之一，常見應用包括網頁版 AI 助手、自動化測試與資料搜集。\n\n它為何如此受歡迎？如何快速上手？詳見文章。
 creator_github: browser-use/browser-use

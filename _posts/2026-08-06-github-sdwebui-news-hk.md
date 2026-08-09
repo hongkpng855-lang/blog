@@ -4,7 +4,7 @@ title: "16.4 萬星開源項目：Stable Diffusion Web UI — 本地 AI 繪圖�
 date: 2026-08-06 16:20:00 +0800
 categories: 技術
 tags: [GitHub, 開源, Stable Diffusion, AUTOMATIC1111, AI 繪圖, 擴散模型, 圖像生成, Gradio, Python, 科技新聞, 香港, auto-publish, github-news]
-image: /assets/images/posts/github-sdwebui-news-shot1.png
+image: /assets/images/posts/2026-08-06-github-sdwebui-news-hk-cover.jpg
 description: "Stable Diffusion Web UI 是 GitHub 星標逾 16.4 萬的開源 AI 繪圖介面，以瀏覽器操作擴散模型，支援文生圖、圖生圖、局部重繪與超解析度放大，採用 AGPL-3.0 授權，累積逾 3 萬次 fork 與 586 名貢獻者，是本地 AI 繪圖領域的事實標準介面。"
 fb_message: 本地 AI 繪圖門檻已大幅下降，Stable Diffusion Web UI 讓用戶在個人電腦運行擴散模型，透過瀏覽器完成文生圖、圖生圖與精細修圖，無需程式背景即可產出專業級作品。\n\n項目在 GitHub 累積逾 16.4 萬星標與 3 萬次 fork，約 586 名開發者參與維護，支援 NVIDIA、AMD、Intel 與 Apple Silicon 平台，並形成龐大擴充功能生態與社群模型庫。\n\n從安裝流程、技術架構到生態影響，完整新聞分析已上載 Blog，歡迎閱讀全文，了解這套工具如何改變 AI 內容創作方式。
 author: "陳志豪 Eric Chan"

@@ -4,7 +4,7 @@ title: "8.4 萬星開源項目：Pi — 由 libGDX 作者打造的極簡 AI 編�
 date: 2026-08-05 22:10:00 +0800
 categories: 技術
 tags: [GitHub, 開源, Pi, earendil-works, AI Agent, 編碼代理, Coding Agent, LLM, TypeScript, 科技新聞, 香港, auto-publish, github-news]
-image: /assets/images/posts/github-pi-news-shot1.png
+image: /assets/images/posts/2026-08-05-github-pi-news-hk-cover.jpg
 description: "Pi 是由 libGDX 作者 Mario Zechner 打造的開源 AI 代理工具包，GitHub 星標達 8.4 萬，以統一大模型 API、代理運行時與編碼代理 CLI 構成極簡可擴充的終端開發工具，支援數十家模型供應商與訂閱服務，一年內成為增長最快的編碼代理項目之一。"
 fb_message: AI 編碼代理工具百花齊放，Pi 走截然不同的路：核心極簡、一切可擴充，由 libGDX 作者打造，讓開發者按自身工作流程塑造工具。\n\n項目一年內累積逾 8.4 萬星標與 1 萬次 fork，支援 Anthropic、OpenAI 等數十家供應商，並提供互動、RPC 與 SDK 三種整合模式。\n\nPi 的設計哲學、技術架構與市場定位，以及與主流編碼代理的差異，完整分析已整理成文，歡迎前往 Blog 閱讀全文。
 author: "陳志豪 Eric Chan"

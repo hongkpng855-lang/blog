@@ -4,7 +4,7 @@ title: "5.7 萬星開源項目：CrewAI — 生產級多智能體協作框架的
 date: 2026-08-06 00:00:00 +0800
 categories: 技術
 tags: [GitHub, 開源, CrewAI, crewAIInc, AI Agent, 多智能體, Multi-Agent, 工作流, Orchestration, Python, 科技新聞, 香港, auto-publish, github-news]
-image: /assets/images/posts/github-crewai-news-shot1.png
+image: /assets/images/posts/2026-08-06-github-crewai-news-hk-cover.jpg
 description: "CrewAI 是開源的 Python 多智能體編排框架，GitHub 星標達 5.7 萬，以 Crews 與 Flows 兩大抽象分別提供自主協作與事件驅動控制，支援工具、記憶、檢查點與 MCP/A2A 協定，並透過官方技能包整合 Claude Code 等 AI 編碼代理，成為生產級智能體自動化的主流選擇。"
 fb_message: 多智能體協作正成為 AI 應用的核心趨勢，CrewAI 以開源框架姿態切入，讓開發者以角色分工的 Crews 與事件驅動的 Flows 兩大抽象，快速搭建可上線的智能體工作流，而非停留在原型階段。\n\n項目累積逾 5.7 萬星標與 8,000 次 fork，超過 10 萬名開發者通過官方課程認證，並獲得與 LangChain 生態並列的市場地位，其企業版 AMP Suite 亦已推出。\n\nCrewAI 的架構設計、技術亮點與生態影響，以及與其他智能體框架的差異，完整分析已整理成文，歡迎前往 Blog 閱讀全文。
 author: "陳志豪 Eric Chan"

@@ -4,7 +4,7 @@ title: "8.9 萬星開源項目：微軟 ML-For-Beginners — 12 週經典機器�
 date: 2026-08-09 20:30:00 +0800
 categories: 技術
 tags: [AI, 機器學習, 開源, 課程, 教育, 微軟, Scikit-learn, 數據科學]
-image: /assets/images/posts/github-ml-for-beginners-news-hk-shot1.png
+image: /assets/images/posts/2026-08-09-github-ml-for-beginners-news-hk-cover.jpg
 description: "ML-For-Beginners 是微軟 Cloud Advocates 團隊推出的開源機器學習課程，在 GitHub 獲逾 8.9 萬星標，以 12 週 26 課 52 個測驗的結構教授經典機器學習，採用 Scikit-learn 並以世界文化數據設計專案式教學，支援超過 50 種語言翻譯，是數據科學入門領域最具規模的免費教材之一。"
 author: AnIskill 編輯部
 creator_github: microsoft/ML-For-Beginners

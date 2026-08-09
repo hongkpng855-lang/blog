@@ -4,7 +4,7 @@ title: "9.9 萬星開源項目：Ponytail — 讓 AI 代理寫最少代碼"
 date: 2026-08-09 10:30:00 +0800
 categories: 技術
 tags: [AI, 開源, AI 代理, 開發工具, Claude Code, 程式設計]
-image: /assets/images/posts/github-ponytail-news-hk-shot1.png
+image: /assets/images/posts/2026-08-09-github-ponytail-news-hk-cover.jpg
 description: "Ponytail 是 GitHub 星標逾 9.9 萬的開源 AI 代理工具，以「最懶資深開發者」思維引導 Claude Code、Codex、Gemini CLI 等逾二十種編程代理撰寫精簡代碼，基準測試顯示平均減少 54% 代碼量與 20% 成本，同時維持 100% 安全，兩個月內成為 AI 編程生態的熱門項目。"
 author: AnIskill 編輯部
 creator_github: DietrichGebert/ponytail

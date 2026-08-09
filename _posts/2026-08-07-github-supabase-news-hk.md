@@ -4,7 +4,7 @@ title: "10.8 萬星開源項目：Supabase — 開源 Firebase 替代方案"
 date: 2026-08-07 10:00:00 +0800
 categories: 技術
 tags: [GitHub, 開源, Supabase, supabase, Postgres, Firebase, 後端, Backend, BaaS, 數據庫, AI, pgvector, 科技新聞, 香港, auto-publish, github-news]
-image: /assets/images/posts/github-supabase-news-hk-shot1.png
+image: /assets/images/posts/2026-08-07-github-supabase-news-hk-cover.jpg
 description: "Supabase 是 GitHub 星標逾 10.8 萬的開源 Postgres 開發平台，以企業級開源工具重現 Firebase 開發體驗，提供託管資料庫、認證授權、自動生成 API、即時訂閱、邊緣函式、檔案儲存與 AI 向量檢索，採 Apache-2.0 授權，以 TypeScript 撰寫。"
 fb_message: 開源後端開發迎來 Firebase 替代浪潮，Supabase 以 Postgres 為核心，將資料庫、認證、即時同步與 AI 向量檢索整合為單一平台，毋須在多個雲服務之間拼接即可完成後端搭建。\n\n項目在 GitHub 累積逾 10.8 萬星標，採 Apache-2.0 授權，提供 JavaScript、Python、Flutter、Swift 等多語言官方用戶端，並支援自架部署與本地開發。\n\n從架構設計到 AI 向量整合，Supabase 的完整新聞分析報告已刊載於 Blog，歡迎前往閱讀全文。
 author: "陳志豪 Eric Chan"

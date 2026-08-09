@@ -4,7 +4,7 @@ title: "102,100 星開源項目：MoneyPrinterTurbo — AI 短片生成工具"
 date: 2026-08-08 08:30:00 +0800
 categories: 技術
 tags: [AI, 開源, 影片生成, 自動化, 內容創作, Short Video, TTS]
-image: /assets/images/posts/github-moneyprinterturbo-news-hk-shot1.png
+image: /assets/images/posts/2026-08-08-github-moneyprinterturbo-news-hk-cover.jpg
 description: "MoneyPrinterTurbo 是開源一站式 AI 短片生成工具，GitHub 星標超過 102,000 顆，輸入主題即可自動生成腳本、匹配素材、合成字幕與背景音樂並輸出高清影片，支援 WebUI、API、CLI 與 AI Agent 四種方式，採用 MIT 許可證。"
 author: AnIskill 編輯部
 creator_github: harry0703/MoneyPrinterTurbo

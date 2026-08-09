@@ -4,7 +4,7 @@ title: "227,223 星開源項目：Hermes Agent — 自我進化型 AI 代理"
 date: 2026-08-08 16:20:00 +0800
 categories: 技術
 tags: [AI, AI Agent, 開源, 開發工具, LLM, 記憶系統]
-image: /assets/images/posts/github-hermes-agent-news-hk-shot1.png
+image: /assets/images/posts/2026-08-08-github-hermes-agent-news-hk-cover.jpg
 description: "Hermes Agent 是 Nous Research 開發的自我進化型 AI 代理，GitHub 星標超過 227,000 顆，內建學習迴圈可從經驗自動建立技能並在使用中持續改進；支援 Telegram、Discord 等多平台訊息閘道與七種終端後端，相容任何大型語言模型，採用 MIT 許可證完全開源。"
 author: AnIskill 編輯部
 creator_github: NousResearch/hermes-agent

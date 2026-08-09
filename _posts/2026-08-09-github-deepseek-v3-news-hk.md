@@ -4,7 +4,7 @@ title: "10.4 萬星開源項目：DeepSeek-V3 — 671B 參數 MoE 大模型"
 date: 2026-08-09 09:00:00 +0800
 categories: 技術
 tags: [AI, 開源, 大語言模型, MoE, DeepSeek, 深度學習]
-image: /assets/images/posts/github-deepseek-v3-news-hk-shot1.png
+image: /assets/images/posts/2026-08-09-github-deepseek-v3-news-hk-cover.jpg
 description: "DeepSeek-V3 是深度求索發佈的開源 MoE 大語言模型，總參數 671B、單次推理僅啟動 37B，GitHub 星標逾 10.4 萬。其 FP8 混合精度訓練與多 Token 預測等創新，令訓練成本降至 278.8 萬 H800 GPU 小時，基準測試表現媲美 GPT-4o 等閉源旗艦。"
 author: AnIskill 編輯部
 creator_github: deepseek-ai/DeepSeek-V3

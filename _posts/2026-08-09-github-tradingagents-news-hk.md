@@ -4,7 +4,7 @@ title: "9.6 萬星開源項目：TradingAgents — 多智能體金融框架"
 date: 2026-08-09 02:30:00 +0800
 categories: 技術
 tags: [AI, AI Agent, 開源, 金融科技, LLM, 多智能體]
-image: /assets/images/posts/github-tradingagents-news-hk-shot1.png
+image: /assets/images/posts/2026-08-09-github-tradingagents-news-hk-cover.jpg
 description: "TradingAgents 是 GitHub 逾 9.6 萬星標的開源金融交易框架，由 TauricResearch 推出，以 LangGraph 部署分析師、多空研究員與風險管理團隊等多個 LLM 智能體，模擬真實交易公司分工，支援美股、港股、加密貨幣等市場，並獲 arXiv 論文背書。"
 author: AnIskill 編輯部
 creator_github: TauricResearch/TradingAgents

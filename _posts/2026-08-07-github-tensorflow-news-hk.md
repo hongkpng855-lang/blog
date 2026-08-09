@@ -4,7 +4,7 @@ title: "19.7 萬星開源項目：TensorFlow — 深度學習框架的開源基�
 date: 2026-08-07 15:45:00 +0800
 categories: 技術
 tags: [GitHub, 開源, TensorFlow, tensorflow, 深度學習, Deep Learning, 機器學習, Machine Learning, AI, Google, Keras, TPU, 科技新聞, 香港, auto-publish, github-news]
-image: /assets/images/posts/github-tensorflow-news-hk-shot1.png
+image: /assets/images/posts/2026-08-07-github-tensorflow-news-hk-cover.jpg
 description: "TensorFlow 是 GitHub 星標近 19.7 萬的開源機器學習框架，由 Google Brain 團隊於 2015 年開源，以 Keras 高階 API、分散式訓練與跨平台部署能力著稱，支援 TPU、GPU 與移動端推理，採 Apache-2.0 授權，以 C++ 與 Python 撰寫。"
 fb_message: 開源十年，TensorFlow 已成為深度學習領域最重要的基礎設施之一。Google Brain 團隊打造、Keras 高階 API 簡化開發流程，令研究者與工程團隊可以快速建構與部署機器學習模型，GitHub 星標累積近 19.7 萬。\n\n項目採 Apache-2.0 授權，以 C++ 與 Python 撰寫，累積逾 7.5 萬次 fork，支援 TPU、GPU 與移動端推理，最新 2.21 版本持續強化作業效率與跨平台部署能力。\n\n從技術架構到生態影響的完整新聞分析報告已刊載於 Blog，歡迎前往閱讀全文。
 author: "陳志豪 Eric Chan"

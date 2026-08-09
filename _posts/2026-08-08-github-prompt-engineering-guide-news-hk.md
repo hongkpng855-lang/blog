@@ -4,7 +4,7 @@ title: "77,335 星開源項目：Prompt Engineering Guide 學習指南"
 date: 2026-08-08 04:10:00 +0800
 categories: 技術
 tags: [AI, Prompt Engineering, 開源教育, LLM, RAG]
-image: /assets/images/posts/github-prompt-engineering-guide-news-hk-shot1.png
+image: /assets/images/posts/2026-08-08-github-prompt-engineering-guide-news-hk-cover.jpg
 description: "Prompt Engineering Guide 是 DAIR.AI 推出的開源提示工程學習資源，GitHub 星標逾 77,000 顆，收錄論文、指南、課程與 Notebook，涵蓋提示工程、RAG 與 AI Agent，支援 13 種語言，服務逾 300 萬學習者，是掌握大語言模型應用的權威參考。"
 author: AnIskill 編輯部
 creator_github: dair-ai/Prompt-Engineering-Guide

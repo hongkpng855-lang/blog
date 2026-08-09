@@ -4,7 +4,7 @@ title: "10.2 萬星開源項目：PyTorch — 深度學習框架的標準選擇"
 date: 2026-08-09 02:30:00 +0800
 categories: 技術
 tags: [AI, 深度學習, 開源, PyTorch, Meta, 機器學習]
-image: /assets/images/posts/github-pytorch-news-hk-shot1.png
+image: /assets/images/posts/2026-08-09-github-pytorch-news-hk-cover.jpg
 description: "PyTorch 是 GitHub 逾 10.2 萬星標的開源深度學習框架，由 Meta 主導開發，以動態計算圖與自動微分提供靈活的神經網絡建構能力，支援 CUDA、ROCm 與 Intel GPU 加速，2026 年 7 月釋出 2.13 版，是學術與工業界使用最廣的 AI 框架之一。"
 author: AnIskill 編輯部
 creator_github: pytorch/pytorch

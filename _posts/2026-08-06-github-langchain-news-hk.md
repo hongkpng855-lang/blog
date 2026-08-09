@@ -4,7 +4,7 @@ title: "14.4 萬星開源項目：LangChain — AI 智能體應用的開源工�
 date: 2026-08-06 14:20:00 +0800
 categories: 技術
 tags: [GitHub, 開源, LangChain, langchain-ai, LLM, AI Agent, 智能體, 大模型應用, 開發框架, Python, 科技新聞, 香港, auto-publish, github-news]
-image: /assets/images/posts/github-langchain-news-shot1.png
+image: /assets/images/posts/2026-08-06-github-langchain-news-hk-cover.jpg
 description: "LangChain 是 GitHub 星標逾 14.4 萬的開源 AI 開發框架，以標準化介面包裝模型、嵌入、向量資料庫與工具，讓開發者快速建構 AI 智能體與 LLM 應用，採用 MIT 授權，累積 29 億次下載量與逾 28 萬個依賴專案，生態涵蓋 LangGraph、LangSmith 等產品。"
 fb_message: AI 應用開發正從單一模型呼叫走向複雜智能體編排，LangChain 以標準化框架將模型、工具與資料來源串接成統一流程，成為開發者建構大型語言模型應用的基礎設施，並持續演化出完整生態系統。\n\n該項目在 GitHub 累積逾 14.4 萬星標與 2.4 萬次 fork，PyPI 下載量達 29 億次，逾 28 萬個專案依賴此框架，近 4,000 名貢獻者參與維護，衍生工具 LangGraph 與 LangSmith 已構成從開發到上線的完整鏈路。\n\nLangChain 的架構設計、市場定位與商業化路徑，是觀察 AI 工程領域的重要切入點。完整新聞分析報告已整理上載 Blog，歡迎前往閱讀全文。
 author: "陳志豪 Eric Chan"

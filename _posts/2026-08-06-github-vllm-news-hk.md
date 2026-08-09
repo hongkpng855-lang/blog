@@ -4,7 +4,7 @@ title: "8.8 萬星開源項目：vLLM — 高吞吐、低成本的 LLM 推理引
 date: 2026-08-06 14:45:00 +0800
 categories: 技術
 tags: [GitHub, 開源, vLLM, vllm-project, LLM, 推理引擎, 大模型部署, AI 基礎設施, Python, 科技新聞, 香港, auto-publish, github-news]
-image: /assets/images/posts/github-vllm-news-shot1.png
+image: /assets/images/posts/2026-08-06-github-vllm-news-hk-cover.jpg
 description: "vLLM 是 GitHub 星標逾 8.8 萬的開源 LLM 推理與服務引擎，源自柏克萊 Sky Computing Lab，以 PagedAttention 技術實現高吞吐、低成本部署，支援逾 200 種模型架構，採用 Apache 2.0 授權，累積逾 3,000 名貢獻者，是企業 AI 推理基礎設施核心開源項目。"
 fb_message: 大型語言模型部署的瓶頸在於記憶體與吞吐效率，vLLM 以開源推理引擎解決此問題，讓企業以更低成本運行 Llama、Qwen 等主流模型，並提供與 OpenAI 兼容的 API 介面，成為 AI 基礎設施領域的關鍵項目。\n\n該項目在 GitHub 累積逾 8.8 萬星標與 2 萬次 fork，超過 3,000 名貢獻者參與開發，採用 Apache 2.0 授權，支援逾 200 種模型架構，從柏克萊大學實驗室成長為全球最活躍的開源 AI 項目之一。\n\nvLLM 的技術設計與商業化路徑，是觀察 AI 推理市場的重要切入點。完整新聞分析報告已整理上載 Blog，歡迎前往閱讀全文。
 author: "陳志豪 Eric Chan"

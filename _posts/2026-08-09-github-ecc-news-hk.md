@@ -4,7 +4,7 @@ title: "23.9 萬星開源項目：ECC — 讓 AI 代理成為工程系統"
 date: 2026-08-09 22:10:00 +0800
 categories: 技術
 tags: [AI, 開源, AI 代理, 開發工具, Claude Code, Agent Harness, 程式設計]
-image: /assets/images/posts/github-ecc-news-hk-shot1.png
+image: /assets/images/posts/2026-08-09-github-ecc-news-hk-cover.jpg
 description: "ECC 是 GitHub 星標逾 23.9 萬的開源 AI 代理協調系統，以規劃、測試、審查、記憶的七段循環，將 Claude Code、Codex、Cursor 等逾十種編程代理變成可稽核的工程流程，內建 67 個代理、284 個技能與 AgentShield 安全掃描，七個月成為 AI 編程生態最受矚目的開源項目。"
 author: AnIskill 編輯部
 creator_github: affaan-m/ECC

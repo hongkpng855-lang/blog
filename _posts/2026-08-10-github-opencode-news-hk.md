@@ -4,7 +4,7 @@ title: "19.5 萬星開源項目：OpenCode — 開源 AI 編碼代理"
 date: 2026-08-10 02:10:00 +0800
 categories: 技術
 tags: [AI, AI Agent, 開源, 程式開發, LLM, 編碼代理]
-image: /assets/images/posts/github-opencode-news-hk-shot1.png
+image: /assets/images/posts/2026-08-10-github-opencode-news-hk-cover.jpg
 description: "OpenCode 是 GitHub 獲逾 19.5 萬星標的開源 AI 編碼代理，由 Anomaly 團隊以 TypeScript 開發，採用 MIT 授權，內建 build 與 plan 雙代理架構，支援逾 20 種模型供應商，可於終端機執行開發任務、分析程式碼庫並處理 Git 流程，亦提供跨平台桌面應用。"
 author: AnIskill 編輯部
 creator_github: anomalyco/opencode

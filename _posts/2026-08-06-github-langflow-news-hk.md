@@ -4,7 +4,7 @@ title: "15.3 萬星開源項目：Langflow — AI 智能體與工作流視覺化
 date: 2026-08-06 20:30:00 +0800
 categories: 技術
 tags: [GitHub, 開源, Langflow, langflow-ai, AI Agent, 工作流, workflow, Python, no-code, 智能體, 視覺化, 科技新聞, 香港, auto-publish, github-news]
-image: /assets/images/posts/github-langflow-news-shot1.png
+image: /assets/images/posts/2026-08-06-github-langflow-news-hk-cover.jpg
 description: "Langflow 是 GitHub 星標逾 15.3 萬的開源 AI 智能體與工作流建構平台，以視覺化拖曳介面組合大語言模型、向量資料庫與工具，可輸出為 API、JSON 或 MCP 伺服器，採用 MIT 授權，由 DataStax 旗下團隊維護，最新版本 1.11.2 於 2026 年 8 月釋出。"
 fb_message: AI 智能體開發不再只屬於工程師。Langflow 以拖曳式視覺化介面，讓團隊直接組合模型、資料庫與工具，建構可部署的 AI 工作流，並可一鍵轉為 API 或 MCP 伺服器，接入現有應用，開源授權令自架部署全無障礙。\n\n項目在 GitHub 累積逾 15.3 萬星標與近 9,800 次 fork，以 Python 撰寫並採用 MIT 授權，2024 年被 DataStax 收購後加速商業化，最新版本 1.11.2 於 2026 年 8 月釋出，支援所有主流大語言模型。\n\n從視覺化建構到多智能體協調，Langflow 如何成為 AI 應用的快速開發平台？完整技術亮點與市場分析已整理成文，歡迎前往 Blog 閱讀全文。
 author: "陳志豪 Eric Chan"

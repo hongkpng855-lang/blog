@@ -4,7 +4,7 @@ title: "10.4 萬星開源項目：Graphify — 將程式碼庫變成知識圖譜
 date: 2026-08-09 15:00:00 +0800
 categories: 技術
 tags: [AI, 開源, 知識圖譜, 程式碼分析, AI Agent, LLM, 開發工具]
-image: /assets/images/posts/github-graphify-news-hk-shot1.png
+image: /assets/images/posts/2026-08-09-github-graphify-news-hk-cover.jpg
 description: "Graphify 是 GitHub 逾 10.4 萬星標的開源項目，以 tree-sitter AST 將程式碼庫、文檔與 PDF 轉化為可查詢的知識圖譜，供 20 多款 AI 助手使用；解析完全在本地完成、無需 LLM 與向量資料庫，每條關聯皆標註來源，30 秒即可安裝，並獲 Y Combinator 支持。"
 author: AnIskill 編輯部
 creator_github: Graphify-Labs/graphify

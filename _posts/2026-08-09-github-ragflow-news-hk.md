@@ -4,7 +4,7 @@ title: "8.7 萬星開源項目：RAGFlow — 企業級開源 RAG 引擎"
 date: 2026-08-09 14:00:00 +0800
 categories: 技術
 tags: [AI, RAG, 開源, LLM, 知識庫, 企業應用, 檢索增強生成]
-image: /assets/images/posts/github-ragflow-news-hk-shot1.png
+image: /assets/images/posts/2026-08-09-github-ragflow-news-hk-cover.jpg
 description: "RAGFlow 是 GitHub 逾 8.7 萬星標的開源檢索增強生成（RAG）引擎，由 infiniflow 團隊開發，以深度文檔理解與 Agent 能力建構 LLM 的高保真上下文層，支援多種文件格式、可追溯引用與低幻覺輸出，並獲 GitHub Octoverse 2025 年度頂尖開源項目肯定。"
 author: AnIskill 編輯部
 creator_github: infiniflow/ragflow

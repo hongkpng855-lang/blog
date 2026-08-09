@@ -4,7 +4,7 @@ title: "7.2 萬星開源項目：微軟 AI Agents for Beginners 入門課程"
 date: 2026-08-08 11:50:00 +0800
 categories: 技術
 tags: [AI, AI Agent, 微軟, 教學課程, 開源]
-image: /assets/images/posts/github-ai-agents-for-beginners-news-hk-shot1.png
+image: /assets/images/posts/2026-08-08-github-ai-agents-for-beginners-news-hk-cover.jpg
 description: "Microsoft AI Agents for Beginners 是微軟官方 AI Agent 入門課程，GitHub 星標超過 71,000 顆，18 堂單元涵蓋框架、設計模式、Agentic RAG、多代理與安全部署，配備 Python 範例與影片，支援 50 多種語言翻譯，MIT 許可證免費開放。"
 author: AnIskill 編輯部
 creator_github: microsoft/ai-agents-for-beginners

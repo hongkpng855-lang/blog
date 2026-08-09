@@ -4,7 +4,7 @@ title: "83,398 星開源項目：OpenHands — AI 驅動開發平台"
 date: 2026-08-08 06:20:00 +0800
 categories: 技術
 tags: [AI, AI Agent, 開源, 開發工具, Coding Agent, ACP]
-image: /assets/images/posts/github-openhands-news-hk-shot1.png
+image: /assets/images/posts/2026-08-08-github-openhands-news-hk-cover.jpg
 description: "OpenHands 是開源 AI 軟體開發平台，GitHub 星標超過 83,000 顆，其 Agent Canvas 提供自架式開發者控制中心，可統一運行 Claude Code、Codex 與 Gemini 等編程代理，支援多種後端並整合 Slack 自動化流程，採用 MIT 許可證。"
 author: AnIskill 編輯部
 creator_github: OpenHands/OpenHands

@@ -4,7 +4,7 @@ title: "87,251 星開源項目：PaddleOCR — 百度領先的 OCR 與文檔解�
 date: 2026-08-08 20:05:00 +0800
 categories: 技術
 tags: [AI, OCR, 開源, 文檔解析, 深度學習, LLM]
-image: /assets/images/posts/github-paddleocr-news-hk-shot1.png
+image: /assets/images/posts/2026-08-08-github-paddleocr-news-hk-cover.jpg
 description: "PaddleOCR 是百度開源領先 OCR 與文檔解析引擎，GitHub 星標逾 87,000 顆，可將 PDF 與圖片轉換為 LLM 可讀的 Markdown 與 JSON 結構化數據，支援 100 種以上語言。PP-OCRv6 以單一模型覆蓋 50 種語言，PaddleOCR-VL-1.6 達 96.3% 準確率。"
 author: AnIskill 編輯部
 creator_github: PaddlePaddle/PaddleOCR

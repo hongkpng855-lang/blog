@@ -4,7 +4,7 @@ title: "26.8 萬星開源項目：Superpowers — 給 AI 編程代理的完整�
 date: 2026-08-07 06:25:00 +0800
 categories: 技術
 tags: [GitHub, 開源, Superpowers, Prime Radiant, AI Agent, 編程代理, 軟件開發方法論, Claude Code, TDD, 技能框架, 科技新聞, 香港, auto-publish, github-news]
-image: /assets/images/posts/github-superpowers-news-hk-shot1.png
+image: /assets/images/posts/2026-08-07-github-superpowers-news-hk-cover.jpg
 description: "Superpowers 是 GitHub 星標逾 26.8 萬的開源編程代理技能框架，由 Prime Radiant 開發，以技能庫與軟件開發方法論為核心，涵蓋頭腦風暴、測試驅動開發與子代理驅動開發等流程，支援 11 種主流編程代理，採用 MIT 授權，上線不足一年即成為開發者社群最受關注的項目之一。"
 fb_message: 編程代理寫程式常缺乏章法，Superpowers 將軟件工程流程內建為自動觸發技能，代理先釐清需求、拆解任務，再以測試驅動方式交付，令 AI 寫程式有跡可循。\n\n開源框架推出不足一年，GitHub 星標逾 26.8 萬，支援 Claude Code、Cursor、Gemini CLI 等 11 種主流代理，MIT 授權。\n\n技能庫運作邏輯、子代理兩階段審查機制及各代理安裝步驟，已整理成完整新聞分析報告上載 Blog，歡迎前往閱讀全文。
 author: "陳志豪 Eric Chan"

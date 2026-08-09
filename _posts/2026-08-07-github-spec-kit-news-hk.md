@@ -4,7 +4,7 @@ title: "12.6 萬星開源項目：GitHub Spec Kit — 規格驅動開發工具�
 date: 2026-08-07 22:20:00 +0800
 categories: 技術
 tags: [GitHub, 開源, Spec Kit, spec-kit, 規格驅動開發, SDD, AI, Copilot, 開發工具, 軟體工程, AI 編程, 科技新聞, 香港, auto-publish, github-news]
-image: /assets/images/posts/github-spec-kit-news-hk-shot1.png
+image: /assets/images/posts/2026-08-07-github-spec-kit-news-hk-cover.jpg
 description: "Spec Kit 是 GitHub 官方推出的開源規格驅動開發（SDD）工具包，GitHub 星標逾 12.6 萬，透過 Specify CLI 與超過 30 款 AI 編程代理整合，將規格文件直接轉化為可執行的開發流程，涵蓋規格、計劃、任務與實作完整階段，採 MIT 授權，以 Python 撰寫。"
 fb_message: GitHub 官方開源 Spec Kit，將軟體開發流程徹底翻轉，先定義規格再由 AI 直接生成實作，規格文件從裝飾性文件變成可執行的開發藍圖，支援超過 30 款主流 AI 編程代理。\n\n項目在 GitHub 累積逾 12.6 萬星標與 1.1 萬次 fork，採 MIT 授權，提供 constitution、specify、plan、tasks、implement 等完整工作流指令，團隊更可透過擴充與預設集自訂開發流程。\n\n規格驅動開發是否適合你的團隊？完整新聞分析報告已刊載於 Blog，涵蓋技術亮點、生態影響與實作指引，歡迎前往閱讀全文。
 author: "陳志豪 Eric Chan"

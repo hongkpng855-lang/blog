@@ -4,7 +4,7 @@ title: "13.1 萬星開源項目：Awesome LLM Apps — AI 應用模板庫"
 date: 2026-08-09 02:00:00 +0800
 categories: 技術
 tags: [AI, AI Agent, 開源, RAG, LLM, 模板庫]
-image: /assets/images/posts/github-awesome-llm-apps-news-hk-shot1.png
+image: /assets/images/posts/2026-08-09-github-awesome-llm-apps-news-hk-cover.jpg
 description: "Awesome LLM Apps 是 GitHub 逾 13.1 萬星標的開源項目，收錄 100 多個經端到端測試的 AI Agent 與 RAG 應用模板，採用 Apache-2.0 許可證，支援 Claude、Gemini、GPT、DeepSeek 等模型，每週新增模板，可免費複製部署與商用。"
 author: AnIskill 編輯部
 creator_github: Shubhamsaboo/awesome-llm-apps

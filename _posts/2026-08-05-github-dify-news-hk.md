@@ -4,7 +4,7 @@ title: "15.1 萬星開源項目：dify — 一體化 LLM 應用開發平台的�
 date: 2026-08-05 20:10:00 +0800
 categories: 技術
 tags: [GitHub, 開源, dify, langgenius, LLM, AI Agent, RAG, 大模型應用, 低代碼, TypeScript, 科技新聞, 香港, auto-publish, github-news]
-image: /assets/images/posts/github-dify-shot1.png
+image: /assets/images/posts/2026-08-05-github-dify-news-hk-cover.jpg
 description: "dify 是開源的 LLM 應用開發平台，GitHub 星標達 15.1 萬，以視覺化工作流畫布整合 AI 工作流、RAG 管線、Agent 能力與模型管理，支援數百種模型供應商與 50 多個內建工具，可部署於雲端或自托管，讓團隊從原型快速過渡至生產環境。"
 fb_message: 企業落地大型語言模型，往往卡在工程整合，模型、知識庫、工具與監控分散在不同系統。dify 將這一切收納於單一視覺化平台，無須從零搭建即可串起 AI 應用流程。\n\n此開源項目獲 15.1 萬星標、近 2.4 萬次 fork，支援數百種模型供應商與 50 多個內建工具，提供雲端、VPC 與自托管部署。\n\n想了解 dify 的技術架構與市場定位，為何如此受開發者歡迎？完整分析已在文章內，歡迎前往閱讀。
 author: "陳志豪 Eric Chan"
