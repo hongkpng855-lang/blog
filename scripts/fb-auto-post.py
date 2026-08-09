@@ -47,6 +47,9 @@ def acquire_lock():
 # og:image 已改用 github.io 之後，FB 可以正常抓到 aniskill.esgov.org 頁面（2026-08-05 實測確認）
 # 所以 URL 用返 custom domain（品牌一致）
 BLOG_BASE = "https://aniskill.esgov.org/"
+# 發文後自動補第一條留言（2026-08-08 新增）
+# ⚠️ 需要 pages_manage_engagement 權限；未加權限前會自動跳過，唔影響發文
+FB_FIRST_COMMENT_TEMPLATE = "📌 完整文章：{url}\n\n想睇完整教學？撳上面條連結 👆"
 
 def log(msg):
     ts = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -143,6 +146,22 @@ def get_absolute_image(image_path):
         return image_path
     image_path = image_path.lstrip("/")
     return f"{BLOG_BASE}{image_path}"
+
+def fb_post_comment(post_id, comment):
+    """喺自己嘅 FB post 下面補第一條留言（需要 pages_manage_engagement 權限）"""
+    url = f"https://graph.facebook.com/v21.0/{post_id}/comments"
+    params = {"message": comment, "access_token": PAGE_TOKEN}
+    data = urllib.parse.urlencode(params).encode()
+    req = urllib.request.Request(url, data=data)
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            result = json.loads(resp.read().decode())
+            if "id" in result:
+                return True, result["id"]
+            return False, str(result)
+    except Exception as e:
+        return False, str(e)
+
 
 def fb_post_link(message, link):
     """POST 連結卡片去 Facebook（Facebook 自動抓 og:image 做封面圖）"""
@@ -255,6 +274,14 @@ def main():
             log(f"   標題：{title}")
             log(f"   URL：{url}")
             log(f"   封面圖：{image_url}")
+            # 發文後自動補第一條留言（2026-08-08 用戶要求：自己 post 留言）
+            # 未加 pages_manage_engagement 權限會自動跳過（403），唔影響發文
+            comment = FB_FIRST_COMMENT_TEMPLATE.format(url=url)
+            okc, cres = fb_post_comment(result, comment)
+            if okc:
+                log(f"💬 已留言：{post}（comment id {cres}）")
+            else:
+                log(f"⚠️ 留言跳過（需要 pages_manage_engagement 權限）：{cres}")
         else:
             log(f"❌ 發佈失敗：{post} → {result}")
 

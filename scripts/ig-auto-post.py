@@ -37,6 +37,9 @@ LINK_BASE = "https://aniskill.esgov.org/"
 API = "https://graph.instagram.com/v25.0"
 HASHTAGS = "#AI #開源 #GitHub #LLM #人工智能"
 MAX_CAROUSEL = 10  # IG Carousel 上限
+# 發文後自動補第一條留言（2026-08-08 新增，link in first comment 引流）
+# 改呢度就可以改留言內容；{url} 會自動換成文章連結
+FIRST_COMMENT_TEMPLATE = "📌 完整文章：{url}\n\n🔗 撳入去睇完整教學！"
 
 
 def log(msg):
@@ -193,6 +196,17 @@ def ig_api(path, params, method="GET"):
         return {"_error": str(e)}
 
 
+def ig_post_comment(media_id, comment):
+    """喺自己嘅 IG post 下面補第一條留言（link in first comment）"""
+    r = ig_api(f"{media_id}/comments", {
+        "message": comment,
+        "access_token": IG_TOKEN,
+    }, "POST")
+    if "id" in r:
+        return True, r["id"]
+    return False, str(r)
+
+
 def ig_post_image(image_url, caption):
     """單圖：兩步 create media container → publish"""
     r = ig_api(f"{IG_USER_ID}/media", {
@@ -320,6 +334,13 @@ def main():
             posted.add(post)
             success_count += 1
             log(f"✅ 已發佈：{post}（{result}）")
+            # 發文後自動補第一條留言（2026-08-08 用戶要求：自己 post 留言）
+            comment = FIRST_COMMENT_TEMPLATE.format(url=post_url)
+            okc, cres = ig_post_comment(result, comment)
+            if okc:
+                log(f"💬 已留言：{post}（comment id {cres}）")
+            else:
+                log(f"⚠️ 留言失敗（唔影響發文）：{cres}")
             # Story 同步（2026-08-06 用戶要求：出埋 Story，引導 copy 連結去出處）
             if img_urls:
                 post_story_for(post, info, img_urls, post_url)
