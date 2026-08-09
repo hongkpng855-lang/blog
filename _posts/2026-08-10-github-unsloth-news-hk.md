@@ -4,7 +4,7 @@ title: "6.9 萬星開源項目：Unsloth — 本地 AI 加速引擎"
 date: 2026-08-10 06:00:00 +0800
 categories: 技術
 tags: [AI, 開源, LLM, 微調, 推理, 本地部署, Unsloth]
-image: /assets/images/posts/github-unsloth-news-hk-shot1.png
+image: /assets/images/posts/github-unsloth-news-hk-cover.jpg
 description: "Unsloth 是 GitHub 逾 6.9 萬星標的開源本地 AI 加速平台，以自研 Triton 內核實現模型微調最高 2 倍加速與 70% 記憶體節省，MoE 架構達 12 倍加速；Studio 介面支援 500 多種模型的運行與訓練，並可連接 Claude Code 等 Agent 工具。"
 author: AnIskill 編輯部
 creator_github: unslothai/unsloth

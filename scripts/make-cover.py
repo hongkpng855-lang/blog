@@ -17,7 +17,8 @@ import argparse, os, sys, urllib.request, tempfile
 from PIL import Image, ImageDraw, ImageFont
 
 FONT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "assets", "fonts")
-FONT_BOLD = os.path.join(FONT_DIR, "NotoSansCJKsc-Bold.otf")
+FONT_EN = os.path.join(FONT_DIR, "AlfaSlabOne-Regular.ttf")       # 英文 Slab Serif（unwire 風格）
+FONT_ZH = os.path.join(FONT_DIR, "NotoSansCJKsc-Black.otf")      # 中文 Heavy/Black（unwire 風格）
 FONT_REG = os.path.join(FONT_DIR, "NotoSansCJKsc-Regular.otf")
 GOLD = (201, 168, 76)
 WHITE = (255, 255, 255)
@@ -76,8 +77,8 @@ def make_cover(bg, title_zh, title_en, out):
     img = Image.alpha_composite(img.convert("RGBA"), overlay).convert("RGB")
     draw = ImageDraw.Draw(img)
 
-    font_en = ImageFont.truetype(FONT_BOLD, 30)
-    font_zh = ImageFont.truetype(FONT_BOLD, 82)
+    font_en = ImageFont.truetype(FONT_EN, 34)
+    font_zh = ImageFont.truetype(FONT_ZH, 88)
 
     # ===== unwire 排版 =====
     if title_en:
