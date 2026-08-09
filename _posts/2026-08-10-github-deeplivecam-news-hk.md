@@ -91,7 +91,7 @@ Deep-Live-Cam 的爆紅始於 2024 年 8 月，當時多位大型直播主與網
   <div class="stat-item"><div class="stat-value">Python</div><div class="stat-label">主要語言</div></div>
 </div>
 
-![Deep-Live-Cam Stargazers 統計圖（星標增長曲線）]({{ '/assets/images/posts/github-deeplivecam-news-hk-shot3.png' | relative_url }})
+![Deep-Live-Cam Contributors 統計頁（提交頻率圖 + 貢獻者排名）]({{ '/assets/images/posts/github-deeplivecam-news-hk-shot3.png' | relative_url }})
 
 ## Deep-Live-Cam 有哪些倫理與法律風險？
 
