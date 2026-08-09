@@ -9,6 +9,9 @@ description: "Ollama 是 GitHub 星標逾 17.7 萬的開源大模型運行平台
 fb_message: 本地大模型運行門檻大幅降低，Ollama 讓開發者只需一條安裝指令，即可在個人電腦運行 DeepSeek、Qwen 與 Gemma 等開源模型，毋須雲端 GPU 帳戶，資料全程留在本機，隱私與成本同時受控。\n\n項目以 Go 撰寫，整合 llama.cpp 推理引擎，GitHub 星標突破 17.7 萬，採 MIT 授權，支援 macOS、Windows、Linux 與 Docker 部署，並提供 REST API 與多語言 SDK，從個人開發到企業整合皆有對應方案。\n\n從架構設計、模型生態到市場定位，Ollama 的完整新聞分析報告已刊載於 Blog，歡迎前往閱讀全文。
 author: "陳志豪 Eric Chan"
 creator_github: ollama/ollama
+type: news
+source: GitHub
+source_url: https://github.com/ollama/ollama
 permalink: /技術/github-ollama-news-hk
 ---
 

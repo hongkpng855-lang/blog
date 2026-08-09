@@ -8,6 +8,9 @@ image: /assets/images/posts/github-pytorch-news-hk-shot1.png
 description: "PyTorch 是 GitHub 逾 10.2 萬星標的開源深度學習框架，由 Meta 主導開發，以動態計算圖與自動微分提供靈活的神經網絡建構能力，支援 CUDA、ROCm 與 Intel GPU 加速，2026 年 7 月釋出 2.13 版，是學術與工業界使用最廣的 AI 框架之一。"
 author: AnIskill 編輯部
 creator_github: pytorch/pytorch
+type: news
+source: GitHub
+source_url: https://github.com/pytorch/pytorch
 permalink: /技術/github-pytorch-news-hk
 fb_message: PyTorch 是當今最普及的深度學習框架之一，由 Meta 開發並開源，以動態計算圖與自動微分讓神經網絡開發變得直觀，無論是學術論文還是工業部署，多數 AI 團隊都以它為首選，堪稱 AI 時代的基礎設施。\n\n這個項目在 GitHub 獲逾 10.2 萬星標與 2.8 萬次復刻，累計超過 10 萬次提交，2026 年 7 月剛發布 2.13 版本，支援 CUDA、ROCm 與 Intel GPU 加速，生態涵蓋電腦視覺、語音與自然語言處理等多個領域。\n\n想了解 PyTorch 的動態計算圖設計、安裝部署方式與市場定位，以及它與 TensorFlow、JAX 的差異？完整技術分析、數據表與頁面截圖已整理好，立即前往 Blog 閱讀全文。
 ---

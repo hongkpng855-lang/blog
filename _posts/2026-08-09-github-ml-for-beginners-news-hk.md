@@ -8,6 +8,9 @@ image: /assets/images/posts/github-ml-for-beginners-news-hk-shot1.png
 description: "ML-For-Beginners 是微軟 Cloud Advocates 團隊推出的開源機器學習課程，在 GitHub 獲逾 8.9 萬星標，以 12 週 26 課 52 個測驗的結構教授經典機器學習，採用 Scikit-learn 並以世界文化數據設計專案式教學，支援超過 50 種語言翻譯，是數據科學入門領域最具規模的免費教材之一。"
 author: AnIskill 編輯部
 creator_github: microsoft/ML-For-Beginners
+type: news
+source: GitHub
+source_url: https://github.com/microsoft/ML-For-Beginners
 permalink: /技術/github-ml-for-beginners-news-hk
 fb_message: 想學機器學習但唔知從何入手？微軟官方免費課程 ML-For-Beginners 直接幫你排好 12 週學習路線，用南瓜價格、各國菜餚、酒店評論等生活化數據學回歸、分類與聚類，邊睇邊實作，唔使數學底子都跟得到。\n\n這個開源課程在 GitHub 獲逾 8.9 萬星標與 2.1 萬次復刻，由微軟 Cloud Advocates 團隊製作，26 課配 52 個測驗鞏固所學，仲有超過 50 種語言翻譯，中文讀者可以直接用母語學習，完全免費。\n\n課程涵蓋 NLP、時間序列與強化學習，每個主題都有真實案例。完整技術亮點與課程結構分析已整理成文，立即前往 Blog 閱讀全文。
 ---

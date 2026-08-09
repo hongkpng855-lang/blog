@@ -8,6 +8,9 @@ image: /assets/images/posts/github-gpt4all-news-hk-shot1.png
 description: "GPT4All 是 Nomic AI 推出的開源本地 LLM 運行平台，GitHub 星標達 77,409 顆，可在日常桌面與筆電上離線運行大型語言模型，無需 API 呼叫或 GPU。項目支援 DeepSeek R1 蒸餾模型、GGUF 格式與 Vulkan 加速，提供 LocalDocs 私密問答。"
 author: AnIskill 編輯部
 creator_github: nomic-ai/gpt4all
+type: news
+source: GitHub
+source_url: https://github.com/nomic-ai/gpt4all
 permalink: /技術/github-gpt4all-news-hk
 fb_message: GPT4All 是 GitHub 逾 7.7 萬星標的開源本地 LLM 運行平台，由 Nomic AI 開發，讓大型語言模型可以在日常桌面與筆電上離線運行，完全不需 API 呼叫或 GPU，並採用 MIT 許可證支援商業使用。\n\n項目現已支援 DeepSeek R1 蒸餾模型與 GGUF 格式，提供 Vulkan GPU 加速、LocalDocs 本地文件問答，以及 OpenAI 相容的 Docker API 伺服器；結合 LangChain 與 Weaviate 等生態，是個人隱私與企業本地部署的主流選擇。\n\n文章整理了項目的核心技術、生態定位與快速上手方法，並附完整數據與出處連結。立即前往 Blog 閱讀全文，了解如何在裝置上離線運行自己的 AI 模型。
 ---

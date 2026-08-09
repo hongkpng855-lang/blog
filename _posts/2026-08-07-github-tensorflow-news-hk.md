@@ -9,6 +9,9 @@ description: "TensorFlow 是 GitHub 星標近 19.7 萬的開源機器學習框�
 fb_message: 開源十年，TensorFlow 已成為深度學習領域最重要的基礎設施之一。Google Brain 團隊打造、Keras 高階 API 簡化開發流程，令研究者與工程團隊可以快速建構與部署機器學習模型，GitHub 星標累積近 19.7 萬。\n\n項目採 Apache-2.0 授權，以 C++ 與 Python 撰寫，累積逾 7.5 萬次 fork，支援 TPU、GPU 與移動端推理，最新 2.21 版本持續強化作業效率與跨平台部署能力。\n\n從技術架構到生態影響的完整新聞分析報告已刊載於 Blog，歡迎前往閱讀全文。
 author: "陳志豪 Eric Chan"
 creator_github: tensorflow/tensorflow
+type: news
+source: GitHub
+source_url: https://github.com/tensorflow/tensorflow
 permalink: /技術/github-tensorflow-news-hk
 ---
 

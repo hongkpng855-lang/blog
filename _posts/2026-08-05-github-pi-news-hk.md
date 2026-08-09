@@ -9,6 +9,9 @@ description: "Pi 是由 libGDX 作者 Mario Zechner 打造的開源 AI 代理工
 fb_message: AI 編碼代理工具百花齊放，Pi 走截然不同的路：核心極簡、一切可擴充，由 libGDX 作者打造，讓開發者按自身工作流程塑造工具。\n\n項目一年內累積逾 8.4 萬星標與 1 萬次 fork，支援 Anthropic、OpenAI 等數十家供應商，並提供互動、RPC 與 SDK 三種整合模式。\n\nPi 的設計哲學、技術架構與市場定位，以及與主流編碼代理的差異，完整分析已整理成文，歡迎前往 Blog 閱讀全文。
 author: "陳志豪 Eric Chan"
 creator_github: earendil-works/pi
+type: news
+source: GitHub
+source_url: https://github.com/earendil-works/pi
 ---
 
 # <svg class="ui-icon"><use href="#ui-rocket"/></svg>8.4 萬星開源項目：Pi — 由 libGDX 作者打造的極簡 AI 編碼代理

@@ -9,6 +9,9 @@ description: "Spec Kit 是 GitHub 官方推出的開源規格驅動開發（SDD�
 fb_message: GitHub 官方開源 Spec Kit，將軟體開發流程徹底翻轉，先定義規格再由 AI 直接生成實作，規格文件從裝飾性文件變成可執行的開發藍圖，支援超過 30 款主流 AI 編程代理。\n\n項目在 GitHub 累積逾 12.6 萬星標與 1.1 萬次 fork，採 MIT 授權，提供 constitution、specify、plan、tasks、implement 等完整工作流指令，團隊更可透過擴充與預設集自訂開發流程。\n\n規格驅動開發是否適合你的團隊？完整新聞分析報告已刊載於 Blog，涵蓋技術亮點、生態影響與實作指引，歡迎前往閱讀全文。
 author: "陳志豪 Eric Chan"
 creator_github: github/spec-kit
+type: news
+source: GitHub
+source_url: https://github.com/github/spec-kit
 permalink: /技術/github-spec-kit-news-hk
 ---
 

@@ -8,6 +8,9 @@ image: /assets/images/posts/github-openhands-news-hk-shot1.png
 description: "OpenHands 是開源 AI 軟體開發平台，GitHub 星標超過 83,000 顆，其 Agent Canvas 提供自架式開發者控制中心，可統一運行 Claude Code、Codex 與 Gemini 等編程代理，支援多種後端並整合 Slack 自動化流程，採用 MIT 許可證。"
 author: AnIskill 編輯部
 creator_github: OpenHands/OpenHands
+type: news
+source: GitHub
+source_url: https://github.com/OpenHands/OpenHands
 permalink: /技術/github-openhands-news-hk
 fb_message: OpenHands 是 GitHub 逾 8.3 萬星標的開源 AI 軟體開發平台，核心產品 Agent Canvas 讓開發者自架一套控制中心，統一運行 OpenHands、Claude Code、Codex 與 Gemini 等主流編程代理。\n\n平台支援本機、Docker、虛擬機與雲端多種後端自由切換，可排程自動化解決 GitHub Issue，並整合 Slack、Linear 與 Notion 推送結果，採用 MIT 許可證，完全開源可自架。\n\n文章已整理項目的架構亮點、快速安裝方式與生態定位，並附完整數據與出處連結。立即前往 Blog 閱讀全文，了解如何用一套工具管好所有編程代理。
 ---

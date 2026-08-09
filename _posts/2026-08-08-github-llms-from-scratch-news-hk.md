@@ -8,6 +8,9 @@ image: /assets/images/posts/github-llms-from-scratch-news-hk-shot1.png
 description: "LLMs-from-scratch 是擁有超過 10 萬顆星標的開源教學項目，由 Sebastian Raschka 撰寫，以 PyTorch 從零實作 GPT 架構大語言模型，涵蓋預訓練、指令微調與 LoRA 等完整流程，並配合同名書籍與 17 小時影片課程，是深度學習教育領域最具影響力的實作指南。"
 author: AnIskill 編輯部
 creator_github: rasbt/LLMs-from-scratch
+type: news
+source: GitHub
+source_url: https://github.com/rasbt/LLMs-from-scratch
 permalink: /技術/github-llms-from-scratch-news-hk
 fb_message: 想徹底搞懂大型語言模型的內部運作，卻被坊間課程嚇怕？這個 GitHub 項目用最直接的方法解決問題：由零開始，用 PyTorch 一步步寫出一個 GPT 架構模型。\n\n這個開源項目已獲超過 10 萬顆星標，作者 Sebastian Raschka 是著名機器學習書籍作家。內容涵蓋文字資料處理、注意力機制、預訓練到指令微調，全部可在一般手提電腦運行，並配合同名書籍與 17 小時影片課程，是自學 LLM 的首選路線圖。\n\n完整技術分析、章節架構與數據表已整理於 Blog 文章，歡迎前往閱讀，一次過了解這個項目為何能成為深度學習教育領域的標桿。
 ---

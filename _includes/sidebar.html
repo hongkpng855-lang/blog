@@ -43,6 +43,25 @@
  </div>
 </div>
 
+<!-- 最新新聞（unwire 式） -->
+<div class="card mb-4 latest-news-card">
+ <div class="card-header fw-bold"><svg class="ui-icon ui-icon-sm"><use href="#ui-newspaper"/></svg>最新新聞</div>
+ <div class="card-body p-0">
+ <ul class="list-group list-group-flush">
+ {% assign news_posts = site.posts | where_exp: "post", "post.type == 'news'" | sort: 'date' | reverse | limit: 6 %}
+ {% for post in news_posts %}
+ <li class="list-group-item">
+ <a href="{{ post.url | relative_url }}" class="text-decoration-none fw-medium">{{ post.title }}</a>
+ <br><small class="text-muted">
+ {% for category in post.categories limit:1 %}<span class="news-mini-cat">{{ category }}</span>{% endfor %}
+ {{ post.date | date: "%m-%d %H:%M" }}
+ </small>
+ </li>
+ {% endfor %}
+ </ul>
+ </div>
+</div>
+
 <!-- 訂閱提示 -->
 <div class="card mb-4 subscribe-mini-card">
  <div class="card-body text-center">

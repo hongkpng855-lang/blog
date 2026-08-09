@@ -9,6 +9,9 @@ description: "Stable Diffusion Web UI 是 GitHub 星標逾 16.4 萬的開源 AI 
 fb_message: 本地 AI 繪圖門檻已大幅下降，Stable Diffusion Web UI 讓用戶在個人電腦運行擴散模型，透過瀏覽器完成文生圖、圖生圖與精細修圖，無需程式背景即可產出專業級作品。\n\n項目在 GitHub 累積逾 16.4 萬星標與 3 萬次 fork，約 586 名開發者參與維護，支援 NVIDIA、AMD、Intel 與 Apple Silicon 平台，並形成龐大擴充功能生態與社群模型庫。\n\n從安裝流程、技術架構到生態影響，完整新聞分析已上載 Blog，歡迎閱讀全文，了解這套工具如何改變 AI 內容創作方式。
 author: "陳志豪 Eric Chan"
 creator_github: AUTOMATIC1111/stable-diffusion-webui
+type: news
+source: GitHub
+source_url: https://github.com/AUTOMATIC1111/stable-diffusion-webui
 permalink: /技術/github-sdwebui-news-hk
 ---
 

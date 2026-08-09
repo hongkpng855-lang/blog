@@ -8,6 +8,9 @@ image: /assets/images/posts/github-opencode-news-hk-shot1.png
 description: "OpenCode 是 GitHub 獲逾 19.5 萬星標的開源 AI 編碼代理，由 Anomaly 團隊以 TypeScript 開發，採用 MIT 授權，內建 build 與 plan 雙代理架構，支援逾 20 種模型供應商，可於終端機執行開發任務、分析程式碼庫並處理 Git 流程，亦提供跨平台桌面應用。"
 author: AnIskill 編輯部
 creator_github: anomalyco/opencode
+type: news
+source: GitHub
+source_url: https://github.com/anomalyco/opencode
 permalink: /技術/github-opencode-news-hk
 fb_message: 想在終端機直接叫 AI 寫程式？OpenCode 是 GitHub 上逾 19.5 萬星標的開源 AI 編碼代理，MIT 授權完全免費，以 TypeScript 打造，內建 build 與 plan 兩種代理角色，既能全權執行開發任務，也可唯讀分析程式碼，安裝後即可用自然語言與程式碼庫對話。\n\n項目支援 OpenAI、Anthropic、Google Gemini 等逾 20 種模型供應商，無論用雲端模型或本地部署皆可，另提供 Windows、macOS、Linux 桌面應用與終端機 CLI 雙介面，對開發者與 AI 工程師皆具實用價值。\n\n完整技術亮點分析、快速上手步驟與市場影響已整理成報告，立即前往 Blog 閱讀全文，掌握這個開源編碼代理的實際能力。
 ---

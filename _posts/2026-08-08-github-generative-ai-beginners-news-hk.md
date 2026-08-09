@@ -8,6 +8,9 @@ image: /assets/images/posts/github-generative-ai-beginners-news-hk-shot1.png
 description: "Generative AI for Beginners 是 Microsoft 生成式 AI 入門課程，GitHub 星標逾 116,000 顆，以 21 堂課涵蓋 LLM 原理、提示工程、RAG、AI Agent 與微調，每課附影片與雙語言範例，支援 50 多種語言翻譯，MIT 許可證，零基礎可免費自學。"
 author: AnIskill 編輯部
 creator_github: microsoft/generative-ai-for-beginners
+type: news
+source: GitHub
+source_url: https://github.com/microsoft/generative-ai-for-beginners
 permalink: /技術/github-generative-ai-beginners-news-hk
 fb_message: 想學習生成式 AI 開發卻不知從何開始？Microsoft 官方開源課程提供完整答案：21 堂課由 LLM 原理、提示工程、RAG 到 AI Agent 與微調，每課附教學影片及 Python、TypeScript 實作範例，全程免費。\n\n課程在 GitHub 已累積逾 116,000 顆星標與 61,000 次復刻，支援超過 50 種語言翻譯，香港繁體中文版本同步更新；更提供 Foundry Local 完全離線方案，無需雲端訂閱即可動手實作。\n\n文章已詳細整理課程架構、學習路線與部署方式，附數據表及出處連結。立即前往 Blog 閱讀全文，展開你的生成式 AI 學習旅程。
 ---

@@ -9,6 +9,9 @@ description: "OpenBB 是 GitHub 星標逾 7.1 萬的開放金融數據平台，�
 fb_message: 金融數據基礎設施正迎來開源時代，OpenBB 以「一次連接、多處消費」的架構，將股票、加密貨幣、衍生品與宏觀經濟數據統一成單一介面，分析師與 AI 代理都可以直接讀取，毋須再逐一整合各家數據供應商。\n\n項目在 GitHub 累積逾 7.1 萬星標與 7,300 次 fork，自 2020 年創立以來持續活躍，提供 Python 套件、指令列工具、REST API 與 MCP 伺服器四種接入方式，並採用 AGPL-3.0 開源授權，是金融科技領域最具代表性的開放數據基礎設施之一。\n\n從架構設計、AI 代理整合到與商業金融終端的差異，OpenBB 的完整新聞分析報告已刊載於 Blog，歡迎前往閱讀全文。
 author: "陳志豪 Eric Chan"
 creator_github: OpenBB-finance/OpenBB
+type: news
+source: GitHub
+source_url: https://github.com/OpenBB-finance/OpenBB
 permalink: /技術/github-openbb-news-hk
 ---
 

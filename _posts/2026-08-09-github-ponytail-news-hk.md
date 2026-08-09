@@ -8,6 +8,9 @@ image: /assets/images/posts/github-ponytail-news-hk-shot1.png
 description: "Ponytail 是 GitHub 星標逾 9.9 萬的開源 AI 代理工具，以「最懶資深開發者」思維引導 Claude Code、Codex、Gemini CLI 等逾二十種編程代理撰寫精簡代碼，基準測試顯示平均減少 54% 代碼量與 20% 成本，同時維持 100% 安全，兩個月內成為 AI 編程生態的熱門項目。"
 author: AnIskill 編輯部
 creator_github: DietrichGebert/ponytail
+type: news
+source: GitHub
+source_url: https://github.com/DietrichGebert/ponytail
 permalink: /技術/github-ponytail-news-hk
 fb_message: AI 編程代理寫代碼過度設計？開源項目 Ponytail 將「最懶資深開發者」思維植入 Claude Code、Codex 等逾二十種工具，兩個月獲近十萬星標。\n\n基準測試顯示平均減少 54% 代碼量、20% 成本與 27% 時間，安全維持 100%；MIT 許可證免費商用，2026 年 8 月剛釋出 v4.9.0。\n\n想知道七級判斷階梯如何運作、支援哪些工具？完整技術分析與數據表已整理好，立即前往 Blog 閱讀全文。
 ---

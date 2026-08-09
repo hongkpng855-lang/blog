@@ -9,6 +9,9 @@ description: "n8n 是 GitHub 星標逾 19.9 萬的開源工作流自動化平台
 fb_message: 工作流自動化平台已成為企業部署 AI 的重要基礎設施，n8n 正是其中代表，以視覺化節點畫布結合自訂程式碼，讓團隊以最低門檻建構 AI 智能體與跨系統自動化流程，並可自由選擇自架或雲端運行。\n\n項目在 GitHub 累積近 20 萬星標與 6 萬次 fork，串接 1500 個以上服務整合，提供 9000 多個現成工作流模板，採用 fair-code 授權模式，原始碼完全公開，企業可自行部署掌控資料。\n\n從技術架構到商業化路徑，n8n 的完整分析已整理成文，歡迎前往 Blog 閱讀全文。
 author: "陳志豪 Eric Chan"
 creator_github: n8n-io/n8n
+type: news
+source: GitHub
+source_url: https://github.com/n8n-io/n8n
 ---
 
 # <svg class="ui-icon"><use href="#ui-rocket"/></svg>19.9 萬星開源項目：n8n — AI 智能體與工作流自動化平台

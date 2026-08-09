@@ -9,6 +9,9 @@ description: "Supabase 是 GitHub 星標逾 10.8 萬的開源 Postgres 開發平
 fb_message: 開源後端開發迎來 Firebase 替代浪潮，Supabase 以 Postgres 為核心，將資料庫、認證、即時同步與 AI 向量檢索整合為單一平台，毋須在多個雲服務之間拼接即可完成後端搭建。\n\n項目在 GitHub 累積逾 10.8 萬星標，採 Apache-2.0 授權，提供 JavaScript、Python、Flutter、Swift 等多語言官方用戶端，並支援自架部署與本地開發。\n\n從架構設計到 AI 向量整合，Supabase 的完整新聞分析報告已刊載於 Blog，歡迎前往閱讀全文。
 author: "陳志豪 Eric Chan"
 creator_github: supabase/supabase
+type: news
+source: GitHub
+source_url: https://github.com/supabase/supabase
 permalink: /技術/github-supabase-news-hk
 ---
 

@@ -9,6 +9,9 @@ description: "Langflow 是 GitHub 星標逾 15.3 萬的開源 AI 智能體與工
 fb_message: AI 智能體開發不再只屬於工程師。Langflow 以拖曳式視覺化介面，讓團隊直接組合模型、資料庫與工具，建構可部署的 AI 工作流，並可一鍵轉為 API 或 MCP 伺服器，接入現有應用，開源授權令自架部署全無障礙。\n\n項目在 GitHub 累積逾 15.3 萬星標與近 9,800 次 fork，以 Python 撰寫並採用 MIT 授權，2024 年被 DataStax 收購後加速商業化，最新版本 1.11.2 於 2026 年 8 月釋出，支援所有主流大語言模型。\n\n從視覺化建構到多智能體協調，Langflow 如何成為 AI 應用的快速開發平台？完整技術亮點與市場分析已整理成文，歡迎前往 Blog 閱讀全文。
 author: "陳志豪 Eric Chan"
 creator_github: langflow-ai/langflow
+type: news
+source: GitHub
+source_url: https://github.com/langflow-ai/langflow
 permalink: /技術/github-langflow-news-hk
 ---
 

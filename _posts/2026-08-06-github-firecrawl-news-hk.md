@@ -9,6 +9,9 @@ description: "Firecrawl 是 GitHub 星標逾 16.2 萬的開放原始碼網頁資
 fb_message: AI 代理要讀取即時網頁資料，過去往往要自行處理代理 IP、反爬蟲與 JavaScript 渲染，Firecrawl 正是為此而生的開放原始碼資料 API，將搜尋、擷取與網頁操作整合於單一平台，讓開發者以一行指令取得乾淨的 Markdown 與結構化 JSON。\n\n項目在 GitHub 累積逾 16.2 萬星標與 9 千次 fork，聲稱可覆蓋 96% 網頁，P95 延遲僅 3.4 秒，並支援 MCP 協議，Claude Code 等 AI 代理可即時接入取得網路資料，同時提供 Agent、Crawl 與 Batch Scrape 等自動化端點。\n\n從技術架構到市場定位，Firecrawl 的完整分析已整理成文，歡迎前往 Blog 閱讀全文。
 author: "陳志豪 Eric Chan"
 creator_github: firecrawl/firecrawl
+type: news
+source: GitHub
+source_url: https://github.com/firecrawl/firecrawl
 ---
 
 **Firecrawl 是 GitHub 上星標逾 162,000 顆的開放原始碼網頁資料 API，以搜尋、擷取與操作三大核心能力，將任何網頁轉換為 LLM 可直接使用的 Markdown 與結構化 JSON，聲稱可覆蓋 96% 的網頁內容，P95 延遲僅 3.4 秒，並提供 Agent、Crawl、Map 與 Batch Scrape 等自動化端點。** 此項目由 Firecrawl 團隊於 2024 年 4 月創立，以 TypeScript 撰寫，累積逾 9,000 次 fork，採用 AGPL-3.0 授權，最新版本 v2.11.0 於 2026 年 6 月釋出。本文將從官方 README 與平台文件出發，分析 Firecrawl 的技術架構、市場定位與生態影響。

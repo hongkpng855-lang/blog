@@ -9,6 +9,9 @@ description: "Ollama 是 GitHub 星標突破 17.8 萬的開源項目，以 Go �
 fb_message: 在本地電腦直接運行大模型，無需雲端：Ollama 以 Go 語言打造、基於 llama.cpp 推理後端，支援 Kimi、DeepSeek、Qwen、Gemma 等主流開放模型。\n\n提供 CLI、REST API 與官方 Docker 映像，無論是開發整合或個人實驗皆可應用。GitHub 星標突破 17.8 萬，已成為本地 AI 部署的事實標準。\n\n技術架構與生態定位，詳見文章分析。
 author: "陳志豪 Eric Chan"
 creator_github: ollama/ollama
+type: news
+source: GitHub
+source_url: https://github.com/ollama/ollama
 ---
 
 # <svg class="ui-icon"><use href="#ui-bulb"/></svg>17.8 萬星開源項目：Ollama — 讓開源大模型在本地一鍵運行的跨平台引擎

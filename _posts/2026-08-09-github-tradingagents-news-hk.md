@@ -8,6 +8,9 @@ image: /assets/images/posts/github-tradingagents-news-hk-shot1.png
 description: "TradingAgents 是 GitHub 逾 9.6 萬星標的開源金融交易框架，由 TauricResearch 推出，以 LangGraph 部署分析師、多空研究員與風險管理團隊等多個 LLM 智能體，模擬真實交易公司分工，支援美股、港股、加密貨幣等市場，並獲 arXiv 論文背書。"
 author: AnIskill 編輯部
 creator_github: TauricResearch/TradingAgents
+type: news
+source: GitHub
+source_url: https://github.com/TauricResearch/TradingAgents
 permalink: /技術/github-tradingagents-news-hk
 fb_message: 想知 AI 如何完整模擬一間交易公司？TradingAgents 將基礎分析、市場情緒、技術指標與風險管理拆成多個 LLM 智能體，各自分工再開會辯論，最後由投資組合經理拍板，整個決策過程全程透明，是了解多智能體金融應用的最佳開源教材。\n\n這個項目在 GitHub 獲逾 9.6 萬星標與 1.8 萬次復刻，採用 Apache-2.0 授權，支援 OpenAI、Claude、Gemini、DeepSeek 等十餘家模型供應商，涵蓋美股、港股、A 股與加密貨幣，更登上有 arXiv 論文背書的學術級設計。\n\n無論是量化研究者還是 AI 開發者，都可免費下載研究其架構。完整技術分析、部署步驟與數據表已整理好，立即前往 Blog 閱讀全文。
 ---

@@ -2,6 +2,7 @@ User-agent: *
 Allow: /
 
 Sitemap: https://aniskill.esgov.org/sitemap.xml
+Sitemap: https://aniskill.esgov.org/news-sitemap.xml
 
 # 禁止存取管理相關路徑
 Disallow: /admin/

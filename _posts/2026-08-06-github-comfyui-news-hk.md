@@ -9,6 +9,9 @@ description: "ComfyUI 是 GitHub 星標逾 12.4 萬的開源 AI 內容生成引�
 fb_message: 專業 AI 創作者需要對每個模型、每項參數與每次輸出擁有完整控制，ComfyUI 正是為此而生的開源引擎，以視覺化節點圖介面組合圖像、影片與 3D 生成流程，全程毋須撰寫程式，並可完全離線運行。\n\n項目在 GitHub 累積逾 12.4 萬星標與 1.4 萬次 fork，原生支援 Stable Diffusion、Flux、Hunyuan 等最新開源模型，亦透過 API 節點接入 Nano Banana 等閉源模型，提供桌面應用、可攜版與雲端服務三種部署方式。\n\n從節點架構、模型生態到商業化路徑，ComfyUI 的完整新聞分析已整理成文，歡迎前往 Blog 閱讀全文。
 author: "陳志豪 Eric Chan"
 creator_github: Comfy-Org/ComfyUI
+type: news
+source: GitHub
+source_url: https://github.com/Comfy-Org/ComfyUI
 ---
 
 # <svg class="ui-icon"><use href="#ui-cube"/></svg>12.4 萬星開源項目：ComfyUI — 以節點圖介面驅動的模組化 AI 內容生成引擎

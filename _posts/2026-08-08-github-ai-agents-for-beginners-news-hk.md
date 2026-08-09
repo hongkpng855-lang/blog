@@ -8,6 +8,9 @@ image: /assets/images/posts/github-ai-agents-for-beginners-news-hk-shot1.png
 description: "Microsoft AI Agents for Beginners 是微軟官方 AI Agent 入門課程，GitHub 星標超過 71,000 顆，18 堂單元涵蓋框架、設計模式、Agentic RAG、多代理與安全部署，配備 Python 範例與影片，支援 50 多種語言翻譯，MIT 許可證免費開放。"
 author: AnIskill 編輯部
 creator_github: microsoft/ai-agents-for-beginners
+type: news
+source: GitHub
+source_url: https://github.com/microsoft/ai-agents-for-beginners
 permalink: /技術/github-ai-agents-for-beginners-news-hk
 fb_message: 微軟官方免費開源課程 AI Agents for Beginners 在 GitHub 已獲逾 7.1 萬顆星標，以 18 堂實戰單元帶你由零開始掌握 AI Agent 開發，從框架選擇、設計模式到部署上線一步到位。\n\n課程每堂配有 Python 程式碼範例與教學影片，涵蓋工具使用、Agentic RAG、多代理協作與安全防護等熱門主題，更支援超過 50 種語言翻譯，MIT 授權完全免費，初學者可直接開始。\n\n想一次過了解課程架構、核心技術亮點與學習路徑？文章已整理完整分析與數據。立即前往 Blog 閱讀全文。
 ---

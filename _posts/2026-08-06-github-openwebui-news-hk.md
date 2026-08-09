@@ -9,6 +9,9 @@ description: "Open WebUI 是 GitHub 星標逾 14.8 萬的開源自托管 AI 平�
 fb_message: 私有 AI 助理想完全離線運行，Open WebUI 是目前最成熟的開源答案，單一容器即可部署，連接 Ollama 或任何 OpenAI 相容 API，毋須將對話資料送出伺服器。\n\n項目在 GitHub 累積逾 14.8 萬星標與 2.2 萬次 fork，內建 RAG 檢索、多模型並行對話與企業級權限管理，自 2023 年 10 月創立以來維持高頻更新。\n\n從技術架構、部署方式到生態與商業化路徑，Open WebUI 的完整新聞分析已整理成文，歡迎前往 Blog 閱讀全文。
 author: "陳志豪 Eric Chan"
 creator_github: open-webui/open-webui
+type: news
+source: GitHub
+source_url: https://github.com/open-webui/open-webui
 ---
 
 # <svg class="ui-icon"><use href="#ui-cube"/></svg>14.8 萬星開源項目：Open WebUI — 可完全離線運行的自托管 AI 平台

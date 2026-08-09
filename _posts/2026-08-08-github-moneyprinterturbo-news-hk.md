@@ -8,6 +8,9 @@ image: /assets/images/posts/github-moneyprinterturbo-news-hk-shot1.png
 description: "MoneyPrinterTurbo 是開源一站式 AI 短片生成工具，GitHub 星標超過 102,000 顆，輸入主題即可自動生成腳本、匹配素材、合成字幕與背景音樂並輸出高清影片，支援 WebUI、API、CLI 與 AI Agent 四種方式，採用 MIT 許可證。"
 author: AnIskill 編輯部
 creator_github: harry0703/MoneyPrinterTurbo
+type: news
+source: GitHub
+source_url: https://github.com/harry0703/MoneyPrinterTurbo
 permalink: /技術/github-moneyprinterturbo-news-hk
 fb_message: 只需輸入主題或關鍵詞，就能自動完成腳本、素材、字幕與配樂，幾分鐘產出一條高清短片，部署後可持續量產短影音內容。\n\n項目在 GitHub 已累積逾 102,000 顆星標，支援多種主流模型與語音合成，可一鍵發布至 TikTok、Instagram 與 YouTube Shorts，完全開源。\n\n文章已整理核心功能、技術架構與部署方式，附數據表及出處連結。立即前往 Blog 閱讀全文，用 AI 打造個人短片生產線。
 ---

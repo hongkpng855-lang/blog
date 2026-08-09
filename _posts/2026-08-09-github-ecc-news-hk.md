@@ -8,6 +8,9 @@ image: /assets/images/posts/github-ecc-news-hk-shot1.png
 description: "ECC 是 GitHub 星標逾 23.9 萬的開源 AI 代理協調系統，以規劃、測試、審查、記憶的七段循環，將 Claude Code、Codex、Cursor 等逾十種編程代理變成可稽核的工程流程，內建 67 個代理、284 個技能與 AgentShield 安全掃描，七個月成為 AI 編程生態最受矚目的開源項目。"
 author: AnIskill 編輯部
 creator_github: affaan-m/ECC
+type: news
+source: GitHub
+source_url: https://github.com/affaan-m/ECC
 permalink: /技術/github-ecc-news-hk
 fb_message: 開源項目 ECC 被稱為「AI 代理的作業系統」，將 Claude Code、Codex、Cursor 等逾十種編程代理變成會規劃、測試與自我審查的工程系統。\n\n項目內建 67 個代理與 284 個技能，七個月累積逾 23.9 萬星標；MIT 許可證免費商用，8 月釋出 2.1 版新增 Plan Canvas 審查介面。\n\n這套系統如何改變 AI 寫代碼的方式？完整技術分析與數據表已整理好，立即前往 Blog 閱讀全文內容。
 ---

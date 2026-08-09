@@ -8,6 +8,9 @@ image: /assets/images/posts/github-hermes-agent-news-hk-shot1.png
 description: "Hermes Agent 是 Nous Research 開發的自我進化型 AI 代理，GitHub 星標超過 227,000 顆，內建學習迴圈可從經驗自動建立技能並在使用中持續改進；支援 Telegram、Discord 等多平台訊息閘道與七種終端後端，相容任何大型語言模型，採用 MIT 許可證完全開源。"
 author: AnIskill 編輯部
 creator_github: NousResearch/hermes-agent
+type: news
+source: GitHub
+source_url: https://github.com/NousResearch/hermes-agent
 permalink: /技術/github-hermes-agent-news-hk
 fb_message: Hermes Agent 是 Nous Research 推出的自我進化型 AI 代理，GitHub 星標突破 22 萬。它內建學習迴圈，會從使用經驗自動建立技能並在運行中持續改進，是少數會隨時間變得更強的開源代理。\n\n項目支援 Telegram、Discord 與 WhatsApp 等多平台訊息閘道，可運行於平價 VPS 或雲端環境；相容任何大型語言模型，切換無需改動程式碼，採用 MIT 許可證，目前逾 44,000 次復刻。\n\n文章深入分析其學習迴圈架構、多平台整合方式與部署選項，並附完整數據與出處連結。立即前往 Blog 閱讀全文，認識這個 22 萬星標的自我成長型代理。
 ---

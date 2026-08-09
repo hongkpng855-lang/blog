@@ -8,6 +8,9 @@ image: /assets/images/posts/github-deepseek-v3-news-hk-shot1.png
 description: "DeepSeek-V3 是深度求索發佈的開源 MoE 大語言模型，總參數 671B、單次推理僅啟動 37B，GitHub 星標逾 10.4 萬。其 FP8 混合精度訓練與多 Token 預測等創新，令訓練成本降至 278.8 萬 H800 GPU 小時，基準測試表現媲美 GPT-4o 等閉源旗艦。"
 author: AnIskill 編輯部
 creator_github: deepseek-ai/DeepSeek-V3
+type: news
+source: GitHub
+source_url: https://github.com/deepseek-ai/DeepSeek-V3
 permalink: /技術/github-deepseek-v3-news-hk
 fb_message: 開源大模型再現震撼之作：DeepSeek-V3 以 671B 總參數、僅啟動 37B 的 MoE 架構，在數學與程式碼基準測試上追平甚至超越 GPT-4o 與 Claude 3.5 Sonnet。\n\n全程僅耗 278.8 萬 H800 GPU 小時完成訓練，成本遠低於同級閉源模型；GitHub 星標突破 10.4 萬，支援 128K 上下文，代碼以 MIT 許可證開放免費商用。\n\n文章深入拆解 FP8 混合精度訓練與多 Token 預測等核心技術，附完整基準測試數據表與本地部署指南，並分析其對開源 AI 生態的影響。立即前往 Blog 閱讀全文。
 ---

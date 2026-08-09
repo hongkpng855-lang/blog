@@ -8,6 +8,9 @@ image: /assets/images/posts/github-awesome-llm-apps-news-hk-shot1.png
 description: "Awesome LLM Apps 是 GitHub 逾 13.1 萬星標的開源項目，收錄 100 多個經端到端測試的 AI Agent 與 RAG 應用模板，採用 Apache-2.0 許可證，支援 Claude、Gemini、GPT、DeepSeek 等模型，每週新增模板，可免費複製部署與商用。"
 author: AnIskill 編輯部
 creator_github: Shubhamsaboo/awesome-llm-apps
+type: news
+source: GitHub
+source_url: https://github.com/Shubhamsaboo/awesome-llm-apps
 permalink: /技術/github-awesome-llm-apps-news-hk
 fb_message: Awesome LLM Apps 是 GitHub 逾 13.1 萬星標的開源 AI 應用寶庫，收錄 100 多個實測可用的 AI Agent、Agent Skills 與 RAG 模板，全部採用 Apache-2.0 授權，複製即用，商用亦無限制。\n\n項目涵蓋語音代理、多代理團隊、生成式 UI、記憶系統與超過 20 款 RAG 教學，支援 Claude、Gemini、GPT、DeepSeek、Llama 等主流模型，每週更新新模板，曾被 Trendshift 選為當日第一名儲存庫。\n\n想知如何 10 秒安裝一個 Agent Skill、30 秒啟動第一個代理？完整技術分析與數據表已整理好，立即前往 Blog 閱讀全文。
 ---

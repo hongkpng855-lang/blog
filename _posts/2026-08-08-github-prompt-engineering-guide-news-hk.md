@@ -8,6 +8,9 @@ image: /assets/images/posts/github-prompt-engineering-guide-news-hk-shot1.png
 description: "Prompt Engineering Guide 是 DAIR.AI 推出的開源提示工程學習資源，GitHub 星標逾 77,000 顆，收錄論文、指南、課程與 Notebook，涵蓋提示工程、RAG 與 AI Agent，支援 13 種語言，服務逾 300 萬學習者，是掌握大語言模型應用的權威參考。"
 author: AnIskill 編輯部
 creator_github: dair-ai/Prompt-Engineering-Guide
+type: news
+source: GitHub
+source_url: https://github.com/dair-ai/Prompt-Engineering-Guide
 permalink: /技術/github-prompt-engineering-guide-news-hk
 fb_message: DAIR.AI 的 Prompt Engineering Guide 是提示工程學習路線圖，覆蓋提示詞設計、RAG 與 AI Agent，新手與開發者都能找到實戰內容。\n\n項目在 GitHub 累積逾 7.7 萬星標與 8,400 次復刻，支援 13 種語言，服務逾 300 萬學習者，獲《華爾街日報》《福布斯》報導，是學習提示工程熱門起點。\n\n文中已整理項目的核心章節、技術亮點與快速上手方式，並附完整數據與出處連結。立即前往 Blog 閱讀全文，掌握這份權威學習資源的完整面貌。
 ---

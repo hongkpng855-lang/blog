@@ -8,6 +8,9 @@ image: /assets/images/posts/github-paddleocr-news-hk-shot1.png
 description: "PaddleOCR 是百度開源領先 OCR 與文檔解析引擎，GitHub 星標逾 87,000 顆，可將 PDF 與圖片轉換為 LLM 可讀的 Markdown 與 JSON 結構化數據，支援 100 種以上語言。PP-OCRv6 以單一模型覆蓋 50 種語言，PaddleOCR-VL-1.6 達 96.3% 準確率。"
 author: AnIskill 編輯部
 creator_github: PaddlePaddle/PaddleOCR
+type: news
+source: GitHub
+source_url: https://github.com/PaddlePaddle/PaddleOCR
 permalink: /技術/github-paddleocr-news-hk
 fb_message: PaddleOCR 是 GitHub 逾 8.7 萬星標的開源 OCR 與文檔解析引擎，由百度 PaddlePaddle 團隊長期維護，可將 PDF 與圖片轉換為大型語言模型可直接使用的 Markdown 與 JSON 結構化數據，支援超過 100 種語言。\n\n最新 PP-OCRv6 以單一模型覆蓋 50 種語言，中型模型僅 3,450 萬參數即超越主流視覺語言模型；PaddleOCR-VL-1.6 在 OmniDocBench 基準取得 96.3% 準確率，並獲 Dify、RAGFlow 等頂級 AI 項目採用。\n\n文章已整理項目的技術亮點、生態定位與快速上手方式，並附完整數據與出處連結。立即前往 Blog 閱讀全文，了解如何以開源方案升級文檔處理流程。
 ---

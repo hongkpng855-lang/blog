@@ -1,0 +1,27 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+{% assign cutoff = site.time | date: "%s" | minus: 172800 %}
+{% assign news_posts = site.posts | sort: 'date' | reverse %}
+{% assign news_count = 0 %}
+{% for post in news_posts %}
+  {% assign post_ts = post.date | date: "%s" %}
+  {% if post_ts >= cutoff and news_count < 1000 %}
+  <url>
+    <loc>{{ post.url | absolute_url }}</loc>
+    <news:news>
+      <news:publication>
+        <news:name>{{ site.title }}</news:name>
+        <news:language>zh-hant</news:language>
+      </news:publication>
+      <news:publication_date>{{ post.date | date_to_xmlschema }}</news:publication_date>
+      <news:title>{{ post.title | xml_escape }}</news:title>
+    </news:news>
+  </url>
+  {% assign news_count = news_count | plus: 1 %}
+  {% endif %}
+{% endfor %}
+</urlset>

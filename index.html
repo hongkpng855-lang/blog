@@ -2,40 +2,58 @@
 layout: default
 ---
 
-<!-- 最新文章 -->
-<section class="posts-section py-5" id="latest-posts">
+<!-- 最新新聞 Feed（unwire 式列表，非 AI 感卡片網格） -->
+<section class="posts-section py-4" id="latest-posts">
   <div class="container">
-    <h1 class="visually-hidden">{{ site.title }} — AI 工具實測與科技知識分享</h1>
+    <h1 class="visually-hidden">{{ site.title }} — AI × 開源 × 科技圈 垂直新聞</h1>
     <div class="row">
       <!-- 主要內容區 -->
       <div class="col-lg-8">
-        <h4 class="section-title mb-4"><svg class="ui-icon ui-icon-sm"><use href="#ui-newspaper"/></svg>最新文章</h4>
+        <div class="news-feed-header d-flex justify-content-between align-items-center mb-3">
+          <h4 class="section-title mb-0">
+            <svg class="ui-icon ui-icon-sm"><use href="#ui-newspaper"/></svg>最新新聞
+          </h4>
+          <span class="news-feed-live small text-muted">
+            <span class="live-dot"></span>每日更新
+          </span>
+        </div>
 
-        <!-- 文章列表 -->
-        <div class="row">
+        <!-- 分類 Filter -->
+        <div class="news-filter mb-3" id="newsFilter">
+          <button class="news-filter-btn active" data-filter="all">全部</button>
+          <button class="news-filter-btn" data-filter="news">新聞</button>
+          <button class="news-filter-btn" data-filter="analysis">分析</button>
+          <button class="news-filter-btn" data-filter="guide">教學</button>
+        </div>
+
+        <!-- 新聞列表 -->
+        <div class="news-list" id="newsList">
           {% for post in paginator.posts %}
-          <div class="col-md-6 mb-4">
-            <article class="post-card h-100">
-              <a href="{{ post.url | relative_url }}" class="post-card-img-wrap">
-                {% if post.image %}
-                <img src="{{ post.image | relative_url }}" class="post-card-img" alt="{{ post.title }}">
+          {% assign post_type = post.type | default: 'guide' %}
+          <article class="news-item" data-type="{{ post_type }}">
+            {% if post.image %}
+            <a href="{{ post.url | relative_url }}" class="news-item-thumb" aria-label="{{ post.title }}">
+              <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
+            </a>
+            {% endif %}
+            <div class="news-item-body">
+              <div class="news-item-meta">
+                {% for category in post.categories limit:2 %}
+                <a class="news-item-cat" href="{{ '/categories/' | append: category | relative_url }}">{{ category }}</a>
+                {% endfor %}
+                {% if post.source %}
+                <span class="news-item-source">來源：<a href="{{ post.source_url }}" target="_blank" rel="noopener nofollow">{{ post.source }}</a></span>
                 {% endif %}
-                <span class="post-card-cat">
-                  {% for category in post.categories limit:1 %}{{ category }}{% endfor %}
-                </span>
-              </a>
-              <div class="post-card-body">
-                <h5 class="post-card-title">
-                  <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-                </h5>
-                <p class="post-card-desc small text-muted">{{ post.description | default: post.excerpt | strip_html | truncatewords: 15 }}</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <small class="text-muted">{{ post.date | date: "%Y-%m-%d" }}</small>
-                  <a href="{{ post.url | relative_url }}" class="btn btn-outline-gold btn-sm">閱讀更多</a>
-                </div>
               </div>
-            </article>
-          </div>
+              <h5 class="news-item-title">
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              </h5>
+              <p class="news-item-desc text-muted">{{ post.description | default: post.excerpt | strip_html | truncate: 110 }}</p>
+              <div class="news-item-time">
+                <time class="time-diff" datetime="{{ post.date | date_to_xmlschema }}" title="{{ post.date | date: '%Y年%m月%d日 %H:%M' }}">{{ post.date | date: "%Y-%m-%d %H:%M" }}</time>
+              </div>
+            </div>
+          </article>
           {% endfor %}
         </div>
 
@@ -117,9 +135,49 @@ layout: default
 <section class="cta-section py-5">
   <div class="container">
     <div class="cta-box text-center">
-      <h3 class="mb-2"> 有新文章，第一時間話你知</h3>
-      <p class="text-white-50 mb-4">訂閱 RSS，唔會錯過任何一篇實測心得。</p>
+      <h3 class="mb-2">有新新聞，第一時間話你知</h3>
+      <p class="text-white-50 mb-4">訂閱 RSS，每日 AI × 開源 × 科技圈頭條送到你手上。</p>
       <a href="{{ '/feed.xml' | relative_url }}" class="btn btn-gold btn-lg">訂閱 RSS</a>
     </div>
   </div>
 </section>
+
+<script>
+// 新聞 feed：分類 filter + 相對時間顯示（unwire 風格）
+document.addEventListener('DOMContentLoaded', function() {
+  // 分類 filter
+  const filterBtns = document.querySelectorAll('#newsFilter .news-filter-btn');
+  const newsItems = document.querySelectorAll('#newsList .news-item');
+  filterBtns.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      const filter = this.dataset.filter;
+      filterBtns.forEach(function(b) { b.classList.remove('active'); });
+      this.classList.add('active');
+      newsItems.forEach(function(item) {
+        if (filter === 'all' || item.dataset.type === filter) {
+          item.style.display = '';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    });
+  });
+
+  // 相對時間（「X 小時前」）
+  const timeEls = document.querySelectorAll('.time-diff');
+  timeEls.forEach(function(el) {
+    const iso = el.getAttribute('datetime');
+    if (!iso) return;
+    const d = new Date(iso);
+    if (isNaN(d.getTime())) return;
+    const diffMin = Math.floor((Date.now() - d.getTime()) / 60000);
+    let label;
+    if (diffMin < 1) label = '剛剛';
+    else if (diffMin < 60) label = diffMin + ' 分鐘前';
+    else if (diffMin < 1440) label = Math.floor(diffMin / 60) + ' 小時前';
+    else if (diffMin < 2880) label = '昨日';
+    else label = el.textContent;
+    el.textContent = label;
+  });
+});
+</script>

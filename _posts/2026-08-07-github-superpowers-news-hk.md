@@ -9,6 +9,9 @@ description: "Superpowers 是 GitHub 星標逾 26.8 萬的開源編程代理技�
 fb_message: 編程代理寫程式常缺乏章法，Superpowers 將軟件工程流程內建為自動觸發技能，代理先釐清需求、拆解任務，再以測試驅動方式交付，令 AI 寫程式有跡可循。\n\n開源框架推出不足一年，GitHub 星標逾 26.8 萬，支援 Claude Code、Cursor、Gemini CLI 等 11 種主流代理，MIT 授權。\n\n技能庫運作邏輯、子代理兩階段審查機制及各代理安裝步驟，已整理成完整新聞分析報告上載 Blog，歡迎前往閱讀全文。
 author: "陳志豪 Eric Chan"
 creator_github: obra/superpowers
+type: news
+source: GitHub
+source_url: https://github.com/obra/superpowers
 permalink: /技術/github-superpowers-news-hk
 ---
 

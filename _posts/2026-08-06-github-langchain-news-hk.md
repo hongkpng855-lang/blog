@@ -9,6 +9,9 @@ description: "LangChain 是 GitHub 星標逾 14.4 萬的開源 AI 開發框架�
 fb_message: AI 應用開發正從單一模型呼叫走向複雜智能體編排，LangChain 以標準化框架將模型、工具與資料來源串接成統一流程，成為開發者建構大型語言模型應用的基礎設施，並持續演化出完整生態系統。\n\n該項目在 GitHub 累積逾 14.4 萬星標與 2.4 萬次 fork，PyPI 下載量達 29 億次，逾 28 萬個專案依賴此框架，近 4,000 名貢獻者參與維護，衍生工具 LangGraph 與 LangSmith 已構成從開發到上線的完整鏈路。\n\nLangChain 的架構設計、市場定位與商業化路徑，是觀察 AI 工程領域的重要切入點。完整新聞分析報告已整理上載 Blog，歡迎前往閱讀全文。
 author: "陳志豪 Eric Chan"
 creator_github: langchain-ai/langchain
+type: news
+source: GitHub
+source_url: https://github.com/langchain-ai/langchain
 ---
 
 # <svg class="ui-icon"><use href="#ui-rocket"/></svg>14.4 萬星開源項目：LangChain — AI 智能體應用的開源工程平台

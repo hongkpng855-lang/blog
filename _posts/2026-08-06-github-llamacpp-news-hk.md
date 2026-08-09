@@ -9,6 +9,9 @@ description: "llama.cpp 是 GitHub 星標逾 12.3 萬的開源 LLM 推理引擎�
 fb_message: llama.cpp 是將大語言模型帶到任何裝置的開源推理引擎，純 C/C++ 撰寫，毋須高階顯示卡也能在一般電腦本地運行 AI 模型，資料全程離線處理，保障私隱，下載即可使用。\n\n項目在 GitHub 累積逾 12.3 萬星標與 2.1 萬次 fork，採用 MIT 授權，支援 1.5-bit 至 8-bit 量化與 CUDA、Metal、Vulkan 等所有主流後端，最新版本 b10297 於 2026 年 8 月釋出。\n\n從安裝方式到技術架構，llama.cpp 如何成為本地 AI 部署的基礎設施？完整亮點分析與市場定位已整理成文，歡迎前往 Blog 閱讀全文。
 author: "陳志豪 Eric Chan"
 creator_github: ggml-org/llama.cpp
+type: news
+source: GitHub
+source_url: https://github.com/ggml-org/llama.cpp
 permalink: /技術/github-llamacpp-news-hk
 ---
 

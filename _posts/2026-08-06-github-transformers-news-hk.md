@@ -9,6 +9,9 @@ description: "Transformers 是 GitHub 星標逾 16.3 萬的開源機器學習框
 fb_message: AI 模型開發如今幾乎離不開一套統一框架，Hugging Face Transformers 正是扮演這個角色的開源項目，以單一 API 串起文字、影像、聲音與多模態模型，成為全球研究界與產業界的共同基礎。\n\n該項目在 GitHub 累積逾 16.3 萬星標與 3.4 萬次 fork，超過 3,900 名貢獻者參與維護，Hugging Face Hub 上逾 100 萬個模型檢查點均可透過此框架直接使用，生態規模在機器學習領域屬頂尖水平。\n\nTransformers 的架構設計、技術亮點與市場影響，是理解現代 AI 基礎設施的重要切入點。完整新聞分析報告已整理上載 Blog，歡迎前往閱讀全文。
 author: "陳志豪 Eric Chan"
 creator_github: huggingface/transformers
+type: news
+source: GitHub
+source_url: https://github.com/huggingface/transformers
 permalink: /技術/github-transformers-news-hk
 ---
 

@@ -9,6 +9,9 @@ description: "MetaGPT 是 GitHub 星標逾 6.97 萬的開源多智能體框架�
 fb_message: 多智能體框架正成為 AI 應用的下一波主流，MetaGPT 以「軟件公司即多智能體系統」為核心，將產品經理、架構師與工程師等角色分派給不同的大語言模型，輸入一行需求即可自動產出需求文件、設計與程式碼，把 AI 協作提升至組織層級。\n\n該項目在 GitHub 累積逾 6.97 萬星標與 8,900 次 fork，採用 MIT 授權，其學術論文獲 ICLR 2025 口頭報告資格，官方並推出 MGX 自然語言編程產品，曾登上 Product Hunt 當日與當週第一。\n\nMetaGPT 的技術架構、角色協作機制與商業化路徑，是觀察多智能體生態的重要案例。完整新聞分析報告已整理上載 Blog，歡迎前往閱讀全文。
 author: "陳志豪 Eric Chan"
 creator_github: FoundationAgents/MetaGPT
+type: news
+source: GitHub
+source_url: https://github.com/FoundationAgents/MetaGPT
 permalink: /技術/github-metagpt-news-hk
 ---
 

@@ -9,6 +9,9 @@ description: "CrewAI 是開源的 Python 多智能體編排框架，GitHub 星�
 fb_message: 多智能體協作正成為 AI 應用的核心趨勢，CrewAI 以開源框架姿態切入，讓開發者以角色分工的 Crews 與事件驅動的 Flows 兩大抽象，快速搭建可上線的智能體工作流，而非停留在原型階段。\n\n項目累積逾 5.7 萬星標與 8,000 次 fork，超過 10 萬名開發者通過官方課程認證，並獲得與 LangChain 生態並列的市場地位，其企業版 AMP Suite 亦已推出。\n\nCrewAI 的架構設計、技術亮點與生態影響，以及與其他智能體框架的差異，完整分析已整理成文，歡迎前往 Blog 閱讀全文。
 author: "陳志豪 Eric Chan"
 creator_github: crewAIInc/crewAI
+type: news
+source: GitHub
+source_url: https://github.com/crewAIInc/crewAI
 ---
 
 # <svg class="ui-icon"><use href="#ui-rocket"/></svg>5.7 萬星開源項目：CrewAI — 生產級多智能體協作框架的開源標竿

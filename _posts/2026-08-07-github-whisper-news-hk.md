@@ -9,6 +9,9 @@ description: "Whisper 是 OpenAI 於 2022 年開源的通用語音識別模型�
 fb_message: 語音轉文字是 AI 應用最普及的場景之一，Whisper 將這項能力開源到人人可用。它由 OpenAI 推出，一套模型同時處理轉錄、翻譯與語言識別，毋須複雜管線即可部署。\n\n項目在 GitHub 累積逾 10.7 萬星標，採 MIT 授權，提供六種模型尺寸，最小 39M 參數即可在一般硬件運行，並以逾 68 萬小時多語言音訊訓練，支援 96 種語言轉錄。\n\n從技術架構到部署方式，Whisper 的完整新聞分析報告已刊載於 Blog，附模型對比與實戰指引，歡迎前往閱讀全文。
 author: "陳志豪 Eric Chan"
 creator_github: openai/whisper
+type: news
+source: GitHub
+source_url: https://github.com/openai/whisper
 permalink: /技術/github-whisper-news-hk
 ---
 

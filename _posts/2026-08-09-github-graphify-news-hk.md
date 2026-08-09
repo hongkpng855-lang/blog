@@ -8,6 +8,9 @@ image: /assets/images/posts/github-graphify-news-hk-shot1.png
 description: "Graphify 是 GitHub 逾 10.4 萬星標的開源項目，以 tree-sitter AST 將程式碼庫、文檔與 PDF 轉化為可查詢的知識圖譜，供 20 多款 AI 助手使用；解析完全在本地完成、無需 LLM 與向量資料庫，每條關聯皆標註來源，30 秒即可安裝，並獲 Y Combinator 支持。"
 author: AnIskill 編輯部
 creator_github: Graphify-Labs/graphify
+type: news
+source: GitHub
+source_url: https://github.com/Graphify-Labs/graphify
 permalink: /技術/github-graphify-news-hk
 fb_message: AI 程式設計助手讀大型專案，最怕逐個檔案翻閱、token 消耗飛快。Graphify 將整個程式碼庫連同文檔與 PDF 一次過轉成知識圖譜，助手直接以問答方式查詢架構，不用再靠 grep 慢慢找。\n\n這個開源項目在 GitHub 獲逾 10.4 萬星標與 1 萬次復刻，程式碼解析完全在本地進行、不需 LLM 成本，每一條關聯都標明來源，30 秒即可安裝，支援 Claude Code、Cursor、Gemini CLI 等 20 多款助手。\n\n想了解 Graphify 的技術原理、基準測試數據與安裝步驟？完整分析已整理成文並附實測截圖，立即前往 Blog 閱讀全文。
 ---

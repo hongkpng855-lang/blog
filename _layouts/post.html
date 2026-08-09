@@ -17,10 +17,11 @@ layout: default
       "headline": {{ page.title | jsonify }},
       "description": {% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 200 | jsonify }}{% else %}{{ page.excerpt | strip_html | strip_newlines | truncate: 200 | jsonify }}{% endif %},
       "datePublished": "{{ page.date | date_to_xmlschema }}",
-      "dateModified": "{{ page.date | date_to_xmlschema }}",
+      "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
       "author": { "@type": "Person", "name": "{{ site.author }}" },
       "publisher": { "@type": "Organization", "name": "{{ site.title }}", "logo": { "@type": "ImageObject", "url": "{{ site.url }}/assets/images/aniskill-icon.svg" } },
       "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ page.url | absolute_url }}" },
+      {% if page.source %} "isBasedOn": { "@type": "Article", "name": {{ page.source | jsonify }}, "url": {{ page.source_url | default: page.source | jsonify }} }, {% endif %}
       "image": {% if page.image %}{{ page.image | absolute_url | jsonify }}{% else %}{{ site.url | append: "/assets/images/character-base.jpg" | jsonify }}{% endif %},
       "inLanguage": "zh-Hant"
     },
@@ -81,10 +82,15 @@ layout: default
             <p class="mb-0 fw-bold">{{ site.author }}</p>
             <p class="mb-0 text-muted small">IT 顧問・實測主義者・試過先講</p>
             <p class="mb-0 text-muted">
-              <svg class="ui-icon ui-icon-sm"><use href="#ui-calendar"/></svg>{{ page.date | date: "%Y年%m月%d日" }}
+              <svg class="ui-icon ui-icon-sm"><use href="#ui-calendar"/></svg>{{ page.date | date: "%Y年%m月%d日 %H:%M" }}
               <span class="mx-2">•</span>
               <svg class="ui-icon ui-icon-sm"><use href="#ui-clock"/></svg>閱讀時間 {{ page.content | number_of_words | divided_by: 200 | plus: 1 }} 分鐘
             </p>
+            {% if page.source %}
+            <p class="mb-0 text-muted">
+              <svg class="ui-icon ui-icon-sm"><use href="#ui-link"/></svg>來源：<a href="{{ page.source_url }}" target="_blank" rel="noopener nofollow" class="text-decoration-none">{{ page.source }}</a>
+            </p>
+            {% endif %}
           </div>
         </div>
 

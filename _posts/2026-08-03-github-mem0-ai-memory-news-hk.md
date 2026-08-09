@@ -9,6 +9,9 @@ description: "GitHub 人氣專案 Mem0 已累積 6.2 萬星標——作為 AI Ag
 fb_message: AI 對話其中一個痛點，是模型每次都要從零開始。Mem0 為 AI Agent 建立長期記憶層，讓模型記住使用者偏好與歷史對話，毋須重複交代背景。\n\n這個開源項目在 GitHub 累積 6.2 萬星標，2026 年 4 月推出的新記憶演算法令準確度大幅提升，是 AI 記憶領域的代表項目。\n\n它的運作原理與適用場景，文章有詳細分析。
 author: "陳志豪 Eric Chan"
 creator_github: mem0ai/mem0
+type: news
+source: GitHub
+source_url: https://github.com/mem0ai/mem0
 ---
 
 # <svg class="ui-icon"><use href="#ui-bulb"/></svg>開源專案 Mem0 獲 6.2 萬星標：為 AI Agent 建立長期記憶層

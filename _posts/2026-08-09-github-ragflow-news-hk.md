@@ -8,6 +8,9 @@ image: /assets/images/posts/github-ragflow-news-hk-shot1.png
 description: "RAGFlow 是 GitHub 逾 8.7 萬星標的開源檢索增強生成（RAG）引擎，由 infiniflow 團隊開發，以深度文檔理解與 Agent 能力建構 LLM 的高保真上下文層，支援多種文件格式、可追溯引用與低幻覺輸出，並獲 GitHub Octoverse 2025 年度頂尖開源項目肯定。"
 author: AnIskill 編輯部
 creator_github: infiniflow/ragflow
+type: news
+source: GitHub
+source_url: https://github.com/infiniflow/ragflow
 permalink: /技術/github-ragflow-news-hk
 fb_message: 企業要將內部文件變成 AI 知識庫，最怕資料切得亂、答得錯。RAGFlow 以深度文檔理解技術自動拆解 PDF、Word 與掃描檔，配合可追溯引用機制，讓 AI 回答有據可查，大幅降低幻覺問題。\n\n這個開源項目在 GitHub 獲逾 8.7 萬星標與 1 萬次復刻，採用 Apache-2.0 授權，支援 DeepSeek、GPT-5、Gemini 等主流模型，並獲選 GitHub Octoverse 2025 年度頂尖開源項目。\n\n無論是建構企業知識庫還是個人 RAG 應用，RAGFlow 都值得一試。完整技術亮點、部署步驟與生態分析已整理成文，立即前往 Blog 閱讀全文。
 ---

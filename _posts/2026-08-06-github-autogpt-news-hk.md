@@ -9,6 +9,9 @@ description: "AutoGPT 是 GitHub 星標逾 18.5 萬的開源 AI Agent 平台，�
 fb_message: AI Agent 正從實驗原型走向實際工作流，AutoGPT 作為 2023 年掀起自主智能體熱潮的開山項目，如今已演化成具備 AutoPilot、Agents、Marketplace 與 Build 四大介面的完整平台，讓使用者以自然語言描述工作，即可生成並執行自動化代理。\n\n項目在 GitHub 累積逾 18.5 萬星標、4.6 萬次 fork 與 834 位貢獻者，支援 45 個以上外部服務及數百個 AI 模型，v0.7.0 測試版剛於 2026 年 8 月發佈，並獲得 Andrej Karpathy 等業界領袖公開背書。\n\n從自主智能體先驅到平台化轉型，AutoGPT 的架構亮點、市場定位與實際使用方式，完整分析已整理成文，歡迎前往 Blog 閱讀全文。
 author: "陳志豪 Eric Chan"
 creator_github: Significant-Gravitas/AutoGPT
+type: news
+source: GitHub
+source_url: https://github.com/Significant-Gravitas/AutoGPT
 ---
 
 # <svg class="ui-icon"><use href="#ui-rocket"/></svg>18.5 萬星開源項目：AutoGPT — 從自主智能體先驅到完整 AI Agent 平台的演化

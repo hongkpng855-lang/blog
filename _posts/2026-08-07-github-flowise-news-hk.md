@@ -9,6 +9,9 @@ description: "Flowise 是 GitHub 星標逾 5.5 萬的開源低代碼 AI 開發�
 fb_message: 開發 AI 應用不再需要從零撰寫複雜程式碼。Flowise 提供拖放式視覺化介面，讓開發者與非技術人員都能透過組合節點，快速搭建 AI 助理、問答機器人與知識庫檢索流程，大幅降低 AI 應用的開發門檻。\n\n此開源項目在 GitHub 已累積逾 5.5 萬星標與 2.4 萬次分叉，以 TypeScript 撰寫並採用 Apache-2.0 授權，內建數百種模型、資料庫與工具整合節點，同時提供雲端版本供團隊直接部署。\n\nFlowise 的技術架構、核心亮點與市場定位已整理成完整新聞分析報告，刊載於 Blog，歡迎前往閱讀全文，了解這款工具如何改變 AI 應用的開發方式。
 author: "陳志豪 Eric Chan"
 creator_github: FlowiseAI/Flowise
+type: news
+source: GitHub
+source_url: https://github.com/FlowiseAI/Flowise
 permalink: /技術/github-flowise-news-hk
 ---
 

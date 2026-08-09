@@ -9,6 +9,9 @@ description: "Google 官方開源項目 Gemini CLI 已累積 10.6 萬星標—�
 fb_message: 將 Gemini 直接搬入終端機：Google 官方開源的 Gemini CLI 以 TypeScript 編寫，把 Gemini 3 模型、百萬級 token 上下文與 MCP 生態帶進命令列環境。\n\n開發者無需開啟瀏覽器，即可在終端機中編寫程式、處理檔案及連接外部工具。GitHub 星標已達 10.6 萬，並提供免費額度供即時體驗。\n\n安裝方法與實際用法，詳見文章。
 author: "陳志豪 Eric Chan"
 creator_github: google-gemini/gemini-cli
+type: news
+source: GitHub
+source_url: https://github.com/google-gemini/gemini-cli
 ---
 
 # <svg class="ui-icon"><use href="#ui-bulb"/></svg>10.6 萬星開源項目：Google Gemini CLI — 將 Gemini 帶入終端機的官方 AI 代理

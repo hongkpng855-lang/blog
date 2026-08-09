@@ -9,6 +9,9 @@ description: "autoresearch 是 Andrej Karpathy 於 2026 年 3 月發佈的開源
 fb_message: AI 不僅能回答問題，如今還能自主進行研究：autoresearch 由 Andrej Karpathy 發佈，讓 AI Agent 在單張 GPU 上自動修改大模型訓練程式、執行五分鐘實驗，並以 val_bpb 指標判斷改進方向。\n\n一晚可自主完成約一百次實驗，把「人類寫程式、AI 輔助」反轉為「人類寫指令、AI 改程式」，是自主 AI 研究的標誌性實驗。GitHub 星標突破 9.3 萬。\n\n運作原理與實際應用，文章有完整拆解。
 author: "陳志豪 Eric Chan"
 creator_github: karpathy/autoresearch
+type: news
+source: GitHub
+source_url: https://github.com/karpathy/autoresearch
 ---
 
 # <svg class="ui-icon"><use href="#ui-bulb"/></svg>9.3 萬星開源項目：autoresearch — AI Agent 自動執行 LLM 訓練實驗的自主研究框架
