@@ -38,11 +38,13 @@ def load_bg(bg):
     return Image.open(path).convert("RGB"), path
 
 
-def draw_center_text(draw, y, text, font, fill, w, letter_spacing=0):
-    """畫置中文字（支援字距）"""
+def draw_center_text(draw, y, text, font, fill, w, letter_spacing=0, shadow=False):
+    """畫置中文字（支援字距 + 陰影）"""
     if letter_spacing == 0:
         bbox = draw.textbbox((0, 0), text, font=font)
         tw = bbox[2] - bbox[0]
+        if shadow:
+            draw.text(((w - tw) / 2 + 3, y + 3), text, font=font, fill=(0, 0, 0, 180))
         draw.text(((w - tw) / 2, y), text, font=font, fill=fill)
         return
     # 字距模式：逐字畫
@@ -56,6 +58,8 @@ def draw_center_text(draw, y, text, font, fill, w, letter_spacing=0):
     total_w -= letter_spacing
     x = (w - total_w) / 2
     for ch, cw in zip(text, char_widths):
+        if shadow:
+            draw.text((x + 3, y + 3), ch, font=font, fill=(0, 0, 0, 180))
         draw.text((x, y), ch, font=font, fill=fill)
         x += cw + letter_spacing
 
@@ -94,28 +98,38 @@ def make_cover(bg, title_zh, title_en, sub, out, watermark=""):
     if sub:
         draw_center_text(draw, sub_y, sub, font_sub, (230, 230, 230), w)
 
-    # 2. 中文標題（副標題之上）
-    zh_y = sub_y - 30 - 52 if sub else h - 60 - 52
-    # 多行處理
-    zh_lines, line = [], ""
-    for ch in title_zh:
-        line += ch
-        if len(line) >= 12:
-            zh_lines.append(line); line = ""
-    if line: zh_lines.append(line)
+    # 2. 中文標題（副標題之上）— 智能斷行：英文單字唔斬
+    def split_zh_keep_words(text, max_chars=12):
+        if "|" in text:
+            return [ln.strip() for ln in text.split("|") if ln.strip()]
+        words = text.split()
+        lines, cur = [], ""
+        for wd in words:
+            if not cur:
+                cur = wd
+            elif len(cur) + 1 + len(wd) <= max_chars:
+                cur += " " + wd
+            else:
+                lines.append(cur)
+                cur = wd
+        if cur:
+            lines.append(cur)
+        return lines
+
+    zh_lines = split_zh_keep_words(title_zh)
     if len(zh_lines) > 1:
         zh_y = sub_y - 30 - 52 * len(zh_lines)
     for i, ln in enumerate(zh_lines):
-        draw_center_text(draw, zh_y + i * 62, ln, font_zh, WHITE, w)
+        draw_center_text(draw, zh_y + i * 62, ln, font_zh, WHITE, w, shadow=True)
 
     # 3. 分隔線（中英之間）
     line_y = zh_y - 22
     draw.line([(w // 2 - 70, line_y), (w // 2 + 70, line_y)], fill=BRAND_COLOR, width=3)
 
-    # 4. 英文標題（最上，金色，字距）
+    # 4. 英文標題（最上，金色，字距 + 陰影）
     en_y = line_y - 40
     if title_en:
-        draw_center_text(draw, en_y, title_en.upper(), font_en, BRAND_COLOR, w, letter_spacing=4)
+        draw_center_text(draw, en_y, title_en.upper(), font_en, BRAND_COLOR, w, letter_spacing=4, shadow=True)
 
     # ===== 水印（右下角）— 預設冇，傳 watermark 先顯示 =====
     if watermark:
