@@ -77,7 +77,7 @@ def save_state(state):
 
 def parse_front_matter(path):
     info = {"title": None, "description": None, "image": None, "categories": None,
-            "creator_github": None, "fb_message": None, "permalink": None}
+            "creator_github": None, "fb_message": None, "permalink": None, "type": None}
     try:
         with open(path, encoding="utf-8") as f:
             content = f.read()
@@ -90,6 +90,7 @@ def parse_front_matter(path):
             cg = re.search(r'^creator_github:\s*["\']?(.+?)["\']?\s*$', fm, re.M)
             fbm = re.search(r'^fb_message:\s*["\']?(.+?)["\']?\s*$', fm, re.M)
             perm = re.search(r'^permalink:\s*["\']?(.+?)["\']?\s*$', fm, re.M)
+            tp = re.search(r'^type:\s*["\']?(.+?)["\']?\s*$', fm, re.M)
             if t: info["title"] = t.group(1).strip().strip('"\'')
             if img: info["image"] = img.group(1).strip().strip('"\'')
             if c:
@@ -99,6 +100,7 @@ def parse_front_matter(path):
             if cg: info["creator_github"] = cg.group(1).strip().strip('"\'')
             if fbm: info["fb_message"] = fbm.group(1).strip().strip('"\'').replace("\\n", "\n")
             if perm: info["permalink"] = perm.group(1).strip().strip('"\'')
+            if tp: info["type"] = tp.group(1).strip().strip('"\'')
         return info
     except Exception:
         return info
@@ -260,7 +262,7 @@ def ig_post_carousel(image_urls, caption):
 
 def main():
     lock_fd = acquire_lock()
-    log("=== Blog → Instagram 自動發文檢查 (v2: 全圖 Carousel + 連結置頂) ===")
+    log("=== Blog → Instagram 自動發文檢查 (v3: GitHub 新聞 + 外媒/AI 新聞 (type: news) + 全圖 Carousel + 連結置頂) ===")
     first_run = not os.path.exists(STATE_FILE)
     state = load_state()
     posted = set(state.get("posted", []))
@@ -288,10 +290,11 @@ def main():
     for post in new_posts:
         info = parse_front_matter(os.path.join(POSTS_DIR, post))
 
-        # 只發 GitHub 新聞（有 creator_github + fb_message）
-        if not info.get("creator_github") or not info.get("fb_message"):
+        # 只發新聞文章（GitHub 新聞有 creator_github，或外媒/AI 新聞有 type: news）+ fb_message
+        is_news = info.get("type") == "news" or bool(info.get("creator_github"))
+        if not is_news or not info.get("fb_message"):
             posted.add(post)
-            log(f"⏭️ 跳過（非 GitHub 新聞或冇 fb_message）：{post}")
+            log(f"⏭️ 跳過（非新聞文章或冇 fb_message）：{post}")
             continue
 
         # ⚠️ 雙保險：即使 state 檔意外被清，都檢查 IG 上有冇相同標題嘅 post（2026-08-08 用戶要求防重複）

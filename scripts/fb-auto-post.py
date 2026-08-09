@@ -70,7 +70,7 @@ def save_state(state):
 
 def parse_front_matter(path):
     """解析 Jekyll front matter，攞 title / description / image / categories / creator_github / fb_message"""
-    info = {"title": None, "description": None, "image": None, "categories": None, "creator_github": None, "fb_message": None, "permalink": None}
+    info = {"title": None, "description": None, "image": None, "categories": None, "creator_github": None, "fb_message": None, "permalink": None, "type": None, "source": None, "source_url": None}
     try:
         with open(path, encoding="utf-8") as f:
             content = f.read()
@@ -84,6 +84,9 @@ def parse_front_matter(path):
             cg = re.search(r'^creator_github:\s*["\']?(.+?)["\']?\s*$', fm, re.M)
             fbm = re.search(r'^fb_message:\s*["\']?(.+?)["\']?\s*$', fm, re.M)
             perm = re.search(r'^permalink:\s*["\']?(.+?)["\']?\s*$', fm, re.M)
+            tp = re.search(r'^type:\s*["\']?(.+?)["\']?\s*$', fm, re.M)
+            src = re.search(r'^source:\s*["\']?(.+?)["\']?\s*$', fm, re.M)
+            srcu = re.search(r'^source_url:\s*["\']?(.+?)["\']?\s*$', fm, re.M)
             if t: info["title"] = t.group(1).strip().strip('"\'')
             if d: info["description"] = d.group(1).strip().strip('"\'')
             if img: info["image"] = img.group(1).strip().strip('"\'')
@@ -96,6 +99,9 @@ def parse_front_matter(path):
             if cg: info["creator_github"] = cg.group(1).strip().strip('"\'')
             if fbm: info["fb_message"] = fbm.group(1).strip().strip('"\'').replace("\\n", "\n")
             if perm: info["permalink"] = perm.group(1).strip().strip('"\'')
+            if tp: info["type"] = tp.group(1).strip().strip('"\'')
+            if src: info["source"] = src.group(1).strip().strip('"\'')
+            if srcu: info["source_url"] = srcu.group(1).strip().strip('"\'')
         return info, content
     except Exception:
         return info, ""
@@ -184,7 +190,7 @@ def fb_post_link(message, link):
 
 def main():
     lock_fd = acquire_lock()
-    log("=== Blog → Facebook 自動發文檢查 (v8: 只發 GitHub 新聞 + fb_message 濃縮版) ===")
+    log("=== Blog → Facebook 自動發文檢查 (v9: GitHub 新聞 + 外媒/AI 新聞 (type: news) + fb_message 濃縮版) ===")
     first_run = not os.path.exists(STATE_FILE)
     state = load_state()
     posted = set(state.get("posted", []))
@@ -215,11 +221,12 @@ def main():
         path = os.path.join(POSTS_DIR, post)
         info, content = parse_front_matter(path)
 
-        # ⚠️ 規則：只發佈 GitHub 新聞（front matter 有 creator_github）
-        # auto-publish 嘅一般文章唔發去 Facebook，但照樣標記為已處理，避免重複檢查
-        if not info["creator_github"]:
+        # ⚠️ 規則：只發佈新聞文章（有 creator_github 嘅 GitHub 新聞，或者 type: news 嘅外媒/AI 新聞）
+        # 一般 auto-publish 教學文（type: guide/analysis）唔發去 Facebook，但照樣標記為已處理，避免重複檢查
+        is_news = (info.get("type") == "news") or bool(info.get("creator_github"))
+        if not is_news:
             posted.add(post)
-            log(f"⏭️ 跳過（非 GitHub 新聞）：{post}")
+            log(f"⏭️ 跳過（非新聞文章）：{post}")
             continue
 
         title = info["title"] or os.path.basename(post)
