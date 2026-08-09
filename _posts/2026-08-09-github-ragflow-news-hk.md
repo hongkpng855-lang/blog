@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "8.7 萬星開源項目：RAGFlow — 企業級開源 RAG 引擎"
-date: 2026-08-09 14:30:00 +0800
+date: 2026-08-09 14:00:00 +0800
 categories: 技術
 tags: [AI, RAG, 開源, LLM, 知識庫, 企業應用, 檢索增強生成]
 image: /assets/images/posts/github-ragflow-news-hk-shot1.png
