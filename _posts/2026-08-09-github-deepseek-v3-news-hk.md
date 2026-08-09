@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "10.4 萬星開源項目：DeepSeek-V3 — 671B 參數 MoE 大模型"
-date: 2026-08-09 12:30:00 +0800
+date: 2026-08-09 09:00:00 +0800
 categories: 技術
 tags: [AI, 開源, 大語言模型, MoE, DeepSeek, 深度學習]
 image: /assets/images/posts/github-deepseek-v3-news-hk-shot1.png
