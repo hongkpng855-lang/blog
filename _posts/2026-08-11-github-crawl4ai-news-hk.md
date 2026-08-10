@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "7.7 萬星開源項目：Crawl4AI 為 LLM 而生的網頁爬蟲"
-date: 2026-08-11 02:45:00 +0800
+date: 2026-08-11 02:40:00 +0800
 categories: 技術
 tags: [AI, 開源, Crawl4AI, Web Crawler, LLM, RAG, 爬蟲, 開發工具]
 image: /assets/images/posts/github-crawl4ai-news-hk-cover.jpg
