@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI 生成 3D 教育筆記頁教學：以 ChatGPT Images 2.0 單一 Prompt 將主題轉化為精美筆記（附實測）"
+title: "AI 生成 3D 教育筆記教學：ChatGPT Images 2.0 實測"
 date: 2026-08-01 17:30:00 +0800
 categories: 技術
 tags: [ChatGPT, AI 繪圖, 3D 筆記, 教育, Prompt, OpenAI, 學習工具, 科技教學, 香港, auto-publish, chatgpt-images]
@@ -9,8 +9,7 @@ description: "近期網絡流傳大量「3D 教育筆記頁」——外觀猶如
 author: "Eric Chan"
 ---
 
-# AI 生成 3D 教育筆記頁教學：以 ChatGPT Images 2.0 單一 Prompt 將主題轉化為精美筆記（附實測）
-
+# AI 生成 3D 教育筆記教學：ChatGPT Images 2.0 實測
 > **是否見過「3D 解剖筆記」？**
 >
 > 人體骨骼、耳朵、胃部等主題，全部以類似醫學生手寫複習筆記（revision notes）的精緻方式呈現，並搭配 3D 模型、手寫標註與彩色間線。許多人以為此類作品出自設計師逐頁繪製，實際上——**由 AI 以單一 Prompt 生成**。

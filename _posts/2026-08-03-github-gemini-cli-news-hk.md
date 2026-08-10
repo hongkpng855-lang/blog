@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "10.6 萬星開源項目：Google Gemini CLI — 將 Gemini 帶入終端機的官方 AI 代理"
+title: "10.6 萬星開源項目：Google Gemini CLI 官方 AI 代理"
 date: 2026-08-03 22:00:00 +0800
 categories: 技術
 tags: [GitHub, 開源, Gemini, Google, AI Agent, CLI, MCP, TypeScript, 科技新聞, 香港, auto-publish, github-news]
@@ -14,7 +14,7 @@ source: GitHub
 source_url: https://github.com/google-gemini/gemini-cli
 ---
 
-# <svg class="ui-icon"><use href="#ui-bulb"/></svg>10.6 萬星開源項目：Google Gemini CLI — 將 Gemini 帶入終端機的官方 AI 代理
+# <svg class="ui-icon"><use href="#ui-bulb"/></svg>10.6 萬星開源項目：Google Gemini CLI 官方 AI 代理
 
 **Gemini CLI 是 Google 官方開源的終端機 AI 代理，以 TypeScript 編寫，GitHub 星標已突破 10.6 萬。** 它將 Gemini 3 模型的完整能力、100 萬 token 上下文視窗與 MCP 生態直接帶入命令列，個人開發者以 Google 帳戶登入即可免費使用，每分鐘 60 次、每日 1,000 次請求額度。本文將檢視其 README 內容，分析此項目備受矚目的原因。
 

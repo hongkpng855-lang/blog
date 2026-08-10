@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "16.4 萬星開源項目：Stable Diffusion Web UI — 本地 AI 繪圖的開源標準介面"
+title: "16.4 萬星開源項目：Stable Diffusion Web UI 本地繪圖介面"
 date: 2026-08-06 16:20:00 +0800
 categories: 技術
 tags: [GitHub, 開源, Stable Diffusion, AUTOMATIC1111, AI 繪圖, 擴散模型, 圖像生成, Gradio, Python, 科技新聞, 香港, auto-publish, github-news]
@@ -15,7 +15,7 @@ source_url: https://github.com/AUTOMATIC1111/stable-diffusion-webui
 permalink: /技術/github-sdwebui-news-hk
 ---
 
-# <svg class="ui-icon"><use href="#ui-paint"/></svg>16.4 萬星開源項目：Stable Diffusion Web UI — 本地 AI 繪圖的開源標準介面
+# <svg class="ui-icon"><use href="#ui-paint"/></svg>16.4 萬星開源項目：Stable Diffusion Web UI 本地繪圖介面
 
 **Stable Diffusion Web UI 是 GitHub 上星標逾 164,000 顆的開源 AI 圖像生成介面，以瀏覽器操作 Stable Diffusion 擴散模型，支援文生圖、圖生圖、局部重繪、超解析度放大與模型微調，採用 AGPL-3.0 授權並以 Python 撰寫。** 此項目由代號 AUTOMATIC1111 的開發者於 2022 年 8 月創立，累積超過 30,500 次 fork 與約 586 名貢獻者，長期以來是本地 AI 繪圖領域的事實標準介面。本文將從官方 README 與社群生態出發，分析其技術架構、功能亮點與市場影響。
 

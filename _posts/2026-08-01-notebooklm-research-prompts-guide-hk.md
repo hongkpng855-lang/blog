@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI 文獻回顧實戰指南：NotebookLM 8 個 Prompt 幫你快速消化成個研究庫"
+title: "AI 文獻回顧指南：NotebookLM 8 個 Prompt 快速消化研究庫"
 date: 2026-08-01 15:00:00 +0800
 categories: 技術
 tags: [NotebookLM, Gemini, AI 研究, 文獻回顧, Prompt, 學術, 人工智能, 科技教學, 香港, auto-publish, notebooklm]
@@ -9,8 +9,7 @@ description: "寫論文、做研究，最頭痕就係文獻回顧：幾十篇 PD
 author: "Sun ny"
 ---
 
-# AI 文獻回顧實戰指南：NotebookLM 8 個 Prompt 幫你快速消化成個研究庫
-
+# AI 文獻回顧指南：NotebookLM 8 個 Prompt 快速消化研究庫
 > **「文獻回顧」四個字，係每個研究人嘅惡夢。**
 >
 > 幾十篇 PDF 下載咗、分類咗、然後…就冇然後。睇完 Abstract 已經攰，邊有心機逐篇逐篇做筆記？

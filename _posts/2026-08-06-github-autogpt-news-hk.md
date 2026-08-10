@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "18.5 萬星開源項目：AutoGPT — 從自主智能體先驅到完整 AI Agent 平台的演化"
+title: "18.5 萬星開源項目：AutoGPT 自主智能體平台"
 date: 2026-08-06 01:30:00 +0800
 categories: 技術
 tags: [GitHub, 開源, AutoGPT, Significant-Gravitas, AI Agent, 自主智能體, 自動化, 工作流, LLM, Python, 科技新聞, 香港, auto-publish, github-news]
@@ -14,7 +14,7 @@ source: GitHub
 source_url: https://github.com/Significant-Gravitas/AutoGPT
 ---
 
-# <svg class="ui-icon"><use href="#ui-rocket"/></svg>18.5 萬星開源項目：AutoGPT — 從自主智能體先驅到完整 AI Agent 平台的演化
+# <svg class="ui-icon"><use href="#ui-rocket"/></svg>18.5 萬星開源項目：AutoGPT 自主智能體平台
 
 **AutoGPT 是 GitHub 上星標逾 185,000 顆的開源 AI Agent 平台，由 2023 年的自主智能體先驅演化為結合 AutoPilot、Agents、Marketplace 與 Build 四大介面的完整工作流平台，支援 45 個以上外部服務與數百個 AI 模型，並於 2026 年 8 月推出 v0.7.0 測試版。** 此項目由 Significant-Gravitas 團隊維護，累積 46,000 次以上 fork、834 位貢獻者與 115 個版本釋出，被 Andrej Karpathy 形容為「提示工程的下一前沿」。本文將從官方 README 與平台文件出發，分析 AutoGPT 的技術架構、市場定位與商業化路徑。
 

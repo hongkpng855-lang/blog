@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "9.3 萬星開源項目：autoresearch — AI Agent 自動執行 LLM 訓練實驗的自主研究框架"
+title: "9.3 萬星開源項目：autoresearch 自主 LLM 實驗框架"
 date: 2026-08-05 03:30:00 +0800
 categories: 技術
 tags: [GitHub, 開源, autoresearch, Andrej Karpathy, AI Agent, 大模型訓練, 自動化研究, nanochat, Python, 科技新聞, 香港, auto-publish, github-news]
@@ -14,7 +14,7 @@ source: GitHub
 source_url: https://github.com/karpathy/autoresearch
 ---
 
-# <svg class="ui-icon"><use href="#ui-bulb"/></svg>9.3 萬星開源項目：autoresearch — AI Agent 自動執行 LLM 訓練實驗的自主研究框架
+# <svg class="ui-icon"><use href="#ui-bulb"/></svg>9.3 萬星開源項目：autoresearch 自主 LLM 實驗框架
 
 **autoresearch 是 Andrej Karpathy 於 2026 年 3 月發佈的開源項目，GitHub 星標已達 9.3 萬，讓 AI Agent 在單張 NVIDIA GPU 上自動修改大模型訓練程式、執行五分鐘實驗並以 val_bpb 指標判斷改進，一晚可自主完成約一百次實驗。** 此項目將傳統「人類寫程式、AI 輔助」的研究流程反轉為「人類寫指令、AI 改程式」，是自主 AI 研究路線的標誌性實驗，一經推出便吸引大量開發者與研究社群關注。本文將檢視其 README 內容，分析此項目的技術設計、生態影響與使用門檻。
 

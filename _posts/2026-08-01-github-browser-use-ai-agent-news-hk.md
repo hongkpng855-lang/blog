@@ -14,7 +14,7 @@ source_url: https://github.com/browser-use/browser-use
 author: "陳志豪 Eric Chan"
 ---
 
-# <svg class="ui-icon"><use href="#ui-rocket"/></svg>10.7 萬星開源項目：browser-use 讓 AI 自主上網執行任務
+# <svg class="ui-icon"><use href="#ui-rocket"/></svg>10.7 萬星開源項目 browser-use：讓 AI 自主操作瀏覽器的創新工具
 
 > **GitHub 當前最受矚目的開源項目，既非框架、亦非模型——而是一個教導 AI「自主上網」的工具。**
 

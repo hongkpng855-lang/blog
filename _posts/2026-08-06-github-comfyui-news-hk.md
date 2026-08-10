@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "12.4 萬星開源項目：ComfyUI — 以節點圖介面驅動的模組化 AI 內容生成引擎"
+title: "12.4 萬星開源項目：ComfyUI 節點圖 AI 生成引擎"
 date: 2026-08-06 08:30:00 +0800
 categories: 技術
 tags: [GitHub, 開源, ComfyUI, 節點圖, 生成式 AI, Stable Diffusion, Flux, 圖像生成, 影片生成, Python, 科技新聞, 香港, auto-publish, github-news]
@@ -14,7 +14,7 @@ source: GitHub
 source_url: https://github.com/Comfy-Org/ComfyUI
 ---
 
-# <svg class="ui-icon"><use href="#ui-cube"/></svg>12.4 萬星開源項目：ComfyUI — 以節點圖介面驅動的模組化 AI 內容生成引擎
+# <svg class="ui-icon"><use href="#ui-cube"/></svg>12.4 萬星開源項目：ComfyUI 節點圖 AI 生成引擎
 
 **ComfyUI 是 GitHub 上星標逾 123,000 顆的開源 AI 內容生成引擎，以節點圖介面讓使用者以視覺化方式建構圖像、影片、3D 模型與音訊的生成工作流，原生支援 Stable Diffusion、Flux、Hunyuan 等最新開源模型，並採用 GPL-3.0 授權釋出。** 此項目由 comfyanonymous 於 2023 年 1 月創立，現由 Comfy Org 團隊維護，以 Python 撰寫，累積超過 14,600 次 fork，官方網站為 comfy.org。本文將從官方 README 與文件出發，分析 ComfyUI 的技術架構、模型生態與商業化路徑。
 

@@ -5,7 +5,7 @@ date: 2026-08-02 00:30:00 +0800
 categories: 學習
 tags: [線上課程, 買課成癮, 知識付費, 課程完成率, 自學, 學習方法, Hahow, Udemy, Coursera, 衝動消費, 香港, auto-publish, course-completion]
 image: /assets/images/posts/2026-08-02-course-buying-addiction-guide-cover.jpg
-description: "香港人平均購買多少堂線上課程，才會完成一堂？研究顯示全球課程完成率僅為 5-15%。本文剖析買課成癮的心理機制，提供購買前五條問題以遏止衝動消費，並以完成優先系統、AI 學習夥伴與三十日挑戰，協助讀者真正掌握一項技能，告別無效囤課。"
+description: "香港人平均購買多少堂線上課程，才會完成一堂？研究顯示全球課程完成率僅為 5-15%。本文剖析買課成癮的心理機制，提供購買前五條問題以遏止衝動消費，並以完成優先系統、AI 學習夥伴與三十日挑戰，協助讀者真正掌握一項技能，告別無效囤課與學習焦慮。"
 author: "Sun ny"
 ---
 
