@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "6.4 萬星開源項目：OpenSpec — AI 編程的規範驅動開發框架"
-date: 2026-08-11 06:50:00 +0800
+date: 2026-08-11 06:30:00 +0800
 categories: 技術
 tags: [AI, 開源, OpenSpec, Spec-Driven Development, AI 編程, 開發工具, SDD, Claude Code]
 image: /assets/images/posts/github-openspec-news-hk-cover.jpg
