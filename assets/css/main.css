@@ -497,13 +497,13 @@ a:hover { color: var(--amber-light); }
 }
 
 @media (max-width: 575.98px) {
-  /* 手機版：封面打直顯示（上圖下文，全寬），完整顯示封面文字唔 crop */
+  /* 手機版：左圖右文 + 細縮圖（原比例完整顯示，唔 crop 唔切字） */
   .news-item {
-    flex-direction: column;
-    gap: 0.6rem;
+    flex-direction: row;
+    gap: 0.75rem;
   }
   .news-item-thumb {
-    width: 100%;
+    width: 150px;
     height: auto;
     border: none;
     border-radius: 10px;
@@ -514,8 +514,8 @@ a:hover { color: var(--amber-light); }
     height: auto;
     object-fit: contain;
   }
-  .news-item-title { font-size: 1.02rem; }
-  .news-item-desc { -webkit-line-clamp: 2; font-size: 0.84rem; }
+  .news-item-title { font-size: 0.95rem; }
+  .news-item-desc { -webkit-line-clamp: 2; font-size: 0.82rem; }
 }
 
 /* sidebar 最新新聞 widget */
