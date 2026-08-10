@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Meta 開源 Muse Glimmer：30B 模型本地跑 AI Agent"
-date: 2026-08-11 05:00:00 +0800
+date: 2026-08-11 01:30:00 +0800
 categories: 技術
 tags: [AI, Meta, 開源, Agent, 本地部署, Muse Glimmer, 大模型]
 image: /assets/images/posts/news-meta-glimmer-agent-hk-cover.jpg
