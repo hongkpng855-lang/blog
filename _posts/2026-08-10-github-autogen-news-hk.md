@@ -23,9 +23,17 @@ AutoGen 是 Microsoft 推出的開源多智能體 AI 框架，目前擁有 60,34
 
 ## AutoGen 是什麼？
 
+<!-- AEO Answer Capsule — 約 65 字 -->
+AutoGen 是 Microsoft Research 於 2023 年推出的開源多智能體框架，讓開發者以對話式編排多個 AI 代理協作完成複雜任務，累積逾 6 萬星標，是生成式 AI 應用開發的重要基礎設施之一。
+
+
 AutoGen 是 Microsoft Research 開發的程式設計框架，用於建立可自主運作或與人類協作的多智能體 AI 應用。該項目於 2023 年 8 月 18 日在 GitHub 公開，以 Python 為主要語言（佔比 61.7%），輔以 C#（25.1%）支援跨語言開發，並採用 Creative Commons Attribution 4.0 授權文件與 MIT 授權代碼的雙軌授權模式。AutoGen 的核心價值在於讓開發者透過簡潔 API 組合多個 AI 智能體，讓不同角色（如研究員、程式設計師、分析師）互相協作解決複雜任務，其設計理念成為後續大量多智能體框架的參考藍本。
 
 ## AutoGen 有哪些核心技術亮點？
+
+<!-- AEO Answer Capsule — 約 70 字 -->
+AutoGen 的核心技術包括 AgentChat 高階對話 API、多代理自主協作模式、人機協同工作流，以及支援工具調用與程式碼執行的擴充架構，大幅降低多智能體應用的開發門檻。
+
 
 AutoGen 採用分層且可擴展的架構設計，主要分為三個層級。Core API 負責訊息傳遞、事件驅動智能體與本地及分散式執行環境，同時支援 .NET 與 Python 跨語言；AgentChat API 提供更簡潔且明確的程式設計介面，適合快速原型開發，支援雙智能體對話、群組對話等常見多智能體模式；Extensions API 則容許第一方與第三方擴展持續豐富框架能力，包括 OpenAI、AzureOpenAI 等大型語言模型客戶端與程式碼執行功能。在此基礎上，AutoGen 生態還包含兩個開發者工具：AutoGen Studio 提供無程式碼圖形介面，讓使用者快速建構多智能體工作流程；AutoGen Bench 則提供智能體性能基準測試套件。其中以 AgentChat 打造的 Magentic-One 多智能體團隊，可處理需要網頁瀏覽、程式碼執行與檔案處理的複雜任務，展現框架的實際能力上限。
 
