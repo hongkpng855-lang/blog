@@ -492,11 +492,11 @@ a:hover { color: var(--amber-light); }
 }
 
 @media (max-width: 767.98px) {
-  .news-item-thumb { width: 200px; height: 120px; }
+  .news-item-thumb { width: 220px; height: 132px; }
 }
 
 @media (max-width: 575.98px) {
-  .news-item-thumb { width: 170px; height: 102px; }
+  .news-item-thumb { width: 200px; height: 120px; }
   .news-item-title { font-size: 0.95rem; }
   .news-item-desc { -webkit-line-clamp: 2; font-size: 0.82rem; }
 }
