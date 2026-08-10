@@ -5,7 +5,7 @@ date: 2026-06-11 05:47:00 +0800
 categories: [tech]
 tags: [AI搜尋引擎, Perplexity, ChatGPT Search, Google AI Overviews, 搜尋技巧, AI工具, 生產力, 資訊檢索, 2026科技]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-11-ai-search-engine-guide-cover.svg
+image: assets/images/posts/2026-06-11-ai-search-engine-guide-cover.jpg
 description: "2026 年 AI 搜尋引擎徹底改變咗我哋搵資訊嘅方式。由 Perplexity 到 ChatGPT Search，再到 Google AI Overviews，呢篇指南幫你由零開始掌握 AI Search，搵資料快 10 倍，仲準確過傳統 Google 搜尋。"
 ---
 

@@ -5,7 +5,7 @@ date: 2026-06-07 22:13:00 +0800
 categories: [learning]
 tags: [高效學習, 費曼技巧, 間隔重複, 主動回想, 番茄工作法, 學習方法]
 author: Sun ny
-image: /assets/images/posts/2026-06-07-science-based-learning-methods-guide-cover.svg
+image: assets/images/posts/2026-06-07-science-based-learning-methods-guide-cover.jpg
 description: "告別讀完就忘的惡夢！本篇整合5個經過認知科學實證的高效學習法：費曼技巧、間隔重複、主動回想、番茄工作法與交錯練習，教你如何聰明學習而非死讀書。"
 ---
 

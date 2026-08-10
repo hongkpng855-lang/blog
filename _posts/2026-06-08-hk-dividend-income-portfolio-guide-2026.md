@@ -5,7 +5,7 @@ date: 2026-06-08 04:30:00 +0800
 categories: [investment]
 tags: [收息股, 股息, 被動收入, 港股投資, 投資組合, 現金流, 股息再投資, 退休規劃, 2026]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-08-dividend-income-portfolio-guide-cover.svg
+image: assets/images/posts/2026-06-08-dividend-income-portfolio-guide-cover.jpg
 description: "想靠收息建立被動收入？呢篇指南由零開始教你揀收息股、建立月月有息收嘅組合、股息再投資放大回報，仲有3個實戰組合模板俾你參考。唔需要係大戶，幾萬蚊本錢已經可以開始。"
 ---
 

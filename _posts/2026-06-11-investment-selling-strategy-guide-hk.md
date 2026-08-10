@@ -5,7 +5,7 @@ date: 2026-06-11 04:45:00 +0800
 categories: [investment]
 tags: [賣出策略, 止蝕, 獲利了結, 投資組合管理, 風險管理, 再平衡, 投資心理學, 被動投資, 主動投資, 香港投資者]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-11-investment-selling-strategy-cover.svg
+image: assets/images/posts/2026-06-11-investment-selling-strategy-cover.jpg
 description: "「識買係徒弟，識賣係師父」——賣出比買入難 10 倍。呢篇文幫你建立完整嘅賣出決策系統：止蝕點 set、獲利幾時走、再平衡點做、點樣克服「賣咗就升」嘅心理陷阱。附送實戰 checklist 同決策樹。"
 ---
 

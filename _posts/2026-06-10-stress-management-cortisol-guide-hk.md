@@ -5,7 +5,7 @@ date: 2026-06-10 04:25:00 +0800
 categories: [health]
 tags: [壓力管理, 皮質醇, 減壓, 精神健康, 身心平衡, 焦慮, 香港生活, 自我照顧]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-10-stress-management-cortisol-guide-cover.svg
+image: assets/images/posts/2026-06-10-stress-management-cortisol-guide-cover.jpg
 description: "香港人壓力爆煲係常態？皮質醇長期過高會影響睡眠、體重、免疫系統。呢篇文由壓力科學原理講起，提供飲食、運動、呼吸、生活設計 4 大實戰策略，幫你返到平衡狀態。附送 7 日減壓計劃同緊急 Chill 爆技巧。"
 ---
 

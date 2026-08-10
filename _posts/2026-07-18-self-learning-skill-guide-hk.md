@@ -4,7 +4,7 @@ title: "2026 自學新技能實戰指南：由零基礎到專業級嘅 4 步學�
 date: 2026-07-18 01:00:00 +0800
 categories: 學習
 tags: [學習, 自學, ai學習, 技能提升, 知識管理, 終身學習, 效率學習, auto-publish]
-image: /assets/images/posts/2026-07-18-self-learning-skill-guide-cover.svg
+image: assets/images/posts/2026-07-18-self-learning-skill-guide-cover.jpg
 description: "2026 年 AI 時代自學新技能完整指南：由選科、規劃、執行到技能變現嘅 4 步學習系統。本文涵蓋 AI 輔助學習法、時間管理技巧、常見自學陷阱，幫助香港人用最短時間掌握任何新技能。"
 author: "Sun ny"
 ---

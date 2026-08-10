@@ -4,7 +4,7 @@ title: "2026 AI 音樂生成創作實戰指南：用 Suno、Udio 同 AI 由零�
 date: 2026-06-17 01:00:00 +0800
 categories: [tech]
 tags: [AI音樂, Suno, Udio, AI創作, 音樂生成, 人工智能, 科技教學, 香港]
-image: /assets/images/posts/2026-06-17-ai-music-cover.svg
+image: assets/images/posts/2026-06-17-ai-music-cover.jpg
 description: "2026 年 AI 音樂生成工具 Suno V4、Udio 全面進化！唔識樂器、唔識作曲都一樣可以用 AI 整到專業水準嘅歌曲。呢篇實戰指南由零開始教香港人點樣用 AI 創作音樂，由寫 Prompt 到輸出成品，仲有商用版權 FAQ。"
 ---
 

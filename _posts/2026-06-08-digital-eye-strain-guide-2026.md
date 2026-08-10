@@ -5,7 +5,7 @@ date: 2026-06-08 10:30:00 +0800
 categories: [health]
 tags: [眼睛健康, 數碼眼睛疲勞, 藍光, 乾眼症, 護眼, 20-20-20法則, 健康生活, 2026, 辦公室健康, 屏幕護眼]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-08-digital-eye-strain-guide-cover.svg
+image: assets/images/posts/2026-06-08-digital-eye-strain-guide-cover.jpg
 description: "每日對住電腦手機8小時以上？呢篇整合最新眼科研究，由數碼眼睛疲勞（DES）嘅成因、藍光真相、乾眼症預防到實戰護眼系統，仲有香港驗眼資源同飲食攻略，等你喺屏幕時代保住對眼。"
 ---
 

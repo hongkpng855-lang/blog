@@ -4,7 +4,7 @@ title: "2026「第二大腦」數位筆記系統實戰指南：用 Obsidian 同 
 date: 2026-07-23 01:00:00 +0800
 categories: 學習
 tags: [學習, 第二大腦, 知識管理, Obsidian, Notion, 生產力, 個人成長, auto-publish, digital-notes, pkm]
-image: /assets/images/posts/2026-07-23-second-brain-cover.svg
+image: assets/images/posts/2026-07-23-second-brain-cover.jpg
 description: "資訊爆炸嘅年代，識得管理知識比識得吸收知識更重要。本文從第二大腦概念出發，教你用 Obsidian 同 Notion 建立一套屬於自己嘅知識管理系統（PKM），由零開始搭建、實戰 workflow、到長期維護，幫你將碎片資訊轉化為真正嘅知識資產。"
 author: "Sun ny"
 ---

@@ -5,7 +5,7 @@ date: 2026-06-07 19:56:00 +0800
 categories: [health]
 tags: [呼吸法, 冥想, 焦慮管理, 睡眠品質, 運動表現, 自律神經, 身心靈, 2026]
 author: GovFlow
-image: /assets/images/posts/2026-06-07-breath-science-guide-cover.svg
+image: assets/images/posts/2026-06-07-breath-science-guide-cover.jpg
 description: "每日呼吸兩萬次，但你識唔識正確呼吸？本文由曾經嚴重焦慮、驚恐發作嘅過來人分享：用呼吸科學 reset 自律神經系統、改善睡眠、提升運動表現。唔使冥想 app、唔使學費，只要你識抖氣。"
 ---
 

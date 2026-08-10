@@ -5,7 +5,7 @@ date: 2026-06-10 05:08:00 +0800
 categories: [tech]
 tags: [網絡安全, 數據私隱, VPN, 密碼管理, 防詐騙, 數據備份, 2FA, 數碼防護, 香港, 2026]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-10-digital-privacy-security-guide-cover.svg
+image: assets/images/posts/2026-06-10-digital-privacy-security-guide-cover.jpg
 description: "2026 年全球網絡攻擊增長 37%，香港每人每日收到 3.2 條釣魚訊息。呢篇指南由零開始幫你建立完整嘅數碼防護系統——密碼管理、雙重驗證、VPN 選擇、數據備份、詐騙識別，附實戰 checklist 同香港專用資源。"
 ---
 

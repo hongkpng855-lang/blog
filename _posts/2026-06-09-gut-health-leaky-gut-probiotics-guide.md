@@ -5,7 +5,7 @@ date: 2026-06-09 22:36:00 +0800
 categories: [health]
 tags: [腸道健康, 腸漏症, 益生菌, 腹脹, 便秘, 消化健康, 食物不耐受, 香港健康]
 author: "Nutri ny"
-image: /assets/images/posts/2026-06-09-gut-health-guide-cover.svg
+image: assets/images/posts/2026-06-09-gut-health-guide-cover.jpg
 description: "腸胃脹氣、慢性便秘、生熟食物不耐受、皮膚敏感——呢啲可能唔係獨立問題，而係腸道屏障受損嘅信號！由腸漏症機制、益生菌點揀、發酵食物到低FODMAP飲食，整合胃腸科醫生同營養師嘅實證建議，俾你一套完整嘅腸道修復攻略。"
 ---
 

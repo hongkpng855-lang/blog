@@ -5,7 +5,7 @@ date: 2026-06-10 02:04:00 +0800
 categories: [investment]
 tags: [風險管理, 投資組合, 分散風險, 對沖, 資產配置, 避險, 波動率, 最大回撤, 投資策略, 香港投資者, 2026]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-10-portfolio-risk-management-cover.svg
+image: assets/images/posts/2026-06-10-portfolio-risk-management-cover.jpg
 description: "回報係你嘅目標，風險管理係你嘅底線。呢篇指南由零開始教你認識投資風險、衡量風險、用分散同對沖保護組合，附3個實戰風險管理框架，幫你喺2026年嘅波動市撐得更穩。"
 ---
 

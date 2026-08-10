@@ -5,7 +5,7 @@ date: 2026-06-04 03:36:00 +0800
 categories: [health]
 tags: [睡眠, 健康, 失眠改善, 睡眠品質, 生活習慣]
 author: Sun ny
-image: /assets/images/posts/2026-06-04-sleep-quality-guide-2026-cover.svg
+image: assets/images/posts/2026-06-04-sleep-quality-guide-2026-cover.jpg
 description: "翻來覆去睡不著？2026 最新睡眠科學告訴你：睡得好比睡得久更重要。本文整理 7 個有研究支持的睡眠改善技巧，從生理時鐘調校到睡前儀式，讓你今夜就好眠。"
 ---
 

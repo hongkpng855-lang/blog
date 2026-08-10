@@ -5,7 +5,7 @@ date: 2026-06-08 18:36:00 +0800
 categories: [investment]
 tags: [存款, 定期存款, 活期存款, 高息, 銀行, 港元, 美元, 貨幣基金, 被動收入, 現金管理, 香港銀行, 理財]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-08-hk-bank-deposit-guide-cover.svg
+image: assets/images/posts/2026-06-08-hk-bank-deposit-guide-cover.jpg
 description: "2026 年定存息口仲有幾多？活期存款點樣先有高息？貨幣基金 vs 定期存款 vs 高息活期邊個好？呢篇指南幫你比較香港各大銀行嘅存款產品，教你喺加息尾聲做好現金管理，唔好俾通脹食咗你嘅購買力。"
 ---
 

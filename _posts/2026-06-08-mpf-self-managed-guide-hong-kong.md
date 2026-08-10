@@ -5,7 +5,7 @@ date: 2026-06-08 13:54:00 +0800
 categories: [investment]
 tags: [強積金, MPF, 退休規劃, 基金投資, 被動收入, 投資組合, 香港, 退休金, 基金配置, 整合帳戶, 2026]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-08-mpf-self-managed-guide-cover.svg
+image: assets/images/posts/2026-06-08-mpf-self-managed-guide-cover.jpg
 description: "強積金係香港打工仔最大筆被動投資，但大部分人都放喺預設基金由得佢自生自滅。呢篇文由整合帳戶開始，教你點樣選擇低收費基金、按年齡做資產配置、每年檢討組合，呃返自己應有嘅回報。"
 ---
 

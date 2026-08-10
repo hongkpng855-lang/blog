@@ -5,7 +5,7 @@ date: 2026-06-09 07:55:00 +0800
 categories: [learning]
 tags: [語言學習, AI輔助學習, 英文學習, ChatGPT學英文, 語言習得, 沉浸式學習, 自學方法, 2026]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-09-ai-language-learning-revolution-guide-cover.svg
+image: assets/images/posts/2026-06-09-ai-language-learning-revolution-guide-cover.jpg
 description: "學咗十幾年英文都唔敢開口？2026 年 AI 徹底改變咗語言學習嘅玩法。呢篇整合語言習得研究、AI 工具實戰同親身經驗，由發音調校、文法理解到口語對練，教你用 ChatGPT、Claude 同 NotebookLM 建立個人化語言環境，一年內達到流利溝通。"
 ---
 

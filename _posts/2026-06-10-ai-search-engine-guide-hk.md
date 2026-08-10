@@ -5,7 +5,7 @@ date: 2026-06-10 16:53:00 +0800
 categories: [tech]
 tags: [AI搜尋, Perplexity, NotebookLM, Google AI Overview, ChatGPT Search, AI工具, 資訊整理, 香港, 2026]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-10-ai-search-engine-guide-cover.svg
+image: assets/images/posts/2026-06-10-ai-search-engine-guide-cover.jpg
 description: "2026 年 AI 搜尋引擎已經成熟到可以取代傳統 Google 搜尋。由 Perplexity、Google AI Overview、ChatGPT Search 到 NotebookLM，呢篇指南幫你揀啱工具、用得啱方法，大幅提升搵資訊嘅效率。"
 ---
 

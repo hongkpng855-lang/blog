@@ -5,7 +5,7 @@ date: 2026-06-11 21:55:00 +0800
 categories: [learning]
 tags: [資訊焦慮, 知識過載, FOMO, 學習系統, 知識管理, 專注力, 資訊斷捨離, 數位極簡, 香港生活]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-11-information-anxiety-cover.svg
+image: assets/images/posts/2026-06-11-information-anxiety-cover.jpg
 description: "書籤幾百篇未睇、課程買咗未上、每日被資訊轟炸覺得自己永遠學唔完？呢篇文章幫你由知識過載嘅焦慮中解放，建立一套真正可持續嘅有限學習系統。由資訊飲食法、學習佇列管理、到知識閉環機制，等你唔再追趕資訊，而係令資訊為你服務。"
 ---
 

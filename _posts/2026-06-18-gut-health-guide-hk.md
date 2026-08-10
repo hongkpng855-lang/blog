@@ -4,7 +4,7 @@ title: "2026 香港人腸道健康實戰指南：腸漏症、腸腦軸、微生�
 date: 2026-06-18 01:00:00 +0800
 categories: [health]
 tags: [腸道健康, 腸漏症, 腸腦軸, 益生菌, 腸道微生物, SIBO, 腸胃炎, 消化不良, 香港人健康, 2026]
-image: /assets/images/posts/2026-06-18-gut-health-cover.svg
+image: assets/images/posts/2026-06-18-gut-health-cover.jpg
 description: "腸胃脹氣、便秘腹瀉輪流嚟、食完嘢成日頂住唔舒服、皮膚敏感暗瘡不斷？你可能唔係「腸胃差」，而係腸道生態失衡——腸漏症、SIBO、腸腦軸失調。呢篇文由腸道科學出發，用最實戰嘅方法幫你修復腸道，改善消化、情緒、皮膚同免疫力。"
 ---
 

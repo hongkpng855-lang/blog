@@ -5,7 +5,7 @@ date: 2026-06-09 13:30:00 +0800
 categories: [investment]
 tags: [債券投資, 減息週期, 收息組合, 投資入門, 債券ETF, 美國國債, 企業債, 派息, 資產配置, 2026投資]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-09-bond-investing-rate-cut-guide-cover.svg
+image: assets/images/posts/2026-06-09-bond-investing-rate-cut-guide-cover.jpg
 description: "聯儲局下半年準備減息，債券價格見底回升。呢篇文由零開始教你債券投資基礎，比較美國國債、投資級企業債、高收益債券同香港市場嘅債券產品，附送實戰組合模板，適合想喺減息週期建立穩健收息系統嘅香港投資者。"
 ---
 

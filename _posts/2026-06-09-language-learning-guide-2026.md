@@ -5,7 +5,7 @@ date: 2026-06-09 18:01:00 +0800
 categories: [learning]
 tags: [語言學習, 外語, 英文, 學習方法, 記憶技巧, 聽力訓練, 口說, 詞彙, 文法, 自學]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-09-language-learning-guide-cover.svg
+image: assets/images/posts/2026-06-09-language-learning-guide-cover.jpg
 description: "學語言唔使天分，要方法。呢篇文整合科學實證嘅語言學習系統，由發音到流利對話，一步步幫你由零開始掌握任何語言。附工具推薦、6 個月 roadmap 同常見迷思破解。"
 ---
 

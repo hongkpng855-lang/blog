@@ -5,7 +5,7 @@ date: 2026-06-11 15:17:00 +0800
 categories: [investment]
 tags: [新股認購, IPO, 抽新股, 香港股市, 孖展, 招股, 投資策略, 現金認購, 暗盤, 香港生活]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-11-ipo-subscription-guide-cover.svg
+image: assets/images/posts/2026-06-11-ipo-subscription-guide-cover.jpg
 description: "香港IPO市場全球數一數二，但9成散戶抽新股都係靠運氣——亂抽、抽中唔識賣、孖展借到盡結果潛水。呢篇文章由招股書閱讀、現金vs孖展策略、暗盤操作到賣出時機，整合一套完整嘅IPO實戰系統，等你唔使靠彩數都可以提高回報。"
 ---
 

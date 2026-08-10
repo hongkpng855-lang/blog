@@ -5,7 +5,7 @@ date: 2026-06-07 16:50:00 +0800
 categories: [life]
 tags: [生活, Sunday Reset, 時間管理, 習慣養成, 生產力, 自我照顧, 週日規劃, 2026]
 author: Sun ny
-image: /assets/images/posts/2026-06-07-sunday-reset-guide-cover.svg
+image: assets/images/posts/2026-06-07-sunday-reset-guide-cover.jpg
 description: "每到星期日夜晚就開始焦慮聽日返工？Sunday Scaries 唔係得你先有。呢篇文章分享一套實測有效嘅 2 小時 Sunday Reset 流程，幫你由內到外準備好新一周。"
 ---
 

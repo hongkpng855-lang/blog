@@ -5,7 +5,7 @@ date: 2026-06-09 11:27:00 +0800
 categories: [life]
 tags: [運動習慣, 健身入門, 居家運動, 跑步, 持續鍛煉, 運動心理學, 生活改造, 香港生活]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-09-exercise-habit-building-guide-cover.svg
+image: assets/images/posts/2026-06-09-exercise-habit-building-guide-cover.jpg
 description: "由完全唔運動到每星期郁三日其實唔難。呢篇文整合運動科學、習慣心理學同香港實際環境，教你點樣由零開始建立可持續嘅運動習慣，唔使去 gym、唔使買裝備、唔需要意志力爆棚。"
 ---
 

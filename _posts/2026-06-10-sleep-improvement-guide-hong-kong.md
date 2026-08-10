@@ -5,7 +5,7 @@ date: 2026-06-10 01:04:00 +0800
 categories: [生活]
 tags: [睡眠, 健康生活, 失眠, 改善睡眠, 睡眠衛生, 生理時鐘, 褪黑激素, 冥想, 壓力管理, 自我提升]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-10-sleep-improvement-guide-cover.svg
+image: assets/images/posts/2026-06-10-sleep-improvement-guide-cover.jpg
 description: "香港人平均每晚只瞓 6.2 小時，低過國際標準。呢篇文整合最新睡眠科學研究，由生理時鐘到睡眠環境設計，由飲食調整到放鬆技巧，一步步幫你重建優質睡眠。附實戰 roadmap 同常見失眠迷思破解。"
 ---
 

@@ -5,7 +5,7 @@ date: 2026-06-10 19:23:00 +0800
 categories: [learning]
 tags: [深度工作, 專注力, 注意力管理, 生產力, 時間管理, 手機成癮, 多工, 心流, 香港打工仔, 自我增值, 2026]
 author: esgov
-image: /assets/images/posts/2026-06-10-deep-work-focus-guide-cover.svg
+image: assets/images/posts/2026-06-10-deep-work-focus-guide-cover.jpg
 description: "由 Cal Newport 深度工作理論出發，結合作者親身實踐經驗，為香港打工仔設計一套喺 Open Office、WhatsApp 轟炸、手機通知滿天飛嘅環境下照樣進入心流嘅實戰系統。"
 ---
 

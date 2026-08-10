@@ -5,7 +5,7 @@ date: 2026-06-10 13:36:00 +0800
 categories: [learning]
 tags: [批判性思維, critical thinking, 邏輯謬誤, 獨立思考, 媒體素養, 假消息, 資訊素養, 論證分析, 理性思考, 思維系統, 學習方法]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-10-critical-thinking-guide-hk-cover.svg
+image: assets/images/posts/2026-06-10-critical-thinking-guide-hk-cover.jpg
 description: "一個完整嘅批判性思維實戰系統，由論證分析、邏輯謬誤辨識到證據驗證，幫香港人喺資訊爆炸年代建立獨立思考能力。附 30 日思維升級挑戰、12 種常見謬誤香港實例、每日 5 分鐘思考習慣。"
 ---
 

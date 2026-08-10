@@ -5,7 +5,7 @@ date: 2026-06-10 01:48:00 +0800
 categories: [life]
 tags: [晚間習慣, 報復性熬夜, 睡眠品質, 夜間routine, 生活習慣, 時間管理, 身心健康, 香港生活]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-10-evening-routine-guide-cover.svg
+image: assets/images/posts/2026-06-10-evening-routine-guide-cover.jpg
 description: "收工之後終於有屬於自己嘅時間，於是報復性熬夜，結果第二日又後悔？呢篇文教你用科學方法設計晚間 routine，由 screen detox 到放鬆儀式，逐步告別熬夜循環，提升睡眠質素同生活滿足感。"
 ---
 

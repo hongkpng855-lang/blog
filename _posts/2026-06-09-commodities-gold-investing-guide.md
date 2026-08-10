@@ -5,7 +5,7 @@ date: 2026-06-09 20:17:00 +0800
 categories: [investment]
 tags: [黃金投資, 商品期貨, 貴金屬, 白銀, 原油, 資產配置, 避險, 抗通脹, 實物資產, 交易所買賣商品, 分散風險, 2026投資]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-09-commodities-gold-cover.svg
+image: assets/images/posts/2026-06-09-commodities-gold-cover.jpg
 description: "2026 年聯儲局減息、地緣政治持續緊張、通脹揮之不去，黃金創歷史新高。呢篇文由零開始教你投資商品市場——黃金、白銀、石油、農產品，比較實金、ETF、期貨、金礦股嘅分別，附實戰組合比例同香港投資者適用嘅產品推薦。"
 ---
 

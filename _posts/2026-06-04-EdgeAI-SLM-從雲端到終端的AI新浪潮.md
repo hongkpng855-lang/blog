@@ -5,7 +5,7 @@ date: 2026-06-04 03:50:00 +0800
 categories: [tech]
 tags: [Edge AI, 邊緣運算, SLM, 小型語言模型, AI, 2026科技趨勢, 終端AI, 離線AI]
 author: Sun ny
-image: /assets/images/posts/2026-06-04-EdgeAI-SLM-cover.svg
+image: assets/images/posts/2026-06-04-EdgeAI-SLM-cover.jpg
 description: "2026 年 AI 典範正在轉移：從雲端巨量模型轉向邊緣小型語言模型。本文帶你了解 Edge AI 與 SLM 的實際應用、效能比較，以及這波浪潮如何影響你的生活與工作。"
 ---
 

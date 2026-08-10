@@ -5,7 +5,7 @@ date: 2026-06-08 04:00:00 +0800
 categories: [life]
 tags: [生活, 通勤, 時間管理, 自我增值, Podcast, 習慣養成, 香港生活, 2026]
 author: Sun ny
-image: /assets/images/posts/2026-06-08-commute-life-hacks-cover.svg
+image: assets/images/posts/2026-06-08-commute-life-hacks-cover.jpg
 description: "香港打工仔平均每日通勤 73 分鐘——一年加埋等於 444 小時。呢篇文章分享一套通勤時間活用系統，幫你將搭車時間變成每日嘅自我增值黃金時段。"
 ---
 

@@ -5,7 +5,7 @@ date: 2026-06-09 11:17:00 +0800
 categories: [life]
 tags: [溝通技巧, 表達力, 職場溝通, 社交技巧, 說話藝術, 香港生活, 人際關係, 非暴力溝通, 2026]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-09-communication-skills-guide-cover.svg
+image: assets/images/posts/2026-06-09-communication-skills-guide-cover.jpg
 description: "識做嘢唔夠，識講嘢先係生存王道。呢篇指南由一個曾經嘅「社交恐懼患者」寫，分享喺香港職場、社交場合同屋企實用嘅溝通技巧——由非暴力溝通、結構化表達到 difficult conversation 嘅實戰框架，全部廣東話友好。"
 ---
 

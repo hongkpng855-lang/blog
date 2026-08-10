@@ -5,7 +5,7 @@ date: 2026-06-09 00:12:00 +0800
 categories: [tech]
 tags: [AI, AI Agent, 自動化, 工作流程, 生產力, 2026, 人工智能, Workflow, Automation, Prompt Engineering]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-09-ai-agent-workflow-guide-cover.svg
+image: assets/images/posts/2026-06-09-ai-agent-workflow-guide-cover.jpg
 description: "2026 年 AI Agent 已經唔係科幻，係每日用緊嘅生產力工具。呢篇文由基礎概念開始，到實際工作流設計、5 個即用即見效嘅 AI 自動化場景，再加 prompt engineering 進階技巧，幫你用最少 effort 撬動最大生產力。香港人 Work-Life Balance，靠 AI 幫手唔使做到死。"
 ---
 

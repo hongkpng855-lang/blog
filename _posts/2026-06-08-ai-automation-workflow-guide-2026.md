@@ -5,7 +5,7 @@ date: 2026-06-08 05:15:00 +0800
 categories: [tech]
 tags: [AI自動化, 工作效率, 工作流, 生產力, 自動化工具, 2026, Make, n8n, Zapier, AI代理, 香港打工仔]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-08-ai-automation-workflow-cover.svg
+image: assets/images/posts/2026-06-08-ai-automation-workflow-cover.jpg
 description: "每日返工要重複做同樣嘅嘢？Email回覆、數據輸入、報告整理、社交媒體發文——全部可以自動化。呢篇文教你用 AI + 自動化工具建立個人工作流，唔使寫 Code 都做到，每個 workflow 幫你慳返幾粒鐘。"
 ---
 

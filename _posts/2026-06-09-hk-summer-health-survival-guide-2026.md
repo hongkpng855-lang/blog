@@ -5,7 +5,7 @@ date: 2026-06-09 14:42:00 +0800
 categories: [health]
 tags: [夏季健康, 消暑, 中暑預防, 冷氣病, 香港夏天, 濕熱天氣, 夏季飲食, 防曬, 健康生活]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-09-hk-summer-health-guide-cover.svg
+image: assets/images/posts/2026-06-09-hk-summer-health-guide-cover.jpg
 description: "香港夏天又濕又熱，體感成日40°C+。中暑、冷氣病、腸胃炎、皮膚問題全部排住隊嚟。呢篇整合急症科護士、營養師同中醫建議，由預防中暑、降溫飲食、冷氣病應對到潮濕天氣生活管理，俾你一個完整嘅夏季健康作戰計劃。"
 ---
 

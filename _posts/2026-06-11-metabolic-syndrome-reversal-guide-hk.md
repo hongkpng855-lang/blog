@@ -5,7 +5,7 @@ date: 2026-06-11 16:17:00 +0800
 categories: [health]
 tags: [代謝症候群, 三高, 脂肪肝, 高血壓, 糖尿病前期, 香港人健康, 逆轉, 生活方式醫學, 2026]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-11-metabolic-syndrome-reversal-guide-cover.svg
+image: assets/images/posts/2026-06-11-metabolic-syndrome-reversal-guide-cover.jpg
 description: "身體檢查發現血壓偏高、脂肪肝、血糖踩界？唔好等變慢性病先後悔。代謝症候群係可逆轉嘅——用科學方法調整飲食、運動、生活習慣，3-6 個月見到明顯改善。呢篇文從香港人生活角度出發，提供完整嘅逆轉方案。"
 ---
 

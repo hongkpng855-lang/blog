@@ -5,7 +5,7 @@ date: 2026-06-10 03:16:00 +0800
 categories: [investment]
 tags: [ETF, 資產配置, 環球投資, 股債平衡, 因子投資, 被動收入, 投資組合, 分散風險]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-10-global-etf-asset-allocation-guide-cover.svg
+image: assets/images/posts/2026-06-10-global-etf-asset-allocation-guide-cover.jpg
 description: "買咗幾隻 ETF 就等於分散投資？錯！真正嘅資產配置係由股債平衡、地域分散、因子傾斜同定期再平衡組成。呢篇文教你用 4 款環球 ETF 建立穿越牛熊嘅投資組合，唔使再驚大市調整。"
 ---
 

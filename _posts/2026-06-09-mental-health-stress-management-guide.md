@@ -5,7 +5,7 @@ date: 2026-06-09 00:20:00 +0800
 categories: [health]
 tags: [精神健康, 壓力管理, Burnout, 心理健康, 正念冥想, 城市生活, 身心平衡, 皮質醇, 情緒管理, 2026]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-09-mental-health-stress-management-guide-cover.svg
+image: assets/images/posts/2026-06-09-mental-health-stress-management-guide-cover.jpg
 description: "2026 年城市人面對前所未有的壓力——工時長、訊息爆炸、經濟不確定性。呢篇指南由經歷過 Burnout 嘅過來人分享，用科學方法幫你重建身心平衡，由皮質醇調控、正念練習、數位排毒到運動恢復，全方位照顧你嘅精神健康。"
 ---
 

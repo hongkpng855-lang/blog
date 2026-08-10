@@ -4,7 +4,7 @@ title: "2026 下半年港股板塊輪動攻略：減息週期最新部署、AI�
 date: 2026-07-10 01:00:00 +0800
 categories: [investment]
 tags: [港股, 板塊輪動, 投資策略, 減息週期, AI科技股, 高息股, 消費復甦, 香港投資, 2026]
-image: /assets/images/posts/2026-07-10-sector-rotation-cover.svg
+image: assets/images/posts/2026-07-10-sector-rotation-cover.jpg
 description: "2026 年減息週期進入第二階段，港股板塊輪動加速。AI 科技股衝完一輪之後，邊個板塊接力？高息股仲有冇吸引力？消費股真係復甦？呢篇文用實戰數據幫你分析下半年部署策略，附 3 款組合模板。"
 ---
 

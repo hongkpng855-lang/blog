@@ -5,7 +5,7 @@ date: 2026-06-07 23:30:00 +0800
 categories: [investment]
 tags: [技術分析, 港股, 投資入門, 技術指標, K線, RSI, MACD, 移動平均線, 股票分析, 2026]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-07-hk-stock-technical-analysis-cover.svg
+image: assets/images/posts/2026-06-07-hk-stock-technical-analysis-cover.jpg
 description: "想學睇圖但唔知從何入手？呢篇用香港股票嘅實例，教你 5 大必學技術指標：移動平均線、RSI、MACD、布林通道、成交量分析，由新手到識睇圖嘅完整實戰指南。"
 ---
 

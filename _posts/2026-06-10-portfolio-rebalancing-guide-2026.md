@@ -5,7 +5,7 @@ date: 2026-06-10 09:53:00 +0800
 categories: [investment]
 tags: [投資組合再平衡, 資產配置, 風險管理, 被動投資, ETF組合, 股債平衡, rebalancing, 長期投資, 2026投資, 複利效應]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-10-portfolio-rebalancing-guide-cover.svg
+image: assets/images/posts/2026-06-10-portfolio-rebalancing-guide-cover.jpg
 description: "再平衡係被動投資最重要嘅動作——每年只需幾分鐘，就可以顯著提升回報、降低風險。呢篇文由零開始教你點做再平衡，比較日曆法、閾值法同混合法，附送實戰步驟同香港投資者適用嘅組合範例。"
 ---
 

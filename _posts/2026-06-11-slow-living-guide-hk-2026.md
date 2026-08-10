@@ -5,7 +5,7 @@ date: 2026-06-11 06:43:00 +0800
 categories: [life]
 tags: [慢活, JOMO, 生活品質, 香港生活, 正念, 幸福感, 生活平衡]
 author: Sun ny
-image: /assets/images/posts/2026-06-11-slow-living-hk-guide-cover.svg
+image: assets/images/posts/2026-06-11-slow-living-hk-guide-cover.jpg
 description: "2026 香港人慢活實戰指南！從 JOMO 心態到微習慣，告別 Burnout 重新掌握生活節奏。實用 steps 幫你在都市生活中找回平衡與幸福感。"
 ---
 

@@ -4,7 +4,7 @@ title: "2026 香港人慢活生活指南：喺急速都市入面，學識放慢�
 date: 2026-06-10 06:38:00 +0800
 categories: life
 tags: [慢活, 生活哲學, 身心平衡, 正念, 香港, 2026, 生活態度]
-image: /assets/images/posts/2026-06-10-slow-living-guide-hk-cover.svg
+image: assets/images/posts/2026-06-10-slow-living-guide-hk-cover.jpg
 description: "香港係全世界生活節奏最快嘅城市之一。慢活唔係懶惰，而係一種選擇——教你喺急速都市中放慢、減法生活、找回屬於自己嘅節奏。"
 ---
 

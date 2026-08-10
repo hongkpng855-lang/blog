@@ -5,7 +5,7 @@ date: 2026-06-10 12:18:00 +0800
 categories: [health]
 tags: [眼睛健康, 數碼護眼, 藍光, 眼睛疲勞, 護眼, 近視, 乾眼症, 香港生活, 螢幕使用]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-10-digital-eye-health-guide-cover.svg
+image: assets/images/posts/2026-06-10-digital-eye-health-guide-cover.jpg
 description: "香港人每日對住螢幕超過 12 小時，乾眼症、近視加深、數碼眼睛疲勞（DES）已經成為都市病。呢篇文由眼科醫學研究出發，提供 20-20-20 法則、藍光管理、室內光線設計、營養補充同護眼操等完整攻略，幫你守住對外視窗。"
 ---
 

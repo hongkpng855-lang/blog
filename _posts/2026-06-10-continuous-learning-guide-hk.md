@@ -5,7 +5,7 @@ date: 2026-06-10 07:38:00 +0800
 categories: [learning]
 tags: [持續學習, 自學, 終身學習, 時間管理, 技能提升, 線上課程, 香港打工仔, 自我增值, 2026]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-10-continuous-learning-guide-cover.svg
+image: assets/images/posts/2026-06-10-continuous-learning-guide-cover.jpg
 description: "返緊工、湊緊細、仲想學新嘢？呢篇文係為你而寫。由時間管理、學習策略、動機維持到工具推薦，俾你一套完整嘅持續學習系統，唔使再畀「冇時間」做藉口。"
 ---
 

@@ -5,7 +5,7 @@ date: 2026-06-11 05:34:00 +0800
 categories: [investment]
 tags: [REITs, 房地產信託基金, 收息, 被動收入, 股息, 投資組合, 現金流, 香港投資者, 2026]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-11-reits-investing-guide-cover.svg
+image: assets/images/posts/2026-06-11-reits-investing-guide-cover.jpg
 description: "唔買得起成層樓，都可以投資房地產收租？REITs（房地產信託基金）就係你嘅答案。呢篇文由 REITs 嘅底層邏輯講起，教你揀選高質 REITs、分析派息率同 NAV，並建立一個穩定收息嘅 REITs 組合。"
 ---
 

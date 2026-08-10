@@ -5,7 +5,7 @@ date: 2026-06-07 03:50:00 +0800
 categories: [investment]
 tags: [ETF, 投資入門, 被動收入, 港股, 月供, 退休規劃, 理財, 2026]
 author: Sun ny
-image: /assets/images/posts/2026-06-07-etf-investment-guide-cover.svg
+image: assets/images/posts/2026-06-07-etf-investment-guide-cover.jpg
 description: "想投資但唔知點開始？月供 ETF 係最適合香港打工仔嘅入門選擇。本文由親身經歷者分享點樣由零開始建立 ETF 投資組合，每月只需 $1000 就可以開始，唔使睇盤唔使分析個股。"
 ---
 

@@ -5,7 +5,7 @@ date: 2026-07-28 08:31:00 +0800
 categories: [tech]
 tags: [AI Agent, ChatGPT, Claude, 自動化, AI工具, 香港, 2026, 人工智能]
 author: "Sun ny"
-image: /assets/images/posts/2026-07-28-ai-agent-guide-cover.svg
+image: assets/images/posts/2026-07-28-ai-agent-guide-cover.jpg
 description: "2026 年 AI Agent 已經從概念走入日常。Claude、ChatGPT、Gemini 等平台全面支援代理功能，可以自動幫你整理郵件、填寫表格、分析數據。呢篇文由零開始教你點樣用 AI Agent 節省每日 2 小時。"
 ---
 

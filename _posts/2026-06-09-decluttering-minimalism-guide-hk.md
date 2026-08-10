@@ -5,7 +5,7 @@ date: 2026-06-09 18:00:00 +0800
 categories: [life]
 tags: [斷捨離, 極簡生活, 收納, 家居整理, 減物, 收納整理, 生活態度, 香港生活, 空間改造, Minimalism]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-09-decluttering-minimalism-guide-cover.svg
+image: assets/images/posts/2026-06-09-decluttering-minimalism-guide-cover.jpg
 description: "香港人均居住面積得 170 呎，斷捨離唔係潮流，係生存技能。呢篇文由親身經歷出發，教你喺 300 呎空間入面實踐極簡生活——唔係強迫丟嘢，而係搵返你真正需要嘅生活。附逐個空間清單、7 日挑戰同常見失敗原因拆解。"
 ---
 

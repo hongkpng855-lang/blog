@@ -5,7 +5,7 @@ date: 2026-06-07 23:20:00 +0800
 categories: [life]
 tags: [數位極簡, 生活, 專注力, 螢幕時間, 生產力, 自我照顧, 數位排毒, 2026]
 author: Sun ny
-image: /assets/images/posts/2026-06-07-digital-minimalism-guide-cover.svg
+image: assets/images/posts/2026-06-07-digital-minimalism-guide-cover.jpg
 description: "每日平均睇手機 5-7 小時？2026 年嘅數位極簡主義唔係叫你完全唔用科技，而係有意識地選擇點用。呢篇文章分享一套經過實證嘅數位斷捨離方法，幫你逐步減少螢幕時間、重拾深度專注同真實生活連結。"
 ---
 

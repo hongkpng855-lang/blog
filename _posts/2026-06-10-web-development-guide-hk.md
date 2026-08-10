@@ -5,7 +5,7 @@ date: 2026-06-10 17:06:00 +0800
 categories: [tech]
 tags: [Web開發, HTML, CSS, JavaScript, 自學Programming, AI輔助編程, 網站開發, 前端開發, 香港, 2026]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-10-web-development-guide-hk-cover.svg
+image: assets/images/posts/2026-06-10-web-development-guide-hk-cover.jpg
 description: "由零開始學整網站，2026 年係最好嘅時機。AI 幫你生成 code、解釋概念、搵 bug，學習曲線比以前平坦好多。呢篇文會帶你由最基本嘅 HTML/CSS/JavaScript 開始，用最實際嘅方法建立你嘅第一個網站，再一步步加上互動功能，最後 deploy 上線俾全世界睇到。"
 ---
 

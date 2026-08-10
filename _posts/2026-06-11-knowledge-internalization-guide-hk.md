@@ -5,7 +5,7 @@ date: 2026-06-11 17:28:00 +0800
 categories: [learning]
 tags: [知識內化, 主動回, 間隔重複, 筆記方法, 高效學習, 遺忘曲線, 第二大腦, 知識管理, 學習系統, 香港生活]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-11-knowledge-internalization-guide-cover.svg
+image: assets/images/posts/2026-06-11-knowledge-internalization-guide-cover.jpg
 description: "每日接收上千條資訊，但真正記得嘅有幾多？由遺忘曲線科學、主動回憶技術、筆記系統到知識輸出框架，幫你建立由輸入到內化嘅完整學習 pipeline。附 Anki 實戰設定、每日閱讀系統同 30 日知識內化挑戰。"
 ---
 

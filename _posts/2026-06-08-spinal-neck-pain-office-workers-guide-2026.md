@@ -5,7 +5,7 @@ date: 2026-06-08 01:48:00 +0800
 categories: [health]
 tags: [脊骨健康, 肩頸痛, 辦公室健康, 姿勢矯正, 物理治療, 職業病, 2026, 香港打工仔]
 author: Sun ny
-image: /assets/images/posts/2026-06-08-spinal-neck-pain-guide-cover.svg
+image: assets/images/posts/2026-06-08-spinal-neck-pain-guide-cover.jpg
 description: "肩頸痛、腰背痛係香港打工仔嘅共同噩夢。由姿勢矯正、辦公室微運動到物理治療級自救方案，呢篇實戰指南幫你擺脫長期痛症。"
 ---
 

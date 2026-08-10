@@ -5,7 +5,7 @@ date: 2026-06-11 15:07:15 +0800
 categories: [investment]
 tags: [月供股票, DCA, 平均成本法, ETF, 投資入門, 被動投資, 香港投資]
 author: Sun ny
-image: /assets/images/posts/2026-06-11-dca-monthly-stock-guide-hk-cover.webp
+image: /assets/images/posts/2026-06-11-dca-monthly-stock-guide-hk-cover.jpg
 description: "月供股票（DCA）係香港最適合打工仔嘅投資方法。本文教你點用平均成本法每月儲股票，比較各大銀行券商收費，推薦最值得月供嘅港股美股ETF，避開常見陷阱。"
 ---
 

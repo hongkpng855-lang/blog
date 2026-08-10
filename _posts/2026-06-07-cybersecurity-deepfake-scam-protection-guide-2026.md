@@ -5,7 +5,7 @@ date: 2026-06-07 19:00:00 +0800
 categories: [tech]
 tags: [網絡安全, 網路安全, AI詐騙, Deepfake, 釣魚攻擊, 個人資料保護, 密碼管理, 2026, 數位安全]
 author: GovFlow 安全編輯
-image: /assets/images/posts/2026-06-07-cybersecurity-guide-cover.svg
+image: assets/images/posts/2026-06-07-cybersecurity-guide-cover.jpg
 description: "AI 深度偽造詐騙喺 2026 年已經成為香港最常見嘅網絡威脅。呢篇文章整合最新嘅防護策略：點樣分辨 Deepfake 語音/視像騙局、釣魚電郵進化版、密碼管理器實戰教學，以及被 hack 後嘅緊急應變流程。"
 ---
 

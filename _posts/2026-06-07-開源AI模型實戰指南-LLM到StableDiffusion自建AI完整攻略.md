@@ -4,7 +4,7 @@ title: "2026 開源 AI 模型實戰指南：由 LLM 到 Stable Diffusion，自�
 date: 2026-06-07 15:42:00 +0800
 categories: [tech]
 tags: [AI, 開源, LLM, Stable Diffusion, 人工智能, 自建AI, 技術, 2026]
-image: /assets/images/posts/2026-06-07-open-source-ai-guide-cover.svg
+image: assets/images/posts/2026-06-07-open-source-ai-guide-cover.jpg
 description: "2026 年開源 AI 模型已經成熟到可以同商業方案媲美。由 Llama 3 到 Mistral，由 Stable Diffusion 到 Flux，由一個普通用家角度分享點樣免費自建 AI 工具，唔使畀月費都可以享受到 AI 嘅威力。"
 ---
 

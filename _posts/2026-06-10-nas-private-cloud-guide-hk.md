@@ -5,7 +5,7 @@ date: 2026-06-10 08:45:00 +0800
 categories: [tech]
 tags: [NAS, 私有雲, 雲端儲存, Synology, QNAP, Photo Backup, Plex, Jellyfin, 香港, 2026]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-10-nas-private-cloud-guide-hk-cover.svg
+image: assets/images/posts/2026-06-10-nas-private-cloud-guide-hk-cover.jpg
 description: "Google Photos 開始收費、iCloud 成日唔夠位、公司文件分散喺幾部電腦——與其每個月俾月費，不如自建 NAS 私有雲。呢篇文由零講起，幫你揀機、設定、仲有香港人最常用嘅 5 大應用場景。"
 ---
 

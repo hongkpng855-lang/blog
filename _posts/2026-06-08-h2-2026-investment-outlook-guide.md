@@ -5,7 +5,7 @@ date: 2026-06-08 08:15:00 +0800
 categories: [investment]
 tags: [投資展望, 下半年, 2026, 港股, 美股, 息口, AI股, 資產配置, 投資策略, 聯儲局, 市場分析]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-08-h2-outlook-guide-cover.svg
+image: assets/images/posts/2026-06-08-h2-outlook-guide-cover.jpg
 description: "2026 年行完一半，港股美股經歷咗乜？下半年息口點走、AI 概念仲有冇得升、港股能否重返估值重估？呢篇文由宏觀到微觀，用香港散戶角度拆解下半年投資策略，幫你制定清晰作戰計劃。"
 ---
 

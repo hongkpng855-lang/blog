@@ -5,7 +5,7 @@ date: 2026-06-11 04:30:00 +0800
 categories: [life]
 tags: [獨處時間, me time, 自我照顧, 生活平衡, 身心靈健康, 正念生活, 心理健康, 香港生活, 個人成長]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-11-quality-alone-time-guide-cover.svg
+image: assets/images/posts/2026-06-11-quality-alone-time-guide-cover.jpg
 description: "香港地小人多，返工逼車、返到屋企同屋企人share空間，要搵到真正屬於自己嘅時間好似奢侈。但獨處唔係孤獨，而係一種能力——呢篇文教你點樣喺都市入面建立優質嘅me time系統，重新連結自己。"
 ---
 

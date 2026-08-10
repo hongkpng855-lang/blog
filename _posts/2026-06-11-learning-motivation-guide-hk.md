@@ -5,7 +5,7 @@ date: 2026-06-11 02:06:00 +0800
 categories: [learning]
 tags: [學習動機, 拖延症, 三分鐘熱度, 自律, 習慣養成, 心理學, 自我管理, 學習方法, 香港生活]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-11-learning-motivation-guide-cover.svg
+image: assets/images/posts/2026-06-11-learning-motivation-guide-cover.jpg
 description: "開咗個頭但好快放棄？覺得自己唔夠自律？其實唔係你嘅問題，而係你冇了解動機嘅運作機制。呢篇文章整合心理學研究同實戰經驗，由動機科學、拖延心理、環境設計到系統化追蹤，幫你由三分鐘熱度變成持續學習者。"
 ---
 

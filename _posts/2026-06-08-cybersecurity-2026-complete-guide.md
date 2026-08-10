@@ -5,7 +5,7 @@ date: 2026-06-08 09:36:00 +0800
 categories: [tech]
 tags: [資訊安全, Cybersecurity, 網絡安全, 釣魚攻擊, 密碼管理, 雙因素認證, AI安全, 私隱保護, VPN, 2026]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-08-cybersecurity-2026-complete-guide-cover.svg
+image: assets/images/posts/2026-06-08-cybersecurity-2026-complete-guide-cover.jpg
 description: "2026 年 AI 生成嘅釣魚電郵越嚟越似真嘅，Deepfake 詐騙橫行，密碼洩漏幾乎每月都有。呢篇文由 Passwordless 認證、AI 防禦工具、到企業零信任架構，帶你全面升級數位安全防護。"
 ---
 

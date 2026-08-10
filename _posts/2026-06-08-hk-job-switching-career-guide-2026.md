@@ -5,7 +5,7 @@ date: 2026-06-08 00:41:00 +0800
 categories: [life]
 tags: [轉工, Career, 面試, CV, 薪酬談判, 求職, 2026, 香港打工仔]
 author: Sun ny
-image: /assets/images/posts/2026-06-08-job-switching-guide-cover.svg
+image: assets/images/posts/2026-06-08-job-switching-guide-cover.jpg
 description: "2026 年香港就業市場競爭激烈，轉工跳槽唔再係「遞信就走」咁簡單。由 CV 優化、LinkedIn 個人品牌建立、面試技巧到薪酬談判，呢篇實戰攻略幫你喺轉工路上少走彎路。"
 ---
 

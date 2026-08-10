@@ -5,7 +5,7 @@ date: 2026-06-10 15:41:00 +0800
 categories: [life]
 tags: [週末休息, weekend reset, 深度休息, 自我照顧, 生活習慣, 充電方法, 香港生活, 疲勞管理]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-10-weekend-deep-rest-guide-cover.svg
+image: assets/images/posts/2026-06-10-weekend-deep-rest-guide-cover.jpg
 description: "返工五日已經攰到散，但星期六日過完反而仲攰？你可能只係休息錯咗方式。呢篇文從科學角度拆解真正有效嘅深度休息方法，俾你一個用完星期六日之後真係充滿電嘅完整系統。"
 ---
 

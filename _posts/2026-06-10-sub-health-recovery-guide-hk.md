@@ -5,7 +5,7 @@ date: 2026-06-10 13:28:00 +0800
 categories: [health]
 tags: [亞健康, 慢性疲勞, 腸胃健康, 睡眠障礙, 香港人健康, 壓力管理, 自律神經, 生活方式醫學, 2026]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-10-sub-health-recovery-guide-cover.svg
+image: assets/images/posts/2026-06-10-sub-health-recovery-guide-cover.jpg
 description: "朝早起身覺得攰、下午冇精神、腸胃成日唔舒服、明明冇病但周身唔妥？超過七成香港人處於亞健康狀態。呢篇文用科學角度拆解亞健康成因，提供飲食、作息、運動、壓力4大實戰策略，幫你逐步脫離亞健康循環。"
 ---
 

@@ -5,7 +5,7 @@ date: 2026-06-07 19:00:00 +0800
 categories: [investment]
 tags: [月供股票, 平均成本法, DCA, 定期定額, 投資策略, 港股, 美股, 2026 理財]
 author: Sun ny
-image: assets/images/posts/2026-06-07-dca-investment-guide-cover.svg
+image: assets/images/posts/2026-06-07-dca-investment-guide-cover.jpg
 description: "月供股票（DCA）定一筆過投入（Lump Sum）好？本文用真實數據同香港實例，分析兩種策略嘅優劣、適合場景，以及點樣建立屬於你嘅定期定額投資系統。"
 ---
 

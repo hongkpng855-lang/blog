@@ -5,7 +5,7 @@ date: 2026-06-10 00:40:00 +0800
 categories: [learning]
 tags: [第二大腦, 知識管理, PARA, 筆記系統, 個人知識庫, 生產力, 數碼工具, 終身學習]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-10-second-brain-pkm-guide-cover.svg
+image: assets/images/posts/2026-06-10-second-brain-pkm-guide-cover.jpg
 description: "你睇過嘅書、上過嘅堂、收藏過嘅文章，全部散落喺不同平台？呢篇文教你用 PARA 系統（Projects/Areas/Resources/Archives）建立真正有用嘅第二大腦，由零開始整理你嘅知識資產，唔使再驚「學過但唔記得」。"
 ---
 

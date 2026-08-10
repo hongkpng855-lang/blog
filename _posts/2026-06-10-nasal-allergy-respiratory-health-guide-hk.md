@@ -5,7 +5,7 @@ date: 2026-06-10 18:06:00 +0800
 categories: [health]
 tags: [鼻敏感, 呼吸道健康, 過敏性鼻炎, 香港健康, 潮濕天氣, 冷氣病, 空氣污染, 免疫力, 2026]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-10-nasal-allergy-respiratory-health-guide-hk-cover.svg
+image: assets/images/posts/2026-06-10-nasal-allergy-respiratory-health-guide-hk-cover.jpg
 description: "香港每 4 個人就有 1 個有鼻敏感——朝早起身連環打乞嗤、搭地鐵突然鼻水長流、夜晚鼻塞瞓唔着。呢篇文會由成因、環境管理、日常保養到飲食調理，俾你一個完整嘅呼吸道健康實戰系統。"
 ---
 

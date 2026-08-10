@@ -4,7 +4,7 @@ title: "2026 AI Agent 代理革命：從日常工作到商業轉型嘅自主人�
 date: 2026-06-08 07:15:00 +0800
 categories: [tech]
 tags: [AI Agent, 人工智能, 自主代理, 自動化, 工作流程, AI趨勢, 科技, 2026, Agentic AI]
-image: /assets/images/posts/2026-06-08-ai-agent-guide-cover.svg
+image: assets/images/posts/2026-06-08-ai-agent-guide-cover.jpg
 description: "2026 年係 AI Agent 爆發之年。由 Google AI Agent Trends 報告到企業生產力改造，由多代理協作到日常生活應用，一篇文帶你睇清 AI Agent 嘅真實面貌、實際案例同埋你可以點樣用佢。"
 ---
 

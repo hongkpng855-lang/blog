@@ -5,7 +5,7 @@ date: 2026-06-09 20:27:00 +0800
 categories: [investment]
 tags: [ETF, 月供美股, 被動收入, 投資組合, 美股入門, VOO, QQQ, SPY, 月供投資, 2026投資, 複利, 港股ETF]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-09-monthly-us-stock-etf-guide-cover.svg
+image: assets/images/posts/2026-06-09-monthly-us-stock-etf-guide-cover.jpg
 description: "月供美股係2026年香港散戶最簡單嘅被動收入系統。呢篇文由零開始教你揀平台、揀ETF、設定月供計劃，比較VOO/QQQ/VT等熱門ETF，附送3款風險組合模板，每月$3000就開始建立你嘅美股倉位。"
 ---
 

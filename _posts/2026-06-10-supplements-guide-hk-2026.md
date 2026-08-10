@@ -5,7 +5,7 @@ date: 2026-06-10 00:53:00 +0800
 categories: [health]
 tags: [營養補充品, 維他命, 益生菌, 健康, 香港人健康, 保健食品, 奧米加3, supplements]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-10-supplements-guide-hk-cover.svg
+image: assets/images/posts/2026-06-10-supplements-guide-hk-cover.jpg
 description: "香港人每年買 supplements 花過億，但八成人都係亂食。維他命D、益生菌、奧米加3、骨膠原⋯邊啲真係有用？邊啲係智商稅？呢篇用科學實證幫你拆解，提供按香港人生活場景嘅 supplement 選擇指南。"
 ---
 

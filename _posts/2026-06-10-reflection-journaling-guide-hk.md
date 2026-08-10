@@ -5,7 +5,7 @@ date: 2026-06-10 08:55:00 +0800
 categories: [life]
 tags: [反思日記, journaling, 自我覺察, 心理健康, 生活習慣, 情緒管理, 正念生活, 香港生活]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-10-reflection-journaling-guide-cover.svg
+image: assets/images/posts/2026-06-10-reflection-journaling-guide-cover.jpg
 description: "香港人生活節奏快到透唔到氣，思緒亂到瞓唔著？反思日記（Journaling）係最簡單又最有效嘅自我照顧工具。呢篇文由點解寫、點樣開始寫到進階技巧，用科學研究同真實經驗，幫你用每日 5 分鐘 journaling 梳理內心、減輕焦慮、提升自我覺察。"
 ---
 

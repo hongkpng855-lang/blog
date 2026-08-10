@@ -5,7 +5,7 @@ date: 2026-06-08 08:30:00 +0800
 categories: [tech]
 tags: [智慧城市, Smart City, 香港科技, AI城市管理, 智慧交通, 數字政府, 2026, 5G應用, 物聯網, 城市數據]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-08-smart-city-2-cover.svg
+image: assets/images/posts/2026-06-08-smart-city-2-cover.jpg
 description: "香港智慧城市發展進入 2.0 階段！智慧燈柱 2.0、數字平台、AI交通管理、智慧停車場、電子公民身份——呢篇文同你逐個 breakdown 最新進展、實際應用同日常生活影響，睇下香港點樣由國際城市變成智慧都市。"
 ---
 

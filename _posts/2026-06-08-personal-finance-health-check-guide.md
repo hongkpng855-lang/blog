@@ -5,7 +5,7 @@ date: 2026-06-08 17:36:00 +0800
 categories: [investment]
 tags: [投資, 理財, 個人財務,  budgeting, 香港, 財務健康, 被動收入, 現金流管理]
 author: Sun ny
-image: /assets/images/posts/2026-06-08-personal-finance-health-check-cover.svg
+image: assets/images/posts/2026-06-08-personal-finance-health-check-cover.jpg
 description: "每個月用30分鐘做一次財務健康檢查，幫你掌握現金流、檢視資產負債、調整投資組合，避免「月月清」嘅惡性循環。由親身經歷者分享，最貼地嘅個人財務管理系統。"
 ---
 

@@ -5,7 +5,7 @@ date: 2026-06-09 21:26:00 +0800
 categories: [tech]
 tags: [Edge AI, On-device AI, Apple Intelligence, Gemini Nano, Ollama, 人工智能, 科技攻略, 2026科技趨勢, 私隱]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-09-edge-ai-on-device-guide-cover.svg
+image: assets/images/posts/2026-06-09-edge-ai-on-device-guide-cover.jpg
 description: "AI 正由雲端走入你嘅手機同電腦！Edge AI 唔使連線、保障私隱、零延遲。呢篇文講解 Apple Intelligence、Gemini Nano、Ollama 等工具點樣喺 2026 年改變你嘅數碼生活，附送香港用家實戰應用場景。"
 ---
 

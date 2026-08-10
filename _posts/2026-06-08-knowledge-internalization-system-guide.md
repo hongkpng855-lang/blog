@@ -5,7 +5,7 @@ date: 2026-06-08 11:43:00 +0800
 categories: [learning]
 tags: [知識內化, 學習方法, 主動學習, 費曼技巧, 間隔重複, 輸出式學習, 第二大腦, 自我成長]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-08-knowledge-internalization-system-guide-cover.svg
+image: assets/images/posts/2026-06-08-knowledge-internalization-system-guide-cover.jpg
 description: "睇完書過兩日就唔記得？呢篇整合認知科學同學習心理學最新研究，由輸入管理、深度加工到輸出系統嘅完整知識內化框架，幫你脫離「收藏永不閱讀」嘅陷阱，真正掌握任何領域嘅知識。"
 ---
 

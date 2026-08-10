@@ -5,7 +5,7 @@ date: 2026-06-04 04:38:31 +0800
 categories: [investment]
 tags: [基金, ETF, 資產配置, 投資組合, 定期定額]
 author: Sun ny
-image: /assets/images/posts/2026-06-04-fund-etf-portfolio-guide-2026-cover.webp
+image: /assets/images/posts/2026-06-04-fund-etf-portfolio-guide-2026-cover.jpg
 description: "2026下半年投資組合怎麼調？本文深入解析基金與 ETF 的搭配策略，教你用主動基金賺超額報酬、用 ETF 低成本布局，打造進可攻退可守的穩健配置。"
 ---
 

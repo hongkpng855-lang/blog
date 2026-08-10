@@ -5,7 +5,7 @@ date: 2026-06-08 12:48:00 +0800
 categories: [life]
 tags: [生活, 副業, 斜槓, 創業, 被動收入, 香港, 自由職業, 2026]
 author: Sun ny
-image: /assets/images/posts/2026-06-08-side-hustle-guide-cover.svg
+image: assets/images/posts/2026-06-08-side-hustle-guide-cover.jpg
 description: "香港生活成本咁高，單靠一份糧真係夠用？呢篇文由過來人角度，分享點樣由零開始建立副業，由時間管理、技能變現到建立系統，幫你穩步建立第二收入來源，真正掌握自己嘅生活節奏。"
 ---
 

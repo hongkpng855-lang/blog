@@ -5,7 +5,7 @@ date: 2026-06-07 23:59:00 +0800
 categories: [tech]
 tags: [數據素養, Data Literacy, 數據分析, 商業智慧, 資料解讀, 2026技能, 科技學習, AI協作, 數據視覺化]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-08-data-literacy-cover.svg
+image: assets/images/posts/2026-06-08-data-literacy-cover.jpg
 description: "數據素養係 2026 年最重要嘅軟技能之一。由點樣閱讀圖表、分辨 misleading data、到用 AI 工具做分析，呢篇文帶你由零開始建立數據思維。唔使寫 code，實戰例子全部用香港生活情境。"
 ---
 

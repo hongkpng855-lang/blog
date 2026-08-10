@@ -5,7 +5,7 @@ date: 2026-06-08 07:26:00 +0800
 categories: [life]
 tags: [生活, 香港咖啡文化, 精品咖啡, 咖啡店, 香港小店, 生活提案, 手沖咖啡, 2026]
 author: Sun ny
-image: /assets/images/posts/2026-06-08-hk-coffee-culture-guide-cover.svg
+image: assets/images/posts/2026-06-08-hk-coffee-culture-guide-cover.jpg
 description: "香港咖啡文化愈來愈精彩，由茶記「飛沙走奶」到精品咖啡店遍地開花。呢篇指南幫你由連鎖咖啡轉戰精品咖啡世界，由揀豆到沖煮、由尖沙咀到深水埗，一齊探索香港咖啡生活。"
 ---
 

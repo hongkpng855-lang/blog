@@ -5,7 +5,7 @@ date: 2026-06-10 07:49:00 +0800
 categories: [investment]
 tags: [全天候組合, All-Weather, Ray Dalio, 資產配置, ETF, 被動投資, 橋水, 經濟週期, 股債平衡, 抗通脹, 投資組合, 香港投資者]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-10-all-weather-portfolio-cover.svg
+image: assets/images/posts/2026-06-10-all-weather-portfolio-cover.jpg
 description: "巴菲特話「唔好輸錢」，Bridgewater嘅Ray Dalio就設計咗一個無論經濟好壞都頂得住嘅組合。呢篇文教你用4款ETF砌出全天候組合，由零開始學資產配置、再平衡同香港市場實戰要點。"
 ---
 

@@ -5,7 +5,7 @@ date: 2026-06-04 21:55:00 +0800
 categories: [tech]
 tags: [AI繪圖, Midjourney, DALL-E, Stable Diffusion, 生成式AI, AI工具, 2026科技趨勢, 設計工具]
 author: Sun ny
-image: /assets/images/posts/2026-06-04-AI繪圖生成式設計-cover.svg
+image: assets/images/posts/2026-06-04-AI繪圖生成式設計-cover.jpg
 description: "Midjourney V7、DALL-E 4、Stable Diffusion 4 三強鼎立，AI 繪圖在 2026 年已經成為設計師與創作者不可或缺的工具。深入比較三大平台的優劣勢、價格策略與實戰技巧，幫助你選擇最適合的 AI 繪圖工具。"
 ---
 

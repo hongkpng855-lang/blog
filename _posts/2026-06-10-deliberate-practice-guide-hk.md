@@ -5,7 +5,7 @@ date: 2026-06-10 19:14:00 +0800
 categories: [learning]
 tags: [刻意練習, 學習方法, 技能提升, 有效學習, 10,000小時, 練習方法, 新手到大師, 自學技巧, 科學學習, 專注訓練, 2026]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-10-deliberate-practice-guide-cover.svg
+image: assets/images/posts/2026-06-10-deliberate-practice-guide-cover.jpg
 description: "唔係所有練習都有效。一個完整嘅刻意練習系統，由目標設定、專注訓練、即時回饋到舒適圈突破，幫你告別無效重複，用科學方法由新手變大師。附 30 日挑戰 schedule 同常見練習錯誤 Fix。"
 ---
 

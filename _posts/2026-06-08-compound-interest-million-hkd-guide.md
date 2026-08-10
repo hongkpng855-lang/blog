@@ -5,7 +5,7 @@ date: 2026-06-08 20:52:00 +0800
 categories: [investment]
 tags: [複利, 投資入門, 財務自由, 百萬路線圖, 月供投資, 港股, ETF, 退休規劃, 2026]
 author: "Sun ny"
-image: /assets/images/posts/2026-06-08-compound-interest-million-guide-cover.svg
+image: assets/images/posts/2026-06-08-compound-interest-million-guide-cover.jpg
 description: "每月儲 HK$3,000 投資，20 年後真係可以有一百萬？呢篇文用真實數據同圖表，由複利公式開始解釋，教你點樣用月供 ETF、善用時間複利、避開常見錯誤，由零開始建立你嘅第一個百萬組合。唔需要天才，只需要紀律同時間。"
 ---
 
