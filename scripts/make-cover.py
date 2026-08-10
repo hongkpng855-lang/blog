@@ -57,8 +57,8 @@ def draw_center(draw, y, text, font, fill, w, spacing=0, outline=None, stroke=0,
 
 def make_cover(bg, title_zh, title_en, out):
     img = load_bg(bg)
-    # 統一 1200x630，cover crop
-    tw, th = 1200, 630
+    # 統一 1080x1080 正方形（IG/FB 最佳比例，2026-08-10 用戶要求）
+    tw, th = 1080, 1080
     iw, ih = img.size
     scale = max(tw / iw, th / ih)
     img = img.resize((int(iw * scale), int(ih * scale)), Image.LANCZOS)
@@ -70,30 +70,30 @@ def make_cover(bg, title_zh, title_en, out):
     overlay = Image.new("RGBA", (w, h), (0, 0, 0, 0))
     od = ImageDraw.Draw(overlay)
     od.rectangle([(0, 0), (w, h)], fill=(0, 0, 0, 55))
-    start = int(h * 0.45)
+    start = int(h * 0.55)
     for i in range(start, h):
         t = (i - start) / (h - start)
         od.line([(0, i), (w, i)], fill=(0, 0, 0, int(60 + 195 * (t ** 1.5))))
     img = Image.alpha_composite(img.convert("RGBA"), overlay).convert("RGB")
     draw = ImageDraw.Draw(img)
 
-    font_en = ImageFont.truetype(FONT_EN, 34)
-    font_zh = ImageFont.truetype(FONT_ZH, 88)
+    font_en = ImageFont.truetype(FONT_EN, 40)
+    font_zh = ImageFont.truetype(FONT_ZH, 96)
 
-    # ===== unwire 排版 =====
+    # ===== unwire 排版（正方形佈局） =====
     if title_en:
-        draw_center(draw, 130, title_en.upper(), font_en, GOLD, w, spacing=6, shadow=True)
-        draw.line([(w // 2 - 90, 195), (w // 2 + 90, 195)], fill=GOLD, width=3)
+        draw_center(draw, 200, title_en.upper(), font_en, GOLD, w, spacing=8, shadow=True)
+        draw.line([(w // 2 - 110, 285), (w // 2 + 110, 285)], fill=GOLD, width=4)
 
     zh_lines = [ln.strip() for ln in title_zh.split("|") if ln.strip()] if "|" in title_zh else [title_zh]
-    total_h = len(zh_lines) * 120
-    y = (h - total_h) // 2 + 30
+    total_h = len(zh_lines) * 140
+    y = (h - total_h) // 2 + 60
     for i, ln in enumerate(zh_lines):
         if len(zh_lines) == 2 and i == 1:
-            draw_center(draw, y, ln, font_zh, (0, 0, 0), w, outline=GOLD, stroke=5)
+            draw_center(draw, y, ln, font_zh, (0, 0, 0), w, outline=GOLD, stroke=6)
         else:
             draw_center(draw, y, ln, font_zh, WHITE, w, shadow=True)
-        y += 120
+        y += 140
 
     img.save(out, quality=93)
     print(f"✅ 封面完成: {out} ({w}x{h})")

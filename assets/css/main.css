@@ -634,7 +634,14 @@ a:hover { color: var(--amber-light); }
   border: 2px solid var(--amber);
   border-radius: 14px;
 }
+.post-cover {
+  position: relative;
+  max-width: 560px;
+  margin: 0 auto 1.5rem;
+}
 .post-cover img {
+  width: 100%;
+  height: auto;
   border-radius: var(--radius);
   border: 1px solid var(--border-soft);
   filter: saturate(0.94);
