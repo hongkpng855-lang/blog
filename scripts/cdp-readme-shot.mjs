@@ -66,4 +66,12 @@ await new Promise(r => setTimeout(r, 600));
 const shot = await send('Page.captureScreenshot', {format: 'png'});
 fs.writeFileSync(outPath, Buffer.from(shot.data, 'base64'));
 console.log('saved:', outPath, shot.data.length, 'bytes');
+
+// 2026-08-11：截圖完成後關閉 tab（釋放記憶體，防止 cron 連環失敗）
+try {
+  await send('Page.close', {});
+  console.log('tab closed (memory freed)');
+} catch (e) {
+  console.log('tab close skipped:', e.message);
+}
 process.exit(0);
