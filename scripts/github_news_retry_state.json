@@ -1,7 +1,7 @@
 {
   "last_retry_at": 1786392752484,
   "triggered_for": 1786386900497,
-  "last_check_at": 1786423868105,
-  "last_check_status": "ok_no_retry",
-  "note": "12:50 檢查：github-news 正常（12:49 commit 更新 state，12:24 Agent Reach 新聞已發佈），無需補跑"
+  "last_check_at": 1786446751874,
+  "last_check_status": "error_found_retry_blocked",
+  "note": "19:11 檢查：github-news 19:10 run error（isolated agent setup timed out before runner start，consecutiveErrors=1）。Cooldown 已過（上次 retry 04:12，>60 分鐘），嘗試 cron run force 觸發但受限（restricted run 只可操作自己 job），未能補跑。last_retry_at 冇更新，下次 retry（19:30）會再試；主 cron 下次排程 20:04。"
 }
