@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "12.1 萬星開源項目：shadcn/ui — 開源 UI 組件平台"
-date: 2026-08-11 22:30:00 +0800
+date: 2026-08-11 21:30:00 +0800
 categories: 技術
 tags: [開源, UI, React, shadcn, Tailwind, 前端, 開發工具, 組件庫]
 image: /assets/images/posts/github-shadcn-ui-news-hk-cover.jpg
