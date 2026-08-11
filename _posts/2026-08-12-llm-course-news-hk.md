@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "8.2萬星開源課程 llm-course：從零到 LLM 工程師的免費路線圖"
-date: 2026-08-12 00:40:00 +0800
+date: 2026-08-12 00:04:00 +0800
 categories: 技術
 tags: [LLM, 開源, 機器學習, 免費課程, GitHub, 學習路線圖, Colab, 深度學習]
 image: /assets/images/posts/llm-course-news-hk-cover.jpg
