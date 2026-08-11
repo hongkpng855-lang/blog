@@ -5,7 +5,7 @@ date: 2026-08-12 02:45:00 +0800
 categories: 技術
 tags: [AI 工具, System Prompts, Claude Code, Cursor, Windsurf, GitHub, 開源, AI 安全, 提示詞工程]
 image: /assets/images/posts/system-prompts-ai-tools-cover.jpg
-description: "system-prompts-and-models-of-ai-tools 是 GitHub 星標逾 14.2 萬的開源項目，收錄 Claude Code、Cursor、Windsurf、Devin、v0 等主流 AI 工具的系統提示詞與模型設定，採用 GPL-3.0 許可證，揭示提示詞注入與提取風險，是研究 AI 工具架構與提示詞工程的公開資料庫。"
+description: "system-prompts-and-models-of-ai-tools 是 GitHub 星標逾 14.2 萬的開源項目，收錄 Claude Code、Cursor、Windsurf、Devin、v0 等主流 AI 工具的系統提示詞與模型設定，採用 GPL-3.0 許可證，揭示提示詞注入與提取風險，是研究 AI 工具架構的公開資料庫。"
 author: AnIskill 編輯部
 creator_github: x1xhlol/system-prompts-and-models-of-ai-tools
 type: news
