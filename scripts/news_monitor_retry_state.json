@@ -1,4 +1,7 @@
 {
   "last_retry_at": 1786450667332,
-  "triggered_for": "1786449600109"
+  "triggered_for": "1786449600109",
+  "last_check_at": 1786460278129,
+  "last_check_status": "ok_no_retry_needed",
+  "note": "22:56 檢查：news-monitor 20:00 run 曾失敗 → 20:17 已補跑成功（文章 20:20/20:22 寫入，news_monitor_state.json 20:27 更新，story 圖 20:34-20:44 commit）。之後無新 scheduled run（每日 08:00/14:00/20:00，下次 08:00），無新失敗，唔需要再補跑。"
 }
