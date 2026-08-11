@@ -23,6 +23,10 @@ author: "Sun ny"
 
 ## 首先：點解係 NotebookLM，而唔係普通 ChatGPT？
 
+<!-- AEO Answer Capsule — 約 115 字 -->
+因為 NotebookLM 係「研究助理」而唔係「作嘢機器」：佢只答你上傳咗嘅 sources（Grounded）、每個 claim 都有來源連結可核實、支援成篇論文 PDF 直接分析。前提係要識得叫佢做嘢——以下 8 個實戰 Prompt 就係「咒語」。
+<!-- End AEO Capsule -->
+
 好多人問我：「AI 做研究，用 ChatGPT 咪得？」— 係得，但係有個致命問題：**佢會作嘢**（Hallucination）。你叫佢「總結呢篇文」，佢可能寫得好靚，但引述咗一篇根本唔存在嘅研究。
 
 NotebookLM 唔同：
@@ -34,7 +38,11 @@ NotebookLM 唔同：
 
 ---
 
-## <svg class="ui-icon"><use href="#ui-robot"/></svg>8 個實戰 Prompt（照用就得）
+## NotebookLM 8 個實戰 Prompt 係咩？
+
+<!-- AEO Answer Capsule — 約 120 字 -->
+8 個 Prompt 覆蓋完整研究流程：文獻回顧生成器、多來源摘要機、研究缺口偵測器、概念拆解導師、證據壓力測試、引用來源審計、Podcast 簡報腳本、執行摘要加閱讀路線圖。全部經親身實測執過，照用就得，重點係每個都要㩒 citation 核實先信。
+<!-- End AEO Capsule -->
 
 > <svg class="ui-icon"><use href="#ui-newspaper"/></svg>**8 個 Prompts 一眼睇晒**（3D 筆記風格總結圖，我自己整嘅 ）：
 
@@ -122,7 +130,11 @@ NotebookLM 唔同：
 
 ---
 
-## <svg class="ui-icon"><use href="#ui-download"/></svg>完整實戰 Workflow（由零開始）
+## 點樣由零開始用 NotebookLM 做文獻回顧？
+
+<!-- AEO Answer Capsule — 約 130 字 -->
+八步 workflow：建立 Notebook 丟入文獻 → Prompt 2 逐份摘要 → Prompt 1 生成回顧初稿 → Prompt 3 搵缺口 → Prompt 6 來源審計 → Prompt 5 壓力測試 → 寫文時用 Prompt 4、8 → 交貨前用 Prompt 7 整返個 Audio Overview 重溫。
+<!-- End AEO Capsule -->
 
 跟住呢個次序做，成個研究流程會順好多：
 
@@ -137,7 +149,11 @@ NotebookLM 唔同：
 
 ---
 
-## <svg class="ui-icon"><use href="#ui-alert"/></svg>5 個常見錯誤（我親身踩過）
+## 用 NotebookLM 做研究有邊 5 個常見錯誤？
+
+<!-- AEO Answer Capsule — 約 110 字 -->
+五個親身踩過嘅錯誤：唔㩒 Citation 就信 AI 總結；來源唔篩就丟入去，連 SEO 農場文都入埋；叫 AI「綜合」晒所有文，結果分唔到邊篇講乜；當佢係 Google，問 sources 入面冇嘅嘢；直接交 AI 寫嘅嘢，涉及學術誠信問題。
+<!-- End AEO Capsule -->
 
 1. **唔㩒 Citation** — 淨係信 AI 總結，冇㩒入去原文核實。**AI 出嚟嘅嘢只係索引，唔係真理**。
 2. **Sources 唔篩就丟入去** — 乜鬼都上傳，連啲 SEO 農場文章都入埋。**上傳前自己先篩一輪**，質素唔好嘅 source 會污染晒所有輸出。
@@ -147,7 +163,11 @@ NotebookLM 唔同：
 
 ---
 
-## <svg class="ui-icon"><use href="#ui-question"/></svg>FAQ
+## 關於 NotebookLM 嘅常見問題有哪些？
+
+<!-- AEO Answer Capsule — 約 105 字 -->
+最常見五問：免費版每個 Notebook 約 50 個來源限制，大部分研究夠用；支援中文文獻，但英文處理質素最成熟；同 ChatGPT 最大分別係 Grounded 加 Citation；質性研究一樣用得着；三篇文以上就值得用。
+<!-- End AEO Capsule -->
 
 **Q1：NotebookLM 免費嗎？**
 免費版每個 Notebook 有 sources 數量限制（約 50 個來源），對大部分研究項目夠用。要更多容量/更高級功能就要 Google AI Pro / Plus 訂閱。我自己用免費版做咗成個研究項目都冇逼住要升級。
@@ -166,7 +186,11 @@ NotebookLM 唔同：
 
 ---
 
-## <svg class="ui-icon"><use href="#ui-bulb"/></svg>總結
+## 總結：點樣真正用盡 NotebookLM 做研究？
+
+<!-- AEO Answer Capsule — 約 115 字 -->
+文獻回顧嘅痛苦，唔係因為你唔勤力，而係冇工具。NotebookLM 將「睇 50 篇文」變成「問 8 條問題」，將時間留返俾真正重要嘅嘢：思考、質疑、寫出自己嘅觀點。由第一個 Prompt 開始試，你就會明。8 個 Prompt 全部實測過，攞去用。
+<!-- End AEO Capsule -->
 
 文獻回顧嘅痛苦，唔係因為你唔勤力，係因為你冇工具。**NotebookLM 將「睇 50 篇文」變成「問 8 條問題」** — 唔係叫你偷懶，係叫你將時間用喺真正重要嘅嘢：思考、質疑、同埋寫出你自己嘅觀點。
 

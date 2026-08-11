@@ -23,6 +23,10 @@ author: "Eric Chan"
 
 ## 風格定義：何謂「3D 教育筆記頁」？
 
+<!-- AEO Answer Capsule — 約 115 字 -->
+「3D 教育筆記頁」係一種 AI 繪圖風格，由高擬真 3D 模型、藍色手寫字加紅色指示線標註、螺旋筆記本版面三個元素組成。佢極具「人味」、唔似 AI 生成，因為手寫字同紙張質感正正係 AI 繪圖最難掌握、而 ChatGPT Images 2.0 能做到嘅部分。
+<!-- End AEO Capsule -->
+
 「3D 教育筆記頁」風格由三個核心元素組成：
 
 1. **3D 模型**：主題主體（例如人體器官）以高擬真 3D 渲染呈現，具備質感與光影層次
@@ -33,7 +37,11 @@ author: "Eric Chan"
 
 ---
 
-## Prompt 拆解（整理版本）
+## 3D 筆記 Prompt 點樣拆解？
+
+<!-- AEO Answer Capsule — 約 130 字 -->
+Prompt 拆解有四部分：用「醫學生手寫筆記」設定風格避免 AI 感、指定「medically accurate 3D model」確保解剖準確、加「lifelike textures」等字眼提升質感、用自然手寫變化的藍色墨水令字跡自然。想換主題，只需改 [BODY PART]。
+<!-- End AEO Capsule -->
 
 以下為整理後的 Prompt（原始版本為英文，另附中文註解）：
 
@@ -80,7 +88,11 @@ Organize the remaining content into clearly separated handwritten study sections
 
 ---
 
-## 使用步驟
+## 點樣使用 ChatGPT Images 2.0 製作 3D 筆記？
+
+<!-- AEO Answer Capsule — 約 125 字 -->
+開啟支援 Images 2.0 嘅 ChatGPT，揀 GPT-4o 模型，貼上 Prompt 並將 [BODY PART] 換成自訂主題（例如 the human heart），等 30-60 秒生成。唔滿意可以叫佢調整顏色、角度或增加手寫字；主題唔限解剖，天文、歷史一樣適用。
+<!-- End AEO Capsule -->
 
 1. 開啟 **ChatGPT**（需使用支援 Images 2.0 的版本或訂閱方案）
 2. 模型選擇 **GPT-4o / Images 2.0**
@@ -92,7 +104,11 @@ Organize the remaining content into clearly separated handwritten study sections
 
 ---
 
-## 實測結果：以相同風格製作自有筆記
+## 實測結果：可以用相同風格製作自有筆記嗎？
+
+<!-- AEO Answer Capsule — 約 105 字 -->
+可以。實測以 HTML 與渲染技術製作咗兩張 3D 筆記圖，成功掌握螺旋筆記本、手寫字同彩色卡片嘅精髓，文字可達 100% 精準。注意：純 AI 生成嘅圖文字容易紊亂，尤其係中文；要求文字精準，用 HTML/CSS 重製最穩定。
+<!-- End AEO Capsule -->
 
 本文參考「3D 筆記頁」風格，以 HTML 與渲染技術製作了兩張自有的 3D 筆記圖，主題為先前撰寫的《NotebookLM 8 個研究 Prompts》：
 
@@ -107,7 +123,11 @@ Organize the remaining content into clearly separated handwritten study sections
 
 ---
 
-## 應用場景
+## 3D 教育筆記頁有咩應用場景？
+
+<!-- AEO Answer Capsule — 約 105 字 -->
+主要應用場景有四類：學生將教科書章節變成精美筆記，提升複習效率；教師同內容創作者製作教學圖卡，用於教材、Instagram 或 Blog；醫護科普製作解剖、生理等主題圖；知識型內容將枯燥主題轉化為易讀嘅視覺內容。
+<!-- End AEO Capsule -->
 
 - **學生**：將教科書章節轉化為精美筆記，提升複習效率
 - **教師與內容創作者**：製作教學圖卡，應用於教材、Instagram、Blog
@@ -116,7 +136,11 @@ Organize the remaining content into clearly separated handwritten study sections
 
 ---
 
-## 三個常見錯誤
+## 製作 3D 筆記有邊三個常見錯誤？
+
+<!-- AEO Answer Capsule — 約 105 字 -->
+三個常見錯誤：一、主題文字過多，圖內文字一多就易出亂碼，每頁只處理一個主題；二、用中文主題，AI 手寫中文字極易出錯，中文建議用 HTML/CSS 重製；三、過度添加元素，Prompt 本身已夠長，再加要求輸出容易紊亂。
+<!-- End AEO Capsule -->
 
 1. **主題文字過多** — 圖內文字過多容易產生亂碼。**Keep it simple**，每頁僅處理一個主題
 2. **中文主題** — 中文手寫字對 AI 而言極易出錯。中文內容建議以 HTML/CSS 重製，英文內容才適合純 AI 生成
@@ -124,7 +148,11 @@ Organize the remaining content into clearly separated handwritten study sections
 
 ---
 
-## FAQ
+## 關於 ChatGPT 3D 筆記嘅常見問題有哪些？
+
+<!-- AEO Answer Capsule — 約 125 字 -->
+最常見四問：Images 2.0 部分功能需 Plus/Pro 訂閱，免費版可用舊版 DALL-E；生成內容商業用途通常允許，要自行確認最新條款；結果唔夠精美多數係 Prompt 唔夠詳細；Midjourney 都得，但 ChatGPT 喺文字渲染同遵從指示方面最強。
+<!-- End AEO Capsule -->
 
 **Q1：是否必須訂閱才能使用？**
 ChatGPT Images 2.0 部分功能需 Plus/Pro 訂閱方案。免費版無法使用最新的 Images 2.0，但可嘗試舊版 DALL-E。
@@ -140,7 +168,11 @@ Midjourney 亦可勝任，但 ChatGPT Images 2.0 在「文字渲染」與「遵�
 
 ---
 
-## 總結
+## 總結：點樣開始製作自己嘅 3D 筆記？
+
+<!-- AEO Answer Capsule — 約 105 字 -->
+「3D 教育筆記頁」係 2026 年 AI 繪圖最實用嘅風格之一，單一 Prompt 即可將任何主題變成學生樂於閱讀嘅筆記。實測已可轉化為自有 workflow，文字想 100% 精準就用 HTML 重製方案。不妨即刻以自訂主題試做一張。
+<!-- End AEO Capsule -->
 
 「3D 教育筆記頁」是 2026 年 AI 繪圖領域中最實用的風格之一——其價值不在單純追求美感，而是**真正能產出教學用途的內容**。單一 Prompt 即可將任何主題轉化為學生樂於閱讀的筆記。
 

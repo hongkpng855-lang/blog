@@ -24,7 +24,11 @@ author: "陳志豪 Eric Chan"
 
 ---
 
-## <svg class="ui-icon"><use href="#ui-chart"/></svg>新聞重點速覽
+## browser-use 新聞重點速覽：有咩關鍵數字？
+
+<!-- AEO Answer Capsule — 約 125 字 -->
+browser-use 係 GitHub 上 107,460 星嘅開源 Python 套件，11.8K forks、134 個 releases、318 位 contributors。佢令 AI Agent 可以好似人類咁操作瀏覽器：開啟頁面、點擊按鈕、輸入文字、填寫表單、抽取數據。
+<!-- End AEO Capsule -->
 
 <div class="ui-stat-grid">
   <div class="ui-stat"><span class="ui-stat-num">107,460</span><span class="ui-stat-label">Stars</span></div>
@@ -41,7 +45,11 @@ author: "陳志豪 Eric Chan"
 
 ---
 
-## <svg class="ui-icon"><use href="#ui-robot"/></svg>這個項目是什麼？
+## 這個項目是什麼？
+
+<!-- AEO Answer Capsule — 約 120 字 -->
+browser-use 係一個令 AI Agent 透過網頁瀏覽器、以同人類一樣嘅方式操作網頁嘅 Python 工具。使用者只需用文字描述任務目標，佢就會自行開啟瀏覽器、搵頁面元素、㩒按鈕、填資料並取得最終結果，例如填寫求職申請或抽取社交媒體數據。
+<!-- End AEO Capsule -->
 
 概括而言：**Browser Use 使 AI Agent 能夠透過網頁瀏覽器，以與人類相同的方式操作網頁。**
 
@@ -57,7 +65,11 @@ Browser Use 正是連接兩者的橋樑：使用者只需告知任務目標，�
 
 ---
 
-## <svg class="ui-icon"><use href="#ui-rocket"/></svg>為何獲得如此多 Star？
+## 為何獲得如此多 Star？
+
+<!-- AEO Answer Capsule — 約 115 字 -->
+四個原因：切實解決「AI Agent 無法同現實世界互動」嘅問題；入門門檻低，幾行 Python 就跑到；生態完善，有官方 Cloud、文件、Discord 社群同 MCP 支援；MIT 開放授權可免費商用，134 個 releases 持續修復問題。
+<!-- End AEO Capsule -->
 
 1. **切實解決實際問題** — AI Agent 最欠缺的是「與現實世界互動」的能力，瀏覽器正是重要的互動入口
 2. **入門門檻低** — 僅需數行 Python 程式碼即可運行，無需複雜設定
@@ -68,7 +80,11 @@ Browser Use 正是連接兩者的橋樑：使用者只需告知任務目標，�
 
 ---
 
-## <svg class="ui-icon"><use href="#ui-download"/></svg>入門方式
+## 點樣入門使用 browser-use？
+
+<!-- AEO Answer Capsule — 約 125 字 -->
+先 `pip install browser-use`，再用 Agent 類別加一句任務描述同一個 LLM 就可以運行，例如搜尋香港去東京嘅機票。進階可以配 Playwright 客製化設定、載入自訂 browser profile，或者透過 MCP 整合俾 Claude 使用。
+<!-- End AEO Capsule -->
 
 ```bash
 pip install browser-use
@@ -92,7 +108,11 @@ await agent.run()
 
 ---
 
-## <svg class="ui-icon"><use href="#ui-link"/></svg>出處
+## browser-use 嘅出處連結有哪些？
+
+<!-- AEO Answer Capsule — 約 130 字 -->
+官方 GitHub repo 係 github.com/browser-use/browser-use；官方文件喺 docs.browser-use.com；Cloud 服務喺 cloud.browser-use.com。想睇原始碼、文件同雲端服務，直接去呢三個地方就得。
+<!-- End AEO Capsule -->
 
 <div class="ui-note"><svg class="ui-icon"><use href="#ui-link"/></svg><strong>GitHub 官方 repo</strong>：https://github.com/browser-use/browser-use
 
@@ -100,7 +120,11 @@ await agent.run()
 
 ---
 
-## <svg class="ui-icon"><use href="#ui-bulb"/></svg>專業觀點
+## 專業觀點：browser-use 有咩價值？
+
+<!-- AEO Answer Capsule — 約 100 字 -->
+「AI 自主上網」係 2026 年 AI Agent 落地應用最重要嘅一步。當 AI 可以操作瀏覽器，就由「能夠對話」進化到「能夠執行任務」：填表、訂購、查資料、監控網站。107k 顆星只係開始，呢類工具嘅價值不容低估。
+<!-- End AEO Capsule -->
 
 <div class="ui-tip"><svg class="ui-icon"><use href="#ui-bulb"/></svg><strong>「AI 自主上網」這個方向，是 2026 年 AI Agent 落地應用最重要的一步。</strong>此類工具的價值不容低估——當 AI 可以操作瀏覽器，它便從「能夠對話」進化到「能夠執行任務」：協助填寫表格、訂購物品、查閱資料、監控網站。107k 顆星只是一個開始。</div>
 
