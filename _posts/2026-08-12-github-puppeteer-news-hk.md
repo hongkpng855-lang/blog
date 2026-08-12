@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Puppeteer 9.5萬星開源項目：瀏覽器自動化標準工具"
-date: 2026-08-12 22:30:00 +0800
+date: 2026-08-12 22:20:00 +0800
 categories: 技術
 tags: [Puppeteer, Chrome, Firefox, 瀏覽器自動化, DevTools Protocol, AI Agent]
 image: /assets/images/posts/github-puppeteer-news-hk-cover.jpg
