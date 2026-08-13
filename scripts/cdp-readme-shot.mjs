@@ -45,7 +45,7 @@ const sc = await send('Runtime.evaluate', {expression: `(() => {
   if (!rd) return 'no-readme';
   const img = rd.querySelector('img');
   const h1 = rd.querySelector('h1');
-  const t = img || h1 || rd;
+  const t = h1 || img || rd;
   const top = t.getBoundingClientRect().top + window.scrollY;
   window.scrollTo(0, Math.max(0, top - 50));
   return 'ok scrollY=' + window.scrollY;
@@ -56,7 +56,7 @@ await new Promise(r => setTimeout(r, 1000));
 // 隱藏右欄 + scrollbar
 await send('Runtime.evaluate', {expression: `(() => {
   const s = document.createElement('style');
-  s.textContent = '.Layout-sidebar{display:none!important} ::-webkit-scrollbar{display:none!important} html,body{scrollbar-width:none}';
+  s.textContent = '.Layout-sidebar{display:none!important} [class*="PageLayout-PaneWrapper"]{display:none!important} [class*="CodeViewSidebar"]{display:none!important} ::-webkit-scrollbar{display:none!important} html,body{scrollbar-width:none}';
   document.head.appendChild(s);
   return 'ok';
 })()`});

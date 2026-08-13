@@ -42,7 +42,7 @@ if (mode === 'readme') {
     if (!rd) return 'no-readme';
     const img = rd.querySelector('img');
     const h1 = rd.querySelector('h1');
-    const t = img || h1 || rd;
+    const t = h1 || img || rd;
     const top = t.getBoundingClientRect().top + window.scrollY;
     window.scrollTo(0, Math.max(0, top - 50));
     return 'ok scrollY=' + window.scrollY;
