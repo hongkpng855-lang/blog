@@ -1,7 +1,8 @@
 {
-  "last_retry_at": 1786392752484,
-  "triggered_for": 1786386900497,
-  "last_check_at": 1786460134376,
+  "last_retry_at": 1786501245400,
+  "triggered_for": 1786500259829,
+  "last_check_at": 1786605355444,
   "last_check_status": "ok_no_retry_needed",
-  "note": "22:52 檢查：github-news 最新 run（22:04）status=ok（shadcn/ui 文章完整發佈，consecutiveErrors=0）。上次 19:10 error 係 retry cron 自己嘅 manual force-run（isolated setup timeout），主 cron 20:04/22:04 已連續成功。無需補跑。"
+  "note": "2026-08-13 15:15 檢查：cron tool 受限攞唔到 job 狀態，改用檔案系統證據。jekyll-blog 今日最新 post 14:52 已 commit（github-claw-code-news-hk），14:16/14:27 亦有成功 post。主 cron 運作正常，唔需要補跑。",
+  "last_checked_job_run": 1786593859829
 }
