@@ -153,6 +153,23 @@ def get_absolute_image(image_path):
     image_path = image_path.lstrip("/")
     return f"{BLOG_BASE}{image_path}"
 
+def wait_for_url_200(url, timeout=300, interval=15):
+    """發文前等 GitHub Pages build 完成：URL 返 200 先好發 FB，避免 FB 快取 404 preview（2026-08-13 用戶回報）"""
+    import time as _time
+    quoted = urllib.parse.quote(url, safe=":/?!&=%")
+    deadline = _time.time() + timeout
+    while _time.time() < deadline:
+        try:
+            req = urllib.request.Request(quoted, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=10) as resp:
+                if resp.status == 200:
+                    return True
+        except Exception:
+            pass
+        _time.sleep(interval)
+    return False
+
+
 def fb_post_comment(post_id, comment):
     """喺自己嘅 FB post 下面補第一條留言（需要 pages_manage_engagement 權限）"""
     url = f"https://graph.facebook.com/v21.0/{post_id}/comments"
@@ -268,6 +285,13 @@ def main():
 
         image_url = get_absolute_image(info["image"])
         url = get_post_url(post, info)
+
+        # ⚠️ 2026-08-13 用戶回報：FB post 顯示「404 - 頁面不存在」+ Eric Chan 封面
+        # 原因：commit 後 ~1 分鐘就發 FB，GitHub Pages 未 build 完 → FB 抓到 404 頁並快取
+        # 修復：發文前 poll URL 直到 200（最長 5 分鐘），唔好發死連結，等下次 retry
+        if not wait_for_url_200(url):
+            log(f"⏭️ 跳過發佈：URL 5 分鐘內未返 200（GitHub Pages 可能未 build 完），留待下次 retry：{url}")
+            continue
 
         # 帖文：標題 + 精簡內容 + Blog 連結卡片（FB 自動抓 og:image 封面）
         # ⚠️ 唔加任何外部連結（GitHub 出處等）——將 FB 流量引流去 Blog
