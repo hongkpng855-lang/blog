@@ -1,8 +1,8 @@
 {
   "last_retry_at": 1786502939469,
   "triggered_for": "1786496088833",
-  "last_check_at": 1786605521718,
+  "last_check_at": 1786617957937,
   "last_check_status": "ok_no_retry",
-  "note": "2026-08-13 15:16 複檢：cron tool 受限攞唔到 job 狀態，改用檔案系統證據。news-monitor 14:00 run 成功（commit b2399c0 14:28 發佈 Cognition 400億估值 + OpenAI ChatGPT 廣告兩篇，news_monitor_state.json 14:28 更新，written 含最新兩篇）。上次 08:00 run 亦確認 ok。判斷：正常，冇需補跑。",
-  "last_checked_job_run": 1786600800000
+  "last_checked_job_run": 1786600800000,
+  "note": "2026-08-13 18:45 複檢：cron tool 受限攞唔到 job 狀態，沿用檔案系統證據。news-monitor 14:00 run 成功（commit b2399c0 14:28 發佈兩篇，news_monitor_state.json 14:28 更新，written 9 條含最新兩篇）；14:36 後 commits（Claw Code / UI UX Pro Max / Pi agent 萬星新聞）屬 github-news job 非 news-monitor。下一次 run（約 20:00）未到，無 error 跡象。判斷：正常，冇需補跑。"
 }

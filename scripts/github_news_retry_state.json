@@ -1,8 +1,8 @@
 {
   "last_retry_at": 1786501245400,
   "triggered_for": 1786500259829,
-  "last_check_at": 1786605355444,
+  "last_check_at": 1786617232000,
   "last_check_status": "ok_no_retry_needed",
-  "note": "2026-08-13 15:15 檢查：cron tool 受限攞唔到 job 狀態，改用檔案系統證據。jekyll-blog 今日最新 post 14:52 已 commit（github-claw-code-news-hk），14:16/14:27 亦有成功 post。主 cron 運作正常，唔需要補跑。",
-  "last_checked_job_run": 1786593859829
+  "note": "2026-08-13 18:33 檢查：由 ~/.openclaw/cron/jobs-state.json 直接讀取 github-news job (eb3bc94f) 真實狀態 — lastRunStatus=ok, lastRunAtMs=1786615459834 (18:04), lastDeliveryStatus=delivered, consecutiveErrors=0, nextRun 20:04。主 cron 運作正常，唔需要補跑。",
+  "last_checked_job_run": 1786615459834
 }
