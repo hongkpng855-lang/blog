@@ -1,16 +1,14 @@
 #!/usr/bin/env node
-// cdp-shot.mjs — 通用 CDP 截圖工具（截完自動關 tab，釋放記憶體）
-// 用法: node cdp-shot.mjs <url> <output_path> <mode>
-//   mode: top    = 頁面最頂（repo 名 + stars）
-//         readme = README 開頭（scroll 對齊 H1/img）
-//         stats  = contributors/stargazers 統計區
+// cdp-shot.mjs — 通用 GitHub 頁面截圖（top / 指定 scrollY）
+// 用法: node cdp-shot.mjs <repo_url> <output_path> [scrollY] [height]
 import http from 'http';
 import fs from 'fs';
 
-const url = process.argv[2];
+const repoUrl = process.argv[2];
 const outPath = process.argv[3];
-const mode = process.argv[4] || 'top';
-if (!url || !outPath) { console.error('用法: node cdp-shot.mjs <url> <output_path> <mode>'); process.exit(1); }
+const scrollY = parseInt(process.argv[4] || '0', 10);
+const height = parseInt(process.argv[5] || '900', 10);
+if (!repoUrl || !outPath) { console.error('用法: node cdp-shot.mjs <repo_url> <output_path> [scrollY] [height]'); process.exit(1); }
 
 const tabs = await new Promise((resolve, reject) => {
   http.get('http://127.0.0.1:18800/json', res => {
@@ -31,51 +29,25 @@ const pending = new Map();
 ws.onmessage = e => { const m = JSON.parse(e.data); if (m.id && pending.has(m.id)) { pending.get(m.id)(m.result); pending.delete(m.id); } };
 const send = (method, params = {}) => new Promise(res => { const mid = ++id; pending.set(mid, res); ws.send(JSON.stringify({id: mid, method, params})); });
 
-await send('Page.navigate', {url});
-await new Promise(r => setTimeout(r, 5000));
-await send('Emulation.setDeviceMetricsOverride', {width: 1280, height: 1600, deviceScaleFactor: 1, mobile: false});
+await send('Page.navigate', {url: repoUrl});
+await new Promise(r => setTimeout(r, 6000));
+await send('Emulation.setDeviceMetricsOverride', {width: 1280, height, deviceScaleFactor: 1, mobile: false});
 await new Promise(r => setTimeout(r, 1500));
 
-if (mode === 'readme') {
-  const sc = await send('Runtime.evaluate', {expression: `(() => {
-    const rd = document.querySelector('.markdown-body');
-    if (!rd) return 'no-readme';
-    const img = rd.querySelector('img');
-    const h1 = rd.querySelector('h1');
-    const t = h1 || img || rd;
-    const top = t.getBoundingClientRect().top + window.scrollY;
-    window.scrollTo(0, Math.max(0, top - 50));
-    return 'ok scrollY=' + window.scrollY;
-  })()`, returnByValue: true});
-  console.log('scroll:', sc.result.value);
-} else if (mode === 'stats') {
-  const sc = await send('Runtime.evaluate', {expression: `(() => {
-    // 搵 stars/stat 區：右上 About 區或 stargazers 連結
-    const s = document.querySelector('#repo-stars-counter-star') || document.querySelector('.starred');
-    const about = document.querySelector('.Layout-sidebar .BorderGrid-row');
-    if (about) { const top = about.getBoundingClientRect().top + window.scrollY; window.scrollTo(0, Math.max(0, top - 80)); return 'about scrollY=' + window.scrollY; }
-    if (s) { s.scrollIntoView(); return 'star scrollY=' + window.scrollY; }
-    window.scrollTo(0, 400); return 'fallback';
-  })()`, returnByValue: true});
-  console.log('stats scroll:', sc.result.value);
-} else {
-  await send('Runtime.evaluate', {expression: 'window.scrollTo(0, 0); "top"', returnByValue: true});
-}
-await new Promise(r => setTimeout(r, 1000));
-
 // 隱藏 scrollbar
-await send('Runtime.evaluate', {expression: `(() => {
-  const s = document.createElement('style');
-  s.textContent = '::-webkit-scrollbar{display:none!important} html,body{scrollbar-width:none}';
-  document.head.appendChild(s);
-  return 'ok';
-})()`});
-await new Promise(r => setTimeout(r, 600));
+await send('Runtime.evaluate', {expression: `(() => { const s = document.createElement('style'); s.textContent = '*::-webkit-scrollbar{display:none!important} *{scrollbar-width:none!important}'; document.head.appendChild(s); return 'ok'; })()`});
+await new Promise(r => setTimeout(r, 500));
 
-const shot = await send('Page.captureScreenshot', {format: 'png'});
+if (scrollY > 0) {
+  await send('Runtime.evaluate', {expression: `window.scrollTo(0, ${scrollY})`});
+  await new Promise(r => setTimeout(r, 1200));
+}
+
+const shot = await send('Page.captureScreenshot', {format: 'png', captureBeyondViewport: false});
 fs.writeFileSync(outPath, Buffer.from(shot.data, 'base64'));
-console.log('saved:', outPath, shot.data.length, 'bytes');
+console.log(`saved: ${outPath} (${fs.statSync(outPath).size} bytes)`);
 
-try { await send('Page.close', {}); console.log('tab closed (memory freed)'); }
-catch (e) { console.log('tab close skipped:', e.message); }
-process.exit(0);
+// 關閉 tab（記憶體防護）
+await send('Page.close').catch(() => {});
+ws.close();
+console.log('tab closed (memory freed)');
