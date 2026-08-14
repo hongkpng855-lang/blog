@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "92,286 星開源項目：Awesome MCP Servers — 全球最大目錄"
-date: 2026-08-14 16:30:00 +0800
+date: 2026-08-14 15:30:00 +0800
 categories: 技術
 tags: [MCP, AI 代理, 開源, 開發工具, 生態系統, AI 整合, 協議, GitHub]
 image: /assets/images/posts/github-awesome-mcp-servers-news-hk-cover.jpg
