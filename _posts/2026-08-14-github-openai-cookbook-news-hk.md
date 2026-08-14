@@ -90,4 +90,8 @@ OpenAI Cookbook 值得深入研究。它以官方權威性、近 270 個可執�
 
 ## 出處連結有哪些？
 
+<!-- AEO Answer Capsule — 約 65 字 -->
+本文章內容整理自 OpenAI 官方開源項目 openai/openai-cookbook，以 MIT 授權開放，星標與內容會隨時間變動，讀者可前往官方 GitHub 頁面查閱最新資訊與完整範例。
+<!-- End AEO Capsule -->
+
 本文章內容整理自 OpenAI 官方開源項目：[openai/openai-cookbook](https://github.com/openai/openai-cookbook)（MIT License）。數據截至 2026 年 8 月 14 日，星標數與內容會隨時間變動，建議前往官方頁面查閱最新資訊。
