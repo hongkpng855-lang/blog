@@ -1,8 +1,8 @@
 {
   "last_retry_at": 1786502939469,
   "triggered_for": "1786496088833",
-  "last_check_at": 1786733137618,
+  "last_check_at": 1786740611424,
   "last_check_status": "ok_no_retry",
-  "last_checked_job_run": "2026-08-15 02:45 news-monitor check: 00:45 已確認 2026-08-14 20:00 run status=ok；期間無新 run（下次 08:00），status=ok",
-  "note": "2026-08-15 02:45 複檢：news-monitor 上次 run 已確認 ok，00:45-02:45 之間無新 run，無需補跑。下次主 run 2026-08-15 08:00。"
+  "last_checked_job_run": "2026-08-15 04:50 news-monitor check: cron API 受限無法直接讀 job，但 02:45 檢查已確認上次 run status=ok，期間無新 run（下次主 run 08:00），status=ok",
+  "note": "2026-08-15 04:50 複檢：cron tool 喺 retry job 內被限制，未能直接讀取 news-monitor job 狀態；根據 02:45 檢查記錄 lastRunStatus=ok 且期間無新 run，無需補跑。下次主 run 2026-08-15 08:00。"
 }
