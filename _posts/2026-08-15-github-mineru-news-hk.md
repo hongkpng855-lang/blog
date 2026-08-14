@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "77,636 星開源項目：MinerU — 高精度文檔解析引擎"
-date: 2026-08-15 04:30:00 +0800
+date: 2026-08-15 04:10:00 +0800
 categories: 技術
 tags: [AI, 文檔解析, PDF, OCR, RAG, LLM, 開源, 大模型, GitHub]
 image: /assets/images/posts/github-mineru-news-hk-cover.jpg
