@@ -1,8 +1,8 @@
 {
   "last_retry_at": 1786696765477,
   "triggered_for": "1786694659831",
-  "last_check_at": 1786696765477,
-  "last_check_status": "retry_triggered",
-  "last_checked_job_run": "1786694659831",
-  "note": "2026-08-14 16:39 檢查：github-news (eb3bc94f) lastRunStatus=error（deepseek-v4-flash timeout + free 429 rate_limit, consecutiveErrors=1, lastRunAtMs=1786694659831）。Cooldown 已過（上次 retry 1786501245400，>54 小時前），已觸發補跑 runId=manual:eb3bc94f-73b1-42a6-949c-3aae0ca629cd:1786696758479:7。"
+  "last_check_at": 1786731859706,
+  "last_check_status": "ok_no_retry",
+  "last_checked_job_run": "1786730659832",
+  "note": "2026-08-15 02:24 檢查：github-news (eb3bc94f) lastRunStatus=ok（lastRunAtMs=1786730659832 = 02:04，duration ~19min，consecutiveErrors=0）。上次 08-14 16:39 補跑已成功，主 cron 正常，冇需補跑。"
 }

@@ -1,8 +1,8 @@
 {
   "last_retry_at": 1786502939469,
   "triggered_for": "1786496088833",
-  "last_check_at": 1786725933812,
+  "last_check_at": 1786733137618,
   "last_check_status": "ok_no_retry",
-  "last_checked_job_run": "2026-08-15 00:45 news-monitor check (lastRunAtMs=1786708800024, 昨日20:00 run), status=ok, durationMs=390459",
-  "note": "2026-08-15 00:45 複檢：news-monitor (45c864cb) 最新 run 2026-08-14 20:00 (Asia/Taipei) status=ok、durationMs=390459。判斷：正常，冇需補跑。下次 run 2026-08-15 08:00。"
+  "last_checked_job_run": "2026-08-15 02:45 news-monitor check: 00:45 已確認 2026-08-14 20:00 run status=ok；期間無新 run（下次 08:00），status=ok",
+  "note": "2026-08-15 02:45 複檢：news-monitor 上次 run 已確認 ok，00:45-02:45 之間無新 run，無需補跑。下次主 run 2026-08-15 08:00。"
 }
