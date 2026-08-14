@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 8 萬星開源項目：DeerFlow 2.0 — 字節跳動的長時程任務超級代理框架
-date: 2026-08-14 18:30:00 +0800
+date: 2026-08-14 18:00:00 +0800
 categories: 技術
 tags: [AI, 開源, 字節跳動, Agent, LLM]
 image: /assets/images/posts/github-deerflow-news-hk-cover.jpg
