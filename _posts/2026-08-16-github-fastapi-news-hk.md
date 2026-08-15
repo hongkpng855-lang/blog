@@ -104,6 +104,8 @@ FastAPI 生態圍繞 AI 應用擴展：兄弟項目 Typer 專注 CLI 開發，�
   <div class="stat-card"><div class="stat-value">0.141.1</div><div class="stat-label">最新版本</div></div>
 </div>
 
+![FastAPI Contributors 統計頁（Contributors 標題 + 每週提交數柱狀圖 + 貢獻者排名列表，首位為 github-actions[bot] 340 commits、第二位為 tiangolo 206 commits，頁面同時顯示 102k Star 與 9.8k Forks）]({{ '/assets/images/posts/github-fastapi-news-hk-shot3.png' | relative_url }})
+
 ## FastAPI 常見問題有哪些？
 
 **FastAPI 與 Starlette 是什麼關係？** Starlette 是 FastAPI 底層的 Web 工具套件，提供路由、中介軟體與非同步支援；FastAPI 在其之上加入 Pydantic 資料驗證、自動文檔與 OpenAPI 生成能力，並將兩者整合為一致的開發框架。開發者可直接使用 FastAPI 暴露的 API，無需深入了解 Starlette 細節。
