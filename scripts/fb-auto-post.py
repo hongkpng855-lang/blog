@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Blog → Facebook 自動發文 script v8
+Blog → Facebook 自動發文 script v10
 - 檢查 jekyll-blog/_posts/ 有冇新文章（相對 state 檔案）
-- ⚠️ 只發佈 GitHub 新聞（front matter 有 creator_github 嘅文章）— 其他 auto-publish 文章唔發去 FB
+- ⚠️ 只發佈新聞文章（front matter 有 creator_github 或 type: news）— 其他 auto-publish 文章唔發去 FB
 - ⚠️ 帖文用 front matter `fb_message`（2026-08-05 用戶要求：FB 文要係重新濃縮寫過嘅版本，唔係照抄 blog 內容）；冇 fb_message 先 fallback 去 description
+- ⚠️ 帖文結尾自動加統一 CTA footer（2026-08-15 新增：追蹤 CTA + 互動鉤，研究「一人公司研究所」增長策略後實行）
 - 有 → 自動 POST 去 Facebook 專頁（精簡版內容 + 封面圖卡片 + Blog 連結，引流去 Blog）
 - 記錄已發佈文章，避免重複發佈
 
@@ -50,6 +51,15 @@ BLOG_BASE = "https://aniskill.esgov.org/"
 # 發文後自動補第一條留言（2026-08-08 新增）
 # ⚠️ 需要 pages_manage_engagement 權限；未加權限前會自動跳過，唔影響發文
 FB_FIRST_COMMENT_TEMPLATE = "📌 完整文章：{url}\n\n想睇完整教學？撳上面條連結 👆"
+
+# FB 帖文統一 CTA footer（2026-08-15 新增：實行「增長計劃」第 1 步）
+# 目的：① 每篇 post 都有追蹤 CTA（將讀者轉化成 followers）② 加互動鉤（增加留言/分享 → 提升 FB 演算法曝光）
+# ⚠️ 由 script 統一加，fb_message 唔使重複寫 CTA（cron prompt 已指引）；保持精簡 2 行
+FB_CTA_TEMPLATE = (
+    "\n\n—\n"
+    "🔔 追蹤 Eric Chan AI實戰誌，每日同你拆解 AI 新聞 + 開源神器\n"
+    "💬 你點睇？留言交流吓"
+)
 
 def log(msg):
     ts = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -207,7 +217,7 @@ def fb_post_link(message, link):
 
 def main():
     lock_fd = acquire_lock()
-    log("=== Blog → Facebook 自動發文檢查 (v9: GitHub 新聞 + 外媒/AI 新聞 (type: news) + fb_message 濃縮版) ===")
+    log("=== Blog → Facebook 自動發文檢查 (v10: 新聞文章 + fb_message 濃縮版 + 追蹤 CTA footer) ===")
     first_run = not os.path.exists(STATE_FILE)
     state = load_state()
     posted = set(state.get("posted", []))
@@ -293,9 +303,10 @@ def main():
             log(f"⏭️ 跳過發佈：URL 5 分鐘內未返 200（GitHub Pages 可能未 build 完），留待下次 retry：{url}")
             continue
 
-        # 帖文：標題 + 精簡內容 + Blog 連結卡片（FB 自動抓 og:image 封面）
+        # 帖文：標題 + 精簡內容 + 統一 CTA footer + Blog 連結卡片（FB 自動抓 og:image 封面）
         # ⚠️ 唔加任何外部連結（GitHub 出處等）——將 FB 流量引流去 Blog
-        message = f"{title}\n\n{body_text}"
+        # ⚠️ 2026-08-15 新增：結尾加 FB_CTA_TEMPLATE（追蹤 CTA + 互動鉤）
+        message = f"{title}\n\n{body_text}{FB_CTA_TEMPLATE}"
         ok, result = fb_post_link(message, url)
 
         if ok:
