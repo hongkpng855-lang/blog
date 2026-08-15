@@ -1,8 +1,8 @@
 {
   "last_retry_at": 1786696765477,
   "triggered_for": "1786694659831",
-  "last_check_at": 1786739943697,
+  "last_check_at": 1786789656440,
   "last_check_status": "ok_no_retry",
-  "last_checked_job_run": "1786737859824",
-  "note": "2026-08-15 04:37 檢查：github-news (eb3bc94f) lastRunStatus=ok（lastRunAtMs=1786737859824 = 04:04，duration ~34min，consecutiveErrors=0，delivered）。正常，冇需補跑。"
+  "last_checked_job_run": 1786788259829,
+  "note": "2026-08-15 18:27 檢查：github-news (eb3bc94f) lastRunStatus=ok（lastRunAtMs=1786788259829=18:04，delivered，consecutiveErrors=0）。正常，冇需補跑。"
 }
