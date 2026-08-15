@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "7.4 萬星開源項目：LlamaFactory — 一站式高效微調百款大模型框架"
-date: 2026-08-15 16:30:00 +0800
+date: 2026-08-15 15:30:00 +0800
 categories: 技術
 tags: [GitHub, 開源, LlamaFactory, 大模型微調, LLM, Fine-Tuning, LoRA, QLoRA, 多模態, AI Agent, Python, 機器學習, 科技新聞, 香港, auto-publish, github-news]
 image: /assets/images/posts/github-llamafactory-news-cover.jpg
