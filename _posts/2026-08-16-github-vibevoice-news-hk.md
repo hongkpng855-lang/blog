@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "52,713 星開源項目：VibeVoice — 微軟開源語音 AI 家族"
-date: 2026-08-16 04:20:00 +0800
+date: 2026-08-16 03:55:00 +0800
 categories: 技術
 tags: [VibeVoice, 語音 AI, TTS, ASR, 開源軟體, 微軟, 語音辨識, 語音合成, Python, MIT]
 image: /assets/images/posts/github-vibevoice-news-hk-cover.jpg
