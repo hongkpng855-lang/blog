@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "58K 星開源項目 last30days：以社群參與度排序的 AI 搜尋引擎"
-date: 2026-08-15 12:30:00 +0800
+date: 2026-08-15 11:30:00 +0800
 categories: 技術
 tags: [AI, 開源項目, 搜尋引擎, Agent Skills, GitHub]
 image: /assets/images/posts/github-last30days-news-hk-cover.jpg
