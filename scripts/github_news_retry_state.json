@@ -1,8 +1,8 @@
 {
   "last_retry_at": 1786696765477,
   "triggered_for": "1786694659831",
-  "last_check_at": 1786789656440,
+  "last_check_at": 1786818703162,
   "last_check_status": "ok_no_retry",
-  "last_checked_job_run": 1786788259829,
-  "note": "2026-08-15 18:27 檢查：github-news (eb3bc94f) lastRunStatus=ok（lastRunAtMs=1786788259829=18:04，delivered，consecutiveErrors=0）。正常，冇需補跑。"
+  "last_checked_job_run": 1786817967000,
+  "note": "2026-08-16 02:31 檢查：cron get 受限（restricted to current job），改用 git log 驗證。最新 news commit = 02:19 (Stirling-PDF 新聞) + Story 圖 02:25，即最近一班 github-news 已成功發佈，過去 3 小時 7 個 commit 全部正常，冇 error 跡象。正常，冇需補跑。"
 }
