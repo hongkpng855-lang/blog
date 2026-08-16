@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "60,916 星開源項目：GPT-SoVITS — 語音克隆與文字轉語音工具"
-date: 2026-08-16 16:30:00 +0800
+date: 2026-08-16 16:10:00 +0800
 categories: 技術
 tags: [GPT-SoVITS, 語音克隆, 文字轉語音, TTS, 開源軟體, AI 語音, Few-shot, 跨語言合成]
 image: /assets/images/posts/github-gpt-sovits-news-hk-cover.jpg
