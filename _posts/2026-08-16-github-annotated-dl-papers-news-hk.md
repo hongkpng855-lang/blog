@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "67,308 星開源項目：深度學習論文實作庫 — 逐行註解的 PyTorch 教學"
-date: 2026-08-16 18:30:00 +0800
+date: 2026-08-16 18:10:00 +0800
 categories: 技術
 tags: [深度學習, PyTorch, 論文實作, Transformer, 擴散模型, GAN, 強化學習, 開源軟體, MIT 授權, labml.ai]
 image: /assets/images/posts/github-annotated-dl-papers-news-hk-cover.jpg
