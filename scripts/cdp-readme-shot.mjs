@@ -56,11 +56,14 @@ await new Promise(r => setTimeout(r, 1000));
 // 隱藏右欄 + scrollbar
 await send('Runtime.evaluate', {expression: `(() => {
   const s = document.createElement('style');
-  s.textContent = '.Layout-sidebar{display:none!important} [class*="PageLayout-PaneWrapper"]{display:none!important} [class*="CodeViewSidebar"]{display:none!important} ::-webkit-scrollbar{display:none!important} html,body{scrollbar-width:none}';
+  s.textContent = '.Layout-sidebar{display:none!important} [class*="PageLayout-PaneWrapper"]{display:none!important} [class*="CodeViewSidebar"]{display:none!important} *::-webkit-scrollbar{display:none!important} *{scrollbar-width:none!important} ::-webkit-scrollbar{width:0!important;height:0!important;display:none!important} html,body{scrollbar-width:none!important} html{overflow:hidden!important} body{overflow:hidden!important}';
   document.head.appendChild(s);
   return 'ok';
 })()`});
 await new Promise(r => setTimeout(r, 600));
+
+// CDP 原生隱藏 scrollbar（headless 下最可靠）
+try { await send('Emulation.setScrollbarsHidden', {hidden: true}); } catch (e) { console.log('scrollbar hide skipped'); }
 
 // 截圖
 const shot = await send('Page.captureScreenshot', {format: 'png'});
