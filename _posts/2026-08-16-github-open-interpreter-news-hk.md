@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "68,023 星開源項目：Open Interpreter — 低價模型編碼代理"
-date: 2026-08-16 12:45:00 +0800
+date: 2026-08-16 10:00:00 +0800
 categories: 技術
 tags: [Open Interpreter, 開源軟體, AI 編碼, Coding Agent, Kimi K3, 大型語言模型, Rust, ACP]
 image: /assets/images/posts/open-interpreter-cover.jpg
