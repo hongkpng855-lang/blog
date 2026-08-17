@@ -52,6 +52,10 @@ Computer History 的推出，顯示 AI 助手正從「被動回答」進化到�
 
 ## 常見問題有哪些？
 
+<!-- AEO Answer Capsule — 約 70 字 -->
+Computer History 採用選擇加入（opt-in）而非預設啟用的設計，使用者需自行開啟才有作用，不會在不知情下自動記錄操作。使用者可排除特定應用程式與網站，也能刪除個別記錄，系統並會自動忽略無痕或私隱瀏覽分頁，降低誤記風險。
+<!-- End AEO Capsule -->
+
 ### Computer History 是預設開啟的嗎？
 
 不是。Computer History 採用選擇加入（opt-in）而非預設啟用（opt-out）的設計，使用者需自行開啟才有作用，因此不會在不知情的情況下自動記錄操作。
