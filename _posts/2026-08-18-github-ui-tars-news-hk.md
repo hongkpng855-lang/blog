@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "38,610 星開源項目：UI-TARS 多模態 AI Agent"
-date: 2026-08-18 06:30:00 +0800
+date: 2026-08-18 06:00:00 +0800
 categories: 技術
 tags: [UI-TARS, AI Agent, 多模態, GUI Agent, ByteDance, 開源軟體, 電腦操作, 視覺語言模型, MCP, Agent TARS]
 image: /assets/images/posts/github-ui-tars-news-hk-cover.jpg
