@@ -1,8 +1,8 @@
 {
   "last_retry_at": 1786502939469,
   "triggered_for": "1786496088833",
-  "last_check_at": 1786819536764,
+  "last_check_at": 1786992314932,
   "last_check_status": "ok_no_retry",
-  "last_checked_job_run": "2026-08-16 02:19-02:25 班次（Stirling-PDF news + Story 圖 commit 正常）",
-  "note": "2026-08-16 02:45 檢查：cron get 被 restricted，沿用 news_monitor_state.json + git log 驗證。02:19 新聞 commit、02:25 Story 圖 commit，pipeline 正常運作，無 error 跡象。正常，冇需補跑。"
+  "last_checked_job_run": "2026-08-17 20:00-08-18 02:45 檢查：cron get restricted（retry cron 只能存取自身 job），沿用 news_monitor_state.json + git log 驗證。最新 commit（whisper.cpp / worldmonitor / DeepSeek Harness / Zed / Stripe 收購）全正常；github-news 02:00 班次 02:34 檢查正常發佈。news-monitor pipeline 正常，無 error 跡象。",
+  "note": "2026-08-18 02:45 檢查：正常，冇需補跑。"
 }

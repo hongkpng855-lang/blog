@@ -1,8 +1,9 @@
 {
-  "last_retry_at": 1786696765477,
-  "triggered_for": "1786694659831",
-  "last_check_at": 1786818703162,
-  "last_check_status": "ok_no_retry",
-  "last_checked_job_run": 1786817967000,
-  "note": "2026-08-16 02:31 檢查：cron get 受限（restricted to current job），改用 git log 驗證。最新 news commit = 02:19 (Stirling-PDF 新聞) + Story 圖 02:25，即最近一班 github-news 已成功發佈，過去 3 小時 7 個 commit 全部正常，冇 error 跡象。正常，冇需補跑。"
+  "last_retry_at": 1786897444466,
+  "triggered_for": "1786896259839",
+  "triggered_run_id": "manual:eb3bc94f-73b1-42a6-949c-3aae0ca629cd:1786897436012:9",
+  "last_check_at": 1786991687442,
+  "last_check_status": "no_retry_needed",
+  "last_checked_job_run": "github-news 02:00 班已成功發佈（新文章 2026-08-18-github-zed-news-hk.md，02:15 commit）",
+  "note": "2026-08-18 02:34 檢查：github-news 昨晚/今晨已正常發佈新文章，無需補跑。"
 }
