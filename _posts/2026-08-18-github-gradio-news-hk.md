@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "43,376 星開源項目：Gradio — 用 Python 快速打造 AI 網頁應用"
-date: 2026-08-18 04:15:00 +0800
+date: 2026-08-18 03:45:00 +0800
 categories: 技術
 tags: [Gradio, Python, 機器學習, 開源, AI工具, 網頁應用, Hugging Face, 資料科學]
 image: /assets/images/posts/github-gradio-news-hk-cover.jpg
