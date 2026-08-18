@@ -2,8 +2,8 @@
   "last_retry_at": null,
   "triggered_for": null,
   "triggered_run_id": null,
-  "last_check_at": 1787049089964,
+  "last_check_at": 1787084405429,
   "last_check_status": "no_retry_needed",
-  "last_checked_job_run": "github-news 正常運作：最新發佈 2026-08-18-github-supervision-news-hk.md (18:11)，無需補跑",
-  "note": "2026-08-18 18:30 檢查：github-news 持續正常發佈，無需補跑。"
+  "last_checked_job_run": "github-news 持續正常發佈（最近一篇 2026-08-19 04:06），無需補跑",
+  "note": "2026-08-19 04:19 檢查：_posts 最新為 04:06（13分鐘前），發佈正常，無需補跑。"
 }
