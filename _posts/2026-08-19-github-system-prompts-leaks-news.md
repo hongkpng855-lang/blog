@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "63K 星開源項目：System Prompts Leaks 揭開 AI 秘密指令"
-date: 2026-08-19 08:00:00 +0800
+date: 2026-08-19 00:15:00 +0800
 categories: 技術
 tags: [AI, 系統提示詞, LLM, 開源, GPT, Claude]
 image: /assets/images/posts/github-system-prompts-leaks-news-cover.jpg
