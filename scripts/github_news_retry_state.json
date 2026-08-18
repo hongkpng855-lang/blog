@@ -2,8 +2,8 @@
   "last_retry_at": null,
   "triggered_for": null,
   "triggered_run_id": null,
-  "last_check_at": 1787035541930,
+  "last_check_at": 1787049089964,
   "last_check_status": "no_retry_needed",
-  "last_checked_job_run": "github-news 正常運作：最新發佈 2026-08-18-github-netdata-news-hk.md (14:31)、groq (14:09)、ollama (12:09) 等，無需補跑",
-  "note": "2026-08-18 14:44 檢查：github-news 持續正常發佈，無需補跑。"
+  "last_checked_job_run": "github-news 正常運作：最新發佈 2026-08-18-github-supervision-news-hk.md (18:11)，無需補跑",
+  "note": "2026-08-18 18:30 檢查：github-news 持續正常發佈，無需補跑。"
 }
