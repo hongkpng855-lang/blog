@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "59K 星開源項目：Meilisearch 閃電級全文搜尋引擎"
-date: 2026-08-18 08:30:00 +0800
+date: 2026-08-18 08:20:00 +0800
 categories: 技術
 tags: [Meilisearch, 搜尋引擎, Rust, AI, 開源, 混合搜尋]
 image: /assets/images/posts/github-meilisearch-news-hk-cover.jpg
