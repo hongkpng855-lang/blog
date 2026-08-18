@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "56,640 星開源項目：LiteLLM — 統一 100+ 模型 API 閘道"
-date: 2026-08-18 22:15:00 +0800
+date: 2026-08-18 21:30:00 +0800
 categories: 技術
 tags: [LiteLLM, BerriAI, LLM, AI Gateway, 開源軟體, API, 人工智慧, Python, 模型部署]
 image: /assets/images/posts/github-litellm-news-hk-cover.jpg
