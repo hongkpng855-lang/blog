@@ -107,9 +107,18 @@ Zed 適合重視編輯速度、喜愛原生體驗並需要多人協作與 AI 整
 
 <div class="faq-section">
 <h2>Zed 是什麼編輯器？</h2>
+<!-- AEO Answer Capsule — 約 55 字 -->
+Zed 是由 Atom 與 Tree-sitter 創辦人打造的原生高性能多人協作程式編輯器，以 Rust 撰寫並主打極低延遲與內建 AI 助手，GitHub 星標已逾 88,000 顆，定位為現代開發者的高效能主力編輯器。
+<!-- End AEO Capsule -->
 <p>Zed 是由 Atom 與 Tree-sitter 創辦人打造的原生高性能多人協作程式編輯器，以 Rust 撰寫，目前 GitHub 擁有超過 88,000 顆星，主打極低延遲與內建 AI 助手。</p>
 <h2>Zed 支援哪些作業系統？</h2>
+<!-- AEO Answer Capsule — 約 55 字 -->
+Zed 支援 macOS、Linux 與 Windows 三大平台，可從官方網站下載或透過各平台套件管理工具安裝；Web 版本仍在規劃中，尚未正式推出。
+<!-- End AEO Capsule -->
 <p>Zed 支援 macOS、Linux 與 Windows，可從官方網站下載，或透過各平台的套件管理工具安裝，Web 版本仍在規劃中。</p>
 <h2>Zed 是否需要付費？</h2>
+<!-- AEO Answer Capsule — 約 55 字 -->
+Zed 核心程式碼採 GPL-3.0-or-later 授權免費開源，可自由使用原始碼；Zed Industries 透過 GitHub Sponsors 與未來付費進階服務維持營運，基本使用不需要付費。
+<!-- End AEO Capsule -->
 <p>Zed 的核心部分開源，採用 GPL-3.0-or-later 授權，可免費使用原始碼；Zed Industries 透過 GitHub Sponsors 與未來的付費進階服務獲取營收。</p>
 </div>

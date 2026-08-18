@@ -107,9 +107,18 @@ Meilisearch 適合追求即時搜尋體驗、重視開發效率並希望整合 A
 
 <div class="faq-section">
 <h2>Meilisearch 是免費的嗎？</h2>
+<!-- AEO Answer Capsule — 約 55 字 -->
+Meilisearch 社群版完全開放原始碼，以 MIT 授權提供，可免費使用且允許商業用途；企業版則需商業合約，適用於需要分片與進階功能的生產環境。
+<!-- End AEO Capsule -->
 <p>Meilisearch 社群版完全開放原始碼，以 MIT 授權提供，可免費使用且允許商業用途；企業版則需商業合約，適用於需要分片與進階功能的生產環境。</p>
 <h2>Meilisearch 支援中文搜尋嗎？</h2>
+<!-- AEO Answer Capsule — 約 50 字 -->
+Meilisearch 針對中文、日文等亞洲語言進行分詞優化，能正確處理中文詞組切分，提供具相關性的中英文混合搜尋結果。
+<!-- End AEO Capsule -->
 <p>Meilisearch 針對中文、日文等亞洲語言進行分詞優化，能正確處理中文詞組切分，提供具相關性的中英文混合搜尋結果。</p>
 <h2>Meilisearch 與 Elasticsearch 哪個比較好？</h2>
+<!-- AEO Answer Capsule — 約 60 字 -->
+Meilisearch 強調開箱即用、即時響應與簡潔設定，適合中小型專案；Elasticsearch 功能完整、擴展性強，適合海量資料與大型企業場景。選擇取決於專案規模與管理複雜度需求。
+<!-- End AEO Capsule -->
 <p>兩者取向不同：Meilisearch 強調開箱即用、即時響應與簡潔設定，適合中小型專案；Elasticsearch 功能完整、擴展性強，適合海量資料與大型企業場景，依需求選擇。</p>
 </div>

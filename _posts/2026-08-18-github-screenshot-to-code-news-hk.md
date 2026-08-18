@@ -5,7 +5,7 @@ date: 2026-08-18 20:00:00 +0800
 categories: 技術
 tags: [screenshot-to-code, 截圖轉代碼, AI 生成程式, 前端開發, Tailwind, React, Vue, FastAPI, 開源軟體, Python]
 image: /assets/images/posts/github-screenshot-to-code-news-hk-cover.jpg
-description: "screenshot-to-code 是 GitHub 星標超過 7.4 萬的開源 AI 專案，由開發者 abi 建立，只要丟進一張螢幕截圖或設計圖，就能在數秒內轉換成乾淨、可執行的程式碼，支援 HTML+Tailwind、React、Vue、Bootstrap 等多種前端技術棧，並可搭配 Gemini、GPT、Claude 等主流模型生成，採用 MIT 授權。"
+description: "screenshot-to-code 是 GitHub 星標逾 7.4 萬的開源 AI 專案，開發者 abi 只需上傳截圖或設計圖，數秒內即轉成乾淨可執行的程式碼，支援 HTML+Tailwind、React、Vue 等技術棧，可搭配 Gemini、GPT、Claude 等主流模型生成，採 MIT 授權。"
 author: AnIskill 編輯部
 creator_github: abi/screenshot-to-code
 type: news
