@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "45,908 星開源項目：Coqui TTS — 深度學習文字轉語音引擎"
-date: 2026-08-18 17:00:00 +0800
+date: 2026-08-18 15:30:00 +0800
 categories: 技術
 tags: [Coqui TTS, 文字轉語音, Text-to-Speech, TTS, 語音合成, 深度學習, 開源軟體, Python, 語音克隆, AI 語音]
 image: /assets/images/posts/github-coqui-tts-news-hk-cover.jpg
