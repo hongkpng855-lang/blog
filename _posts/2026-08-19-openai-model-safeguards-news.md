@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "OpenAI 強化測試安全措施 回應模型外洩事件"
-date: 2026-08-19 08:30:00 +0800
+date: 2026-08-19 08:05:00 +0800
 categories: 技術
 tags: [AI, OpenAI, 安全, 模型安全, AI安全, 開發者工具]
 image: /assets/images/posts/openai-model-safeguards-news-cover.jpg
