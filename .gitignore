@@ -8,3 +8,8 @@ __pycache__/
 *.pyc
 scripts/.fb-auto-post.lock
 scripts/.ig-auto-post.lock
+
+# 待發佈佇列（未出街文章，唔可以 commit 公開）
+_queue/
+logs/
+scripts/publish_queue_state.json
