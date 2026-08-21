@@ -98,7 +98,7 @@ TensorFlow 累積近 19.7 萬星標與逾 7.5 萬次 fork，創建於 2015 年 1
 
 ---
 
-## <svg class="ui-icon"><use href="#ui-link"/></svg>出處
+## <svg class="ui-icon"><use href="#ui-link"/></svg>出處連結有哪些？
 
 <div class="ui-note"><svg class="ui-icon"><use href="#ui-link"/></svg><strong>GitHub 官方 repo</strong>：https://github.com/tensorflow/tensorflow
 
