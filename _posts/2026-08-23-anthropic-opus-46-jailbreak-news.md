@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Claude Opus 4.6 安全機制失效：測試 10 次全數被繞過"
-date: 2026-08-23 02:00:01 +0800
+date: 2026-08-23 04:00:01 +0800
 categories: 技術
 tags: [AI, Anthropic, Claude, AI 安全, 漏洞, 開發者]
 image: /assets/images/posts/anthropic-opus-46-jailbreak-news-cover.jpg
