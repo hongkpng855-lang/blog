@@ -5,7 +5,7 @@ date: 2026-08-21 22:00:01 +0800
 categories: 技術
 tags: [Vite, 前端, 建構工具, JavaScript, TypeScript, 開源, Rolldown]
 image: /assets/images/posts/github-vite-news-hk-cover.jpg
-description: "Vite 是由 Vue.js 作者尤雨溪於 2020 年創立的開源前端建構工具，GitHub 獲 82,442 顆星標。它以瀏覽器原生 ES Modules 實現開發伺服器即時啟動，以 Rolldown 引擎輸出最佳化生產建構，插件系統與完整型別 API 令其成為 Vue、React 等主流框架的預設選擇，MIT 授權可自由商用。"
+description: "Vite 是由 Vue.js 作者尤雨溪於 2020 年創立的開源前端建構工具，GitHub 獲 82,442 顆星標。它以瀏覽器原生 ES Modules 實現開發伺服器即時啟動，以 Rolldown 引擎輸出最佳化生產建構，插件系統與完整型別 API 令其成為 Vue、React 等主流框架的預設選擇。"
 author: AnIskill 編輯部
 type: news
 source: GitHub

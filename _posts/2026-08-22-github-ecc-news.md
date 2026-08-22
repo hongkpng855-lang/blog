@@ -5,7 +5,7 @@ date: 2026-08-22 00:00:01 +0800
 categories: 技術
 tags: [ECC, AI Agent, Claude Code, 開源項目, Agent Harness, TypeScript, MCP]
 image: assets/images/posts/github-ecc-news-cover.jpg
-description: "ECC 是一套開源的 AI 代理工程作業系統，GitHub 星標數達 24.1 萬顆。它為 Claude Code、Codex、Cursor 等代理環境提供規劃、測試、實作、審查、驗證、記憶與持續學習的完整工作流，內建 68 個代理、286 項技能與 AgentShield 安全掃描，MIT 授權可自由商用，並以 ECC Pro 提供私有儲存庫的託管服務。"
+description: "ECC 是一套開源的 AI 代理工程作業系統，GitHub 星標數達 24.1 萬顆。它為 Claude Code、Codex、Cursor 等代理環境提供規劃、測試、實作、審查、驗證、記憶與持續學習的完整工作流，內建 68 個代理、286 項技能與 AgentShield 安全掃描，MIT 授權可自由商用。"
 author: AnIskill 編輯部
 type: news
 source: GitHub

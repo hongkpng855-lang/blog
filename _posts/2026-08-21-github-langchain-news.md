@@ -5,7 +5,7 @@ date: 2026-08-21 12:00:01 +0800
 categories: 技術
 tags: [LangChain, AI Agent, LLM, 開源項目, 大語言模型, GitHub]
 image: assets/images/posts/github-langchain-news-cover.jpg
-description: "LangChain 是全球最受歡迎的 AI 代理與 LLM 應用開發框架，GitHub 星標超過 14.4 萬。本文深入分析其核心架構、生態系統與市場定位，解析這個 AI 代理工程平台為何成為開發者建構智慧應用的首選工具。"
+description: "LangChain 是全球最受歡迎的 AI 代理與 LLM 應用開發框架，GitHub 星標超過 14.4 萬。本文深入分析其核心架構、生態系統與市場定位，拆解 Agent 工作流、工具整合與記憶機制，解析這個 AI 代理工程平台為何成為開發者建構智慧應用的首選。"
 author: AnIskill 編輯部
 creator_github: langchain-ai/langchain
 type: news

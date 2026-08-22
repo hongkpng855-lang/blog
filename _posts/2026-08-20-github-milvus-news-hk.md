@@ -5,7 +5,7 @@ date: 2026-08-20 22:00:01 +0800
 categories: 技術
 tags: [AI, 向量資料庫, Milvus, RAG, 開源]
 image: /assets/images/posts/github-milvus-news-hk-cover.jpg
-description: "Milvus 是 LF AI & Data Foundation 旗下、由 Zilliz 主導開發的高性能雲原生向量資料庫，GitHub 獲 45.7k 星標。它以 Go 與 C++ 撰寫，支援 CPU/GPU 硬件加速與 HNSW、DiskANN 等多種索引，可水平擴展至數十億向量規模，是 RAG、語義搜尋與推薦系統的核心基礎設施。本文分析其技術亮點、生態定位與市場影響。"
+description: "Milvus 是 LF AI & Data Foundation 旗下、由 Zilliz 主導開發的高性能雲原生向量資料庫，GitHub 獲 45.7k 星標。它以 Go 與 C++ 撰寫，支援 CPU/GPU 加速與 HNSW、DiskANN 等索引，可擴展至數十億向量規模，是 RAG、語義搜尋與推薦系統的核心基礎設施。"
 author: AnIskill 編輯部
 type: news
 source: GitHub

@@ -4,7 +4,7 @@ date: 2026-08-21 06:00:01 +0800
 categories: [tech]
 tags: [自架, 開源, DevOps, 雲端, 隱私]
 image: assets/images/posts/github-awesome-selfhosted-news-hk-cover.jpg
-description: Awesome-Selfhosted 是 GitHub 上星標超過 31 萬的開源項目，收錄逾千款可自行架設的自由軟體網路服務，涵蓋 AI、媒體、備份、通訊等類別，是自架生態系最權威的索引指南。
+description: "Awesome-Selfhosted 是 GitHub 上星標超過 31 萬的開源項目，收錄逾千款可自行架設的自由軟體網路服務，涵蓋 AI、媒體、備份、通訊等類別。本文整理其收錄標準、熱門類別與自架生態系的應用方式，是自架玩家必備的權威索引指南。"
 author: AnIskill 編輯部
 creator_github: awesome-selfhosted/awesome-selfhosted
 type: news
