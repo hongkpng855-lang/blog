@@ -100,6 +100,10 @@ TensorFlow 累積近 19.7 萬星標與逾 7.5 萬次 fork，創建於 2015 年 1
 
 ## <svg class="ui-icon"><use href="#ui-link"/></svg>出處連結有哪些？
 
+<!-- AEO Answer Capsule — 約 45 字 -->
+本文資訊來源為 GitHub 上的 tensorflow/tensorflow 官方儲存庫，包括 README、Release Notes 與專案統計數據。讀者可前往原始儲存庫查閱最新內容。
+<!-- End AEO Capsule -->
+
 <div class="ui-note"><svg class="ui-icon"><use href="#ui-link"/></svg><strong>GitHub 官方 repo</strong>：https://github.com/tensorflow/tensorflow
 
 官方網站：https://tensorflow.org｜文件中心：https://www.tensorflow.org/api_docs</div>
