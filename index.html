@@ -39,7 +39,7 @@ layout: default
             <div class="news-item-body">
               <div class="news-item-meta">
                 {% for category in post.categories limit:2 %}
-                <a class="news-item-cat" href="{{ '/categories/' | append: category | relative_url }}">{{ category }}</a>
+                <a class="news-item-cat" href="{{ '/categories/' | append: category | append: '/' | relative_url }}">{{ category }}</a>
                 {% endfor %}
                 {% if post.source %}
                 <span class="news-item-source">來源：<a href="{{ post.source_url }}" target="_blank" rel="noopener nofollow">{{ post.source }}</a></span>

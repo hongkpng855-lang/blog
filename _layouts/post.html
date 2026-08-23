@@ -60,7 +60,7 @@ layout: default
         <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">首頁</a></li>
         {% if page.categories.size > 0 %}
         <li class="breadcrumb-item">
-          <a href="{{ '/categories/' | append: page.categories.first | relative_url }}">{{ page.categories.first }}</a>
+          <a href="{{ '/categories/' | append: page.categories.first | append: '/' | relative_url }}">{{ page.categories.first }}</a>
         </li>
         {% endif %}
         <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
