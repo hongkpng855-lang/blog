@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "71,595 星開源項目：act — 在本地執行 GitHub Actions 的命令行工具"
+title: "71,595 星開源項目：act — 本地執行 GitHub Actions"
 date: 2026-08-24 00:00:01 +0800
 categories: 技術
 tags: [act, GitHub Actions, CI, DevOps, Go, 開源]
 image: /assets/images/posts/github-act-news-cover.jpg
-description: "act 是一套以 Go 撰寫的開源命令行工具，GitHub 獲 71,595 顆星標，讓開發者不必 commit、push 即可在本地執行 GitHub Actions workflow。它透過 Docker 容器模擬 GitHub 的環境變數與檔案系統，將 CI 除錯循環從數分鐘壓縮到數秒，支援 Linux、macOS 與 Windows 容器，MIT 授權可自由商用，已成為 DevOps 工具鏈的常見環節。"
+description: "act 是一套以 Go 撰寫的開源命令行工具，GitHub 獲 71,595 顆星標，讓開發者不必 commit、push 即可在本地執行 GitHub Actions workflow。透過 Docker 容器模擬 GitHub 環境，將 CI 除錯循環從數分鐘壓縮到數秒，MIT 授權可自由商用。"
 author: AnIskill 編輯部
 type: news
 source: GitHub
