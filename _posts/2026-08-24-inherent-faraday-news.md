@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "倫敦新創 Inherent：27B 小模型科研表現超越 GPT-5.5"
-date: 2026-08-24 14:00:01 +0800
+date: 2026-08-24 16:00:01 +0800
 categories: 技術
 tags: [AI, Inherent, Faraday, DeepMind, 科研, 強化學習, 開源模型]
 image: /assets/images/posts/inherent-faraday-news-cover.jpg
