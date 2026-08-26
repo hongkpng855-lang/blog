@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "OpenAI 自研推理晶片 Jalapeño 每瓦效能領先業界"
-date: 2026-08-27 02:00:01 +0800
+date: 2026-08-27 04:00:01 +0800
 categories: 技術
 tags: [AI, OpenAI, 晶片, 推理, 基礎設施]
 image: /assets/images/posts/news-openai-jalapeno-chip-cover.jpg
