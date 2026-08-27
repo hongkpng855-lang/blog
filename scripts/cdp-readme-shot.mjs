@@ -45,7 +45,8 @@ const sc = await send('Runtime.evaluate', {expression: `(() => {
   if (!rd) return 'no-readme';
   const img = rd.querySelector('img');
   const h1 = rd.querySelector('h1');
-  const t = h1 || img || rd;
+  // 2026-08-26 修正：README 開頭可能冇 h1（得 h2），img 可能係中段 badge → fallback 一律用 markdown-body 開頭
+  const t = (h1 && h1.getBoundingClientRect().top < 600) ? h1 : rd;
   const top = t.getBoundingClientRect().top + window.scrollY;
   window.scrollTo(0, Math.max(0, top - 50));
   return 'ok scrollY=' + window.scrollY;

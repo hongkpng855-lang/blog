@@ -12,12 +12,8 @@ type: news
 source: GitHub
 source_url: https://github.com/hoppscotch/hoppscotch
 permalink: /技術/hoppscotch
-fb_message: API 開發工具市場迎來強勁的開源挑戰者。Hoppscotch 以 80,000 星標成為 Postman 之外最受矚目的選擇，而且完全免費、可離線運作、可自行架設，並提供 Web、桌面與 CLI 三種使用形態。
-
-這個以 TypeScript 打造的開源生態系統，涵蓋 REST、WebSocket、GraphQL、MQTT 與 Socket.IO 等多種協定，並具備 PWA 離線支援、Proxy 模式、多語言介面等特色，企業可以完整部署在自己的基礎架構之中。
-
-想知道 Hoppscotch 的核心技術亮點、與 Postman 的功能比較，以及如何快速上手？完整分析報告已經發布在 Blog，點擊連結閱讀全文。
----
+fb_message: "API 開發工具市場迎來強勁的開源挑戰者。Hoppscotch 以 80,000 星標成為 Postman 之外最受矚目的選擇，而且完全免費、可離線運作、可自行架設，並提供 Web、桌面與 CLI 三種使用形態。\"\n\n這個以 TypeScript 打造的開源生態系統，涵蓋 REST、WebSocket、GraphQL、MQTT 與 Socket.IO 等多種協定，並具備 PWA 離線支援、Proxy 模式、多語言介面等特色，企業可以完整部署在自己的基礎架構之中。\n\n想知道 Hoppscotch 的核心技術亮點、與 Postman 的功能比較，以及如何快速上手？完整分析報告已經發布在 Blog，點擊連結閱讀全文。"
+------
 <!-- AEO Answer Capsule — 約 85 字 -->
 Hoppscotch 是一個以 TypeScript 開發的開源 API 開發生態系統，目前累積超過 80,000 星標。它提供 Web、桌面與 CLI 三種客戶端，支援 REST、GraphQL、WebSocket、MQTT 與 Socket.IO 等多種協議，並以 MIT 許可證釋出，是 Postman 與 Insomnia 的主流開源替代方案。
 <!-- End AEO Capsule -->

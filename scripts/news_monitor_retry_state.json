@@ -1,8 +1,8 @@
 {
   "last_retry_at": 1786502939469,
   "triggered_for": "1786496088833",
-  "last_check_at": 1787085935912,
+  "last_check_at": 1787827591802,
   "last_check_status": "ok_no_retry",
-  "last_checked_job_run": "2026-08-19 04:45 檢查：git log 今日 08-19 持續輸出（Karpathy autoresearch、System Prompts Leaks、LocalAI 等新聞+story 圖）。news_monitor_state.json 記錄正常。無 error 跡象，冇需補跑。",
-  "note": "2026-08-19 04:45 檢查：正常，冇需補跑。"
+  "last_checked_job_run": "2026-08-27 18:45 檢查：避時段外(1845)。cron get 受限（isolated run 只能睇自己 job），沿用檔案證據 — git log 顯示 08-27 00:00 至 18:00 十個 slot 全部準時發佈 news-openai-jalapeno-chip，最近 commit 4a696433 (18:00) 完成，_posts 有今日 post 檔，無 error 跡象。主 cron 正常，冇需補跑。",
+  "note": "2026-08-27 18:45 檢查：主 cron 正常運行、無 error，冇需補跑。"
 }

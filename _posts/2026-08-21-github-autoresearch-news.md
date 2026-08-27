@@ -4,7 +4,7 @@ title: "9.4萬星開源項目：AutoResearch — 讓 AI 自主訓練模型的實
 date: 2026-08-21 10:00:01 +0800
 categories: 技術
 tags: [AutoResearch, Karpathy, AI Agent, 自動化研究, LLM, 開源項目]
-image: assets/images/posts/github-autoresearch-news-cover.jpg
+image: assets/images/posts/github-autoresearch-news-hk-cover.jpg
 description: "AutoResearch 是 AI 領域代表人物 Andrej Karpathy 推出的開源實驗框架，GitHub 星標突破 9.4 萬。它讓 AI 代理在夜間自主修改程式碼、反覆訓練模型並評估結果，以固定五分鐘訓練預算與 val_bpb 指標自動化單 GPU 上的語言模型研究流程，開啟 AI 自主研究的新實驗範式。"
 author: AnIskill 編輯部
 creator_github: karpathy/autoresearch

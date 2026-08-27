@@ -226,7 +226,8 @@ def main():
 
     # 3. git commit + push（只 commit 指定路徑，避免連埋 working tree 其他 staged 改動）
     #    2026-08-24 教訓：之前用無路徑 git commit，audit 期間嘅分類頁刪除被一併 commit（1d268247）
-    rc, out, err = run(f"cd {JEKYLL_DIR} && git add _posts/{new_filename} assets/images/posts/ && git commit -- _posts/{new_filename} assets/images/posts/ -m '排程發佈: {slug} ({now.strftime('%Y-%m-%d %H:%M')})'", timeout=60)
+    #    2026-08-25 修正：-m 必須放喺 -- 前面，否則 git 會當 -m 係 file path → commit 永遠失敗
+    rc, out, err = run(f"cd {JEKYLL_DIR} && git add _posts/{new_filename} assets/images/posts/ && git commit -m '排程發佈: {slug} ({now.strftime('%Y-%m-%d %H:%M')})' -- _posts/{new_filename} assets/images/posts/", timeout=60)
     if rc != 0 and "nothing to commit" not in err and "nothing to commit" not in out:
         log(f"⚠️ git commit 失敗 rc={rc}: {err}")
         # 唔刪 queue，下次再試
