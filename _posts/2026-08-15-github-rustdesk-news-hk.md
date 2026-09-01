@@ -152,4 +152,7 @@ RustDesk 正從開源工具演進為企業級遠端桌面平台，Server Pro、F
 
 ## 出處連結有哪些？
 
+
+<!-- AEO Answer Capsule — 約 115 字 -->
 本文資訊整理自 [RustDesk 官方 GitHub 專案](https://github.com/rustdesk/rustdesk)，包含 README 文件、原始碼結構、官方網站與社群資訊，讀者可直接前往項目頁面查看完整文件與原始碼。
+<!-- End AEO Capsule -->

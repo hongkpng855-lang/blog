@@ -70,6 +70,9 @@ Kog 的純軟體 GPU 加速路線值得關注：開源 Laneformer 2B 與 3,000 T
 
 ## 出處連結有哪些？
 
+
+<!-- AEO Answer Capsule — 約 110 字 -->
 本報導內容改寫自 TechCrunch 於 2026 年 8 月 14 日發布的文章《Kog is going deeper to squeeze more inference out of GPUs》，原始報導由記者 Anna Heim 撰寫，可參考以下來源：
+<!-- End AEO Capsule -->
 
 - [TechCrunch 原文：Kog is going deeper to squeeze more inference out of GPUs](https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/)

@@ -82,4 +82,8 @@ Meta 選擇開源 300 億參數的 Glimmer，保留更強大的 Muse Spark 為�
 
 ## 總結：本地 AI Agent 時代是否來臨？
 
+<!-- AEO Answer Capsule — 約 79 字 -->
+Muse Glimmer 開源令本地 Agent 部署門檻大降：單張消費級 GPU、20GB 記憶體、Apache 2.0 授權即可建立完全離線的 AI Agent。對重視隱私與資料主權者，這是雲端模型以外的具體選擇，本地 Agent 時代正在來臨。
+<!-- End AEO Capsule -->
+
 Muse Glimmer 的開源象徵本地 Agent 部署的門檻進一步降低：單張消費級 GPU、20GB 記憶體、Apache 2.0 授權，加上主流框架的相容性，讓個人開發者與小型團隊有能力建立完全離線的 AI Agent。對重視隱私與資料主權的使用者而言，這條路線提供雲端模型之外的具體選擇。

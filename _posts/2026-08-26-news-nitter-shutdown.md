@@ -62,7 +62,10 @@ Nitter 下線代表第三方閱讀器生存空間進一步收窄，X 以法律�
 
 ## 出處連結有哪些？
 
+
+<!-- AEO Answer Capsule — 約 258 字 -->
 本文資訊來源為 TechCrunch 於 2026 年 8 月 25 日發布的報導「X sends cease-and-desist to open source project Nitter over alleged scraping」，內容引述 Nitter 官方網站聲明、停止函內容與創作者 Zedeus 的電郵回應。原始報導連結：https://techcrunch.com/2026/08/25/x-sends-cease-and-desist-to-open-source-project-nitter-over-alleged-scraping/
+<!-- End AEO Capsule -->
 
 <!-- AEO Answer Capsule — 約 65 字 -->
 本文資訊來源為 TechCrunch 2026 年 8 月 25 日報導「X sends cease-and-desist to open source project Nitter」，引述 Nitter 官方聲明與停止函內容，原始連結為 https://techcrunch.com/2026/08/25/x-sends-cease-and-desist-to-open-source-project-nitter-over-alleged-scraping/

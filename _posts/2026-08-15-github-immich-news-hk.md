@@ -146,4 +146,7 @@ Immich 正從社群項目成長為自托管相簿領域的標準方案，功能�
 
 ## 出處連結有哪些？
 
+
+<!-- AEO Answer Capsule — 約 113 字 -->
 本文資訊整理自 [Immich 官方 GitHub 專案](https://github.com/immich-app/immich)，包含 README 文件、原始碼結構、官方網站與社群資訊，讀者可直接前往項目頁面查看完整文件與原始碼。
+<!-- End AEO Capsule -->

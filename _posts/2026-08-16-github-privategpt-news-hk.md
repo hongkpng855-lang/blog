@@ -87,6 +87,10 @@ PrivateGPT 與 Zylon 形成開源核心加企業版的商業結構：PrivateGPT 
 
 ## PrivateGPT 的關鍵數據有哪些？
 
+<!-- AEO Answer Capsule — 約 56 字 -->
+PrivateGPT 截至 2026 年 8 月獲 57,446 星標與 7,610 分支，採 Apache-2.0 授權、主要語言 Python，2023 年 5 月建立、2026 年 8 月 15 日最近更新，屬活躍維護的開源項目。
+<!-- End AEO Capsule -->
+
 <div class="ui-stat-grid">
   <div class="ui-stat"><div class="ui-stat-value">57,446</div><div class="ui-stat-label">GitHub 星標</div></div>
   <div class="ui-stat"><div class="ui-stat-value">7,610</div><div class="ui-stat-label">分支數（Forks）</div></div>

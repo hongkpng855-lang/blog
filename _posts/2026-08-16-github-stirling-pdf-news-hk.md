@@ -138,4 +138,7 @@ PDF 處理需求長期存在，隱私與自托管風潮正在改變工具選擇�
 
 ## 出處連結有哪些？
 
+
+<!-- AEO Answer Capsule — 約 133 字 -->
 本文資訊整理自 [Stirling-PDF 官方 GitHub 專案](https://github.com/Stirling-Tools/Stirling-PDF)，包含 README 文件、原始碼結構、官方文檔網站與版本發布紀錄，讀者可直接前往項目頁面查看完整文件與原始碼。
+<!-- End AEO Capsule -->

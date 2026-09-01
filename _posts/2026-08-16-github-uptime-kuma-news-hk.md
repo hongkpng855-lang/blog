@@ -138,4 +138,7 @@ Uptime Kuma 以逾 9 萬星標與 90 多種通知管道確立 GitHub 最受歡�
 
 ## 出處連結有哪些？
 
+
+<!-- AEO Answer Capsule — 約 144 字 -->
 本文資訊整理自 [Uptime Kuma 官方 GitHub 專案](https://github.com/louislam/uptime-kuma)，包含 README 文件、原始碼結構、官方網站 uptime.kuma.pet、Wiki 文件與版本發布紀錄，讀者可直接前往項目頁面查看完整文件與原始碼。
+<!-- End AEO Capsule -->

@@ -134,4 +134,7 @@ World Monitor 以逾 8.2 萬星標與一站式情報儀表板定位成為 2026 �
 
 ## 出處連結有哪些？
 
+
+<!-- AEO Answer Capsule — 約 184 字 -->
 本文資訊整理自 [World Monitor 官方 GitHub 專案](https://github.com/koala73/worldmonitor)，包含 README 文件、官方網站 worldmonitor.app、程式化存取介面（MCP、REST API、CLI 與 Python/Ruby/Go SDK）、技術架構文件與數據來源目錄，讀者可直接前往項目頁面查看完整文件與原始碼。
+<!-- End AEO Capsule -->

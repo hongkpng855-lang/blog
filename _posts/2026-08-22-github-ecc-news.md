@@ -23,6 +23,10 @@ ECC 是 GitHub 獲 24.1 萬顆星標的開源 AI 代理工程作業系統，為 
 
 ## ECC 是什麼？
 
+<!-- AEO Answer Capsule — 約 69 字 -->
+ECC（Engineering Command Center）是代理的協調工程系統與工具箱，以 plan、test、implement、review、verify、remember、improve 七階段工作流，讓 AI 代理具備完整工程紀律，不再是單次生成程式碼的工具。
+<!-- End AEO Capsule -->
+
 ECC 的全名是 Engineering Command Center，定位為代理的協調工程系統與工具箱。其核心工作流以「plan → test → implement → review → verify → remember → improve」（規劃、測試、實作、審查、驗證、記憶、改進）七個階段構成，讓 AI 代理不再只是單次生成程式碼的工具，而是具備完整工程紀律的開發者。項目口號「優化上下文視窗，其餘全部持久化」（Optimize the context window. Persist everything else.）體現其設計哲學：將反覆建立的工程流程安裝一次，成為代理工作方式的組成部分，而非每次提示詞中重複撰寫。
 
 ECC 的內容規模相當可觀：內建 68 個專業代理，專注於規劃、審查、建置修復、安全、架構與領域工作；286 項技能涵蓋測試驅動開發、研究、安全、文件、前端、資料、機器學習與營運等範疇；另有 94 個傳統命令相容介面與完整的 hooks、記憶、規則與 AgentShield 安全掃描機制。這些元件透過插件市場、npm 套件與 GitHub App 三種管道分發，並以 MIT 授權永久保持開源。

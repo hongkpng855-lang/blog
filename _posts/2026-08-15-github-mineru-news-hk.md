@@ -150,4 +150,7 @@ MinerU 正從資料生產工具演進為文檔解析基礎設施，多 GPU 部�
 
 ## 出處連結有哪些？
 
+
+<!-- AEO Answer Capsule — 約 124 字 -->
 本文資訊整理自 [MinerU 官方 GitHub 專案](https://github.com/opendatalab/MinerU)，包含 README 文件、版本更新記錄與 OmniDocBench 基準測試數據，讀者可直接前往項目頁面查看完整文件與原始碼。
+<!-- End AEO Capsule -->

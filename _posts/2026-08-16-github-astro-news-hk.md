@@ -134,4 +134,7 @@ Astro 正沿內容網站現代化與 AI 開發流程整合兩條主線推進，V
 
 ## 出處連結有哪些？
 
+
+<!-- AEO Answer Capsule — 約 141 字 -->
 本文資訊整理自 [Astro 官方 GitHub 專案](https://github.com/withastro/astro)，包含 README 文件、原始碼結構、官方網站 astro.build、版本發布紀錄（CHANGELOG）與生態項目資訊，讀者可直接前往項目頁面查看完整文件與原始碼。
+<!-- End AEO Capsule -->

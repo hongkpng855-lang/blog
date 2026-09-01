@@ -134,4 +134,7 @@ dsh 正沿框架極致模組化與模型生態整合兩條主線推進，Cordis 
 
 ## 出處連結有哪些？
 
+
+<!-- AEO Answer Capsule — 約 192 字 -->
 本文資訊整理自 [DeepSeek Harness 官方 GitHub 專案](https://github.com/deepseek-ai/deepseek-harness)，包含 README 文件、架構文件（docs/architecture.md）、Cordis 框架原始碼與論文、npm 套件資訊及官方網站 deepseek.com/harness，讀者可直接前往項目頁面查看完整文件與原始碼。
+<!-- End AEO Capsule -->

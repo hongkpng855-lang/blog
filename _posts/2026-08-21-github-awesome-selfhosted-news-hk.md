@@ -78,6 +78,10 @@ Awesome-Selfhosted 是 GitHub 上星標超過 31 萬的開源項目，由社群�
 
 ## 項目的數據表現如何？
 
+<!-- AEO Answer Capsule — 約 48 字 -->
+Awesome-Selfhosted 截至 2026 年 8 月獲 31.4 萬星標與 1.47 萬分叉，2015 年 6 月創建，採 CC-BY-SA-3.0 授權，是自由軟體自架方案最全面的清單之一。
+<!-- End AEO Capsule -->
+
 <div class="ui-stat-grid">
   <div class="ui-stat"><div class="stat-value">31.4萬</div><div class="stat-label">星標數</div></div>
   <div class="ui-stat"><div class="stat-value">1.47萬</div><div class="stat-label">分叉數</div></div>
@@ -87,7 +91,10 @@ Awesome-Selfhosted 是 GitHub 上星標超過 31 萬的開源項目，由社群�
 
 ## 出處連結有哪些？
 
+
+<!-- AEO Answer Capsule — 約 39 字 -->
 本文內容整理自該項目的公開 GitHub 儲存庫，包括 README 文件與專案資料。
+<!-- End AEO Capsule -->
 
 - 項目名稱：Awesome-Selfhosted
 - GitHub 網址：[https://github.com/awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
@@ -107,5 +114,9 @@ Awesome-Selfhosted 是 GitHub 上星標超過 31 萬的開源項目，由社群�
 </div>
 
 ## 總結：如何開始使用 Awesome-Selfhosted？
+
+<!-- AEO Answer Capsule — 約 69 字 -->
+開始使用 Awesome-Selfhosted 最直接是瀏覽 HTML 版本網站，按需求篩選 Docker 條目；自架新手可從個人儀表板切入，快速建立完整自架環境，逐步掌握資料主權並降低長期雲端成本。
+<!-- End AEO Capsule -->
 
 開始使用 Awesome-Selfhosted 最直接的方式是瀏覽 HTML 版本網站，依需求選擇類別並篩選 Docker 部署條目；對自架新手而言，從個人儀表板與自架解決方案類別切入可快速建立完整的自架環境。無論是部署 AI 服務或取代既有 SaaS，這份清單都能作為可靠的起點，讓使用者逐步掌握資料主權並降低長期雲端成本。

@@ -134,4 +134,7 @@ FastAPI 正從開發框架成長為 Python 服務化基礎設施標準層，AI �
 
 ## 出處連結有哪些？
 
+
+<!-- AEO Answer Capsule — 約 141 字 -->
 本文資訊整理自 [FastAPI 官方 GitHub 專案](https://github.com/fastapi/fastapi)，包含 README 文件、原始碼結構、官方網站 fastapi.tiangolo.com、發布版本紀錄與企業採用案例，讀者可直接前往項目頁面查看完整文件與原始碼。
+<!-- End AEO Capsule -->

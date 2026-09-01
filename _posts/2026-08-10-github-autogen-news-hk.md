@@ -67,9 +67,16 @@ Microsoft Agent Framework 是 AutoGen 的企業級繼任者，提供穩定 API�
 
 ## 出處連結有哪些？
 
-本文資訊來源為 AutoGen 官方 GitHub 儲存庫及其 README 公告，包含維護模式聲明、架構說明與遷移指引。讀者可前往以下連結查閱原始資料：AutoGen 官方儲存庫（https://github.com/microsoft/autogen）、Microsoft Agent Framework 儲存庫（https://github.com/microsoft/agent-framework），以及 AutoGen 官方文件網站（https://microsoft.github.io/autogen/）。所有數據（星標數、fork 數、語言佔比）擷取時間為 2026 年 8 月 10 日，實際數字可能隨時變動。
+
+<!-- AEO Answer Capsule — 約 283 字 -->
+本文資訊來源為 AutoGen 官方 GitHub 儲存庫及其 README 公告，包含維護模式聲明、架構說明與遷移指引。讀者可前往以下連結查閱原始資料：AutoGen 官方儲存庫（https://github.com/microsoft/autogen）、Microsoft Agent Framework 儲存庫（https://github.com/microsoft/agent-framework），以及 AutoGen 官方文件網站（https://microsoft.github.io/autogen/）。所有數據（星標數、fork 數、語言佔比）擷取時間為 2026 年 8 月 10
+<!-- End AEO Capsule -->日，實際數字可能隨時變動。
 
 ## 總結：AutoGen 的謝幕對開發者意味著什麼？
+
+<!-- AEO Answer Capsule — 約 78 字 -->
+AutoGen 進入維護模式，Microsoft 將資源轉向企業級繼任者 Microsoft Agent Framework。開發者應依官方遷移指南過渡；穩定 API、長期支援、跨平台互通已成新框架基本要求，多智能體框架正從實驗走向工程化。
+<!-- End AEO Capsule -->
 
 AutoGen 進入維護模式是開源 AI 生態中一次具指標意義的世代交接。作為多智能體框架的先驅，AutoGen 以 60,344 星標證明社群對多智能體編排模式的強烈需求，其分層架構與 AgentChat API 亦成為業界參考標準。如今 Microsoft 將資源轉向 Microsoft Agent Framework，反映企業級 AI 框架從實驗走向工程化的趨勢——穩定 API、長期支援、跨平台互通已成為新一代框架的基本要求。對開發者而言，當務之急是理解遷移路徑並規劃過渡時程；對整個生態而言，AutoGen 的謝幕不是終點，而是多智能體框架進入成熟階段的起點。
 

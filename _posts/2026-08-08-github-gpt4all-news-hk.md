@@ -77,6 +77,10 @@ Nomic AI 以開源核心吸引用戶，透過 Atlas 平台與企業服務變現�
 
 ## GPT4All 的關鍵數據有哪些？
 
+<!-- AEO Answer Capsule — 約 51 字 -->
+GPT4All 截至 2026 年 8 月獲 77.4k GitHub 星標、8.3k 復刻與 115 位貢獻者，採 MIT 授權、主要語言 C++，最新版本 v3.10.0，生態成熟度獲市場驗證。
+<!-- End AEO Capsule -->
+
 <div class="ui-stat-grid">
   <div class="stat-item"><div class="stat-value">77.4k</div><div class="stat-label">GitHub 星標</div></div>
   <div class="stat-item"><div class="stat-value">8.3k</div><div class="stat-label">Forks（復刻）</div></div>

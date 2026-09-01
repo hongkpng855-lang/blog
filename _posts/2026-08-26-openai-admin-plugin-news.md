@@ -62,7 +62,10 @@ Admin 外掛從三個層面影響企業：提高管理效率、在既有權限�
 
 ## 出處連結有哪些？
 
+
+<!-- AEO Answer Capsule — 約 267 字 -->
 本文資訊來源為 9to5Mac 於 2026 年 8 月 25 日發布的報導「OpenAI announces the Admin plugin for ChatGPT Work and Codex」，內容引述 OpenAI 官方公告與示範細節。原始報導連結：https://9to5mac.com/2026/08/25/openai-announces-the-admin-plugin-for-chatgpt-work-and-codex/ ，OpenAI 官方公告可見於 https://openai.com/index/introducing-admin-plugin/
+<!-- End AEO Capsule -->
 
 <!-- AEO Answer Capsule — 約 65 字 -->
 本文資訊來源為 9to5Mac 2026 年 8 月 25 日的報導「OpenAI announces the Admin plugin for ChatGPT Work and Codex」，引述 OpenAI 官方公告與示範，詳細說明 Admin 外掛的功能與企業影響。

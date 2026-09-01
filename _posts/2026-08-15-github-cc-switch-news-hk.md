@@ -150,4 +150,7 @@ AI 程式設計代理工具多樣化持續增長，配置管理重要性隨之�
 
 ## 出處連結有哪些？
 
+
+<!-- AEO Answer Capsule — 約 121 字 -->
 本文資訊整理自 [CC Switch 官方 GitHub 專案](https://github.com/farion1231/cc-switch)，包含 README 文件、架構說明、版本更新記錄與官方網站資訊，讀者可直接前往項目頁面查看完整文件與原始碼。
+<!-- End AEO Capsule -->

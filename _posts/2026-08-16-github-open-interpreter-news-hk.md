@@ -152,4 +152,7 @@ Open Interpreter 以逾 6.8 萬星標與多 harness 架構確立獨特定位，�
 
 ## 出處連結有哪些？
 
+
+<!-- AEO Answer Capsule — 約 172 字 -->
 本文資訊整理自 [Open Interpreter 官方 GitHub 專案](https://github.com/OpenInterpreter/open-interpreter)，包含 README 文件、原始碼結構、官方網站 openinterpreter.com、harness 與供應商文件及版本發布紀錄，讀者可直接前往項目頁面查看完整文件與原始碼。
+<!-- End AEO Capsule -->

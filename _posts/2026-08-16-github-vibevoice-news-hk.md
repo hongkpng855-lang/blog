@@ -156,4 +156,7 @@ VibeVoice 以 5.2 萬星標與完整模型矩陣確立開源語音 AI 領先地�
 
 ## 出處連結有哪些？
 
+
+<!-- AEO Answer Capsule — 約 137 字 -->
 本文資訊整理自 [VibeVoice 官方 GitHub 專案](https://github.com/microsoft/VibeVoice)，包含 README 文件、模型說明文件、Hugging Face 模型頁面與官方技術報告，讀者可直接前往項目頁面查看完整文件、原始碼與示範範例。
+<!-- End AEO Capsule -->

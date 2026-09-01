@@ -138,4 +138,7 @@ Coolify 以逾 6 萬星標與 280 多種一鍵部署服務確立自托管 PaaS �
 
 ## 出處連結有哪些？
 
+
+<!-- AEO Answer Capsule — 約 139 字 -->
 本文資訊整理自 [Coolify 官方 GitHub 專案](https://github.com/coollabsio/coolify)，包含 README 文件、原始碼結構、官方網站 coolify.io、安裝文件、版本發布紀錄與贊助生態資料，讀者可直接前往項目頁面查看完整文件與原始碼。
+<!-- End AEO Capsule -->
