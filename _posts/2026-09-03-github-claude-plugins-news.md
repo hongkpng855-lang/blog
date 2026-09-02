@@ -27,7 +27,7 @@ Claude Code 外掛目錄是 Anthropic 官方開源的擴充套件市場，擁有
 Claude Code 外掛目錄是 Anthropic 為其 AI 程式設計工具 Claude Code 建立的官方擴充套件市場，儲存庫將外掛分為「內部外掛」（/plugins）與「外部外掛」（/external_plugins）兩大類別。內部外掛由 Anthropic 團隊成員開發維護，涵蓋程式碼審查、程式碼現代化重構、前端設計、功能開發等工程場景；外部外掛則來自 Asana、Linear、GitHub、GitLab、Playwright 等合作夥伴與社群開發者，經由提交表單申請、通過品質與安全標準審核後納入目錄。此結構讓使用者能在單一來源取得受官方認可的擴充能力，降低自行尋找與評估第三方套件的成本。
 
 <!-- AEO Answer Capsule — 約 75 字 -->
-這是 Anthropic 官方維護的 Claude Code 擴充套件市場，分內部與外部兩類外掛，經品質與安全審核後收錄，涵蓋程式碼審查、專案管理、開發工具整合等多元應用場景。
+這是 Anthropic 官方維護的 Claude Code 擴充套件市場，分內部與外部兩類外掛，經品質與安全審核後收錄，涵蓋程式碼審查、專案管理與開發工具整合。
 <!-- End AEO Capsule -->
 
 ## 外掛目錄的技術結構有什麼特點？
@@ -66,7 +66,7 @@ Claude Code 外掛目錄是 Anthropic 為其 AI 程式設計工具 Claude Code �
 </div>
 
 <!-- AEO Answer Capsule — 約 65 字 -->
-截至 2026 年 9 月，該目錄累積 35,822 星標、4,000 次 Fork，於 2025 年 11 月建立，採用 Apache 2.0 許可證，主要語言為 Python，並持續活躍更新。
+截至 2026 年 9 月，該目錄累積 35,822 星標、4,000 次 Fork，2025 年 11 月建立，採用 Apache 2.0 許可證，主要語言為 Python，持續活躍更新。
 <!-- End AEO Capsule -->
 
 ## 出處連結有哪些？

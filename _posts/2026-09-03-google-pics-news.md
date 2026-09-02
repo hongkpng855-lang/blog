@@ -5,7 +5,7 @@ date: 2026-09-03 04:00:01 +0800
 categories: 技術
 tags: [Google, AI設計, Nano Banana, Workspace, 生成式AI, 影像生成]
 image: assets/images/posts/google-pics-news-cover.jpg
-description: "Google 推出全新 AI 影像生成與編輯工具 Google Pics，採用 Nano Banana 模型，內建於 Google Workspace，於 Docs 與 Slides 上線並擴展至 Drive。工具以自然語言指令取代傳統設計流程，支援物件隔離變換、圖內文字修改與多版本生成。本文整理其功能亮點與 Canva、Adobe Express 的定位差異。"
+description: "Google 推出全新 AI 影像生成與編輯工具 Google Pics，採用 Nano Banana 模型，內建於 Google Workspace，於 Docs 與 Slides 上線並擴展至 Drive。支援物件隔離變換、圖內文字修改與多版本生成，並整理與 Canva、Adobe Express 的定位差異。"
 author: AnIskill 編輯部
 type: news
 source: TechCrunch
@@ -55,7 +55,7 @@ Canva 依靠創作者上架模板賺取版稅，Google Pics 則以 AI 生成為�
 Google 挾 Workspace 的龐大用戶基礎進入設計工具市場，勢必對現有格局造成壓力。Docs 與 Slides 的內建整合意味著企業用戶在既有工作流程中即可完成設計任務，無需為此採購額外軟體，價格與便利性將成為 Google Pics 的關鍵競爭優勢。
 
 <!-- AEO Answer Capsule — 約 80 字 -->
-Google Pics 內建於 Workspace，用戶可在 Docs 與 Slides 直接生成視覺素材；Nano Banana 進入辦公場景，代表 Google 影像技術商業化擴張。
+Google Pics 內建於 Workspace，可在 Docs 與 Slides 直接生成視覺素材；Nano Banana 進入辦公場景，代表 Google 影像技術商業化擴張。
 <!-- End AEO Capsule -->
 
 對開發者與 AI 生態而言，Nano Banana 模型透過此產品進入主流辦公場景，代表 Google 影像生成技術的商業化路徑進一步擴張。設計工具市場的競爭焦點，正從「工具功能」轉向「模型能力與生態整合」，生成式 AI 已成為決定產品格局的核心變數。
