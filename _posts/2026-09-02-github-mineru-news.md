@@ -11,7 +11,7 @@ creator_github: opendatalab/MinerU
 type: news
 source: GitHub
 source_url: https://github.com/opendatalab/MinerU
-permalink: /技術/github-mineru-news
+permalink: /2026/09/02/2026-09-02-github-mineru-news.html
 fb_message: PDF 最折磨人的時刻，莫過於公式亂碼、表格散開——MinerU 就是為終結這種痛苦而生。\n\n這套引擎 GitHub 獲 7.9 萬星標，PDF、Word、PPT、Excel 與圖片直轉 Markdown/JSON，支援 109 種語言 OCR，可接入 Cursor 等 AI 工具，3.4 版 OCR 精度提升 11%。\n\n想知純 CPU 如何運行、如何串進 RAG 知識庫？完整分析見 Blog。
 
 這套引擎 GitHub 獲 7.9 萬星標，PDF、Word、PPT、Excel 與圖片直轉 Markdown/JSON，支援 109 種語言 OCR，可接入 Cursor 等 AI 工具，3.4 版 OCR 精度提升 11%。

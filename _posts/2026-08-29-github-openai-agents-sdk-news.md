@@ -11,7 +11,7 @@ creator_github: openai/openai-agents-python
 type: news
 source: GitHub
 source_url: https://github.com/openai/openai-agents-python
-permalink: /技術/github-openai-agents-sdk-news
+permalink: /2026/09/02/2026-08-29-github-openai-agents-sdk-news.html
 fb_message: OpenAI 把自家 Agent 框架全面開源，還強調「輕量且強大」，這對開發者生態是相當直接的訊號：多智能體開發的入門門檻正被官方主動降低。SDK 主打 provider-agnostic，除 OpenAI 自家的 Responses 與 Chat Completions API，還能接上超過 100 種其他 LLM，從源頭避開綁死單一模型的疑慮。
 
 截至 2026 年 8 月，該框架在 GitHub 累積逾 2.9 萬星標、4,600 多個 Fork，以 MIT 授權開放。核心機制涵蓋 Agents、Guardrails、Handoffs、Sessions 與 Tracing，近期更加入 Sandbox 長時程執行與 Realtime、Voice 語音代理能力。

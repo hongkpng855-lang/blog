@@ -11,7 +11,7 @@ creator_github: songquanpeng/one-api
 type: news
 source: GitHub
 source_url: https://github.com/songquanpeng/one-api
-permalink: /技術/github-one-api-news
+permalink: /2026/09/02/2026-08-28-github-one-api-news.html
 fb_message: 同時訂閱 OpenAI、Claude、Gemini、DeepSeek，每個服務都要記 API Key、每套格式又不同，是開發者最頭痛的事。One API 正是為解決這個問題而出現：一個開源項目，將所有大模型統一成同一套 OpenAI 格式介面，一個 Key 走天下。
 
 這個項目在 GitHub 拿下 36,590 顆星、6,830 個 fork，MIT 授權完全免費。支援超過 25 個模型供應商，還有負載均衡、令牌管理、多機部署與兌換碼機制，從個人開發者到小型團隊都適用。

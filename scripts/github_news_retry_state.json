@@ -1,9 +1,9 @@
 {
-  "last_retry_at": 1787242621345,
-  "triggered_for": "1787241600028",
-  "triggered_run_id": "manual:eb3bc94f-73b1-42a6-949c-3aae0ca629cd:1787242612988:1",
-  "last_check_at": 1787833001553,
-  "last_check_status": "ok_no_retry_needed",
-  "last_checked_job_run": "2026-08-27 20:16 檢查：避時段外(2016)。cron get 受限（只能睇自己 job），沿用日誌證據 — git log 顯示 12:00 至 20:00 五個 slot 全部準時發佈 news-openai-jalapeno-chip（bbf67560 20:00 剛完成），_posts 今日 20:00 post 檔存在。主 cron 無 error 跡象，無需補跑。",
-  "note": "2026-08-27 20:16 檢查：主 cron 正常（每 slot 準時執行、無 error），冇需補跑。"
+  "last_retry_at": 1787955338043,
+  "triggered_for": "1787954400022",
+  "triggered_run_id": "manual:eb3bc94f-73b1-42a6-949c-3aae0ca629cd:1787955333871:4",
+  "last_check_at": 1788344430571,
+  "last_check_status": "ok_no_retry",
+  "note": "2026-09-02 18:20 檢查：避時段外(1820)。cron get 受限，用 git log 驗證：最新排程發佈 openai-astra-critical-news (2026-09-02 18:00) @ 18:00:01 已成功出街，16:00/14:00 等全部準時。主 cron 正常，冇需補跑。",
+  "last_checked_job_run": "2026-09-02 18:00 排程發佈成功 (openai-astra-critical-news)"
 }
