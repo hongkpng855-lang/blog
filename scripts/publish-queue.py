@@ -72,6 +72,53 @@ def save_state(state):
         json.dump(state, f, ensure_ascii=False, indent=2)
 
 
+def check_capsule_lengths(post_path, max_words=80):
+    """機械 gate（2026-09-05 新增）：出街前檢查所有 AEO Answer Capsule 長度。
+    capsule >80 連續 4 日重犯（9/2 全量 1854 個 → 9/3 → 9/4 → 9/5），文字 SOP 無效，
+    改為喺 pipeline 直接攔截：超標就唔出街，等寫稿 agent 精簡後再排。
+
+    支援兩種 marker 格式：
+    A. 成對：<!-- AEO Answer Capsule --> ... <!-- End AEO Capsule -->
+    B. 簡化：<!-- AEO Answer Capsule — 約 X 字 -->（邊界 = 空行 / 下個 marker / H2）
+
+    返回 (ok: bool, over_list: list[(index, words)])
+    """
+    try:
+        with open(post_path, encoding="utf-8") as f:
+            content = f.read()
+    except Exception as e:
+        return False, [("read_error", str(e))]
+    body = content.split("---", 2)[2] if content.startswith("---") else content
+
+    marker_re = re.compile(r"<!--\s*AEO Answer Capsule[^>]*-->")
+    caps = []
+    for m in marker_re.finditer(body):
+        start = m.end()
+        seg_end = len(body)
+        for rx in (marker_re.search(body[start:]),
+                   re.search(r"(?:^|\n)##\s", body[start:]),
+                   re.search(r"(?:^|\n)---\s*(?:\n|$)", body[start:]),
+                   re.search(r"\n\s*\n", body[start:])):
+            if rx:
+                seg_end = min(seg_end, start + rx.start())
+        seg = body[start:seg_end].strip()
+        if seg:
+            caps.append(seg)
+
+    if not caps:
+        # 冇 capsule marker → 唔攔截（舊文章冇 marker 係另一種已知債，唔喺呢度處理）
+        return True, []
+
+    over_list = []
+    for i, c in enumerate(caps, 1):
+        txt = re.sub(r"<[^>]+>", "", c)
+        txt = re.sub(r"\|", " ", txt)
+        words = len(re.sub(r"\s", "", txt))
+        if words > max_words:
+            over_list.append((i, words))
+    return len(over_list) == 0, over_list
+
+
 def run(cmd, timeout=120):
     """行 command，返回 (returncode, stdout, stderr)"""
     try:
@@ -196,6 +243,13 @@ def main():
             log(f"⚠️ {slug} in_progress 但 _posts/ 冇檔，重新嚟過")
             state.pop("in_progress", None)
             save_state(state)
+
+    # capsule 長度機械 gate（2026-09-05：超標就唔出街，防止第 5 日重犯）
+    caps_ok, over_caps = check_capsule_lengths(post_path)
+    if not caps_ok:
+        log(f"🚫 capsule 超長 gate 攔截：{os.path.basename(post_path)} over80={over_caps} — "
+            f"唔出街，留喺 _queue 等寫稿 agent 精簡後再排")
+        return 1
 
     if dry_run:
         log(f"[DRY-RUN] 會出街：{slug}")
