@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Google A2A 開放協議：AI 代理互聯互通新標準"
-date: 2026-09-04 16:00:01 +0800
+date: 2026-09-04 18:00:01 +0800
 categories: 技術
 tags: [AI, AI Agent, 開源, 標準協議, Google, 生態系統]
 image: /assets/images/posts/github-a2a-news-hk-cover.jpg
