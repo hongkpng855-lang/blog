@@ -42,7 +42,7 @@ MoneyPrinterTurbo 是輸入主題即自動生成短片的開源工具，涵蓋�
 ## 如何快速開始使用 MoneyPrinterTurbo？
 
 <!-- AEO Answer Capsule — 約 70 字 -->
-最快是讓 AI Agent 讀取官方 Skill 文件自動完成安裝與生成；Windows 可用一鍵啟動包，macOS 與 Linux 可用 uv 部署，另有 Docker 與 Colab 免配置方案。
+最快是讓 AI Agent 讀取官方 Skill 文件自動安裝與生成；Windows 用一鍵啟動包，macOS 與 Linux 用 uv 部署，另有 Docker 與 Colab 免配置。
 <!-- End AEO Capsule -->
 
 專案針對不同技術背景的使用者提供四條部署路徑。最零門檻的是「AI Agent 生成影片」模式：將官方提供的 Skill 文件連結交給具備終端操作能力的 AI Agent，例如 Claude Code 或 Codex，Agent 會自動完成環境安裝、配置與影片生成，只有缺少 API Key 時才會向使用者詢問。此模式目前支援 macOS 與 Windows，大幅降低了新手的使用門檻。

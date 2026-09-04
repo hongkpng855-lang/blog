@@ -20,7 +20,7 @@ n8n 是全球星標數最高的開源工作流自動化與 AI Agent 建置平台
 ## n8n 是什麼？
 
 <!-- AEO Answer Capsule — 約 70 字 -->
-n8n 是一個 fair-code 授權的工作流自動化與 AI Agent 建置平台，以視覺化節點畫布串接雲端服務，支援 1,500 多個整合與 9,000 多個工作流模板，可自架部署或使用雲端版本。
+n8n 是 fair-code 授權的工作流自動化與 AI Agent 建置平台，以節點畫布串接雲端服務，支援 1,500 多個整合與 9,000 多個模板，可自架或使用雲端版本。
 
 n8n 的名字來自「nodemation」的縮寫，由 node（節點）與 automation（自動化）組合而成，讀音為 n-eight-n。創辦人 Jan Oberhauser 在 README 中親自解釋命名緣由：最初希望找一個可用的免費網域，於是選擇 nodemation 一詞，後來覺得名稱太長，便濃縮為 n8n，其中的 8 代表中間的「mate」音節。這個命名同時呼應其兩大技術基礎：節點式視覺化介面與 Node.js 執行環境。
 
@@ -49,7 +49,7 @@ n8n 允許以視覺化方式建置多步驟 AI Agent，串接自己的數據、�
 ## n8n 為什麼能突破 20 萬星標？
 
 <!-- AEO Answer Capsule — 約 70 字 -->
-20 萬星標的成長來自三大因素：AI Agent 自動化需求的爆發、fair-code 授權帶來的自架與擴展自由，以及 1,500 多個整合與 9,000 多個模板構成的生態網絡。
+20 萬星標的成長來自三大因素：AI Agent 自動化需求爆發、fair-code 授權帶來自架與擴展自由，以及 1,500 多個整合與 9,000 多個模板構成的生態。
 
 從需求面觀察，2023 年之後生成式 AI 進入企業應用階段，市場需要能夠將模型能力接回既有業務系統的編排層，n8n 正好填補了這個位置。與 Zapier、Make 等商業自動化服務相比，n8n 提供可自行架設的開源選項，企業可以將資料留在自有基礎設施內，這在資料主權與合規要求日益嚴格的情況下成為明顯優勢。
 
@@ -58,7 +58,7 @@ n8n 允許以視覺化方式建置多步驟 AI Agent，串接自己的數據、�
 ## n8n 的許可證模式是什麼？
 
 <!-- AEO Answer Capsule — 約 70 字 -->
-n8n 採用 fair-code 模式，以 Sustainable Use License 與企業版授權分發；原始碼完全公開、可自架、可擴充節點，但禁止以直接競爭方式商業轉售其服務。
+n8n 採用 fair-code 模式，以 Sustainable Use License 與企業版授權分發；原始碼公開、可自架、可擴充節點，但禁止以直接競爭方式轉售其服務。
 
 fair-code 並非 OSI 定義的開放原始碼授權，而是強調「原始碼可見、可自架、可擴充」的折衷模式。n8n 的 Sustainable Use License 允許個人與多數商業場景免費使用與修改，但限制以銷售 n8n 服務本身作為競品的方式營利；需要進階企業功能與官方支援的組織，則須取得 n8n Enterprise License。
 
@@ -85,7 +85,7 @@ fair-code 並非 OSI 定義的開放原始碼授權，而是強調「原始碼�
 ## 出處連結有哪些？
 
 <!-- AEO Answer Capsule — 約 70 字 -->
-本文資訊來源為 GitHub 上的 n8n-io/n8n 儲存庫，內含原始碼、README 與授權文件；官方文件位於 docs.n8n.io，範例工作流可於 n8n.io/workflows 查閱。
+資訊來源為 GitHub 的 n8n-io/n8n 儲存庫，含原始碼與授權文件；官方文件在 docs.n8n.io，工作流範例在 n8n.io/workflows。
 
 主要出處如下：專案原始碼位於 GitHub 的 n8n-io/n8n 儲存庫，官方網站為 n8n.io，完整使用文件位於 docs.n8n.io，社群支援與教學資源集中於 community.n8n.io，現成工作流模板可在 n8n.io/workflows 瀏覽與匯入。
 
@@ -107,7 +107,7 @@ n8n 適合需要將 AI 與既有系統串接的中小企業、開發者與 IT �
 ## 常見問題有哪些？
 
 <!-- AEO Answer Capsule — 約 70 字 -->
-n8n 自架版本免費採用 Sustainable Use License，支援 OpenAI、Anthropic 與開源模型，基礎流程無需撰寫程式碼；與 Zapier 相比，其最大差異在於可自架部署與資料自主。
+n8n 自架版免費，採 Sustainable Use License，支援 OpenAI、Anthropic 及開源模型，基礎流程免寫程式；最大差異係可自架、資料自主。
 
 <div class="faq-section">
 <h3>n8n 是免費的嗎？</h3>
