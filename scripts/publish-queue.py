@@ -91,11 +91,13 @@ def check_capsule_lengths(post_path, max_words=80):
     body = content.split("---", 2)[2] if content.startswith("---") else content
 
     marker_re = re.compile(r"<!--\s*AEO Answer Capsule[^>]*-->")
+    end_marker_re = re.compile(r"<!--\s*End AEO Capsule\s*-->")
     caps = []
     for m in marker_re.finditer(body):
         start = m.end()
         seg_end = len(body)
-        for rx in (marker_re.search(body[start:]),
+        for rx in (end_marker_re.search(body[start:]),  # 成對格式：End marker 係最優先邊界（2026-09-06 修假陽性）
+                   marker_re.search(body[start:]),
                    re.search(r"(?:^|\n)##\s", body[start:]),
                    re.search(r"(?:^|\n)---\s*(?:\n|$)", body[start:]),
                    re.search(r"\n\s*\n", body[start:])):
