@@ -30,12 +30,14 @@ LOCK_FILE = os.path.join(BASE_DIR, ".ig-auto-post.lock")
 
 IG_TOKEN = open(os.path.join(SECRETS_DIR, "ig_token.txt")).read().strip()
 IG_USER_ID = open(os.path.join(SECRETS_DIR, "ig_user_id.txt")).read().strip()
-# 圖片用 github.io（IG crawler 可達；custom domain 唔可靠）
-IMG_BASE = "https://hongkpng855-lang.github.io/blog/"
+# 圖片用 custom domain HTTPS 直連（2026-09-04 修正：github.io 會 301 redirect 去非 HTTPS custom domain，IG crawler 唔跟，HTTP 400；HTTPS 直連實測 OK）
+IMG_BASE = "https://aniskill.esgov.org/"
 # caption 內嘅文章連結用 custom domain（用戶要求 2026-08-06）
 LINK_BASE = "https://aniskill.esgov.org/"
 API = "https://graph.instagram.com/v25.0"
 HASHTAGS = "#AI #開源 #GitHub #LLM #人工智能"
+# IG 對 custom domain 嘅圖有時拎唔到（可能 cache 咗 build 未完時嘅 404）→ fallback 用 raw.githubusercontent.com 直連（2026-09-05 實測 OK）
+RAW_IMG_BASE = "https://raw.githubusercontent.com/hongkpng855-lang/blog/main/"
 MAX_CAROUSEL = 10  # IG Carousel 上限
 # 發文後自動補第一條留言（2026-08-08 新增，link in first comment 引流）
 # 改呢度就可以改留言內容；{url} 會自動換成文章連結
@@ -209,23 +211,40 @@ def ig_post_comment(media_id, comment):
     return False, str(r)
 
 
+def raw_fallback_url(image_url):
+    """custom domain 圖拎唔到 → 轉 raw.githubusercontent.com 直連（IG crawler 實測 OK）"""
+    if image_url.startswith(IMG_BASE):
+        return image_url.replace(IMG_BASE, RAW_IMG_BASE)
+    return None
+
+
 def ig_post_image(image_url, caption):
-    """單圖：兩步 create media container → publish"""
-    r = ig_api(f"{IG_USER_ID}/media", {
-        "image_url": image_url,
-        "caption": caption,
-        "access_token": IG_TOKEN,
-    }, "POST")
-    if "id" not in r:
-        return False, str(r)
-    time.sleep(10)  # 等 IG 處理圖片
-    r2 = ig_api(f"{IG_USER_ID}/media_publish", {
-        "creation_id": r["id"],
-        "access_token": IG_TOKEN,
-    }, "POST")
-    if "id" in r2:
-        return True, r2["id"]
-    return False, str(r2)
+    """單圖：兩步 create media container → publish（失敗自動試 raw fallback）"""
+    candidates = [image_url]
+    fb = raw_fallback_url(image_url)
+    if fb:
+        candidates.append(fb)
+    last_err = "未嘗試"
+    for cand in candidates:
+        if cand != image_url:
+            log(f"   🔁 custom domain 拎圖失敗，改用 raw 直連重試：{cand}")
+        r = ig_api(f"{IG_USER_ID}/media", {
+            "image_url": cand,
+            "caption": caption,
+            "access_token": IG_TOKEN,
+        }, "POST")
+        if "id" not in r:
+            last_err = str(r)
+            continue
+        time.sleep(10)  # 等 IG 處理圖片
+        r2 = ig_api(f"{IG_USER_ID}/media_publish", {
+            "creation_id": r["id"],
+            "access_token": IG_TOKEN,
+        }, "POST")
+        if "id" in r2:
+            return True, r2["id"]
+        return False, str(r2)
+    return False, last_err
 
 
 def ig_post_carousel(image_urls, caption):
