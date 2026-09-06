@@ -14,3 +14,22 @@ no_og_image: true
     <a href="{{ '/about/' | relative_url }}" class="btn btn-outline-gold btn-lg">認識 Eric Chan</a>
   </div>
 </div>
+
+<script>
+// 舊版日期格式 URL (/YYYY/MM/DD/xxx.html) → 自動 redirect 去新版 URL
+// 以前 permalink 係 /:year/:month/:day/:title，而家係 /:categories/:year/:month/:day/:title
+(function () {
+  var map = {
+{% for post in site.posts %}
+    "{{ post.date | date: '%Y/%m/%d' }}/{{ post.slug }}.html": "{{ post.url }}",
+{% endfor %}
+    "2026/08/23/2026-08-20-hoppscotch.html": "/技術/2026/08/20/hoppscotch.html"
+  };
+  var path = window.location.pathname.replace(/^\//, '');
+  try { path = decodeURIComponent(path); } catch (e) {}
+  // 淨係處理舊日期格式（第一段係 4 位數字年份）嘅 URL
+  if (/^20\d{2}\//.test(path) && map[path]) {
+    window.location.replace(map[path]);
+  }
+})();
+</script>
