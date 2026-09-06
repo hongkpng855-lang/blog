@@ -11,5 +11,8 @@ scripts/.ig-auto-post.lock
 
 # 待發佈佇列（未出街文章，唔可以 commit 公開）
 _queue/
+
+# 舊文章備份（唔應該公開/build，避免 Google duplicate content）
+backup/
 logs/
 scripts/publish_queue_state.json
