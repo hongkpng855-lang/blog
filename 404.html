@@ -23,7 +23,7 @@ no_og_image: true
 {% for post in site.posts %}
     "{{ post.date | date: '%Y/%m/%d' }}/{{ post.slug }}.html": "{{ post.url }}",
 {% endfor %}
-    "2026/08/23/2026-08-20-hoppscotch.html": "/技術/2026/08/20/hoppscotch.html"
+    "2026/08/23/2026-08-20-hoppscotch.html": "/2026/08/20/hoppscotch.html"
   };
   var path = window.location.pathname.replace(/^\//, '');
   try { path = decodeURIComponent(path); } catch (e) {}
