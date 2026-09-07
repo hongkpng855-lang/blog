@@ -1,7 +1,7 @@
 ---
 layout: post
 title: MediaPipe 1.0 正式版：Google 開源跨平台 AI 框架解析
-date: 2026-09-07 16:00:01 +0800
+date: 2026-09-07 18:00:00 +0800
 categories: 技術
 tags: [MediaPipe, Google, 開源, AI, 機器學習, 跨平台, GitHub]
 image: assets/images/posts/github-mediapipe-news-cover.jpg
