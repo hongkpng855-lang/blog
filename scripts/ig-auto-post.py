@@ -248,19 +248,33 @@ def ig_post_image(image_url, caption):
 
 
 def ig_post_carousel(image_urls, caption):
-    """Carousel：每張圖 create item container → create CAROUSEL container → publish"""
+    """Carousel：每張圖 create item container → create CAROUSEL container → publish
+    ⚠️ 2026-09-08 修正：IG crawler 有時拎唔到 custom domain（aniskill.esgov.org）嘅圖
+    （error 9004，即使 curl 係 200）→ 每張圖失敗時自動試 raw.githubusercontent 直連 fallback
+    """
     children = []
     for i, url in enumerate(image_urls):
-        r = ig_api(f"{IG_USER_ID}/media", {
-            "image_url": url,
-            "is_carousel_item": "true",
-            "access_token": IG_TOKEN,
-        }, "POST")
-        if "id" not in r:
-            return False, f"第 {i + 1}/{len(image_urls)} 張圖 create 失敗：{r}"
-        children.append(r["id"])
-        log(f"   ⏳ Carousel 圖片容器 {i + 1}/{len(image_urls)} ok（{url}）")
-        time.sleep(3)  # 避免 rate limit
+        candidates = [url]
+        fb = raw_fallback_url(url)
+        if fb:
+            candidates.append(fb)
+        last_err = "未嘗試"
+        for cand in candidates:
+            if cand != url:
+                log(f"   🔁 custom domain 拎圖失敗，改用 raw 直連重試：{cand}")
+            r = ig_api(f"{IG_USER_ID}/media", {
+                "image_url": cand,
+                "is_carousel_item": "true",
+                "access_token": IG_TOKEN,
+            }, "POST")
+            if "id" in r:
+                children.append(r["id"])
+                log(f"   ⏳ Carousel 圖片容器 {i + 1}/{len(image_urls)} ok（{cand}）")
+                time.sleep(3)  # 避免 rate limit
+                break
+            last_err = str(r)
+        else:
+            return False, f"第 {i + 1}/{len(image_urls)} 張圖 create 失敗（已試 raw fallback）：{last_err}"
     r = ig_api(f"{IG_USER_ID}/media", {
         "media_type": "CAROUSEL",
         "children": ",".join(children),
