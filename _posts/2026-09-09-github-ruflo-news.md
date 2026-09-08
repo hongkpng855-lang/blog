@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ruflo 開源：7 萬星標的 AI 代理執行框架"
-date: 2026-09-09 02:00:01 +0800
+date: 2026-09-09 04:00:01 +0800
 categories: 技術
 tags: [AI, 開源, Agent, Claude Code, TypeScript]
 image: assets/images/posts/github-ruflo-news-cover.jpg
