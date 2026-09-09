@@ -96,7 +96,9 @@ audio 與 3D 領域同樣完整，包括 ACE-Step 1.5、Stable Audio 3、MiniMax
 
 ## 出處連結有哪些？
 
+<!-- AEO Answer Capsule — 約 70 字 -->
 本文資訊來源為 ComfyUI 的官方 GitHub 儲存庫，讀者可前往查看完整原始碼、文件與發布紀錄；相關資源亦包括官方網站與工作流程範本庫。
+<!-- End AEO Capsule -->
 
 - GitHub 儲存庫：https://github.com/Comfy-Org/ComfyUI
 - 官方網站：https://www.comfy.org/
