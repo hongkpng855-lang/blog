@@ -169,6 +169,9 @@ def build_image_list(post_path, info):
 
     # 去重（保留順序）
     seen, urls = set(), []
+    # 2026-09-09: cache buster — IG crawler 會 cache 圖片 URL 嘅 404 狀態（即使之後圖已上線，
+    # bare URL 仍會 9004 失敗）；用 post 檔案 mtime 做 query 參數，令 IG 每次見到「新 URL」重新抓圖
+    buster = int(os.path.getmtime(post_path))
     for p in raw:
         if p in seen:
             continue
@@ -178,7 +181,8 @@ def build_image_list(post_path, info):
             continue
         url = get_absolute_image(p)
         if url and url not in urls:
-            urls.append(url)
+            sep = "&" if "?" in url else "?"
+            urls.append(f"{url}{sep}v={buster}")
     return urls[:MAX_CAROUSEL]
 
 
