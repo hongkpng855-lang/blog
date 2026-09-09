@@ -5,7 +5,7 @@ date: 2026-09-07 22:00:01 +0800
 categories: 技術
 tags: [MediaPipe, Google, 開源, AI, 機器學習, 跨平台, GitHub]
 image: assets/images/posts/github-mediapipe-news-cover.jpg
-description: MediaPipe 是 Google 開源的跨平台機器學習解決方案框架，GitHub 星標 36,849，於 2026 年 7 月 28 日發布 1.0 正式版。本文分析其圖形化管線架構、端側推理能力、跨平台支援與隱私優勢。
+description: MediaPipe 是 Google 開源的跨平台機器學習解決方案框架，GitHub 星標 36,849，2026 年 7 月發布 1.0 正式版。本文分析其圖形化管線架構、端側推理能力、跨平台支援與隱私優勢，並整理開發者實際開始使用時需要注意的重點。
 author: AnIskill 編輯部
 creator_github: google-ai-edge/mediapipe
 type: news

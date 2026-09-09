@@ -5,7 +5,7 @@ date: 2026-09-02 22:00:01 +0800
 categories: 技術
 tags: [Gemini, Google DeepMind, 影片生成, AI影片, 生成式AI, API]
 image: assets/images/posts/gemini-omni-1-1-flash-news-cover.jpg
-description: "Google DeepMind 推出 Gemini Omni 1.1 Flash，經由 Gemini API 與 Google AI Studio 開放生成式影片功能。新版本支援場景延伸，可參考最多 10 秒先前內容並以 10 秒為單位擴充至總長 40 秒；360p 草稿快 60%、成本僅三分之一；並新增 4K 輸出與 3 秒影片參考輸入。本文整理新功能細節與對開發者的影響。"
+description: "Google DeepMind 推出 Gemini Omni 1.1 Flash，經由 Gemini API 與 Google AI Studio 開放生成式影片功能。新版本支援場景延伸至總長 40 秒、360p 草稿快 60%、成本僅三分之一，並新增 4K 輸出。本文整理新功能細節與對開發者的影響。"
 author: AnIskill 編輯部
 type: news
 source: Google DeepMind
