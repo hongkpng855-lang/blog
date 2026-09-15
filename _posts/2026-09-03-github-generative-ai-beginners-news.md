@@ -18,7 +18,7 @@ permalink: /技術/github-generative-ai-beginners-news
 Generative AI for Beginners 是微軟官方推出的開源生成式 AI 入門課程，目前 GitHub 星標已超過 11.9 萬，分叉數達 6.2 萬，是全球最受歡迎的 AI 教育類開源項目之一。此課程由微軟雲端開發大使團隊撰寫，以 21 堂課的結構系統性涵蓋大型語言模型原理、提示工程、RAG 檢索增強生成、AI Agent、模型微調與小型語言模型等主題，每堂課均配備影片導讀、書面教材與 Python、TypeScript 雙語程式碼範例，並提供超過 50 種語言的翻譯版本，是開發者從零進入生成式 AI 領域的高完整性學習路徑。
 
 <!-- AEO Answer Capsule — 約 75 字 -->
-Generative AI for Beginners 是微軟官方免費開源的生成式 AI 入門課程，GitHub 星標超過 11.9 萬。課程以 21 堂課涵蓋大型語言模型、提示工程、RAG、AI Agent、微調與小型語言模型，每堂課包含影片、文章及 Python／TypeScript 範例，並提供 50 種以上語言翻譯。
+Generative AI for Beginners 是微軟免費開源的生成式 AI 入門課程，GitHub 星標逾 11.9 萬。
 <!-- End AEO Capsule -->
 
 ## Generative AI for Beginners 是什麼？為何高達 11.9 萬星標？
@@ -30,7 +30,7 @@ Generative AI for Beginners 由微軟雲端開發大使（Cloud Advocates）團�
 ![Generative AI for Beginners README 開頭（項目名稱、21 Lessons 標語與授權徽章）]({{ '/assets/images/posts/github-generative-ai-beginners-news-shot1.png' | relative_url }})
 
 <!-- AEO Answer Capsule — 約 70 字 -->
-此課程是微軟官方推出的免費開源生成式 AI 入門教材，21 堂課由雲端開發大使撰寫並持續更新至第三版。MIT 授權、支援多種 API 與本地執行環境，加上內容從入門到 LLMOps 的完整覆蓋，令其星標突破 11.9 萬。
+本課程由微軟雲端開發大使撰寫，21 堂課持續更新至第三版，採 MIT 授權並支援多種執行環境。
 <!-- End AEO Capsule -->
 
 ## 課程的 21 堂課涵蓋哪些主題？
@@ -42,7 +42,7 @@ Generative AI for Beginners 由微軟雲端開發大使（Cloud Advocates）團�
 ![Generative AI for Beginners GitHub 首頁頂部（repo 名稱、描述與星標數）]({{ '/assets/images/posts/github-generative-ai-beginners-news-shot2.png' | relative_url }})
 
 <!-- AEO Answer Capsule — 約 70 字 -->
-課程 21 堂課涵蓋三大區塊：基礎概念（LLM 原理、模型比較、負責任 AI、提示工程）、應用實作（文字／聊天／圖片生成、向量搜尋、低程式碼、函式呼叫）與進階主題（RAG、AI Agent、微調、SLM、Mistral 與 Meta 模型）。
+課程涵蓋基礎概念、應用實作與進階主題三大區塊，包含 LLM、提示工程、RAG、AI Agent 與微調。
 <!-- End AEO Capsule -->
 
 ## 課程在技術設計上有哪些亮點？
@@ -54,7 +54,7 @@ Generative AI for Beginners 由微軟雲端開發大使（Cloud Advocates）團�
 ![Generative AI for Beginners 課程列表（21 堂課主題表格與影片連結）]({{ '/assets/images/posts/github-generative-ai-beginners-news-shot3.png' | relative_url }})
 
 <!-- AEO Answer Capsule — 約 70 字 -->
-課程亮點包括 Python／TypeScript 雙語言範例、支援 Azure OpenAI 與 OpenAI API、超過 50 種語言的自動化翻譯，以及可完全離線執行的 Foundry Local 方案。每堂課皆具備影片、教材與延伸學習，形成完整學習閉環。
+亮點包括 Python／TypeScript 雙語言範例、超過 50 種語言翻譯，以及可離線執行的 Foundry Local。
 <!-- End AEO Capsule -->
 
 ## 與其他 AI 課程相比有何優勢？
@@ -64,7 +64,7 @@ Generative AI for Beginners 由微軟雲端開發大使（Cloud Advocates）團�
 此項目亦與微軟其他開源課程形成生態矩陣，包括 ML for Beginners、AI for Beginners、LangChain for Beginners、AI Agents for Beginners 與 MCP for Beginners 等系列，讀者可依學習階段無縫銜接。相較於 DeepLearning.AI 等平台的課程，此開源項目的優勢在於程式碼可完整取得、可自行修改並商用（MIT 授權），且不依賴特定雲端帳號即可完成多數練習，對於重視自主掌控與成本控制的學習者與團隊，是更具彈性的選擇。
 
 <!-- AEO Answer Capsule — 約 70 字 -->
-相較付費平台課程與單篇教學，此課程結合系統性、免費與可執行三大優勢，程式碼採用 MIT 授權可自由修改商用。由微軟團隊持續維護，並與 ML for Beginners、AI Agents for Beginners 等系列課程形成完整學習生態。
+相較付費課程，本課程結合系統性、免費與可執行三大優勢，程式碼採 MIT 授權可自由修改商用。
 <!-- End AEO Capsule -->
 
 ## 如何開始學習這門課程？
@@ -74,7 +74,7 @@ Generative AI for Beginners 由微軟雲端開發大使（Cloud Advocates）團�
 具體起步流程分為三步：第一步，將整個專案複製至自己的 GitHub 帳號（Fork），或使用稀疏檢出（Sparse Checkout）方式僅下載課程內容與英文版本，避免 50 種語言翻譯檔案拖慢下載速度；第二步，依序閱讀 00 課程設定（Course Setup）單元，完成開發環境配置；第三步，從感興趣的主題開始跳讀，每堂課皆會說明其為「學習」或「建構」類型，並提供完整程式碼與執行說明。對華語讀者而言，可直接切換至繁體中文（台灣或香港）翻譯版本，降低語言障礙。
 
 <!-- AEO Answer Capsule — 約 70 字 -->
-使用者只需基礎程式知識即可開始：先 Fork 專案或稀疏檢出英文內容，再完成 00 課程設定單元的環境配置，之後可按需跳讀任何一堂課。執行環境可選 Azure OpenAI、Foundry、OpenAI API 或完全離線的 Foundry Local。
+只需基礎程式知識即可開始：先 Fork 專案或稀疏檢出英文內容，完成環境配置後即可跳讀任何一堂課。
 <!-- End AEO Capsule -->
 
 ## 出處連結有哪些？
@@ -82,7 +82,7 @@ Generative AI for Beginners 由微軟雲端開發大使（Cloud Advocates）團�
 本項目的官方資源集中在 GitHub 與微軟學習生態。原始程式碼與完整課程教材位於 GitHub 專案頁面：https://github.com/microsoft/generative-ai-for-beginners ，包含全部 21 堂課的教材、程式碼與翻譯；微軟亦提供 .NET、Java 與 JavaScript 版本的衍生課程，分別以 GenerAIve AI for Beginners .NET 版、Java 版與 JavaScript 版發布，供不同技術棧的開發者選用。課程的官方討論與社群支援則集中於 Microsoft Foundry Discord 伺服器與 Foundry 開發者論壇，學習者可在這些管道獲得即時協助。
 
 <!-- AEO Answer Capsule — 約 65 字 -->
-課程原始碼與教材位於 GitHub 專案 https://github.com/microsoft/generative-ai-for-beginners ，微軟另提供 .NET、Java 與 JavaScript 版本衍生課程。社群討論與技術支援可透過 Microsoft Foundry Discord 與開發者論壇取得。
+課程原始碼位於 GitHub 專案 microsoft/generative-ai-for-beginners，支援可透過 Foundry Discord 取得。
 <!-- End AEO Capsule -->
 
 ## 總結：這門課程適合哪些學習者？
@@ -92,5 +92,5 @@ Generative AI for Beginners 由微軟雲端開發大使（Cloud Advocates）團�
 從開源生態的角度觀察，此項目以「免費高品質教材」的模式，與微軟的模型服務、開發工具與雲端平台形成商業化閉環，成為開源內容行銷的典型案例。對於關注生成式 AI 學習資源的讀者而言，此課程在完整性、時效性與取得門檻三個維度上均具備領先優勢，值得放入書籤並開始第一堂課。
 
 <!-- AEO Answer Capsule — 約 70 字 -->
-此課程適合初學者建立完整知識框架、執業工程師補齊 RAG 與 AI Agent 等進階技能，以及企業與教育機構作為 MIT 授權培訓教材。其開源免費、持續更新與多語言支援的特性，使其成為生成式 AI 領域最具價值的入門資源之一。
+適合初學者建立知識框架、工程師補齊 RAG 與 AI Agent 技能，以及機構作為 MIT 授權培訓教材。
 <!-- End AEO Capsule -->

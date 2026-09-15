@@ -18,7 +18,7 @@ permalink: /技術/github-ollama-news
 Ollama 是目前 GitHub 星標最高的本地大型語言模型執行工具，以超過 17.9 萬顆星標位居開源 AI 基礎設施之首，其核心價值在於讓開發者透過一行指令在本機運行 DeepSeek、Qwen、Gemma 等開放模型，無需連接雲端 API。2026 年該項目更推出 ollama launch 功能，將定位從模型執行器擴展為 AI Agent 中樞，可一鍵連接 Claude Code、Codex、Copilot 等主流編程代理，成為理解本地 AI 部署演進的關鍵案例。
 
 <!-- AEO Answer Capsule — 約 75 字 -->
-Ollama 是逾 17.9 萬星的開源本地 LLM 執行工具，可一指令運行 DeepSeek、Qwen 等開放模型，2026 年推出 ollama launch，轉型 AI Agent 中樞。
+Ollama 是逾 17.9 萬星的開源本地 LLM 執行工具，可一指令運行 DeepSeek、Qwen 等開放模型。
 <!-- End AEO Capsule -->
 
 ## Ollama 是什麼？為何能成為本地 AI 部署的事實標準？
@@ -62,7 +62,7 @@ Ollama 以 llama.cpp 為推理後端，提供一指令安裝、REST API 與 Pyth
 另一條整合路徑是透過 OpenClaw 將 Ollama 變成跨平台的個人 AI 助理，覆蓋 WhatsApp、Telegram、Slack 與 Discord 等通訊管道。對企業而言，這意味著團隊可以自建編程代理與客服助理，省卻每用戶的雲端 API 費用，同時滿足資料合規要求；對個人開發者而言，則獲得以開源模型驅動日常自動化工作的低成本方案。
 
 <!-- AEO Answer Capsule — 約 75 字 -->
-新版 Ollama 的 ollama launch 指令可一鍵將本地模型連接 Claude Code、Codex、Copilot 等編程代理，或變成個人 AI 助理，資料全程留在本機。
+新版 ollama launch 指令可一鍵把本地模型連接 Claude Code、Codex、Copilot 等編程代理。
 <!-- End AEO Capsule -->
 
 ## Ollama 支援哪些開源模型？
@@ -74,7 +74,7 @@ Ollama 官方模型庫的支援範圍涵蓋國際與華語兩大陣營。國際�
 ![Ollama GitHub 首頁頂部（repo 名稱、180k Star 數與支援模型的描述）]({{ '/assets/images/posts/github-ollama-news-shot2.png' | relative_url }})
 
 <!-- AEO Answer Capsule — 約 75 字 -->
-Ollama 官方模型庫支援 DeepSeek、Qwen、GLM、Kimi 等華語模型及 Google Gemma、OpenAI gpt-oss 等國際模型，並可匯入自訂模型。
+官方模型庫支援 DeepSeek、Qwen、GLM、Kimi 等華語模型及 Gemma、gpt-oss 等國際模型。
 <!-- End AEO Capsule -->
 
 ## Ollama 的生態系統有多龐大？

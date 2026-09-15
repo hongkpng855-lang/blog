@@ -5,7 +5,7 @@ date: 2026-09-11 06:00:01 +0800
 categories: 技術
 tags: [AI, OpenAI, AI安全, 對齊, RLHF, 治理, 董事會]
 image: assets/images/posts/openai-paul-christiano-board-news-cover.jpg
-description: "Paul Christiano 是強化學習人類回饋（RLHF）技術的奠基者，2026 年 9 月獲邀加入 OpenAI 基金會董事會，出任無投票權觀察員並加入安全與保安委員會。本文解析人事任命背景、委員會權責與他對 AI 失控風險的公開立場。"
+description: "Paul Christiano 是強化學習人類回饋（RLHF）技術的奠基者，2026 年 9 月獲邀加入 OpenAI 基金會董事會，出任無投票權觀察員並加入安全與保安委員會。本文解析人事任命背景、委員會權責與他對 AI 失控風險的公開立場，並評估對安全治理的意義。"
 author: AnIskill 編輯部
 type: news
 source: OpenAI

@@ -24,7 +24,7 @@ MinerU 是由 OpenDataLab 開發的高精度文檔解析引擎，專門將 PDF�
 ## MinerU 是什麼？
 
 <!-- AEO Answer Capsule — 約 70 字 -->
-MinerU 是一個開源文檔解析引擎，支援 PDF、圖片、DOCX、PPTX、XLSX 五種輸入格式，輸出結構化 Markdown 與 JSON。它由上海 AI Laboratory 旗下的 OpenDataLab 團隊維護，誕生於 InternLM 預訓練過程中，目的在解決科學文獻符號轉換與複雜版面重構的難題。
+MinerU 是開源文檔解析引擎，支援 PDF、圖片、DOCX、PPTX、XLSX，輸出結構化 Markdown 與 JSON。
 <!-- End AEO Capsule -->
 
 MinerU 的定位並非單純的檔案格式轉換器，而是面向大語言模型時代的「文檔理解基礎設施」。其核心能力包括公式自動轉換為 LaTeX、表格自動轉換為 HTML、頁首頁尾與頁碼自動移除，以及依人類閱讀順序重排多欄版面。這些能力直接對應 RAG 系統中「文件清洗」與「版面重構」兩大痛點，使解析結果可以直接進入向量化與檢索階段，而不需要大量人工前處理。
@@ -38,7 +38,7 @@ MinerU 的定位並非單純的檔案格式轉換器，而是面向大語言模�
 ## MinerU 的核心技術亮點有哪些？
 
 <!-- AEO Answer Capsule — 約 75 字 -->
-MinerU 採用 VLM（視覺語言模型）與 OCR 雙引擎架構，內建三種解析後端：pipeline、hybrid 與 vlm-engine。pipeline 適合純 CPU 環境且無幻覺風險，hybrid 以 MInerU2.5-Pro 視覺模型提供最高準確度，並全面支援 109 種語言的文字偵測與辨識。
+它採 VLM 與 OCR 雙引擎，內建 pipeline、hybrid、vlm-engine 三種後端，支援 109 種語言辨識。
 <!-- End AEO Capsule -->
 
 在架構設計上，MinerU 提供多種部署形態以適應不同場景。pipeline 後端為傳統版面分析流程，可在純 CPU 環境運行，最低僅需 4GB 顯示記憶體；hybrid 與 vlm-engine 後端則依賴視覺語言模型，需要 8GB 以上顯示記憶體，並可透過 vLLM、SGLang、LMDeploy 等推理框架部署。進階用戶可選擇 *-http-client 模式，將解析任務委派給任何 OpenAI 相容的推理伺服器，實現解析與模型服務的分離。
@@ -48,7 +48,7 @@ MinerU 採用 VLM（視覺語言模型）與 OCR 雙引擎架構，內建三種�
 ## MinerU 3.4 版本帶來了什麼升級？
 
 <!-- AEO Answer Capsule — 約 70 字 -->
-MinerU 3.4 版本於 2026 年 6 月發布，將 pipeline 後端的 OCR 模型升級為 PP-OCRv6，在 OmniDocBench v1.6 基準上 OCR 準確率提升約 11%，解析速度提升約 100%。模型下載機制同步最佳化，新增自動來源選擇與本地快取重用，減少重複下載。
+MinerU 3.4 於 2026 年 6 月發布，pipeline 後端 OCR 升級為 PP-OCRv6，解析速度提升約 100%。
 <!-- End AEO Capsule -->
 
 3.4 版本的核心改進集中在 OCR 管線與工程體驗。OCR 語言選擇從原本的日文、繁體中文、英文、拉丁文等多套模型，簡化為統一由中文模型 ch 處理，降低模型配置複雜度，同時提升批次文檔與 OCR 密集型文檔的處理效率。對需要大量掃描文件數位化的企業而言，這項更新直接反映在單位時間處理量與人工校正成本的下降。
@@ -58,7 +58,7 @@ MinerU 3.4 版本於 2026 年 6 月發布，將 pipeline 後端的 OCR 模型升
 ## MinerU 的解析準確度表現如何？
 
 <!-- AEO Answer Capsule — 約 75 字 -->
-根據 OmniDocBench v1.6 端對端評估，MinerU 的 pipeline 後端得分 86.47 分，hybrid 後端 high 強度 95.39 分、medium 強度 95.26 分，vlm-engine 後端 95.30 分。hybrid 的 medium 模式比 high 模式僅低 0.13 分，卻可帶來 35% 至 220% 的解析速度提升。
+在 OmniDocBench v1.6 中，pipeline 得 86.47 分，hybrid 為 95.39 分，vlm-engine 為 95.30 分。
 <!-- End AEO Capsule -->
 
 準確度數據是 MinerU 社群信任度的關鍵指標。以 OmniDocBench 基準衡量，hybrid 與 vlm-engine 後端已穩定維持在 95 分以上的水準，而 pipeline 後端亦以 86.47 分超越上一代 VLM 主模型，展示了傳統版面分析流程在新一代模型輔助下的長足進步。
@@ -70,7 +70,7 @@ MinerU 3.4 版本於 2026 年 6 月發布，將 pipeline 後端的 OCR 模型升
 ## 如何快速開始使用 MinerU？
 
 <!-- AEO Answer Capsule — 約 65 字 -->
-MinerU 支援 pip 或 uv 一鍵安裝，指令為「uv pip install -U mineru[all]」，亦可使用官方線上服務 mineru.net、Gradio WebUI 或桌面客戶端。純 CPU 環境即可運行 pipeline 後端，最低配置為 16GB 記憶體與 4GB 顯示記憶體。
+支援 pip 或 uv 一鍵安裝，亦可用線上服務或桌面客戶端；最低需 16GB 記憶體與 4GB 顯示記憶體。
 <!-- End AEO Capsule -->
 
 官方建議初次使用者先透過線上體驗驗證解析品質，再根據實際需求選擇部署方式。最簡單的路徑是直接使用 mineru.net 線上版本，無需安裝任何環境；開發者則可透過 Gradio WebUI 快速搭建本機介面，或使用 pip 安裝命令在本機部署完整功能。
@@ -80,7 +80,7 @@ MinerU 支援 pip 或 uv 一鍵安裝，指令為「uv pip install -U mineru[all
 ## MinerU 在 RAG 與 AI 工作流中如何應用？
 
 <!-- AEO Answer Capsule — 約 70 字 -->
-MinerU 是 RAG 管線中「文件進、結構出」的關鍵環節：論文、合約、財務報表等複雜文檔經解析後輸出結構化 Markdown 與 JSON，再進入向量資料庫與檢索階段。其 MCP Server 讓 Cursor、Claude Desktop 等工具可直接讀取並理解文檔內容。
+MinerU 是 RAG 管線「文件進、結構出」的關鍵環節，其 MCP Server 讓 Cursor 與 Claude Desktop 可直讀文檔。
 <!-- End AEO Capsule -->
 
 在 RAG 應用中，文檔解析品質直接決定檢索結果的上限。MinerU 的輸出保留標題層級、段落、清單、表格與公式結構，並依閱讀順序重排多欄與跨頁內容，使向量切塊（chunking）更加精準，減少語意斷裂。對合約審閱、研究論文分析與財務報告等專業場景，其表格轉 HTML、公式轉 LaTeX 的能力可保留原始語意，優於單純的文字擷取方案。
@@ -90,7 +90,7 @@ MinerU 是 RAG 管線中「文件進、結構出」的關鍵環節：論文、�
 ## 出處連結有哪些？
 
 <!-- AEO Answer Capsule — 約 60 字 -->
-本文資訊來源為 OpenDataLab 在 GitHub 發布的 MinerU 開源儲存庫（opendatalab/MinerU），官方 README 提供完整功能說明、部署文件與變更紀錄，並發布三份技術報告可供進一步參考。
+本文資訊來源為 OpenDataLab 在 GitHub 發布的 MinerU 開源儲存庫（opendatalab/MinerU）。
 <!-- End AEO Capsule -->
 
 項目原始碼與完整文件位於 GitHub 儲存庫：[opendatalab/MinerU](https://github.com/opendatalab/MinerU)。技術細節可參考其 arXiv 技術報告（MinerU、MinerU2.5 與 MinerU2.5 Pro），部署與整合教學則見於官方文件網站 opendatalab.github.io/MinerU。
@@ -98,7 +98,7 @@ MinerU 是 RAG 管線中「文件進、結構出」的關鍵環節：論文、�
 ## 總結：MinerU 適合什麼團隊？
 
 <!-- AEO Answer Capsule — 約 70 字 -->
-MinerU 適合需要將大量複雜文檔轉換為結構化資料的團隊：RAG 知識庫建置、企業文檔數位化、研究論文分析與 AI Agent 工具開發者均可受惠。其純 CPU 支援與國產晶片相容性，亦讓預算有限或具合規需求的機構可以低成本導入。
+適合需將大量複雜文檔轉為結構化資料的團隊：RAG 知識庫、企業數位化與 AI Agent 開發者皆可受惠。
 <!-- End AEO Capsule -->
 
 從 7.9 萬星標與持續的版本迭代來看，MinerU 已從 InternLM 訓練過程中的內部工具，成長為文檔解析領域的基礎設施級項目。其 3.0 至 3.4 的演進脈絡，清晰呈現三條主線：解析準確度持續逼近甚至超越商業產品、部署形態從單機工具擴展至多 GPU 服務架構、授權模式由 AGPLv3 轉為基於 Apache 2.0 的自訂開源授權以降低商業採用門檻。對正在建構 RAG 系統或需要高品質文檔解析能力的開發者而言，MinerU 是目前開源生態中最值得評估的選項之一。

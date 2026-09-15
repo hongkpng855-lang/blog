@@ -5,7 +5,7 @@ date: 2026-09-11 08:00:00 +0800
 categories: 技術
 tags: [Appwrite, 後端即服務, BaaS, 開源, 自架, PostgreSQL, VectorsDB, 向量資料庫, Firebase 替代, Docker]
 image: assets/images/posts/github-appwrite-news-cover.jpg
-description: "Appwrite 是 2019 年開源的後端即服務平台，GitHub 星標達 57,338。2026 年 9 月發布 2.0 版本，預設資料庫改為 PostgreSQL，新增向量資料庫 VectorsDB、無綱要文件庫 DocumentsDB 與 Embeddings API，並重建 Console，採 BSD 授權，可用 Docker 自架。"
+description: "Appwrite 是 2019 年開源的後端即服務平台，GitHub 星標達 57,338。2026 年 9 月發布 2.0 版本，預設資料庫改為 PostgreSQL，新增向量資料庫與 Embeddings API，並重建 Console，採 BSD 授權可用 Docker 自架。"
 author: AnIskill 編輯部
 creator_github: appwrite/appwrite
 type: news

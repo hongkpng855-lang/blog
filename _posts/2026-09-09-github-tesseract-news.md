@@ -5,7 +5,7 @@ date: 2026-09-09 06:00:00 +0800
 categories: 技術
 tags: [Tesseract OCR, 開源, AI, 文字辨識, OCR, GitHub]
 image: assets/images/posts/github-tesseract-news-cover.jpg
-description: Tesseract 是擁有 76,350 星標的開源 OCR 引擎，源於 1985 年 HP 實驗室，2005 年開源、2006 至 2017 年由 Google 維護，最新穩定版 5.5.3 於 2026 年 7 月發佈。本文分析其 LSTM 核心架構、逾百種語言支援與生態定位。
+description: Tesseract 是擁有 76,350 星標的開源 OCR 引擎，源於 1985 年 HP 實驗室，2005 年開源、2006 至 2017 年由 Google 維護，最新穩定版 5.5.3 於 2026 年 7 月發佈。本文分析其 LSTM 核心架構、逾百種語言支援與整體生態定位。
 author: AnIskill 編輯部
 creator_github: tesseract-ocr/tesseract
 type: news

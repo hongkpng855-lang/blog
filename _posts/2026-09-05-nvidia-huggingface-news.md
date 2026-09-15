@@ -5,7 +5,7 @@ date: 2026-09-05 12:00:01 +0800
 categories: 技術
 tags: [Nvidia, Hugging Face, AI, 開源, 收購, 開發者生態]
 image: assets/images/posts/news-nvidia-huggingface-cover.jpg
-description: "Nvidia 9 月 3 日確認以 129.3 億美元收購 Hugging Face，該平台託管逾 300 萬模型、100 萬應用程式與 50 萬數據集，服務 1,800 萬開發者。黃仁勳強調平台保持開放，支援開源與開放權重模型。本文整理收購細節與對 AI 生態的影響。"
+description: "Nvidia 9 月 3 日確認以 129.3 億美元收購 Hugging Face，該平台託管逾 300 萬模型、100 萬應用程式與 50 萬數據集，服務 1,800 萬開發者。黃仁勳強調平台保持開放，支援開源與開放權重模型。本文整理收購細節與對整體 AI 生態的影響。"
 author: AnIskill 編輯部
 type: news
 source: TechCrunch

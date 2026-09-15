@@ -5,7 +5,7 @@ date: 2026-09-10 10:00:00 +0800
 categories: 技術
 tags: [FastGPT, RAG, 知識庫, AI Agent, 開源, 工作流, 大模型, GitHub]
 image: assets/images/posts/github-fastgpt-news-cover.jpg
-description: FastGPT 是 labring 團隊推出的開源 AI 知識庫平台，於 GitHub 累積 29,617 星標與 7,303 次複製，以視覺化 Flow 工作流編排與開箱即用的 RAG 檢索見稱，支援多格式文檔導入與 Docker 一鍵部署，最新 v4.16.2 於 2026 年 9 月發佈。本文解析其核心功能、部署方式與市場定位。
+description: "FastGPT 是 labring 團隊推出的開源 AI 知識庫平台，GitHub 累積 29,617 星標與 7,303 次複製，以視覺化 Flow 工作流編排與開箱即用的 RAG 檢索見稱，支援多格式文檔導入與 Docker 一鍵部署。本文解析其核心功能、部署方式與市場定位。"
 author: AnIskill 編輯部
 creator_github: labring/FastGPT
 type: news

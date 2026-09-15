@@ -5,7 +5,7 @@ date: 2026-09-11 02:00:01 +0800
 categories: 技術
 tags: [OpenDesign, Claude Design, 開源軟體, AI 設計, DESIGN.md, 本地優先, TypeScript, 開發工具, Figma 替代]
 image: assets/images/posts/github-open-design-news-cover.jpg
-description: "OpenDesign 是 2026 年 4 月啟動的開源桌面設計工具，GitHub 星標達 95,289，主打本機優先、代理原生、模型無關，以 DESIGN.md 作為品牌合約，內建 151 套設計系統、100+ 功能技能與 277 個官方外掛，可直接匯出 HTML、PDF、PPTX 與 MP4。本文解析其架構、與 Claude Design 及 Figma 的差異與適用場景。"
+description: "OpenDesign 是 2026 年 4 月啟動的開源桌面設計工具，GitHub 星標達 95,289，主打本機優先、代理原生、模型無關，以 DESIGN.md 作為品牌合約，內建 151 套設計系統與 277 個外掛。本文解析其架構與適用場景。"
 author: AnIskill 編輯部
 creator_github: nexu-io/open-design
 type: news

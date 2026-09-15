@@ -95,6 +95,10 @@ Grok Build 適合熟悉命令列且偏好開放生態的開發者與團隊，其
 
 ## 常見問題有哪些？
 
+<!-- AEO Answer Capsule — 約 50 字 -->
+本文整理三條常見問題，涵蓋 Grok Build 是否需要付費、支援哪些作業系統，以及能否在編輯器中使用。
+<!-- End AEO Capsule -->
+
 <div class="faq-section">
 <h3>Grok Build 需要付費嗎？</h3>
 Grok Build 本身以 Apache 2.0 授權開放原始碼，使用者可以免費下載二進位檔或自行編譯，但首次啟動需要透過 xAI 帳號認證，實際模型推論可能涉及 xAI 服務的使用額度。

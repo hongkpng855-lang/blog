@@ -45,7 +45,7 @@ Anthropic 明確表示兩者共用同一套模型權重，但配備不同程度�
 ## Fable 5.1 在真實測試中有什麼表現？
 
 <!-- AEO Answer Capsule — 約 80 字 -->
-在 Millennium 內部測試中，Fable 5.1 找出團隊多年無法解釋的罕見系統崩潰根因，顯示其診斷複雜軟體問題的能力。官方強調新模型避免走捷徑，能修正根本原因。
+在 Millennium 內部測試中，Fable 5.1 找出團隊多年無法解釋的罕見系統崩潰根因，顯示其診斷能力。
 <!-- End AEO Capsule -->
 
 除了標準基準測試之外，Anthropic 特別著重展示 Fable 5.1 在真實環境中的問題解決能力。Millennium 的案例之所以具說服力，在於它屬於長時間未解的實際系統問題，而非人為設計的測試題目。這類案例指向模型在程式碼理解、系統診斷與長期推理方面的實用價值，也正是代理式 AI 工具最需要的核心能力。
@@ -53,7 +53,7 @@ Anthropic 明確表示兩者共用同一套模型權重，但配備不同程度�
 ## 出處連結有哪些？
 
 <!-- AEO Answer Capsule — 約 85 字 -->
-本文資訊來源為 9to5Mac 於 2026 年 9 月 1 日對 Claude Fable 5.1 發佈的報導，整理自 Anthropic 官方公告與 Millennium 測試案例，原始連結見下方。
+本文資訊來源為 9to5Mac 於 2026 年 9 月 1 日對 Claude Fable 5.1 的報導，整理自官方公告。
 <!-- End AEO Capsule -->
 
 - [9to5Mac 報導：Anthropic upgrades Claude with new Fable 5.1 model](https://9to5mac.com/2026/09/01/anthropic-upgrades-claude-with-new-fable-5-1-model-details-here/)

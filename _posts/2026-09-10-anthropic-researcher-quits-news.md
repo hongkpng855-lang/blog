@@ -5,7 +5,7 @@ date: 2026-09-10 14:00:01 +0800
 categories: 技術
 tags: [AI, Anthropic, AI安全, 自我改進, 對齊, 治理]
 image: assets/images/posts/anthropic-researcher-quits-news-cover.jpg
-description: "Anthropic 研究員 Jacob Coxon 於 2026 年 9 月辭職，公開警告自我改進超級智能可能在十年內失控。對齊科學主管 Evan Hubinger 回應認同，並稱個人評估災難風險超過一成。本文解析事件背景、內部風險報告與業界治理爭議。"
+description: "Anthropic 研究員 Jacob Coxon 於 2026 年 9 月辭職，公開警告自我改進超級智能可能在十年內失控。對齊科學主管 Evan Hubinger 回應認同，並稱個人評估災難風險超過一成。本文解析事件背景、內部風險報告與業界治理爭議，並整理後續發展。"
 author: AnIskill 編輯部
 type: news
 source: Ars Technica

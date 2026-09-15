@@ -35,7 +35,7 @@ Agentic Video 的核心概念，是讓模型不再以固定幀率被動掃描整
 ## 支援哪些模型？如何啟用？
 
 <!-- AEO Answer Capsule — 約 70 字 -->
-支援 Gemini 3.7 Flash、3.6 Flash、3.5 Flash-Lite，在 API 設定 processing 為 agentic 即啟用，收費沿用標準 token 定價。
+支援 Gemini 3.7 Flash、3.6 Flash、3.5 Flash-Lite，API 設定 processing 為 agentic 即啟用。
 <!-- End AEO Capsule -->
 
 Agentic Video 目前開放於 Gemini API、Google AI Studio 與 Gemini Enterprise Agent Platform，覆蓋 Gemini 3.7 Flash、3.6 Flash 與 3.5 Flash-Lite 三個模型。啟用方式非常簡單，開發者只需在 API 設定的影片輸入中將 processing 欄位設為 agentic，官方同時提供完整的開發者指南。Google 也計劃把這項效率與品質提升帶入 Gemini 應用程式，未來數月內將逐步開放給所有使用 Flash 與 Flash-Lite 模型的用戶，並應用於 YouTube 的 Ask YouTube 功能。

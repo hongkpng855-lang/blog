@@ -74,6 +74,10 @@ OpenAI 的 Codex（後來整合至 ChatGPT）早在今年稍早已為 Mac 用戶
 
 ## 常見問題有哪些？
 
+<!-- AEO Answer Capsule — 約 55 字 -->
+本文整理三條常見問題，涵蓋背景電腦操作所需的訂閱方案、Windows 支援情況，以及操作期間能否同時使用同一部 Mac。
+<!-- End AEO Capsule -->
+
 <div class="faq-section">
 <h3>背景電腦操作需要什麼訂閱方案？</h3>
 <p>需要 Claude Pro 或 Claude Max 訂閱，免費方案無法使用。</p>
