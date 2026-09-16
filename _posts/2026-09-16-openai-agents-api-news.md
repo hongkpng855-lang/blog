@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "OpenAI 推出 Agents API：開源 Codex 代理框架"
-date: 2026-09-16 08:00:00 +0800
+date: 2026-09-16 10:00:01 +0800
 categories: 技術
 tags: [AI, OpenAI, Agents API, Codex, 代理, 開發者工具, API, 沙盒]
 image: assets/images/posts/openai-agents-api-news-cover.jpg
