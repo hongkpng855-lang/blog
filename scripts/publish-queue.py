@@ -121,6 +121,38 @@ def check_capsule_lengths(post_path, max_words=80):
     return len(over_list) == 0, over_list
 
 
+def check_front_matter(post_path):
+    """機械 gate（2026-09-20 新增）：出街前檢查 front matter 係咪有效 YAML。
+
+    背景：2026-09-20 audit 發現 3 篇新聞文（one-api / openai-agents-sdk / mineru）
+    `fb_message:` 多行值冇用引號，令 front matter 唔係有效 YAML → Jekyll 讀唔到
+    title/date/categories，render 出：H1 空、<title> 變站名、description 空、
+    JSON-LD headline:null、news-sitemap <news:title> 空，而且 canonical URL 跟 build
+    日期漂移（/2026/09/16 → /2026/09/20），每次 build 都產生新 URL = 死鏈。
+
+    規則：news 文章 fb_message 一定要單行「雙引號 + \n 轉義」格式。
+    返回 (ok: bool, reason: str)。
+    """
+    try:
+        with open(post_path, encoding="utf-8") as f:
+            content = f.read()
+    except Exception as e:
+        return False, f"read_error: {e}"
+    if not content.startswith("---"):
+        return True, "no front matter"
+    parts = content.split("---", 2)
+    if len(parts) < 3:
+        return False, "front matter 缺 closing ---（可能貼咗下一行）"
+    fm = parts[1]
+    try:
+        import yaml
+        yaml.safe_load(fm)
+    except Exception as e:
+        first = str(e).split("\n")[0]
+        return False, f"front matter 無效 YAML: {first}"
+    return True, "ok"
+
+
 def run(cmd, timeout=120):
     """行 command，返回 (returncode, stdout, stderr)"""
     try:
@@ -260,6 +292,13 @@ def publish_one(dry_run=False):
             log(f"⚠️ {slug} in_progress 但 _posts/ 冇檔，重新嚟過")
             state.pop("in_progress", None)
             save_state(state)
+
+    # front matter YAML 機械 gate（2026-09-20：無效 YAML 會令標題/日期/JSON-LD 全空 + canonical 漂移）
+    fm_ok, fm_reason = check_front_matter(post_path)
+    if not fm_ok:
+        log(f"🚫 front matter gate 攔截：{os.path.basename(post_path)} {fm_reason} — "
+            f"唔出街，留喺 _queue 等修正後再排")
+        return 1
 
     # capsule 長度機械 gate（2026-09-05：超標就唔出街，防止第 5 日重犯）
     caps_ok, over_caps = check_capsule_lengths(post_path)
