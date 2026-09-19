@@ -16,3 +16,4 @@ _queue/
 backup/
 logs/
 scripts/publish_queue_state.json
+scripts/.publish-queue.lock

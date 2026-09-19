@@ -546,7 +546,10 @@ def post_story_for(post_file, info, img_urls, post_url):
     # 封面本地路徑（由 github.io URL 反推），攞頭兩張
     cover_locals = []
     for u in img_urls[:2]:
-        rel = u.replace(IMG_BASE, "")
+        # 2026-09-20 修正：build_image_list 會加 cache-buster query（?v=<mtime>）
+        # → 反推本地路徑前必須拆走 query，否則 os.path.exists() 永遠 false
+        #（症狀：Story 一直被跳過並記錄「搵唔到本地封面圖」，9/9 起全部 Story 消失）
+        rel = u.replace(IMG_BASE, "").split("?")[0].split("#")[0]
         lp = os.path.join(JEKYLL_DIR, rel)
         if os.path.exists(lp):
             cover_locals.append(lp)

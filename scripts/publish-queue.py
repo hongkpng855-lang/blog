@@ -217,8 +217,23 @@ def run_fb_ig():
     return results
 
 
-def main():
-    dry_run = "--dry-run" in sys.argv
+def acquire_lock():
+    """實例鎖（2026-09-20 新增）：防止 @reboot 補跑同每 2 小時 cron 同時執行 → 重複出街。
+    拎唔到鎖就即刻離開（唔阻塞、唔報錯）。"""
+    import fcntl
+    lock_path = os.path.join(BASE_DIR, ".publish-queue.lock")
+    fh = open(lock_path, "w")
+    try:
+        fcntl.flock(fh, fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except OSError:
+        fh.close()
+        return None
+    fh.write(str(os.getpid()))
+    fh.flush()
+    return fh
+
+
+def publish_one(dry_run=False):
     state = load_state()
 
     posts = list_queued_posts()
@@ -334,6 +349,56 @@ def main():
     save_state(state)
     log(f"🎉 出街完成：{slug}")
     return 0
+
+
+def main():
+    dry_run = "--dry-run" in sys.argv
+    max_posts = 1
+    gap_s = 0
+    if "--max" in sys.argv:
+        try:
+            max_posts = max(1, int(sys.argv[sys.argv.index("--max") + 1]))
+        except (ValueError, IndexError):
+            max_posts = 1
+    if "--gap" in sys.argv:
+        try:
+            gap_s = max(0, int(sys.argv[sys.argv.index("--gap") + 1]))
+        except (ValueError, IndexError):
+            gap_s = 0
+
+    lock = acquire_lock()
+    if lock is None:
+        log("⏭️ 另一個 publish-queue 實例執行中，跳過今次")
+        return 0
+    try:
+        published = 0
+        while published < max_posts:
+            if not list_queued_posts():
+                break
+            rc = publish_one(dry_run)
+            if rc != 0:
+                return rc
+            published += 1
+            if published >= max_posts:
+                break
+            if not list_queued_posts():
+                break
+            if gap_s > 0:
+                log(f"⏳ 補跑下一篇，等 {gap_s} 秒（保持出文間隔）")
+                time.sleep(gap_s)
+            else:
+                break
+        return 0
+    finally:
+        try:
+            import fcntl
+            fcntl.flock(lock, fcntl.LOCK_UN)
+        except Exception:
+            pass
+        try:
+            lock.close()
+        except Exception:
+            pass
 
 
 if __name__ == "__main__":
