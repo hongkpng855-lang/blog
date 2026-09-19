@@ -5,7 +5,7 @@ date: 2026-09-16 14:00:01 +0800
 categories: 技術
 tags: [AI, Google, DeepMind, Gemini, 語音代理, Live API, 開發者工具]
 image: assets/images/posts/gemini-3-8-live-news-cover.jpg
-description: "Google DeepMind 於 2026 年 9 月 15 日推出 Gemini 3.8 Live 與 Gemini 3.8 Live Extended Thinking 兩款即時對話模型，分別針對規模化成本效率與高複雜度推理。新模型可在對話期間背景執行工具呼叫，並支援 97 種語言即時切換，本文整理基準測試、接入方式與生態影響。"
+description: "Google DeepMind 於 2026 年 9 月 15 日推出 Gemini 3.8 Live 與 Gemini 3.8 Live Extended Thinking 兩款即時對話模型，分別針對成本效率與高複雜度推理。新模型可在對話期間背景執行工具呼叫，支援 97 種語言即時切換，本文整理基準測試、接入方式與生態影響。"
 author: AnIskill 編輯部
 type: news
 source: Google DeepMind

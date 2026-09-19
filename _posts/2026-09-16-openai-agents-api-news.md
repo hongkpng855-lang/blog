@@ -16,7 +16,7 @@ fb_message: 過去一年，開發者花在代理基礎設施上的時間，往�
 
 OpenAI 於 2026 年 9 月 10 日宣布推出 Agents API，以公開測試（public beta）形式向所有開發者開放。這套介面把驅動 Codex 與 ChatGPT for Work 的代理框架（harness）連同執行基礎設施一併產品化，開發者只要在一次 API 呼叫中指定任務、模型、工具與執行環境，即可建立可投入生產的雲端代理。OpenAI 在公告中說明，該公司在把 Codex 與 ChatGPT for Work 擴展至數百萬用戶的過程中，累積了大量讓長時間運行代理穩定工作的實務經驗，如今選擇把這層能力對外開放。
 
-<!-- AEO Answer Capsule — 約 72 字 -->
+<!-- AEO Answer Capsule — 約 80 字 -->
 OpenAI 在 2026 年 9 月 10 日推出 Agents API 公開測試版，把 Codex 的代理框架與執行基礎設施開放給開發者，以單次呼叫建立長時間運行的雲端代理。
 <!-- End AEO Capsule -->
 
@@ -80,6 +80,10 @@ Agents API 的定位是一個「代理即服務」的建構層。開發者不再
 - [Agents API 開發文件總覽](https://developers.openai.com/api/docs/guides/agents-api/overview)
 
 ## 常見問題有哪些？
+
+<!-- AEO Answer Capsule — 約 72 字 -->
+Agents API 免去自建代理執行環境與協調機制，目前為公開測試、不另收費，可選 OpenAI 代管沙盒或自有基礎設施，適合已驗證代理價值、不想長期維運底層的團隊。
+<!-- End AEO Capsule -->
 
 <div class="faq-section">
 <h3>Agents API 目前可以直接在生產環境使用嗎？</h3>
