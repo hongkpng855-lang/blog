@@ -12,11 +12,7 @@ type: news
 source: GitHub
 source_url: https://github.com/opendatalab/MinerU
 permalink: /2026/09/02/2026-09-02-github-mineru-news.html
-fb_message: PDF 最折磨人的時刻，莫過於公式亂碼、表格散開——MinerU 就是為終結這種痛苦而生。\n\n這套引擎 GitHub 獲 7.9 萬星標，PDF、Word、PPT、Excel 與圖片直轉 Markdown/JSON，支援 109 種語言 OCR，可接入 Cursor 等 AI 工具，3.4 版 OCR 精度提升 11%。\n\n想知純 CPU 如何運行、如何串進 RAG 知識庫？完整分析見 Blog。
-
-這套引擎 GitHub 獲 7.9 萬星標，PDF、Word、PPT、Excel 與圖片直轉 Markdown/JSON，支援 109 種語言 OCR，可接入 Cursor 等 AI 工具，3.4 版 OCR 精度提升 11%。
-
-想知純 CPU 如何運行、如何串進 RAG 知識庫？完整分析已整理在 Blog，歡迎閱讀全文。
+fb_message: "PDF 最折磨人的時刻，莫過於公式亂碼、表格散開——MinerU 就是為終結這種痛苦而生。\n\n這套引擎 GitHub 獲 7.9 萬星標，PDF、Word、PPT、Excel 與圖片直轉 Markdown/JSON，支援 109 種語言 OCR，可接入 Cursor 等 AI 工具，3.4 版 OCR 精度提升 11%。\n\n想知純 CPU 如何運行、如何串進 RAG 知識庫？完整分析見 Blog。\n\n這套引擎 GitHub 獲 7.9 萬星標，PDF、Word、PPT、Excel 與圖片直轉 Markdown/JSON，支援 109 種語言 OCR，可接入 Cursor 等 AI 工具，3.4 版 OCR 精度提升 11%。\n\n想知純 CPU 如何運行、如何串進 RAG 知識庫？完整分析已整理在 Blog，歡迎閱讀全文。"
 ---
 
 MinerU 是由 OpenDataLab 開發的高精度文檔解析引擎，專門將 PDF、DOCX、PPTX、XLSX 與圖片等複雜文檔轉換為 LLM 可直接使用的 Markdown 與 JSON 格式。截至 2026 年 9 月，該項目在 GitHub 上已累積約 7.9 萬星標與 6,600 個 fork，成為 RAG 與 Agent 工作流中最常被引用的文檔解析基礎設施之一。本文將從項目背景、核心技術、版本演進與應用場景四個層面，分析 MinerU 為何能在短時間內成為開發者社群的主流選擇。
