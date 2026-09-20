@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Meta 開放 WhatsApp 商家 MCP：AI 代理代辦開通"
-date: 2026-09-20 16:00:01 +0800
+date: 2026-09-20 18:00:01 +0800
 categories: 技術
 tags: [AI, Meta, WhatsApp, MCP, 開發者工具, 代理, API]
 image: assets/images/posts/meta-whatsapp-mcp-news-cover.jpg
