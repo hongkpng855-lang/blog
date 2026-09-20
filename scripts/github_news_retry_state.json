@@ -1,9 +1,8 @@
 {
-  "last_retry_at": 1787955338043,
-  "triggered_for": "1787954400022",
-  "triggered_run_id": "manual:eb3bc94f-73b1-42a6-949c-3aae0ca629cd:1787955333871:4",
-  "last_check_at": 1788344430571,
-  "last_check_status": "ok_no_retry",
-  "note": "2026-09-02 18:20 檢查：避時段外(1820)。cron get 受限，用 git log 驗證：最新排程發佈 openai-astra-critical-news (2026-09-02 18:00) @ 18:00:01 已成功出街，16:00/14:00 等全部準時。主 cron 正常，冇需補跑。",
-  "last_checked_job_run": "2026-09-02 18:00 排程發佈成功 (openai-astra-critical-news)"
+  "last_retry_at": 1789906625358,
+  "triggered_for": "1789905600018",
+  "triggered_run_id": "manual:eb3bc94f-73b1-42a6-949c-3aae0ca629cd:1789906621038:1",
+  "last_check_at": 1789906625358,
+  "last_check_status": "retry_triggered",
+  "note": "2026-09-20 20:16 檢查：github-news-auto-publish 20:00 run 狀態 error（cron: job interrupted by gateway restart），consecutiveErrors=3。避時段外（20:16）。state last_retry_at 為 2026-09-16（超 60 分鐘），可補跑 → 已 force-run 補跑。"
 }

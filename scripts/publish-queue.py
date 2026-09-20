@@ -57,6 +57,32 @@ def log(msg):
         pass
 
 
+def mark_gate_blocked(slug, post_path):
+    """記錄被 gate 攔截嘅文章（連 mtime/size 指紋）：
+    寫稿 agent 修正後檔案指紋會變 → 自動重新排隊，唔會永久卡住。"""
+    state = load_state()
+    try:
+        st = os.stat(post_path)
+        fp = f"{int(st.st_mtime)}:{st.st_size}"
+    except Exception:
+        fp = "unknown"
+    state.setdefault("gate_blocked", {})[slug] = fp
+    save_state(state)
+
+
+def is_gate_blocked(state, post_path):
+    """如果 slug 曾被 gate 攔截、而且檔案指紋冇變 → 跳過"""
+    slug = extract_slug(post_path)
+    fp = state.get("gate_blocked", {}).get(slug)
+    if not fp:
+        return False
+    try:
+        st = os.stat(post_path)
+        return fp == f"{int(st.st_mtime)}:{st.st_size}"
+    except Exception:
+        return False
+
+
 def load_state():
     if os.path.exists(STATE_FILE):
         try:
@@ -265,7 +291,7 @@ def acquire_lock():
     return fh
 
 
-def publish_one(dry_run=False):
+def publish_one(dry_run=False, post_path=None):
     state = load_state()
 
     posts = list_queued_posts()
@@ -273,8 +299,9 @@ def publish_one(dry_run=False):
         log("佇列冇文章，靜默退出")
         return 0
 
-    # 攞第一篇（最舊）
-    post_path = posts[0]
+    # 攞指定檔（跳過 gate 攔截後嘅下一篇）；預設最舊第一篇
+    if post_path is None:
+        post_path = posts[0]
     slug = extract_slug(post_path)
     log(f"準備出街：{os.path.basename(post_path)} (slug={slug})")
 
@@ -298,14 +325,16 @@ def publish_one(dry_run=False):
     if not fm_ok:
         log(f"🚫 front matter gate 攔截：{os.path.basename(post_path)} {fm_reason} — "
             f"唔出街，留喺 _queue 等修正後再排")
-        return 1
+        mark_gate_blocked(slug, post_path)
+        return 2
 
     # capsule 長度機械 gate（2026-09-05：超標就唔出街，防止第 5 日重犯）
     caps_ok, over_caps = check_capsule_lengths(post_path)
     if not caps_ok:
         log(f"🚫 capsule 超長 gate 攔截：{os.path.basename(post_path)} over80={over_caps} — "
             f"唔出街，留喺 _queue 等寫稿 agent 精簡後再排")
-        return 1
+        mark_gate_blocked(slug, post_path)
+        return 2
 
     if dry_run:
         log(f"[DRY-RUN] 會出街：{slug}")
@@ -342,9 +371,26 @@ def publish_one(dry_run=False):
         log(f"⚠️ git commit 失敗 rc={rc}: {err}")
         # 唔刪 queue，下次再試
         return 1
-    rc, out, err = run(f"cd {JEKYLL_DIR} && git push origin main", timeout=120)
-    if rc != 0:
-        log(f"⚠️ git push 失敗 rc={rc}: {err}")
+    # 2026-09-20 修（事故 #queue-push-stuck）：remote 有 auto-publish 新 commit 時，直接 push 會被
+    # reject（fetch first）→ 文章永遠出唔到街，而且每個 2 小時 cron 都重複出同一篇（試過連續 7 次）。
+    # 改為自動 fetch + rebase 再 push（最多 2 次），失敗先當 error。
+    pushed = False
+    for attempt in (1, 2):
+        rc, out, err = run(f"cd {JEKYLL_DIR} && git push origin main", timeout=180)
+        if rc == 0:
+            pushed = True
+            break
+        log(f"⚠️ git push 失敗（第 {attempt} 次）rc={rc}: {err[-200:]}")
+        run(f"cd {JEKYLL_DIR} && git fetch origin", timeout=180)
+        rc2, out2, err2 = run(f"cd {JEKYLL_DIR} && git rebase origin/main", timeout=180)
+        if rc2 == 0:
+            log("🔄 已 rebase 上 remote，重試 push")
+        else:
+            log(f"⚠️ rebase 失敗 rc={rc2}: {err2[-200:]}")
+            run(f"cd {JEKYLL_DIR} && git rebase --abort", timeout=60)
+            break
+    if not pushed:
+        log("⚠️ git push 最終失敗，保持 queue 檔，下次再試")
         return 1
     log(f"✅ 已 push：{new_filename}")
 
@@ -405,16 +451,26 @@ def main():
         except (ValueError, IndexError):
             gap_s = 0
 
-    lock = acquire_lock()
-    if lock is None:
-        log("⏭️ 另一個 publish-queue 實例執行中，跳過今次")
-        return 0
+    queued = list_queued_posts()
+    if len(queued) >= 3:
+        log(f"⚠️ 佇列積壓 {len(queued)} 篇（連續多個時段出唔到街）— 請檢查 push / gate 狀態")
     try:
         published = 0
         while published < max_posts:
-            if not list_queued_posts():
+            posts = list_queued_posts()
+            if not posts:
                 break
-            rc = publish_one(dry_run)
+            state = load_state()
+            # 跳過已被 gate 攔截而且未改過嘅檔（否則第一名會永遠霸住成條佇列，
+            # 2026-09-20 事故教訓：一篇卡住 = 後面全部出唔到街）
+            candidates = [p for p in posts if not is_gate_blocked(state, p)]
+            if not candidates:
+                log(f"🚫 佇列全部被 gate 攔截（{len(posts)} 篇），等寫稿 agent 修正")
+                return 0
+            rc = publish_one(dry_run, candidates[0])
+            if rc == 2:
+                # gate 攔截，唔重試（結果一樣），下一輪會跳過佢
+                continue
             if rc != 0:
                 return rc
             published += 1

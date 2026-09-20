@@ -1,8 +1,8 @@
 {
-  "last_retry_at": 1786502939469,
-  "triggered_for": "1786496088833",
-  "last_check_at": 1788345945833,
+  "last_retry_at": 1788814165182,
+  "triggered_for": "1788792438379",
+  "last_check_at": 1789519558214,
   "last_check_status": "ok_no_retry",
-  "last_checked_job_run": "2026-09-02 18:45 檢查",
-  "note": "2026-09-02 18:45 檢查：非避時段(1845)。cron get 受限（isolated run），沿用 git log + state 檔驗證：news_monitor_state.json 13:07 更新（新 URL 寫入至 9/2）、publish_queue_state.json 18:00:01 成功發佈 openai-astra-critical-news、git log 顯示 12:00/14:00/16:00/18:00 全部準時出街。主 cron 正常，冇需補跑。"
+  "last_checked_job_run": "2026-09-16 08:07 run（避時段外）lastRunStatus=ok；08:00 run 曾 error（LLM idle timeout 60s，全部 model 失敗）但已被系統自動補跑一次，08:07 run 成功",
+  "note": "2026-09-16 08:45 retry check（避時段外 0845）：news-monitor 最新 run ok → 唔需補跑，唔改 last_retry_at。"
 }
