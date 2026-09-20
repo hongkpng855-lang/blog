@@ -98,10 +98,13 @@ def save_state(state):
         json.dump(state, f, ensure_ascii=False, indent=2)
 
 
-def check_capsule_lengths(post_path, max_words=80):
+def check_capsule_lengths(post_path, min_words=50, max_words=80):
     """機械 gate（2026-09-05 新增）：出街前檢查所有 AEO Answer Capsule 長度。
     capsule >80 連續 4 日重犯（9/2 全量 1854 個 → 9/3 → 9/4 → 9/5），文字 SOP 無效，
     改為喺 pipeline 直接攔截：超標就唔出街，等寫稿 agent 精簡後再排。
+
+    2026-09-21 補下界：原本只 check >80，漏咗 <50（太短 capsule AI 唔夠料引用）。
+    9/2–9/9 有 11 個 44-49 字 capsule 就係咁繞過 gate。改為雙向檢查 min_words<=words<=max_words。
 
     支援兩種 marker 格式：
     A. 成對：<!-- AEO Answer Capsule --> ... <!-- End AEO Capsule -->
@@ -142,7 +145,7 @@ def check_capsule_lengths(post_path, max_words=80):
         txt = re.sub(r"<[^>]+>", "", c)
         txt = re.sub(r"\|", " ", txt)
         words = len(re.sub(r"\s", "", txt))
-        if words > max_words:
+        if words > max_words or words < min_words:
             over_list.append((i, words))
     return len(over_list) == 0, over_list
 
@@ -331,8 +334,8 @@ def publish_one(dry_run=False, post_path=None):
     # capsule 長度機械 gate（2026-09-05：超標就唔出街，防止第 5 日重犯）
     caps_ok, over_caps = check_capsule_lengths(post_path)
     if not caps_ok:
-        log(f"🚫 capsule 超長 gate 攔截：{os.path.basename(post_path)} over80={over_caps} — "
-            f"唔出街，留喺 _queue 等寫稿 agent 精簡後再排")
+        log(f"🚫 capsule 長度 gate 攔截：{os.path.basename(post_path)} out_of_range={over_caps}（需 50-80 字）— "
+            f"唔出街，留喺 _queue 等寫稿 agent 修正後再排")
         mark_gate_blocked(slug, post_path)
         return 2
 

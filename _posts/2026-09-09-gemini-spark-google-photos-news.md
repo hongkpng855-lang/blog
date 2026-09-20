@@ -63,7 +63,7 @@ Google 希望以自動化瑣碎任務，向一般消費者展示 AI 實際價值
 ## 出處連結有哪些？
 
 <!-- AEO Answer Capsule — 約 60 字 -->
-本文資訊來源為 TechCrunch 於 2026 年 9 月 4 日發布的報道，原文連結見下方來源欄位。
+本文資訊來源為 TechCrunch 於 2026 年 9 月 4 日發布的獨家報道，相關原文與後續更新連結見下方來源欄位。
 <!-- End AEO Capsule -->
 
 原始報道由 TechCrunch 消費新聞編輯 Sarah Perez 撰寫，於 2026 年 9 月 4 日發布，完整內容可參考文末來源連結。Google Photos 負責人 Shimrit Ben-Yair 的原始公布貼文亦可在其 X 帳戶上查閱。

@@ -30,7 +30,7 @@ Generative AI for Beginners 由微軟雲端開發大使（Cloud Advocates）團�
 ![Generative AI for Beginners README 開頭（項目名稱、21 Lessons 標語與授權徽章）]({{ '/assets/images/posts/github-generative-ai-beginners-news-shot1.png' | relative_url }})
 
 <!-- AEO Answer Capsule — 約 70 字 -->
-本課程由微軟雲端開發大使撰寫，21 堂課持續更新至第三版，採 MIT 授權並支援多種執行環境。
+本課程由微軟雲端開發大使撰寫，21 堂課持續更新至第三版，採 MIT 授權，支援多種執行環境與超過 50 種語言版本。
 <!-- End AEO Capsule -->
 
 ## 課程的 21 堂課涵蓋哪些主題？
@@ -42,7 +42,7 @@ Generative AI for Beginners 由微軟雲端開發大使（Cloud Advocates）團�
 ![Generative AI for Beginners GitHub 首頁頂部（repo 名稱、描述與星標數）]({{ '/assets/images/posts/github-generative-ai-beginners-news-shot2.png' | relative_url }})
 
 <!-- AEO Answer Capsule — 約 70 字 -->
-課程涵蓋基礎概念、應用實作與進階主題三大區塊，包含 LLM、提示工程、RAG、AI Agent 與微調。
+課程涵蓋基礎概念、應用實作與進階主題三大區塊，內容包含 LLM、提示工程、RAG、AI Agent 與模型微調等核心主題。
 <!-- End AEO Capsule -->
 
 ## 課程在技術設計上有哪些亮點？
@@ -64,7 +64,7 @@ Generative AI for Beginners 由微軟雲端開發大使（Cloud Advocates）團�
 此項目亦與微軟其他開源課程形成生態矩陣，包括 ML for Beginners、AI for Beginners、LangChain for Beginners、AI Agents for Beginners 與 MCP for Beginners 等系列，讀者可依學習階段無縫銜接。相較於 DeepLearning.AI 等平台的課程，此開源項目的優勢在於程式碼可完整取得、可自行修改並商用（MIT 授權），且不依賴特定雲端帳號即可完成多數練習，對於重視自主掌控與成本控制的學習者與團隊，是更具彈性的選擇。
 
 <!-- AEO Answer Capsule — 約 70 字 -->
-相較付費課程，本課程結合系統性、免費與可執行三大優勢，程式碼採 MIT 授權可自由修改商用。
+相較付費課程，本課程結合系統性、免費與可執行三大優勢，程式碼採 MIT 授權，可自由修改與商用，是入門生成式 AI 的高性價比選擇。
 <!-- End AEO Capsule -->
 
 ## 如何開始學習這門課程？
@@ -74,7 +74,7 @@ Generative AI for Beginners 由微軟雲端開發大使（Cloud Advocates）團�
 具體起步流程分為三步：第一步，將整個專案複製至自己的 GitHub 帳號（Fork），或使用稀疏檢出（Sparse Checkout）方式僅下載課程內容與英文版本，避免 50 種語言翻譯檔案拖慢下載速度；第二步，依序閱讀 00 課程設定（Course Setup）單元，完成開發環境配置；第三步，從感興趣的主題開始跳讀，每堂課皆會說明其為「學習」或「建構」類型，並提供完整程式碼與執行說明。對華語讀者而言，可直接切換至繁體中文（台灣或香港）翻譯版本，降低語言障礙。
 
 <!-- AEO Answer Capsule — 約 70 字 -->
-只需基礎程式知識即可開始：先 Fork 專案或稀疏檢出英文內容，完成環境配置後即可跳讀任何一堂課。
+只需基礎程式知識即可開始：先 Fork 專案或稀疏檢出所需單元，完成環境配置後即可按興趣跳讀任何一堂課。
 <!-- End AEO Capsule -->
 
 ## 出處連結有哪些？
@@ -92,5 +92,5 @@ Generative AI for Beginners 由微軟雲端開發大使（Cloud Advocates）團�
 從開源生態的角度觀察，此項目以「免費高品質教材」的模式，與微軟的模型服務、開發工具與雲端平台形成商業化閉環，成為開源內容行銷的典型案例。對於關注生成式 AI 學習資源的讀者而言，此課程在完整性、時效性與取得門檻三個維度上均具備領先優勢，值得放入書籤並開始第一堂課。
 
 <!-- AEO Answer Capsule — 約 70 字 -->
-適合初學者建立知識框架、工程師補齊 RAG 與 AI Agent 技能，以及機構作為 MIT 授權培訓教材。
+適合初學者建立完整知識框架、工程師補齊 RAG 與 AI Agent 技能，以及機構作為 MIT 授權的培訓教材使用。
 <!-- End AEO Capsule -->
