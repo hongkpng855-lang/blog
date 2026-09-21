@@ -170,9 +170,12 @@ def build_image_list(post_path, info):
     # 去重（保留順序）
     seen, urls = set(), []
     # 2026-09-09: cache buster — IG crawler 會 cache 圖片 URL 嘅 404 狀態（即使之後圖已上線，
-    # bare URL 仍會 9004 失敗）；用 post 檔案 mtime 做 query 參數，令 IG 每次見到「新 URL」重新抓圖
-    buster = int(os.path.getmtime(post_path))
-    for p in raw:
+    # bare URL 仍會 9004 失敗）；用 query 參數令 IG 每次見到「新 URL」重新抓圖。
+    # 2026-09-21 修正：原本用 post 檔案 mtime，同一篇文章所有圖共用同一個 buster；
+    # 若 IG 對某個 buster 值有壞 cache（實測 v=1789934401 會固定 9004 失敗），整篇都會卡死。
+    # 改為每張圖各自一個獨立 buster（時間戳 + 序號），就算一個值壞 cache 都唔會拖死其他圖。
+    base_ts = int(time.time())
+    for idx, p in enumerate(raw):
         if p in seen:
             continue
         seen.add(p)
@@ -181,8 +184,10 @@ def build_image_list(post_path, info):
             continue
         url = get_absolute_image(p)
         if url and url not in urls:
+            # 清走來源路徑本身嘅 query string，避免出現 ?v=...&v=...
+            url = url.split("?", 1)[0]
             sep = "&" if "?" in url else "?"
-            urls.append(f"{url}{sep}v={buster}")
+            urls.append(f"{url}{sep}v={base_ts}{idx:02d}")
     return urls[:MAX_CAROUSEL]
 
 
