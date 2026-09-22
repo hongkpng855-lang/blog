@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Meta Muse 手機版下載量超越 ChatGPT"
-date: 2026-09-23 02:00:01 +0800
+date: 2026-09-23 02:04:46 +0800
 categories: 技術
 tags: [Meta, Muse, AI 助理, App Store, 每日活躍用戶, 市場分析]
 image: assets/images/posts/meta-muse-mobile-news-cover.jpg
