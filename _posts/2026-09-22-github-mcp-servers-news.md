@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "MCP 官方參考伺服器：Anthropic 主導的協議實作"
-date: 2026-09-22 16:00:01 +0800
+date: 2026-09-22 18:00:01 +0800
 categories: 技術
 tags: [MCP, Anthropic, 開源, AI Agent, 模型上下文協議, TypeScript]
 image: assets/images/posts/github-mcp-servers-news-cover.jpg
