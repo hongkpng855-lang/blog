@@ -1,8 +1,8 @@
 {
-  "last_retry_at": 1789906625358,
-  "triggered_for": "1789905600018",
-  "triggered_run_id": "manual:eb3bc94f-73b1-42a6-949c-3aae0ca629cd:1789906621038:1",
-  "last_check_at": 1789906625358,
+  "last_retry_at": 1790093748052,
+  "triggered_for": "1790092800031",
+  "triggered_run_id": "manual:eb3bc94f-73b1-42a6-949c-3aae0ca629cd:1790093746750:7",
+  "last_check_at": 1790093748052,
   "last_check_status": "retry_triggered",
-  "note": "2026-09-20 20:16 檢查：github-news-auto-publish 20:00 run 狀態 error（cron: job interrupted by gateway restart），consecutiveErrors=3。避時段外（20:16）。state last_retry_at 為 2026-09-16（超 60 分鐘），可補跑 → 已 force-run 補跑。"
+  "note": "2026-09-23 00:15 檢查（避時段外，0015）：github-news-auto-publish (eb3bc94f) last_run_status=error（last_run_at=2026-09-23 00:00，consecutive_errors=1）→ 觸發 force-run 補跑。"
 }
