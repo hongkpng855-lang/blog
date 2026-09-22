@@ -5,7 +5,7 @@ date: 2026-09-22 00:00:01 +0800
 categories: 技術
 tags: [AI, 開源項目, 股票分析, LLM, GitHub, 量化投資, 自動化]
 image: assets/images/posts/github-daily-stock-analysis-news-cover.jpg
-description: "ZhuLinsen 開發的開源股票智能分析系統在 GitHub 累積逾 65,000 星，以大型語言模型每日分析 A 股、港股、美股等多市場自選股，自動推送含評分、買賣點位與風險警報的決策儀表盤，本文解析其架構、資料來源與部署方式。"
+description: "ZhuLinsen 開發的開源股票智能分析系統在 GitHub 累積逾 65,000 星，以大型語言模型每日分析 A 股、港股、美股等多市場自選股，自動推送含評分、買賣點位與風險警報的決策儀表盤。本文深入解析其系統架構、資料來源、多市場支援與本地部署方式，並說明使用上的風險與限制。"
 author: AnIskill 編輯部
 creator_github: ZhuLinsen/daily_stock_analysis
 type: news
