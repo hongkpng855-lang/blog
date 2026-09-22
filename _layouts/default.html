@@ -24,8 +24,9 @@
   {% if page.image contains 'http' %}
   <meta property="og:image" content="{{ page.image }}">
   {% else %}
+  {% assign _ogimg = page.image | prepend: '/' | replace: '//', '/' | remove_first: '/' %}
   <!-- og:image 用 github.io（FB crawler 連唔到 custom domain aniskill.esgov.org，實測確認） -->
-  <meta property="og:image" content="https://hongkpng855-lang.github.io/blog/{{ page.image | remove_first: '/' }}">
+  <meta property="og:image" content="https://hongkpng855-lang.github.io/blog/{{ _ogimg }}">
   {% endif %}
   {% elsif page.no_og_image != true %}
   <meta property="og:image" content="https://hongkpng855-lang.github.io/blog/assets/images/character-base.jpg">
@@ -39,7 +40,8 @@
   {% if page.image contains 'http' %}
   <meta name="twitter:image" content="{{ page.image }}">
   {% else %}
-  <meta name="twitter:image" content="https://hongkpng855-lang.github.io/blog/{{ page.image | remove_first: '/' }}">
+  {% assign _twimg = page.image | prepend: '/' | replace: '//', '/' | remove_first: '/' %}
+  <meta name="twitter:image" content="https://hongkpng855-lang.github.io/blog/{{ _twimg }}">
   {% endif %}
   {% elsif page.no_og_image != true %}
   <meta name="twitter:image" content="https://hongkpng855-lang.github.io/blog/assets/images/character-base.jpg">
