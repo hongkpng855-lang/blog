@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Excalidraw 開源：13 萬星手繪白板整合 AI 代理"
-date: 2026-09-23 10:00:01 +0800
+date: 2026-09-23 12:00:01 +0800
 categories: 技術
 tags: [Excalidraw, 開源, 白板, 圖表, MCP, AI 代理, TypeScript, MIT]
 image: assets/images/posts/github-excalidraw-news-cover.jpg
