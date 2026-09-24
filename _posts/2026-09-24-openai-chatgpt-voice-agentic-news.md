@@ -5,7 +5,7 @@ date: 2026-09-24 20:00:01 +0800
 categories: 技術
 tags: [OpenAI, ChatGPT, 語音助理, AI代理, GPT-6, 外掛程式, 行動應用]
 image: assets/images/posts/openai-chatgpt-voice-agentic-news-cover.jpg
-description: "OpenAI 為 ChatGPT 語音模式加入代理能力，使用者可在手機以語音建立文件、草擬電郵或摘要 Slack 訊息。該功能支援 GPT-6 系列模型、外掛程式與 ChatGPT Work，並可在手機與桌面之間無縫接續對話。"
+description: "OpenAI 為 ChatGPT 語音模式加入代理能力，使用者可在手機以語音建立文件、草擬電郵或摘要 Slack 訊息。該功能支援 GPT-6 系列模型、外掛程式與 ChatGPT Work，並可在手機與桌面之間無縫接續對話，實際可用性仍待觀察。"
 author: AnIskill 編輯部
 type: news
 source: TechCrunch

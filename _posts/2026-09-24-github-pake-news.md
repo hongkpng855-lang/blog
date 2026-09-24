@@ -5,7 +5,7 @@ date: 2026-09-24 00:00:02 +0800
 categories: 技術
 tags: [開源, Pake, Tauri, Rust, 桌面應用, 網頁打包, Electron 替代, 跨平台]
 image: assets/images/posts/github-pake-news-cover.jpg
-description: "Pake 是 2022 年 10 月開源、以 Rust 與 Tauri 撰寫的網頁轉桌面應用工具，在 GitHub 累積 61,665 顆星標與 419,662 次版本下載。它用單一指令把網址或本地前端建置產物打包成 macOS、Windows 與 Linux 安裝檔，成品通常低於 10 MB，本文解析其架構、資料數據與實務限制。"
+description: "Pake 是 2022 年 10 月開源、以 Rust 與 Tauri 撰寫的網頁轉桌面應用工具，在 GitHub 累積 61,665 顆星標與 419,662 次版本下載。它用單一指令把網址或本地前端建置產物打包成 macOS、Windows 與 Linux 安裝檔，成品通常低於 10 MB，本文解析其架構與實務限制。"
 author: AnIskill 編輯部
 creator_github: tw93/Pake
 type: news

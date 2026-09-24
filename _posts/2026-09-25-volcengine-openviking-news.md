@@ -5,7 +5,7 @@ date: 2026-09-25 06:00:02 +0800
 categories: 技術
 tags: [OpenViking, 火山引擎, AI代理, 上下文資料庫, 代理記憶, RAG, 開源專案, MCP]
 image: assets/images/posts/volcengine-openviking-news-cover.jpg
-description: "火山引擎開源的 OpenViking 以虛擬檔案系統統一代理的知識、記憶與技能，累積逾 3.8 萬顆星標。該專案以 viking:// 目錄取代黑箱式向量檢索，並在 LoCoMo 與 tau2-bench 基準測試中交出可觀的準確度提升。"
+description: "火山引擎開源的 OpenViking 以虛擬檔案系統統一代理的知識、記憶與技能，累積逾 3.8 萬顆星標。該專案以 viking:// 目錄取代黑箱式向量檢索，並在 LoCoMo 與 tau2-bench 基準測試中交出可觀的準確度提升，本文整理其架構與部署方式。"
 author: AnIskill 編輯部
 creator_github: volcengine/OpenViking
 type: news

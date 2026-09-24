@@ -182,6 +182,33 @@ def check_front_matter(post_path):
     return True, "ok"
 
 
+def check_question_h2(post_path, min_pct=80):
+    """機械 gate（2026-09-25 新增）：出街前檢查 H2 是否問題式 ≥min_pct%。
+
+    背景：AEO 要求問題式 H2 ≥80%（見 aeo-optimizer / article-writing-sop）。
+    9/24 youtube-conversational-editing 同 9/25 google-gemini4 連續兩日都有
+    `## 總結` 非問題式 H2 出街（新聞文標準結尾 section 規則早於 8/8 已寫入 SOP，
+    但係 pipeline 一直冇機械檢查）→ 連續 2 日重犯，故加 gate。
+
+    標準結尾 section 命名：「## 總結：{問題}？」「## 出處連結有哪些？」
+    「## 常見問題有哪些？」。程式碼圍欄內嘅 `##` 唔算。
+    返回 (ok: bool, nonq_list: list[str], pct: int)。
+    """
+    try:
+        with open(post_path, encoding="utf-8") as f:
+            content = f.read()
+    except Exception as e:
+        return False, [("read_error", str(e))], 0
+    body = content.split("---", 2)[2] if content.startswith("---") else content
+    body = re.sub(r"```.*?```", "", body, flags=re.S)
+    h2s = re.findall(r"^##\s+(.+?)\s*$", body, re.M)
+    if not h2s:
+        return True, [], 100
+    nonq = [h for h in h2s if not (h.rstrip().endswith("?") or h.rstrip().endswith("？"))]
+    pct = round(100 * (len(h2s) - len(nonq)) / len(h2s))
+    return pct >= min_pct, nonq, pct
+
+
 def run(cmd, timeout=120):
     """行 command，返回 (returncode, stdout, stderr)"""
     try:
@@ -336,6 +363,14 @@ def publish_one(dry_run=False, post_path=None):
     if not caps_ok:
         log(f"🚫 capsule 長度 gate 攔截：{os.path.basename(post_path)} out_of_range={over_caps}（需 50-80 字）— "
             f"唔出街，留喺 _queue 等寫稿 agent 修正後再排")
+        mark_gate_blocked(slug, post_path)
+        return 2
+
+    # H2 問題式機械 gate（2026-09-25：非問題式 H2 連續 2 日重犯 → 加 gate）
+    h2_ok, h2_nonq, h2_pct = check_question_h2(post_path)
+    if not h2_ok:
+        log(f"🚫 H2 問題式 gate 攔截：{os.path.basename(post_path)} 非問題式={h2_nonq}"
+            f"（問題式 {h2_pct}%，需 ≥80%）— 唔出街，留喺 _queue 等寫稿 agent 修正後再排")
         mark_gate_blocked(slug, post_path)
         return 2
 
