@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "56K 星 PPT Master 開源：AI 生成原生簡報"
-date: 2026-09-26 02:00:01 +0800
+date: 2026-09-26 02:06:51 +0800
 categories: 技術
 tags: [PPT Master, 開源專案, PowerPoint, AI Agent, 簡報生成, Python, Kimi K3]
 image: assets/images/posts/github-ppt-master-news-cover.jpg
