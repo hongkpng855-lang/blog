@@ -5,7 +5,7 @@ date: 2026-09-27 04:00:02 +0800
 categories: 技術
 tags: [PowerToys, Microsoft, Windows, 開源專案, 生產力工具, WinUI, 桌面應用]
 image: assets/images/posts/github-powertoys-news-cover.jpg
-description: "Microsoft PowerToys 是微軟開源的 Windows 工具集，內含三十多款公用程式，涵蓋視窗分割、批次改名、色彩取樣與命令面板等功能，GitHub 累積 139,017 顆星標與 8,607 次複製，採 MIT 授權。"
+description: "Microsoft PowerToys 是微軟開源的 Windows 工具集，內含三十多款公用程式，涵蓋視窗分割、批次改名、色彩取樣與命令面板等功能，GitHub 累積 139,017 顆星標與 8,607 次複製，採 MIT 授權。本文整理其熱門模組與安裝方式。"
 author: AnIskill 編輯部
 creator_github: microsoft/PowerToys
 type: news

@@ -5,7 +5,7 @@ date: 2026-09-26 20:00:01 +0800
 categories: 技術
 tags: [GPT Academic, 開源專案, 大語言模型, 學術工具, 論文翻譯, Python, 插件架構]
 image: assets/images/posts/github-gpt-academic-news-cover.jpg
-description: "GPT 學術優化（GPT Academic）是一個開源的大型語言模型互動介面，在 GitHub 累積 71,386 顆星標與 8,311 次複製，主打論文閱讀、翻譯與程式碼解析，可同時接入國內外多家模型，採 GPL-3.0 授權。"
+description: "GPT 學術優化（GPT Academic）是一個開源的大型語言模型互動介面，在 GitHub 累積 71,386 顆星標與 8,311 次複製，主打論文閱讀、翻譯與程式碼解析，可同時接入國內外多家模型，採 GPL-3.0 授權。本文整理其核心功能、相容模型與實際部署方式。"
 author: AnIskill 編輯部
 creator_github: binary-husky/gpt_academic
 type: news
