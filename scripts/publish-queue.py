@@ -209,6 +209,39 @@ def check_question_h2(post_path, min_pct=80):
     return pct >= min_pct, nonq, pct
 
 
+def check_description_length(post_path, min_len=120, max_len=165):
+    """機械 gate（2026-09-27 新增）：出街前檢查 front matter description 長度。
+
+    背景：description 越界（<120 或 >165 字）連日重犯 —— 9/23 抓 6 篇、9/25 抓 3 篇、
+    9/26 gpt-academic 115 字、9/27 powertoys 117 字。9/25 SOP 已寫「目標 125-155」，
+    但係 pipeline 一直冇量度 → 每次都要 audit 事後補。重複出現多日 → 加機械 gate。
+    返回 (ok: bool, length: int, reason: str)。
+    """
+    try:
+        with open(post_path, encoding="utf-8") as f:
+            content = f.read()
+    except Exception as e:
+        return False, 0, f"read_error: {e}"
+    if not content.startswith("---"):
+        return True, 0, "no front matter"
+    parts = content.split("---", 2)
+    if len(parts) < 3:
+        return True, 0, "no front matter"
+    try:
+        import yaml
+        fm = yaml.safe_load(parts[1]) or {}
+    except Exception:
+        # 無效 YAML 由 check_front_matter gate 處理，呢度唔重複攔截
+        return True, 0, "yaml handled by front matter gate"
+    desc = str(fm.get("description", "") or "").strip()
+    n = len(desc)
+    if not desc:
+        return False, 0, "description 缺失"
+    if n < min_len or n > max_len:
+        return False, n, f"description {n} 字（需 {min_len}-{max_len}）"
+    return True, n, "ok"
+
+
 def run(cmd, timeout=120):
     """行 command，返回 (returncode, stdout, stderr)"""
     try:
@@ -371,6 +404,14 @@ def publish_one(dry_run=False, post_path=None):
     if not h2_ok:
         log(f"🚫 H2 問題式 gate 攔截：{os.path.basename(post_path)} 非問題式={h2_nonq}"
             f"（問題式 {h2_pct}%，需 ≥80%）— 唔出街，留喺 _queue 等寫稿 agent 修正後再排")
+        mark_gate_blocked(slug, post_path)
+        return 2
+
+    # description 長度機械 gate（2026-09-27：越界連日重犯 9/23、9/25、9/26、9/27 → 加 gate）
+    desc_ok, desc_len, desc_reason = check_description_length(post_path)
+    if not desc_ok:
+        log(f"🚫 description 長度 gate 攔截：{os.path.basename(post_path)} {desc_reason} — "
+            f"唔出街，留喺 _queue 等寫稿 agent 修正後再排")
         mark_gate_blocked(slug, post_path)
         return 2
 
