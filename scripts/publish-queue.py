@@ -169,10 +169,21 @@ def check_front_matter(post_path):
         return False, f"read_error: {e}"
     if not content.startswith("---"):
         return True, "no front matter"
-    parts = content.split("---", 2)
-    if len(parts) < 3:
+    # 2026-09-29 修 gate hole：原本用 content.split("---", 2)，`------`（六橫線，
+    # 誤當分隔符）會被當成有效 closing `---` → 靜默放行。但 Jekyll 只認「自己一行」
+    # 的 `---`，所以 live 頁面 front matter 被丟棄（hoppscotch 中招）。改為逐行掃描，
+    # 第一行必須係 `---`，下一個 .strip()==`---` 的行才係 closing。
+    lines = content.split("\n")
+    if lines[0].strip() != "---":
+        return False, "front matter 第一行唔係獨立 ---"
+    close_idx = None
+    for i in range(1, len(lines)):
+        if lines[i].strip() == "---":
+            close_idx = i
+            break
+    if close_idx is None:
         return False, "front matter 缺 closing ---（可能貼咗下一行）"
-    fm = parts[1]
+    fm = "\n".join(lines[1:close_idx])
     try:
         import yaml
         yaml.safe_load(fm)
