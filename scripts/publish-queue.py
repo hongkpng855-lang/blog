@@ -526,7 +526,50 @@ def publish_one(dry_run=False, post_path=None):
     return 0
 
 
+def report_queue():
+    """--report：純 script 診斷模式（零 model token）。
+    列出佇列每篇稿嘅 gate 狀態 + 明確指出要修咩，等單一 agent 可以自己修。"""
+    posts = list_queued_posts()
+    state = load_state()
+    print(f"=== 佇列報告 {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')} ===")
+    print(f"待發佈：{len(posts)} 篇")
+    if not posts:
+        print("（佇列空）")
+        return 0
+    for p in posts:
+        slug = extract_slug(p)
+        name = os.path.basename(p)
+        blocked = is_gate_blocked(state, p)
+        fm_ok, fm_reason = check_front_matter(p)
+        caps_ok, over_caps = check_capsule_lengths(p)
+        h2_ok, h2_nonq, h2_pct = check_question_h2(p)
+        desc_ok, desc_len, desc_reason = check_description_length(p)
+        all_ok = fm_ok and caps_ok and h2_ok and desc_ok
+        flag = "✅ PASS" if all_ok else "🚫 BLOCK"
+        skip = "（已被 gate 標記，檔案未改→會跳過）" if (blocked and not all_ok) else ""
+        print(f"\n{flag} {name}{skip}")
+        print(f"   front matter : {'ok' if fm_ok else fm_reason}")
+        if caps_ok:
+            print("   capsule      : ok")
+        else:
+            print(f"   capsule      : 超標 {over_caps}（需 50-80 字，改短）")
+        if h2_ok:
+            print(f"   H2 問題式    : ok（{h2_pct}%）")
+        else:
+            print(f"   H2 問題式    : 非問題式={h2_nonq}（{h2_pct}%，需 ≥80%，改成問題句）")
+        if desc_ok:
+            print(f"   description  : ok（{desc_len} 字）")
+        else:
+            print(f"   description  : {desc_reason}（目標 125-155 字）")
+    blocked_n = sum(1 for p in posts if is_gate_blocked(state, p))
+    if blocked_n:
+        print(f"\n⚠️ {blocked_n} 篇曾被 gate 標記；修好檔案後指紋改變會自動重新排隊。")
+    return 0
+
+
 def main():
+    if "--report" in sys.argv:
+        return report_queue()
     dry_run = "--dry-run" in sys.argv
     max_posts = 1
     gap_s = 0
