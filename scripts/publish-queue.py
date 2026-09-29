@@ -443,10 +443,23 @@ def publish_one(dry_run=False, post_path=None):
     os.makedirs(ASSETS_DIR, exist_ok=True)
     shutil.copy2(post_path, new_post_path)
 
+    # 2026-09-30 修（事故 #cover-image-missing）：原本只用 `slug in f` 揀檔，但 newspaper
+    # 文章嘅 front matter `image` 檔名（meta-muse-small-business-news-cover.jpg）同 permalink
+    # slug（news-meta-muse-small-business-hk）唔一致，封面圖永遠唔會被 copy → og:image 404。
+    # 改為同時用 front matter image 欄位嘅 basename 做匹配。
+    needed = set()
+    try:
+        with open(post_path, encoding="utf-8") as _f:
+            _c = _f.read()
+        _m = re.search(r"^image:\s*(?:'|\")?([^'\"\n]+)", _c, re.M)
+        if _m:
+            needed.add(os.path.basename(_m.group(1).strip()))
+    except Exception:
+        pass
     moved_assets = []
     if os.path.isdir(QUEUE_ASSETS):
         for f in os.listdir(QUEUE_ASSETS):
-            if slug in f:
+            if slug in f or f in needed:
                 src = os.path.join(QUEUE_ASSETS, f)
                 dst = os.path.join(ASSETS_DIR, f)
                 shutil.copy2(src, dst)
