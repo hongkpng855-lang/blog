@@ -466,6 +466,31 @@ def publish_one(dry_run=False, post_path=None):
                 moved_assets.append(f)
                 log(f"  封面/圖片搬咗：{f}")
 
+    # 5. 生成金句卡（2026-10-01 用戶要求）：文章最精彩一段 → 1080x1080 卡
+    #    呢步喺 push 前做 → 卡會隨文章一齊 commit，FB/IG 即刻可用
+    hl_ok = False
+    try:
+        import importlib.machinery as _ilm
+        _hl = _ilm.SourceFileLoader(
+            "highlight_card", os.path.join(BASE_DIR, "highlight_card.py")
+        ).load_module()
+        text, _src = _hl.extract_highlight(new_post_path)
+        if text:
+            rel = _hl.card_rel_path(slug)
+            _hl.make_card(text, os.path.join(JEKYLL_DIR, rel))
+            hl_ok = True
+            log(f"  金句卡生成：{rel}")
+        else:
+            log("  ⚠️ 抽唔到金句文字，今次唔出金句卡")
+    except Exception as e:
+        log(f"  ⚠️ 金句卡生成失敗（唔影響出街）：{e}")
+
+    # 將金句卡放入 queue assets 改動清單（一齊 commit）
+    if hl_ok:
+        hl_dir = os.path.join(ASSETS_DIR, "highlights")
+        if os.path.isdir(hl_dir):
+            moved_assets.append("highlights/" + f"{slug}-highlight.jpg")
+
     # 3. git commit + push（只 commit 指定路徑，避免連埋 working tree 其他 staged 改動）
     #    2026-08-24 教訓：之前用無路徑 git commit，audit 期間嘅分類頁刪除被一併 commit（1d268247）
     #    2026-08-25 修正：-m 必須放喺 -- 前面，否則 git 會當 -m 係 file path → commit 永遠失敗

@@ -165,6 +165,11 @@ def build_image_list(post_path, info):
     raw = []
     if info.get("image"):
         raw.append(info["image"])  # 封面（front matter image）排最前
+    # 2026-10-01 用戶要求：加多一張「文章最精彩一段」金句卡（排喺封面之後、正文圖之前）
+    _slug = re.sub(r"^\d{4}-\d{2}-\d{2}-", "", os.path.basename(post_path)[:-3])
+    _hl_rel = f"assets/images/posts/highlights/{_slug}-highlight.jpg"
+    if os.path.exists(os.path.join(JEKYLL_DIR, _hl_rel)):
+        raw.append(_hl_rel)
     raw.extend(extract_content_images(content))
 
     # 去重（保留順序）

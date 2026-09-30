@@ -19,6 +19,13 @@ import fcntl
 import urllib.request
 import urllib.parse
 import datetime
+from importlib.machinery import SourceFileLoader
+
+# 2026-10-01 金句卡模組（文章最精彩一段 → 1080x1080 卡，附埋 FB/IG 發文）
+_hl = SourceFileLoader(
+    "highlight_card",
+    os.path.join(os.path.dirname(os.path.abspath(__file__)), "highlight_card.py"),
+).load_module()
 
 # ---------- 設定 ----------
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -48,6 +55,9 @@ def acquire_lock():
 # og:image 已改用 github.io 之後，FB 可以正常抓到 aniskill.esgov.org 頁面（2026-08-05 實測確認）
 # 所以 URL 用返 custom domain（品牌一致）
 BLOG_BASE = "https://aniskill.esgov.org/"
+# 2026-10-01：金句卡係新生成嘅檔，GitHub Pages build 未上到 CDN 時 FB 會抓唔到 →
+# 用 raw.githubusercontent 直連（實測 200 可上傳）
+RAW_IMG_BASE = "https://raw.githubusercontent.com/hongkpng855-lang/blog/main/"
 # 發文後自動補第一條留言（2026-08-08 新增）
 # ⚠️ 需要 pages_manage_engagement 權限；未加權限前會自動跳過，唔影響發文
 FB_FIRST_COMMENT_TEMPLATE = "📌 完整文章：{url}\n\n想睇完整教學？撳上面條連結 👆"
@@ -215,6 +225,53 @@ def fb_post_link(message, link):
     except Exception as e:
         return False, str(e)
 
+
+def fb_upload_unpublished_photo(image_url):
+    """上傳未發佈相片 → 回 photo id（用喺 attached_media 多圖帖）
+    2026-10-01 新增：金句卡用。"""
+    url = f"https://graph.facebook.com/v21.0/{PAGE_ID}/photos"
+    params = {"url": image_url, "published": "false", "access_token": PAGE_TOKEN}
+    data = urllib.parse.urlencode(params).encode()
+    req = urllib.request.Request(url, data=data)
+    try:
+        with urllib.request.urlopen(req, timeout=45) as resp:
+            r = json.loads(resp.read().decode())
+            return r.get("id")
+    except Exception as e:
+        log(f"   ⚠️ 相片上傳失敗（{image_url[:60]}…）：{str(e)[:120]}")
+        return None
+
+
+def fb_post_multi_photo(message, photo_urls):
+    """多圖帖：逐張上傳（unpublished）→ /feed 附 attached_media
+    2026-10-01 新增：金句卡用。
+    ⚠️ 實測：一齊用 `link` 參數會蓋過附圖（連結卡取代相片）→ 所以呢個模式唔傳 link，
+       而係將文章 URL 寫喺 message 內文（FB 會自動 unfurl 細卡）。
+    """
+    ids = []
+    for u in photo_urls:
+        pid = fb_upload_unpublished_photo(u)
+        if pid:
+            ids.append(pid)
+    if not ids:
+        return False, "冇相片上傳成功"
+    url = f"https://graph.facebook.com/v21.0/{PAGE_ID}/feed"
+    params = {
+        "message": message,
+        "attached_media": json.dumps([{"media_fbid": i} for i in ids]),
+        "access_token": PAGE_TOKEN,
+    }
+    data = urllib.parse.urlencode(params).encode()
+    req = urllib.request.Request(url, data=data)
+    try:
+        with urllib.request.urlopen(req, timeout=45) as resp:
+            result = json.loads(resp.read().decode())
+            if "id" in result:
+                return True, result["id"]
+            return False, str(result)
+    except Exception as e:
+        return False, str(e)
+
 def main():
     lock_fd = acquire_lock()
     log("=== Blog → Facebook 自動發文檢查 (v10: 新聞文章 + fb_message 濃縮版 + 追蹤 CTA footer) ===")
@@ -303,11 +360,25 @@ def main():
             log(f"⏭️ 跳過發佈：URL 5 分鐘內未返 200（GitHub Pages 可能未 build 完），留待下次 retry：{url}")
             continue
 
-        # 帖文：標題 + 精簡內容 + 統一 CTA footer + Blog 連結卡片（FB 自動抓 og:image 封面）
-        # ⚠️ 唔加任何外部連結（GitHub 出處等）——將 FB 流量引流去 Blog
-        # ⚠️ 2026-08-15 新增：結尾加 FB_CTA_TEMPLATE（追蹤 CTA + 互動鉤）
-        message = f"{title}\n\n{body_text}{FB_CTA_TEMPLATE}"
-        ok, result = fb_post_link(message, url)
+        # 2026-10-01 用戶要求：除封面，加多一張「文章最精彩一段」金句卡
+        slug = re.sub(r"^\d{4}-\d{2}-\d{2}-", "", post[:-3])
+        hl_rel = None
+        try:
+            hl_rel = _hl.build_card(path, JEKYLL_DIR, slug)
+        except Exception as e:
+            log(f"   ⚠️ 金句卡生成失敗（唔影響發文）：{e}")
+
+        # 帖文：標題 + 精簡內容 + 統一 CTA footer + Blog 連結
+        # ⚠️ 2026-10-15 實測：一齊用 `link` 參數會蓋過附圖（連結卡取代相片）→
+        #    有金句卡時改用「多圖帖」（文案内含文章 URL，FB 自動 unfurl 細卡）。
+        if hl_rel:
+            message = f"{title}\n\n{body_text}\n\n👉 完整文章：{url}{FB_CTA_TEMPLATE}"
+            photo_urls = [image_url, f"{RAW_IMG_BASE}{hl_rel}"]
+            log(f"   附圖：封面 + 金句卡（{hl_rel}）→ 多圖帖")
+            ok, result = fb_post_multi_photo(message, photo_urls)
+        else:
+            message = f"{title}\n\n{body_text}{FB_CTA_TEMPLATE}"
+            ok, result = fb_post_link(message, url)
 
         if ok:
             posted.add(post)
@@ -316,6 +387,8 @@ def main():
             log(f"   標題：{title}")
             log(f"   URL：{url}")
             log(f"   封面圖：{image_url}")
+            if hl_rel:
+                log(f"   金句卡：{hl_rel}")
             # 發文後自動補第一條留言（2026-08-08 用戶要求：自己 post 留言）
             # 未加 pages_manage_engagement 權限會自動跳過（403），唔影響發文
             comment = FB_FIRST_COMMENT_TEMPLATE.format(url=url)
