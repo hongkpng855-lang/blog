@@ -1,27 +1,23 @@
 ---
 layout: default
-title: 分享同埋心得專區
-description: "AnIskill 分享同埋心得專區：我哋親身試過嘅工具同心得，用廣東話一步一步寫返出嚟，有步驟、有圖、有踩過嘅坑。"
+title: 實戰專區
+description: "AnIskill 實戰專區：我哋親身試過嘅工具同心得，用廣東話一步一步寫返出嚟，有步驟、有圖、有踩過嘅坑。"
 permalink: /tutorials/
 ---
 
 {% assign tutorials = site.posts | where: "type", "tutorial" %}
 {% assign total = tutorials | size %}
 
-<!-- 分享同埋心得專區 Hero -->
+<!-- 實戰專區 Hero -->
 <section class="tutorials-hero">
   <div class="container">
-    <p class="hero-kicker">sharing</p>
-    <h1 class="tutorials-title">分享同埋心得專區</h1>
+    <p class="hero-kicker">battle-tested</p>
+    <h1 class="tutorials-title">實戰專區</h1>
     <p class="tutorials-sub">親身試過嘅工具、踩過嘅坑，用自己嘅語言一步一步寫返出嚟，同你分享。</p>
-    <div class="tutorials-stats">
-      <span><strong>{{ total }}</strong> 篇實戰教學</span>
-      <span>全部親身試過</span>
-    </div>
   </div>
 </section>
 
-<!-- 分享卡（自動收集自家文章） -->
+<!-- 實戰卡（自動收集自家文章） -->
 <section class="py-3">
   <div class="container">
     {% if total > 0 %}
