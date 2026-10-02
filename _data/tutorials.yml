@@ -1,0 +1,46 @@
+# ============================================================
+# 教學專區 — 轉載／精選外部教學
+# ------------------------------------------------------------
+# 自己研發嘅教學（front matter 有 type: guide 嘅文章）會自動列出，
+# 唔需要喺度加。
+#
+# 呢個檔案只放「搵返嚟」嘅外部教學，**必須**填 source_name + source_url
+# 標明出處（跟站規：試過先講、標明來源）。
+#
+# 欄位：
+#   title       標題
+#   url         教學連結（外部）
+#   source_name 來源名（例：YouTube / 官方文件）
+#   source_url  來源網址
+#   category    分類（技術 / 學習 / 投資 / 生活 / 健康）
+#   description 一兩句簡介
+#   image       封面圖（可留空 ""）
+#   tags        標籤（可留空 []）
+# ============================================================
+
+- title: "用 AI 學會任何新技能：超快速學習法"
+  url: "https://www.facebook.com/share/r/1Dy4Jzp64a/"
+  source_name: "Facebook 影片"
+  source_url: "https://www.facebook.com/share/r/1Dy4Jzp64a/"
+  category: "學習"
+  description: "示範點樣用 AI 工具拆解一門新技能，快速建立學習路徑同練習計劃。"
+  image: ""
+  tags: ["AI 學習", "學習方法"]
+
+- title: "Anthropic：Prompt Engineering 官方指南"
+  url: "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview"
+  source_name: "Anthropic Docs"
+  source_url: "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview"
+  category: "技術"
+  description: "Anthropic 官方整理嘅提示工程技巧，由基本結構到進階思維鏈，適合想打好 prompt 基礎嘅人。"
+  image: ""
+  tags: ["Prompt", "Claude", "AI 工具"]
+
+- title: "OpenAI Cookbook：實用範例集"
+  url: "https://cookbook.openai.com/"
+  source_name: "OpenAI Cookbook"
+  source_url: "https://cookbook.openai.com/"
+  category: "技術"
+  description: "OpenAI 官方範例集，收錄大量可直接抄用嘅程式碼，涵蓋 API 用法、RAG、評估等實戰場景。"
+  image: ""
+  tags: ["OpenAI", "API", "實戰範例"]

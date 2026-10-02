@@ -1,0 +1,130 @@
+---
+layout: default
+title: 教學專區
+description: "AnIskill 教學專區：收錄自己研發嘅實戰教學，同精選轉載嘅優質外部教學，全部標明出處。由 IT 顧問 Eric Chan 主理。"
+permalink: /tutorials/
+---
+
+{% assign guide_posts = site.posts | where: "type", "guide" %}
+{% assign curated = site.data.tutorials %}
+{% assign original_count = guide_posts | size %}
+{% assign curated_count = curated | size %}
+
+<!-- 教學專區 Hero -->
+<section class="tutorials-hero">
+  <div class="container">
+    <p class="hero-kicker">tutorials</p>
+    <h1 class="tutorials-title">教學專區</h1>
+    <p class="tutorials-sub">自己研發嘅實戰教學，加埋精選轉載嘅優質外部教學 —— 全部標明出處，試過先講。</p>
+    <div class="tutorials-stats">
+      <span><svg class="ui-icon ui-icon-sm"><use href="#ui-bulb"/></svg><strong>{{ original_count }}</strong> 篇原創教學</span>
+      <span><svg class="ui-icon ui-icon-sm"><use href="#ui-link"/></svg><strong>{{ curated_count }}</strong> 篇轉載精選</span>
+    </div>
+  </div>
+</section>
+
+<section class="py-4">
+  <div class="container">
+    <div class="row">
+      <!-- 主要內容 -->
+      <div class="col-lg-8">
+        <!-- 來源 Filter + 分類 Filter -->
+        <div class="news-filter mb-3" id="tutorialFilter">
+          <button class="news-filter-btn active" data-filter="all">全部</button>
+          <button class="news-filter-btn" data-filter="original">自己研發</button>
+          <button class="news-filter-btn" data-filter="curated">轉載精選</button>
+        </div>
+
+        <div class="tutorial-grid" id="tutorialGrid">
+          <!-- ① 自己研發（type: guide 文章，自動收集） -->
+          {% for post in guide_posts %}
+          <article class="tutorial-card" data-source="original" data-category="{{ post.categories.first }}">
+            <a href="{{ post.url | relative_url }}" class="tutorial-thumb" aria-label="{{ post.title }}">
+              {% if post.image %}
+              <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
+              {% else %}
+              <span class="tutorial-thumb-fallback"><svg class="ui-icon ui-icon-lg"><use href="#ui-bulb"/></svg></span>
+              {% endif %}
+              <span class="tutorial-badge tutorial-badge-original">原創</span>
+            </a>
+            <div class="tutorial-body">
+              <div class="tutorial-meta">
+                {% if post.categories.size > 0 %}
+                <a class="tutorial-cat" href="{{ '/categories/' | append: post.categories.first | append: '/' | relative_url }}">{{ post.categories.first }}</a>
+                {% endif %}
+                <span class="tutorial-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+              </div>
+              <h5 class="tutorial-card-title">
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              </h5>
+              <p class="tutorial-desc">{{ post.description | default: post.excerpt | strip_html | truncate: 100 }}</p>
+            </div>
+          </article>
+          {% endfor %}
+
+          <!-- ② 轉載精選（_data/tutorials.yml，外部教學） -->
+          {% for t in curated %}
+          <article class="tutorial-card" data-source="curated" data-category="{{ t.category }}">
+            <a href="{{ t.url }}" target="_blank" rel="noopener nofollow" class="tutorial-thumb" aria-label="{{ t.title }}">
+              {% if t.image and t.image != "" %}
+              <img src="{{ t.image | relative_url }}" alt="{{ t.title }}" loading="lazy">
+              {% else %}
+              <span class="tutorial-thumb-fallback"><svg class="ui-icon ui-icon-lg"><use href="#ui-link"/></svg></span>
+              {% endif %}
+              <span class="tutorial-badge tutorial-badge-curated">轉載</span>
+            </a>
+            <div class="tutorial-body">
+              <div class="tutorial-meta">
+                {% if t.category %}<span class="tutorial-cat">{{ t.category }}</span>{% endif %}
+                <span class="tutorial-source">來源：<a href="{{ t.source_url | default: t.url }}" target="_blank" rel="noopener nofollow">{{ t.source_name | default: "外部" }}</a></span>
+              </div>
+              <h5 class="tutorial-card-title">
+                <a href="{{ t.url }}" target="_blank" rel="noopener nofollow">{{ t.title }}</a>
+              </h5>
+              <p class="tutorial-desc">{{ t.description }}</p>
+            </div>
+          </article>
+          {% endfor %}
+        </div>
+      </div>
+
+      <!-- 側邊欄 -->
+      <div class="col-lg-4">
+        {% include sidebar.html %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section py-5">
+  <div class="container">
+    <div class="cta-box text-center">
+      <h3 class="mb-2">想我實測某個工具或寫某個教學？</h3>
+      <p class="text-white-50 mb-4">透過 Facebook 專頁留言話我知，我會親身試完再寫。</p>
+      <a href="https://www.facebook.com/profile.php?id=1247126168485543" target="_blank" rel="noopener" class="btn btn-gold btn-lg">去專頁留言</a>
+    </div>
+  </div>
+</section>
+
+<script>
+// 教學專區：來源 filter
+document.addEventListener('DOMContentLoaded', function() {
+  const filterBtns = document.querySelectorAll('#tutorialFilter .news-filter-btn');
+  const cards = document.querySelectorAll('#tutorialGrid .tutorial-card');
+  filterBtns.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      const filter = this.dataset.filter;
+      filterBtns.forEach(function(b) { b.classList.remove('active'); });
+      this.classList.add('active');
+      cards.forEach(function(card) {
+        if (filter === 'all' || card.dataset.source === filter) {
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  });
+});
+</script>
