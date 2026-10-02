@@ -1,27 +1,27 @@
 ---
 layout: default
-title: 教學專區
-description: "AnIskill 教學專區：我哋親身試過嘅 AI 實戰教學，用廣東話一步一步寫返出嚟，有步驟、有圖、有踩過嘅坑。"
+title: 分享同埋心得專區
+description: "AnIskill 分享同埋心得專區：我哋親身試過嘅工具同心得，用廣東話一步一步寫返出嚟，有步驟、有圖、有踩過嘅坑。"
 permalink: /tutorials/
 ---
 
 {% assign tutorials = site.posts | where: "type", "tutorial" %}
 {% assign total = tutorials | size %}
 
-<!-- 教學專區 Hero -->
+<!-- 分享同埋心得專區 Hero -->
 <section class="tutorials-hero">
   <div class="container">
-    <p class="hero-kicker">tutorials</p>
-    <h1 class="tutorials-title">教學專區</h1>
-    <p class="tutorials-sub">唔係搬 link 就算 —— 我哋親身試完，再用自己嘅語言一步一步寫返出嚟，連踩過嘅坑都照講。</p>
+    <p class="hero-kicker">sharing</p>
+    <h1 class="tutorials-title">分享同埋心得專區</h1>
+    <p class="tutorials-sub">親身試過嘅工具、踩過嘅坑，用自己嘅語言一步一步寫返出嚟，同你分享。</p>
     <div class="tutorials-stats">
-      <span><svg class="ui-icon ui-icon-sm"><use href="#ui-bulb"/></svg><strong>{{ total }}</strong> 篇實戰教學</span>
-      <span><svg class="ui-icon ui-icon-sm"><use href="#ui-check"/></svg>全部親身試過</span>
+      <span><strong>{{ total }}</strong> 篇實戰教學</span>
+      <span>全部親身試過</span>
     </div>
   </div>
 </section>
 
-<!-- 教學卡（自動收集自家教學文） -->
+<!-- 分享卡（自動收集自家文章） -->
 <section class="py-3">
   <div class="container">
     {% if total > 0 %}
@@ -55,7 +55,7 @@ permalink: /tutorials/
       {% endfor %}
     </div>
     {% else %}
-    <p class="text-center text-muted py-5">教學陸續上線中，敬請期待。</p>
+    <p class="text-center text-muted py-5">內容陸續上線中，敬請期待。</p>
     {% endif %}
   </div>
 </section>
@@ -64,8 +64,8 @@ permalink: /tutorials/
 <section class="cta-section py-5">
   <div class="container">
     <div class="cta-box text-center">
-      <h3 class="mb-2">想我實測某個工具，或者寫某個教學？</h3>
-      <p class="text-white-50 mb-4">透過 Facebook 專頁留言話我知，我會親身試完再寫。</p>
+      <h3 class="mb-2">想我實測某個工具，或者分享某個心得？</h3>
+      <p class="text-white-50 mb-4">透過 Facebook 專頁留言話我知，我會親身試完再分享。</p>
       <a href="https://www.facebook.com/profile.php?id=1247126168485543" target="_blank" rel="noopener" class="btn btn-gold btn-lg">去專頁留言</a>
     </div>
   </div>
