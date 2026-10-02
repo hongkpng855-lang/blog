@@ -1,86 +1,64 @@
 ---
 layout: default
 title: 教學專區
-description: "AnIskill 教學專區：精選 AI 整 App、整工具、減 Token 嘅實戰教學，每篇都有步驟同圖，全部標明出處。由 IT 顧問 Eric Chan 主理。"
+description: "AnIskill 教學專區：我哋親身試過嘅 AI 實戰教學，用廣東話一步一步寫返出嚟，有步驟、有圖、有踩過嘅坑。"
 permalink: /tutorials/
 ---
 
-{% assign groups = site.data.tutorials %}
-{% assign total = 0 %}
-{% for g in groups %}{% assign total = total | plus: g.items.size %}{% endfor %}
+{% assign tutorials = site.posts | where: "type", "tutorial" %}
+{% assign total = tutorials | size %}
 
 <!-- 教學專區 Hero -->
 <section class="tutorials-hero">
   <div class="container">
     <p class="hero-kicker">tutorials</p>
     <h1 class="tutorials-title">教學專區</h1>
-    <p class="tutorials-sub">精選網上最實用嘅教學 —— 有步驟、有圖、跟住做就得。全部標明出處，親身篩選過先放上嚟。</p>
+    <p class="tutorials-sub">唔係搬 link 就算 —— 我哋親身試完，再用自己嘅語言一步一步寫返出嚟，連踩過嘅坑都照講。</p>
     <div class="tutorials-stats">
-      <span><svg class="ui-icon ui-icon-sm"><use href="#ui-bulb"/></svg><strong>{{ total }}</strong> 篇精選教學</span>
-      <span><svg class="ui-icon ui-icon-sm"><use href="#ui-grid"/></svg><strong>{{ groups.size }}</strong> 大主題</span>
+      <span><svg class="ui-icon ui-icon-sm"><use href="#ui-bulb"/></svg><strong>{{ total }}</strong> 篇實戰教學</span>
+      <span><svg class="ui-icon ui-icon-sm"><use href="#ui-check"/></svg>全部親身試過</span>
     </div>
   </div>
 </section>
 
-<!-- 主題快速跳轉 -->
+<!-- 教學卡（自動收集自家教學文） -->
 <section class="py-3">
   <div class="container">
-    <div class="tutorial-jump">
-      {% for g in groups %}
-      <a href="#{{ g.slug }}" class="tutorial-jump-link">
-        <span class="tutorial-jump-title">{{ g.group }}</span>
-        <span class="tutorial-jump-count">{{ g.items.size }} 篇</span>
-      </a>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
-<!-- 各主題分組 -->
-{% for g in groups %}
-<section class="tutorial-group py-3" id="{{ g.slug }}">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="tutorial-group-head">
-          <h2 class="tutorial-group-title">{{ g.group }}</h2>
-          <p class="tutorial-group-intro">{{ g.intro }}</p>
-        </div>
-      </div>
-    </div>
+    {% if total > 0 %}
     <div class="tutorial-grid">
-      {% for t in g.items %}
-      <article class="tutorial-card" data-category="{{ g.group }}">
-        <a href="{{ t.url }}" target="_blank" rel="noopener nofollow" class="tutorial-thumb" aria-label="{{ t.title }}">
-          {% if t.image and t.image != "" %}
-          <img src="{{ t.image | relative_url }}" alt="{{ t.title }}" loading="lazy">
+      {% for post in tutorials %}
+      <article class="tutorial-card">
+        <a href="{{ post.url | relative_url }}" class="tutorial-thumb" aria-label="{{ post.title }}">
+          {% if post.image and post.image != "" %}
+          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
           {% else %}
-          <span class="tutorial-thumb-fallback"><svg class="ui-icon ui-icon-lg"><use href="#ui-link"/></svg></span>
+          <span class="tutorial-thumb-fallback"><svg class="ui-icon ui-icon-lg"><use href="#ui-newspaper"/></svg></span>
           {% endif %}
-          <span class="tutorial-badge tutorial-badge-curated">精選</span>
-          {% if t.steps %}<span class="tutorial-steps">{{ t.steps }}</span>{% endif %}
+          <span class="tutorial-badge tutorial-badge-original">實戰教學</span>
         </a>
         <div class="tutorial-body">
           <div class="tutorial-meta">
-            <span class="tutorial-cat">{{ g.group }}</span>
-            <span class="tutorial-source">來源：<a href="{{ t.source_url | default: t.url }}" target="_blank" rel="noopener nofollow">{{ t.source_name | default: "外部" }}</a></span>
+            <span class="tutorial-cat">{% if post.categories.size > 0 %}{{ post.categories.first }}{% endif %}</span>
+            <span class="tutorial-date">{{ post.date | date: "%Y-%m-%d" }}</span>
           </div>
           <h5 class="tutorial-card-title">
-            <a href="{{ t.url }}" target="_blank" rel="noopener nofollow">{{ t.title }}</a>
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
           </h5>
-          <p class="tutorial-desc">{{ t.description }}</p>
-          {% if t.tags and t.tags.size > 0 %}
+          <p class="tutorial-desc">{{ post.description | default: post.excerpt | strip_html | truncate: 100 }}</p>
+          {% if post.tags.size > 0 %}
           <div class="tutorial-tags">
-            {% for tag in t.tags %}<span class="tutorial-tag">{{ tag }}</span>{% endfor %}
+            {% for tag in post.tags limit: 4 %}<span class="tutorial-tag">{{ tag }}</span>{% endfor %}
           </div>
           {% endif %}
         </div>
       </article>
       {% endfor %}
     </div>
+    {% else %}
+    <p class="text-center text-muted py-5">教學陸續上線中，敬請期待。</p>
+    {% endif %}
   </div>
 </section>
-{% endfor %}
 
 <!-- CTA -->
 <section class="cta-section py-5">
