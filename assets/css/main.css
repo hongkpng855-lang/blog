@@ -971,3 +971,83 @@ a.tutorial-cat:hover { color: var(--amber-light); }
   .tutorials-title { font-size: 1.8rem; }
   .tutorial-grid { grid-template-columns: 1fr; }
 }
+
+/* --- 教學專區：主題跳轉 + 分組 + 標籤 --- */
+.tutorial-jump {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+.tutorial-jump-link {
+  flex: 1 1 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  padding: 0.85rem 1.1rem;
+  background: var(--bg-elev);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius);
+  text-decoration: none;
+  transition: border-color 0.25s, transform 0.25s;
+}
+.tutorial-jump-link:hover {
+  border-color: var(--amber);
+  transform: translateY(-3px);
+}
+.tutorial-jump-title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.98rem;
+}
+.tutorial-jump-count {
+  color: var(--amber);
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+.tutorial-group {
+  scroll-margin-top: 70px;
+}
+.tutorial-group-head {
+  margin-bottom: 1.1rem;
+  padding-left: 0.9rem;
+  border-left: 3px solid var(--amber);
+}
+.tutorial-group-title {
+  color: #fff;
+  font-size: 1.45rem;
+  font-weight: 800;
+  margin-bottom: 0.35rem;
+}
+.tutorial-group-intro {
+  color: var(--muted);
+  font-size: 0.94rem;
+  margin-bottom: 0;
+}
+.tutorial-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.7rem;
+}
+.tutorial-tag {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--faint);
+  background: var(--bg-hover);
+  border: 1px solid var(--border-soft);
+  border-radius: 5px;
+  padding: 0.14rem 0.55rem;
+}
+.tutorial-steps {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  color: #fff;
+  background: rgba(20, 21, 24, 0.82);
+  border-radius: 5px;
+  padding: 0.16rem 0.55rem;
+}
